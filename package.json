@@ -1,0 +1,25 @@
+{
+  "name": "OEC",
+  "version": "1.0.0",
+  "description": "Old English Corpus",
+  "main": "Cases_Answers.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vklester/OEC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vklester/OEC/issues"
+  },
+  "homepage": "https://github.com/vklester/OEC#readme"
+}

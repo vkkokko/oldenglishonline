@@ -1,0 +1,350 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 60px;
+    min-height: 100%;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size:16px;
+}
+
+#header {
+    /*height:200px;*/
+    position:relative;
+}
+
+#head {
+    background: #444 center top url('images/vikings.png');
+}
+
+nav a {
+        text-decoration: none;
+        color:white;
+}
+
+#navline nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navelement {
+    display: inline-block;
+}
+
+.navelement > a,
+.navelement > span {
+    padding: 1em .66em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dark-opacity {
+    background-color:rgba(0,0,0, .5);
+}
+
+.currentpage {
+    color:rgb(223,115,90);
+}
+
+.navelement > a:hover,
+.navelement > span:hover,
+.navelement > a:active,
+.navelement > span:active,
+.navelement > a:focus,
+.navelement > span:focus {
+    color:rgb(223,115,90);
+}
+
+#navline {
+    font-size:18px;
+}
+
+.orange {
+    color:rgb(161,70,10);
+    font-size:18px;
+    font-weight:bold;
+}
+
+#blurb {
+    text-align: justify;
+}
+
+#blurb a {
+    text-decoration: none;
+    font-weight:bold;
+    color:black;
+}
+
+#blurb a:hover {
+    text-decoration: underline;
+
+}
+
+#mainwrapper {
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+#mainwrapper h1 {
+    text-align: center;
+}
+
+.about h3{
+    color:rgb(200,100,50);
+}
+
+.about a {
+    color:rgb(200,100,50);
+}
+
+#bottomabouts .about{
+    text-align: justify;
+}
+
+footer {
+    background-color:rgba(0,0,0,.85);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    color: white;
+    font-size:12px;
+    }
+
+#footercenter {
+    padding-top: 1.5em;
+}
+
+#header h1 {
+    color:white;
+    padding: 75px 0px 35px 0px;
+    font-size: 49px;
+    text-shadow: -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
+}
+
+#header h1 a {
+    text-decoration: none;
+    color:white;
+}
+
+@media screen and (max-width: 550px) {
+    #header h1 {
+        padding: 35px 0px 10px 0px;
+        font-size:30px;
+        text-shadow: -1px 0 0 #000000, 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
+    }
+}
+
+/* page index */
+#mainwrapper table {
+    border-collapse: collapse;
+    background:lightgrey;
+}
+
+#mainwrapper td {
+    padding:10px;
+}
+
+#mainwrapper table a {
+    color:rgb(161,70,10);
+}
+
+/* Text pages */
+.linkright {
+    float:right;
+}
+
+.resize-handle {
+    cursor: ns-resize;
+    border-top: #666 1px solid;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.resize-handle:hover {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+.resize-spacer {
+    height: 20px; 
+}
+
+.resize-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    height:100px;
+    min-height: 80px;
+    background-color: #FFF;
+}
+
+.footnotes {
+    overflow: scroll;
+    height: 100%;
+    padding-left:35px;
+    line-height:2;
+}
+
+#links {
+    padding-bottom:4em;
+    padding-top:1em;
+}
+
+#links a {
+    color:rgb(223,115,90);
+}
+
+.footanchor {
+    color:rgb(223,115,90);
+    font-weight: bold;
+}
+
+.spacer1 {
+    margin-top:20px;
+}
+
+.spacer2 {
+    margin-top:30px;
+}
+
+.transcription {
+    line-height: 1.6;
+}
+
+.imagecontainer {
+    background-color: #444;
+    padding: 15px;
+    color:white;
+    height:600px;
+}
+
+.belowimagecontainer {
+    background-color: #444;
+    color:white;
+    font-size:14px;
+    text-align:center;
+    padding-bottom:15px;
+}
+
+/*#test {
+    float:right;
+    font-size:18px;
+    padding-right:3px;
+}*/
+
+/* about pages */
+a.noadecoration {
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+a.noadecoration:hover {
+    text-decoration: none;
+    cursor:pointer;
+    color:black;
+    box-shadow: 0px 5px 5px #999;
+}
+
+/* Specific customisation for texts */
+#oft {
+font-weight: bold;
+}
+
+.facheader {
+    padding-bottom:1em;
+    text-align: center;
+}
+
+.transheader {
+    color:rgb(200,100,50);    
+    padding-bottom:1em;
+}
+
+.folio {
+    margin-left:20px;
+    color:rgb(200,100,50);
+}
+
+.col-sm-6 p {
+     margin-left:35px;
+}
+
+.panel-index>.panel-heading {
+    background-color:rgba(0,0,0,.85);
+    color:white;
+}
+
+hr.style { 
+  height: 30px;
+  width:65%;
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+#search-filter {
+    margin-bottom:1em;
+}
+
+/* Tabs styling */
+
+#grammar-table {
+    width:660px;
+    border-radius: 5px;
+    position: relative;
+    padding:0px 0px 10px 0px;
+}
+
+.nav>li.active>a, .nav>li.active>a:hover {
+    color:orange;
+    border-top: 2px solid black;
+    border-bottom: 1px solid white;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.nav-justified>li>a {
+    color:black;
+    border-top: 1px solid darkgray;
+    border-bottom: 2px solid black;
+    border-right: 1px solid darkgray;
+}
+
+.tab-pane {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* language pages */
+
+.answer {
+    color:darkgrey;
+    font-size:14px;
+}
+
+.grammar th {
+    text-align: center; 
+    width:653px;
+}

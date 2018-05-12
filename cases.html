@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="oeccss.css">
+    <title>Old English Online</title>
+</head>
+
+<body>
+    <div id="head">
+        <div class="container">
+            <div class="row" id="header">
+                <div class="col-xs-12">
+                    <h1><a href="index.html">Learning Old English Online</a></h1>
+                </div>
+            </div>
+
+        </div>
+        <div class="dark-opacity">
+            <div class="container">
+                <!--close div class row-->
+                <div class="row" id="navline">
+                    <div class="col-xs-12">
+                        <nav>
+                            <div class="navelement">
+                                <a href="index.html">Home</a>
+                            </div>
+
+                            <div class="navelement">
+                                <a href="template.html">Index</a>
+                            </div>
+                            <div class="navelement">
+                                <a href="template.html">Old English Language</a>
+                            </div>
+                            <!-- Nav wrapper end -->
+                        </nav>
+                        <!-- close nav-->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mainwrapper" class="container">
+        <div class="row">
+
+            <h1>Old English Cases</h1><br>
+            <p><span class="orange">O</span>ld English, much like German and Russian, is an inflected language, and as such
+                its nouns, pronouns, adjectives and determiners are declined depending on their grammatical function. A set
+                of declined forms of the same word pattern is called a declension and Old English nouns decline for case,
+                gender, strength, and number.
+                <br><br> Cases are changes in the form of a nouns and noun-like words which indicate the role of the word
+                in the sentence. Modern English has only two cases for nouns: a general and possessive, which is used to
+                indicate ownership. Consider: <i>The dog bone</i> vs <i>The dog's bone</i>.
+                <br><br> However, Old English has many more. There are five major cases: <strong>nominative</strong>, <strong>accusative</strong>,
+                <strong>dative</strong>, <strong>genitive</strong> and <strong>instrumental</strong>.
+                <br><br>
+            <p><strong>The nominative case</strong> indicates the subject of the sentence, for example: <i>Se cyning</i> means
+                'the king'. It was also used for direct address. Adjectives in the predicate (qualifying a noun on the other
+                side of 'to be') were also in the nominative.
+            </p>
+            <p><strong>The accusative case</strong> indicates the direct object of the sentence, for example: <i>Æþelbald lufode þone cyning</i>                
+                means "Æþelbald loved the king", where Æþelbald is the subject and the king is the object. Already the accusative
+                had begun to merge with the nominative; it was never distinguished in the plural, or in a neuter noun.
+            </p>
+            <p><strong>The genitive case</strong> indicates possession, for example: <i>þæs cyninges scip</i> is "the ship of
+                the king" or "the king's ship". It also indicates partitive nouns.
+            </p>
+            <p><strong>The dative case</strong> indicates the indirect object of the sentence; To whom or for whom the object
+                was meant. For example: hringas <i>þæm cyninge</i> means "rings for the king" or "rings to the king". Here,
+                the word cyning is in its dative form: cyninge. There were also several verbs that took direct objects in
+                the dative.
+            </p>
+            <p><strong>The instrumental case</strong> was somewhat rare and occurred only in the masculine and neuter singular.
+                It was often replaced by the dative. Adjectives, pronouns and (sometimes) participles agreed with their antecedent
+                nouns in case, number and gender. Finite verbs agreed with their subject in person and number.<br><br>
+            </p>
+            <div>
+            <table class="table-bordered table-striped grammar table-hide">
+                <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Strong Masculine Noun</strong></p>
+                <tr>
+                    <th></th>
+                    <th>&nbsp;Singular </th>
+                    <th>&nbsp;Plural </th>
+                    <th>&nbsp; Singular Ending &nbsp;</th>
+                    <th> &nbsp;Plural Ending&nbsp; </th>
+                </tr>
+                <tr>
+                    <td><strong>Nominative</strong></td>
+                    <td>Se cyning</td>
+                    <td>&thorn;a cyningas</td>
+                    <td>-</td>
+                    <td>-as</td>
+                </tr>
+                <tr>
+                    <td><strong>Genitive</strong></td>
+                    <td>&thorn;&aelig;s cyninges</td>
+                    <td>&thorn;ara cyninga</td>
+                    <td>-es</td>
+                    <td>-a</td>
+                </tr>
+            </table>
+            
+                <span class="btn btn-warning" id="hide-submit">Hide</span>
+            </div>
+            </p>
+        </div>
+
+       
+
+
+        <div class="row">
+
+            <div class="col-xs-12">
+                <h3> Test Yourself! </h3>
+                <p>Use the buttons below to insert thorn, ash and eth when you have a input selected.</p>
+                <form name="form1" autocomplete="OFF">
+                    <span class="btn btn-default special-character" data-char="&thorn;">&thorn;</span>
+                    <span class="btn btn-default special-character" data-char="&aelig;">&aelig;</span>
+                    <span class="btn btn-default special-character" data-char="&eth;">&eth;</span>
+                    <div class="form-group" id="question-wrapper">
+                        <div class="question-item">
+                            <div class="question" data-answer="&thorn;foo|cyning">
+                                1. Se (cyning) <input type="text" class="form-control" placeholder="answer" style="width:100px; display: inline-block;">                            ferþ to þæm beorgum - <i>The King goes to the mountains.</i>
+                            </div>
+                            <div class="answer hide">
+                                As <i>cyning</i> is the subject, it is in the nominative case meaning it takes no ending.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="btn btn-warning" id="submit">Check</span>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <!--close mainwrapper-->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="footercenter">
+                        This is generic footer text that will probably contain copyright or funding information or whatever...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--closing footer container-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $lastActive = $('.question input').first();
+
+        $(document).ready(function(){
+            var $questionWrapper=$("#question-wrapper"); //this explains to jquery what to look for in the HTML selectors
+            loadQuestions($questionWrapper);
+
+            $('.special-character').on('click', function(){
+                if($lastActive) {
+                    $lastActive
+                        .val( $lastActive.val() + $(this).attr('data-char') )
+                        .focus(); //this will give the focus back to the same element selected prior to the 'char' button press
+                }
+            });
+//marks which input field is the last selected before 'char' button press
+            $('.question input').on('focus', function(){
+                $lastActive = $(this);
+            });
+        });
+
+ $('#hide-submit').click(function(){
+            $('.table-hide').toggle(); //toggle is a jquery class to toggle the visibility of an element.
+            });
+
+        $('#submit').click(function(){
+            $('.question').each(function() {
+                var correctAnswerArray = $(this).attr('data-answer').split('|');
+                var userAnswer = $(this).find('input').val();
+
+                if (checkAnswer(correctAnswerArray, userAnswer)) { //Adds CSS to show green/red indicator
+                    $(this).closest('.form-group')
+                        .addClass('has-success')
+                        .removeClass('has-error');
+                } else {
+                    $(this).closest('.form-group')
+                        .removeClass('has-success')
+                        .addClass('has-error');
+                }
+
+                $(this).next('.answer')
+                    .removeClass('hide');
+
+            });
+        });
+
+        function loadQuestions($container) { //now container=questionWrapper (where the questions are stored on the page)
+            console.log('foo');
+            $.getJSON('/Cases_Answers.json')
+                //If the file is successfully loaded this method is called
+                .done(function(data){
+                    console.log(data);
+
+                    data.forEach(function(question,i) { //What follows is what creates the template for our questions.
+
+                        var questionItem = `<div class="question-item">
+                            <div class="question" data-answer="${question.answer}">
+                                ${i+1}. ${question.question}<input type="text" class="form-control" placeholder="answer" style="width:100px; display: inline-block;">
+                            </div>
+                            <div class="answer hide">
+                                ${question.explanation}
+                            </div>
+                        </div>`; //The backticks (`) allow for string literals (what's above this, basically multiple lines of texts). 
+
+                        $container.append(questionItem);
+
+                    });
+
+                    
+
+                    
+                })
+                //If the file is NOT successfully loaded this method is called
+                .fail(function(jqxhr, textStatus, error ) {
+                    console.log(textStatus, error);
+                });
+        }
+
+        function checkAnswer(answerArray, userAnswer) {
+            var wasUserCorrect = false;
+
+            answerArray.forEach(function(answer){
+                if (answer.toUpperCase() == userAnswer.toUpperCase()) {
+                    wasUserCorrect = true;
+                }
+            })
+
+            return wasUserCorrect;
+        }
+    </script>
+</body>
+
+</html>
