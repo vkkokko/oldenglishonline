@@ -70,19 +70,8 @@ nav a {
     font-weight:bold;
 }
 
-#blurb {
-    text-align: justify;
-}
-
-#blurb a {
-    text-decoration: none;
-    font-weight:bold;
-    color:black;
-}
-
-#blurb a:hover {
-    text-decoration: underline;
-
+.title {
+    color:rgb(200,100,50);
 }
 
 #mainwrapper {
@@ -92,18 +81,6 @@ nav a {
 
 #mainwrapper h1 {
     text-align: center;
-}
-
-.about h3{
-    color:rgb(200,100,50);
-}
-
-.about a {
-    color:rgb(200,100,50);
-}
-
-#bottomabouts .about{
-    text-align: justify;
 }
 
 footer {
@@ -147,9 +124,11 @@ footer {
     background:lightgrey;
 }
 
-#mainwrapper td {
+#mainwrapper td,
+#mainwrapper th {
     padding:10px;
 }
+
 
 #mainwrapper table a {
     color:rgb(161,70,10);
@@ -158,6 +137,12 @@ footer {
 /* Text pages */
 .linkright {
     float:right;
+    color:rgb(223,115,90);
+}
+
+.linkleft {
+    float:left;
+    color:rgb(223,115,90);
 }
 
 .resize-handle {
@@ -236,90 +221,19 @@ footer {
     padding-bottom:15px;
 }
 
-/*#test {
-    float:right;
-    font-size:18px;
-    padding-right:3px;
-}*/
-
-/* about pages */
-a.noadecoration {
-    display:block;
-    text-decoration: none;
-    color:black;
-}
-a.noadecoration:hover {
-    text-decoration: none;
-    cursor:pointer;
-    color:black;
-    box-shadow: 0px 5px 5px #999;
-}
-
-/* Specific customisation for texts */
-#oft {
-font-weight: bold;
-}
-
-.facheader {
-    padding-bottom:1em;
-    text-align: center;
-}
-
-.transheader {
-    color:rgb(200,100,50);    
-    padding-bottom:1em;
-}
-
-.folio {
-    margin-left:20px;
-    color:rgb(200,100,50);
-}
-
-.col-sm-6 p {
-     margin-left:35px;
-}
-
-.panel-index>.panel-heading {
-    background-color:rgba(0,0,0,.85);
-    color:white;
-}
-
-hr.style { 
-  height: 30px;
-  width:65%;
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 1px 0 0 0; 
-  border-radius: 20px; 
-} 
-hr.style:before { 
-  display: block; 
-  content: ""; 
-  height: 30px; 
-  margin-top: -31px; 
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 0 0 1px 0; 
-  border-radius: 20px; 
-}
-
-#search-filter {
-    margin-bottom:1em;
-}
-
 /* Tabs styling */
 
 #grammar-table {
-    width:660px;
+    width:730px;
     border-radius: 5px;
     position: relative;
-    padding:0px 0px 10px 0px;
+    padding:0px 0px 2px 0px;
 }
 
 .nav>li.active>a, .nav>li.active>a:hover {
-    color:orange;
+    color:rgb(200,100,50);
     border-top: 2px solid black;
-    border-bottom: 1px solid white;
+    border-bottom: none !important;
     border-right: 2px solid black;
     border-left: 2px solid black;
 }
@@ -329,6 +243,7 @@ hr.style:before {
     border-top: 1px solid darkgray;
     border-bottom: 2px solid black;
     border-right: 1px solid darkgray;
+    border-left: 1px solid darkgray;
 }
 
 .tab-pane {
@@ -345,6 +260,70 @@ hr.style:before {
 }
 
 .grammar th {
-    text-align: center; 
-    width:653px;
+    text-align: center;
+    width:20%;
+}
+
+.grammar {
+    width:100%;
+}
+
+.graphicorg {
+    display: block;
+    margin: 0 auto;
+}
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+.breadcrumb {
+    padding: 0px;
+    background-color: white;
+    margin-bottom:0px;
+    font-size:14px;
+}
+
+.breadcrumb a {
+    color:black;
+}
+
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+    content: none; } 
+.bc-icons-2 .breadcrumb-item.active {
+    color:rgb(200,100,50);
+ } 
+
+ /* Module Index*/
+ li.listtitle {
+    list-style-type: none;
+    color:rgb(200,100,50);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+ ul.module li {
+     color:black;
+     padding-top:5px;
+ }
+
+ ul.module a {
+     color:black;
+ }
+
+
+/* images on homepage page*/
+img.grayscale {
+    filter: gray;
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .8s ease-in-out;  
+}
+/*This black and white transition effect was gotten from https://codepen.io/jahid-webdev/pen/JRPvBj */
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
 }
