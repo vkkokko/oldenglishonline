@@ -428,7 +428,7 @@
         });
 
         function loadQuestionsInto($container) {                    //now container=questionWrapper (where the questions are stored on the page)
-            $.getJSON('/Cases_Answers.json?foo=' + Date.now())      //This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
+            $.getJSON('Cases_Answers.json?foo=' + Date.now())      //This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
                 
                 //If the file is successfully loaded this method is called
                 .done(function (data) {
