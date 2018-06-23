@@ -318,15 +318,15 @@
                     <i class="fa fa-angle-double-left" aria-hidden="true"></i> Return to Cases Overview
 
                 </a>
-                <a href="cases3.html" class="linkright">Nominative and Genitive Demonstratives
+                <a href="cases3.html" class="linkright">Continue to Nominative and Genitive Demonstratives
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </a>
             </div>
             </p>
 
             <br>
-            <hr class="style11">
-            <h2 align="center"> Test Yourself! </h2>
+            <hr class="border">
+            <h2> Test Yourself! </h2>
 
             <form name="form1" autocomplete="OFF">
                 <p>
@@ -366,40 +366,44 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script type="text/javascript">
-        $lastActive = $('.question input').first();
-
-        $(document).ready(function () {
-            let $questionWrapper = $("#question-wrapper"); //this explains to jquery what to look for in the HTML selectors
-            loadQuestions($questionWrapper);
-
-            $('.special-character').on('click', function () {
-                if ($lastActive) {
-                    $lastActive
-                        .val($lastActive.val() + $(this).attr('data-char'))
-                        .focus(); //this will give the focus back to the same element selected prior to the 'char' button press
-                }
-            });
-            //marks which input field is the last selected before 'char' button press
-            $('.question input').on('focus', function () {
-                $lastActive = $(this);
-            });
+        let $lastActive;
+    
+    $(document).ready(function () {
+        let $questionWrapper = $("#question-wrapper"); 				// This variable explains to jquery what to look for 
+                                                                    // in the HTML selectors. i.e our question wrapper
+              
+         loadQuestionsInto($questionWrapper);			   			// This loads the question from the JSON file (called elsewhere), 
+                                                                    // into our wrapper.
+         $('.special-character').on('click', function () {
+             if ($lastActive) { 						   			// This Boolean checks to see if the last active input 
+                $lastActive											// was from .question-item (thus making it our user input). 
+                                                                    // If it is, this becomes a 'truth' variable meaning it executes.
+                    .val($lastActive.val() + $(this).attr('data-char'))
+                    .focus();			   							// This is a predefined jquery command which gives the focus back  
+                                                                    // to the same element selected prior to the 'on click command'. 
+            }  														// in this case, the 'char' button press.
         });
+                                            
+          $questionWrapper.on('focus', '.question-item input', function () {
+            $lastActive = $(this);									// This marks which input is the last selected before 'char' click
+        });
+    });
 
         $('#hide-submit').click(function () {
-            $('.table-hide').toggle(); //toggle is a jquery class to toggle the visibility of an element.
+            $('.table-hide').toggle();                              //toggle is a jquery class to toggle the visibility of an element.
             $(this).find('span').toggleClass('hide');
         });
 
-//code for the check button
+        //code for the check button
         $('#submit').click(function () {
             $(this).addClass("hidden");
             $('#again').removeClass("hidden");
-            
+
             $('.question').each(function () {
                 let correctAnswerArray = $(this).attr('data-answer').split('|');
                 let userAnswer = $(this).find('input').val();
 
-                if (checkAnswer(correctAnswerArray, userAnswer)) { //Adds CSS to show green/red indicator
+                if (checkAnswer(correctAnswerArray, userAnswer)) {  //Adds CSS to show green/red indicator
                     $(this).closest('.form-group')
                         .addClass('has-success')
                         .removeClass('has-error');
@@ -415,22 +419,23 @@
             });
         });
 
-//code for Try Again? button
-        $('#again').click(function() {
+        //code for Try Again? button
+        $('#again').click(function () {
             $(this).addClass("hidden");
             $('#submit').removeClass("hidden");
 
-            loadQuestions($("#question-wrapper"));            
+            loadQuestionsInto($("#question-wrapper"));
         });
 
-        function loadQuestions($container) { //now container=questionWrapper (where the questions are stored on the page)
-            $.getJSON('/Cases_Answers.json?foo='+Date.now()) //This is a slight modification to cause 'cache-busting'. Basically, it will append number to the url to prevent the browser caching this file.
+        function loadQuestionsInto($container) {                    //now container=questionWrapper (where the questions are stored on the page)
+            $.getJSON('/Cases_Answers.json?foo=' + Date.now())      //This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
+                
                 //If the file is successfully loaded this method is called
                 .done(function (data) {
                     $container.empty();
                     selectedQuestionsArray = [];
-                    for (let i=0; i<5; i++) {
-                        let question=data.splice(Math.random()*data.length|0,1);
+                    for (let i = 0; i < 5; i++) {
+                        let question = data.splice(Math.random() * data.length | 0, 1);
                         selectedQuestionsArray.push(question[0]);
                     }
 
@@ -450,7 +455,7 @@
                         <div class="answer hide">
                             ${question.explanation}
                         </div>
-                    </div>`; //The backticks (`) allow for string literals (what's above this, basically multiple lines of texts). 
+                    </div>`; //The backticks (`) allow for 'template literals'. These are string templates which allow embedded expressions. 
 
                         $container.append(questionItem);
 

@@ -47,10 +47,6 @@ nav a {
     background-color:rgba(0,0,0, .5);
 }
 
-.currentpage {
-    color:rgb(223,115,90);
-}
-
 .navelement > a:hover,
 .navelement > span:hover,
 .navelement > a:active,
@@ -77,6 +73,10 @@ nav a {
 #mainwrapper {
     margin: 0 auto;
     padding-top: 2em;
+}
+
+#mainwrapper a:hover {
+    color:rgb(161,70,10);
 }
 
 #mainwrapper h1 {
@@ -137,88 +137,12 @@ footer {
 /* Text pages */
 .linkright {
     float:right;
-    color:rgb(223,115,90);
+    color:rgb(200,100,50);
 }
 
 .linkleft {
     float:left;
-    color:rgb(223,115,90);
-}
-
-.resize-handle {
-    cursor: ns-resize;
-    border-top: #666 1px solid;
-    height: 10px;
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.resize-handle:hover {
-    background-color: rgba(255, 0, 0, .3);
-}
-
-.resize-spacer {
-    height: 20px; 
-}
-
-.resize-wrapper {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    height:100px;
-    min-height: 80px;
-    background-color: #FFF;
-}
-
-.footnotes {
-    overflow: scroll;
-    height: 100%;
-    padding-left:35px;
-    line-height:2;
-}
-
-#links {
-    padding-bottom:4em;
-    padding-top:1em;
-}
-
-#links a {
-    color:rgb(223,115,90);
-}
-
-.footanchor {
-    color:rgb(223,115,90);
-    font-weight: bold;
-}
-
-.spacer1 {
-    margin-top:20px;
-}
-
-.spacer2 {
-    margin-top:30px;
-}
-
-.transcription {
-    line-height: 1.6;
-}
-
-.imagecontainer {
-    background-color: #444;
-    padding: 15px;
-    color:white;
-    height:600px;
-}
-
-.belowimagecontainer {
-    background-color: #444;
-    color:white;
-    font-size:14px;
-    text-align:center;
-    padding-bottom:15px;
+    color:rgb(200,100,50);
 }
 
 /* Tabs styling */
@@ -273,7 +197,7 @@ footer {
     margin: 0 auto;
 }
 
-hr.style11 {
+hr.border {
 	height: 6px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
@@ -326,4 +250,15 @@ img.grayscale {
 img.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0);
+}
+
+.minitext {
+    font-size:13px;
+}
+
+.user-input {
+    width:95px;
+    text-align:center;
+    display:inline;
+    border-width:2px;
 }

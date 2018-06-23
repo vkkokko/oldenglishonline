@@ -1,35 +1,115 @@
 [
     {
-        "question": "Þæs (Biscop) ______ stan",
-        "answer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive",
+        "question": "Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
         "commonMistakes": [
             {
-                "answer": "Wrong Answer 1",
+                "badAnswer": "Wrong Answer 1",
                 "explanation": "Here's why it's wrong."
             }
         ]
     },
     {
-        "question": "The Cyning Ferth Thaem Beorgum",
-        "answer": "sfasfasfsa",
+        "question": "The (cyning) #### Ferth Thaem Beorgum",
+        "correctAnswer": "cyning|kyning",
         "explanation":"asfasf",        
         "commonMistakes": [
             {
-                "answer": "Wrong Answer 2",
+                "badanswer": "Wrong Answer 2",
                 "explanation": "Here's why it's wrong."
             }
         ]
     },
     {
-        "question": "Seo Cwene Ferth Thaem Beorgum",
-        "answer": "sfasfasfsa",
+        "question": "3. Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong."
+            }
+        ]
+    },
+    {
+        "question": "4. Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong."
+            }
+        ]
+    },
+    {
+        "question": "5. Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong."
+            }
+        ]
+    },
+    {
+        "question": "6. Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong."
+            }
+        ]
+    },
+    {
+        "question": "7. Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong."
+            }
+        ]
+    },
+    {
+        "question": "8. Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong."
+            }
+        ]
+    },
+    {
+        "question": "9. Þæs (Biscop) #### stan",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong."
+            }
+        ]
+    },
+    {
+        "question": "10. Seo (Cwene) #### Ferth Thaem Beorgum",
+        "correctAnswer": "sfasfasfsa",
         "explanation":"asfasf",        
         "commonMistakes": [
             {
-                "answer": "Wrong Answer 3",
+                "badanswer": "Wrong Answer 3",
                 "explanation": "Here's why it's wrong."
             }
         ]
     }
 ]
+
+
+
