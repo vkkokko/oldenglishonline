@@ -1,111 +1,166 @@
 [
     {
-        "question": "Þæs (Biscop) #### stan",
-        "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "question": "Þæs (<i>biscop</i>) #### stan   —  The bishop’s stone",
+        "correctAnswer": "biscopes",
+        "explanation":"Here 'biscop' is in the singular genitive so it takes the 'es' ending",
         "commonMistakes": [
             {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "badAnswer": "biscopa",
+                "explanation": "While 'biscop' is in the genitive, it is the singular 'biscopes' Biscopa' is the genitive plural"
             }
         ]
     },
     {
-        "question": "The (cyning) #### Ferth Thaem Beorgum",
-        "correctAnswer": "cyning|kyning",
-        "explanation":"asfasf",        
+        "question": "Se (<i>þegen</i>) #### ond þa biscops  —  The thane and the bishops",
+        "correctAnswer": "þegen",
+        "explanation":"Here 'þegen' is the subject so it takes the nominative case",        
         "commonMistakes": [
             {
                 "badanswer": "Wrong Answer 2",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "3. Þæs (Biscop) #### stan",
-        "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "question": "Þæs cyninges (<i>þegen</i>) ####   —  The king’s thanes",
+        "correctAnswer": "þegnas",
+        "explanation":"Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
+        "commonMistakes": [
+            {
+                "badAnswer": "þegen",
+                "explanation": "While not apparant in the Old English, þegen is clearly plural in the modern English trans, and so takes the 'as' ending of the nominative plural"
+            }
+        ]
+    },
+    {
+        "question": "Þa (<i>cyning</i>) #### ond þa biscopas  —  The kings and the bishops",
+        "correctAnswer": "cyningas",
+        "explanation":"Here 'cyning' is the subject and plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "cyning",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þara (<i>biscop</i>) #### preostas   —  The bishops’ priests",
+        "correctAnswer": "biscopa",
+        "explanation":"Here 'biscop' is in the possessive plural, since there are multiple priests belong to multiple bishops, so it takes the 'a' ending of the genitive plural",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "4. Þæs (Biscop) #### stan",
-        "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "question": "In Þæs (<i>cyning</i>) #### tune   —  In the town of the king",
+        "correctAnswer": "cyninges",
+        "explanation":"Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "5. Þæs (Biscop) #### stan",
-        "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "question": "Þa Þegnas þara (<i>cyning) #### Ælfred and Æþelred  —  The thanes of the Kings' Alfred and Ethelred",
+        "correctAnswer": "cyninga",
+        "explanation":"Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "6. Þæs (Biscop) #### stan",
-        "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "question": "Se (<i>biscop</i>) #### fram þæm tune —  The bishop from the town",
+        "correctAnswer": "biscop",
+        "explanation":"Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "7. Þæs (Biscop) #### stan",
-        "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "question": "Þa Þegenas ond se (<i>cyning</i>) #### —  The thane and the king",
+        "correctAnswer": "cyning",
+        "explanation":"Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "8. Þæs (Biscop) #### stan",
-        "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "question": "Fram þæs (<i>þegen</i>) #### tune   —  From the thane’s town",
+        "correctAnswer": "þegnes",
+        "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "9. Þæs (Biscop) #### stan",
+        "question": "Se cyning ond þa (<i>biscop</i>) #### —  The king and the bishops",
         "correctAnswer": "biscopas",
-        "explanation":"Here 'biscop' is in the genitive so it takes the 'as' ending",
+        "explanation":"Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     },
     {
-        "question": "10. Seo (Cwene) #### Ferth Thaem Beorgum",
-        "correctAnswer": "sfasfasfsa",
-        "explanation":"asfasf",        
+        "question": "Þara (<i>þegen</i>) #### menn  —  The thane’s men",
+        "correctAnswer": "þegnes",
+        "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Menn fram Þara (<i>þegen</i>) #### tunum — Men from the towns of the thanes",
+        "correctAnswer": "þegna",
+        "explanation":"Here 'þegen' is in the possessive plural as the men are from towns belonging to the thanes, so it takes the 'es' ending of the genitive plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þa (<i>stan</i>) #### Þæs þegenes tune  —  The stones from the thane’s town",
+        "correctAnswer": "stanas",
+        "explanation":"Here 'stan' is subject and is plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Se (<i>stan</i>) #### ond se þegen   —  The stone and the thane",
+        "correctAnswer": "stan",
+        "explanation":"Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",        
         "commonMistakes": [
             {
                 "badanswer": "Wrong Answer 3",
-                "explanation": "Here's why it's wrong."
+                "explanation": "Here's why it's wrong"
             }
         ]
     }

@@ -67,11 +67,11 @@
                     <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                 </li>
                 <li class="breadcrumb-item">
-                    <a class="black-text" href="cases3.html">Demonstratives </a>
+                    <a class="black-text" href="cases4.html"> Acc and Dat Strong Masc Nouns </a>
                     <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                 </li>
                 <li class="breadcrumb-item">
-                    <a class="black-text" href="cases4.html"> Acc and Dat Strong Masc Nouns </a>
+                    <a class="black-text" href="cases3.html">Demonstratives </a>
                     <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                 </li>
                 <li class="breadcrumb-item">
@@ -318,7 +318,7 @@
                     <i class="fa fa-angle-double-left" aria-hidden="true"></i> Return to Cases Overview
 
                 </a>
-                <a href="cases3.html" class="linkright">Continue to Nominative and Genitive Demonstratives
+                <a href="cases3.html" class="linkright">Continue to Acc and Dat Strong Masc Nouns 
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </a>
             </div>
@@ -370,14 +370,14 @@
     
     $(document).ready(function () {
         let $questionWrapper = $("#question-wrapper"); 				// This variable explains to jquery what to look for 
-                                                                    // in the HTML selectors. i.e our question wrapper
+                                                                    // in the HTML selectors. i.e. our question wrapper
               
          loadQuestionsInto($questionWrapper);			   			// This loads the question from the JSON file (called elsewhere), 
                                                                     // into our wrapper.
          $('.special-character').on('click', function () {
              if ($lastActive) { 						   			// This Boolean checks to see if the last active input 
                 $lastActive											// was from .question-item (thus making it our user input). 
-                                                                    // If it is, this becomes a 'truth' variable meaning it executes.
+                                                                    // If it is, this becomes a 'truthy' variable meaning it executes.
                     .val($lastActive.val() + $(this).attr('data-char'))
                     .focus();			   							// This is a predefined jquery command which gives the focus back  
                                                                     // to the same element selected prior to the 'on click command'. 
@@ -390,7 +390,7 @@
     });
 
         $('#hide-submit').click(function () {
-            $('.table-hide').toggle();                              //toggle is a jquery class to toggle the visibility of an element.
+            $('.table-hide').toggle();                              // This adds a jquery class to 'toggle' the visibility of an element.
             $(this).find('span').toggleClass('hide');
         });
 
@@ -403,7 +403,7 @@
                 let correctAnswerArray = $(this).attr('data-answer').split('|');
                 let userAnswer = $(this).find('input').val();
 
-                if (checkAnswer(correctAnswerArray, userAnswer)) {  //Adds CSS to show green/red indicator
+                if (checkAnswer(correctAnswerArray, userAnswer)) {  //Adds CSS to show green/red indicator around the input box.
                     $(this).closest('.form-group')
                         .addClass('has-success')
                         .removeClass('has-error');
@@ -419,7 +419,7 @@
             });
         });
 
-        //code for Try Again? button
+        // The below code is for the Try Again? button
         $('#again').click(function () {
             $(this).addClass("hidden");
             $('#submit').removeClass("hidden");
@@ -427,8 +427,8 @@
             loadQuestionsInto($("#question-wrapper"));
         });
 
-        function loadQuestionsInto($container) {                    //now container=questionWrapper (where the questions are stored on the page)
-            $.getJSON('Cases_Answers.json?foo=' + Date.now())      //This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
+        function loadQuestionsInto($container) {                    // Now container=questionWrapper (where the questions are stored on the page)
+            $.getJSON('Cases_Answers.json?foo=' + Date.now())      // This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
                 
                 //If the file is successfully loaded this method is called
                 .done(function (data) {
@@ -441,7 +441,7 @@
 
                     selectedQuestionsArray.forEach(function (question, i) { //What follows is what creates the template for our questions.
                         let questionSplit = question.question.split('####');
-                        // this splits a string at the #### delimiter and allows the input field to be placed in the middle of the sentence
+                        // This splits a string at the #### delimiter and allows the input field to be placed in the middle of the sentence
 
                         let questionLine = '';
                         questionLine += `<span class="question-line">${questionSplit[0]}</span>`;
@@ -460,10 +460,6 @@
                         $container.append(questionItem);
 
                     });
-
-
-
-
                 })
                 //If the file is NOT successfully loaded this method is called to aid my debugging
                 .fail(function (jqxhr, textStatus, error) {
