@@ -1,0 +1,332 @@
+[
+    {
+        "question": "Þæs (<i>biscop</i>) #### stan   —  The bishop’s stone",
+        "correctAnswer": "biscopes",
+        "explanation": "Here 'biscop' is in the singular genitive so it takes the 'es' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "biscopa",
+                "explanation": "While 'biscop' is in the genitive, it is the singular 'biscopes' Biscopa' is the genitive plural"
+            }
+        ]
+    },
+    {
+        "question": "Se (<i>þegen</i>) #### ond þa biscops  —  The thane and the bishops",
+        "correctAnswer": "þegen",
+        "explanation": "Here 'þegen' is the subject so it takes the nominative case",
+        "commonMistakes": [
+            {
+                "badanswer": "Wrong Answer 2",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þæs cyninges (<i>þegen</i>) ####   —  The king’s thanes",
+        "correctAnswer": "þegnas",
+        "explanation": "Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
+        "commonMistakes": [
+            {
+                "badAnswer": "þegen",
+                "explanation": "While not apparant in the Old English, þegen is clearly plural in the modern English trans, and so takes the 'as' ending of the nominative plural"
+            }
+        ]
+    },
+    {
+        "question": "Þa (<i>cyning</i>) #### ond þa biscopas  —  The kings and the bishops",
+        "correctAnswer": "cyningas",
+        "explanation": "Here 'cyning' is the subject and plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "cyning",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þara (<i>biscop</i>) #### preostas   —  The bishops’ priests",
+        "correctAnswer": "biscopa",
+        "explanation": "Here 'biscop' is in the possessive plural, since there are multiple priests belong to multiple bishops, so it takes the 'a' ending of the genitive plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "In Þæs (<i>cyning</i>) #### tune   —  In the town of the king",
+        "correctAnswer": "cyninges",
+        "explanation": "Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þa Þegnas þara (<i>cyning</i>) #### Ælfred and Æþelred  —  The thanes of the Kings' Alfred and Ethelred",
+        "correctAnswer": "cyninga",
+        "explanation": "Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Se (<i>biscop</i>) #### fram þæm tune —  The bishop from the town",
+        "correctAnswer": "biscop",
+        "explanation": "Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þa Þegenas ond se (<i>cyning</i>) #### —  The thane and the king",
+        "correctAnswer": "cyning",
+        "explanation": "Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Fram þæs (<i>þegen</i>) #### tune   —  From the thane’s town",
+        "correctAnswer": "þegnes",
+        "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Se cyning ond þa (<i>biscop</i>) #### —  The king and the bishops",
+        "correctAnswer": "biscopas",
+        "explanation": "Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þara (<i>þegen</i>) #### menn  —  The thane’s men",
+        "correctAnswer": "þegnes",
+        "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Menn fram Þara (<i>þegen</i>) #### tunum — Men from the towns of the thanes",
+        "correctAnswer": "þegna",
+        "explanation": "Here 'þegen' is in the possessive plural as the men are from towns belonging to the thanes, so it takes the 'es' ending of the genitive plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Þa (<i>stan</i>) #### Þæs þegenes tune  —  The stones from the thane’s town",
+        "correctAnswer": "stanas",
+        "explanation": "Here 'stan' is subject and is plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": [
+            {
+                "badAnswer": "Wrong Answer 1",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+    {
+        "question": "Se (<i>stan</i>) #### ond se þegen   —  The stone and the thane",
+        "correctAnswer": "stan",
+        "explanation": "Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",
+        "commonMistakes": [
+            {
+                "badanswer": "Wrong Answer 3",
+                "explanation": "Here's why it's wrong"
+            }
+        ]
+    },
+        {
+            "question": "Se biscop grete þone (<i>cyning</i>) #### — The bishop greets the king",
+            "correctAnswer": "cyning",
+            "explanation": "Here 'cyning' is directly receiving the action of the verb 'grete', so is in the singular accusative and thus takes no new ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "FILLER",
+                    "explanation": "1"
+                }
+            ]
+        },
+        {
+            "question": "þa biscopas geaf þone (<i>stan</i>) #### to þaem þegne — The bishops gave the stone to the thane",
+            "correctAnswer": "stan",
+            "explanation": "Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",
+            "commonMistakes": [
+                {
+                    "badanswer": "Wrong Answer 2",
+                    "explanation": "2"
+                }
+            ]
+        },
+        {
+            "question": "Se þegen sloh þone (<i>biscop</i>) #### in tæm tune — the thane slew the bishop in the town",
+            "correctAnswer": "biscop",
+            "explanation": "Here 'biscop' is directly receiving the action of the verb 'sloh', so is in the singular accusative and thus takes no new ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "FILLER",
+                    "explanation": "3"
+                }
+            ]
+        },
+        {
+            "question": "Se cyning ond seo cwen grete þa (<i>biscop</i>) #### — The king and the queen greet the bishops",
+            "correctAnswer": "biscopas",
+            "explanation": "Here 'biscop' is directly receiving the action of the verb 'grete' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "FILLER",
+                    "explanation": "4"
+                }
+            ]
+        },
+        {
+            "question": "Se cyning sloh þa (<i>þegen</i>) #### — The king slew the thanes",
+            "correctAnswer": "þegnas",
+            "explanation": "Here 'þegen' is directly receiving the action of the verb 'sloh' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "5"
+                }
+            ]
+        },
+        {
+            "question": "Se þegen geaf þa (<i>gar</i>) #### to þaem cyninge — The thane gives the spears to the king",
+            "correctAnswer": "garas",
+            "explanation": "Here 'gar' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "6"
+                }
+            ]
+        },
+        {
+            "question": "To þæm biscop geaf se cyning þa (<i>beag</i>) #### — The king gave rings to the bishop",
+            "correctAnswer": "beagas",
+            "explanation": "Here 'beag' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "7"
+                }
+            ]
+        },
+        {
+            "question": "To þæm (<i>cyning</i>) #### se biscop geaf beag — To the king, the bishop gives a ring",
+            "correctAnswer": "cyninge",
+            "explanation": "Here 'cyning' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending.",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "8"
+                }
+            ]
+        },
+        {
+            "question": "Se þegen ferþ to þæm (<i>biscop</i>) #### mid wordum fram þæm cyning — The thane goes to the bishop with words from the king",
+            "correctAnswer": "biscope",
+            "explanation": "Here 'biscop' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "9"
+                }
+            ]
+        },
+        {
+            "question": "Se biscop ferde fram þæm (<i>þegen</i>) #### to þæm cyning — The bishop went from the thane to the king",
+            "correctAnswer": "þegne",
+            "explanation": "Here 'þegen' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "10"
+                }
+            ]
+        },
+        {
+            "question": "On þis daeg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town his brother",
+            "correctAnswer": "tune",
+            "explanation": "Here 'tun' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "11"
+                }
+            ]
+        },
+        {
+            "question": "Se cyning ferþ to þæm (<i>beorg</i>) #### — The king goes to the mountains",
+            "correctAnswer": "beorgum",
+            "explanation": "Here 'beorg' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "12"
+                }
+            ]
+        },
+        {
+            "question": "Wærferhþ biscop ferde to þæm (<i>biscop</i>) #### in Lundene ond Wiltunscire — Bishop Warfehth went to the bishops of London and Wiltshire",
+            "correctAnswer": "biscopum",
+            "explanation": "Here 'biscop' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "13"
+                }
+            ]
+        },
+        {
+            "question": "Se geaf þa garas to þæm (<i>þegen</i>) #### — He gave the spears to the thanes",
+            "correctAnswer": "þegnum",
+            "explanation": "Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending",
+            "commonMistakes": [
+                {
+                    "badAnswer": "Wrong Answer 1",
+                    "explanation": "14"
+                }
+            ]
+        },
+        {
+            "question": "þa biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+            "correctAnswer": "tunum",
+            "explanation": "Here 'tun' is not directly receiving the action of the verb 'came', so it is in the singular dative and thus takes the 'e' ending",
+            "commonMistakes": [
+                {
+                    "badanswer": "Wrong Answer 3",
+                    "explanation": "15"
+                }
+            ]
+        }
+    ]

@@ -66,7 +66,7 @@
         ]
     },
     {
-        "question": "Þa Þegnas þara (<i>cyning) #### Ælfred and Æþelred  —  The thanes of the Kings' Alfred and Ethelred",
+        "question": "Þa Þegnas þara (<i>cyning</i>) #### Ælfred and Æþelred  —  The thanes of the Kings' Alfred and Ethelred",
         "correctAnswer": "cyninga",
         "explanation":"Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
         "commonMistakes": [
