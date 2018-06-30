@@ -4,14 +4,12 @@ html {
 
 body {
     position: relative;
-    padding-bottom: 60px;
     min-height: 100%;
     font-family: Georgia, Times, Times New Roman, serif;
     font-size:16px;
 }
 
 #header {
-    /*height:200px;*/
     position:relative;
 }
 
@@ -73,6 +71,7 @@ nav a {
 #mainwrapper {
     margin: 0 auto;
     padding-top: 2em;
+    padding-bottom:6em;
 }
 
 #mainwrapper a:hover {
@@ -81,21 +80,21 @@ nav a {
 
 #mainwrapper h1 {
     text-align: center;
-}
+} 
 
 footer {
     background-color:rgba(0,0,0,.85);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top: 1.5em;
     color: white;
-    font-size:12px;
+    font-size:13px;
+    text-align: center;
     }
 
-#footercenter {
-    padding-top: 1.5em;
+.test a {
+    color:rgb(200,100,50);
 }
 
 #header h1 {
