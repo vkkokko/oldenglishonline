@@ -88,7 +88,7 @@
         ]
     },
     {
-        "question": "Þa Þegenas ond se (<i>cyning</i>) #### —  The thane and the king",
+        "question": "Þa Þegenas ond se (<i>cyning</i>) #### —  The thanes and the king",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": [
