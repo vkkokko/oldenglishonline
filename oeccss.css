@@ -97,6 +97,13 @@ footer {
     color:rgb(200,100,50);
 }
 
+.test2 {
+    text-align:center;
+}
+.test2 a {
+    color:rgb(200,100,50);
+}
+
 #header h1 {
     color:white;
     padding: 75px 0px 35px 0px;
