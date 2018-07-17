@@ -249,7 +249,7 @@
                                         <strong>Nominative</strong>
                                     </td>
                                     <td>Se þegen</td>
-                                    <td>&thorn;a þegenas</td>
+                                    <td>&thorn;a þegnas</td>
                                     <td>-</td>
                                     <td>-as</td>
                                 </tr>
@@ -257,7 +257,7 @@
                                     <td>
                                         <strong>Genitive</strong>
                                     </td>
-                                    <td>&thorn;&aelig;s þegenes</td>
+                                    <td>&thorn;&aelig;s þegnes</td>
                                     <td>&thorn;ara þegena</td>
                                     <td>-es</td>
                                     <td>-a</td>
@@ -382,12 +382,12 @@
             loadQuestionsInto($questionWrapper);			   			// This loads the question from the JSON file (called elsewhere), 
             // into our wrapper.
             $('.special-character').on('click', function () {
-                if ($lastActive) { 						   			// This Boolean checks to see if the last active input 
+                if ($lastActive) { 						   			    // This Boolean checks to see if the last active input 
                     $lastActive											// was from .question-item (thus making it our user input). 
                         // If it is, this becomes a 'truthy' variable meaning it executes.
                         .val($lastActive.val() + $(this).attr('data-char'))
                         .focus();			   							// This is a predefined jquery command which gives the focus back  
-                    // to the same element selected prior to the 'on click command'. 
+                                                                        // to the same element selected prior to the 'on click command'. 
                 }  														// in this case, the 'char' button press.
             });
 
