@@ -110,7 +110,7 @@
         ]
     },
     {
-        "question": "On þis daeg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town his brother",
+        "question": "On þis daeg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town with his brother",
         "correctAnswer": "tune",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": [
