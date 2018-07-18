@@ -123,7 +123,7 @@
     {
         "question": "Se cyning ferþ to þæm (<i>beorg</i>) #### — The king goes to the mountains",
         "correctAnswer": "beorgum",
-        "explanation":"Here 'beorg' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",
+        "explanation":"Here 'beorg' is not directly receiving the action of the verb 'ferþ', so it is in the plural dative and thus takes the 'e' ending",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
@@ -134,7 +134,7 @@
     {
         "question": "Wærferhþ biscop ferde to þæm (<i>biscop</i>) #### in Lundene ond Wiltunscire — Bishop Warfehth went to the bishops of London and Wiltshire",
         "correctAnswer": "biscopum",
-        "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
+        "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferde', so it is in the plural dative and thus takes the 'e' ending",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
@@ -145,7 +145,7 @@
     {
         "question": "Se geaf þa garas to þæm (<i>þegen</i>) #### — He gave the spears to the thanes",
         "correctAnswer": "þegnum",
-        "explanation":"Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending",
+        "explanation":"Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the plural dative and thus takes the 'e' ending",
         "commonMistakes": [
             {
                 "badAnswer": "Wrong Answer 1",
@@ -156,7 +156,7 @@
     {
         "question": "þa biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
-        "explanation":"Here 'tun' is not directly receiving the action of the verb 'came', so it is in the singular dative and thus takes the 'e' ending",        
+        "explanation":"Here 'tun' is not directly receiving the action of the verb 'came', so it is in the plural dative and thus takes the 'e' ending",        
         "commonMistakes": [
             {
                 "badanswer": "Wrong Answer 3",
