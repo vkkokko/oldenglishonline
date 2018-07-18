@@ -13,7 +13,7 @@
     {
         "question": "Se (<i>þegen</i>) #### ond þa biscops  —  The thane and the bishops",
         "correctAnswer": "þegen",
-        "explanation":"Here 'þegen' is the subject so it takes the nominative case",        
+        "explanation":"Here 'þegen' is the subject so it takes the nominative singular case",        
         "commonMistakes": [
             {
                 "badanswer": "Wrong Answer 2",
@@ -121,7 +121,7 @@
         ]
     },
     {
-        "question": "Þara (<i>þegen</i>) #### menn  —  The thane’s men",
+        "question": "þæs (<i>þegen</i>) #### menn  —  The thane’s men",
         "correctAnswer": "þegnes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": [
