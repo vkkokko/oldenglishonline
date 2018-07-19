@@ -156,7 +156,7 @@
     {
         "question": "þa biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
-        "explanation":"Here 'tun' is not directly receiving the action of the verb 'came', so it is in the plural dative and thus takes the 'e' ending",        
+        "explanation":"Here 'tun' is not directly receiving the action of the verb 'came', so it is in the plural dative and thus takes the 'um' ending",        
         "commonMistakes": [
             {
                 "badanswer": "Wrong Answer 3",
