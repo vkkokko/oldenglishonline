@@ -11,7 +11,7 @@
         ]
     },
     {
-        "question": "Se (<i>þegen</i>) #### ond þa biscops  —  The thane and the bishops",
+        "question": "Se (<i>þegen</i>) #### ond þa biscopas  —  The thane and the bishops",
         "correctAnswer": "þegen",
         "explanation":"Here 'þegen' is the subject so it takes the nominative singular case",        
         "commonMistakes": [
