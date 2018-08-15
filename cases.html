@@ -4,12 +4,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="oeccss.css">
+    <link rel="stylesheet" type="text/css" href="css/oeccss.css">
     <title>Old English Online</title>
 </head>
 
@@ -87,8 +86,8 @@
                 <h3>Introduction to Old English Cases</h3>
             </p>
             <p>
-                <span class="orange">I</span>n modern English, word order is largely what determines the meaning of a word. Modern English word order generally follows
-                the pattern: subject, verb, object. For example, in
+                <span class="orange">I</span>n modern English, word order is largely what determines the meaning of a word. Modern English word
+                order generally follows the pattern: subject, verb, object. For example, in
                 <i>'dog bites man'</i>, dog is the
                 <strong>subject</strong> (what is performing the action); bites is the
                 <strong>verb</strong> (the action); and man is the
@@ -96,8 +95,8 @@
                 <i>man bites dog</i>, the meaning of the sentence changes. This is not strictly true for Old English.
             </p>
             <p>
-                Old English is an inflected language. What this means is
-                that the endings of nouns, pronouns, and adjectives change depending on their grammatical function. How a word changes or
+                Old English is an inflected language. What this means is that the endings of nouns, pronouns, and adjectives change depending
+                on their grammatical function. How a word changes or
                 <i>declines</i> depends on its
                 <strong>number</strong>, whether it is singular or plural; its grammatical
                 <strong>gender</strong>; and its grammatical
@@ -131,7 +130,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <p>Project created in fulfillment of the requirements for an MA in Digital Arts and Humanities</p>
-                    <p>© 2018 — Victoria Koivisto-Kokko — University College Cork</p>
+                    <p>&copy; 2018 — Victoria Koivisto-Kokko — University College Cork</p>
                 </div>
                 <div class="col-xs-6 test">
                     <p>Have questions or feedback? Email
@@ -148,99 +147,10 @@
         </div>
     </footer>
     <!--closing footer container-->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!--The JavaScript-->
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $lastActive = $('.question input').first();
-
-        $(document).ready(function () {
-            var $questionWrapper = $("#question-wrapper"); //this explains to jquery what to look for in the HTML selectors
-            loadQuestions($questionWrapper);
-
-            $('.special-character').on('click', function () {
-                if ($lastActive) {
-                    $lastActive
-                        .val($lastActive.val() + $(this).attr('data-char'))
-                        .focus(); //this will give the focus back to the same element selected prior to the 'char' button press
-                }
-            });
-            //marks which input field is the last selected before 'char' button press
-            $('.question input').on('focus', function () {
-                $lastActive = $(this);
-            });
-        });
-
-        $('#hide-submit').click(function () {
-            $('.table-hide').toggle(); //toggle is a jquery class to toggle the visibility of an element.
-            $(this).find('span').toggleClass('hide');
-        });
-
-        $('#submit').click(function () {
-            $('.question').each(function () {
-                var correctAnswerArray = $(this).attr('data-answer').split('|');
-                var userAnswer = $(this).find('input').val();
-
-                if (checkAnswer(correctAnswerArray, userAnswer)) { //Adds CSS to show green/red indicator
-                    $(this).closest('.form-group')
-                        .addClass('has-success')
-                        .removeClass('has-error');
-                } else {
-                    $(this).closest('.form-group')
-                        .removeClass('has-success')
-                        .addClass('has-error');
-                }
-
-                $(this).next('.answer')
-                    .removeClass('hide');
-
-            });
-        });
-
-        function loadQuestions($container) { //now container=questionWrapper (where the questions are stored on the page)
-            console.log('foo');
-            $.getJSON('/Cases_Answers.json')
-                //If the file is successfully loaded this method is called
-                .done(function (data) {
-                    console.log(data);
-
-                    data.forEach(function (question, i) { //What follows is what creates the template for our questions.
-
-                        var questionItem = `<div class="question-item">
-                            <div class="question" data-answer="${question.answer}">
-                                ${i + 1}. ${question.question}<input type="text" class="form-control" placeholder="answer" style="width:100px; display: inline-block;">
-                            </div>
-                            <div class="answer hide">
-                                ${question.explanation}
-                            </div>
-                        </div>`; //The backticks (`) allow for string literals (what's above this, basically multiple lines of texts). 
-
-                        $container.append(questionItem);
-
-                    });
-
-
-
-
-                })
-                //If the file is NOT successfully loaded this method is called
-                .fail(function (jqxhr, textStatus, error) {
-                    console.log(textStatus, error);
-                });
-        }
-
-        function checkAnswer(answerArray, userAnswer) {
-            var wasUserCorrect = false;
-
-            answerArray.forEach(function (answer) {
-                if (answer.toUpperCase() == userAnswer.toUpperCase()) {
-                    wasUserCorrect = true;
-                }
-            })
-
-            return wasUserCorrect;
-        }
-    </script>
 </body>
 
 </html>

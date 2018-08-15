@@ -14,7 +14,7 @@ body {
 }
 
 #head {
-    background: #444 center top url('images/vikings.png');
+    background: #444 center top url('../images/vikings.png');
 }
 
 nav a {
@@ -78,7 +78,7 @@ nav a {
     color:rgb(161,70,10);
 }
 
-#mainwrapper h1 {
+#mainwrapper h1, td {
     text-align: center;
 } 
 
@@ -124,6 +124,10 @@ footer {
     }
 }
 
+.shortdesc {
+font-size: 14px;
+}
+
 /* page index */
 #mainwrapper table {
     border-collapse: collapse;
@@ -149,6 +153,10 @@ footer {
 
 .linkleft {
     float:left;
+    color:rgb(200,100,50);
+}
+
+.linkcentre {
     color:rgb(200,100,50);
 }
 
@@ -188,6 +196,14 @@ footer {
 .answer {
     color:darkgrey;
     font-size:14px;
+}
+
+.has-success .answer:before {
+    content:"Correct: ";
+}
+
+.has-error .answer:before {
+    content:"Incorrect: ";
 }
 
 .grammar th {
@@ -262,7 +278,7 @@ img.grayscale:hover {
 }
 
 .minitext {
-    font-size:13px;
+    font-size:12px;
 }
 
 .user-input {
@@ -270,4 +286,9 @@ img.grayscale:hover {
     text-align:center;
     display:inline;
     border-width:2px;
+}
+
+.btn-default
+{
+    border-color:orange;
 }

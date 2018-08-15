@@ -4,12 +4,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="oeccss.css">
+    <link rel="stylesheet" type="text/css" href="css/oeccss.css">
     <title>Old English Online</title>
 </head>
 
@@ -81,8 +80,8 @@
             </div>
             <!--Close Breadcrumb-->
             <p>
-                    <h3>Accusative and Dative Strong Masculine Nouns</h3>
-                </p>
+                <h3>Accusative and Dative Strong Masculine Nouns</h3>
+            </p>
             <p>
                 <span class="orange">A</span> verb is a word used to describe an action or a state, and a verb which acts upon something is a
                 transitive verb. For example, in
@@ -312,7 +311,9 @@
         </p>
         <hr class="border">
         <h2> Test Yourself! </h2>
-
+        <div class="shortdesc">
+            <p>In the textboxes below, fill out the fully declined version of the word in brackets.</p>
+        </div>
         <form name="form1" autocomplete="OFF">
             <p>
                 <span class="btn btn-default special-character" data-char="&thorn;">&thorn;</span>
@@ -320,7 +321,7 @@
                 <span class="btn btn-default special-character" data-char="&eth;">&eth;</span>
                 <span class="minitext">Use these buttons to insert thorn, ash and eth when you have an input selected.</span>
             </p>
-            <div id="question-wrapper">
+            <div id="question-wrapper" data-question-file="cases3_answers.json">
 
             </div>
 
@@ -337,7 +338,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <p>Project created in fulfillment of the requirements for an MA in Digital Arts and Humanities</p>
-                    <p>© 2018 — Victoria Koivisto-Kokko — University College Cork</p>
+                    <p>&copy; 2018 — Victoria Koivisto-Kokko — University College Cork</p>
                 </div>
                 <div class="col-xs-6 test">
                     <p>Have questions or feedback? Email
@@ -355,123 +356,10 @@
         </div>
     </footer>
     <!--The JavaScript-->
-    <script src="jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        let $lastActive;
-
-        $(document).ready(function () {
-            let $questionWrapper = $("#question-wrapper"); 				// This variable explains to jquery what to look for 
-            // in the HTML selectors. i.e. our question wrapper
-
-            loadQuestionsInto($questionWrapper);			   			// This loads the question from the JSON file (called elsewhere), 
-            // into our wrapper.
-            $('.special-character').on('click', function () {
-                if ($lastActive) { 						   			// This Boolean checks to see if the last active input 
-                    $lastActive											// was from .question-item (thus making it our user input). 
-                        // If it is, this becomes a 'truthy' variable meaning it executes.
-                        .val($lastActive.val() + $(this).attr('data-char'))
-                        .focus();			   							// This is a predefined jquery command which gives the focus back  
-                    // to the same element selected prior to the 'on click command'. 
-                }  														// in this case, the 'char' button press.
-            });
-
-            $questionWrapper.on('focus', '.question-item input', function () {
-                $lastActive = $(this);									// This marks which input is the last selected before 'char' click
-            });
-        });
-
-        $('#hide-submit').click(function () {
-            $('.table-hide').toggle();                              // This adds a jquery class to 'toggle' the visibility of an element.
-            $(this).find('span').toggleClass('hide');
-        });
-
-        //code for the check button
-        $('#submit').click(function () {
-            $(this).addClass("hidden");
-            $('#again').removeClass("hidden");
-
-            $('.question').each(function () {
-                let correctAnswerArray = $(this).attr('data-answer').split('|');
-                let userAnswer = $(this).find('input').val();
-
-                if (checkAnswer(correctAnswerArray, userAnswer)) {  //Adds CSS to show green/red indicator around the input box.
-                    $(this).closest('.form-group')
-                        .addClass('has-success')
-                        .removeClass('has-error');
-                } else {
-                    $(this).closest('.form-group')
-                        .removeClass('has-success')
-                        .addClass('has-error');
-                }
-
-                $(this).next('.answer')
-                    .removeClass('hide');
-
-            });
-        });
-
-        // The below code is for the Try Again? button
-        $('#again').click(function () {
-            $(this).addClass("hidden");
-            $('#submit').removeClass("hidden");
-
-            loadQuestionsInto($("#question-wrapper"));
-        });
-
-        function loadQuestionsInto($container) {                    // Now container=questionWrapper (where the questions are stored on the page)
-            $.getJSON('Cases_Answers3.json?foo=' + Date.now())      // This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
-
-                //If the file is successfully loaded this method is called
-                .done(function (data) {
-                    $container.empty();
-                    selectedQuestionsArray = [];
-                    for (let i = 0; i < 5; i++) {
-                        let question = data.splice(Math.random() * data.length | 0, 1);
-                        selectedQuestionsArray.push(question[0]);
-                    }
-
-                    selectedQuestionsArray.forEach(function (question, i) { //What follows is what creates the template for our questions.
-                        let questionSplit = question.question.split('####');
-                        // This splits a string at the #### delimiter and allows the input field to be placed in the middle of the sentence
-
-                        let questionLine = '';
-                        questionLine += `<span class="question-line">${questionSplit[0]}</span>`;
-                        questionLine += `<input type="text" class="user-input form-control" placeholder="answer">`;
-                        questionLine += `<span class="question-line">${questionSplit[1]}</span>`;
-
-                        let questionItem = `<div class="question-item form-group">
-                        <div class="question" data-answer="${question.correctAnswer}">
-                            ${questionLine}
-                        </div>
-                        <div class="answer hide">
-                            ${question.explanation}
-                        </div>
-                    </div>`; //The backticks (`) allow for 'template literals'. These are string templates which allow embedded expressions. 
-
-                        $container.append(questionItem);
-
-                    });
-                })
-                //If the file is NOT successfully loaded this method is called to aid my debugging
-                .fail(function (jqxhr, textStatus, error) {
-                    console.log(textStatus, error);
-                });
-        }
-
-        function checkAnswer(answerArray, userAnswer) {
-            let wasUserCorrect = false;
-
-            answerArray.forEach(function (answer) {
-                if (answer.toUpperCase() == userAnswer.toUpperCase()) {
-                    wasUserCorrect = true;
-                }
-            })
-
-            return wasUserCorrect;
-        }
-    </script>
+    <script type="text/javascript" src="js/app.js"></script>     
 </body>
 
 </html>
