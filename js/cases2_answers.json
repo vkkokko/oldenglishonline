@@ -16,7 +16,7 @@
         "explanation":"Here 'þegen' is the subject so it takes the nominative singular case",        
         "commonMistakes": [
             {
-                "badanswer": "Wrong Answer 2",
+                "badAnswer": "Wrong Answer 2",
                 "explanation": "Here's why it's wrong"
             }
         ]

@@ -26,16 +26,29 @@ $('#hide-submit').click(function () {
     $(this).find('span').toggleClass('hide');
 });
 
-//code for the check button
+//The code for the Check button
 $('#submit').click(function () {
     $(this).addClass("hidden");
     $('#again').removeClass("hidden");
 
     $('.question').each(function () {
         let correctAnswerArray = $(this).attr('data-answer').split('|');
-        let userAnswer = $(this).find('input').val();
+        let userAnswer = $(this).find('input').val().trim(); //.trim removes whitespace before and after text so it doesn't flag a false negative because of spaces
 
-        if (checkAnswer(correctAnswerArray, userAnswer)) {  //Adds CSS to show green/red indicator around the input box.
+        let wasCorrect = checkAnswer(correctAnswerArray, userAnswer);
+        let $commonMistake = null;
+
+        if (!wasCorrect){
+            $(this).siblings('.common-mistakes').find('.answer').each(function(){
+                let isMatch = checkAnswer([$(this).attr('data-answer')], userAnswer);
+
+                if (isMatch) {
+                    $commonMistake = $(this);
+                }
+            })
+        }
+
+        if (wasCorrect) {  //Adds CSS to show green/red indicator around the input box.
             $(this).closest('.form-group')
                 .addClass('has-success')
                 .removeClass('has-error');
@@ -45,9 +58,15 @@ $('#submit').click(function () {
                 .addClass('has-error');
         }
 
-        $(this).next('.answer')
-            .removeClass('hide');
-
+        if ($commonMistake != null) {
+            $commonMistake
+                .removeClass('hide')
+                .parent()
+                .removeClass('hide');
+        } else {
+            $(this).siblings('.answer')
+                .removeClass('hide');
+        }
     });
 });
 
@@ -77,16 +96,18 @@ function loadQuestionsInto($container) {                    // Now container=que
                 let questionSplit = question.question.split('####');
                 // This splits a string at the #### delimiter and allows the input field to be placed in the middle of the sentence
 
-                let questionLine = '';
-                questionLine += `<span class="question-line">${questionSplit[0]}</span>`;
-                questionLine += `<input type="text" class="user-input form-control" placeholder="answer">`;
-                questionLine += `<span class="question-line">${questionSplit[1]}</span>`;
+                let questionLine = `<span class="question-line">${questionSplit[0]}</span>
+                                    <input type="text" class="user-input form-control" placeholder="answer">
+                                    <span class="question-line">${questionSplit[1]}</span>`;
 
                 let questionItem = `<div class="question-item form-group">
                         <div class="question" data-answer="${question.correctAnswer}">
                             ${questionLine}
                         </div>
-                        <div class="answer hide">
+                        <div class="common-mistakes hide">
+                            ${createCommonMistakesHtml(question.commonMistakes)}
+                        </div>
+                        <div class="answer generic hide">
                             ${question.explanation}
                         </div>
                     </div>`; //The backticks (`) allow for 'template literals'. These are string templates which allow embedded expressions. 
@@ -101,6 +122,17 @@ function loadQuestionsInto($container) {                    // Now container=que
         });
 }
 
+//This function generated the HTML for the mistake feedback
+function createCommonMistakesHtml(mistakesArray){
+    let output='';
+    mistakesArray.forEach(function(mistake){
+        output+=`<div class="answer hide" data-answer="${mistake.badAnswer}">${mistake.explanation}</div>`;
+    });
+    return output;
+}
+
+
+//This function checks if the answer is correct
 function checkAnswer(answerArray, userAnswer) {
     let wasUserCorrect = false;
 
