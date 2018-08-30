@@ -18,7 +18,7 @@
     },
     {
         "question": "Þæs cyninges (<i>þegen</i>) ####   —  The king’s thanes",
-        "correctAnswer": "þegnas",
+        "correctAnswer": "þegnas|þegenas",
         "explanation": "Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
         "commonMistakes": [
             {
@@ -65,7 +65,7 @@
     },
     {
         "question": "Fram þæs (<i>þegen</i>) #### tune   —  From the thane’s town",
-        "correctAnswer": "þegnes",
+        "correctAnswer": "þegnes|þegenes",
         "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
     },
@@ -77,7 +77,7 @@
     },
     {
         "question": "Þara (<i>þegen</i>) #### menn  —  The thane’s men",
-        "correctAnswer": "þegnes",
+        "correctAnswer": "þegnes|þegenes",
         "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
     },
@@ -125,7 +125,7 @@
         },
         {
             "question": "Se cyning sloh þa (<i>þegen</i>) #### — The king slew the thanes",
-            "correctAnswer": "þegnas",
+            "correctAnswer": "þegnas|þegenas",
             "explanation": "Here 'þegen' is directly receiving the action of the verb 'sloh' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
             "commonMistakes": []
         },
@@ -155,7 +155,7 @@
         },
         {
             "question": "Se biscop ferde fram þæm (<i>þegen</i>) #### to þæm cyning — The bishop went from the thane to the king",
-            "correctAnswer": "þegne",
+            "correctAnswer": "þegne|þegene",
             "explanation": "Here 'þegen' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
             "commonMistakes": []
         },
@@ -179,7 +179,7 @@
         },
         {
             "question": "Se geaf þa garas to þæm (<i>þegen</i>) #### — He gave the spears to the thanes",
-            "correctAnswer": "þegnum",
+            "correctAnswer": "þegnum|þegenum",
             "explanation": "Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending",
             "commonMistakes": []
         },
