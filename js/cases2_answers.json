@@ -14,12 +14,7 @@
         "question": "Se (<i>þegen</i>) #### ond þa biscopas  —  The thane and the bishops",
         "correctAnswer": "þegen",
         "explanation":"Here 'þegen' is the subject so it takes the nominative singular case",        
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 2",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Þæs cyninges (<i>þegen</i>) ####   —  The king’s thanes",
@@ -39,7 +34,7 @@
         "commonMistakes": [
             {
                 "badAnswer": "cyning",
-                "explanation": "Here's why it's wrong"
+                "explanation": "'Cyning' is the singular form of the word while the above word is plural. This means the correct answer is 'cyningas'. If you're not sure whether a word is plural or singular, check the demonstrative pronoun."
             }
         ]
     },
@@ -49,8 +44,8 @@
         "explanation":"Here 'biscop' is in the possessive plural, since there are multiple priests belong to multiple bishops, so it takes the 'a' ending of the genitive plural",
         "commonMistakes": [
             {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
+                "badAnswer": "biscopas",
+                "explanation": "Biscopas is the nominative or accusative plural. The genitive plural ends in 'a', so the correct answer is 'biscopa'."
             }
         ]
     },
@@ -58,111 +53,61 @@
         "question": "In Þæs (<i>cyning</i>) #### tune   —  In the town of the king",
         "correctAnswer": "cyninges",
         "explanation":"Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Þa Þegnas þara (<i>cyning</i>) #### Ælfred and Æþelred  —  The thanes of the Kings' Alfred and Ethelred",
         "correctAnswer": "cyninga",
         "explanation":"Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Se (<i>biscop</i>) #### fram þæm tune —  The bishop from the town",
         "correctAnswer": "biscop",
         "explanation":"Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Þa Þegnas ond se (<i>cyning</i>) #### —  The thanes and the king",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Fram þæs (<i>þegen</i>) #### tune   —  From the thane’s town",
         "correctAnswer": "þegnes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Se cyning ond þa (<i>biscop</i>) #### —  The king and the bishops",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "þæs (<i>þegen</i>) #### menn  —  The thane’s men",
         "correctAnswer": "þegnes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Menn fram Þara (<i>þegen</i>) #### tunum — Men from the towns of the thanes",
         "correctAnswer": "þegna",
         "explanation":"Here 'þegen' is in the possessive plural as the men are from towns belonging to the thanes, so it takes the 'es' ending of the genitive plural",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Þa (<i>stan</i>) #### Þæs þegnes tune  —  The stones from the thane’s town",
         "correctAnswer": "stanas",
         "explanation":"Here 'stan' is subject and is plural so it takes the 'as' ending of the nominative plural",
-        "commonMistakes": [
-            {
-                "badAnswer": "Wrong Answer 1",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Se (<i>stan</i>) #### ond se þegen   —  The stone and the thane",
         "correctAnswer": "stan",
         "explanation":"Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",        
-        "commonMistakes": [
-            {
-                "badanswer": "Wrong Answer 3",
-                "explanation": "Here's why it's wrong"
-            }
-        ]
+        "commonMistakes": []
     }
 ]
 
