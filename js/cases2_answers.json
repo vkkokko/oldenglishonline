@@ -18,7 +18,7 @@
     },
     {
         "question": "Þæs cyninges (<i>þegen</i>) ####   —  The king’s thanes",
-        "correctAnswer": "þegnas",
+        "correctAnswer": "þegnas|þegenas",
         "explanation":"Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
         "commonMistakes": [
             {
@@ -75,7 +75,7 @@
     },
     {
         "question": "Fram þæs (<i>þegen</i>) #### tune   —  From the thane’s town",
-        "correctAnswer": "þegnes",
+        "correctAnswer": "þegnes|þegenes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
     },
@@ -87,13 +87,13 @@
     },
     {
         "question": "þæs (<i>þegen</i>) #### menn  —  The thane’s men",
-        "correctAnswer": "þegnes",
+        "correctAnswer": "þegnes|þegenes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
     },
     {
         "question": "Menn fram Þara (<i>þegen</i>) #### tunum — Men from the towns of the thanes",
-        "correctAnswer": "þegna",
+        "correctAnswer": "þegna|þegena",
         "explanation":"Here 'þegen' is in the possessive plural as the men are from towns belonging to the thanes, so it takes the 'es' ending of the genitive plural",
         "commonMistakes": []
     },
