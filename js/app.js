@@ -26,6 +26,12 @@ $('#hide-submit').click(function () {
     $(this).find('span').toggleClass('hide');
 });
 
+//For the tooltip
+$('.tooltip-header').click(function () {
+    $('.tooltip-hide').toggleClass('hide');                              // This adds a jquery class to 'toggle' the visibility of an element.
+});
+
+
 //The code for the Check button
 $('#submit').click(function () {
     $(this).addClass("hidden");

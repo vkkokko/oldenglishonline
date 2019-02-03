@@ -1,3 +1,4 @@
+/* Fundamental Page Element Styles */
 html {
     height: 100%;
 }
@@ -6,27 +7,172 @@ body {
     position: relative;
     min-height: 100%;
     font-family: Georgia, Times, Times New Roman, serif;
-    font-size:16px;
+    font-size:18px;
+    background-color:#fbfbfb;
+    line-height:1.6;
 }
 
-#header {
+body p {
+    font-family:Arial,x-locale-body,sans-serif;
+}
+
+header {
     position:relative;
-}
-
-#head {
     background: #444 center top url('../images/vikings.png');
+    overflow:hidden;
 }
 
-nav a {
-        text-decoration: none;
-        color:white;
+footer {
+    background-color:rgba(0,0,0,.85);
+    position:absolute;
+    bottom:0;
+    margin-left:0 !important;
+    margin-right:0 !important;
+    width:100%;
+    padding: 1.5em 0;
+    color: white;
+    font-size:14px;
+    text-align: center;
+    }
+
+footer a,
+footer a:visited,
+main li > a
+ {
+    color:rgb(200,100,50);
 }
+
+main a:hover,
+footer a:hover,
+main li a:hover
+{
+    color:rgb(161,70,10);
+}
+
+abbr {
+    font-style:italic;
+    font-weight:bold;
+    font-variant: none;
+    text-decoration:dotted;
+    }
+
+/* Colours */
+
+.black-text {
+    color:black;
+}
+
+.white-text {
+    color:white;
+}
+
+.darkgrey-bg {
+    background-color:#444;
+}
+
+.darkorange-text {
+        color:rgb(161,70,10);
+}
+
+.lightorange-text {
+    color:rgb(200,100,50);
+}
+.red-text {
+    color:rgb(255, 49, 49);
+}
+
+.green-text {
+    color:lime;
+}
+
+.yellow-text {
+    color:yellow;
+}
+
+.blue-text {
+    color:cyan;
+}
+
+.dark-opacity {
+    background-color:rgba(0,0,0, .5);
+}
+
+/* Generic Styles */
+
+.strong {
+    font-size:18px;
+    font-weight:bold;
+}
+
+.big-text {
+    font-size:3em;
+}
+
+.medium-text {
+    font-size:2.5em;
+}
+
+.initial-letter {
+    font-size:1.2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.georgia {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.text-align-center {
+    text-align:center;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+.border-bottom {
+    border-bottom: 2px solid
+}
+
+.float-right {
+    float:right;
+}
+
+.float-left {
+    float:left;
+}
+
+.padding-bottom {
+    padding-bottom:1em;
+}
+
+.padding-left {
+    padding-left:1em;
+}
+
+.padding-top {
+    padding-top:1em;
+}
+
+.remove-margin {
+    margin:0;
+}
+
+/* Navigation */
 
 #navline nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-size:18px;
 }
 
 .navelement {
@@ -35,14 +181,11 @@ nav a {
 
 .navelement > a,
 .navelement > span {
-    padding: 1em .66em;
+    padding: .66em;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
-}
-
-.dark-opacity {
-    background-color:rgba(0,0,0, .5);
+    color:white;
 }
 
 .navelement > a:hover,
@@ -50,89 +193,109 @@ nav a {
 .navelement > a:active,
 .navelement > span:active,
 .navelement > a:focus,
-.navelement > span:focus {
+.navelement > span:focus
+ {
     color:rgb(223,115,90);
 }
 
-#navline {
-    font-size:18px;
+/* buttons */
+
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 5px;
+    border-style:none;
 }
 
-.orange {
-    color:rgb(161,70,10);
-    font-size:18px;
-    font-weight:bold;
+.light-button {
+    border: 1px solid rgb(200,100,50);
+    background-color:#fbfbfb;
 }
 
-.title {
-    color:rgb(200,100,50);
+.light-button:hover {
+    background-color:rgb(200,100,50)
 }
 
+.solid-button
+{
+    background-color:rgb(200,100,50);
+    color:white;
+}
+
+/* Specific Components */
+
+/* Grammar Graphic Box */
+
+.grammar-box {
+    text-align:center;
+    font-family:arial;
+    padding: .5em 2em;
+    display:inline-block;
+    margin-bottom:15px;
+    }
+
+
+/* Hideable Grammar Tooltip */
+/*
+.card-header {
+    background-color:rgb(200,100,50);
+    text-align:left;
+    color:white;
+    border-radius:5px;
+    padding:0 .75em;
+} 
+
+.card-link,
+.card-link:hover {
+    background-color:rgb(200,100,50);
+    text-align:left;
+    color:white;
+}
+
+    .card-body {
+        padding:.25em .5em;
+        font-size:.85em;
+    }
+
+/* main wrapper */
 #mainwrapper {
-    margin: 0 auto;
     padding-top: 2em;
     padding-bottom:6em;
 }
 
-#mainwrapper a:hover {
-    color:rgb(161,70,10);
-}
 
 #mainwrapper h1, td {
     text-align: center;
-} 
-
-footer {
-    background-color:rgba(0,0,0,.85);
-    position:absolute;
-    bottom:0;
-    width:100%;
-    padding-top: 1.5em;
-    color: white;
-    font-size:13px;
-    text-align: center;
-    }
-
-.test a {
-    color:rgb(200,100,50);
 }
 
-.test2 {
-    text-align:center;
-}
-.test2 a {
-    color:rgb(200,100,50);
-}
-
-#header h1 {
+header h1,
+header h1 a,
+header h1 a:hover {
     color:white;
-    padding: 75px 0px 35px 0px;
-    font-size: 49px;
+    margin-left:1.5em;
+    padding: 1.25em 0;
+    font-size: 1.6em;
+    text-decoration: none;
     text-shadow: -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
 }
 
-#header h1 a {
-    text-decoration: none;
-    color:white;
-}
-
-@media screen and (max-width: 550px) {
-    #header h1 {
-        padding: 35px 0px 10px 0px;
-        font-size:30px;
-        text-shadow: -1px 0 0 #000000, 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
-    }
-}
-
-.shortdesc {
-font-size: 14px;
-}
-
-/* page index */
+/* Specific Styles for tables */
 #mainwrapper table {
     border-collapse: collapse;
     background:lightgrey;
-
 }
 
 #mainwrapper td,
@@ -140,24 +303,13 @@ font-size: 14px;
     padding:10px;
 }
 
-
 #mainwrapper table a {
     color:rgb(161,70,10);
 }
 
-/* Text pages */
-.linkright {
-    float:right;
-    color:rgb(200,100,50);
-}
-
-.linkleft {
-    float:left;
-    color:rgb(200,100,50);
-}
-
-.linkcentre {
-    color:rgb(200,100,50);
+/*This is for the non toggleable table */
+.grammar {
+    display:inline-block;
 }
 
 /* Tabs styling */
@@ -167,6 +319,8 @@ font-size: 14px;
     border-radius: 5px;
     position: relative;
     padding:0px 0px 2px 0px;
+    line-height:1em;
+    font-size:16px;
 }
 
 .nav>li.active>a, .nav>li.active>a:hover {
@@ -194,7 +348,7 @@ font-size: 14px;
 /* language pages */
 
 .answer {
-    color:darkgrey;
+    color:#444;
     font-size:14px;
 }
 
@@ -211,30 +365,21 @@ font-size: 14px;
     width:20%;
 }
 
-.grammar {
-    width:100%;
-}
-
-.graphicorg {
-    display: block;
-    margin: 0 auto;
+.small-grammar-table {
+    display:inline-block;
 }
 
 hr.border {
 	height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+	background: url('../images/hr-11.png') repeat-x 0 0;
     border: 0;
 }
 
 .breadcrumb {
     padding: 0px;
-    background-color: white;
     margin-bottom:0px;
     font-size:14px;
-}
-
-.breadcrumb a {
-    color:black;
+    background-color:none;
 }
 
 .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
@@ -243,7 +388,7 @@ hr.border {
     color:rgb(200,100,50);
  } 
 
- /* Module Index*/
+ /* Module Index */
  li.listtitle {
     list-style-type: none;
     color:rgb(200,100,50);
@@ -259,7 +404,6 @@ hr.border {
  }
 
  ul.module a {
-    
      color:black;
  }
 
@@ -277,10 +421,6 @@ img.grayscale:hover {
     -webkit-filter: grayscale(0);
 }
 
-.minitext {
-    font-size:12px;
-}
-
 .user-input {
     width:95px;
     text-align:center;
@@ -288,7 +428,41 @@ img.grayscale:hover {
     border-width:2px;
 }
 
-.btn-default
-{
-    border-color:orange;
+/* Responsive Styles */
+
+@media screen and (max-width: 667px) {
+    header h1 {
+        font-size:1.5rem;
+        margin-left: 0;
+        text-shadow: -1px 0 0 #000000, 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
+    }
+
+    #mainwrapper {
+        margin:1em;
+        padding-top:0;
+        font-size:1.5rem;
+    }
+
+    .big-text {
+        font-size:2rem;
+    }
+
+    #grammar-table {
+        width:98%;
+        font-size:1rem;
+    }
+    
+    .tabs li {
+        width:23%;
+        display:inline-block;
+    }
+
+    .nav-justified>li>a {
+        margin-bottom:0;
+    }
+}
+
+/* tweaks */
+.fa-angle-double-down {
+    padding-top:.3em;
 }

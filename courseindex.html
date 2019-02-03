@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133460954-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133460954-1');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,20 +21,19 @@
     <title>Old English Online</title>
 </head>
 
-<body>
-    <div id="head">
-        <div class="container">
-            <div class="row" id="header">
+<body class="container-fluid">
+    <header>
+        <div>
+            <div class="row head">
                 <div class="col-xs-12">
                     <h1>
                         <a href="index.html">Learning Old English Online</a>
                     </h1>
                 </div>
             </div>
-
         </div>
-        <div class="dark-opacity">
-            <div class="container">
+        <nav class="dark-opacity white-text">
+            <div>
                 <!--close div class row-->
                 <div class="row" id="navline">
                     <div class="col-xs-12">
@@ -32,7 +41,6 @@
                             <div class="navelement">
                                 <a href="index.html">Home</a>
                             </div>
-
                             <div class="navelement">
                                 <a href="courseindex.html">Index</a>
                             </div>
@@ -42,18 +50,16 @@
                             <!-- Nav wrapper end -->
                         </nav>
                         <!-- close nav-->
-
                     </div>
-
                 </div>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
+    <main id="mainwrapper" class="container">
+        <section class="row">
+            <h2 class="lightorange-text text-align-center remove-margin">Course Index</h2>
+            <p class="text-align-center"> Click an orange title to begin the module, or choose a specific topic below.</p>
 
-    <div id="mainwrapper" class="container">
-        <div class="row">
-            <h3>This is the course index. Click an orange title to begin the module, or choose a specific topic below.</h3>
-            <br>
             <ul>
                 <a href="cases.html">
                     <li class="listtitle">Cases</li>
@@ -73,17 +79,25 @@
                     </li>
                 </ul>
                 <br>
-                <li class="listtitle">Weak Verbs</li>
+                <a href="weakverbs.html">
+                    <li class="listtitle">Weak Verbs</li>
+                </a>
                 <ul class="module">
                     <li>
-                        Weak Verbs Class I
+                        <a href="wv2.html">Brief Intro to Personal Pronouns</a>
                     </li>
                     <li>
-                        Weak Verbs Class II
+                        <a href="wv3.html">Weak Verbs Class I</a>
                     </li>
                     <li>
-                        Weak Verb Overview
+                        <a href="wv4.html">Weak Verbs Class II</a>
                     </li>
+                    <li>
+                        <a href="wv5.html">Weak Verbs Class III</a>
+                    </li>
+                    <li>
+                            <a href="wv6.html">Weak Verbs Overview</a>
+                        </li>
                 </ul>
                 <br>
                 <li class="listtitle">Strong Feminine Nouns</li>
@@ -150,16 +164,16 @@
                 <li class="listtitle">Anomalous Verbs</li>
                 <ul class="module">
                     <li>
-                        Strong Masculine Adjectives
+                        Beon
                     </li>
                     <li>
-                        Strong Feminine Adjectives
+                        Willan
                     </li>
                     <li>
-                        Strong Neuter Adjectives
+                        Gan
                     </li>
                     <li>
-                        Strong Adjectives Overview
+                        Don
                     </li>
                 </ul>
                 <br>
@@ -250,23 +264,10 @@
                     </li>
                 </ul>
                 <br>
-                <li class="listtitle">Irregular Verbs</li>
-                <ul class="module">
-                    <li>
-                        Beon
-                    </li>
-                    <li>
-                        The Other One
-                    </li>
-                    <li>
-                        Irregular Verbs Overview?
-                    </li>
-                </ul>
-                <br>
                 <li class="listtitle">Inflected Infinitive</li>
                 <ul class="module">
                     <li>
-                        Rules for Instrumental Nouns
+                        Inflected Infinitive
                     </li>
                 </ul>
                 <br>
@@ -298,30 +299,24 @@
                         Abbreviations Overview
                     </li>
                 </ul>
-
+        </section>
+        <br>
+    </main>
+    <footer class="row">
+        <div class="col-xs-6">
+            <p>Project version 2.0. <a href="patchnotes.html">Patch Notes</a> here</p>
+            <p class="hidden-xs">Initially created as part of an MA in Digital Arts and Humanities at University
+                College Cork</p>
         </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6">
-                    <p>Project created in fulfillment of the requirements for an MA in Digital Arts and Humanities</p>
-                    <p>&copy; 2018 — Victoria Koivisto-Kokko — University College Cork</p>
-                </div>
-                <div class="col-xs-6 test">
-                    <p>Have questions or feedback? Email
-                        <u>victoria@koivisto-kokko.com</u>
-                    </p>
-                    <p>Alternatively, find me on twitter
-                        <a href="https://twitter.com/Vkkokko">
-                            @vkkokko
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </p>
-                </div>
-            </div>
-
+        <div class="col-xs-6">
+            <p>&copy; 2019 — Victoria Koivisto-Kokko</p>
+            <p class="hidden-xs">Have questions or feedback? Email
+                <u>victoria@koivisto-kokko.com</u> or find me
+                <a href="https://twitter.com/Vkkokko">
+                    @vkkokko
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </p>
         </div>
     </footer>
     <!--closing footer container-->
