@@ -6,7 +6,8 @@ $(document).ready(function () {
 
     loadQuestionsInto($questionWrapper);			   			// This loads the question from the JSON file (called elsewhere), 
     // into our wrapper.
-    $('.special-character').on('click', function () {
+    $('.special-character').on('click', function (event) {
+        event.preventDefault();
         if ($lastActive) { 						   			    // This Boolean checks to see if the last active input 
             $lastActive											// was from .question-item (thus making it our user input). 
                 // If it is, this becomes a 'truthy' variable meaning it executes.
