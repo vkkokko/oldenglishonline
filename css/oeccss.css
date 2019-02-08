@@ -235,6 +235,11 @@ abbr {
     color:white;
 }
 
+.solid-button:hover {
+    background-color:rgb(161,70,10);
+    color:white;
+}
+
 /* Specific Components */
 
 /* Grammar Graphic Box */
@@ -250,12 +255,15 @@ abbr {
 
 /* Hideable Grammar Tooltip */
 
-.card-header {
+.tooltip-header {
     background-color:rgb(200,100,50);
     text-align:left;
     color:white;
     border-radius:5px;
     padding:0 .75em;
+    width:100%;
+    border:none;
+    margin-bottom:1em;
 } 
 
 .card-link,
@@ -312,6 +320,13 @@ header h1 a:hover {
     display:inline-block;
 }
 
+/*I know it's not intuative the borders are on here but fuck it */
+.table-hide {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
 /* Tabs styling */
 
 #grammar-table {
@@ -337,12 +352,6 @@ header h1 a:hover {
     border-bottom: 2px solid black;
     border-right: 1px solid darkgray;
     border-left: 1px solid darkgray;
-}
-
-.tab-pane {
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
 }
 
 /* language pages */

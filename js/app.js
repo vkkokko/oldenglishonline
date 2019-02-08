@@ -28,8 +28,21 @@ $('#hide-submit').click(function () {
 });
 
 //For the tooltip
+/*
 $('.tooltip-header').click(function () {
     $('.tooltip-hide').toggleClass('hide');                              // This adds a jquery class to 'toggle' the visibility of an element.
+});*/
+
+
+$('.tooltip-header').each(function() {
+    $(this).click(function() {
+        
+        $(this).closest('.grammar-tooltip')
+                .siblings('.grammar-tooltip')
+                .find('.card-body')
+                .addClass('hide');
+        $(this).next('.card-body').toggleClass('hide');
+    });
 });
 
 
