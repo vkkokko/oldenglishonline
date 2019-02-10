@@ -112,6 +112,10 @@ abbr {
     font-size:2.5em;
 }
 
+.title-text {
+    font-size:1.7em;
+}
+
 .initial-letter {
     font-size:1.2em;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -254,6 +258,10 @@ abbr {
 
 
 /* Hideable Grammar Tooltip */
+
+.grammar-tooltip {
+    padding-top:.25em;
+}
 
 .tooltip-header {
     background-color:rgb(200,100,50);
@@ -456,6 +464,10 @@ img.grayscale:hover {
         font-size:2rem;
     }
 
+    .medium-text {
+        font-size:1.5em;
+    }
+
     #grammar-table {
         width:98%;
         font-size:1rem;
@@ -468,6 +480,11 @@ img.grayscale:hover {
 
     .nav-justified>li>a {
         margin-bottom:0;
+    }
+
+    .responsive {
+        width: 100%;
+      height: auto;
     }
 }
 
