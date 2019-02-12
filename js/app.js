@@ -33,7 +33,7 @@ $('.tooltip-header').click(function () {
     $('.tooltip-hide').toggleClass('hide');                              // This adds a jquery class to 'toggle' the visibility of an element.
 });*/
 
-
+//I don't even know how this works at this point but this is the tooltip toggle. It closes other open tooltips.
 $('.tooltip-header').each(function() {
     $(this).click(function() {
         
@@ -48,6 +48,7 @@ $('.tooltip-header').each(function() {
 
 //The code for the Check button
 $('#submit').click(function () {
+    event.preventDefault();  
     $(this).addClass("hidden");
     $('#again').removeClass("hidden");
 
