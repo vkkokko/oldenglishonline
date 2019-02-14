@@ -93,6 +93,7 @@ $('#submit').click(function () {
 
 // The below code is for the Try Again? button
 $('#again').click(function () {
+    event.preventDefault();
     $(this).addClass("hidden");
     $('#submit').removeClass("hidden");
 
