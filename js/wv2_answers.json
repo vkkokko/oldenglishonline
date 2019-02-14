@@ -7,7 +7,7 @@
     },
     {
         "question": "Hwæt sægest ####, yrþlingc? - What say you, farmer?",
-        "correctAnswer": "þu",
+        "correctAnswer": "þu|ðu",
         "explanation":"<em>&THORN;u</em> is the second person singular personal pronoun",        
         "commonMistakes": []
     },
@@ -37,7 +37,7 @@
     },
     {
         "question": "Ne ondrǽde #### - Fear ye not",
-        "correctAnswer": "Ge|Ye",
+        "correctAnswer": "Ge",
         "explanation":"<em>Ge</em> is the secone person plural personal pronoun",
         "commonMistakes": []
     },
@@ -49,7 +49,7 @@
     },
     {
         "question": "&THORN;u, cnapa, hw&aelig;t dydest #### todaeg - You, knave, what did you do today?",
-        "correctAnswer": "þu",
+        "correctAnswer": "þu|ðu",
         "explanation":"<em>&THORN;u</em> is the second person singular personal pronoun",
         "commonMistakes": []
     },
@@ -91,7 +91,7 @@
     },
     {
         "question": "#### eart seolfa geong - You yourself are young",
-        "correctAnswer": "þu",
+        "correctAnswer": "þu|ðu",
         "explanation":"<em>&THORN;u</em> is the second person singular personal pronoun",
         "commonMistakes": []
     },
