@@ -1,0 +1,128 @@
+[
+    {
+        "question": "####  eom geanwyrde monuc - I am a professed monk",
+        "correctAnswer": "ic",
+        "explanation":"<em>ic</em> is the first person singular personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hwæt sægest ####, yrþlingc? - What say you, farmer?",
+        "correctAnswer": "þu",
+        "explanation":"<em>&THORN;u</em> is the second person singular personal pronoun",        
+        "commonMistakes": []
+    },
+    {
+        "question": "#### hine miclum gewundode - He wounded him severely",
+        "correctAnswer": "He",
+        "explanation":"<em>He</em> is the third person singular masculine personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "He hire hand nam and #### sona aras - He took her hand and she arose at once",
+        "correctAnswer": "Heo",
+        "explanation":"<em>Heo</em> is the third person singular feminine personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### cildra biddaþ þe, eala lareow, þæt þu tæce us sprecan leden - We children ask you, oh teacher, that you teach us to speak Latin",
+        "correctAnswer": "We",
+        "explanation":"<em>We</em> is the 1st person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### grétton hie gesybsumum wordum - They greeted them with words of peace",
+        "correctAnswer": "Hie",
+        "explanation":"<em>Hie</em> is the 3rd person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ne ondrǽde #### - Fear ye not",
+        "correctAnswer": "Ge|Ye",
+        "explanation":"<em>Ge</em> is the secone person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hæbbe #### hit on handa - I have some of it in my hand",
+        "correctAnswer": "Ic",
+        "explanation":"<em>ic</em> is the first person singular personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "&THORN;u, cnapa, hw&aelig;t dydest #### todaeg - You, knave, what did you do today?",
+        "correctAnswer": "þu",
+        "explanation":"<em>&THORN;u</em> is the second person singular personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða #### gefor ða feng his sunu to ðam rice - When he died, his son came to the throne",
+        "correctAnswer": "He",
+        "explanation":"<em>He</em> is the third person singular masculine personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hæbbe hire ðæt #### hafaþ - Let her have what she has",
+        "correctAnswer": "heo",
+        "explanation":"<em>Heo</em> is the third person singular feminine personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ungelærede #### syndon & gewæmmodlice we sprecaþ - We are unlearned and we speak ungrammatically",
+        "correctAnswer": "We",
+        "explanation":"<em>We</em> is the 1st person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### woldon ða men him to mete don - They wanted to make the men food for themselves",
+        "correctAnswer": "Hie",
+        "explanation":"<em>Hie</em> is the 3rd person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gyf #### ða lufiaþ ðe eów lufiaþ - If ye love them that loves you",
+        "correctAnswer": "Ge | Ye",
+        "explanation":"<em>Ge</em> is the secone person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gyt flæscmettum ic bruce, forðam cild #### eom - I still partake of meat, because I am a child",
+        "correctAnswer": "Ic",
+        "explanation":"<em>ic</em> is the first person singular personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### eart seolfa geong - You yourself are young",
+        "correctAnswer": "þu",
+        "explanation":"<em>&THORN;u</em> is the second person singular personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### hit forsóc - He refused it",
+        "correctAnswer": "He",
+        "explanation":"<em>He</em> is the third person singular masculine personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Drihtnes ys eorðe, and eall þæt #### mid gefyld is - The Earth is the Lord's, and all that she is filled with",
+        "correctAnswer": "heo",
+        "explanation":"<em>Heo</em> is the third person singular feminine personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ac #### witun þe bilewitne wesan - But we know you are kind",
+        "correctAnswer": "We",
+        "explanation":"<em>We</em> is the 1st person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### æt Tharse ðære byrig hie gemétton - They met one another at the city of Tarsus",
+        "correctAnswer": "Hie",
+        "explanation":"<em>Hie</em> is the 3rd person plural personal pronoun",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif #### me ut adrifaþ fram eowrum geferscype, ge etaþ wyrta eowre grene, ond flæscmettas eowre hreawe - If you drive me away from your community you would eat your vegetables raw and your meat rare",
+        "correctAnswer": "Ge | Ye",
+        "explanation":"<em>Ge</em> is the secone person plural personal pronoun",
+        "commonMistakes": []
+    }
+]
