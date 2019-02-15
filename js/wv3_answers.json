@@ -9,13 +9,23 @@
         "question": "&THORN;u <em>(nerian)</em> #### &thorn;a cildras - You save the children",
         "correctAnswer": "nerest",
         "explanation":"Here 'nerian' is in the second person singular form '<em>nerest</em>' because the subject is 'You",        
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "neriest",
+                "explanation":"Remember, the second person singular form of 'nerian' is '<em>nerest</em>' because 'nerian' drops its 'i' in some conjugations",
+            }
+        ]
     },
     {
         "question": "He minum l&aelig;rum <em>(hieran)</em> #### - He listens to my teachings",
         "correctAnswer": "hierð|hierþ",
         "explanation":"Here 'hieran' is in the third person singular form '<em>hierð</em>' because the subject is 'He'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "hiereð|hiereþ",
+                "explanation":"Remember, 'hieran' drops the 'e' before a dental fricative",
+            }
+        ]
     },
     {
         "question": "We <em>(t&aelig;can)</em> #### Eald Englisc on &thorn;&aelig;m minstere - We teach Old English in the monastery",
@@ -33,10 +43,15 @@
         "question": "Ic <em>(sendan)</em> #### &aelig;rendracan to minum hlaforde - I sent a messenger to my lord",
         "correctAnswer": "sende",
         "explanation":"Here 'sendan' is in the first person singular past form '<em>sende</em>' because the subject is 'I'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "sendde",
+                "explanation":"Remember, when a double d is proceeded by a consonant, the double is reduced to single so the correct form is 'sende'",
+            }
+        ]
     },
     {
-        "question": "Morgensteorran &eth;e &thorn; o&eth;re naman &aelig;fensteorra nemnan <em>(hieran)</em> #### - the morning star which we hear called evening star by another name",
+        "question": "Morgensteorran &eth;e we o&eth;re naman &aelig;fensteorra nemnan <em>(hieran)</em> #### - The morning star which we hear called evening star by another name",
         "correctAnswer": "hierdest",
         "explanation":"Here 'hieran' is in the first person singular past form '<em>hierdest</em>' because the subject is 'We",        
         "commonMistakes": []
@@ -45,7 +60,12 @@
         "question": "Hie halig God <em>(nerian)</em> #### - They are saved by holy God",
         "correctAnswer": "neredon",
         "explanation":"Here 'nerian' is in the third person plural past form '<em>neredon</em>' because the subject is 'They'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "neriedon",
+                "explanation":"Remember, the third person plural past form of 'nerian' is '<em>neredon</em>' because it drops its 'i' in some conjugations",
+            }
+        ]
     },
     {
         "question": "We <em>(fremman)</em> #### swa and Frean hyrde - We did so and obeyed the lord",
@@ -57,7 +77,12 @@
         "question": "Heo <em>(t&aelig;can)</em> #### us sprecan leden - She taught us to speak Latin",
         "correctAnswer": "tæhte",
         "explanation":"Here 't&aelig;can' is in the third person singular past form '<em>tæhte</em>' because the subject is 'She'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "tæceð|tæceþ",
+                "explanation":"Remember, for ease of pronounciation an unvoiced consonant 'c' followed by a dental fricitive or 't' becomes an 'h', so the third person singular past form of 't&aelig;can' is '<em>tæhte</em>'",
+            }
+        ]
     },
     {
         "question": "Hie <em>(feran)</em> #### ofer s&aelig; - They go overseas",
@@ -75,13 +100,23 @@
         "question": "&THORN;a <em>(sendan)</em> #### se cyning to &thorn;am flotan Leofsig ealdorman — Then the king sent Alderman Leofsig to the fleet",
         "correctAnswer": "sende",
         "explanation":"Here 'sendan' is in the third person singular past form '<em>sende</em>' because the subject is 'The King'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "sendest",
+                "explanation":"Here 'sendan' should be the third person singular past form '<em>sende</em>' because the subject is 'The King'. While &thorn;a resembles the second person <em>'&thorn;u'</em>, it actually means 'then'",
+            }
+        ]
     },
     {
         "question": "Wyrd oft <em>(nerian)</em> #### unfægne eorl &thorn;onne his ellen deah - Fate often saves a man not fated to die",
         "correctAnswer": "nereð|nereþ",
         "explanation":"Here 'nerian' is in the third person singular form '<em>nereð</em>' because the subject is 'Wyrd'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "nerieð|nerieþ",
+                "explanation":"Remember, the third person singular form of 'nerian' is '<em>nereð</em>' because it drops its 'i' in some conjugations",
+            }
+        ]
     },
     {
         "question": "Ic <em>(hieran)</em> #### &thorn;u - I hear you",
@@ -93,9 +128,11 @@
         "question": "Ic <em>(l&aelig;dan)</em> #### &thorn;one micel here - I led the great army",
         "correctAnswer": "lædde",
         "explanation":"Here 'l&aelig;dan' is in the first person singular past form '<em>lædde</em>' because the subject is 'I'",        
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "læde",
+                "explanation":"Unlike 'sendan', Lædan does not drop double 'd's' because they are proceeded by a vowel. So, here 'l&aelig;dan' is in the first person singular past form '<em>lædde</em>' because the subject is 'I'",        
+            }
+        ]
     }
 ]
-
-
-
