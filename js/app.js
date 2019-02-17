@@ -159,3 +159,9 @@ function checkAnswer(answerArray, userAnswer) {
 
     return wasUserCorrect;
 }
+
+// The audio elements
+$('.audio-button').on('click', function () {
+    let audioElement = $(this).next('.audio-link').get(0);
+    audioElement.play();
+});

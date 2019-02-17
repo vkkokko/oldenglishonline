@@ -286,6 +286,24 @@ abbr {
         font-size:.85em;
     }
 
+/* Audio Button */
+    .audio-button {
+        border: 0;
+        background: none;
+        box-shadow: none;
+        border-radius: 0px;
+        font-weight:bold;
+        padding:0;
+}
+
+.audio-button:hover {
+    text-decoration:underline;
+}
+
+.fa-play-circle {
+    color:black;
+}
+
 /* main wrapper */
 #mainwrapper {
     padding-top: 2em;
