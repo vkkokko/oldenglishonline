@@ -12,7 +12,8 @@ body {
     line-height:1.6;
 }
 
-body p {
+body p,
+body li {
     font-family:Arial,x-locale-body,sans-serif;
 }
 
@@ -77,6 +78,7 @@ abbr {
 .lightorange-text {
     color:rgb(200,100,50);
 }
+
 .red-text {
     color:rgb(255, 49, 49);
 }
@@ -258,10 +260,6 @@ abbr {
 
 
 /* Hideable Grammar Tooltip */
-
-.grammar-tooltip {
-    padding-top:.25em;
-}
 
 .tooltip-header {
     background-color:rgb(200,100,50);
