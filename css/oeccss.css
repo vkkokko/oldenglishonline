@@ -46,7 +46,10 @@ main li > a
 
 main a:hover,
 footer a:hover,
-main li a:hover
+main li a:hover,
+main a:active,
+footer a:active,
+main li a:active
 {
     color:rgb(161,70,10);
 }
@@ -232,7 +235,8 @@ abbr {
     background-color:#fbfbfb;
 }
 
-.light-button:hover {
+.light-button:hover,
+.light-button:active {
     background-color:rgb(200,100,50)
 }
 
@@ -242,7 +246,8 @@ abbr {
     color:white;
 }
 
-.solid-button:hover {
+.solid-button:hover,
+.solid-button:active {
     background-color:rgb(161,70,10);
     color:white;
 }
@@ -316,7 +321,8 @@ abbr {
 
 header h1,
 header h1 a,
-header h1 a:hover {
+header h1 a:hover,
+header h1 a:active {
     color:white;
     margin-left:1.5em;
     padding: 1.25em 0;
