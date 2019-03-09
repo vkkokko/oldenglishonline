@@ -130,7 +130,7 @@
             "commonMistakes": []
         },
         {
-            "question": "Se þegen geaf þa (<i>gar</i>) #### to þaem cyninge — The thane gives the spears to the king",
+            "question": "Se þegen geaf þa (<i>gar</i>) #### to þaem cyninge — The thane gave the spears to the king",
             "correctAnswer": "garas",
             "explanation": "Here 'gar' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
             "commonMistakes": []
@@ -142,7 +142,7 @@
             "commonMistakes": []
         },
         {
-            "question": "To þæm (<i>cyning</i>) #### se biscop geaf beag — To the king, the bishop gives a ring",
+            "question": "To þæm (<i>cyning</i>) #### se biscop geaf beag — To the king, the bishop gave a ring",
             "correctAnswer": "cyninge",
             "explanation": "Here 'cyning' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending.",
             "commonMistakes": []
