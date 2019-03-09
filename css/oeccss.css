@@ -358,6 +358,10 @@ header h1 a:active {
     border-bottom: 2px solid black;
 }
 
+.table-borders {
+    border: 2px solid black;
+}
+
 /* Tabs styling */
 
 #grammar-table {
