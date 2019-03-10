@@ -83,8 +83,16 @@ abbr {
     color:rgb(200,100,50);
 }
 
+.peach-text {
+    color:#FF9A69;
+}
+
 .red-text {
     color:rgb(255, 49, 49);
+}
+
+.lightred-text {
+    color:#F54F47;
 }
 
 .green-text {
@@ -95,8 +103,16 @@ abbr {
     color:yellow;
 }
 
+.darkyellow-text {
+    color:#FAC400;
+}
+
 .blue-text {
     color:cyan;
+}
+
+.darkblue-text {
+    color:#00BFA9;
 }
 
 .dark-opacity {
