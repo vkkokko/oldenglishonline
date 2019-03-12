@@ -1,6 +1,6 @@
 [
     {
-        "question": "Þæs (<i>biscop</i>) #### stan   —  The bishop’s stone",
+        "question": "Ðæs <em>(biscop)</em> #### swearta stan  — The bishop’s black stone",
         "correctAnswer": "biscopes",
         "explanation":"Here 'biscop' is in the singular genitive so it takes the 'es' ending",
         "commonMistakes": [
@@ -11,13 +11,13 @@
         ]
     },
     {
-        "question": "Se (<i>þegen</i>) #### ond þa biscopas  —  The thane and the bishops",
+        "question": "Se <em>(þegen)</em> #### ond þa biscops fram Readingum — The thane and the bishops from Reading",
         "correctAnswer": "þegen",
         "explanation":"Here 'þegen' is the subject so it takes the nominative singular case",        
         "commonMistakes": []
     },
     {
-        "question": "Þæs cyninges (<i>þegen</i>) ####   —  The king’s thanes",
+        "question": "Ðæs cyninges <em>(þegen)</em> #### ferde to þæm tune  — The king’s thanes went to the town",
         "correctAnswer": "þegnas|þegenas",
         "explanation":"Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
         "commonMistakes": [
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "question": "Þa (<i>cyning</i>) #### ond þa biscopas  —  The kings and the bishops",
+        "question": "Ða <em>(cyning)</em> #### ond þa biscopas on Æscesdune — The kings and the bishops in Ashdown",
         "correctAnswer": "cyningas",
         "explanation":"Here 'cyning' is the subject and plural so it takes the 'as' ending of the nominative plural",
         "commonMistakes": [
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "question": "Þara (<i>biscop</i>) #### preostas   —  The bishops’ priests",
+        "question": "Eall þara <em>(biscop)</em> #### preostas ferde to þæm halige stede mid him — All the bishops’ priests went to the holy place with them",
         "correctAnswer": "biscopa",
         "explanation":"Here 'biscop' is in the possessive plural, since there are multiple priests belong to multiple bishops, so it takes the 'a' ending of the genitive plural",
         "commonMistakes": [
@@ -56,7 +56,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa Þegnas þara (<i>cyning</i>) #### Ælfred and Æþelred  —  The thanes of the Kings' Alfred and Ethelred",
+        "question": "Ða þegnas þara <em>(cyning)</em> #### Ælfred and Æþelred — The thane's of the Kings' Alfred and Ethelred",
         "correctAnswer": "cyninga",
         "explanation":"Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
         "commonMistakes": []
@@ -68,7 +68,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa Þegnas ond se (<i>cyning</i>) #### —  The thanes and the king",
+        "question": "Ða Þegnas ond se (<i>cyning</i>) #### —  The thanes and the king",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
@@ -86,7 +86,7 @@
         "commonMistakes": []
     },
     {
-        "question": "þæs (<i>þegen</i>) #### menn  —  The thane’s men",
+        "question": "Ðæs (<i>þegen</i>) #### menn  —  The thane’s men",
         "correctAnswer": "þegnes|þegenes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
@@ -98,7 +98,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa (<i>stan</i>) #### Þæs þegnes tune  —  The stones from the thane’s town",
+        "question": "Ða <em>(stan)</em> #### fram þæs þegnes tune — The stone from the thane’s town",
         "correctAnswer": "stanas",
         "explanation":"Here 'stan' is subject and is plural so it takes the 'as' ending of the nominative plural",
         "commonMistakes": []
@@ -107,6 +107,30 @@
         "question": "Se (<i>stan</i>) #### ond se þegen   —  The stone and the thane",
         "correctAnswer": "stan",
         "explanation":"Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara <em>(wicing)</em> #### cyning wolde þæt þa Deniscan ricsoden ofer Englalande - The king of the viking's would that the Danes ruled over England",
+        "correctAnswer": "wicinga",
+        "explanation":"Here 'wicing' is in the possessive plural as the subject is the king of many vikings, so 'wicing' takes the 'a' ending of the genitive plural",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða bearn þæs <em>(cyning)</em> #### beoþ wis and eaþmod - The children of the king are wise and humble",
+        "correctAnswer": "cyninges",
+        "explanation":"Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða <em>(biscop)</em> #### geaf þone stan to þæm þegne — The bishops gave the stone to the thane",
+        "correctAnswer": "biscopas",
+        "explanation":"Here 'biscop' is the subject and it is plural so it takes the 'as' ending of the nominative plural",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Giet wæs se <em>(cyning)</em> #### Ælfred geong - Still, the king Alfred was young",
+        "correctAnswer": "cyning",
+        "explanation":"Here 'cyning' is the subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
     }
 ]

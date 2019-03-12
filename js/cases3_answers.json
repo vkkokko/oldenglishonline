@@ -78,19 +78,25 @@
     {
         "question": "Se cyning ferþ to þæm (<i>beorg</i>) #### — The king goes to the mountains",
         "correctAnswer": "beorgum",
-        "explanation":"Here 'beorg' is not directly receiving the action of the verb 'ferþ', so it is in the plural dative and thus takes the 'e' ending",
+        "explanation":"Here 'beorg' is not directly receiving the action of the verb 'ferþ', so it is in the plural dative and thus takes the 'um' ending",
         "commonMistakes": []
     },
     {
         "question": "Wærferhþ biscop ferde to þæm (<i>biscop</i>) #### in Lundene ond Wiltunscire — Bishop Warfehth went to the bishops of London and Wiltshire",
         "correctAnswer": "biscopum",
-        "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferde', so it is in the plural dative and thus takes the 'e' ending",
+        "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferde', so it is in the plural dative and thus takes the 'um' ending",
         "commonMistakes": []
     },
     {
         "question": "Se geaf þa garas to þæm (<i>þegen</i>) #### — He gave the spears to the thanes",
         "correctAnswer": "þegnum|þegenum",
-        "explanation":"Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the plural dative and thus takes the 'e' ending",
+        "explanation":"Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the plural dative and thus takes the 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se abbot com fram þæm <em>(beorg)</em> #### - The abbot came from the mountains",
+        "correctAnswer": "beorgum",
+        "explanation":"Here 'beorg' is not directly receiving the action of the verb 'com', so it is in the plural dative and thus takes the 'um' ending",        
         "commonMistakes": []
     },
     {
