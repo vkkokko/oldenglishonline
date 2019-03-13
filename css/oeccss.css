@@ -10,6 +10,7 @@ body {
     font-size:18px;
     background-color:#fbfbfb;
     line-height:1.6;
+    padding-bottom:1.5em;
 }
 
 body p,
@@ -45,11 +46,15 @@ main li > a
 }
 
 main a:hover,
-footer a:hover,
-main li a:hover,
+main a:focus,
 main a:active,
+footer a:hover,
+footer a:focus,
 footer a:active,
-main li a:active
+main li a:hover,
+main li a:focus,
+main li a:active,
+.grammar-tooltip a
 {
     color:rgb(161,70,10);
 }
