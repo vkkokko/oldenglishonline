@@ -343,7 +343,8 @@ abbr {
 header h1,
 header h1 a,
 header h1 a:hover,
-header h1 a:active {
+header h1 a:active,
+header h1 a:focus {
     color:white;
     margin-left:1.5em;
     padding: 1.25em 0;
@@ -453,13 +454,17 @@ hr.border {
     color:rgb(200,100,50);
  } 
 
- /* Module Index */
+ /* Module index*/
  li.listtitle {
     list-style-type: none;
     color:rgb(200,100,50);
     font-size: 24px;
     font-weight: bold;
     text-decoration: underline;
+ }
+
+ li.listtitle:hover {
+    color:rgb(161,70,10);
  }
 
  ul.module li {

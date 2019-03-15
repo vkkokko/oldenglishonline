@@ -100,6 +100,29 @@
         "commonMistakes": []
     },
     {
+        "question": "Se biscop ferþ to þæm halige <em>(stede)</em> #### = The bishop goes to the holy place",
+        "correctAnswer": "stede",
+        "explanation":"Here 'stede' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",        
+        "commonMistakes": [
+            {
+            "badAnswer": "stedee",
+            "explanation":"While 'stede' is not directly receiving the action of the verb 'ferþ' and so is dative singular, it already ends in e, so no additional letters are added",        
+            }
+        ]
+    },
+    {
+        "question": "Hie þreowon þa <em>(gar)</em> #### at þæm wicingum - They threw the spears at the vikings",
+        "correctAnswer": "garas",
+        "explanation":"Here 'gar' is directly receiving the action of the verb 'þreowon', so it is in the plural accusative and thus takes the 'as' ending",        
+        "commonMistakes": []
+    },
+    {
+        "question": "He fræt þone <em>(fugol)</em> #### - He ate the bird",
+        "correctAnswer": "fugol",
+        "explanation":"Here 'fugol' is directly receiving the action of the verb 'fræt', so it is in the singular accusative and thus takes no new ending",        
+        "commonMistakes": []
+    },
+    {
         "question": "þa biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'came', so it is in the plural dative and thus takes the 'um' ending",        
