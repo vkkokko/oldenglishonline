@@ -482,7 +482,8 @@ hr.border {
 img.grayscale {
     filter: gray;
     -webkit-filter: grayscale(1); 
-    -webkit-transition: all .8s ease-in-out;  
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;   /*both webkit and transition included for compatibility*/
 }
 /*This black and white transition effect was gotten from https://codepen.io/jahid-webdev/pen/JRPvBj */
 
@@ -492,7 +493,7 @@ img.grayscale:hover {
 }
 
 .user-input {
-    width:95px;
+    width: 95px;
     text-align:center;
     display:inline;
     border-width:2px;
