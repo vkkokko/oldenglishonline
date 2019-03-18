@@ -6,7 +6,7 @@ html {
 body {
     position: relative;
     min-height: 100%;
-    font-family: Georgia, Times, Times New Roman, serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size:18px;
     background-color:#fbfbfb;
     line-height:1.6;
@@ -16,7 +16,7 @@ body {
 body p,
 ol > li,
 ul > li {
-    font-family:Arial,x-locale-body,sans-serif;
+    font-family:Arial, 'x-locale-body', sans-serif;
 }
 
 header {
@@ -368,11 +368,6 @@ header h1 a:focus {
     color:rgb(161,70,10);
 }
 
-/*This is for the non toggleable table */
-.grammar {
-    display:inline-block;
-}
-
 /*I know it's not intuative the borders are on here but fuck it */
 .table-hide {
     border-right: 2px solid black;
@@ -411,7 +406,7 @@ header h1 a:focus {
     border-left: 1px solid darkgray;
 }
 
-/* language pages */
+/* Quiz code for the language pages */
 
 .answer {
     color:#444;
@@ -426,6 +421,11 @@ header h1 a:focus {
     content:"Incorrect: ";
 }
 
+/* All of these are for tables - I know it's a tad messy  */
+.grammar {
+    display:inline-block;
+}
+
 .grammar th {
     text-align: center;
     width:20%;
@@ -433,6 +433,11 @@ header h1 a:focus {
 
 .small-grammar-table {
     display:inline-block;
+}
+
+.small-grammar-table th {
+    text-align:center;
+    width:30%;
 }
 
 hr.border {
@@ -455,6 +460,11 @@ hr.border {
  } 
 
  /* Module index*/
+
+.course-index {
+    padding:0;
+}
+
  li.listtitle {
     list-style-type: none;
     color:rgb(200,100,50);
