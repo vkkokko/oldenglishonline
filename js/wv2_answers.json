@@ -114,7 +114,7 @@
         "commonMistakes": []
     },
     {
-        "question": "#### æt Tharse ðære byrig hie gemétton - They met one another at the city of Tarsus",
+        "question": "#### æt Tharse ðære byrig hie gemetton - They met one another at the city of Tarsus",
         "correctAnswer": "Hie",
         "explanation":"<em>Hie</em> is the 3rd person plural personal pronoun",
         "commonMistakes": []
@@ -123,6 +123,11 @@
         "question": "Gif #### me ut adrifaþ fram eowrum geferscype, ge etaþ wyrta eowre grene - If you drive me away from your community you would eat your vegetables raw",
         "correctAnswer": "Ge",
         "explanation":"<em>Ge</em> is the secone person plural personal pronoun",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "þu|ðu",
+                "explanation": "<em>ðu</em> is the second person singular pronoun. However, looking at the rest of the sentence you can see the plural 'eow' which indicates that 'you' here is plural"
+            }
+        ]
     }
 ]
