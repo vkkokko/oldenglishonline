@@ -67,17 +67,13 @@ abbr {
     }
 
 /* Colours */
-
+    /*texts*/
 .black-text {
     color:black;
 }
 
 .white-text {
     color:white;
-}
-
-.darkgrey-bg {
-    background-color:#444;
 }
 
 .darkorange-text {
@@ -104,8 +100,16 @@ abbr {
     color:lime;
 }
 
+.darkgreen-text {
+    color:green;
+}
+
 .yellow-text {
     color:yellow;
+}
+
+.medyellow-text {
+    color:rgb(255, 205, 23);
 }
 
 .darkyellow-text {
@@ -118,6 +122,52 @@ abbr {
 
 .darkblue-text {
     color:#00BFA9;
+}
+
+.navy-text {
+    color:#002c5a;
+}
+
+.purple-text {
+    color:purple;
+}
+
+    /*backgrounds*/
+    
+.darkgrey-bg {
+    background-color:#444;
+}
+
+.red-bg {
+    background-color:#ee1e1e;
+}
+
+.orange-bg {
+    background-color: rgb(200,100,50);
+}
+
+.yellow-bg {
+    background-color:rgb(255, 205, 23);
+}
+
+.green-bg {
+    background-color:green;
+}
+
+.blue-bg {
+    background-color:#00BFA9;
+}
+
+.purple-bg {
+    background-color:purple;
+}
+
+.black-bg {
+    background-color:black;
+}
+
+.darkblue-bg {
+    background-color:#002c5a
 }
 
 .dark-opacity {
@@ -510,6 +560,12 @@ img.grayscale:hover {
     border-width:2px;
 }
 
+/* Phonetics grid*/
+.phonetic-name {
+    padding:.5em;
+}
+
+
 /* Responsive Styles */
 
 @media screen and (max-width: 667px) {
@@ -539,7 +595,7 @@ img.grayscale:hover {
     }
     
     .tabs li {
-        width:23%;
+        width:24.6%;
         display:inline-block;
     }
 
