@@ -67,17 +67,13 @@ abbr {
     }
 
 /* Colours */
-
+    /*texts*/
 .black-text {
     color:black;
 }
 
 .white-text {
     color:white;
-}
-
-.darkgrey-bg {
-    background-color:#444;
 }
 
 .darkorange-text {
@@ -104,8 +100,16 @@ abbr {
     color:lime;
 }
 
+.darkgreen-text {
+    color:green;
+}
+
 .yellow-text {
     color:yellow;
+}
+
+.medyellow-text {
+    color:rgb(255, 205, 23);
 }
 
 .darkyellow-text {
@@ -118,6 +122,51 @@ abbr {
 
 .darkblue-text {
     color:#00BFA9;
+}
+
+.navy-text {
+    color:#002c5a;
+}
+
+.purple-text {
+    color:purple;
+}
+
+    /*backgrounds*/
+.darkgrey-bg {
+    background-color:#444;
+}
+
+.red-bg {
+    background-color:#ee1e1e;
+}
+
+.orange-bg {
+    background-color: rgb(200,100,50);
+}
+
+.yellow-bg {
+    background-color:rgb(255, 205, 23);
+}
+
+.green-bg {
+    background-color:green;
+}
+
+.blue-bg {
+    background-color:#00BFA9;
+}
+
+.purple-bg {
+    background-color:purple;
+}
+
+.black-bg {
+    background-color:black;
+}
+
+.darkblue-bg {
+    background-color:#002c5a
 }
 
 .dark-opacity {
@@ -319,6 +368,7 @@ abbr {
         border-radius: 0px;
         font-weight:bold;
         padding:0;
+        outline:none;
 }
 
 .audio-button:hover {
@@ -351,53 +401,46 @@ header h1 a:focus {
     font-size: 1.6em;
     text-decoration: none;
     text-shadow: -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
+    outline:none;
 }
 
 /* Specific Styles for tables */
-
-.grammar-table {
-    border-radius: 5px;
-    position: relative;
-    padding:0px 0px 2px 0px;
-    line-height:1em;
-}
-
-.grammar-table table {
+#mainwrapper table {
     border-collapse: collapse;
     background:lightgrey;
 }
 
-.grammar-table td,
-.grammar-table th {
+#mainwrapper td,
+#mainwrapper th {
     padding:10px;
 }
 
-.grammar-table table a {
+#mainwrapper table a {
     color:rgb(161,70,10);
 }
 
-.tabbed-table {
+/*I know it's not intuative the borders are on here but fuck it */
+.table-hide {
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
 
-.static-table {
+.table-borders {
     border: 2px solid black;
 }
 
-.five-col-table th {
-    text-align: center;
-    width:20%;
-}
-
-.three-col-table th {
-    text-align:center;
-    width:30%;
-}
-
-
 /* Tabs styling */
+
+#grammar-table {
+    width:730px;
+    border-radius: 5px;
+    position: relative;
+    padding:0px 0px 2px 0px;
+    line-height:1em;
+    font-size:16px;
+}
+
 .nav>li.active>a, .nav>li.active>a:hover {
     color:rgb(200,100,50);
     border-top: 2px solid black;
@@ -414,9 +457,6 @@ header h1 a:focus {
     border-left: 1px solid darkgray;
 }
 
-/*end of table stuff */
-
-
 /* Quiz code for the language pages */
 
 .answer {
@@ -430,6 +470,25 @@ header h1 a:focus {
 
 .has-error .answer:before {
     content:"Incorrect: ";
+}
+
+/* All of these are for tables - I know it's a tad messy  */
+.grammar {
+    display:inline-block;
+}
+
+.grammar th {
+    text-align: center;
+    width:20%;
+}
+
+.small-grammar-table {
+    display:inline-block;
+}
+
+.small-grammar-table th {
+    text-align:center;
+    width:30%;
 }
 
 hr.border {
@@ -502,13 +561,32 @@ img.grayscale:hover {
     border-width:2px;
 }
 
+/* Phonetics grid*/
+.phonetic-name {
+    padding:.5em;
+}
+
+
 /* Responsive Styles */
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 667px) {
+
+    header {
+        position:relative;
+        background-image:none;
+        overflow:hidden;
+    }
+
     header h1 {
         font-size:1.5rem;
         margin-left: 0;
         text-shadow: -1px 0 0 #000000, 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
+        padding: .5em 0;
+        text-align:center;
+    }
+
+    header h1 a {
+        margin-left:0;
     }
 
     #mainwrapper {
@@ -526,21 +604,21 @@ img.grayscale:hover {
     }
 
     #grammar-table {
+        width:98%;
         font-size:1rem;
     }
     
     .tabs li {
+        width:24.6%;
         display:inline-block;
-        width:24%;
     }
 
     .nav-justified>li>a {
         margin-bottom:0;
-        padding: 5px 5px;
     }
 
     .responsive {
-    width: 100%;
+        width: 100%;
       height: auto;
     }
 }
