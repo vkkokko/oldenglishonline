@@ -133,7 +133,6 @@ abbr {
 }
 
     /*backgrounds*/
-    
 .darkgrey-bg {
     background-color:#444;
 }
@@ -369,6 +368,7 @@ abbr {
         border-radius: 0px;
         font-weight:bold;
         padding:0;
+        outline:none;
 }
 
 .audio-button:hover {
@@ -401,6 +401,7 @@ header h1 a:focus {
     font-size: 1.6em;
     text-decoration: none;
     text-shadow: -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
+    outline:none;
 }
 
 /* Specific Styles for tables */
@@ -569,10 +570,23 @@ img.grayscale:hover {
 /* Responsive Styles */
 
 @media screen and (max-width: 667px) {
+
+    header {
+        position:relative;
+        background-image:none;
+        overflow:hidden;
+    }
+
     header h1 {
         font-size:1.5rem;
         margin-left: 0;
         text-shadow: -1px 0 0 #000000, 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
+        padding: .5em 0;
+        text-align:center;
+    }
+
+    header h1 a {
+        margin-left:0;
     }
 
     #mainwrapper {

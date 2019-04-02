@@ -354,42 +354,50 @@ header h1 a:focus {
 }
 
 /* Specific Styles for tables */
-#mainwrapper table {
+
+.grammar-table {
+    border-radius: 5px;
+    position: relative;
+    padding:0px 0px 2px 0px;
+    line-height:1em;
+}
+
+.grammar-table table {
     border-collapse: collapse;
     background:lightgrey;
 }
 
-#mainwrapper td,
-#mainwrapper th {
+.grammar-table td,
+.grammar-table th {
     padding:10px;
 }
 
-#mainwrapper table a {
+.grammar-table table a {
     color:rgb(161,70,10);
 }
 
-/*Table Styles */
-.table-bordered {
+.tabbed-table {
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
 
-.table-borders {
+.static-table {
     border: 2px solid black;
 }
 
-/* Tabs styling */
-
-#grammar-table {
-    width:730px;
-    border-radius: 5px;
-    position: relative;
-    padding:0px 0px 2px 0px;
-    line-height:1em;
-    font-size:16px;
+.five-col-table th {
+    text-align: center;
+    width:20%;
 }
 
+.three-col-table th {
+    text-align:center;
+    width:30%;
+}
+
+
+/* Tabs styling */
 .nav>li.active>a, .nav>li.active>a:hover {
     color:rgb(200,100,50);
     border-top: 2px solid black;
@@ -406,6 +414,9 @@ header h1 a:focus {
     border-left: 1px solid darkgray;
 }
 
+/*end of table stuff */
+
+
 /* Quiz code for the language pages */
 
 .answer {
@@ -420,27 +431,6 @@ header h1 a:focus {
 .has-error .answer:before {
     content:"Incorrect: ";
 }
-
-/* All of these are for tables - I know it's a tad messy  */
-.grammar {
-    display:inline-block;
-}
-
-.grammar th {
-    text-align: center;
-    width:20%;
-}
-
-.small-grammar-table {
-    display:inline-block;
-}
-
-.small-grammar-table th {
-    text-align:center;
-    width:30%;
-}
-
-/*end of table stuff */
 
 hr.border {
 	height: 6px;
@@ -514,7 +504,7 @@ img.grayscale:hover {
 
 /* Responsive Styles */
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 440px) {
     header h1 {
         font-size:1.5rem;
         margin-left: 0;
@@ -536,21 +526,21 @@ img.grayscale:hover {
     }
 
     #grammar-table {
-        width:98%;
         font-size:1rem;
     }
     
     .tabs li {
-        width:23%;
         display:inline-block;
+        width:24%;
     }
 
     .nav-justified>li>a {
         margin-bottom:0;
+        padding: 5px 5px;
     }
 
     .responsive {
-        width: 100%;
+    width: 100%;
       height: auto;
     }
 }
