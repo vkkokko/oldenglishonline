@@ -354,57 +354,76 @@ header h1 a:focus {
 }
 
 /* Specific Styles for tables */
-#mainwrapper table {
+
+.grammar-table {
+    border-radius: 5px;
+    position: relative;
+}
+
+table {
     border-collapse: collapse;
     background:lightgrey;
 }
 
-#mainwrapper td,
-#mainwrapper th {
+.tabbed-table td,
+.tabbed-table th {
+    padding: 5px 10px;
+}
+
+.static-table td,
+.static-table th {
     padding:10px;
 }
 
-#mainwrapper table a {
+table a {
     color:rgb(161,70,10);
 }
 
-/*I know it's not intuative the borders are on here but fuck it */
-.table-hide {
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+.tabbed-table {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.table-borders {
-    border: 2px solid black;
+.static-table {
+    border: 2px solid lightgrey;
 }
+
+.five-col-table th {
+    text-align: center;
+    width:20%;
+}
+
+.four-col-table th {
+    text-align: center;
+    width:24%;
+}
+
+.three-col-table th {
+    text-align:center;
+    width:30%;
+}
+
 
 /* Tabs styling */
-
-#grammar-table {
-    width:730px;
-    border-radius: 5px;
-    position: relative;
-    padding:0px 0px 2px 0px;
-    line-height:1em;
-    font-size:16px;
-}
-
 .nav>li.active>a, .nav>li.active>a:hover {
     color:rgb(200,100,50);
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     border-bottom: none !important;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .nav-justified>li>a {
     color:black;
     border-top: 1px solid darkgray;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     border-right: 1px solid darkgray;
     border-left: 1px solid darkgray;
 }
+
+/*end of table stuff */
+
 
 /* Quiz code for the language pages */
 
@@ -419,25 +438,6 @@ header h1 a:focus {
 
 .has-error .answer:before {
     content:"Incorrect: ";
-}
-
-/* All of these are for tables - I know it's a tad messy  */
-.grammar {
-    display:inline-block;
-}
-
-.grammar th {
-    text-align: center;
-    width:20%;
-}
-
-.small-grammar-table {
-    display:inline-block;
-}
-
-.small-grammar-table th {
-    text-align:center;
-    width:30%;
 }
 
 hr.border {
@@ -512,7 +512,7 @@ img.grayscale:hover {
 
 /* Responsive Styles */
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 440px) {
     header h1 {
         font-size:1.5rem;
         margin-left: 0;
@@ -533,22 +533,37 @@ img.grayscale:hover {
         font-size:1.5em;
     }
 
-    #grammar-table {
-        width:98%;
-        font-size:1rem;
+    .grammar-table {
+        font-size:1.2rem;
     }
     
-    .tabs li {
-        width:23%;
+    .four-tabs li {
         display:inline-block;
+        width:24%;
+    }
+
+    .five-tabs li {
+        display:inline-block;
+        width:19%;
+        overflow: hidden;
+    }
+
+    .three-tabs li {
+        display:inline-block;
+        width:32.7%;
     }
 
     .nav-justified>li>a {
         margin-bottom:0;
+        padding: 5px 5px;
+    }
+
+    .tooltip-header {
+        margin-top:.5em;
     }
 
     .responsive {
-        width: 100%;
+      width: 100%;
       height: auto;
     }
 }

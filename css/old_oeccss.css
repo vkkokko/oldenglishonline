@@ -1,0 +1,629 @@
+/* Fundamental Page Element Styles */
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size:18px;
+    background-color:#fbfbfb;
+    line-height:1.6;
+    padding-bottom:1.5em;
+}
+
+body p,
+ol > li,
+ul > li {
+    font-family:Arial, 'x-locale-body', sans-serif;
+}
+
+header {
+    position:relative;
+    background: #444 center top url('../images/vikingsheader.png');
+    overflow:hidden;
+}
+
+footer {
+    background-color:rgba(0,0,0,.85);
+    position:absolute;
+    bottom:0;
+    margin-left:0 !important;
+    margin-right:0 !important;
+    width:100%;
+    padding: 1.5em 0;
+    color: white;
+    font-size:14px;
+    text-align: center;
+    }
+
+footer a,
+footer a:visited,
+main li > a
+ {
+    color:rgb(200,100,50);
+}
+
+main a:hover,
+main a:focus,
+main a:active,
+footer a:hover,
+footer a:focus,
+footer a:active,
+main li a:hover,
+main li a:focus,
+main li a:active,
+.grammar-tooltip a
+{
+    color:rgb(161,70,10);
+}
+
+abbr {
+    font-style:italic;
+    font-weight:bold;
+    font-variant: none;
+    text-decoration:dotted;
+    }
+
+/* Colours */
+    /*texts*/
+.black-text {
+    color:black;
+}
+
+.white-text {
+    color:white;
+}
+
+.darkorange-text {
+        color:rgb(161,70,10);
+}
+
+.lightorange-text {
+    color:rgb(200,100,50);
+}
+
+.peach-text {
+    color:#FF9A69;
+}
+
+.red-text {
+    color:  #F52F22;
+}
+
+.lightred-text {
+    color:#F54F47;
+}
+
+.green-text {
+    color:lime;
+}
+
+.darkgreen-text {
+    color:green;
+}
+
+.yellow-text {
+    color:yellow;
+}
+
+.medyellow-text {
+    color:rgb(255, 205, 23);
+}
+
+.darkyellow-text {
+    color:#FAC400;
+}
+
+.blue-text {
+    color:cyan;
+}
+
+.darkblue-text {
+    color:#00BFA9;
+}
+
+.navy-text {
+    color:#002c5a;
+}
+
+.purple-text {
+    color:purple;
+}
+
+    /*backgrounds*/
+.darkgrey-bg {
+    background-color:#444;
+}
+
+.red-bg {
+    background-color:#ee1e1e;
+}
+
+.orange-bg {
+    background-color: rgb(200,100,50);
+}
+
+.yellow-bg {
+    background-color:rgb(255, 205, 23);
+}
+
+.green-bg {
+    background-color:green;
+}
+
+.blue-bg {
+    background-color:#00BFA9;
+}
+
+.purple-bg {
+    background-color:purple;
+}
+
+.black-bg {
+    background-color:black;
+}
+
+.darkblue-bg {
+    background-color:#002c5a
+}
+
+.dark-opacity {
+    background-color:rgba(0,0,0, .5);
+}
+
+/* Generic Styles */
+
+.strong {
+    font-size:18px;
+    font-weight:bold;
+}
+
+.big-text {
+    font-size:3em;
+}
+
+.medium-text {
+    font-size:2.5em;
+}
+
+.title-text {
+    font-size:1.7em;
+}
+
+.initial-letter {
+    font-size:1.2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.georgia {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.text-align-center {
+    text-align:center;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+.border-bottom {
+    border-bottom: 2px solid
+}
+
+.float-right {
+    float:right;
+}
+
+.float-left {
+    float:left;
+}
+
+.padding-bottom {
+    padding-bottom:1em;
+}
+
+.padding-left {
+    padding-left:1em;
+}
+
+.padding-top {
+    padding-top:1em;
+}
+
+.remove-margin {
+    margin:0;
+}
+
+/* Navigation */
+
+#navline nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size:18px;
+}
+
+.navelement {
+    display: inline-block;
+}
+
+.navelement > a,
+.navelement > span {
+    padding: .66em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+}
+
+.navelement > a:hover,
+.navelement > span:hover,
+.navelement > a:active,
+.navelement > span:active,
+.navelement > a:focus,
+.navelement > span:focus
+ {
+    color:rgb(223,115,90);
+}
+
+/* buttons */
+
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 5px;
+    border-style:none;
+}
+
+.light-button {
+    border: 1px solid rgb(200,100,50);
+    background-color:#fbfbfb;
+}
+
+.light-button:hover,
+.light-button:active {
+    background-color:rgb(200,100,50)
+}
+
+.solid-button
+{
+    background-color:rgb(200,100,50);
+    color:white;
+}
+
+.solid-button:hover,
+.solid-button:active {
+    background-color:rgb(161,70,10);
+    color:white;
+}
+
+/* Specific Components */
+
+/* Grammar Graphic Box */
+
+.grammar-box {
+    text-align:center;
+    font-family:arial;
+    padding: .5em 2em;
+    display:inline-block;
+    margin-bottom:15px;
+    }
+
+
+/* Hideable Grammar Tooltip */
+
+.tooltip-header {
+    background-color:rgb(200,100,50);
+    text-align:left;
+    color:white;
+    border-radius:5px;
+    padding:0 .75em;
+    width:100%;
+    border:none;
+    margin-bottom:.5em;
+} 
+
+.card-link,
+.card-link:hover {
+    background-color:rgb(200,100,50);
+    text-align:left;
+    color:white;
+}
+
+    .card-body {
+        padding:.25em .5em;
+        font-size:.85em;
+    }
+
+/* Audio Button */
+    .audio-button {
+        border: 0;
+        background: none;
+        box-shadow: none;
+        border-radius: 0px;
+        font-weight:bold;
+        padding:0;
+        outline:none;
+}
+
+.audio-button:hover {
+    text-decoration:underline;
+}
+
+.fa-play-circle {
+    color:black;
+}
+
+/* main wrapper */
+#mainwrapper {
+    padding-top: 2em;
+    padding-bottom:6em;
+}
+
+
+#mainwrapper h1, td {
+    text-align: center;
+}
+
+header h1,
+header h1 a,
+header h1 a:hover,
+header h1 a:active,
+header h1 a:focus {
+    color:white;
+    margin-left:1.5em;
+    padding: 1.25em 0;
+    font-size: 1.6em;
+    text-decoration: none;
+    text-shadow: -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
+    outline:none;
+}
+
+/* Specific Styles for tables */
+#mainwrapper table {
+    border-collapse: collapse;
+    background:lightgrey;
+}
+
+#mainwrapper td,
+#mainwrapper th {
+    padding:10px;
+}
+
+#mainwrapper table a {
+    color:rgb(161,70,10);
+}
+
+/*I know it's not intuative the borders are on here but fuck it */
+.table-hide {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.table-borders {
+    border: 2px solid black;
+}
+
+/* Tabs styling */
+
+#grammar-table {
+    width:730px;
+    border-radius: 5px;
+    position: relative;
+    padding:0px 0px 2px 0px;
+    line-height:1em;
+    font-size:16px;
+}
+
+.nav>li.active>a, .nav>li.active>a:hover {
+    color:rgb(200,100,50);
+    border-top: 2px solid black;
+    border-bottom: none !important;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.nav-justified>li>a {
+    color:black;
+    border-top: 1px solid darkgray;
+    border-bottom: 2px solid black;
+    border-right: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+}
+
+/* Quiz code for the language pages */
+
+.answer {
+    color:#444;
+    font-size:14px;
+}
+
+.has-success .answer:before {
+    content:"Correct: ";
+}
+
+.has-error .answer:before {
+    content:"Incorrect: ";
+}
+
+/* All of these are for tables - I know it's a tad messy  */
+.grammar {
+    display:inline-block;
+}
+
+.grammar th {
+    text-align: center;
+    width:20%;
+}
+
+.small-grammar-table {
+    display:inline-block;
+}
+
+.small-grammar-table th {
+    text-align:center;
+    width:30%;
+}
+
+hr.border {
+	height: 6px;
+	background: url('../images/hr-11.png') repeat-x 0 0;
+    border: 0;
+}
+
+.breadcrumb {
+    padding: 0px;
+    margin-bottom:0px;
+    font-size:14px;
+    background-color:none;
+}
+
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+    content: none; } 
+.bc-icons-2 .breadcrumb-item.active {
+    color:rgb(200,100,50);
+ } 
+
+ /* Module index*/
+
+.course-index {
+    padding:0;
+}
+
+ li.listtitle {
+    list-style-type: none;
+    color:rgb(200,100,50);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+ a > .listtitle:hover {
+    color:rgb(161,70,10);
+ }
+
+ ul.module li {
+     color:black;
+     list-style-type: lower-roman;
+     padding-top:5px;
+ }
+
+ ul.module a {
+     color:black;
+ }
+
+
+/* images on homepage page*/
+img.grayscale {
+    filter: gray;
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;   /*both webkit and transition included for compatibility*/
+    border-radius:5px;
+}
+/*This black and white transition effect was gotten from https://codepen.io/jahid-webdev/pen/JRPvBj */
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.user-input {
+    width: 95px;
+    text-align:center;
+    display:inline;
+    border-width:2px;
+}
+
+/* Phonetics grid*/
+.phonetic-name {
+    padding:.5em;
+}
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 667px) {
+
+    header {
+        position:relative;
+        background-image:none;
+        overflow:hidden;
+    }
+
+    header h1 {
+        font-size:1.5rem;
+        margin-left: 0;
+        text-shadow: -1px 0 0 #000000, 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
+        padding: .5em 0;
+        text-align:center;
+    }
+
+    header h1 a {
+        margin-left:0;
+    }
+
+    #mainwrapper {
+        margin:1em;
+        padding-top:0;
+        font-size:1.5rem;
+    }
+
+    .big-text {
+        font-size:2rem;
+    }
+
+    .medium-text {
+        font-size:1.5em;
+    }
+
+    #grammar-table {
+        width:98%;
+        font-size:1rem;
+    }
+    
+    .tabs li {
+        width:24.6%;
+        display:inline-block;
+    }
+
+    .nav-justified>li>a {
+        margin-bottom:0;
+    }
+
+    .responsive {
+        width: 100%;
+      height: auto;
+    }
+}
+
+/* tweaks */
+.fa-angle-double-down {
+    padding-top:.3em;
+}
