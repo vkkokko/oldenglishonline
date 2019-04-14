@@ -503,7 +503,7 @@ table a {
         border-left: 1px lightgrey solid;
         border-right: 1px lightgrey solid;
         text-align:left;
-        padding: .25em .5em;
+        padding: .5em;
 
     }
 
@@ -513,11 +513,12 @@ table a {
         }
         .mobile-overview-table th {
             border: 1px lightgrey solid;
-            padding: .25em .75em;
+            padding: .25em;
         }
         .mobile-overview-table td {
             border-left: 1px lightgrey solid;
             border-right: 1px lightgrey solid;
+            padding: .25em;
             text-align:left;
             
         }
