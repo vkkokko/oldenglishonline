@@ -3,7 +3,12 @@
         "question": "Ic <em>(habban)</em> #### ðe to secgenne sum þing - I have something to say",
         "correctAnswer": "hæbbe",
         "explanation": "Here 'habban' is in the first person singular form '<em>hæbbe</em>' because the subject is 'I'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "habbe",
+                "explanation": "When conjugated in the singular or past, the 'a' in 'habban' becomes an 'æ'"
+            }
+        ]
     },
     {
         "question": "Ðu <em>(libban)</em> #### be godra manna ælmessan - You live by alms of good men",
@@ -11,8 +16,7 @@
         "explanation": "Here 'libban' is in the second person singular form '<em>leofast</em>' because the subject is 'You",
         "commonMistakes": [
             {
-                "badAnswer": "",
-                "explanation": ""
+                
             }
         ]
     },
