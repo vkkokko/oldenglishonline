@@ -66,18 +66,13 @@ abbr {
     text-decoration:dotted;
     }
 
-/* Colours */
-
+/*texts*/
 .black-text {
     color:black;
 }
 
 .white-text {
     color:white;
-}
-
-.darkgrey-bg {
-    background-color:#444;
 }
 
 .darkorange-text {
@@ -104,8 +99,16 @@ abbr {
     color:lime;
 }
 
+.darkgreen-text {
+    color:green;
+}
+
 .yellow-text {
     color:yellow;
+}
+
+.medyellow-text {
+    color:rgb(255, 205, 23);
 }
 
 .darkyellow-text {
@@ -118,6 +121,56 @@ abbr {
 
 .darkblue-text {
     color:#00BFA9;
+}
+
+.navy-text {
+    color:#002c5a;
+}
+
+.purple-text {
+    color:purple;
+}
+
+    /*backgrounds*/
+.darkgrey-bg {
+    background-color:#444;
+}
+
+
+.lightorange-bg {
+    background-color:#FDE5CD;
+}
+
+.red-bg {
+    background-color:#ee1e1e;
+}
+
+.orange-bg {
+    background-color: rgb(200,100,50);
+}
+
+.yellow-bg {
+    background-color:rgb(255, 205, 23);
+}
+
+.green-bg {
+    background-color:green;
+}
+
+.blue-bg {
+    background-color:#00BFA9;
+}
+
+.purple-bg {
+    background-color:purple;
+}
+
+.black-bg {
+    background-color:black;
+}
+
+.darkblue-bg {
+    background-color:#002c5a
 }
 
 .dark-opacity {
@@ -312,7 +365,8 @@ abbr {
     }
 
 /* Audio Button */
-    .audio-button {
+
+.audio-button {
         border: 0;
         background: none;
         box-shadow: none;
@@ -321,12 +375,17 @@ abbr {
         padding:0;
 }
 
-.audio-button:hover {
-    text-decoration:underline;
-}
+    .audio-button:hover {
+        text-decoration:underline;
+    }
 
 .fa-play-circle {
     color:black;
+}
+
+/* Phonetic pages*/
+.phonetic-name {
+    padding:.5em .75em;
 }
 
 /* main wrapper */
@@ -336,7 +395,7 @@ abbr {
 }
 
 
-#mainwrapper h1, td {
+#mainwrapper h1 {
     text-align: center;
 }
 
@@ -363,11 +422,14 @@ header h1 a:focus {
 table {
     border-collapse: collapse;
     background:lightgrey;
+    border-left: 1px solid darkgray; 
+
 }
 
 .tabbed-table td,
 .tabbed-table th {
     padding: 5px 10px;
+
 }
 
 .static-table td,
@@ -404,7 +466,6 @@ table a {
     width:30%;
 }
 
-
 /* Tabs styling */
 .nav>li.active>a, .nav>li.active>a:hover {
     color:rgb(200,100,50);
@@ -421,6 +482,46 @@ table a {
     border-right: 1px solid darkgray;
     border-left: 1px solid darkgray;
 }
+
+
+/*Overview Note */
+
+.overview-note-content {
+    width:100%;
+    padding:0 1em 1em 1em;
+    border: 1px rgb(161,70,10) solid;
+    
+}
+    .overview-table {
+        width:100%;
+        border-bottom:1px lightgrey solid;
+    }
+    .overview-table th {
+        border:1px lightgrey solid;
+        padding: .25em .75em;
+    }
+    .overview-table td {
+        border-left: 1px lightgrey solid;
+        border-right: 1px lightgrey solid;
+        text-align:left;
+        padding: .25em .5em;
+
+    }
+
+    .mobile-overview-table {
+            width:99%;
+            border-bottom: 1px lightgrey solid;
+        }
+        .mobile-overview-table th {
+            border: 1px lightgrey solid;
+            padding: .25em .75em;
+        }
+        .mobile-overview-table td {
+            border-left: 1px lightgrey solid;
+            border-right: 1px lightgrey solid;
+            text-align:left;
+            
+        }
 
 /*end of table stuff */
 
