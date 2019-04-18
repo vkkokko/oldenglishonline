@@ -303,9 +303,10 @@ nav {
 
 .card {
     text-align:center;
-    background-color:#eee;
+    border:#eee 2px solid;
     color:black;
     border-radius:5px;
+    transition: box-shadow .3s;
 }
 
 .card img {
@@ -347,6 +348,10 @@ nav {
     border-bottom: solid 3px rgb(161,70,10);  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
+    }
+
+    .card:hover {
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
     }
 
 .card:hover h3:after { 
