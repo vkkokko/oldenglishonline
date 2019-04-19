@@ -288,6 +288,10 @@ nav {
 }
 
 
+.logo img {
+    height:35px;
+}
+
 .logo a,
 .logo a:hover {
     text-decoration: none;
@@ -296,6 +300,8 @@ nav {
 
 .card-row {
     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width:100%;
     align-content: space-between;
     margin:0;
@@ -303,7 +309,6 @@ nav {
 
 .card {
     text-align:center;
-    border:#eee 2px solid;
     color:black;
     border-radius:5px;
     transition: box-shadow .3s;
@@ -312,7 +317,7 @@ nav {
 .card img {
     width:100%;
     overflow:hidden;
-    border-radius:5px;
+    border-radius:5px 5px 0 0;
     height:300px;
 }
 
@@ -322,6 +327,7 @@ nav {
     flex: 1;
     height:100%;
 }
+
 .card-wrapper a,
 .card-wrapper a:hover {
     text-decoration:none;
@@ -331,15 +337,17 @@ nav {
 
 .card-content {
     padding:.25em 2em 1em 2em;
-    font-size:1.2em;
+    font-size:1.175em;
     line-height:1.5em;
+    border-left:rgb(161,70,10, .5) 2px solid;
+    border-right: rgb(161,70,10, .5) 2px solid;
+    border-bottom:rgb(161,70,10, .5) 2px solid;
 }
 
 .card-title {
     font-weight:bold;
-    font-size:1.25em;
+    font-size:1.2em;
 }
-
 
 .card-row h3:after {
     display:block;
