@@ -8,9 +8,9 @@ body {
     min-height: 100%;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size:18px;
-    background-color:#fbfbfb;
+    background-color:#f8f8f8;
     line-height:1.6;
-    padding-bottom:1.5em;
+    padding-bottom:3.5em;
 }
 
 body p,
@@ -32,7 +32,7 @@ footer {
     width:100%;
     padding: 1.5em 0;
     color: white;
-    font-size:14px;
+    font-size:15px;
     text-align: center;
     }
 
@@ -40,7 +40,7 @@ footer a,
 footer a:visited,
 main li > a
  {
-    color:rgb(200,100,50);
+    color:#F7882F;
 }
 
 main a:hover,
@@ -56,9 +56,6 @@ main li a:active,
 {
     color:rgb(161,70,10);
 }
-
-
-
 
 abbr {
     font-style:italic;
@@ -81,7 +78,7 @@ abbr {
 }
 
 .lightorange-text {
-    color:rgb(200,100,50);
+    color:#F7882F;
 }
 
 .peach-text {
@@ -253,15 +250,8 @@ abbr {
 /* Navigation */
 
 nav {
-    padding:.25em;
-}
-
-#navline nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     font-size:18px;
+    padding:.25em;
 }
 
 .navelement {
@@ -299,11 +289,7 @@ nav {
 }
 
 .card-row {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width:100%;
-    align-content: space-between;
     margin:0;
 }
 
@@ -324,7 +310,6 @@ nav {
 .card-wrapper {
     text-decoration:none;
     color:#eee;
-    flex: 1;
     height:100%;
 }
 
@@ -339,9 +324,9 @@ nav {
     padding:.25em 2em 1em 2em;
     font-size:1.175em;
     line-height:1.5em;
-    border-left:rgb(161,70,10, .5) 2px solid;
-    border-right: rgb(161,70,10, .5) 2px solid;
-    border-bottom:rgb(161,70,10, .5) 2px solid;
+    border-left:2px solid rgb(161,70,10, .5);
+    border-right: 2px solid rgb(161,70,10, .5);
+    border-bottom:2px solid rgb(161,70,10, .5);
 }
 
 .card-title {
@@ -359,7 +344,11 @@ nav {
     }
 
     .card:hover {
-        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);    
     }
 
 .card:hover h3:after { 
@@ -462,7 +451,7 @@ nav {
         border: 0;
         background: none;
         box-shadow: none;
-        border-radius: 0px;
+        border-radius: 0;
         font-weight:bold;
         padding:0;
 }
@@ -582,7 +571,6 @@ table a {
         border-right: 1px lightgrey solid;
         text-align:left;
         padding: .5em;
-
     }
 
     .mobile-overview-table {
@@ -619,22 +607,25 @@ table a {
     content:"Incorrect: ";
 }
 
-hr.border {
+/*line styles*/
+.border {
 	height: 6px;
 	background: url('../images/hr-11.png') repeat-x 0 0;
     border: 0;
 }
 
-hr.line {
+.line {
     border-top: 3px double rgb(200,100,50);
     margin: 0;
     padding: 0;
     padding-bottom: .75em;
 }
 
+/*breadcrumb*/
+
 .breadcrumb {
-    padding: 0px;
-    margin-bottom:0px;
+    padding: 0;
+    margin-bottom:0;
     font-size:14px;
     background-color:none;
 }
@@ -673,23 +664,7 @@ hr.line {
      color:black;
  }
 
-
-/* images on homepage page*/
-.grayscale {
-    filter: gray;
-    -webkit-filter: grayscale(1); 
-    -webkit-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;   /*both webkit and transition included for compatibility*/
-}
-/*This black and white transition effect was gotten from https://codepen.io/jahid-webdev/pen/JRPvBj */
-
-.grayscale:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
 .user-input {
-    width: 95px;
     text-align:center;
     display:inline;
     border-width:2px;
@@ -707,7 +682,6 @@ hr.line {
     #mainwrapper {
         margin:1em;
         padding-top:0;
-        font-size:1.5rem;
     }
 
     .big-text {
@@ -751,6 +725,15 @@ hr.line {
       width: 100%;
       height: auto;
     }
+
+    .left-card {
+        padding-left:15px;
+    }
+
+    .right-card {
+        padding-right:15px;
+    }
+    
 }
 
 /* tweaks */
