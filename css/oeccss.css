@@ -529,7 +529,7 @@ nav {
     /* Place the container to the left */
     .timeline-left {
         left: 0;
-        top: -150px;
+        top: -200px;
     }
     
     .timeline-left:first-of-type {
@@ -538,7 +538,7 @@ nav {
     /* Place the container to the right */
     .timeline-right {
         left: 50%;
-        top: -50px;
+        top: -100px;
     }
 
             
@@ -891,7 +891,35 @@ table a {
     .right-card {
         padding-right:15px;
     }
-    
+
+    .timeline::after {
+        left: 31px;
+        }
+        
+        /* Full-width containers */
+        .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        }
+        
+        /* Make sure that all arrows are pointing leftwards */
+        .timeline-container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+        }
+      
+        /* Make sure all circles are at the same spot */
+        .left::after, .right::after {
+        left: 15px;
+        }
+        
+        /* Make all right containers behave like the left ones */
+        .right {
+        left: 0%;
+        }
 }
 
 /* tweaks */
