@@ -529,11 +529,16 @@ nav {
     /* Place the container to the left */
     .timeline-left {
         left: 0;
+        top: -150px;
     }
     
+    .timeline-left:first-of-type {
+        top:0;
+    }
     /* Place the container to the right */
     .timeline-right {
         left: 50%;
+        top: -50px;
     }
 
             
