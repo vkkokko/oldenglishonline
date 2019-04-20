@@ -506,9 +506,9 @@ nav {
         padding: 10px 40px;
         position: relative;
         width: 50%;
-      }
+    }
 
-     /* The circles on the timeline */
+    /* The circles on the timeline */
     .timeline-container::after {
         content: '';
         position: absolute;
@@ -892,6 +892,9 @@ table a {
         padding-right:15px;
     }
 
+    /*responsive timeline styles*/
+
+    /* Place the timeline to the left */
     .timeline::after {
         left: 31px;
         }
@@ -901,6 +904,7 @@ table a {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
+        margin-top:6em;
         }
         
         /* Make sure that all arrows are pointing leftwards */
@@ -908,16 +912,16 @@ table a {
         left: 60px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
+        border-color: transparent #FF9F55 transparent transparent;
         }
       
         /* Make sure all circles are at the same spot */
-        .left::after, .right::after {
-        left: 15px;
+        .timeline-left::after, .timeline-right::after {
+        left: 18px;
         }
         
         /* Make all right containers behave like the left ones */
-        .right {
+        .timeline-right {
         left: 0%;
         }
 }
