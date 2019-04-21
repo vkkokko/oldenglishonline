@@ -529,7 +529,6 @@ nav {
     /* Place the container to the left */
     .timeline-left {
         left: 0;
-        top: -200px;
     }
     
     .timeline-left:first-of-type {
@@ -538,23 +537,54 @@ nav {
     /* Place the container to the right */
     .timeline-right {
         left: 50%;
+    }
+
+    .timeline-six-high {
         top: -100px;
     }
 
-            
-        /* Add arrows to the left container (pointing right) */
-        .timeline-left::before {
-            content: " ";
-            height: 0;
-            position: absolute;
-            top: 22px;
-            width: 0;
-            z-index: 1;
-            right: 30px;
-            border: medium solid #FF9F55;
-            border-width: 10px 0 10px 10px;
-            border-color: transparent transparent transparent #FF9F55;
-        }
+    .timeline-seven-high {
+        top: -200px;
+    }
+
+    .timeline-eight-high {
+        top: -300px;
+    }
+
+    .timeline-nine-high {
+        top: -400px;
+    }
+    
+    .timeline-ten-high {
+        top: -500px;
+    }
+
+    .timeline-eleven-high {
+        top: -600px;
+    }
+
+    .timeline-twelve-high {
+        top: -700px;
+    }
+    
+    .timeline-thirteen-high {
+        top: -800px;
+    }
+
+
+    /* Add arrows to the left container (pointing right) */
+    .timeline-left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid #FF9F55;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent #FF9F55;
+    }
         
         /* Add arrows to the right container (pointing left) */
         .timeline-right::before {
@@ -608,7 +638,16 @@ nav {
         blockquote {
             border-left:0;
             padding-left:1em;
-            padding:0 .5em;
+            padding: 0 .5em;
+            margin-bottom:0;
+        }
+
+        cite {
+            display:block;
+            color:#444;
+            font-style:italic;
+            text-align: right; 
+            padding-right: 1.5em;           
         }
 
         .quote::before {
