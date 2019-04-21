@@ -474,21 +474,22 @@ nav {
 
 /* Time Line */
 
-/* The actual timeline (the vertical ruler) */
+/* The container for the whole timeline */
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.timeline h2 {
-    margin:0;
-    padding:.5em;
-    background:#FF9F55;
-    border-radius: 5px 5px 0 0;
-    color:white;
-    text-align:center;
-}
+    /* timeline header box */
+    .timeline h2 {
+        margin:0;
+        padding:.5em;
+        background:#FF9F55;
+        border-radius: 5px 5px 0 0;
+        color:white;
+        text-align:center;
+    }
 
     /* The actual timeline (the vertical ruler) */
     .timeline::after {
@@ -500,6 +501,7 @@ nav {
         bottom: 0;
         left: 50%;
         margin-left: -3px;
+        height:85%;
     }
 
     .timeline-container {
@@ -522,11 +524,13 @@ nav {
         z-index: 1;
     }
 
+    /* makes the centre of the circle orange when the box is hovered */
+
     .timeline-container:hover::after {
         background-color: #FF9F55;
     }
 
-    /* Place the container to the left */
+    /* Place the box on the left */
     .timeline-left {
         left: 0;
     }
@@ -534,11 +538,12 @@ nav {
     .timeline-left:first-of-type {
         top:0;
     }
-    /* Place the container to the right */
+    /* Place the box on the right */
     .timeline-right {
         left: 50%;
     }
 
+    /* Top positioning so the divs overlap */
     .timeline-six-high {
         top: -100px;
     }
@@ -570,7 +575,6 @@ nav {
     .timeline-thirteen-high {
         top: -800px;
     }
-
 
     /* Add arrows to the left container (pointing right) */
     .timeline-left::before {
@@ -624,15 +628,6 @@ nav {
             -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);        
         }
-
-        /*making it bigger */
-        .grow { 
-            transition: all .2s ease-in-out; 
-            }
-             
-        .grow:hover { 
-            transform: scale(1.1); 
-            }
         
         /*timeline quote */
         blockquote {
