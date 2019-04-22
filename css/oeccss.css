@@ -479,6 +479,7 @@ nav {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom:100px;
 }
 
     /* timeline header box */
@@ -501,13 +502,13 @@ nav {
         bottom: 0;
         left: 50%;
         margin-left: -3px;
-        height:85%;
     }
 
     .timeline-container {
         padding: 10px 40px;
         position: relative;
         width: 50%;
+        margin-bottom: -100px;
     }
 
     /* The circles on the timeline */
@@ -542,8 +543,7 @@ nav {
     .timeline-right {
         left: 50%;
     }
-
-    /* Top positioning so the divs overlap */
+/*
     .timeline-six-high {
         top: -100px;
     }
@@ -575,6 +575,7 @@ nav {
     .timeline-thirteen-high {
         top: -800px;
     }
+    */
 
     /* Add arrows to the left container (pointing right) */
     .timeline-left::before {
