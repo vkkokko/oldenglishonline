@@ -1,2 +1,2 @@
-# MA
-This digital artifact was created in partial fulfillment of the requirements for the MA in Digital Arts and Humanities at University College Cork. 
+# Old English Online
+This is an online learning platform for teaching Old English.
