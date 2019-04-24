@@ -464,6 +464,10 @@ nav {
         padding:0;
 }
 
+.audio-button i {
+    padding-left:.25em;
+}
+
     .audio-button:hover {
         text-decoration:underline;
     }
