@@ -906,6 +906,14 @@ table a {
         padding-right:15px;
     }
 
+    .card img {
+        height:100%;
+    }
+
+    .card-content h3 {
+        border-bottom: double 3px rgb(200,100,50);  
+    }
+
     /*responsive timeline styles*/
 
     /* Place the timeline to the left */
