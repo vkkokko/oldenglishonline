@@ -477,8 +477,23 @@ nav {
 }
 
 /* Phonetic pages*/
+
+.phonetic-contianer {
+    max-width:100%;
+    padding-top:.5em;
+}
 .phonetic-name {
     padding:.5em .75em;
+}
+
+.phonetic-eg-word {
+    transform: rotate(270deg);
+    padding:.5em 0;
+}
+
+#face {
+    max-width:45%;
+    padding-top:1em;
 }
 
 /* Time Line */
