@@ -866,6 +866,14 @@ table a {
         text-shadow: -1px 0 0 #000000, 1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000;
     }
 
+    nav {
+        text-align:center;
+    }
+
+    .navelement a {
+        padding: .66em 1em;
+    }
+
     #mainwrapper {
         margin:1em;
         padding-top:0;
@@ -955,7 +963,7 @@ table a {
         left: 60px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
-        border-color: transparent #FF9F55 transparent transparent;
+        border-color: transparent #444 transparent transparent;
         }
       
     /* Make sure all circles are at the same spot */
