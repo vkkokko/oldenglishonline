@@ -250,6 +250,10 @@ abbr {
     margin:0;
 }
 
+.remove-padding {
+    padding:0;
+}
+
 /* Navigation */
 
 nav {
@@ -297,7 +301,6 @@ nav {
 }
 
 .card {
-    text-align:center;
     color:black;
     border-radius:5px;
     transition: box-shadow .3s;
@@ -307,7 +310,7 @@ nav {
     width:100%;
     overflow:hidden;
     border-radius:5px 5px 0 0;
-    height:300px;
+    height: 300px;
     border-left:1px solid #444;
     border-right: 1px solid #444;
     border-top:1px solid #444;
@@ -327,9 +330,9 @@ nav {
 }
 
 .card-content {
-    padding:.25em 2em 1em 2em;
+    padding: .75em 1.25em 1.25em 1.25em;
     background:white;
-    font-size:1.15em;
+    font-size:1.1em;
     line-height:1.5em;
     border-left:1px solid #444;
     border-right: 1px solid #444;
@@ -339,7 +342,7 @@ nav {
 
 .card-title {
     font-weight:bold;
-    font-size:1.2em;
+    padding-bottom:.25em;
 }
 
 .card-row h3:after {
@@ -369,6 +372,11 @@ nav {
 
     .right-card {
         padding-right:0;
+    }
+
+    .middle-card {
+        padding-left: .5em;
+        padding-right: .5em;
     }
 
 /* buttons */
@@ -678,6 +686,10 @@ table {
     border-left: 1px solid darkgray; 
 }
 
+.table-scroll-container {
+    overflow-x: scroll;
+}
+
 .tabbed-table td,
 .tabbed-table th {
     padding: .25em .5em;
@@ -933,8 +945,18 @@ table a {
         height:100%;
     }
 
+    .card-wrapper {
+        padding: .75em 0;
+    }
+
+    .card-content {
+        padding: .5em;
+        font-size:1em;
+    }
+
     .card-content h3 {
         border-bottom: double 3px rgb(200,100,50);  
+        padding-bottom: .5em;
     }
 
     /*responsive timeline styles*/
