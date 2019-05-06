@@ -988,26 +988,26 @@ table a {
 
     /* Place the timeline to the left */
     .timeline::after {
-        left: 31px;
+        left: 15px;
     }
         
     /* Full-width containers */
     .timeline-container {
         width: 100%;
         padding:0;
-        padding-left: 70px;
+        padding-left: 40px;
         margin-bottom:0;
         padding-top: 15px;
     }
 
     /* Reduce padding inside the box*/
     .timeline-content {
-        padding: 20px;
+        padding: 1em 1.5em;
     }
         
     /* Make sure that all arrows are pointing leftwards */
     .timeline-container::before {
-        left: 60px;
+        left: 30px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
         border-color: transparent #444 transparent transparent;
@@ -1015,7 +1015,7 @@ table a {
       
     /* Make sure all circles are at the same spot */
     .timeline-left::after, .timeline-right::after {
-        left: 18px;
+        left: 2px;
         }
         
     /* Make all right containers behave like the left ones */
