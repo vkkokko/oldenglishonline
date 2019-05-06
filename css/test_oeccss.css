@@ -482,9 +482,6 @@ nav {
     padding-top:1em;
 }
 
-.phonetic-test {
-    padding:.5em;
-}
 
 /* Time Line */
 
@@ -940,7 +937,6 @@ table a {
         padding: .5em;
         font-size:1em;
         bottom:10px;
-
     }
 
     .card-content h3 {
