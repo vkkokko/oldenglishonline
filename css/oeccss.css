@@ -295,49 +295,31 @@ nav {
     color:white;
 }
 
+/* Cards on Homepage */
+
 .card-row {
-    width:100%;
     margin:0;
 }
 
-.card {
-    color:black;
-    border-radius:5px;
-    transition: box-shadow .3s;
-}
-
-.card img {
-    width:100%;
-    overflow:hidden;
-    border-radius:5px 5px 0 0;
-    height: 250px;
-    border-left:1px solid #444;
-    border-right: 1px solid #444;
-    border-top:1px solid #444;
-}
-
 .card-wrapper {
-    text-decoration:none;
-    color:#eee;
     height:100%;
+    padding-right:0;
+    padding-top:1em;
 }
 
-.card-wrapper a,
-.card-wrapper a:hover {
-    text-decoration:none;
-    color:#eee;
-    display:inline-block;
+.card {
+    padding-top:30em;
+    border-radius:5px;
 }
 
 .card-content {
-    padding: .75em 1.25em 1.25em 1.25em;
-    background:white;
+    padding: .5em 1.25em 1em 1.25em;
+    background:rgb(68, 68, 68, .85);
     font-size:1.1em;
     line-height:1.5em;
-    border-left:1px solid #444;
-    border-right: 1px solid #444;
-    border-bottom:1px solid #444;
-    border-radius: 0 0 5px 5px;
+    position: absolute;
+    bottom:0;
+    color:white;
 }
 
 .card-title {
@@ -345,39 +327,34 @@ nav {
     padding-bottom:.25em;
 }
 
-.card-row h3:after {
-    display:block;
-    content: '';
-    padding-top:.25em;
-    border-bottom: double 3px rgb(200,100,50);  
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-    }
+.left-card-image {
+    background-image: url(../images/card4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
 
-    .card:hover {
-        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-        -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-        -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-        -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);    
-    }
+.middle-card-image {
+    background-image: url(../images/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
 
-.card:hover h3:after { 
-      transform: scaleX(1); 
-    }
+.right-card-image {
+    background-image: url(../images/card6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
 
-    .left-card {
-        padding-left:0;
-    }
-
-    .right-card {
-        padding-right:0;
-    }
-
-    .middle-card {
-        padding-left: .5em;
-        padding-right: .5em;
-    }
+.card:hover {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);    
+}
 
 /* buttons */
 
@@ -507,7 +484,7 @@ nav {
 }
 
 #face {
-    max-width:50%;
+    max-width:45%;
     padding-top:1em;
 }
 
@@ -908,6 +885,12 @@ table a {
 /* Responsive Styles */
 
 @media screen and (max-width: 440px) {
+
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
     header h1 {
         font-size:1.5rem;
         margin-left: 0;
@@ -993,11 +976,7 @@ table a {
     .card-content {
         padding: .5em;
         font-size:1em;
-    }
-
-    .card-content h3 {
-        border-bottom: double 3px rgb(200,100,50);  
-        padding-bottom: .5em;
+        bottom:10px;
     }
 
     /*responsive timeline styles*/
