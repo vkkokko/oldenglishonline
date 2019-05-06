@@ -887,7 +887,7 @@ table a {
 
 @media screen and (max-width: 440px) {
 
-    .container {
+    .no-container-padding {
         padding-right: 0;
         padding-left: 0;
     }
