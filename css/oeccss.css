@@ -310,7 +310,7 @@ nav {
     width:100%;
     overflow:hidden;
     border-radius:5px 5px 0 0;
-    height: 300px;
+    height: 250px;
     border-left:1px solid #444;
     border-right: 1px solid #444;
     border-top:1px solid #444;
@@ -488,7 +488,8 @@ nav {
 
 .phonetic-contianer {
     max-width:100%;
-    padding-top:.5em;
+    padding-top:1em;
+    padding-bottom:.5em;
 }
 .phonetic-name {
     padding:.5em .75em;
@@ -499,9 +500,43 @@ nav {
     padding:.5em 0;
 }
 
+
+.phonetic-container small {
+    padding:.5em;
+    text-align:center;
+}
+
 #face {
-    max-width:45%;
+    max-width:50%;
     padding-top:1em;
+}
+
+.red-border {
+    border-bottom: 4px solid #ee1e1e;
+}
+
+.orange-border {
+    border-bottom: 4px solid #F7882F;
+}
+
+.yellow-border {
+    border-bottom: 4px solid #ffcd17;
+}
+
+.green-border {
+    border-bottom: 4px solid green;
+}
+
+.blue-border {
+    border-bottom: 4px solid #00BFA9;
+}
+
+.navy-border {
+    border-bottom: 4px solid #002c5a;
+}
+
+.purple-border {
+    border-bottom: 4px solid #800080;
 }
 
 /* Time Line */
@@ -686,10 +721,6 @@ table {
     border-left: 1px solid darkgray; 
 }
 
-.table-scroll-container {
-    overflow-x: scroll;
-}
-
 .tabbed-table td,
 .tabbed-table th {
     padding: .25em .5em;
@@ -731,6 +762,11 @@ table a {
 }
 
 /* Tabs styling */
+
+.nav>li>a {
+    padding: 5px 15px;
+}
+
 .nav>li.active>a, .nav>li.active>a:hover {
     color:rgb(200,100,50);
     border-top: 1px solid black;
@@ -902,6 +938,11 @@ table a {
     .grammar-table {
         font-size:1.2rem;
     }
+
+    
+.table-scroll-container {
+    overflow-x: scroll;
+}
     
     .four-tabs li {
         display:inline-block;
