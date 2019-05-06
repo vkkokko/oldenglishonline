@@ -980,6 +980,10 @@ table a {
         bottom:10px;
     }
 
+    #face {
+        max-width:100%;
+    }
+
     /*responsive timeline styles*/
 
     /* Place the timeline to the left */
