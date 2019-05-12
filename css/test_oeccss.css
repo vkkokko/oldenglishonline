@@ -482,140 +482,88 @@ nav {
     padding-top:1em;
 }
 
+/*timeline styles*/
 
-/* Time Line */
-
-/* The container for the whole timeline */
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom:100px;
+.timeline-container {
+    padding:0;
 }
 
-    /* timeline header box */
-    .timeline h2 {
-        margin:0;
-        padding:.5em;
-        background:#444;
-        border-radius: 5px 5px 0 0;
-        color:white;
-        text-align:center;
-    }
+.timeline-left {
+    border-right: 3px solid #444;
+    border-radius: 0 0 0 5px;
+    padding:1em;
+}
 
-    /* The actual timeline (the vertical ruler) */
-    .timeline::after {
-        content: '';
-        position: absolute;
-        width: 6px;
-        background-color: #444;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        margin-left: -3px;
-    }
+.timeline-right {
+    border-left: 3px solid #444;
+    border-radius: 0 0 5px 0;
+    padding:1em;
+}
 
-    .timeline-container {
-        padding: 10px 40px;
-        position: relative;
-        width: 50%;
-        margin-bottom: -130px;
-    }
+.timeline-right {
+    margin-left:-3px;
+}
 
-    /* The circles on the timeline */
-    .timeline-container::after {
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        right: -13px;
-        background-color: white;
-        border: 4px solid #444;
-        top: 15px;
-        border-radius: 50%;
-        z-index: 1;
-    }
+.timeline-header {
+    background-color:#444;
+    color:white;
+    padding:1em 2em;
+    border-radius: 5px 5px 0 0;
+}
 
-    /* makes the centre of the circle orange when the box is hovered */
+.timeline-content {
+    padding:1em 2em;
+    font-size:16px;
+    border:1px solid #444;
+    background-color:#fff;
+    border-radius: 0 0 5px 5px;
+}
 
-    .timeline-container:hover::after {
-        background-color: #FF9F55;
-    }
+.timeline-right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 34px;
+    width: 0;
+    z-index: 1;
+    left: 8px;
+    border: medium solid #444;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #444 transparent transparent;
+}
 
-    /* Place the box on the left */
-    .timeline-left {
-        left: 0;
-    }
-    
-    .timeline-left:first-of-type {
-        top:0;
-    }
-    /* Place the box on the right */
-    .timeline-right {
-        left: 50%;
-    }
+.timeline-image {
+    max-width:100%;
+    height:400px;
+}
 
-    /* Add arrows to the left container (pointing right) */
-    .timeline-left::before {
-        content: " ";
-        height: 0;
-        position: absolute;
-        top: 22px;
-        width: 0;
-        z-index: 1;
-        right: 30px;
-        border: medium solid #444;
-        border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent #444;
-    }
-        
-        /* Add arrows to the right container (pointing left) */
-        .timeline-right::before {
-            content: " ";
-            height: 0;
-            position: absolute;
-            top: 22px;
-            width: 0;
-            z-index: 1;
-            left: 30px;
-            border: medium solid #444;
-            border-width: 10px 10px 10px 0;
-            border-color: transparent #444 transparent transparent;
-        }
+.timeline-left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 34px;
+    width: 0;
+    z-index: 1;
+    right: 11px;
+    border: medium solid #444;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #444;
+}
 
-        /* Fix the circle for containers on the right side */
-        .timeline-right::after {
-            left: -13px;
-        }
+.timeline-alternate {
+    padding: 1em 2.5em;
+}
 
-        /* The actual content */
-        .timeline-content {
-            padding: 20px 30px;
-            background-color: white;
-            border: 1.5px solid #444;
-            position: relative;
-            border-radius: 0 0 5px 5px;
-            transition: box-shadow .2s;
-            font-size:16px;
-        }
-
-        /*box shadow on hover*/
-        .timeline-container:hover > .timeline-header,
-        .timeline-container:hover > .timeline-content {
-            -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-            -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-            -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-            -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);        
-        }
-        
         /*timeline quote */
         blockquote {
             border-left: 3px solid #FF9F55;
+            border-right: 3px solid #FF9F55;
+            color:#444;
             padding: 0 .5em;
             margin-bottom:0;
-            font-size:16px;
-            padding-left:1em;
+            font-size:15px;
+            padding-left:1.25em;
+            padding-right:1.25em;
         }
 
         cite {
@@ -625,21 +573,6 @@ nav {
             text-align: right; 
             padding-right: 1.5em;           
         }
-/* 
-        .quote::before {
-            content: "\201C";
-            color:#FF9A69;
-            font-size:1.25em;
-            font-weight:bold;
-        }
-
-        .quote::after {
-            content: "\201D";
-            color:#FF9A69;
-            font-size:1.25em;
-            font-weight:bold;
-        }
-        */
 
 
 /* main wrapper */

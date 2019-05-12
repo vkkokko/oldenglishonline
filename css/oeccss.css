@@ -211,10 +211,6 @@ abbr {
     display:inline-block;
 }
 
-.text-center {
-    text-align:center;
-}
-
 .no-text-decoration {
     text-decoration: none;
 }
@@ -659,21 +655,6 @@ nav {
             text-align: right; 
             padding-right: 1.5em;           
         }
-/* 
-        .quote::before {
-            content: "\201C";
-            color:#FF9A69;
-            font-size:1.25em;
-            font-weight:bold;
-        }
-
-        .quote::after {
-            content: "\201D";
-            color:#FF9A69;
-            font-size:1.25em;
-            font-weight:bold;
-        }
-        */
 
 
 /* main wrapper */
