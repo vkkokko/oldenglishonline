@@ -71,12 +71,6 @@
         "commonMistakes": []
     },
     {
-        "question": "Þæs (<em>word</em>) #### andgit is swa mon cweþe þingere, oþþe frefrend - the words of wisdom is so man says advocator or comforter",
-        "correctAnswer": "wordes",
-        "explanation":"Here 'word' is in the genitive sigular, so it takes the 'es' ending",
-        "commonMistakes": []
-    },
-    {
         "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð - through the bearing of a child without a man's embrace, that bride became great",
         "correctAnswer": "bearnes",
         "explanation":"Here 'bearn' is in the genitive sigular, so it takes the 'es' ending",
@@ -86,7 +80,12 @@
         "question": "Seo is sæd ærest (<em>wif</em>) #### in Norþanhymbra mægþe ðæt heo munuchade onfenge - She is said to have been one of the first women in Northumbria to have taken nun-hood",
         "correctAnswer": "wifa",
         "explanation":"Here 'wif' is in the genitive plural, so it takes the 'a' ending",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "wif",
+                "explanation":"Here 'wif' is in the genitive plural as she is 'one of the first', so it takes the 'a' ending"
+            }
+        ]
     },
     {
         "question": "On þis dæg, com þæs hæthenes (<em>god</em>) #### wigan - On that day, the warriors of the heathen gods came",
@@ -124,7 +123,13 @@
         "commonMistakes": []
     },
     {
-        "question": "He wolde geséean helle (<em>god</em>) #### - he would visit the gods of hell",
+        "question": "Ða godu fram Egiptum landum beoþ fremede ####  - The gods from Egypt are strange gods",
+        "correctAnswer": "godu",
+        "explanation":"Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wolde geseean helle (<em>god</em>) #### - he would visit the gods of hell",
         "correctAnswer": "godu",
         "explanation":"Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": []
@@ -145,7 +150,12 @@
         "question": "Se fæder wið-soc eall to his (<em>bearn</em>) #### - The father denied all to his child",
         "correctAnswer": "bearne",
         "explanation":"Here 'bearn' is the indirect object and singular, and so takes an 'e' ending",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "badAnswer": "bearn",
+                "explanation":"Here 'bearn' is the indirect object and singular, and so takes an 'e' ending. It is 'eall' which is the direct object"
+            }
+        ]
     },
     {
         "question": "And mon mot feohtan orwige gif he gemeteþ oðerne æt his æwum (<em>wif</em>) #### - And a man can fight without charge of homicide if he finds another with his lawful wife",
@@ -154,13 +164,19 @@
         "commonMistakes": []
     },
     {
-        "question": "We willaþ mid þam sceattum us to (<em>scip</em>) #### gangan - We wish to go to the ship with the treasure",
+        "question": "Seo cwen geaf þa boc to þæm #### - The queen gave the book to the woman",
+        "correctAnswer": "wife",
+        "explanation":"Here 'wif' is the indirect object and singular, and so takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "We willaþ mid þam sceattum us to þæm (<em>scip</em>) #### gangan - We wish to go to the ship with the treasure",
         "correctAnswer": "scipe",
         "explanation":"Here 'scip' is the indirect object and singular, and so takes an 'e' ending",
         "commonMistakes": []
     },
     {
-        "question": "He aerist scoop eorþan for his (<em>bearn</em>) #### = He first shaped the earth for his children",
+        "question": "He aerist scoop eorþan for his (<em>bearn</em>) #### - He first shaped the earth for his children",
         "correctAnswer": "bearnum",
         "explanation":"Here 'bearn' is the indirect object and plural, and so takes a 'um' ending",
         "commonMistakes": []
@@ -175,6 +191,12 @@
         "question": "Hie bædon to hiora (<em>god</em>) #### - They prayed to their gods",
         "correctAnswer": "godum",
         "explanation":"Here 'god' is the indirect object and plural, and so takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se here ferde to þæm #### - The army went to the ships",
+        "correctAnswer": "scipum",
+        "explanation":"Here 'scip' is the indirect object and plural, and so takes a 'um' ending",
         "commonMistakes": []
     }
 ]
