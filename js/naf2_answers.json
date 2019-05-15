@@ -55,25 +55,25 @@
     {
         "question": "Seo geofu wæs broht for ðære synne ðæs ærestan (<em>wif</em>) #### - The grace was brought for the sin of the first woman",
         "correctAnswer": "wifes",
-        "explanation":"Here 'wif' is in the genitive sigular, so it takes the 'es' ending",
+        "explanation":"Here 'wif' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
     },
     {
         "question": "He wæs hiora (<em>god</em>) #### preost - He was the priest of their god",
         "correctAnswer": "godes",
-        "explanation":"Here 'god' is in the genitive sigular, so it takes the 'es' ending",
+        "explanation":"Here 'god' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
     },
     {
         "question": "Þæs (<em>scip</em>) #### mæst geburnen - The ship's mast burned",
         "correctAnswer": "scipes",
-        "explanation":"Here 'scip' is in the genitive sigular, so it takes the 'es' ending",
+        "explanation":"Here 'scip' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
     },
     {
         "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð - through the bearing of a child without a man's embrace, that bride became great",
         "correctAnswer": "bearnes",
-        "explanation":"Here 'bearn' is in the genitive sigular, so it takes the 'es' ending",
+        "explanation":"Here 'bearn' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
     },
     {
