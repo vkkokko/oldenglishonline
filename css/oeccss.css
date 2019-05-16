@@ -310,6 +310,7 @@ nav {
 }
 
 .card-content {
+    border-radius: 0 0 5px 5px;
     padding: .5em 1.25em 1em 1.25em;
     background:rgb(68, 68, 68, .85);
     font-size:1.1em;
@@ -742,6 +743,11 @@ table a {
     border-left: 1px solid darkgray;
 }
 
+.table-cell-filler {
+    display:block;
+    text-align: center;
+    padding:0 1.5em;
+}
 
 /*Overview Note */
 
@@ -753,30 +759,30 @@ table a {
 }
     .overview-table {
         width:100%;
-        border-bottom:1px lightgrey solid;
+        border-bottom:1px darkgrey solid;
     }
     .overview-table th {
-        border:1px lightgrey solid;
+        border:1px darkgrey solid;
         padding: .25em .75em;
     }
     .overview-table td {
-        border-left: 1px lightgrey solid;
-        border-right: 1px lightgrey solid;
+        border-left: 1px darkgrey solid;
+        border-right: 1px darkgrey solid;
         text-align:left;
         padding: .5em;
     }
 
     .mobile-overview-table {
             width:99%;
-            border-bottom: 1px lightgrey solid;
+            border-bottom: 1px darkgrey solid;
         }
         .mobile-overview-table th {
-            border: 1px lightgrey solid;
+            border: 1px darkgrey solid;
             padding: .25em;
         }
         .mobile-overview-table td {
-            border-left: 1px lightgrey solid;
-            border-right: 1px lightgrey solid;
+            border-left: 1px darkgrey solid;
+            border-right: 1px darkgrey solid;
             padding: .25em;
             text-align:left;
             
