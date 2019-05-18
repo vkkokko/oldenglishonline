@@ -42,7 +42,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða (<em>ides</em>) #### sloh ðā wundenlocc þone fēondsceaðan - The women slew the wavy-haired fiend",
+        "question": "Ða (<em>ides</em>) #### sloh ða wundenlocc þone fēondsceaðan - The women slew the wavy-haired fiend",
         "correctAnswer": "idesa",
         "explanation":"Here 'ides' is the subject and plural, so it takes an 'a' ending",
         "commonMistakes": []
@@ -60,7 +60,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæra oðer wæs, þæs þe hie gewislicost gewitan meahton, (<em>ides</em) #### onlicnes - The second was, as far as they could be certain, in the form of a woman",
+        "question": "Ðæra oðer wæs, þæs þe hie gewislicost gewitan meahton, (<em>ides</em>) #### onlicnes - The second was, as far as they could be certain, in the form of a woman",
         "correctAnswer": "idese",
         "explanation":"Here 'ides' is in the posessive singular, so it takes an 'a' ending",
         "commonMistakes": []
