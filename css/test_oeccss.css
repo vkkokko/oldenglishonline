@@ -551,7 +551,7 @@ nav {
 }
 
 .timeline-alternate {
-    padding: 1em 2.5em;
+    padding: 1em 2em;
 }
 
         /*timeline quote */
@@ -562,8 +562,8 @@ nav {
             padding: 0 .5em;
             margin-bottom:0;
             font-size:15px;
-            padding-left:1.25em;
-            padding-right:1.25em;
+            padding-left:1em;
+            padding-right:1em;
         }
 
         cite {
@@ -573,6 +573,11 @@ nav {
             text-align: right; 
             padding-right: 1.5em;           
         }
+
+.fit-image {
+    max-width:90%;
+    max-height:80%;
+}
 
 
 /* main wrapper */
