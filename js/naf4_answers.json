@@ -42,7 +42,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða (<em>ides</em>) #### sloh ða wundenlocc þone fēondsceaðan - The women slew the wavy-haired fiend",
+        "question": "Ða (<em>ides</em>) #### sloh ða wundenlocc þone feondsceaðan - The women slew the wavy-haired fiend",
         "correctAnswer": "idesa",
         "explanation":"Here 'ides' is the subject and plural, so it takes an 'a' ending",
         "commonMistakes": []
@@ -60,13 +60,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæra oðer wæs, þæs þe hie gewislicost gewitan meahton, (<em>ides</em>) #### onlicnes - The second was, as far as they could be certain, in the form of a woman",
+        "question": "Ðæra oðer wæs (<em>ides</em) #### onlicnes - The other had a woman's likeness",
         "correctAnswer": "idese",
         "explanation":"Here 'ides' is in the posessive singular, so it takes an 'a' ending",
         "commonMistakes": []
     },
     {
-        "question": "He wæs on ðære (<em>cwen</em>) #### gewealdum - He was under the power of the queens",
+        "question": "He wæs on ðara (<em>cwen</em>) #### gewealdum - He was under the power of the queens",
         "correctAnswer": "cwena",
         "explanation":"Here 'cwen' is in the posessive plural, so it takes an 'a' ending",
         "commonMistakes": []
@@ -126,7 +126,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða comon ða weardas on ða (<em>ceaster</em>) #### - Then the keepers came into the city",
+        "question": "Ða comon ða weardas to þære (<em>ceaster</em>) #### - Then the keepers came into the city",
         "correctAnswer": "ceastre",
         "explanation":"Here 'ceaster' is an indirect object and singular, so it loses its second 'e' and takes an 'e' ending",
         "commonMistakes": []
@@ -138,7 +138,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðone hie ðære (<em>cwen</em>) #### agefon him - Then they gave him up to the queen",
+        "question": "Hie to ðære (<em>cwen</em>) #### agefon him - Then they gave him up to the queen",
         "correctAnswer": "cwene",
         "explanation":"Here 'cwen' is an indirect object and singular, so it takes an 'e' ending",
         "commonMistakes": []
