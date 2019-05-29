@@ -574,8 +574,12 @@ nav {
             padding-right: 1.5em;           
         }
 
+.timeline-map-box {
+    padding:0 1em 0 2em;
+}
+
 .fit-image {
-    max-width:90%;
+    max-width:100%;
     height:auto;
 }
 
