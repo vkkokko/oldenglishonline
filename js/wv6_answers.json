@@ -21,7 +21,7 @@
         ]
     },
     {
-        "question": "Swa <em>(secgan)</em> #### ðæs huses hlaforde - The lord of this house says so",
+        "question": "Swa <em>(secgan)</em> #### ðæs huses hlaford - The lord of this house says so",
         "correctAnswer": "secgað|secgaþ",
         "explanation": "Here 'secgan' is in the third person singular form '<em>secgað</em>' because the subject is 'the lord'",
         "commonMistakes": [
@@ -230,7 +230,7 @@
         ]
     },
     {
-        "question": "Ic <em>(timbrian)</em> #### setl ðín - I built your seat",
+        "question": "Ic <em>(timbrian)</em> #### setl ðin - I built your seat",
         "correctAnswer": "timbrode ",
         "explanation": "Here 'timbrian' is in the first person singular past form '<em>timbrode</em>' because the subject is 'I",
         "commonMistakes": [
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "question": "Ðes apostol Iacobus <em>(bodian)</em> #### on Iudéa lande - This apostle, Jacob, preached in the land of Judea",
+        "question": "Ðes apostol Iacobus <em>(bodian)</em> #### on Iudea lande - This apostle, Jacob, preached in the land of Judea",
         "correctAnswer": "bodode",
         "explanation": "Here 'bodian' is in the third person singular past form '<em>bodode</em>' because the subject is 'Jacob'",
         "commonMistakes": []
@@ -281,7 +281,7 @@
         ]
     },
     {
-        "question": "Ic <em>(gaderian)</em> #### ðyder eall ðæt me gewexen ys - I gather thither all that is grown by me",
+        "question": "Ic <em>(gaderian)</em> #### ðyder eall ðæt me gewexen is - I gather thither all that is grown by me",
         "correctAnswer": "gaderie",
         "explanation": "Here 'gaderian' is in the first person singular form '<em>gaderie</em>' because the subject is 'I'",
         "commonMistakes": [
@@ -397,7 +397,7 @@
         ]
     },
     {
-        "question": "Ymb Bethleem <em>(bodian)</em> #### englas ðæt acenned wæs Crist on eorþan - Angels announced about Bethlehem that Christ was born on earth",
+        "question": "Ymb Bethleem <em>(bodian)</em> #### englas ðæt acenned wæs Crist on eorþan - Angels announced throughout Bethlehem that Christ was born on earth",
         "correctAnswer": "bododon",
         "explanation": "Here 'bodian' is in the third person plural past form '<em>bododon</em>' because the subject is 'angels'",
         "commonMistakes": [
@@ -436,7 +436,7 @@
             ]
         },
         {
-            "question": "We <em>(l&aelig;ran)</em> #### Eald Englisc on &thorn;&aelig;m minstere - We teach Old English in the monastery",
+            "question": "We <em>(l&aelig;ran)</em> #### eald Englisc on &thorn;&aelig;m minstere - We teach Old English in the monastery",
             "correctAnswer": "l&aelig;ra&thorn;",
             "explanation": "Here 'l&aelig;ran' is in the first person plural form '<em>l&aelig;ra&thorn;</em>' as the subject is 'We'",
             "commonMistakes": []

@@ -48,7 +48,7 @@
         "commonMistakes": []
     },
     {
-        "question": "#### biscop wæs halig and eaþmod = The bishop was holy and humble",
+        "question": "#### biscop wæs halig and eaþmod - The bishop was holy and humble",
         "correctAnswer": "se",
         "explanation":"Here the demonstrative pronoun is 'se' because it is tied to the subject 'biscop'",
         "commonMistakes": []
@@ -66,19 +66,19 @@
         "commonMistakes": []
     },
     {
-        "question": "On þissum geare sende he þone ealdan biscop Wulfstan to #### stede þe genemened Readingum - On this year he sent the old Bishop Wulfstan to the placed that was called Reading",
+        "question": "On þissum geare sende he þone ealdan biscop Wulfstan to #### stede þe genemened Readingum - On this year he sent the old Bishop Wulfstan to the place that was called Reading",
         "correctAnswer": "þæm",
         "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to 'stede'. While 'stede' already ends in an e, making it hard to tell the case, it is after the preposition 'to' and indirectly receiving the action which makes it dative",
         "commonMistakes": []
     },
     {
-        "question": "#### biscopas came fram þæm tunum hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+        "question": "#### biscopas comon fram þæm tunum hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the subject 'biscop' which has the plural 'as' ending",
         "commonMistakes": []
     },
     {
-        "question": "Gaþ! Fliemaþ #### Englas and tibriaþ fela tuna on hiera landum - Go! Banish the English and build many towns on their land",
+        "question": "Gaþ! Fliemaþ #### Englas and timbriaþ fela tuna on hiera landum - Go! Banish the English and build many towns on their land",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to 'Englas' which has the plural 'as' ending and is the direct recipient of the verb 'fliemaþ'",
         "commonMistakes": []

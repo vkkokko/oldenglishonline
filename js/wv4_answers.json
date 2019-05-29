@@ -41,7 +41,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic <em>(timbrian)</em> #### setl ðín - I built your seat",
+        "question": "Ic <em>(timbrian)</em> #### setl ðin - I built your seat",
         "correctAnswer": "timbrode ",
         "explanation": "Here 'timbrian' is in the first person singular past form '<em>timbrode</em>' because the subject is 'I",
         "commonMistakes": [
@@ -58,7 +58,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðes apostol Iacobus <em>(bodian)</em> #### on Iudéa lande - This apostle, Jacob, preached in the land of Judea",
+        "question": "Ðes apostol Iacobus <em>(bodian)</em> #### on Iudea lande - This apostle, Jacob, preached in the land of Judea",
         "correctAnswer": "bodode",
         "explanation": "Here 'bodian' is in the third person singular past form '<em>bodode</em>' because the subject is 'Jacob'",
         "commonMistakes": []
@@ -82,7 +82,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic <em>(gaderian)</em> #### ðyder eall ðæt me gewexen ys - I gather thither all that is grown by me",
+        "question": "Ic <em>(gaderian)</em> #### ðyder eall ðæt me gewexen is - I gather thither all that is grown by me",
         "correctAnswer": "gaderie",
         "explanation": "Here 'gaderian' is in the first person singular form '<em>gaderie</em>' because the subject is 'I'",
         "commonMistakes": []
@@ -148,7 +148,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ymb Bethleem <em>(bodian)</em> #### englas ðæt acenned wæs Crist on eorþan - Angels announced about Bethlehem that Christ was born on earth",
+        "question": "Ymb Bethleem <em>(bodian)</em> #### englas ðæt acenned wæs Crist on eorþan - Angels announced throughout Bethlehem that Christ was born on earth",
         "correctAnswer": "bododon",
         "explanation": "Here 'bodian' is in the third person plural past form '<em>bododon</em>' because the subject is 'angels'",
         "commonMistakes": [

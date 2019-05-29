@@ -42,7 +42,7 @@
         "commonMistakes": []
     },
     {
-        "question": "To þæm (<i>cyning</i>) #### se biscop geaf beag — To the king, the bishop gives a ring",
+        "question": "To þæm (<i>cyning</i>) #### geaf se biscop beag — To the king, the bishop gives a ring",
         "correctAnswer": "cyninge",
         "explanation":"Here 'cyning' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending.",
         "commonMistakes": [
@@ -100,7 +100,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se biscop ferþ to þæm halige <em>(stede)</em> #### = The bishop goes to the holy place",
+        "question": "Se biscop ferþ to þæm halige <em>(stede)</em> #### - The bishop goes to the holy place",
         "correctAnswer": "stede",
         "explanation":"Here 'stede' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",        
         "commonMistakes": [
@@ -123,9 +123,9 @@
         "commonMistakes": []
     },
     {
-        "question": "þa biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+        "question": "þa biscopas comon fram þæm (<i>tun</i>) #### Londenum ond Readingum gehatan — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
-        "explanation":"Here 'tun' is not directly receiving the action of the verb 'came', so it is in the plural dative and thus takes the 'um' ending",        
+        "explanation":"Here 'tun' is not directly receiving the action of the verb 'comon', so it is in the plural dative and thus takes the 'um' ending",        
         "commonMistakes": []
     }
 ]

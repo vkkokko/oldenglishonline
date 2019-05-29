@@ -28,7 +28,7 @@
         ]
     },
     {
-        "question": "We <em>(l&aelig;ran)</em> #### Eald Englisc on &thorn;&aelig;m minstere - We teach Old English in the monastery",
+        "question": "We <em>(l&aelig;ran)</em> #### eald Englisc on &thorn;&aelig;m minstere - We teach Old English in the monastery",
         "correctAnswer": "l&aelig;ra&thorn;",
         "explanation": "Here 'l&aelig;ran' is in the first person plural form '<em>l&aelig;ra&thorn;</em>' as the subject is 'We'",
         "commonMistakes": []
