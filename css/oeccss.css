@@ -223,6 +223,14 @@ abbr {
     border-bottom: 2px solid
 }
 
+.margin-bottom-ten {
+    margin-bottom:10px;
+}
+
+.margin-left {
+    margin-left:20px;
+}
+
 .float-right {
     float:right;
 }
@@ -359,7 +367,6 @@ nav {
 .button {
     display: inline-block;
     padding: 6px 12px;
-    margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -383,7 +390,8 @@ nav {
 
 .light-button:hover,
 .light-button:active {
-    background-color:rgb(200,100,50)
+    background-color:rgb(200,100,50);
+    color: white;
 }
 
 .solid-button
