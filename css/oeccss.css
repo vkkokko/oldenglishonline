@@ -132,6 +132,14 @@ abbr {
     color:purple;
 }
 
+.lightpurple-text {
+color:#C8A2C8;
+}
+
+.lightpink-text {
+    color:lightpink;
+}
+
     /*backgrounds*/
 .darkgrey-bg {
     background-color:#444;
