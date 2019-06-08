@@ -194,7 +194,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se here ferde to þæm #### - The army went to the ships",
+        "question": "Se here ferde to þæm #### (<em>scip</em>) - The army went to the ships",
         "correctAnswer": "scipum",
         "explanation":"Here 'scip' is the indirect object and plural, and so takes a 'um' ending",
         "commonMistakes": []

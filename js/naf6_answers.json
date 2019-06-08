@@ -1,0 +1,197 @@
+[
+    {
+        "question": "Ðæt (<em>wite</em>) #### wæs strang - The punishment was strong",
+        "correctAnswer": "wite",
+        "explanation":"Here 'wite' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða halgan (<em>sawol</em>) #### sint undeaþlice and ece - The holy souls are undying and eternal",
+        "correctAnswer": "sawla",
+        "explanation":"Here 'sawol' is the subject and plural, so it loses its unstressed 'o' takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nilt ðu habban yfelan (<em>scoh</em>) #### - You do not want to have an evil shoe",
+        "correctAnswer": "scoh",
+        "explanation":"Here 'scoh' is masculine, the direct object and single, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie heora (<em>heafod</em>) #### slogan on ða wagas - They struck their heads against the walls",
+        "correctAnswer": "heafdu",
+        "explanation":"Here 'heafod' is neuter, the direct object and plural so it loses its unstressed 'o' and gains a u",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæs (<em>fugol</em>) #### flyht wæs dyrne and degol - The bird's flight was hidden and secret",
+        "correctAnswer": "fugles",
+        "explanation":"'Fugol' is masculine and here it is possessive and single so it loses its unstressed 'o' and gains an 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara (<em>wealh</em>) #### cyning slog monige menn - The King of the foreigners slew many men",
+        "correctAnswer": "weala",
+        "explanation":"'Wealh' is masculine and here it is the posessive plural, so it loses its 'h' and gains an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sume wæron mid iserne (<em>clawu</em>) #### totorene - Some were torn with an icy claw",
+        "correctAnswer": "clawe",
+        "explanation":"'Clawu' is feminine and here it is a singular, indirect object so it loses its final vowel, 'u', and gains an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "God ricsaþ on feower (<em>ende</em>) #### ðyses middangeardes - God rules in the four corners of the earth",
+        "correctAnswer": "endum",
+        "explanation":"Here 'ende' is an indirect object and plural, so it loses its final vowel, 'e', and gains a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Godes (<em>engel</em>) #### stod on emn him - God's angel stood before him",
+        "correctAnswer": "engel",
+        "explanation":"Here 'engel' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He bletsode ða adrife (<em>fæt</em>) #### ond ða beagas - He blessed the engraved cups and the rings",
+        "correctAnswer": "fatu",
+        "explanation":"'Fæt' is neuter and here it is the direct object and plural, so its 'æ' changes to 'a' and it gains the 'u' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He waes on ðæs (<em>hwæl</em>) #### innoþe - He was in the whale's innards",
+        "correctAnswer": "hwæles",
+        "explanation":"Here 'hwæl' is in the possessive singular and so gains the 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Her sindon nigon (<em>engel</em>) #### werod - Here are nine hosts of angels",
+        "correctAnswer": "engla",
+        "explanation":"Here 'engel' is in the posessive plural and so loses its unstressed 'e' and gains an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie coman on ðrim ceolum hider to Brytene on ðam (<em>stede</em>) #### Heopwines fleot - He came on three ships to Britain to the place called Heopwines fleet",
+        "correctAnswer": "stede",
+        "explanation":"Here 'stede' is an indirect object and singular, so it takes an 'e' ending. Since it already ends in 'e', and since end-vowels are dropped before a suffix, this makes it look like the word does not change",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wealdeþ sidum (<em>rice</em>) #### - He rules broad kingdoms",
+        "correctAnswer": "ricum",
+        "explanation":"Here 'rice' is in the posessive plural and so loses its end-vowel and gains the 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo (<em>sceadu</em>) #### byþ to underne seofon and twentigoþan healfes fotes - The shadow is twenty-seven and a half feet at 9am",
+        "correctAnswer": "sceadu",
+        "explanation":"Here 'sceadu' is the subject and singular and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu eart eallra þinga fruma and (<em>ende</em>) #### - You are the beginning and end of all things",
+        "correctAnswer": "ende",
+        "explanation":"Here 'ende' is the direct object and singular and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "We habbaþ eowre (<em>scoh</em>) #### on eowrum fotum - We have our shoes on our feet",
+        "correctAnswer": "scos",
+        "explanation":"'Scoh' is masculine and here it is the direct object and plural so it should take an 'as' ending. Since it ends in 'h', it loses the 'h' and the unstressed vowel of the suffix when declined",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo ydelnes is ðære (<em>sawol</em>) #### feond - Idleness is the soul's enemy",
+        "correctAnswer": "sawle",
+        "explanation":"Here 'sawol' is in the posessive signular, so it loses its unstressed 'o' and gains the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "671 Her wæs ðæt micle (<em>fugol</em>) #### wæl - 671AD: here was the great slaughter of birds",
+        "correctAnswer": "fugla",
+        "explanation":"Here 'fugol' is in the possessive plural, so it loses its unstressed 'o' and gains the 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "We sceolon fyligan urum (<em>heafod</em>) #### - We should follow our heads",
+        "correctAnswer": "heafde",
+        "explanation":"Here 'heafod' is an indirect object and singular, so it loses its unstressed 'o' and gains the 'e' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "heafod",
+                "explanation":"Here 'heafod' is an indirect object, not direct object, as the heads are not being directly acted upon. This means it takes the dative singular 'e' ending"
+            }
+        ]
+    },
+    {
+        "question": "Heo wæs to manegum (<em>wite</em>) #### geworht - She was put to many tortures",
+        "correctAnswer": "witum",
+        "explanation":"Here 'wite' is an indirect object and plural, so it loses its end-vowel and takes the 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hira (<em>clawu</em>) #### todælede beoþ - Their hooves are divided",
+        "correctAnswer": "clawa",
+        "explanation":"Here 'clawu' is the subject and plural so it loses its end-vowel and gains the 'a' ending",
+        "commonMistakes": [
+            {
+                "badAnswer": "clawas",
+                "explanation":"'Clawu', like most words ending in 'u', is feminine, not masculine, so it takes the nominative plural 'a' ending"
+            }
+        ]
+    },
+    {
+        "question": "He gewanode his (<em>feoh</em>) #### and geihte his rihtwisnysse - He dimished his wealth and increased his righteousness",
+        "correctAnswer": "feoh",
+        "explanation":"'Feoh' is neuter and here it is the direct object and singular, so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wilt ðu fon (<em>hwæl</em>) ####? - Will you hunt whales?",
+        "correctAnswer": "hwalas",
+        "explanation":"Here 'hwæl' is the direct object and plural so its 'æ' changes to 'a' and it gains the 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic þe þa faehðe leanige (<em>feoh</em>) #### ond ealdgestreonum, swa ic aer dyde - For the feud, I would reward you with wealth and old treasures, as I did before",
+        "correctAnswer": "feo",
+        "explanation":"Here 'feoh' is the indect object and singular so it loses its 'h'. It should take an 'e' ending but since it is an unstressed vowel, it takes no ending",
+        "commonMistakes": [
+            {
+                "badAnswer":"feoe",
+                "explanation":"Here 'feoh' is the indect object and singular so it should take an 'e' ending, but since you drop the unstressed vowel along with the 'h', it takes no ending",
+            }
+        ]
+    },
+    {
+        "question": "Ða hie sæton þara ond innan Ionan tu winter on þam twam (<em>stede</em>) #### - Then settled there and on the Yonne, two winters in those two places",
+        "correctAnswer": "stedum",
+        "explanation":"Here 'stede' is an indirect object and plural and so it drops its end-vowel and takes the 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se (<em>stede</em>) #### is halig ðe ðu on stenst - The place where you stand is holy ",
+        "correctAnswer": "stede",
+        "explanation":"Here 'stede' is the subject and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>engel</em>) #### God worhte, ða sind gastas, and nabbaþ nænne lichaman  - God created angels, which are spirits and have no body",
+        "correctAnswer": "englas",
+        "explanation":"'Engel' is masculine and here it is the direct object, so it loses its unstressed 'e' and gains an 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Eall Italia (<em>rice</em>) #### þæt betwux þam muntum ond Sicilia þam ealonde in anwald gerehton - All the kingdom of Italy that is between the mountains and the island of Sicily were subjugated",
+        "correctAnswer": "rice",
+        "explanation":"Here 'rice' is an indirect object and singular. Since it loses its end-vowel and gains an 'e', it looks like it does not gain an ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic nu gange on midde þa (<em>sceadu</em>) #### deaðes, ne ondræde ic me nan yfel, forþam þu byst mid me - Though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me",
+        "correctAnswer": "sceade",
+        "explanation":"Here 'sceadu' is an indirect object and singular, so it loses its end-vowel and gains the 'e' ending",
+        "commonMistakes": []
+    }
+]

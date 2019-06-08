@@ -1,11 +1,12 @@
 let $lastActive;
 
 $(document).ready(function () {
-    let $questionWrapper = $("#question-wrapper"); 				// This variable explains to jquery what to look for 
-    // in the HTML selectors. i.e. our question wrapper
+    let $questionWrapper = $("#question-wrapper"); // This variable explains to jquery what to look for in the HTML selectors. i.e. our question wrapper
+    const $container = $("#question-wrapper");
+    const filename = $container.data('question-file');
 
-    loadQuestionsInto($questionWrapper);			   			// This loads the question from the JSON file (called elsewhere), 
-    // into our wrapper.
+    loadQuestionsInto($container, filename); // This loads the question from the JSON file (called elsewhere), into our wrapper.
+
     $('.special-character').on('click', function (event) {
         event.preventDefault();                                 //this stops the button reloading the page
         if ($lastActive) { 						   			    // This Boolean checks to see if the last active input 
@@ -27,7 +28,7 @@ $('#hide-submit').click(function () {
     $(this).find('span').toggleClass('hide');
 });
 
-//I don't even know how this works at this point but this is the tooltip toggle. It closes other open tooltips.
+//This is the tooltip toggle. It also closes other open tooltips.
 $('.tooltip-header').each(function() {
     $(this).click(function() {
         
@@ -88,16 +89,24 @@ $('#submit').click(function () {
 // The below code is for the Try Again? button
 $('#again').click(function () {
     event.preventDefault();
+
+    let filename;
+    const $container = $("#question-wrapper");
+
+    if ($("#additionalbutton").hasClass("active")) {
+        filename = $("#additionalbutton").data('new-questions');
+    } else {
+        filename = $container.data('question-file');
+    } 
+
     $(this).addClass("hidden");
     $('#submit').removeClass("hidden");
-
-    loadQuestionsInto($("#question-wrapper"));
+      
+    loadQuestionsInto($container, filename);
 });
 
-function loadQuestionsInto($container) {                    // Now container=questionWrapper (where the questions are stored on the page)
-    let filename = $container.data('question-file');
-
-    $.getJSON(`js/${filename}?cache=` + Date.now())           // This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
+function loadQuestionsInto($container, filename) {                 // Now container=questionWrapper (where the questions are stored on the page)
+    $.getJSON(`js/${filename}?cache=` + Date.now())      // This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
 
         //If the file is successfully loaded this method is called
         .done(function (data) {
@@ -160,8 +169,31 @@ function checkAnswer(answerArray, userAnswer) {
     return wasUserCorrect;
 }
 
-// The audio elements
+// This is the code that makes the audio elements play
 $('.audio-button').on('click', function () {
     let audioElement = $(this).next('.audio-link').get(0);
     audioElement.play();
+});
+
+//The code for the Variant Noun button in the Strong Nouns module
+$('#additionalbutton').on('click', function() {
+    const $container = $("#question-wrapper");
+    const filename = $(this).data('new-questions');
+    loadQuestionsInto($container, filename);
+
+    $(this).removeClass("light-button").addClass("solid-button");
+    $('#basicbutton').removeClass("solid-button").addClass("light-button active");
+
+    $('#again').data('new-questions');
+});
+
+$('#basicbutton').on('click', function() {
+    const $container = $("#question-wrapper");
+    const filename = $(this).data('new-questions');
+    loadQuestionsInto($container, filename);
+
+    $(this).removeClass("light-button").addClass("solid-button");
+    $('#additionalbutton').removeClass("solid-button").addClass("light-button active");
+
+    $('#again').data('new-questions');
 });
