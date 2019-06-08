@@ -48,7 +48,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Heo ferde to þære (<em>cwen</em) #### broce ond fram þære cwene broce - she went to the Queen's brook and from the Queen's brook",
+        "question": "Heo ferde to þære (<em>cwen</em>) #### broce ond fram þære cwene broce - she went to the Queen's brook and from the Queen's brook",
         "correctAnswer": "cwene",
         "explanation":"Here 'cwen' is in the posessive singular, so it takes an 'e' ending",
         "commonMistakes": []
@@ -60,7 +60,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæra oðer wæs (<em>ides</em) #### onlicnes - The other had a woman's likeness",
+        "question": "Ðæra oðer wæs (<em>ides</em>) #### onlicnes - The other had a woman's likeness",
         "correctAnswer": "idese",
         "explanation":"Here 'ides' is in the posessive singular, so it takes an 'a' ending",
         "commonMistakes": []
