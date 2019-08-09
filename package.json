@@ -1,25 +1,38 @@
 {
   "name": "oelp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Old English Learning Project",
-  "main": "Cases_Answers.js",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "bootstrap": "^4.3.1",
+    "copyfiles": "^2.1.1",
+    "del": "^5.0.0",
+    "ejs": "^2.6.2",
+    "jquery": "^3.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "servor": "^2.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"http-server"
+    "start": "servor . index.html 8080"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vklester/OEC.git"
+    "url": "git+https://github.com/vklester/MA.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vklester/OEC/issues"
+  "author": {
+    "name": "Victoria Koivisto-Kokko"
   },
-  "homepage": "https://github.com/vklester/OEC#readme"
+  "contributors": [
+    {
+      "name": "Kristian Koivisto-Kokko",
+      "url": "https://pinkkis.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vklester/MA/issues"
+  },
+  "homepage": "https://github.com/vklester/MA#readme"
 }
