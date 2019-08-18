@@ -1,38 +1,42 @@
 {
-  "name": "oelp",
-  "version": "2.0.0",
-  "description": "Old English Learning Project",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "copyfiles": "^2.1.1",
-    "del": "^5.0.0",
-    "ejs": "^2.6.2",
-    "jquery": "^3.4.1"
-  },
-  "devDependencies": {
-    "servor": "^2.2.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "servor . index.html 8080"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vklester/MA.git"
-  },
-  "keywords": [],
-  "author": {
-    "name": "Victoria Koivisto-Kokko"
-  },
-  "contributors": [
-    {
-      "name": "Kristian Koivisto-Kokko",
-      "url": "https://pinkkis.com"
-    }
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vklester/MA/issues"
-  },
-  "homepage": "https://github.com/vklester/MA#readme"
+	"name": "oelp",
+	"version": "2.0.0",
+	"description": "Old English Learning Project",
+	"dependencies": {
+		"bootstrap": "^4.3.1",
+		"browser-sync": "^2.26.7",
+		"jquery": "^3.4.1"
+	},
+	"devDependencies": {
+		"del": "^5.0.0",
+		"eslint": "^6.1.0",
+		"esm": "^3.2.25",
+		"gulp": "^4.0.2",
+		"gulp-cli": "^2.2.0",
+		"gulp-ejs": "^4.1.1"
+	},
+	"scripts": {
+		"start": "",
+		"build": "npx gulp",
+		"clean": "npx gulp clean"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vklester/MA.git"
+	},
+	"keywords": [],
+	"author": {
+		"name": "Victoria Koivisto-Kokko"
+	},
+	"contributors": [
+		{
+			"name": "Kristian Koivisto-Kokko",
+			"url": "https://pinkkis.com"
+		}
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/vklester/MA/issues"
+	},
+	"homepage": "https://github.com/vklester/MA#readme"
 }
