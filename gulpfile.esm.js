@@ -81,5 +81,5 @@ const watchTemplate = () => gulp.watch(config.watch.template, gulp.series(render
 const watchAssets = () => gulp.watch(config.watch.assets, gulp.series(copyCSS, copyJS, copyData, bs_reload));
 
 export function watch(done) {
-	return gulp.parallel(bs_serve, watchTemplate, watchAssets)(done);
+	return gulp.parallel(build, bs_serve, watchTemplate, watchAssets)(done);
 }
