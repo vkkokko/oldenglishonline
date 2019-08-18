@@ -1,40 +1,46 @@
 /* eslint-disable */
 
-const path = require('path');
+import path from 'path';
 
-const distDir = './dist';
-const builDir = './build';
-const srcDir = './src';
+export const distDir = './docs';
+export const builDir = './build';
+export const srcDir = './src';
 
 export const config = {
-	build: {},
+	build: {
+		layouts: path.normalize(path.join(srcDir, 'layouts')) + '/*.ejs',
+		pages: path.normalize(path.join(srcDir, 'pages')),
+		partials: path.normalize(path.join(srcDir, 'partials')),
+	},
 	assets: {
 		js: [
 			'./node_modules/jquery/dist/jquery.min.js',
 			'./node_modules/bootstrap/dist/js/bootstrap.min.js',
+			`${path.normalize(srcDir)}/scripts/**/*.js`,
 		],
 		css: [
 			'./node_modules/bootstrap/dist/css/bootstrap.min.css',
+			`${path.normalize(srcDir)}/styles/**/*.css`
 		],
 		data: [
-			'./src/data/**/*'
+			`${path.normalize(srcDir)}/data/**/*`
 		],
 		assets: [
-			'./src/assets/**/*'
+			`${path.normalize(srcDir)}/assets/**/*`
 		]
 	},
 	dirs: {
-		'src': path.resolve(srcDir),
-		'dist': path.resolve(distDir),
-		'build': path.resolve('./build'),
+		src: path.normalize(srcDir),
+		dist: path.normalize(distDir),
+		build: path.normalize(builDir),
 
-		'scripts': path.resolve(distDir, 'scripts'),
-		'styles': path.resolve(distDir, 'styles'),
-		'data': path.resolve(distDir, 'data'),
-		'assets': path.resolve(distDir, 'assets')
+		scripts: path.normalize(path.join(distDir, 'scripts')),
+		styles: path.normalize(path.join(distDir, 'styles')),
+		data: path.normalize(path.join(distDir, 'data')),
+		assets: path.normalize(path.join(distDir, 'assets'))
 	},
 	watch: {
-		template: `${srcDir}/{layouts,pages,partials}/**/*.ejs`,
-		assets: `${srcDir}/{scripts,styles,data}/**/*`,
+		template: `${path.normalize(srcDir)}/{layouts,pages,partials}/**/*.ejs`,
+		assets: `${path.normalize(srcDir)}/{scripts,styles,data}/**/*`,
 	}
 };

@@ -4,21 +4,21 @@
 	"description": "Old English Learning Project",
 	"dependencies": {
 		"bootstrap": "^4.3.1",
-		"browser-sync": "^2.26.7",
 		"jquery": "^3.4.1"
 	},
 	"devDependencies": {
+		"browser-sync": "^2.26.7",
 		"del": "^5.0.0",
 		"eslint": "^6.1.0",
 		"esm": "^3.2.25",
 		"gulp": "^4.0.2",
-		"gulp-cli": "^2.2.0",
-		"gulp-ejs": "^4.1.1"
+		"gulp-ejs": "^4.1.1",
+		"gulp-rename": "^1.4.0"
 	},
 	"scripts": {
 		"start": "",
-		"build": "npx gulp",
-		"clean": "npx gulp clean"
+		"build": "gulp",
+		"clean": "gulp clean"
 	},
 	"repository": {
 		"type": "git",
