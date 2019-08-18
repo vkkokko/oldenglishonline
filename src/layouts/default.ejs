@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="<%- config.languageShort -%>">
+<html lang="<%= locals.site.languageShort -%>">
 	<head>
-		<%- await include('../partials/head') %>
+		<%- include('../partials/head') -%>
 	</head>
 	<body class="container-fluid">
-
-		<%- await include('../partials/page-footer') %>
-		<%- await include('../partials/page-scripts') %>
+		<%- locals.body -%>
+		<%- include('../partials/page-footer') -%>
+		<%- include('../partials/page-scripts') -%>
 	</body>
 </html>

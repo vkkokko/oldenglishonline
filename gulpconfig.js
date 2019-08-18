@@ -8,8 +8,8 @@ export const srcDir = './src';
 
 export const config = {
 	build: {
-		layouts: path.normalize(path.join(srcDir, 'layouts')) + '/*.ejs',
-		pages: path.normalize(path.join(srcDir, 'pages')),
+		layouts: path.normalize(path.join(srcDir, 'layouts')),
+		pages: path.normalize(path.join(srcDir, 'pages')) + '/{index,license}.ejs',
 		partials: path.normalize(path.join(srcDir, 'partials')),
 	},
 	assets: {

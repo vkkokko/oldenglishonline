@@ -2,7 +2,7 @@
 
 import gulp from 'gulp';
 import del from 'del';
-import ejs from 'gulp-ejs';
+import ejs from 'gulp-ejs-monster';
 import rename from 'gulp-rename';
 import browserSync from 'browser-sync';
 
@@ -28,12 +28,17 @@ export function build(done) {
 }
 
 // build EJS templates into site
-export function renderEJS(done) {
-	return gulp.src(config.build.layouts)
+export function renderEJS() {
+	return gulp.src(config.build.pages)
 		.pipe(
-			ejs({ config: siteconfig.config }, { async: true })
+			ejs({
+				showHistory: false,
+				showHistoryOnCrash: true,
+				locals: siteconfig,
+				layouts: config.build.layouts,
+			})
 		)
-		.pipe(rename({ extname: '.html'}))
+		// .pipe(rename({ extname: '.html'}))
 		.pipe(gulp.dest(config.dirs.dist));
 }
 

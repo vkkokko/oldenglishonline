@@ -12,7 +12,7 @@
 		"eslint": "^6.1.0",
 		"esm": "^3.2.25",
 		"gulp": "^4.0.2",
-		"gulp-ejs": "^4.1.1",
+		"gulp-ejs-monster": "^3.2.0",
 		"gulp-rename": "^1.4.0"
 	},
 	"scripts": {
