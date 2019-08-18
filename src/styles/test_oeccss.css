@@ -328,24 +328,24 @@ nav {
 }
 
 .left-card-image {
-    background-image: url(../images/card4.jpg);
+    background-image: url(../assets/images/card4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .middle-card-image {
-    background-image: url(../images/card1.png);
+    background-image: url(../assets/images/card1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .right-card-image {
-    background-image: url(../images/card6.png);
+    background-image: url(../assets/images/card6.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .card:hover {
@@ -353,7 +353,7 @@ nav {
     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /* buttons */
@@ -424,7 +424,7 @@ nav {
     width:100%;
     border:none;
     margin-bottom:.5em;
-} 
+}
 
 .card-link,
 .card-link:hover {
@@ -570,8 +570,8 @@ nav {
             display:block;
             color:#444;
             font-style:italic;
-            text-align: right; 
-            padding-right: 1.5em;           
+            text-align: right;
+            padding-right: 1.5em;
         }
 
 .timeline-map-box {
@@ -604,7 +604,7 @@ nav {
 table {
     border-collapse: collapse;
     background:lightgrey;
-    border-left: 1px solid darkgray; 
+    border-left: 1px solid darkgray;
 }
 
 .table-scroll-container {
@@ -680,7 +680,7 @@ table a {
     width:100%;
     padding:0 1em 1em 1em;
     border: 1px rgb(161,70,10) solid;
-    
+
 }
     .overview-table {
         width:100%;
@@ -710,7 +710,7 @@ table a {
             border-right: 1px lightgrey solid;
             padding: .25em;
             text-align:left;
-            
+
         }
 
 /*end of table stuff */
@@ -734,7 +734,7 @@ table a {
 /*line styles*/
 .border {
 	height: 6px;
-	background: url('../images/hr-11.png') repeat-x 0 0;
+	background: url('../assets/images/hr-11.png') repeat-x 0 0;
     border: 0;
 }
 
@@ -755,10 +755,10 @@ table a {
 }
 
 .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
-    content: none; } 
+    content: none; }
 .bc-icons-2 .breadcrumb-item.active {
     color:rgb(200,100,50);
- } 
+ }
 
  /* Module index*/
 
@@ -828,7 +828,7 @@ table a {
     .grammar-table {
         font-size:1.2rem;
     }
-    
+
     .four-tabs li {
         display:inline-block;
         width:24%;
@@ -882,7 +882,7 @@ table a {
     }
 
     .card-content h3 {
-        border-bottom: double 3px rgb(200,100,50);  
+        border-bottom: double 3px rgb(200,100,50);
         padding-bottom: .5em;
     }
 
@@ -892,7 +892,7 @@ table a {
     .timeline::after {
         left: 31px;
     }
-        
+
     /* Full-width containers */
     .timeline-container {
         width: 100%;
@@ -906,7 +906,7 @@ table a {
     .timeline-content {
         padding: 20px;
     }
-        
+
     /* Make sure that all arrows are pointing leftwards */
     .timeline-container::before {
         left: 60px;
@@ -914,12 +914,12 @@ table a {
         border-width: 10px 10px 10px 0;
         border-color: transparent #444 transparent transparent;
         }
-      
+
     /* Make sure all circles are at the same spot */
     .timeline-left::after, .timeline-right::after {
         left: 18px;
         }
-        
+
     /* Make all right containers behave like the left ones */
     .timeline-right {
         left: 0%;

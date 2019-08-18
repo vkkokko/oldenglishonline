@@ -3,7 +3,7 @@
 	"version": "2.0.0",
 	"description": "Old English Learning Project",
 	"dependencies": {
-		"bootstrap": "^4.3.1",
+		"bootstrap": "^3.4.1",
 		"jquery": "^3.4.1"
 	},
 	"devDependencies": {
@@ -16,8 +16,8 @@
 		"gulp-rename": "^1.4.0"
 	},
 	"scripts": {
-		"start": "",
-		"build": "gulp",
+		"start": "gulp watch",
+		"build": "gulp build",
 		"clean": "gulp clean"
 	},
 	"repository": {

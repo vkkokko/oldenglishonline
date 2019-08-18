@@ -342,24 +342,24 @@ nav {
 }
 
 .left-card-image {
-    background-image: url(../images/card4.jpg);
+    background-image: url(../assets/images/card4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .middle-card-image {
-    background-image: url(../images/card1.png);
+    background-image: url(../assets/images/card1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .right-card-image {
-    background-image: url(../images/card6.png);
+    background-image: url(../assets/images/card6.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 .card:hover {
@@ -367,7 +367,7 @@ nav {
     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /* buttons */
@@ -438,7 +438,7 @@ nav {
     width:100%;
     border:none;
     margin-bottom:.5em;
-} 
+}
 
 .card-link,
 .card-link:hover {
@@ -593,7 +593,7 @@ nav {
     .timeline-left {
         left: 0;
     }
-    
+
     .timeline-left:first-of-type {
         top:0;
     }
@@ -615,7 +615,7 @@ nav {
         border-width: 10px 0 10px 10px;
         border-color: transparent transparent transparent #444;
     }
-        
+
         /* Add arrows to the right container (pointing left) */
         .timeline-right::before {
             content: " ";
@@ -653,9 +653,9 @@ nav {
             -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
             -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
             -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);        
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
         }
-        
+
         /*timeline quote */
         blockquote {
             border-left: 3px solid #FF9F55;
@@ -669,8 +669,8 @@ nav {
             display:block;
             color:#444;
             font-style:italic;
-            text-align: right; 
-            padding-right: 1.5em;           
+            text-align: right;
+            padding-right: 1.5em;
         }
 
 
@@ -694,7 +694,7 @@ nav {
 table {
     border-collapse: collapse;
     background:lightgrey;
-    border-left: 1px solid darkgray; 
+    border-left: 1px solid darkgray;
 }
 
 .tabbed-table td,
@@ -771,7 +771,7 @@ table a {
     width:100%;
     padding:0 1em 1em 1em;
     border: 1px rgb(161,70,10) solid;
-    
+
 }
     .overview-table {
         width:100%;
@@ -801,7 +801,7 @@ table a {
             border-right: 1px darkgrey solid;
             padding: .25em;
             text-align:left;
-            
+
         }
 
 /*end of table stuff */
@@ -825,7 +825,7 @@ table a {
 /*line styles*/
 .border {
 	height: 6px;
-	background: url('../images/hr-11.png') repeat-x 0 0;
+	background: url('../assets/images/hr-11.png') repeat-x 0 0;
     border: 0;
 }
 
@@ -846,10 +846,10 @@ table a {
 }
 
 .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
-    content: none; } 
+    content: none; }
 .bc-icons-2 .breadcrumb-item.active {
     color:rgb(200,100,50);
- } 
+ }
 
  /* Module index*/
 
@@ -926,11 +926,11 @@ table a {
         font-size:1.2rem;
     }
 
-    
+
 .table-scroll-container {
     overflow-x: scroll;
 }
-    
+
     .four-tabs li {
         display:inline-block;
         width:24%;
@@ -993,7 +993,7 @@ table a {
     .timeline::after {
         left: 15px;
     }
-        
+
     /* Full-width containers */
     .timeline-container {
         width: 100%;
@@ -1007,7 +1007,7 @@ table a {
     .timeline-content {
         padding: 1em 1.5em;
     }
-        
+
     /* Make sure that all arrows are pointing leftwards */
     .timeline-container::before {
         left: 30px;
@@ -1015,12 +1015,12 @@ table a {
         border-width: 10px 10px 10px 0;
         border-color: transparent #444 transparent transparent;
         }
-      
+
     /* Make sure all circles are at the same spot */
     .timeline-left::after, .timeline-right::after {
         left: 2px;
         }
-        
+
     /* Make all right containers behave like the left ones */
     .timeline-right {
         left: 0%;

@@ -3,13 +3,12 @@
 import path from 'path';
 
 export const distDir = './docs';
-export const builDir = './build';
 export const srcDir = './src';
 
 export const config = {
 	build: {
 		layouts: path.normalize(path.join(srcDir, 'layouts')),
-		pages: path.normalize(path.join(srcDir, 'pages')) + '/{index,license}.ejs',
+		pages: path.normalize(path.join(srcDir, 'pages')) + '/*.ejs',
 		partials: path.normalize(path.join(srcDir, 'partials')),
 	},
 	assets: {
@@ -20,6 +19,7 @@ export const config = {
 		],
 		css: [
 			'./node_modules/bootstrap/dist/css/bootstrap.min.css',
+			'./node_modules/bootstrap/dist/css/bootstrap.min.css.map',
 			`${path.normalize(srcDir)}/styles/**/*.css`
 		],
 		data: [
@@ -32,7 +32,6 @@ export const config = {
 	dirs: {
 		src: path.normalize(srcDir),
 		dist: path.normalize(distDir),
-		build: path.normalize(builDir),
 
 		scripts: path.normalize(path.join(distDir, 'scripts')),
 		styles: path.normalize(path.join(distDir, 'styles')),
