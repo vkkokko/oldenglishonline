@@ -1,29 +1,16 @@
 /* eslint-disable */
-
 import gulp from 'gulp';
 import del from 'del';
 import ejs from 'gulp-ejs-monster';
-import rename from 'gulp-rename';
 import browserSync from 'browser-sync';
 
 import { config, distDir } from './gulpconfig';
 import * as siteconfig from './siteconfig.json';
 
-// default task
-export default function defaultTask(done) {
-	done();
-}
-
-export function conf(done) {
-	console.log(config);
-	console.log(siteconfig.config);
-	done();
-}
-
 // Clean build directories
 export const clean = () => del([distDir]);
 
-export function build(done) {
+export default function build(done) {
 	return gulp.series(clean, renderEJS, copy)(done);
 }
 
