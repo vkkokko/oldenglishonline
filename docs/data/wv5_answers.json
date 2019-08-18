@@ -1,0 +1,172 @@
+[
+    {
+        "question": "Ic <em>(habban)</em> #### ðe to secgenne sum þing - I have something to say",
+        "correctAnswer": "hæbbe",
+        "explanation": "Here 'habban' is in the first person singular form '<em>hæbbe</em>' because the subject is 'I'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu <em>(libban)</em> #### be godra manna ælmessan - You live by alms of good men",
+        "correctAnswer": "leofast",
+        "explanation": "Here 'libban' is in the second person singular form '<em>leofast</em>' because the subject is 'You",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "Swa <em>(secgan)</em> #### ðæs huses hlaforde - The lord of this house says so",
+        "correctAnswer": "secgað|secgaþ",
+        "explanation": "Here 'secgan' is in the third person singular form '<em>secgað</em>' because the subject is 'the lord'",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "<em>(hycgan)</em> #### his ealle hu ge hie beswicen - All think of this, how you may deceive them",
+        "correctAnswer": "hycgaþ|hycgað;",
+        "explanation": "Here 'hycgan' is in the plural form '<em>hycgað</em>' because the subject is 'all'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðis leoht we <em>(habban)</em> #### wið nytenu gemæne - This light we have in common with beasts",
+        "correctAnswer": "habbaþ|habbað",
+        "explanation": "Here 'habban' is in the plural form '<em>habbað</em>' because the subject is 'We'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie be urum larum <em>(libban)</em> #### - They live according to our instructions",
+        "correctAnswer": "libbaþ|libbað",
+        "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is 'They'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ðe orlæg <em>(secgan)</em> #### - I told thee thy fate",
+        "correctAnswer": "secgde ",
+        "explanation": "Here 'secgan' is in the first person singular form '<em>secgde</em>' because the subject is 'I",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu <em>(hycgan)</em> #### on ellen ac wærwyrde sceal wisfæst hæle breostum hycgan - You thought on valour, but a wise and cautious man holds his thoughts to his breast",
+        "correctAnswer": "hogdest",
+        "explanation": "Here 'hycgan' is in the second person singular past form '<em>hogdest</em>' because the subject is 'You'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Her <em>(habban)</em> #### se cyning his hired æt Gleaweceastre - On this year, the king had his court at Gloucester",
+        "correctAnswer": "hæfde",
+        "explanation": "Here 'habban' is in the third person singular past form '<em>hæfde</em>' because the subject is 'the king'",
+        "commonMistakes": [
+            {
+                "badAnswer": "hafde",
+                "explanation": "Close, but remember, 'habban' takes an 'æ' instead of an 'a' in all past tense conjugations"
+            }
+        ]
+    },
+    {
+        "question": "We ealne ðysne gear <em>(libban)</em> #### mid ures lichoman willan - we have lived all this year as it was pleasing to our body",
+        "correctAnswer": "lifdon",
+        "explanation": "Here 'libban' is in the plural form '<em>lifdon</em>' because the subject is 'We'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ge guilty synne <em>(secgan)</em> #### - You the guilty spoke sin",
+        "correctAnswer": "sægdon",
+        "explanation": "Here 'secgan' is in the plural past form '<em>sægdon</em>' because the subject is the plural 'You'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie <em>(hycgan)</em> #### inwit and facen on heortan geþoncum - They thought deceit and treachery with the thoughts of their heart",
+        "correctAnswer": "hogdon",
+        "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogdon</em>' because the subject is 'They'",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "Ic bi me <em>(secgan)</em> #### ðis sarspell - I tell this lament about myself",
+        "correctAnswer": "secge",
+        "explanation": "Here 'secgan' is in the first person singular form '<em>secge</em>' because the subject is 'I'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Æðelwulf his dohtor <em>(habban)</em> #### him to cuene - Ethelwulf had his daughter for his queen",
+        "correctAnswer": "hæfde",
+        "explanation": "Here 'habban' is in the third person singular form '<em>hæfde</em>' because the subject is 'Ethelwulf'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie <em>(habban)</em> #### hine mid heom oþ ðet hie ofslogon hine - They had him with them until they slew him",
+        "correctAnswer": "hæfdon",
+        "explanation": "Here 'habban' is in the plural form '<em>hæfdon</em>' because the subject is 'They'",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "For ðam ic lybbe and ge <em>(libban)</em> #### - Because I live, you live",
+        "correctAnswer": "libbaþ|libbað",
+        "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "Wynnum ond þeawum ic <em>(libban)</em> #### - I lived joyously and virutously",
+        "correctAnswer": "lifde",
+        "explanation": "Here 'libban' is in the first person past singular form '<em>lifde</em>' because the subject is 'I'",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "Heo <em>(hycgan)</em> #### georne ðæt hire mægþhad clæne geheolde - She earnestly intended to keep her maidenhood pure",
+        "correctAnswer": "hogde",
+        "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogde</em>' because the subject is 'She'",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "Ge <em>(habban)</em> #### us gedon laðe Pharaone - You have made us hateful to Pharoh",
+        "correctAnswer": "habbaþ|habbað",
+        "explanation": "Here 'habban' is in the plural form '<em>habbað</em>' because the subject is the plural 'You",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "Ðu me forlæred <em>(habban)</em> #### - You have seduced me",
+        "correctAnswer": "hæfst",
+        "explanation": "Here 'habban' is in the third person singular form '<em>hæfst</em>' because the subject is 'You'",
+        "commonMistakes": [
+            {
+                "badAnswer": "hæbbast|habbast|habast|hæbast|habst|hæbst",
+                "explanation": "Remember, the 'b' in 'habban' becomes an 'f' in the 2nd and 3rd singular present, and all past tense conjugations"
+            }
+        ]
+    }
+]
