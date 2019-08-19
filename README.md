@@ -20,5 +20,5 @@ From here, you can make edits to the templates, scripts and styles in the `/src/
 
 # License
 
-* Content [licensed](LICENSE.md) under Creative Commons: [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+* Content [licensed](LICENSE.md) under Creative Commons: [![License: CC BY-SA 3.0](https://img.shields.io/badge/License-CC%20BY--SA%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/3.0/)
 * Code [licensed](LICENSE.md) under MIT: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

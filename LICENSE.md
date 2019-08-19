@@ -1,3 +1,8 @@
+Content of site licensed under CC BY-SA 3.0 - https://creativecommons.org/licenses/by-sa/3.0/
+
+Code on the site licensed under the MIT license below.
+
+---
 
 The MIT License (MIT)
 
