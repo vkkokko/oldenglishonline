@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/oeccss.css">
 
-    <title>Old English Online - License Info</title>
+    <title>Old English Online - Page Title</title>
 </head>
 
 <body class="container-fluid">
@@ -58,14 +58,33 @@
     <main id="mainwrapper" class="container">
         <section class="row">
             <div class="col-12-sm">
-                <h1 class="remove-margin">Licensing and Copyright Information</h1><br>
-                <p>The project code is licensed under the MIT License. Copyright © 2019 - Victoria Koivisto-Kokko. All code is available publicly on <a class="darkorange-text" target="_blank" href="https://github.com/vklester/MA">Github</a>.</p>
-                <p>The project content (i.e. the textual content, quizzes, graphical organisers) is licensed under Creative Commons Attribution + Share Alike (BY-SA).</p>
-                <p>This website uses Google Analytics to collect anonymised data regarding the site's usage.</p>
-                <p>This website uses material from the Wikipedia article <a class="darkorange-text" target="_blank" href="https://commons.wikimedia.org/wiki/General_phonetics">General Phonetics</a>, which is released under the <a class="darkorange-text" target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share-Alike License 3.0</a>.
-                </p>
+                <p>This is my test page</p>
+                <small>In the table below, fill out the fully declined version of the word THIS</small>
+
+            </div>
             </div>
         </section>
+        <hr class="border">
+        <section class="test-container">
+            <div class="test-header">
+                <h2 class="inline-block"> Test Yourself! </h2>
+                <button id="questionnaire-button" class="solid-button button margin-bottom-ten margin-left">Questionnaire</button>
+                <button id="table-quiz-button" class="light-button button margin-bottom-ten">Table</button><br>
+            </div>
+            <form name="test-form" autocomplete="OFF">
+                <p>
+                    <button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+                    <button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+                    <button class="light-button button special-character" data-char="&eth;">&eth;</button>
+                    <sub>Use these buttons to insert thorn, ash and eth when you have an input
+                        selected.</sub>
+                </p>
+                <div id="question-wrapper" data-question-file="cases5_answers.json" data-table-file="table_test.json">
+                </div>
+                <div class="form-group">
+
+                </div>
+            </form>
     </main>
     <!--closing footer container-->
     <footer class="row">
