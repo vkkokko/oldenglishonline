@@ -12,12 +12,16 @@
 		"eslint": "^6.1.0",
 		"esm": "^3.2.25",
 		"gulp": "^4.0.2",
-		"gulp-ejs-monster": "^3.2.0"
+		"gulp-ejs-monster": "^3.2.0",
+		"gulp-filter": "^6.0.0",
+		"gulp-jsbeautifier": "^3.0.1",
+		"gulp-terser": "^1.2.0"
 	},
 	"scripts": {
 		"start": "gulp watch",
 		"build": "gulp default",
-		"clean": "gulp clean"
+		"clean": "gulp clean",
+		"postinstall": "gulp build"
 	},
 	"repository": {
 		"type": "git",

@@ -3,6 +3,9 @@ import gulp from 'gulp';
 import del from 'del';
 import ejs from 'gulp-ejs-monster';
 import browserSync from 'browser-sync';
+import beautify from 'gulp-jsbeautifier';
+import filter from 'gulp-filter';
+import terser from 'gulp-terser';
 
 import { config, distDir } from './gulpconfig';
 import * as siteconfig from './siteconfig.json';
@@ -25,36 +28,47 @@ export function renderEJS() {
 				layouts: config.build.layouts,
 			})
 		)
-		// .pipe(rename({ extname: '.html'}))
+		.pipe(beautify())
 		.pipe(gulp.dest(config.dirs.dist));
 }
 
 // main copy task
 export function copy(done) {
-	return gulp.series(copyCSS, copyJS, copyData, copyAssets)(done);
+	return gulp.parallel(copyCSS, copyJS, copyData, copyAssets, copyImages)(done);
 }
 
 // copy css assets
 function copyCSS() {
-	return gulp.src(config.assets.css)
+	return gulp.src(config.assets.css, { since: gulp.lastRun(copyCSS) })
 		.pipe(gulp.dest(config.dirs.styles));
 }
 
 // copy js assets
 function copyJS() {
-	return gulp.src(config.assets.js)
+	const f = filter(['**', '!*node_modules/**/*'], { restore: true });
+
+	return gulp.src(config.assets.js, { since: gulp.lastRun(copyJS) })
+		.pipe(f)
+		.pipe(terser())
+		.pipe(f.restore)
 		.pipe(gulp.dest(config.dirs.scripts));
 }
 
 // copy data assets
 function copyData() {
-	return gulp.src(config.assets.data)
+	return gulp.src(config.assets.data, { since: gulp.lastRun(copyData) })
 		.pipe(gulp.dest(config.dirs.data));
+}
+
+// copy images
+function copyImages() {
+	return gulp.src(config.assets.images, { since: gulp.lastRun(copyImages) })
+		.pipe(gulp.dest(config.dirs.images));
 }
 
 // copy remaining assets
 function copyAssets() {
-	return gulp.src(config.assets.assets)
+	return gulp.src(config.assets.assets, { since: gulp.lastRun(copyAssets) })
 		.pipe(gulp.dest(config.dirs.assets));
 }
 

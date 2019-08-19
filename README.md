@@ -2,7 +2,7 @@
 ![](https://img.shields.io/github/package-json/v/vklester/MA)
 ![](https://img.shields.io/github/commit-activity/w/vklester/MA)
 
-This is an online learning platform for teaching Old English.
+This is an online learning platform for teaching Old English. Visit [Old English.info](https://oldenglish.info) to use the site.
 
 # About
 

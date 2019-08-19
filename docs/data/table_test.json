@@ -1,0 +1,43 @@
+[
+    {
+        "word": "þes - this",
+        "headerRow": ["", "Masculine", "Neuter", "Feminine", "Plural"],
+        "rows": [
+            ["Nominative", "þes", "þis", "þeos", "þas"],
+            ["Accusative", "þisne", "þis", "þas", "þas"],
+            ["Genitive", "þisses", "þisses", "þisse|þisre", "þissa|þisra"],
+            ["Dative", "þissum", "þissum", "þisse|þisre", "þissum"]
+        ]
+    },
+    {
+        "word": "Se - that",
+        "headerRow": ["", "Masculine", "Neuter", "Feminine", "Plural"],
+        "rows": [
+            ["Nominative", "se", "þæt", "seo", "þa"],
+            ["Accusative", "þone", "þæt", "þa", "þa"],
+            ["Genitive", "þæs", "þæs", "þære", "þara"],
+            ["Dative", "þæm", "þæm", "þære", "þæm"]
+        ]
+    },
+    {
+        "word": "Biscop - bishop",
+        "headerRow": ["", "Present", "Past"],
+        "rows": [
+            ["Nominative", "se", "þæt"],
+            ["Accusative", "þone", "þæt"],
+            ["Genitive", "þæs", "þæs"],
+            ["Dative", "þæm", "þæm"]
+        ]
+    },
+    {
+        "word": "Cyning - king",
+        "headerRow": ["", "Present", "Past"],
+        "rows": [
+            ["Nominative", "se", "þæt"],
+            ["Accusative", "þone", "þæt"],
+            ["Genitive", "þæs", "þæs"],
+            ["Dative", "þæm", "þæm"]
+        ]
+    }
+]
+
