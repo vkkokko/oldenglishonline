@@ -106,7 +106,11 @@ $('#again').click(function () {
 });
 
 function loadQuestionsInto($container, filename) {                 // Now container=questionWrapper (where the questions are stored on the page)
-	$.getJSON(`js/${filename}?cache=` + Date.now())      // This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
+	// if no params, don't load
+	if (!$container || !filename) {
+		return;
+	}
+	$.getJSON(`data/${filename}?cache=` + Date.now())      // This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
 
 		//If the file is successfully loaded this method is called
 		.done(function (data) {

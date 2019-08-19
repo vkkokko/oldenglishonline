@@ -17,7 +17,8 @@
 	"scripts": {
 		"start": "gulp watch",
 		"build": "gulp default",
-		"clean": "gulp clean"
+		"clean": "gulp clean",
+		"postinstall": "gulp build"
 	},
 	"repository": {
 		"type": "git",
