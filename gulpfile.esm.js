@@ -31,7 +31,7 @@ export function renderEJS() {
 
 // main copy task
 export function copy(done) {
-	return gulp.series(copyCSS, copyJS, copyData, copyAssets)(done);
+	return gulp.parallel(copyCSS, copyJS, copyData, copyAssets, copyImages)(done);
 }
 
 // copy css assets
@@ -50,6 +50,12 @@ function copyJS() {
 function copyData() {
 	return gulp.src(config.assets.data)
 		.pipe(gulp.dest(config.dirs.data));
+}
+
+// copy images
+function copyImages() {
+	return gulp.src(config.assets.images)
+		.pipe(gulp.dest(config.dirs.images));
 }
 
 // copy remaining assets

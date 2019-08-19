@@ -8,14 +8,14 @@ $(document).ready(function () {
 	loadQuestionsInto($container, filename); // This loads the question from the JSON file (called elsewhere), into our wrapper.
 
 	$('.special-character').on('click', function (event) {
-		event.preventDefault();									//this stops the button reloading the page
-		if ($lastActive) {										// This Boolean checks to see if the last active input
+		event.preventDefault();                                 //this stops the button reloading the page
+		if ($lastActive) { 						   			    // This Boolean checks to see if the last active input
 			$lastActive											// was from .question-item (thus making it our user input).
 				// If it is, this becomes a 'truthy' variable meaning it executes.
 				.val($lastActive.val() + $(this).attr('data-char'))
-				.focus();										// This is a predefined jquery command which gives the focus back
-																// to the same element selected prior to the 'on click command'.
-		}														// in this case, the 'char' button press.
+				.focus();			   							// This is a predefined jquery command which gives the focus back
+			// to the same element selected prior to the 'on click command'.
+		}  														// in this case, the 'char' button press.
 	});
 
 	$questionWrapper.on('focus', '.question-item input', function () {
@@ -24,7 +24,7 @@ $(document).ready(function () {
 });
 
 $('#hide-submit').click(function () {
-	$('.table-hide').toggle();									// This adds a jquery class to 'toggle' the visibility of an element.
+	$('.table-hide').toggle();                              // This adds a jquery class to 'toggle' the visibility of an element.
 	$(this).find('span').toggleClass('hide');
 });
 
@@ -105,9 +105,8 @@ $('#again').click(function () {
 	loadQuestionsInto($container, filename);
 });
 
-function loadQuestionsInto($container, filename) {					// Now container=questionWrapper (where the questions are stored on the page)
-	if (!$container || !filename) { return; } 						// exit, if there is no filename
-	$.getJSON(`data/${filename}?cache=` + Date.now())				// This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
+function loadQuestionsInto($container, filename) {                 // Now container=questionWrapper (where the questions are stored on the page)
+	$.getJSON(`js/${filename}?cache=` + Date.now())      // This is a slight modification to cause 'cache-busting'. Basically, it appends a number to the url to prevent the browser caching this file.
 
 		//If the file is successfully loaded this method is called
 		.done(function (data) {
@@ -123,20 +122,20 @@ function loadQuestionsInto($container, filename) {					// Now container=question
 				// This splits a string at the #### delimiter and allows the input field to be placed in the middle of the sentence
 
 				let questionLine = `<span class="question-line">${questionSplit[0]}</span>
-									<input type="text" class="user-input form-control" placeholder="answer">
-									<span class="question-line">${questionSplit[1]}</span>`;
+                                    <input type="text" class="user-input form-control" placeholder="answer">
+                                    <span class="question-line">${questionSplit[1]}</span>`;
 
 				let questionItem = `<div class="question-item form-group">
-										<div class="question" data-answer="${question.correctAnswer}">
-											${questionLine}
-										</div>
-										<div class="common-mistakes hide">
-											${createCommonMistakesHtml(question.commonMistakes)}
-										</div>
-										<div class="answer generic hide">
-											${question.explanation}
-										</div>
-									</div>`; //The backticks (`) allow for 'template literals'. These are string templates which allow embedded expressions.
+                        <div class="question" data-answer="${question.correctAnswer}">
+                            ${questionLine}
+                        </div>
+                        <div class="common-mistakes hide">
+                            ${createCommonMistakesHtml(question.commonMistakes)}
+                        </div>
+                        <div class="answer generic hide">
+                            ${question.explanation}
+                        </div>
+                    </div>`; //The backticks (`) allow for 'template literals'. These are string templates which allow embedded expressions.
 
 				$container.append(questionItem);
 
@@ -197,4 +196,65 @@ $('#basicbutton').on('click', function () {
 	$('#additionalbutton').removeClass('solid-button').addClass('light-button active');
 
 	$('#again').data('new-questions');
+});
+
+//code for the quiz button
+function tableQuizCreate($container, filename) {
+	// don't do anything, if parameters not provided.
+	if (!$container || !filename) {
+		return;
+	}
+
+	$container.empty(); //empties the container of whatever was in it before
+
+	// contains multiple tables worth of items
+	$.getJSON(filename).then(quizData => {
+		//This selects a random object from the array
+		const randomQuestion = quizData.splice(Math.random() * quizData.length | 0, 1)[0];
+
+		//This creates our table and gives it the classes we need
+		const $table = $('<table class="quiz-table table-striped"/>');
+
+		// This appends the top-most row to the table and sets the colspan to the length of the property
+		$table.append(`<tr><th colspan="${randomQuestion.headerRow.length}"><strong> ${randomQuestion.word} </strong></th></tr>`);
+
+		// We initialize an empty variable we can enter content into
+		let tableQuizContent = '';
+
+		//We create a table row
+		tableQuizContent += '<tr>';
+		randomQuestion.headerRow.forEach(cell => {
+			tableQuizContent += `<td><strong>${cell}</strong></td>`;
+		});
+		tableQuizContent += '</tr>\n'; // the \n adds a linebreak at the end (this is just cosmetic for reading the code later)
+
+		randomQuestion.rows.forEach(row => {
+
+			tableQuizContent += '<tr>';     //Creates a table row
+
+			row.forEach((item, idx) => {
+				if (idx === 0) {            //This if statement makes the first item the table header and the rest, generic cells
+					tableQuizContent += `<th><strong>${item}</strong></th>`;
+				} else {
+					tableQuizContent += `<td><input type="text" class="user-input form-control" placeholder="answer" data-answer="${item}"></td>`;
+				}
+			});
+
+			tableQuizContent += '</tr>';    //Closes the table row
+		});
+
+		$table.append(tableQuizContent);    //This populates the table
+		$container.append($table);          //This adds our table into the page
+
+		$('small').replaceWith('<small>In the table below, fill out the fully declined version of the word in the header</small>');
+		$('#submit').replaceWith('<button class="solid-button button" id="check-table">Check</button>');
+		$('#again').replaceWith('<button class="solid-button button hide" id="again-table">Check</button>');
+	});
+}
+
+$('.table-quiz-button').click(function () {
+	event.preventDefault();
+	const $container = $('#question-wrapper');
+
+	tableQuizCreate($container, 'data/table_test.json');
 });

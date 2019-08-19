@@ -24,6 +24,9 @@ export const config = {
 		data: [
 			`${path.normalize(srcDir)}/data/**/*`
 		],
+		images: [
+			`${path.normalize(srcDir)}/images/**/*`
+		],
 		assets: [
 			`${path.normalize(srcDir)}/assets/**/*`
 		]
@@ -35,6 +38,7 @@ export const config = {
 		scripts: path.normalize(path.join(distDir, 'scripts')),
 		styles: path.normalize(path.join(distDir, 'styles')),
 		data: path.normalize(path.join(distDir, 'data')),
+		images: path.normalize(path.join(distDir, 'images')),
 		assets: path.normalize(path.join(distDir, 'assets'))
 	},
 	watch: {
