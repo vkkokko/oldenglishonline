@@ -3,6 +3,9 @@ import gulp from 'gulp';
 import del from 'del';
 import ejs from 'gulp-ejs-monster';
 import browserSync from 'browser-sync';
+import beautify from 'gulp-jsbeautifier';
+import filter from 'gulp-filter';
+import terser from 'gulp-terser';
 
 import { config, distDir } from './gulpconfig';
 import * as siteconfig from './siteconfig.json';
@@ -25,7 +28,7 @@ export function renderEJS() {
 				layouts: config.build.layouts,
 			})
 		)
-		// .pipe(rename({ extname: '.html'}))
+		.pipe(beautify())
 		.pipe(gulp.dest(config.dirs.dist));
 }
 
@@ -42,7 +45,12 @@ function copyCSS() {
 
 // copy js assets
 function copyJS() {
+	const f = filter(['**', '!*node_modules/**/*'], { restore: true });
+
 	return gulp.src(config.assets.js)
+		.pipe(f)
+		.pipe(terser())
+		.pipe(f.restore)
 		.pipe(gulp.dest(config.dirs.scripts));
 }
 
