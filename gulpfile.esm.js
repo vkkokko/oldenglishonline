@@ -6,9 +6,13 @@ import browserSync from 'browser-sync';
 import beautify from 'gulp-jsbeautifier';
 import filter from 'gulp-filter';
 import terser from 'gulp-terser';
+import gutil from 'gulp-util';
 
 import { config, distDir } from './gulpconfig';
 import * as siteconfig from './siteconfig.json';
+
+// if running watch task, overwrite base tag to always be '/' for localhost
+const sitelocals = Object.assign({}, siteconfig, { site: { base: gutil.env.env === 'watch' ? '/' : siteconfig.site.base } });
 
 // Clean build directories
 export const clean = () => del([distDir]);
@@ -24,7 +28,7 @@ export function renderEJS() {
 			ejs({
 				showHistory: false,
 				showHistoryOnCrash: true,
-				locals: siteconfig,
+				locals: sitelocals,
 				layouts: config.build.layouts,
 			})
 		)

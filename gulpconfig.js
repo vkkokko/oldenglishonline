@@ -2,6 +2,7 @@
 import path from 'path';
 
 export const distDir = './docs';
+export const buildDir= './build';
 export const srcDir = './src';
 
 export const config = {

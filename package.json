@@ -15,12 +15,12 @@
 		"gulp-ejs-monster": "^3.2.0",
 		"gulp-filter": "^6.0.0",
 		"gulp-jsbeautifier": "^3.0.1",
-		"gulp-terser": "^1.2.0"
+		"gulp-terser": "^1.2.0",
+		"gulp-util": "^3.0.8"
 	},
 	"scripts": {
-		"start": "gulp watch",
-		"build": "gulp default",
-		"clean": "gulp clean",
+		"start": "gulp --env=watch watch",
+		"build": "gulp --env=prod default",
 		"postinstall": "gulp default"
 	},
 	"repository": {
