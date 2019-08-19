@@ -27,8 +27,6 @@ footer {
 	background-color: rgba(0, 0, 0, 0.85);
 	position: absolute;
 	bottom: 0;
-	margin-left: 0 !important;
-	margin-right: 0 !important;
 	width: 100%;
 	padding: 1.5em 0;
 	color: white;

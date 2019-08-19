@@ -39,7 +39,7 @@ export function copy(done) {
 
 // copy css assets
 function copyCSS() {
-	return gulp.src(config.assets.css)
+	return gulp.src(config.assets.css, { since: gulp.lastRun(copyCSS) })
 		.pipe(gulp.dest(config.dirs.styles));
 }
 
@@ -47,7 +47,7 @@ function copyCSS() {
 function copyJS() {
 	const f = filter(['**', '!*node_modules/**/*'], { restore: true });
 
-	return gulp.src(config.assets.js)
+	return gulp.src(config.assets.js, { since: gulp.lastRun(copyJS) })
 		.pipe(f)
 		.pipe(terser())
 		.pipe(f.restore)
@@ -56,19 +56,19 @@ function copyJS() {
 
 // copy data assets
 function copyData() {
-	return gulp.src(config.assets.data)
+	return gulp.src(config.assets.data, { since: gulp.lastRun(copyData) })
 		.pipe(gulp.dest(config.dirs.data));
 }
 
 // copy images
 function copyImages() {
-	return gulp.src(config.assets.images)
+	return gulp.src(config.assets.images, { since: gulp.lastRun(copyImages) })
 		.pipe(gulp.dest(config.dirs.images));
 }
 
 // copy remaining assets
 function copyAssets() {
-	return gulp.src(config.assets.assets)
+	return gulp.src(config.assets.assets, { since: gulp.lastRun(copyAssets) })
 		.pipe(gulp.dest(config.dirs.assets));
 }
 

@@ -4,15 +4,9 @@
 		<%- include('../partials/head') -%>
 	</head>
 	<body class="container-fluid">
-		<div class="row">
-			<%- include('../partials/page-header') -%>
-		</div>
-		<div class="row">
-			<%- locals.body -%>
-		</div>
-		<div class="row">
-			<%- include('../partials/page-footer') -%>
-		</div>
+		<%- include('../partials/page-header') -%>
+		<%- locals.body -%>
+		<%- include('../partials/page-footer') -%>
 		<%- include('../partials/page-scripts') -%>
 	</body>
 </html>
