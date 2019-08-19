@@ -21,7 +21,7 @@
 		"start": "gulp watch",
 		"build": "gulp default",
 		"clean": "gulp clean",
-		"postinstall": "gulp build"
+		"postinstall": "gulp default"
 	},
 	"repository": {
 		"type": "git",

@@ -4,6 +4,7 @@
 		"siteDescription": "This is a website",
 		"siteKeywords": "Learning, Old English, Language",
 		"languageShort": "en",
-		"languageLong": "english"
+		"languageLong": "english",
+		"base": "/MA/"
 	}
 }

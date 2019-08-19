@@ -34,7 +34,7 @@ export function renderEJS() {
 
 // main copy task
 export function copy(done) {
-	return gulp.parallel(copyCSS, copyJS, copyData, copyAssets, copyImages)(done);
+	return gulp.parallel(copyCSS, copyJS, copyData, copyAssets, copyImages, copyCname)(done);
 }
 
 // copy css assets
@@ -70,6 +70,12 @@ function copyImages() {
 function copyAssets() {
 	return gulp.src(config.assets.assets, { since: gulp.lastRun(copyAssets) })
 		.pipe(gulp.dest(config.dirs.assets));
+}
+
+// copy CNAME file into dist
+function copyCname() {
+	return gulp.src('CNAME')
+		.pipe(gulp.dest(config.dirs.dist))
 }
 
 // browsersync setup
