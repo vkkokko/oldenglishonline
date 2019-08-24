@@ -1,0 +1,138 @@
+[
+    {
+        "question": "Ic <em>(fremman)</em> #### gu&thorn;e - I make war",
+        "correctAnswer": "fremme",
+        "explanation": "Here 'fremman' is in the first person singular form '<em>fremme</em>' because the subject is 'I'",
+        "commonMistakes": []
+    },
+    {
+        "question": "&THORN;u <em>(nerian)</em> #### &thorn;a cildras - You save the children",
+        "correctAnswer": "nerest",
+        "explanation": "Here 'nerian' is in the second person singular form '<em>nerest</em>' because the subject is 'You",
+        "commonMistakes": [
+            {
+                "badAnswer": "neriest",
+                "explanation": "Remember, the second person singular form of 'nerian' is '<em>nerest</em>' because 'nerian' drops its 'i' in some conjugations"
+            }
+        ]
+    },
+    {
+        "question": "He minum l&aelig;rum <em>(hieran)</em> #### - He listens to my teachings",
+        "correctAnswer": "hierð|hierþ",
+        "explanation": "Here 'hieran' is in the third person singular form '<em>hierð</em>' because the subject is 'He'",
+        "commonMistakes": [
+            {
+                "badAnswer": "hiereð|hiereþ",
+                "explanation": "Remember, 'hieran' drops the 'e' before a dental fricative"
+            }
+        ]
+    },
+    {
+        "question": "We <em>(l&aelig;ran)</em> #### eald Englisc on &thorn;&aelig;m minstere - We teach Old English in the monastery",
+        "correctAnswer": "l&aelig;ra&thorn;",
+        "explanation": "Here 'l&aelig;ran' is in the first person plural form '<em>l&aelig;ra&thorn;</em>' as the subject is 'We'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie hergia&thorn; and to scipe <em>(l&aelig;dan)</em> #### - they harry and carry off the plunder to their ships",
+        "correctAnswer": "lædaþ|lædað",
+        "explanation": "Here 'l&aelig;dan' is in the third person plural form '<em>lædað</em>' as the subject is 'They'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic <em>(sendan)</em> #### &aelig;rendracan to minum hlaforde - I sent a messenger to my lord",
+        "correctAnswer": "sende",
+        "explanation": "Here 'sendan' is in the first person singular past form '<em>sende</em>' because the subject is 'I'",
+        "commonMistakes": [
+            {
+                "badAnswer": "sendde",
+                "explanation": "Remember, when a double d is proceeded by a consonant, the double is reduced to single so the correct form is 'sende'"
+            }
+        ]
+    },
+    {
+        "question": "Morgensteorran &eth;e we o&eth;re naman &aelig;fensteorra nemnan <em>(hieran)</em> #### - The morning star which we hear called evening star by another name",
+        "correctAnswer": "hierdest",
+        "explanation": "Here 'hieran' is in the first person plural past form '<em>hierdest</em>' because the subject is 'We",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie halig God <em>(nerian)</em> #### - They are saved by holy God",
+        "correctAnswer": "neredon",
+        "explanation": "Here 'nerian' is in the third person plural past form '<em>neredon</em>' because the subject is 'They'",
+        "commonMistakes": [
+            {
+                "badAnswer": "neriedon",
+                "explanation": "Remember, the third person plural past form of 'nerian' is '<em>neredon</em>' because it drops its 'i' in some conjugations"
+            }
+        ]
+    },
+    {
+        "question": "We <em>(fremman)</em> #### swa and Frean hyrde - We did so and obeyed the lord",
+        "correctAnswer": "fremedon",
+        "explanation": "Here 'fremman' is in the first person plural past form '<em>fremedon</em>' because the subject is 'We'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie <em>(feran)</em> #### ofer s&aelig; - They go overseas",
+        "correctAnswer": "ferað|feraþ",
+        "explanation": "Here 'feran' is in the third person plural form '<em>ferað</em>' because the subject is 'They'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie <em>(feran)</em> #### to Rome - They went to Rome",
+        "correctAnswer": "ferdon",
+        "explanation": "Here 'feran' is in the third person plural past form '<em>ferdon</em>' because the subject is 'They'",
+        "commonMistakes": []
+    },
+    {
+        "question": "&THORN;a <em>(sendan)</em> #### se cyning to &thorn;am flotan Leofsig ealdorman — Then the king sent Alderman Leofsig to the fleet",
+        "correctAnswer": "sende",
+        "explanation": "Here 'sendan' is in the third person singular past form '<em>sende</em>' because the subject is 'The King'",
+        "commonMistakes": [
+            {
+                "badAnswer": "sendest",
+                "explanation": "Here 'sendan' should be the third person singular past form '<em>sende</em>' because the subject is 'The King'. While &thorn;a resembles the second person <em>'&thorn;u'</em>, it actually means 'then'"
+            }
+        ]
+    },
+    {
+        "question": "Wyrd oft <em>(nerian)</em> #### unfægne eorl &thorn;onne his ellen deah - Fate often saves a man not fated to die",
+        "correctAnswer": "nereð|nereþ",
+        "explanation": "Here 'nerian' is in the third person singular form '<em>nereð</em>' because the subject is 'Wyrd'",
+        "commonMistakes": [
+            {
+                "badAnswer": "nerieð|nerieþ",
+                "explanation": "Remember, the third person singular form of 'nerian' is '<em>nereð</em>' because it drops its 'i' in some conjugations"
+            }
+        ]
+    },
+    {
+        "question": "Ic <em>(hieran)</em> #### &thorn;u - I hear you",
+        "correctAnswer": "hiere",
+        "explanation": "Here 'hieran' is in the first person singular form '<em>hiere</em>' because the subject is 'I'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic <em>(l&aelig;dan)</em> #### &thorn;one micel here - I led the great army",
+        "correctAnswer": "lædde",
+        "explanation": "Here 'l&aelig;dan' is in the first person singular past form '<em>lædde</em>' because the subject is 'I'",
+        "commonMistakes": [
+            {
+                "badAnswer": "læde",
+                "explanation": "Unlike 'sendan', Lædan does not drop double 'd's' because they are proceeded by a vowel. So, here 'l&aelig;dan' is in the first person singular past form '<em>lædde</em>' because the subject is 'I'"
+            }
+        ]
+    },
+    {
+        "question": "Ic <em>(l&aelig;ran)</em> #### leden and grecisc - I taught Latin and Greek",
+        "correctAnswer": "lærde",
+        "explanation": "Here 'l&aelig;ran' is in the first person singular past form '<em>lærde</em>' because the subject is 'I'",
+        "commonMistakes": [
+            {
+                "badAnswer": "lærede",
+                "explanation": "While <em>l&aelig;ran</em> takes an 'e' in the present first person singular, here 'l&aelig;ran' is in the past tense first person singular form '<em>lædde</em>' because the subject is 'I'"
+            }
+        ]
+    }
+]
