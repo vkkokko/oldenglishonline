@@ -1,8 +1,8 @@
 {
 	"site": {
 		"siteTitle": "Old English Online",
-		"siteDescription": "This is a website",
-		"siteKeywords": "Learning, Old English, Language",
+		"siteDescription": "This is an online learning platform for teaching Old English",
+		"siteKeywords": "Learning, Old English, Language, Anglo-Saxon, Eald Englisc",
 		"languageShort": "en",
 		"languageLong": "english",
 		"base": "/"
