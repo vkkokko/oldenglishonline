@@ -1,6 +1,6 @@
 [
     {
-        "question": "Seo (<em>cwen</em>) #### ferþ to þæm beorgum - the queen goes to the mountains",
+        "question": "Seo (<em>cwen</em>) #### ferþ to þæm beorgum - The queen goes to the mountains",
         "correctAnswer": "cwen",
         "explanation":"Here 'cwen' is the subject and so takes no ending",
         "commonMistakes": []
@@ -48,7 +48,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Heo ferde to þære (<em>cwen</em>) #### broce ond fram þære cwene broce - she went to the Queen's brook and from the Queen's brook",
+        "question": "Heo ferde to þære (<em>cwen</em>) #### broce ond fram þære cwene broce - She went to the Queen's brook and from the Queen's brook",
         "correctAnswer": "cwene",
         "explanation":"Here 'cwen' is in the posessive singular, so it takes an 'e' ending",
         "commonMistakes": []

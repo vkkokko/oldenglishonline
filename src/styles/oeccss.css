@@ -63,6 +63,7 @@ abbr {
 	text-decoration: dotted;
 }
 
+
 /*texts*/
 .black-text {
 	color: black;
@@ -305,6 +306,10 @@ nav {
 
 .card-row {
 	margin: 0;
+}
+
+.first-card {
+	padding-left:0px;
 }
 
 .card-wrapper {

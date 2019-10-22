@@ -1,6 +1,6 @@
 [
     {
-        "question": "Ðæt (<em>scip</em>) #### sceal genægled - the ship must be nailed",
+        "question": "Ðæt (<em>scip</em>) #### sceal genægled - The ship must be nailed",
         "correctAnswer": "scip",
         "explanation": "Here 'scip' is the subject and so takes no ending",
         "commonMistakes": []
@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hiora (<em>god</em>) #### syndon drycræfta lareowas - their gods are teachers of magical arts",
+        "question": "Hiora (<em>god</em>) #### syndon drycræfta lareowas - Their gods are teachers of magical arts",
         "correctAnswer": "godu",
         "explanation": "Here 'god' is the subject and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": [
@@ -71,7 +71,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð - through the bearing of a child without a man's embrace, that bride became great",
+        "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð - Through the bearing of a child without a man's embrace, that bride became great",
         "correctAnswer": "bearnes",
         "explanation": "Here 'bearn' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
@@ -129,7 +129,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He wolde geseean helle (<em>god</em>) #### - he would visit the gods of hell",
+        "question": "He wolde geseean helle (<em>god</em>) #### - He would visit the gods of hell",
         "correctAnswer": "godu",
         "explanation": "Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": []
@@ -176,7 +176,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He aerist scoop eorþan for his (<em>bearn</em>) #### - He first shaped the earth for his children",
+        "question": "He ærist scoop eorþan for his (<em>bearn</em>) #### - He first shaped the earth for his children",
         "correctAnswer": "bearnum",
         "explanation": "Here 'bearn' is the indirect object and plural, and so takes a 'um' ending",
         "commonMistakes": []
@@ -200,7 +200,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Seo (<em>cwen</em>) #### ferþ to þæm beorgum - the queen goes to the mountains",
+        "question": "Seo (<em>cwen</em>) #### ferþ to þæm beorgum - The queen goes to the mountains",
         "correctAnswer": "cwen",
         "explanation": "Here 'cwen' is the subject and so takes no ending",
         "commonMistakes": []
@@ -248,7 +248,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Heo ferde to þære (<em>cwen</em>) #### broce ond fram þære cwene broce - she went to the Queen's brook and from the Queen's brook",
+        "question": "Heo ferde to þære (<em>cwen</em>) #### broce ond fram þære cwene broce - She went to the Queen's brook and from the Queen's brook",
         "correctAnswer": "cwene",
         "explanation": "Here 'cwen' is in the posessive singular, so it takes an 'e' ending",
         "commonMistakes": []
@@ -391,7 +391,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæs cyninges <em>(þegen)</em> #### ferde to þæm tune  — The king’s thanes went to the town",
+        "question": "Ðæs cyninges <em>(þegen)</em> #### ferde to þæm tune — The king’s thanes went to the town",
         "correctAnswer": "þegnas|þegenas",
         "explanation": "Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
         "commonMistakes": [
@@ -424,7 +424,7 @@
         ]
     },
     {
-        "question": "In Þæs (<i>cyning</i>) #### tune   —  In the town of the king",
+        "question": "In Þæs (<i>cyning</i>) #### tune — In the town of the king",
         "correctAnswer": "cyninges",
         "explanation": "Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
@@ -436,31 +436,31 @@
         "commonMistakes": []
     },
     {
-        "question": "Se (<i>biscop</i>) #### fram þæm tune —  The bishop from the town",
+        "question": "Se (<i>biscop</i>) #### fram þæm tune — The bishop from the town",
         "correctAnswer": "biscop",
         "explanation": "Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
     },
     {
-        "question": "Ða Þegnas ond se (<i>cyning</i>) #### —  The thanes and the king",
+        "question": "Ða Þegnas ond se (<i>cyning</i>) #### — The thanes and the king",
         "correctAnswer": "cyning",
         "explanation": "Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
     },
     {
-        "question": "Fram þæs (<i>þegen</i>) #### tune   —  From the thane’s town",
+        "question": "Fram þæs (<i>þegen</i>) #### tune — From the thane’s town",
         "correctAnswer": "þegnes|þegenes",
         "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
     },
     {
-        "question": "Se cyning ond þa (<i>biscop</i>) #### —  The king and the bishops",
+        "question": "Se cyning ond þa (<i>biscop</i>) #### — The king and the bishops",
         "correctAnswer": "biscopas",
         "explanation": "Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural",
         "commonMistakes": []
     },
     {
-        "question": "Ðæs (<i>þegen</i>) #### menn  —  The thane’s men",
+        "question": "Ðæs (<i>þegen</i>) #### menn — The thane’s men",
         "correctAnswer": "þegnes|þegenes",
         "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
@@ -478,7 +478,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se (<i>stan</i>) #### ond se þegen   —  The stone and the thane",
+        "question": "Se (<i>stan</i>) #### ond se þegen — The stone and the thane",
         "correctAnswer": "stan",
         "explanation": "Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
@@ -514,13 +514,13 @@
         "commonMistakes": []
     },
     {
-        "question": "þa biscopas geaf þone (<i>stan</i>) #### to þaem þegne — The bishops gave the stone to the thane",
+        "question": "þa biscopas geaf þone (<i>stan</i>) #### to þæm þegne — The bishops gave the stone to the thane",
         "correctAnswer": "stan",
         "explanation": "Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",
         "commonMistakes": []
     },
     {
-        "question": "Se þegen sloh þone (<i>biscop</i>) #### in tæm tune — the thane slew the bishop in the town",
+        "question": "Se þegen sloh þone (<i>biscop</i>) #### in þæm tune — The thane slew the bishop in the town",
         "correctAnswer": "biscop",
         "explanation": "Here 'biscop' is directly receiving the action of the verb 'sloh', so is in the singular accusative and thus takes no new ending",
         "commonMistakes": []
@@ -538,7 +538,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se þegen geaf þa (<i>gar</i>) #### to þaem cyninge — The thane gave the spears to the king",
+        "question": "Se þegen geaf þa (<i>gar</i>) #### to þæm cyninge — The thane gave the spears to the king",
         "correctAnswer": "garas",
         "explanation": "Here 'gar' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
         "commonMistakes": []
@@ -568,7 +568,7 @@
         "commonMistakes": []
     },
     {
-        "question": "On þis daeg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town his brother",
+        "question": "On þis dæg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town his brother",
         "correctAnswer": "tune",
         "explanation": "Here 'tun' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": []
@@ -658,7 +658,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He waes on ðæs (<em>hwæl</em>) #### innoþe - He was in the whale's innards",
+        "question": "He wæs on ðæs (<em>hwæl</em>) #### innoþe - He was in the whale's innards",
         "correctAnswer": "hwæles",
         "explanation":"Here 'hwæl' is in the possessive singular and so gains the 'es' ending",
         "commonMistakes": []
@@ -752,7 +752,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic þe þa faehðe leanige (<em>feoh</em>) #### ond ealdgestreonum, swa ic aer dyde - For the feud, I would reward you with wealth and old treasures, as I did before",
+        "question": "Ic þe þa fæhðe leanige (<em>feoh</em>) #### ond ealdgestreonum, swa ic ær dyde - For the feud, I would reward you with wealth and old treasures, as I did before",
         "correctAnswer": "feo",
         "explanation":"Here 'feoh' is the indect object and singular so it loses its 'h'. It should take an 'e' ending but since it is an unstressed vowel, it takes no ending",
         "commonMistakes": [

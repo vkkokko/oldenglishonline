@@ -176,7 +176,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He aerist scoop eorþan for his (<em>bearn</em>) #### - He first shaped the earth for his children",
+        "question": "He ærist scoop eorþan for his (<em>bearn</em>) #### - He first shaped the earth for his children",
         "correctAnswer": "bearnum",
         "explanation":"Here 'bearn' is the indirect object and plural, and so takes a 'um' ending",
         "commonMistakes": []
@@ -194,7 +194,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se here ferde to þæm #### (<em>scip</em>) - The army went to the ships",
+        "question": "Se here ferde to þæm (<em>scip</em>) #### - The army went to the ships",
         "correctAnswer": "scipum",
         "explanation":"Here 'scip' is the indirect object and plural, and so takes a 'um' ending",
         "commonMistakes": []
