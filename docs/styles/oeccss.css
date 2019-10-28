@@ -64,10 +64,6 @@ abbr {
 }
 
 
-.first-card {
-	padding-left:0px;
-}
-
 /*texts*/
 .black-text {
 	color: black;
@@ -312,6 +308,9 @@ nav {
 	margin: 0;
 }
 
+.first-card {
+	padding-left:0px;
+}
 
 .card-wrapper {
 	height: 100%;
