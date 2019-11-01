@@ -132,7 +132,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ac uton don swa swa God tæhte þæt ure (<em>god</em) #### weorc beon on ða wisan mannum cuðe - But let us do as God has taught, that our good works may be so known to men",
+        "question": "Ac uton don swa swa God tæhte þæt ure (<em>god</em>) #### weorc beon on ða wisan mannum cuðe - But let us do as God has taught, that our good works may be so known to men",
         "correctAnswer": "godan",
         "explanation":"Here 'god' is modifying the plural nominative neuter 'weorc' so it takes the 'an' suffix",
         "commonMistakes": [

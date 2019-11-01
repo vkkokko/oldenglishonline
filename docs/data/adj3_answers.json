@@ -1,0 +1,134 @@
+[
+    {
+        "question": "(<em>eald</em>) #### wif scielde þæt bearn mid hire lice - An old woman shielded the child with her body",
+        "correctAnswer": "eald",
+        "explanation":"Here 'eald' is modifying the singular nominative neuter 'wif' so it takes no suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Lucia to manegum witum geworht be (<em>yfel</em>) #### man - Lucia was put to many tortures by an evil man",
+        "correctAnswer": "yfel",
+        "explanation":"Here 'yfel' is modifying the singular nominative masculine 'man' so it takes no suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>halig</em>) #### abbod nerede ða hæðenan cyningas - A holy bishop saved the heathen kings",
+        "correctAnswer": "halig",
+        "explanation":"Here 'halig' is modifying the singular nominative masculine 'man' so it takes no suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "On Æþelredes cyninges dagum, timbrode seo fierd (<em>micel</em>) #### mynster - In King Ethelred's day, the army built a great monastery",
+        "correctAnswer": "micel",
+        "explanation":"Here 'micel' is modifying the singular accusative neuter 'mynster' so it takes no suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Harold cyning þis gehierde þa gaderode he (<em>micel</em>) #### fierd - King Harold heard this, then he gathered a large army",
+        "correctAnswer": "micele",
+        "explanation":"Here 'micel' is modifying the singular accusative feminine 'fierd' so it takes the 'e' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cnapa huntode (<em>æðele</em>) #### hwæl - The boy hunts a noble whale",
+        "correctAnswer": "æðelne",
+        "explanation":"Here 'æðele' is modifying the singular accusative masculine 'hwæl' so it takes the 'ne' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "She wæs (<em>æðele</em>) #### gebyrde - She was of noble birth",
+        "correctAnswer": "æðelre",
+        "explanation":"Here 'æðele' is modifying the singular genitive feminine 'byrd' so it takes the 're' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Buteran ond beana ond ealle clæne þingc ic ete mid (<em>micel</em>) #### þancunge - Butter and beans and all clean things I eat with many thanks",
+        "correctAnswer": "micelre ",
+        "explanation":"Here 'micel' is modifying the singular genitive feminine 'þancung' so it takes the 're' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic fliemde þa wealas to (<em>weste</em>) #### iege - I expelled the foreigners to a deserted island",
+        "correctAnswer": "westre",
+        "explanation":"Here 'weste' is modifying the singular dative feminine 'ieg' so it takes the 're' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic hafu gecnawen on (<em>heard</em>) #### hyge ðæt ðu hælend eart middangeardes - I have acknowledged in my hard heart that you are saviour of the world",
+        "correctAnswer": "heardum",
+        "explanation":"Here 'heard' is modifying the singular dative masculine 'hyge' so it takes the 'um' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "We rædaþ ond hieraþ word be Æþelrede cyning, be (<em>eald</em>) #### weale, and be þæm gefeohtum - We read and hear words about King Ethelred, about old wealth and about the fights",
+        "correctAnswer": "ealdum ",
+        "explanation":"Here 'eald' is modifying the singular dative masculine 'weala' so it takes the 'um' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>wis</em>) #### men onfeng þone anhaga - Wise men received the wanderer",
+        "correctAnswer": "wise",
+        "explanation":"Here 'wis' is modifying the plural nominative masculine 'man' so it takes the 'e' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>geong</em>) #### preostas mette þæs cyninges bearn - Young women met the king's children",
+        "correctAnswer": "geonge",
+        "explanation":"Here 'geong' is modifying the plural nominative masculine 'preost' so it takes the 'e' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>god</em>) #### sawla sint undeaþlice and ece - Good souls are immortal and eternal",
+        "correctAnswer": "goda",
+        "explanation":"Here 'god' is modifying the plural nominative feminine 'sawel' so it takes the 'a' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Næs þes þegn þa unwise þa he sende (<em>eald</em>) #### scipu to þa wealum - Is this thane not then unwise when he sent old ships to the foreigners",
+        "correctAnswer": "ealde",
+        "explanation":"Here 'eald' is modifying the plural accusative neuter 'scip' so it takes the 'e' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se abbod wæs eald, ac he lærde (<em>geong</em>) #### preostas mid wisum wordum - The abbod was old but he instructed young priests with wise words",
+        "correctAnswer": "geonge",
+        "explanation":"Here 'geong' is modifying the plural accusative masculine 'preost' so it takes the 'e' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ælfred cyning gefeaht wið feower sciphlæstas (<em>Denisc</em>) #### monna here - King Alfred fought with four crews of Danish men here",
+        "correctAnswer": "Deniscra",
+        "explanation":"Here 'Denisc' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wæs he swiðe æþelra gebyrda ond (<em>god</em>) #### - He was of very noble and good birth",
+        "correctAnswer": "godra",
+        "explanation":"Here 'god' is modifying the plural genitive feminine 'byrd' so it takes the 'ra' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Win nys drenc cilda ac ealdra ond (<em>wis</em>) #### men- Wine is not a drink of children, but of old and wise men",
+        "correctAnswer": "wisra",
+        "explanation":"Here 'wis' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "On ælcum þingum ðe ðær unbecweden biþ on bocum and on swylcum (<em>lytel</em>) #### þingum - On all things that are unbequeathed, books and other such little things",
+        "correctAnswer": "lytlum",
+        "explanation":"Here 'lytel' is modifying the plural dative neuter 'þing' so it takes the 'um' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Dunstan wæs unwise and he befæstte þæt land to (<em>geong</em>) #### preostum - Dunstan was unwise and he commited that land to young priests",
+        "correctAnswer": "geongum",
+        "explanation":"Here 'geong' is modifying the plural dative masculine 'preost' so it takes the 'um' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie eodon fram Norwege mid (<em>micel</em>) #### scipfierde - They came from Norway with a large navy",
+        "correctAnswer": "miclum",
+        "explanation":"Here 'micel' is modifying the plural dative feminine 'scipfierd' so it takes the 'um' suffix",
+        "commonMistakes": []
+    }
+]
