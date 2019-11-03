@@ -9,10 +9,11 @@ import terser from 'gulp-terser';
 import gutil from 'gulp-util';
 
 import { config, distDir } from './gulpconfig';
-import * as siteconfig from './siteconfig.json';
+import * as siteConfig from './siteconfig.json';
 
 // if running watch task, overwrite base tag to always be '/' for localhost
-const sitelocals = Object.assign({}, siteconfig, { site: { base: gutil.env.env === 'watch' ? '/' : siteconfig.site.base } });
+const siteWatchBase = { base: gutil.env.env === 'watch' ? '/' : siteConfig.site.base };
+Object.assign(siteConfig.site, siteWatchBase);
 
 // Clean build directories
 export const clean = () => del([distDir]);
@@ -28,7 +29,7 @@ export function renderEJS() {
 			ejs({
 				showHistory: false,
 				showHistoryOnCrash: true,
-				locals: sitelocals,
+				locals: siteConfig,
 				layouts: config.build.layouts,
 			})
 		)
