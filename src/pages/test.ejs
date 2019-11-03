@@ -1,0 +1,34 @@
+<% locals.setLayout('default.ejs') -%>
+<% locals.block('title', 'Page Title') -%>
+
+<main id="mainwrapper" class="container">
+	<section class="row">
+		<div class="col-12-sm">
+			<p>This is my test page</p>
+			<small>In the table below, fill out the fully declined version of the word THIS</small>
+
+			</div>
+		</div>
+	</section>
+	<hr class="border">
+	<section class="test-container">
+		<div class="test-header">
+				<h2 class="inline-block"> Test Yourself! </h2>
+				<button id="questionnaire-button" class="solid-button button margin-bottom-ten margin-left">Questionnaire</button>
+				<button id="table-quiz-button" class="light-button button margin-bottom-ten">Table</button><br>
+			</div>
+		<form name="test-form" autocomplete="OFF">
+			<p>
+				<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+				<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+				<button class="light-button button special-character" data-char="&eth;">&eth;</button>
+				<sub>Use these buttons to insert thorn, ash and eth when you have an input
+					selected.</sub>
+			</p>
+			<div id="question-wrapper" data-question-file="cases5_answers.json" data-table-file="table_test.json">
+			</div>
+			<div class="form-group">
+
+			</div>
+		</form>
+</main>

@@ -1,0 +1,199 @@
+[
+    {
+        "question": "On þissum geare ferde seo (<em>micel</em>) #### scipfierd eft on Englalande - In this year the great navy went again to England",
+        "correctAnswer": "micele",
+        "explanation":"Here 'micel' is modifying the singular nominative feminine 'scipfierd' so it takes the feminine 'e' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "micela",
+                "explanation": "An adjective takes the gender of its noun. As can be seen by 'seo', 'scipfierd' is feminine so 'micel' should take the feminine nominative 'e' suffix"
+            }
+        ]
+    },
+    {
+        "question": "Se (<em>yfel</em>) #### unrihtwisa cyning spræc mid his yflan tungan - The evil unrighteous king spoke with his evil mouth",
+        "correctAnswer": "yfela",
+        "explanation":"Here 'yfel' is modifying the singular nominative masculine 'cyning' so it takes the 'a' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "yfele",
+                "explanation": "An adjective takes the gender of its noun. As can be seen by 'se', 'cyning' is masculine so 'yfel' should take the masculine nominative 'a' suffix"
+            }
+        ]
+    },
+    {
+        "question": "Se (<em>swet</em>) #### mete ðe hie heton monna se him cuom of hefonum - The sweet meats that they call mana which comes from heaven",
+        "correctAnswer": "sweta",
+        "explanation":"Here 'swet' is modifying the singular nominative masculine 'mete' so it takes the 'a' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "swete",
+                "explanation": "An adjective takes the gender of its noun. As can be seen by 'se', 'mete' is masculine so 'swet' should take the masculine nominative 'a' suffix"
+            }
+        ]
+    },
+    {
+        "question": "Dol bið þæt (<em>lytel</em>) #### scip ðe gæð on deop wæter - Foolish is the little ship that goes in deep water",
+        "correctAnswer": "lytle",
+        "explanation":"Here 'lytel' is modifying the singular nominative neuter 'scip' so it takes the neuter 'e' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "lytele",
+                "explanation": "Adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytle' when it gains the singular nominative neuter suffix 'e'"
+            }
+        ]
+    },
+    {
+        "question": "On þissum geare sende he þone (<em>eald</em>) #### biscop Wulfstan to þæm stede þe wæs genemned Readingum - In this year he sent the old bishop to the place that was called Reading",
+        "correctAnswer": "ealdan",
+        "explanation":"Here 'eald' is modifying the singular accusative masculine 'biscop' so it takes the 'an' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "He sende þæt (<em>halig</em>) #### lic to þæm mynster - He sent the holy body to the minster",
+        "correctAnswer": "halge",
+        "explanation":"Here 'halig' is modifying the singular accusative neuter 'lic' so it takes the 'e' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "halgan",
+                "explanation": "An adjective takes the gender of its noun. As can be seen by 'þæt', 'lic' is neuter so 'halig' should take the neuter accusative 'e' suffix"
+            },
+            {
+                "badAnswer": "halige",
+                "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halge' when it gains the singular accusative neuter suffix 'e'"
+            }
+        ]
+    },
+    {
+        "question": "Se ðe gebigde ðone (<em>heah</em>) #### heofonlican bigels - He who bowed the high vault of heaven",
+        "correctAnswer": "heagan",
+        "explanation":"Here 'heah' is modifying the singular accusative masculine 'bigels' so it takes the 'an' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "heahan",
+                "explanation": "Words suffix in 'h' replace their 'h' with a 'g' before a suffix beginning with a vowel, so 'heah' becomes 'heagan' when it gains the suffix 'an'"
+            }
+        ]
+    },
+    {
+        "question": "Se deofol gesette hine uppan ðam scylfe ðæs (<em>heah</em>) #### temples - The devil set him upon the summit of the high temple",
+        "correctAnswer": "heagan",
+        "explanation":"Here 'heah' is modifying the singular genitive masculine 'temple' so it takes the 'an' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "heahan",
+                "explanation": "Words suffix in 'h' replace their 'h' with a 'g' before a suffix beginning with a vowel, so 'heah' becomes 'heagan' when it gains the suffix 'an'"
+            }
+        ]
+    },
+    {
+        "question": "He is in ðone deopan grund ðæs hatan leges and ðæs (<em>heard</em>) #### leges - He is in the deep abyss of the hot flame and the hard flame ",
+        "correctAnswer": "heardan",
+        "explanation":"Here 'heard' is modifying the singular genitive masculine 'leg' so it takes the 'an' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hwæt synt nu þæs foremeran ond þæs (<em>wis</em>) #### goldsmiðes ban Welondes? - What now are the bones of that renowned and wise goldsmith Weland?",
+        "correctAnswer": "wisan",
+        "explanation":"Here 'wis' is modifying the singular genitive masculine 'goldsmið' so it takes the 'an' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða wicingas eodon þa to þære (<em>lytel</em>) #### iege þe is genemned Iona - The vikings then went to the little island that is named Iona",
+        "correctAnswer": "lytlan",
+        "explanation":"Here 'lytel' is modifying the singular dative feminine 'ieg' so it takes the 'an' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "lytelan",
+                "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytlan' when it gains the singular genitive feminine suffix 'an'"
+            }
+        ]
+    },
+    {
+        "question": "Woroldlicra weorca on ðam (<em>halig</em>) #### dæge geswice man georne - On that holy day, let men abstain from worldly works",
+        "correctAnswer": "halgan",
+        "explanation":"Here 'halig' is modifying the singular dative masculine 'dæg' so it takes the 'an' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "haligan",
+                "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halgan' when it gains the singular dative masculine suffix 'an'"
+            }
+        ]
+    },
+    {
+        "question": "Ic ðe hæbbe aþriet mid ðis (<em>lang</em>) #### spelle - I have bored you with this long speech",
+        "correctAnswer": "langan",
+        "explanation":"Here 'lang' is modifying the singular dative neuter 'spell' so it takes the 'an' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ac uton don swa swa God tæhte þæt ure (<em>god</em>) #### weorc beon on ða wisan mannum cuðe - But let us do as God has taught, that our good works may be so known to men",
+        "correctAnswer": "godan",
+        "explanation":"Here 'god' is modifying the plural nominative neuter 'weorc' so it takes the 'an' suffix",
+        "commonMistakes": [
+            {
+                "badAnswer": "",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "question": "Ða (<em>heard</em>) #### þrowunga ðe he adreag - The hard sufferings than he endured",
+        "correctAnswer": "heardan",
+        "explanation":"Here 'heard' is modifying the plural nominative feminine 'þrowung' so it takes the 'an' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða (<em>eald</em>) #### wunde spræce þa ealdan race - The old wounds speak the old stories",
+        "correctAnswer": "ealdan",
+        "explanation":"Here 'eald' is modifying the plural nominative feminine 'racu' so it takes the 'an' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu ic ða (<em>eald</em>) #### race anforlæte - Now I dismiss the old stories",
+        "correctAnswer": "ealdan",
+        "explanation":"Here 'eald' is modifying the plural accusative feminine 'racu' so it takes the 'an' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða haligan hadas tæhte þa (<em>hæþen</em>) #### menn - The holy clergy guided the heathen men",
+        "correctAnswer": "hæþenan",
+        "explanation":"Here 'hæþen' is modifying the plural accusative masculine 'man' so it takes the 'an' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo gadriaþ þa boc þara (<em>wis</em>) #### menn- She gathered the books of the wise men",
+        "correctAnswer": "wisra",
+        "explanation":"Here 'wis' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "He mette þa (<em>geong</em>) #### cildra modor - He met the young childrens mother",
+        "correctAnswer": "geongra",
+        "explanation":"Here 'geong' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie neredon þa (<em>eald</em>) #### wigan - They saved the old warriors",
+        "correctAnswer": "ealdra",
+        "explanation":"Here 'eald' is modifying the plural genitive masculine 'wiga' so it takes the 'ra' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða com ðæm (<em>Denisc</em>) #### scipum flod to - Then the tide came to the Danish ships",
+        "correctAnswer": "Deniscum",
+        "explanation":"Here 'Denisc' is modifying the plural dative neuter 'scip' so it takes the 'um' suffix",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ac he þa gehat swiþe yfele gelæste ond swiþe wraþe geendode mid (<em>manig</em>) #### mane - But he kept that promise very evilly and his end was very grevious with many sins",
+        "correctAnswer": "manigum",
+        "explanation":"Here 'manig' is modifying the plural dative neuter 'man' so it takes the 'um' suffix",
+        "commonMistakes": []
+    }
+]

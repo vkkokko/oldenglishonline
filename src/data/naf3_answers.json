@@ -1,0 +1,146 @@
+[
+    {
+        "question": "#### scip sceal genægled - The ship must be nailed",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the subject 'scip'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### wif wæs gehæled of ðam wite - The woman was healed of the disease",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the subject 'wif'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### bearn is min dohtor - The child is my daughter",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the subject 'bearn'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif #### word sind soþ - If the words are true",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'word'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### scipu ferde to þæm tune - The ships went to the town",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'scipu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### godu fram Egiptum landum beoþ fremede godu - The gods from Egypt are strange gods",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'godu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He spræc to #### wif - He spoke to the woman",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the singular direct object 'wif'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se preost gebletsade #### scip - The priest blessed the ship",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the singular direct object 'scip'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning geaf #### scip to his suna - The king gave the ship to his son",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the singular direct object 'scip'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wolde geseean #### godu - He wanted to visit the gods",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'godu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se mann seah #### wif - The man saw the women",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'wif'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt wæron #### erestan scipu Deniscra manna the Angelcynnes land geseah - Those were the first ships of Danish men the English people's land saw",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'scipu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### scipes mæst geburnen - The ship's mast burned",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to the possessive 'scipes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf #### wifes boc to þæm biscop - He gave the woman's book to the bishop",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to the possessive 'wifes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### fremede godes preost bædon to his gode - The strange god's priest prayed to his god",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to the possessive 'godes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þis dæg, com #### hæthenes goda wigan - On that day, the warriors of the heathen gods came",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'goda'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### scipa menn com fram Denemearc - The crew of the ships came from Denmark",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'scipa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf #### bearna bec to his suna - He gave the childrens books to his son",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'bearna'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo cwen geaf þa boc to #### wife - The queen gave the book to the woman",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'wife'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning spræc to #### bearne - The king spoke to the child",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'bearne'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða menn ferde to #### scipe mid þæm sceattum - The men went to the ship with the treasure",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'scipe'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo geaf micel giefa to #### wifum - She gave many gifts to the women",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'wifum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se here ferde to #### scipum - The army went to the ships",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'scipum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se preost bædon to #### godum - The priest prayed to the gods",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'godum'",
+        "commonMistakes": []
+    }
+]
