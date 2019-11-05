@@ -23,7 +23,7 @@
         "explanation": "Here 'andswarian' is in the first person plural form '<em>andswariað</em>' as the subject is 'We'",
         "commonMistakes": [
             {
-                "badAnswer": "andswaraþ",
+                "incorrectAnswer": "andswaraþ",
                 "explanation": "'Andswaraþ' is the third person form. Here 'he' is linked to the verb 'het'. 'Andswarian'should by in the plural form '<em>andswariað</em>' as its subject is 'We'."
             }
         ]
@@ -46,7 +46,7 @@
         "explanation": "Here 'timbrian' is in the first person singular past form '<em>timbrode</em>' because the subject is 'I",
         "commonMistakes": [
             {
-                "badAnswer": "timbrie",
+                "incorrectAnswer": "timbrie",
                 "explanation": "'Timbrie' is the present singular form. Here 'timbrian' should be the past tense first person singular form '<em>timbrode</em>'"
             }
         ]
@@ -153,7 +153,7 @@
         "explanation": "Here 'bodian' is in the third person plural past form '<em>bododon</em>' because the subject is 'angels'",
         "commonMistakes": [
             {
-                "badAnswer": "bodiaþ",
+                "incorrectAnswer": "bodiaþ",
                 "explanation": "'Bodiaþ' is the present form. Here 'bodian' should be the past tense plural form '<em>bododon</em>'"
             }
         ]

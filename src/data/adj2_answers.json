@@ -5,7 +5,7 @@
         "explanation":"Here 'micel' is modifying the singular nominative feminine 'scipfierd' so it takes the feminine 'e' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "micela",
+                "incorrectAnswer": "micela",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'seo', 'scipfierd' is feminine so 'micel' should take the feminine nominative 'e' suffix"
             }
         ]
@@ -16,7 +16,7 @@
         "explanation":"Here 'yfel' is modifying the singular nominative masculine 'cyning' so it takes the 'a' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "yfele",
+                "incorrectAnswer": "yfele",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'se', 'cyning' is masculine so 'yfel' should take the masculine nominative 'a' suffix"
             }
         ]
@@ -27,7 +27,7 @@
         "explanation":"Here 'swet' is modifying the singular nominative masculine 'mete' so it takes the 'a' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "swete",
+                "incorrectAnswer": "swete",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'se', 'mete' is masculine so 'swet' should take the masculine nominative 'a' suffix"
             }
         ]
@@ -38,7 +38,7 @@
         "explanation":"Here 'lytel' is modifying the singular nominative neuter 'scip' so it takes the neuter 'e' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "lytele",
+                "incorrectAnswer": "lytele",
                 "explanation": "Adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytle' when it gains the singular nominative neuter suffix 'e'"
             }
         ]
@@ -49,7 +49,7 @@
         "explanation":"Here 'eald' is modifying the singular accusative masculine 'biscop' so it takes the 'an' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -60,11 +60,11 @@
         "explanation":"Here 'halig' is modifying the singular accusative neuter 'lic' so it takes the 'e' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "halgan",
+                "incorrectAnswer": "halgan",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'þæt', 'lic' is neuter so 'halig' should take the neuter accusative 'e' suffix"
             },
             {
-                "badAnswer": "halige",
+                "incorrectAnswer": "halige",
                 "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halge' when it gains the singular accusative neuter suffix 'e'"
             }
         ]
@@ -75,7 +75,7 @@
         "explanation":"Here 'heah' is modifying the singular accusative masculine 'bigels' so it takes the 'an' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "heahan",
+                "incorrectAnswer": "heahan",
                 "explanation": "Words suffix in 'h' replace their 'h' with a 'g' before a suffix beginning with a vowel, so 'heah' becomes 'heagan' when it gains the suffix 'an'"
             }
         ]
@@ -86,7 +86,7 @@
         "explanation":"Here 'heah' is modifying the singular genitive masculine 'temple' so it takes the 'an' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "heahan",
+                "incorrectAnswer": "heahan",
                 "explanation": "Words suffix in 'h' replace their 'h' with a 'g' before a suffix beginning with a vowel, so 'heah' becomes 'heagan' when it gains the suffix 'an'"
             }
         ]
@@ -109,7 +109,7 @@
         "explanation":"Here 'lytel' is modifying the singular dative feminine 'ieg' so it takes the 'an' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "lytelan",
+                "incorrectAnswer": "lytelan",
                 "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytlan' when it gains the singular genitive feminine suffix 'an'"
             }
         ]
@@ -120,7 +120,7 @@
         "explanation":"Here 'halig' is modifying the singular dative masculine 'dæg' so it takes the 'an' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "haligan",
+                "incorrectAnswer": "haligan",
                 "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halgan' when it gains the singular dative masculine suffix 'an'"
             }
         ]
@@ -137,7 +137,7 @@
         "explanation":"Here 'god' is modifying the plural nominative neuter 'weorc' so it takes the 'an' suffix",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]

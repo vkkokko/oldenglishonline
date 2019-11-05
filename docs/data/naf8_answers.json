@@ -29,7 +29,7 @@
         "explanation": "Here 'god' is the subject and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": [
             {
-                "badAnswer": "god",
+                "incorrectAnswer": "god",
                 "explanation": "Here 'god' is the subject and plural, but since 'god' has a short syllable it should take a 'u' ending"
             }
         ]
@@ -82,7 +82,7 @@
         "explanation": "Here 'wif' is in the genitive plural, so it takes the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "wif",
+                "incorrectAnswer": "wif",
                 "explanation": "Here 'wif' is in the genitive plural as she is 'one of the first', so it takes the 'a' ending"
             }
         ]
@@ -93,7 +93,7 @@
         "explanation": "Here 'god' is in the genitive plural, so it takes the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "godes",
+                "incorrectAnswer": "godes",
                 "explanation": "Here 'god' is in the genitive plural, so it takes the 'a' ending, not the singular 'es' ending"
             }
         ]
@@ -152,7 +152,7 @@
         "explanation": "Here 'bearn' is the indirect object and singular, and so takes an 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "bearn",
+                "incorrectAnswer": "bearn",
                 "explanation": "Here 'bearn' is the indirect object and singular, and so takes an 'e' ending. It is 'eall' which is the direct object"
             }
         ]
@@ -379,7 +379,7 @@
         "explanation": "Here 'biscop' is in the singular genitive so it takes the 'es' ending",
         "commonMistakes": [
             {
-                "badAnswer": "biscopa",
+                "incorrectAnswer": "biscopa",
                 "explanation": "While 'biscop' is in the genitive, it is the singular 'biscopes'. Biscopa' is the genitive plural"
             }
         ]
@@ -396,7 +396,7 @@
         "explanation": "Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
         "commonMistakes": [
             {
-                "badAnswer": "þegen",
+                "incorrectAnswer": "þegen",
                 "explanation": "While not apparant in the Old English, þegen is clearly plural in the modern English trans, and so takes the 'as' ending of the nominative plural"
             }
         ]
@@ -407,7 +407,7 @@
         "explanation": "Here 'cyning' is the subject and plural so it takes the 'as' ending of the nominative plural",
         "commonMistakes": [
             {
-                "badAnswer": "cyning",
+                "incorrectAnswer": "cyning",
                 "explanation": "'Cyning' is the singular form of the word while the above word is plural. This means the correct answer is 'cyningas'. If you're not sure whether a word is plural or singular, check the demonstrative pronoun."
             }
         ]
@@ -418,7 +418,7 @@
         "explanation": "Here 'biscop' is in the possessive plural, since there are multiple priests belong to multiple bishops, so it takes the 'a' ending of the genitive plural",
         "commonMistakes": [
             {
-                "badAnswer": "biscopas",
+                "incorrectAnswer": "biscopas",
                 "explanation": "Biscopas is the nominative or accusative plural. The genitive plural ends in 'a', so the correct answer is 'biscopa'."
             }
         ]
@@ -717,7 +717,7 @@
         "explanation":"Here 'heafod' is an indirect object and singular, so it loses its unstressed 'o' and gains the 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "heafod",
+                "incorrectAnswer": "heafod",
                 "explanation":"Here 'heafod' is an indirect object, not direct object, as the heads are not being directly acted upon. This means it takes the dative singular 'e' ending"
             }
         ]
@@ -734,7 +734,7 @@
         "explanation":"Here 'clawu' is the subject and plural so it loses its end-vowel and gains the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "clawas",
+                "incorrectAnswer": "clawas",
                 "explanation":"'Clawu', like most words ending in 'u', is feminine, not masculine, so it takes the nominative plural 'a' ending"
             }
         ]
@@ -757,7 +757,7 @@
         "explanation":"Here 'feoh' is the indect object and singular so it loses its 'h'. It should take an 'e' ending but since it is an unstressed vowel, it takes no ending",
         "commonMistakes": [
             {
-                "badAnswer":"feoe",
+                "incorrectAnswer":"feoe",
                 "explanation":"Here 'feoh' is the indect object and singular so it should take an 'e' ending, but since you drop the unstressed vowel along with the 'h', it takes no ending"
             }
         ]

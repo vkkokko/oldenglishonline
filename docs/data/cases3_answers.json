@@ -47,7 +47,7 @@
         "explanation":"Here 'cyning' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending.",
         "commonMistakes": [
             {
-                "badAnswer": "cyning",
+                "incorrectAnswer": "cyning",
                 "explanation": "Cyning is the nominative or accusative singular form of the word. Here 'cyning' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending."
             }
         ]
@@ -58,7 +58,7 @@
         "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "biscop",
+                "incorrectAnswer": "biscop",
                 "explanation": "Biscop is the nominative or accusative singular form of the word. Here 'biscop' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending."
             }
         ]
@@ -105,7 +105,7 @@
         "explanation":"Here 'stede' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",        
         "commonMistakes": [
             {
-            "badAnswer": "stedee",
+            "incorrectAnswer": "stedee",
             "explanation":"While 'stede' is not directly receiving the action of the verb 'ferþ' and so is dative singular, it already ends in e, so no additional letters are added"        
             }
         ]

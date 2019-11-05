@@ -29,7 +29,7 @@
         "explanation":"Here 'god' is the subject and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": [
             {
-                "badAnswer": "god",
+                "incorrectAnswer": "god",
                 "explanation": "Here 'god' is the subject and plural, but since 'god' has a short syllable it should take a 'u' ending"
             }
         ]
@@ -82,7 +82,7 @@
         "explanation":"Here 'wif' is in the genitive plural, so it takes the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "wif",
+                "incorrectAnswer": "wif",
                 "explanation":"Here 'wif' is in the genitive plural as she is 'one of the first', so it takes the 'a' ending"
             }
         ]
@@ -93,7 +93,7 @@
         "explanation":"Here 'god' is in the genitive plural, so it takes the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "godes",
+                "incorrectAnswer": "godes",
                 "explanation":"Here 'god' is in the genitive plural, so it takes the 'a' ending, not the singular 'es' ending"
             }
         ]
@@ -152,7 +152,7 @@
         "explanation":"Here 'bearn' is the indirect object and singular, and so takes an 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "bearn",
+                "incorrectAnswer": "bearn",
                 "explanation":"Here 'bearn' is the indirect object and singular, and so takes an 'e' ending. It is 'eall' which is the direct object"
             }
         ]

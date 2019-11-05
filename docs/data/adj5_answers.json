@@ -5,7 +5,7 @@
         "explanation":"Here 'micel' is modifying the singular nominative feminine 'scipfierd' so it takes the feminine 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "micela",
+                "incorrectAnswer": "micela",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'seo', 'scipfierd' is feminine so 'micel' should take the feminine nominative 'e' ending"
             }
         ]
@@ -16,7 +16,7 @@
         "explanation":"Here 'yfel' is modifying the singular nominative masculine 'cyning' so it takes the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "yfele",
+                "incorrectAnswer": "yfele",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'se', 'cyning' is masculine so 'yfel' should take the masculine nominative 'a' ending"
             }
         ]
@@ -27,7 +27,7 @@
         "explanation":"Here 'swet' is modifying the singular nominative masculine 'mete' so it takes the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "swete",
+                "incorrectAnswer": "swete",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'se', 'mete' is masculine so 'swet' should take the masculine nominative 'a' ending"
             }
         ]
@@ -38,7 +38,7 @@
         "explanation":"Here 'lytel' is modifying the singular nominative neuter 'scip' so it takes the neuter 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "lytele",
+                "incorrectAnswer": "lytele",
                 "explanation": "Adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytle' when it gains the singular nominative neuter suffix 'e'"
             }
         ]
@@ -49,7 +49,7 @@
         "explanation":"Here 'eald' is modifying the singular accusative masculine 'biscop' so it takes the 'an' ending",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -60,11 +60,11 @@
         "explanation":"Here 'halig' is modifying the singular accusative neuter 'lic' so it takes the 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "halgan",
+                "incorrectAnswer": "halgan",
                 "explanation": "An adjective takes the gender of its noun. As can be seen by 'þæt', 'lic' is neuter so 'halig' should take the neuter accusative 'e' ending"
             },
             {
-                "badAnswer": "halige",
+                "incorrectAnswer": "halige",
                 "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halge' when it gains the singular accusative neuter suffix 'e'"
             }
         ]
@@ -75,7 +75,7 @@
         "explanation":"Here 'heah' is modifying the singular accusative masculine 'bigels' so it takes the 'an' ending",
         "commonMistakes": [
             {
-                "badAnswer": "heahan",
+                "incorrectAnswer": "heahan",
                 "explanation": "Words ending in 'h' replace their 'h' with a 'g' before a suffix beginning with a vowel, so 'heah' becomes 'heagan' when it gains the ending 'an'"
             }
         ]
@@ -86,7 +86,7 @@
         "explanation":"Here 'heah' is modifying the singular genitive masculine 'temple' so it takes the 'an' ending",
         "commonMistakes": [
             {
-                "badAnswer": "heahan",
+                "incorrectAnswer": "heahan",
                 "explanation": "Words ending in 'h' replace their 'h' with a 'g' before a suffix beginning with a vowel, so 'heah' becomes 'heagan' when it gains the ending 'an'"
             }
         ]
@@ -109,7 +109,7 @@
         "explanation":"Here 'lytel' is modifying the singular dative feminine 'ieg' so it takes the 'an' ending",
         "commonMistakes": [
             {
-                "badAnswer": "lytelan",
+                "incorrectAnswer": "lytelan",
                 "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytlan' when it gains the singular genitive feminine suffix 'an'"
             }
         ]
@@ -120,7 +120,7 @@
         "explanation":"Here 'halig' is modifying the singular dative masculine 'dæg' so it takes the 'an' ending",
         "commonMistakes": [
             {
-                "badAnswer": "haligan",
+                "incorrectAnswer": "haligan",
                 "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halgan' when it gains the singular dative masculine suffix 'an'"
             }
         ]
@@ -137,7 +137,7 @@
         "explanation":"Here 'god' is modifying the plural nominative neuter 'weorc' so it takes the 'an' ending",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -154,7 +154,7 @@
         "explanation":"",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -165,7 +165,7 @@
         "explanation":"",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -176,7 +176,7 @@
         "explanation":"",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -187,7 +187,7 @@
         "explanation":"",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -198,7 +198,7 @@
         "explanation":"",
         "commonMistakes": [
             {
-                "badAnswer": "",
+                "incorrectAnswer": "",
                 "explanation": ""
             }
         ]
@@ -341,11 +341,11 @@
         "explanation":"The stem of 'strang' undergoes i-mutation to become 'streng', but it isn't modifying a noun so it takes the 'ra' suffix to become 'strengra'",
         "commonMistakes": [
             {
-                "badAnswer": "strengran",
+                "incorrectAnswer": "strengran",
                 "explanation": "Comparatives only decline if the noun they are modifying a noun. This adjective is not modifying a noun, so it becomes 'strengra'"
             },
             {
-                "badAnswer": "strangra",
+                "incorrectAnswer": "strangra",
                 "explanation": "The stem of 'strang' undergoes 'i-mutation' so the 'a' becomes 'e', meaning 'strang' becomes 'strengra' in the comparative"
             }
         ]
@@ -356,15 +356,15 @@
         "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun",
         "commonMistakes": [
             {
-                "badAnswer": "langran",
+                "incorrectAnswer": "langran",
                 "explanation": "The stem of 'lang' undergoes 'i-mutation' so the 'a' becomes 'e', meaning 'lang' becomes 'lengran' in the comparative"
             },
             {
-                "badAnswer": "lengra",
+                "incorrectAnswer": "lengra",
                 "explanation":"Here 'lang' takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun"
             },
             {
-                "badAnswer": "langra",
+                "incorrectAnswer": "langra",
                 "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun"
             }
         ]
@@ -441,7 +441,7 @@
         "explanation":"Here 'halig' takes the superlative suffix 'ost' and the strong accusative feminine suffix 'e' as it is modifying 'mægden'",
         "commonMistakes": [
             {
-                "badAnswer": "haligost",
+                "incorrectAnswer": "haligost",
                 "explanation": ""
             }
         ]
@@ -452,7 +452,7 @@
         "explanation":"The stem of 'heah' undergoes i-mutation to become 'hieh', and takes the superlative suffix 'st' and the weak nominative masculine suffix 'a', as it comes after the demonstrative pronoun 'se'",
         "commonMistakes": [
             {
-                "badAnswer": "hiehost|hiehest",
+                "incorrectAnswer": "hiehost|hiehest",
                 "explanation":"Because 'heah' ends in a 'h', it drops the vowel in 'ost' to take the superlative suffix 'st'. Since it modifies a weak nominative masculine noun, it also takes the suffix 'a'"
             }
         ]

@@ -119,7 +119,7 @@
         "explanation":"Here 'heafod' is an indirect object and singular, so it loses its unstressed 'o' and gains the 'e' ending",
         "commonMistakes": [
             {
-                "badAnswer": "heafod",
+                "incorrectAnswer": "heafod",
                 "explanation":"Here 'heafod' is an indirect object, not direct object, as the heads are not being directly acted upon. This means it takes the dative singular 'e' ending"
             }
         ]
@@ -136,7 +136,7 @@
         "explanation":"Here 'clawu' is the subject and plural so it loses its end-vowel and gains the 'a' ending",
         "commonMistakes": [
             {
-                "badAnswer": "clawas",
+                "incorrectAnswer": "clawas",
                 "explanation":"'Clawu', like most words ending in 'u', is feminine, not masculine, so it takes the nominative plural 'a' ending"
             }
         ]
@@ -159,7 +159,7 @@
         "explanation":"Here 'feoh' is the indect object and singular so it loses its 'h'. It should take an 'e' ending but since it is an unstressed vowel, it takes no ending",
         "commonMistakes": [
             {
-                "badAnswer":"feoe",
+                "incorrectAnswer":"feoe",
                 "explanation":"Here 'feoh' is the indect object and singular so it should take an 'e' ending, but since you drop the unstressed vowel along with the 'h', it takes no ending"
             }
         ]

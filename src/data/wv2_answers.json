@@ -125,7 +125,7 @@
         "explanation":"<em>Ge</em> is the secone person plural personal pronoun",
         "commonMistakes": [
             {
-                "badAnswer": "þu|ðu",
+                "incorrectAnswer": "þu|ðu",
                 "explanation": "<em>ðu</em> is the second person singular pronoun. However, looking at the rest of the sentence you can see the plural 'eow' which indicates that 'you' here is plural"
             }
         ]

@@ -265,7 +265,7 @@
 	function createCommonMistakesHtml(mistakesArray) {
 		let output = '';
 		mistakesArray.forEach(function (mistake) {
-			output += `<div class="answer hidden" data-answer="${mistake.badAnswer}">${mistake.explanation}</div>`;
+			output += `<div class="answer hidden" data-answer="${mistake.incorrectAnswer}">${mistake.explanation}</div>`;
 		});
 		return output;
 	}

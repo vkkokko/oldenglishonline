@@ -11,7 +11,7 @@
         "explanation": "Here 'nerian' is in the second person singular form '<em>nerest</em>' because the subject is 'You",
         "commonMistakes": [
             {
-                "badAnswer": "neriest",
+                "incorrectAnswer": "neriest",
                 "explanation": "Remember, the second person singular form of 'nerian' is '<em>nerest</em>' because 'nerian' drops its 'i' in some conjugations"
             }
         ]
@@ -22,7 +22,7 @@
         "explanation": "Here 'hieran' is in the third person singular form '<em>hierð</em>' because the subject is 'He'",
         "commonMistakes": [
             {
-                "badAnswer": "hiereð|hiereþ",
+                "incorrectAnswer": "hiereð|hiereþ",
                 "explanation": "Remember, 'hieran' drops the 'e' before a dental fricative"
             }
         ]
@@ -45,7 +45,7 @@
         "explanation": "Here 'sendan' is in the first person singular past form '<em>sende</em>' because the subject is 'I'",
         "commonMistakes": [
             {
-                "badAnswer": "sendde",
+                "incorrectAnswer": "sendde",
                 "explanation": "Remember, when a double d is proceeded by a consonant, the double is reduced to single so the correct form is 'sende'"
             }
         ]
@@ -62,7 +62,7 @@
         "explanation": "Here 'nerian' is in the third person plural past form '<em>neredon</em>' because the subject is 'They'",
         "commonMistakes": [
             {
-                "badAnswer": "neriedon",
+                "incorrectAnswer": "neriedon",
                 "explanation": "Remember, the third person plural past form of 'nerian' is '<em>neredon</em>' because it drops its 'i' in some conjugations"
             }
         ]
@@ -91,7 +91,7 @@
         "explanation": "Here 'sendan' is in the third person singular past form '<em>sende</em>' because the subject is 'The King'",
         "commonMistakes": [
             {
-                "badAnswer": "sendest",
+                "incorrectAnswer": "sendest",
                 "explanation": "Here 'sendan' should be the third person singular past form '<em>sende</em>' because the subject is 'The King'. While &thorn;a resembles the second person <em>'&thorn;u'</em>, it actually means 'then'"
             }
         ]
@@ -102,7 +102,7 @@
         "explanation": "Here 'nerian' is in the third person singular form '<em>nereð</em>' because the subject is 'Wyrd'",
         "commonMistakes": [
             {
-                "badAnswer": "nerieð|nerieþ",
+                "incorrectAnswer": "nerieð|nerieþ",
                 "explanation": "Remember, the third person singular form of 'nerian' is '<em>nereð</em>' because it drops its 'i' in some conjugations"
             }
         ]
@@ -119,7 +119,7 @@
         "explanation": "Here 'l&aelig;dan' is in the first person singular past form '<em>lædde</em>' because the subject is 'I'",
         "commonMistakes": [
             {
-                "badAnswer": "læde",
+                "incorrectAnswer": "læde",
                 "explanation": "Unlike 'sendan', Lædan does not drop double 'd's' because they are proceeded by a vowel. So, here 'l&aelig;dan' is in the first person singular past form '<em>lædde</em>' because the subject is 'I'"
             }
         ]
@@ -130,7 +130,7 @@
         "explanation": "Here 'l&aelig;ran' is in the first person singular past form '<em>lærde</em>' because the subject is 'I'",
         "commonMistakes": [
             {
-                "badAnswer": "lærede",
+                "incorrectAnswer": "lærede",
                 "explanation": "While <em>l&aelig;ran</em> takes an 'e' in the present first person singular, here 'l&aelig;ran' is in the past tense first person singular form '<em>lædde</em>' because the subject is 'I'"
             }
         ]

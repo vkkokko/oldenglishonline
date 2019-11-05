@@ -5,11 +5,11 @@
         "explanation":"The stem of 'strang' undergoes i-mutation to become 'streng', but it isn't modifying a noun so it takes the 'ra' suffix to become 'strengra'",
         "commonMistakes": [
             {
-                "badAnswer": "strengran",
-                "explanation": "Comparatives only decline if the noun they are modifying a noun. This adjective is not modifying a noun, so it becomes 'strengra'"
+                "incorrectAnswer": "strengran",
+                "explanation": "Comparatives only decline if they are modifying a noun. This adjective is not modifying a noun, so it becomes 'strengra'"
             },
             {
-                "badAnswer": "strangra",
+                "incorrectAnswer": "strangra",
                 "explanation": "The stem of 'strang' undergoes 'i-mutation' so the 'a' becomes 'e', meaning 'strang' becomes 'strengra' in the comparative"
             }
         ]
@@ -20,15 +20,15 @@
         "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun",
         "commonMistakes": [
             {
-                "badAnswer": "langran",
+                "incorrectAnswer": "langran",
                 "explanation": "The stem of 'lang' undergoes 'i-mutation' so the 'a' becomes 'e', meaning 'lang' becomes 'lengran' in the comparative"
             },
             {
-                "badAnswer": "lengra",
+                "incorrectAnswer": "lengra",
                 "explanation":"Here 'lang' takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun"
             },
             {
-                "badAnswer": "langra",
+                "incorrectAnswer": "langra",
                 "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun"
             }
         ]
@@ -105,7 +105,7 @@
         "explanation":"Here 'halig' takes the superlative suffix 'ost' and the strong accusative feminine suffix 'e' as it is modifying 'mægden'",
         "commonMistakes": [
             {
-                "badAnswer": "haligost",
+                "incorrectAnswer": "haligost",
                 "explanation": ""
             }
         ]
@@ -116,7 +116,7 @@
         "explanation":"The stem of 'heah' undergoes i-mutation to become 'hieh', and takes the superlative suffix 'st' and the weak nominative masculine suffix 'a', as it comes after the demonstrative pronoun 'se'",
         "commonMistakes": [
             {
-                "badAnswer": "hiehost|hiehest",
+                "incorrectAnswer": "hiehost|hiehest",
                 "explanation":"Because 'heah' ends in a 'h', it drops the vowel in 'ost' to take the superlative suffix 'st'. Since it modifies a weak nominative masculine noun, it also takes the suffix 'a'"
             }
         ]
