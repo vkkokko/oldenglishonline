@@ -326,7 +326,7 @@ nav {
 .card-content {
 	border-radius: 0 0 5px 5px;
 	padding: 0.5em 1.25em 1em 1.25em;
-	background: rgb(68, 68, 68, 0.85);
+	background: rgba(68, 68, 68, 0.85);
 	font-size: 1.1em;
 	line-height: 1.5em;
 	position: absolute;
