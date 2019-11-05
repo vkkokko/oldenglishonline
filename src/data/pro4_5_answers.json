@@ -1,0 +1,404 @@
+[
+    {
+        "question": "On þissum dagum #### micel þegen ferde eft to Englalande - On this day the mighty thane went again to England",
+        "correctAnswer": "se",
+        "explanation": "Here the demonstrative pronoun is 'se' because it is tied to the subject 'þegen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se biscop grete #### cyning — The abbot greets the king",
+        "correctAnswer": "þone",
+        "explanation": "Here the demonstrative pronoun is 'þone' because it is tied to 'cyning' which is directly receiving the action of the verb 'grete'",
+        "commonMistakes": []
+    },
+    {
+        "question": "In #### cyninges tune — In the town of the king",
+        "correctAnswer": "þæs",
+        "explanation": "Here the demonstrative pronoun is 'þæs' because it is tied to 'cyning' which has the genitive singular 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ferþ to #### tune — The king goes to the town",
+        "correctAnswer": "þæm",
+        "explanation": "Here the demonstrative pronoun is 'þæm' because it is tied to 'tun' which has the dative singular 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### biscopas geaf þone stan to þaem þegne — The bishops gave the stone to the thane",
+        "correctAnswer": "þa",
+        "explanation": "Here the demonstrative pronoun is 'þa' because it is tied to the subject 'biscop' which has the plural 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ond seo cwen grete #### biscopas — The king and the queen greet the bishops",
+        "correctAnswer": "þa",
+        "explanation": "Here the demonstrative pronoun is 'þa' because it is tied to 'biscop' which has the plural 'as' ending and is the direct recipient of the verb 'grete'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### wicinga cyning wolde þæt þa Deniscan ricsoden ofer Englalande - The king of vikings willed that the Danes ruled over England",
+        "correctAnswer": "þara",
+        "explanation": "Here the demonstrative pronoun is 'þara' because it is tied to 'wicing' which has the genetive plural ending 'a'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se geaf þa garas to #### þegnum — He gave the spear to the thanes",
+        "correctAnswer": "þæm",
+        "explanation": "Here the demonstrative pronoun is 'þæm' because it is tied to 'þegnum' which has the dative plural 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### biscop wæs halig and eaþmod - The bishop was holy and humble",
+        "correctAnswer": "se",
+        "explanation": "Here the demonstrative pronoun is 'se' because it is tied to the subject 'biscop'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se þegen sloh #### biscop in þæm tune genemed Stanford — The thane slew the bishop in the town called Stamford",
+        "correctAnswer": "þone",
+        "explanation": "Here the demonstrative pronoun is 'þone' because it is tied to 'biscop' which is directly receiving the action of the verb 'sloh'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða bearn #### cyninges beoþ wis and eaþmod - The children of the king are wise and humble",
+        "correctAnswer": "þæs",
+        "explanation": "Here the demonstrative pronoun is 'þæs' because it is tied to 'cyning' which has the genitive singular 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þissum geare sende he þone ealdan biscop Wulfstan to #### stede þe genemened Readingum - On this year he sent the old Bishop Wulfstan to the place that was called Reading",
+        "correctAnswer": "þæm",
+        "explanation": "Here the demonstrative pronoun is 'þæm' because it is tied to 'stede'. While 'stede' already ends in an e, making it hard to tell the case, it is after the preposition 'to' and indirectly receiving the action which makes it dative",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### biscopas comon fram þæm tunum hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+        "correctAnswer": "þa",
+        "explanation": "Here the demonstrative pronoun is 'þa' because it is tied to the subject 'biscop' which has the plural 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gaþ! Fliemaþ #### Englas and timbriaþ fela tuna on hiera landum - Go! Banish the English and build many towns on their land",
+        "correctAnswer": "þa",
+        "explanation": "Here the demonstrative pronoun is 'þa' because it is tied to 'Englas' which has the plural 'as' ending and is the direct recipient of the verb 'fliemaþ'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Eall #### biscopa preostas ferde to þæm halige stede mid him — All the bishops’ priests went to the holy place with them",
+        "correctAnswer": "þara",
+        "explanation": "Here the demonstrative pronoun is 'þara' because it is tied to 'biscopa' which has the genetive plural ending 'a'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He cwæð þæt he bude on #### landum norþweardum wiþ þa Westsæ - He said that he lived in the lands northward along the west sea",
+        "correctAnswer": "þæm",
+        "explanation": "Here the demonstrative pronoun is 'þæm' because it is tied to 'land' which has the dative plural 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Giet wæs #### cyning Aelfred geong - Still, the king Alfred was young",
+        "correctAnswer": "se",
+        "explanation": "Here the demonstrative pronoun is 'se' because it is tied to the subject 'cyning'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ælfric geaf #### æþeling drync - Aelfric gave the prince a drink",
+        "correctAnswer": "þone",
+        "explanation": "Here the demonstrative pronoun is 'þone' because it is tied to 'æþeling' which is directly receiving the action of the verb 'geaf'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf #### æþelinges begas to þære cwene - He gave the prince's rings to the queen",
+        "correctAnswer": "þæs",
+        "explanation": "Here the demonstrative pronoun is 'þæs' because it is tied to 'æþeling' which has the genitive singular 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se abbot com fram #### beorgum - The abbot came from the mountains",
+        "correctAnswer": "þæm",
+        "explanation": "Here the demonstrative pronoun is 'þæm' because it is tied to 'beorg' which has the dative plural 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### scip sceal genægled - The ship must be nailed",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the subject 'scip'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### wif wæs gehæled of ðam wite - The woman was healed of the disease",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the subject 'wif'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### bearn is min dohtor - The child is my daughter",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the subject 'bearn'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif #### word sind soþ - If the words are true",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'word'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### scipu ferde to þæm tune - The ships went to the town",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'scipu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### godu fram Egiptum landum beoþ fremede godu - The gods from Egypt are strange gods",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'godu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He spræc to #### wif - He spoke to the woman",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the singular direct object 'wif'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se preost gebletsade #### scip - The priest blessed the ship",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the singular direct object 'scip'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning geaf #### scip to his suna - The king gave the ship to his son",
+        "correctAnswer": "þæt",
+        "explanation":"Here the demonstrative pronoun is 'þæt' because it is tied to the singular direct object 'scip'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wolde geseean #### godu - He wanted to visit the gods",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'godu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se mann seah #### wif - The man saw the women",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'wif'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt wæron #### erestan scipu Deniscra manna the Angelcynnes land geseah - Those were the first ships of Danish men the English people's land saw",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'scipu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### scipes mæst geburnen - The ship's mast burned",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to the possessive 'scipes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf #### wifes boc to þæm biscop - He gave the woman's book to the bishop",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to the possessive 'wifes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### fremede godes preost bædon to his gode - The strange god's priest prayed to his god",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to the possessive 'godes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þis dæg, com #### hæthenes goda wigan - On that day, the warriors of the heathen gods came",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'goda'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### scipa menn com fram Denemearc - The crew of the ships came from Denmark",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'scipa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf #### bearna bec to his suna - He gave the childrens books to his son",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'bearna'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo cwen geaf þa boc to #### wife - The queen gave the book to the woman",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'wife'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning spræc to #### bearne - The king spoke to the child",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'bearne'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða menn ferde to #### scipe mid þæm sceattum - The men went to the ship with the treasure",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'scipe'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo geaf micel giefa to #### wifum - She gave many gifts to the women",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'wifum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se here ferde to #### scipum - The army went to the ships",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'scipum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se preost bædon to #### godum - The priest prayed to the gods",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the indirect object 'godum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### cwen ferþ to þæm beorgum - The queen goes to the mountains",
+        "correctAnswer": "seo",
+        "explanation":"Here the demonstrative pronoun is 'seo' because it is tied to the subject 'cwen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### ceaster ne mæg beon behyd - The city cannot be hidden",
+        "correctAnswer": "seo",
+        "explanation":"Here the demonstrative pronoun is 'seo' because it is tied to the subject 'ceaster'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### giefu wæs swiþe geæhted - The gift was greatly prized",
+        "correctAnswer": "seo",
+        "explanation":"Here the demonstrative pronoun is 'seo' because it is tied to the subject 'giefu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### cwena wæron hatene Marsepia and Lampida - The queens were called Marsepia and Lampida",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'cwena'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### ceastra, Gleawanceaster, Cirenceaster and Baþanceaster, beoþ on ceastrum weallum beworhte - The cities, Gloucester, Cirencester and Bath, are walled towns",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'ceastra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### idesa sloh ða wundenlocc þone fēondsceaðan - The women slew the wavy-haired fiend",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'idesa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ælla and Cissa ymbsæton #### ceastre - Aella and Cissa beseiged the city",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the singular direct object 'ceastre'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He lufast #### idese - He loves the lady",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the singular direct object 'idese'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic hierde #### cwen - I heard the queen",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the singular direct object 'cwen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo geaf #### giefa to þæm werum - She gave the gifts to the men",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'giefa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas neredon #### idesa - The thanes saved the ladies",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'idesa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas læston #### cwena - The thanes followed the Queens",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'cwena'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo ferde to #### cwene broce ond fram þære cwene broce - She went to the Queen's brook and from the Queen's brook",
+        "correctAnswer": "þære",
+        "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the possessive 'cwene'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### ceastre ealdorman spræc mid þæm biscope - The city's elderman spoke with the bishop",
+        "correctAnswer": "þære",
+        "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the possessive 'ceastre'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wæs on #### cwena gewealdum - He was under the power of the queens",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'cwena'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### ceastra wisra menn ferde to þæm cyning - The wise men of the cities went to the king ",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'ceastra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### idesa fæder wæs sæt æt wine - The ladies father was sat at his wine",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'idesa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie to #### cwene agefon him - They gave him up to the queen",
+        "correctAnswer": "þære",
+        "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the indirect object 'cwene'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas ferde to #### idese - The thanes went to the lady",
+        "correctAnswer": "þære",
+        "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the indirect object 'idese'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða comon ða weardas to #### ceastre - Then the keepers came into the city",
+        "correctAnswer": "þære",
+        "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the indirect object 'ceastre'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hlynn wearþ on #### ceastrum - A great cry arose in the cities",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the plural indirect object 'ceastrum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf þa bec to #### idesum - He gave the books to the ladies",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the plural indirect object 'idesum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas geaf begas ond feoh to #### cwenum - The thanes gave rings and wealth to the queens",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the plural indirect object 'cwenum'",
+        "commonMistakes": []
+    }
+]

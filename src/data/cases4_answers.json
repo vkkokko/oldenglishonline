@@ -1,0 +1,122 @@
+[
+    {
+        "question": "On þissum dagum #### micel þegen ferde eft to Englalande - On this day the mighty thane went again to England",
+        "correctAnswer": "se",
+        "explanation":"Here the demonstrative pronoun is 'se' because it is tied to the subject 'þegen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se biscop grete #### cyning — The abbot greets the king",
+        "correctAnswer": "þone",
+        "explanation":"Here the demonstrative pronoun is 'þone' because it is tied to 'cyning' which is directly receiving the action of the verb 'grete'",
+        "commonMistakes": []
+    },
+    {
+        "question": "In #### cyninges tune — In the town of the king",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to 'cyning' which has the genitive singular 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ferþ to #### tune — The king goes to the town",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to 'tun' which has the dative singular 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### biscopas geaf þone stan to þaem þegne — The bishops gave the stone to the thane",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the subject 'biscop' which has the plural 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ond seo cwen grete #### biscopas — The king and the queen greet the bishops",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to 'biscop' which has the plural 'as' ending and is the direct recipient of the verb 'grete'",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### wicinga cyning wolde þæt þa Deniscan ricsoden ofer Englalande - The king of vikings willed that the Danes ruled over England",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to 'wicing' which has the genetive plural ending 'a'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se geaf þa garas to #### þegnum — He gave the spear to the thanes",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to 'þegnum' which has the dative plural 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### biscop wæs halig and eaþmod - The bishop was holy and humble",
+        "correctAnswer": "se",
+        "explanation":"Here the demonstrative pronoun is 'se' because it is tied to the subject 'biscop'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se þegen sloh #### biscop in þæm tune genemed Stanford — The thane slew the bishop in the town called Stamford",
+        "correctAnswer": "þone",
+        "explanation":"Here the demonstrative pronoun is 'þone' because it is tied to 'biscop' which is directly receiving the action of the verb 'sloh'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða bearn #### cyninges beoþ wis and eaþmod - The children of the king are wise and humble",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to 'cyning' which has the genitive singular 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þissum geare sende he þone ealdan biscop Wulfstan to #### stede þe genemened Readingum - On this year he sent the old Bishop Wulfstan to the place that was called Reading",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to 'stede'. While 'stede' already ends in an e, making it hard to tell the case, it is after the preposition 'to' and indirectly receiving the action which makes it dative",
+        "commonMistakes": []
+    },
+    {
+        "question": "#### biscopas comon fram þæm tunum hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the subject 'biscop' which has the plural 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gaþ! Fliemaþ #### Englas and timbriaþ fela tuna on hiera landum - Go! Banish the English and build many towns on their land",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to 'Englas' which has the plural 'as' ending and is the direct recipient of the verb 'fliemaþ'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Eall #### biscopa preostas ferde to þæm halige stede mid him — All the bishops’ priests went to the holy place with them",
+        "correctAnswer": "þara",
+        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to 'biscopa' which has the genetive plural ending 'a'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He cwæð þæt he bude on #### landum norþweardum wiþ þa Westsæ - He said that he lived in the lands northward along the west sea",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to 'land' which has the dative plural 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Giet wæs #### cyning Aelfred geong - Still, the king Alfred was young",
+        "correctAnswer": "se",
+        "explanation":"Here the demonstrative pronoun is 'se' because it is tied to the subject 'cyning'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ælfric geaf #### æþeling drync - Aelfric gave the prince a drink",
+        "correctAnswer": "þone",
+        "explanation":"Here the demonstrative pronoun is 'þone' because it is tied to 'æþeling' which is directly receiving the action of the verb 'geaf'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf #### æþelinges begas to þære cwene - He gave the prince's rings to the queen",
+        "correctAnswer": "þæs",
+        "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to 'æþeling' which has the genitive singular 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se abbot com fram #### beorgum - The abbot came from the mountains",
+        "correctAnswer": "þæm",
+        "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to 'beorg' which has the dative plural 'um' ending",
+        "commonMistakes": []
+    }
+]

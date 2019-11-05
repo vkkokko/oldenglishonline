@@ -1,0 +1,176 @@
+[
+    {
+        "question": "Seo (<em>cwen</em>) #### ferþ to þæm beorgum - The queen goes to the mountains",
+        "correctAnswer": "cwen",
+        "explanation":"Here 'cwen' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wæs (<em>giefu</em>) #### Hroþgares oft geæhted - The gift of Hrothgar was often prized",
+        "correctAnswer": "giefu",
+        "explanation":"Here 'giefu' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo (<em>ceaster</em>) #### ne mæg beon behyd - The city cannot be hidden",
+        "correctAnswer": "ceaster",
+        "explanation":"Here 'ceaster' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sceolde monig blachleor (<em>ides</em>) #### bifiende gan - Many a pale-faced lady must trembling go",
+        "correctAnswer": "ides",
+        "explanation":"Here 'ides' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þa (<em>cwen</em>) #### wæron hatene Marsepia and Lampida - The queens were called Marsepia and Lampida",
+        "correctAnswer": "cwena",
+        "explanation":"Here 'cwen' is the subject and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt hie ælmihtiges (<em>giefu</em>) #### anforleten - That they might lose the almighty's gifts",
+        "correctAnswer": "giefa",
+        "explanation":"Here 'giefu' is the subject and plural, so it loses its 'u' takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða (<em>ceaster</em>) ####, Gleawanceaster, Cirenceaster and Baþanceaster, beoþ on ceastrum weallum beworhte - The cities, Gloucester, Cirencester and Bath, are walled towns",
+        "correctAnswer": "ceastra",
+        "explanation":"Here 'ceastra' is the subject and plural, so it loses its second 'e' takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða (<em>ides</em>) #### sloh ða wundenlocc þone feondsceaðan - The women slew the wavy-haired fiend",
+        "correctAnswer": "idesa",
+        "explanation":"Here 'ides' is the subject and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo ferde to þære (<em>cwen</em>) #### broce ond fram þære cwene broce - She went to the Queen's brook and from the Queen's brook",
+        "correctAnswer": "cwene",
+        "explanation":"Here 'cwen' is in the posessive singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðære (<em>ceaster</em>) #### ealdorman spræc mid þæm biscope - The city's elderman spoke with the bishop",
+        "correctAnswer": "ceastre",
+        "explanation":"Here 'ceaster' is in the posessive singular, so it loses its second 'e' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæra oðer wæs (<em>ides</em>) #### onlicnes - The other had a woman's likeness",
+        "correctAnswer": "idese",
+        "explanation":"Here 'ides' is in the posessive singular, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wæs on ðara (<em>cwen</em>) #### gewealdum - He was under the power of the queens",
+        "correctAnswer": "cwena",
+        "explanation":"Here 'cwen' is in the posessive plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara (<em>ceaster</em>) #### wisra menn ferde to þæm cyning - The cities wise men went to the king ",
+        "correctAnswer": "ceastra",
+        "explanation":"Here 'ceaster' is in the posessive plural, so it loses its second 'e' and takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara (<em>ides</em>) #### fæder wæs sæt æt wine - The ladies father was sat at his wine",
+        "correctAnswer": "idesa",
+        "explanation":"Here 'ides' is in the posessive plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wæs feaxhar (<em>cwen</em>) #### - I was a hoary-haired woman",
+        "correctAnswer": "cwene",
+        "explanation":"Here 'cwen' is the direct object and singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo gefylled wæs wisdomes (<em>giefu</em>) #### - She was filled with wisdom's gift ",
+        "correctAnswer": "giefe",
+        "explanation":"Here 'giefu' is the direct object and singular, so it loses its 'u' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ælla and Cissa ymbsæton þa (<em>ceaster</em>) #### - Aella and Cissa beseiged the city",
+        "correctAnswer": "ceastre",
+        "explanation":"Here 'ceaster' is the direct object and singular, so it loses its second 'e' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Weras and (<em>ides</em>) #### sceolan læran Godes lufan - Men and women shall learn God's love",
+        "correctAnswer": "idesa",
+        "explanation":"Here 'ides' is the subject and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas læston þa (<em>cwen</em>) #### - The thanes followed the Queens",
+        "correctAnswer": "cwena",
+        "explanation":"Here 'cwen' is the direct object and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se Hælend ymbfor ealle þa burga ond þa (<em>ceaster</em>) #### - Jesus went around all the villages and the cities",
+        "correctAnswer": "ceastra",
+        "explanation":"Here 'ceaster' is the direct object and plural, so it loses its second 'e' and takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "To saulum on heofonum þu selest weorþlica (<em>giefu</em>) #### - To the souls in heaven you will give worthy gifts",
+        "correctAnswer": "giefa",
+        "explanation":"Here 'giefu' is the direct object and plural, so it loses its 'u' and takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða comon ða weardas to þære (<em>ceaster</em>) #### - Then the keepers came into the city",
+        "correctAnswer": "ceastre",
+        "explanation":"Here 'ceaster' is an indirect object and singular, so it loses its second 'e' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas ferde to þære (<em>ides</em>) #### - The thanes went to the lady",
+        "correctAnswer": "idese",
+        "explanation":"Here 'ides' is an indirect object and singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie to ðære (<em>cwen</em>) #### agefon him - Then they gave him up to the queen",
+        "correctAnswer": "cwene",
+        "explanation":"Here 'cwen' is an indirect object and singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ferde to þæm ceastre mid þæs cyninges (<em>giefu</em>) #### - He went to the city with the king's gift ",
+        "correctAnswer": "giefe",
+        "explanation":"Here 'giefu' is an indirect object and singular, so it loses its 'u' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hlynn wearþ on þæm (<em>ceaster</em>) #### - A great cry arose in the cities",
+        "correctAnswer": "ceastrum",
+        "explanation":"Here 'ceaster' is an indirect object and plural, so it loses its second 'e' and takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf þa bec to þæm (<em>ides</em>) #### - He gave the books to the ladies",
+        "correctAnswer": "idesum",
+        "explanation":"Here 'ides' is an indirect object and plural, so it takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas geaf begas ond feoh to þæm (<em>cwen</em>) #### - The thanes gave rings and wealth to the queens",
+        "correctAnswer": "cwenum",
+        "explanation":"Here 'cwen' is an indirect object and plural, so it takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðin mod trymeþ mid godcundum (<em>giefu</em>) #### - Strengthen your mind with divine gifts",
+        "correctAnswer": "giefum",
+        "explanation":"Here 'giefu' is an indirect object and plural, so it takes a 'um' ending",
+        "commonMistakes": []
+    }
+]
