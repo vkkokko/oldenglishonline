@@ -851,7 +851,7 @@ table a {
 	padding: 0;
 	margin-bottom: 0;
 	font-size: 14px;
-	background-color: none;
+	background-color: transparent;
 }
 
 .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
@@ -1064,4 +1064,9 @@ ul.module a {
 .quiz-table th {
 	text-align: center;
 	padding-left: 0.5em;
+}
+
+.static-button-position {
+	margin-top: -25px;
+    margin-left: 10px;
 }

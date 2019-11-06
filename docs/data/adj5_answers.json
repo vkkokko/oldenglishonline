@@ -135,12 +135,7 @@
         "question": "Ac uton don swa swa God tæhte þæt ure (<em>god</em) #### weorc beon on ða wisan mannum cuðe - But let us do as God has taught, that our good works may be so known to men",
         "correctAnswer": "godan",
         "explanation":"Here 'god' is modifying the plural nominative neuter 'weorc' so it takes the 'an' ending",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Ða (<em>heard</em>) #### þrowunga ðe he adreag - The hard sufferings than he endured",
@@ -151,57 +146,8 @@
     {
         "question": "Ða (<em>eald</em>) #### wunde spræce þa ealdan race - The old wounds speak the old stories",
         "correctAnswer": "ealdan",
-        "explanation":"",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
-    },
-    {
-        "question": "",
-        "correctAnswer": "",
-        "explanation":"",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
-    },
-    {
-        "question": "",
-        "correctAnswer": "",
-        "explanation":"",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
-    },
-    {
-        "question": "",
-        "correctAnswer": "",
-        "explanation":"",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
-    },
-    {
-        "question": "",
-        "correctAnswer": "",
-        "explanation":"",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
+        "explanation":"Here 'eald' is modifying the plural nominative feminine 'racu' so it takes the 'an' suffix",
+        "commonMistakes": []
     },
     {
         "question": "(<em>eald</em>) #### wif scielde þæt bearn mid hire lice - An old woman shielded the child with her body",
@@ -276,7 +222,7 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>geong</em>) #### preostas mette þæs cyninges bearn - Young women met the king's children",
+        "question": "(<em>geong</em>) #### preostas mette þæs cyninges bearn - Young priests met the king's children",
         "correctAnswer": "geonge",
         "explanation":"Here 'geong' is modifying the plural nominative masculine 'preost' so it takes the 'e' suffix",
         "commonMistakes": []
@@ -439,12 +385,7 @@
         "question": "Ic gyrne fultum ðinre foreþingrædene ðu (<em>halig</em>) #### mægden and þrowystr - I earnestly impolore your help, you holiest maiden and martyr",
         "correctAnswer": "haligoste",
         "explanation":"Here 'halig' takes the superlative suffix 'ost' and the strong accusative feminine suffix 'e' as it is modifying 'mægden'",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "haligost",
-                "explanation": ""
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Se wæs on lare and on dæde se (<em>heah</em>) #### - He was in learning and in deed the highest",
