@@ -1031,6 +1031,23 @@ ul.module a {
 		max-width: 100%;
 	}
 
+	.float-right-responsive {
+		float: none;
+	}
+
+	.static-button-position {
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+	.full-width {
+		width:100%;
+	}
+
+	.static-table th {
+		padding:5px;
+	}
+
 	/*responsive timeline styles*/
 
 	/* Place the timeline to the left */
