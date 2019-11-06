@@ -1065,3 +1065,8 @@ ul.module a {
 	text-align: center;
 	padding-left: 0.5em;
 }
+
+.static-button-position {
+	margin-top: -25px;
+    margin-left: 10px;
+}
