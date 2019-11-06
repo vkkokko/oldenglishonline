@@ -288,7 +288,7 @@
         "commonMistakes": [
             {
                 "incorrectAnswer": "strengran",
-                "explanation": "Comparatives only decline if the noun they are modifying a noun. This adjective is not modifying a noun, so it becomes 'strengra'"
+                "explanation": "Comparatives only decline if they are modifying a noun. This adjective is not modifying a noun, so it becomes 'strengra'"
             },
             {
                 "incorrectAnswer": "strangra",

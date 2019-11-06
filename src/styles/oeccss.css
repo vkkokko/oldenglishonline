@@ -896,6 +896,37 @@ ul.module a {
 	border-width: 1px;
 }
 
+
+/* tweaks */
+.fa-angle-double-down {
+	padding-top: 0.3em;
+}
+
+/*Experimental Stuff */
+
+.quiz-table {
+	text-align: center;
+	border: 1px solid darkgray;
+}
+
+.quiz-table input {
+	background: none;
+}
+
+.quiz-table td {
+	padding: 0.5em 0.5em;
+}
+
+.quiz-table th {
+	text-align: center;
+	padding-left: 0.5em;
+}
+
+.static-button-position {
+	margin-top: -25px;
+    margin-left: 10px;
+}
+
 /* Responsive Styles */
 
 @media screen and (max-width: 440px) {
@@ -1041,32 +1072,3 @@ ul.module a {
 	}
 }
 
-/* tweaks */
-.fa-angle-double-down {
-	padding-top: 0.3em;
-}
-
-/*Experimental Stuff */
-
-.quiz-table {
-	text-align: center;
-	border: 1px solid darkgray;
-}
-
-.quiz-table input {
-	background: none;
-}
-
-.quiz-table td {
-	padding: 0.5em 0.5em;
-}
-
-.quiz-table th {
-	text-align: center;
-	padding-left: 0.5em;
-}
-
-.static-button-position {
-	margin-top: -25px;
-    margin-left: 10px;
-}
