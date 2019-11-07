@@ -851,7 +851,7 @@ table a {
 	padding: 0;
 	margin-bottom: 0;
 	font-size: 14px;
-	background-color: none;
+	background-color: transparent;
 }
 
 .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
@@ -894,6 +894,37 @@ ul.module a {
 	text-align: center;
 	display: inline;
 	border-width: 1px;
+}
+
+
+/* tweaks */
+.fa-angle-double-down {
+	padding-top: 0.3em;
+}
+
+/*Experimental Stuff */
+
+.quiz-table {
+	text-align: center;
+	border: 1px solid darkgray;
+}
+
+.quiz-table input {
+	background: none;
+}
+
+.quiz-table td {
+	padding: 0.5em 0.5em;
+}
+
+.quiz-table th {
+	text-align: center;
+	padding-left: 0.5em;
+}
+
+.static-button-position {
+	margin-top: -25px;
+    margin-left: 10px;
 }
 
 /* Responsive Styles */
@@ -1000,6 +1031,23 @@ ul.module a {
 		max-width: 100%;
 	}
 
+	.float-right-responsive {
+		float: none;
+	}
+
+	.static-button-position {
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+	.full-width {
+		width:100%;
+	}
+
+	.static-table th {
+		padding:5px;
+	}
+
 	/*responsive timeline styles*/
 
 	/* Place the timeline to the left */
@@ -1041,27 +1089,3 @@ ul.module a {
 	}
 }
 
-/* tweaks */
-.fa-angle-double-down {
-	padding-top: 0.3em;
-}
-
-/*Experimental Stuff */
-
-.quiz-table {
-	text-align: center;
-	border: 1px solid darkgray;
-}
-
-.quiz-table input {
-	background: none;
-}
-
-.quiz-table td {
-	padding: 0.5em 0.5em;
-}
-
-.quiz-table th {
-	text-align: center;
-	padding-left: 0.5em;
-}
