@@ -927,6 +927,11 @@ ul.module a {
     margin-left: 10px;
 }
 
+/* bug fix for demonstrative graphics */
+.small-word-padding {
+	padding:0px 4px;
+}
+
 /* Responsive Styles */
 
 @media screen and (max-width: 440px) {
