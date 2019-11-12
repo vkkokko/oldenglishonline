@@ -102,13 +102,13 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>ic</em>) Wit geseagon #### feond forwordene - We two saw our enemy perish",
+        "question": "Wit geseagon (<em>ic</em>) #### feond forwordene - We two saw our enemy perish",
         "correctAnswer": "uncer",
         "explanation":"Here 'ic' is used in the first person dual genitive so it becomes 'uncer'",
         "commonMistakes": []
     },
     {
-        "question": "(<em>ic</em>) God mæg foreaðe #### æt foresceawian - God can very easily provide food for us two",
+        "question": "God mæg foreaðe (<em>ic</em>) #### æt foresceawian - God can very easily provide food for us two",
         "correctAnswer": "unc",
         "explanation":"Here 'ic' is used in the first person dual dative so it becomes 'unc'",
         "commonMistakes": []
