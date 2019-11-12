@@ -1,48 +1,48 @@
 [
     {
-        "question": "Se biscop grete þone (<i>cyning</i>) #### — The bishop greets the king",
+        "question": "Se biscop grete þone (<em>cyning</em>) #### — The bishop greets the king",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is directly receiving the action of the verb 'grete', so is in the singular accusative and thus takes no new ending",
         "commonMistakes": []
     },
     {
-        "question": "þa biscopas geaf þone (<i>stan</i>) #### to þaem þegne — The bishops gave the stone to the thane",
+        "question": "Ða biscopas geaf þone (<em>stan</em>) #### to þaem þegne — The bishops gave the stone to the thane",
         "correctAnswer": "stan",
         "explanation":"Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
     },
     {
-        "question": "Se þegen sloh þone (<i>biscop</i>) #### in tæm tune — the thane slew the bishop in the town",
+        "question": "Se þegen sloh þone (<em>biscop</em>) #### in tæm tune — The thane slew the bishop in the town",
         "correctAnswer": "biscop",
         "explanation":"Here 'biscop' is directly receiving the action of the verb 'sloh', so is in the singular accusative and thus takes no new ending",
         "commonMistakes": []
     },
     {
-        "question": "Se cyning ond seo cwen grete þa (<i>biscop</i>) #### — The king and the queen greet the bishops",
+        "question": "Se cyning ond seo cwen grete þa (<em>biscop</em>) #### — The king and the queen greet the bishops",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is directly receiving the action of the verb 'grete' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
         "commonMistakes": []
     },
     {
-        "question": "Se cyning sloh þa (<i>þegen</i>) #### — The king slew the thanes",
+        "question": "Se cyning sloh þa (<em>þegen</em>) #### — The king slew the thanes",
         "correctAnswer": "þegnas|þegenas",
         "explanation":"Here 'þegen' is directly receiving the action of the verb 'sloh' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
         "commonMistakes": []
     },
     {
-        "question": "Se þegen geaf þa (<i>gar</i>) #### to þaem cyninge — The thane gives the spears to the king",
+        "question": "Se þegen geaf þa (<em>gar</em>) #### to þaem cyninge — The thane gives the spears to the king",
         "correctAnswer": "garas",
         "explanation":"Here 'gar' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
         "commonMistakes": []
     },
     {
-        "question": "To þæm biscop geaf se cyning þa (<i>beag</i>) #### — The king gave rings to the bishop",
+        "question": "To þæm biscop geaf se cyning þa (<em>beag</em>) #### — The king gave rings to the bishop",
         "correctAnswer": "beagas",
         "explanation":"Here 'beag' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
         "commonMistakes": []
     },
     {
-        "question": "To þæm (<i>cyning</i>) #### geaf se biscop beag — To the king, the bishop gives a ring",
+        "question": "To þæm (<em>cyning</em>) #### geaf se biscop beag — To the king, the bishop gave a ring",
         "correctAnswer": "cyninge",
         "explanation":"Here 'cyning' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending.",
         "commonMistakes": [
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "question": "Se þegen ferþ to þæm (<i>biscop</i>) #### mid wordum fram þæm cyning — The thane goes to the bishop with words from the king",
+        "question": "Se þegen ferþ to þæm (<em>biscop</em>) #### mid wordum fram þæm cyning — The thane goes to the bishop with words from the king",
         "correctAnswer": "biscope",
         "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": [
@@ -64,43 +64,43 @@
         ]
     },
     {
-        "question": "Se biscop ferde fram þæm (<i>þegen</i>) #### to þæm cyning — The bishop went from the thane to the king",
+        "question": "Se biscop ferde fram þæm (<em>þegen</em>) #### to þæm cyning — The bishop went from the thane to the king",
         "correctAnswer": "þegne|þegene",
         "explanation":"Here 'þegen' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": []
     },
     {
-        "question": "On þis daeg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town with his brother",
+        "question": "On þis daeg, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid broðor— On this day, King Ethelred went to the town with his brother",
         "correctAnswer": "tune",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": []
     },
     {
-        "question": "Se cyning ferþ to þæm (<i>beorg</i>) #### — The king goes to the mountains",
+        "question": "Se cyning ferþ to þæm (<em>beorg</em>) #### — The king goes to the mountains",
         "correctAnswer": "beorgum",
         "explanation":"Here 'beorg' is not directly receiving the action of the verb 'ferþ', so it is in the plural dative and thus takes the 'um' ending",
         "commonMistakes": []
     },
     {
-        "question": "Wærferhþ biscop ferde to þæm (<i>biscop</i>) #### in Lundene ond Wiltunscire — Bishop Warfehth went to the bishops of London and Wiltshire",
+        "question": "Wærferhþ biscop ferde to þæm (<em>biscop</em>) #### in Lundene ond Wiltunscire — Bishop Warfehth went to the bishops of London and Wiltshire",
         "correctAnswer": "biscopum",
         "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferde', so it is in the plural dative and thus takes the 'um' ending",
         "commonMistakes": []
     },
     {
-        "question": "Se geaf þa garas to þæm (<i>þegen</i>) #### — He gave the spears to the thanes",
+        "question": "Se geaf þa garas to þæm (<em>þegen</em>) #### — He gave the spears to the thanes",
         "correctAnswer": "þegnum|þegenum",
         "explanation":"Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the plural dative and thus takes the 'um' ending",
         "commonMistakes": []
     },
     {
-        "question": "Se abbot com fram þæm <em>(beorg)</em> #### - The abbot came from the mountains",
+        "question": "Se abbot com fram þæm (<em>beorg</em>) #### - The abbot came from the mountains",
         "correctAnswer": "beorgum",
         "explanation":"Here 'beorg' is not directly receiving the action of the verb 'com', so it is in the plural dative and thus takes the 'um' ending",        
         "commonMistakes": []
     },
     {
-        "question": "Se biscop ferþ to þæm halige <em>(stede)</em> #### - The bishop goes to the holy place",
+        "question": "Se biscop ferþ to þæm halige (<em>stede</em>) #### - The bishop goes to the holy place",
         "correctAnswer": "stede",
         "explanation":"Here 'stede' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",        
         "commonMistakes": [
@@ -111,19 +111,19 @@
         ]
     },
     {
-        "question": "Hie þreowon þa <em>(gar)</em> #### at þæm wicingum - They threw the spears at the vikings",
+        "question": "Hie þreowon þa (<em>gar</em>) #### at þæm wicingum - They threw the spears at the vikings",
         "correctAnswer": "garas",
         "explanation":"Here 'gar' is directly receiving the action of the verb 'þreowon', so it is in the plural accusative and thus takes the 'as' ending",        
         "commonMistakes": []
     },
     {
-        "question": "He fræt þone <em>(fugol)</em> #### - He ate the bird",
+        "question": "He æt þone (<em>fugol</em>) #### - He ate the bird",
         "correctAnswer": "fugol",
-        "explanation":"Here 'fugol' is directly receiving the action of the verb 'fræt', so it is in the singular accusative and thus takes no new ending",        
+        "explanation":"Here 'fugol' is directly receiving the action of the verb 'æt', so it is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
     },
     {
-        "question": "þa biscopas comon fram þæm (<i>tun</i>) #### Londenum ond Readingum gehatan — The bishops came from the towns called London and Reading",
+        "question": "Ða biscopas comon fram þæm (<em>tun</em>) #### Londenum ond Readingum gehatan — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'comon', so it is in the plural dative and thus takes the 'um' ending",        
         "commonMistakes": []
