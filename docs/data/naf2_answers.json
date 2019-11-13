@@ -123,7 +123,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða godu fram Egiptum landum beoþ fremede ####  - The gods from Egypt are strange gods",
+        "question": "Ða godu fram Egiptum landum beoþ fremede (<em>god</em>) ####  - The gods from Egypt are strange gods",
         "correctAnswer": "godu",
         "explanation":"Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": []
