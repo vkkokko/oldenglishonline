@@ -1,6 +1,6 @@
 [
     {
-        "question": "Ðæt (<em>scip</em>) #### sceal genægled - the ship must be nailed",
+        "question": "Ðæt (<em>scip</em>) #### sceal genægled - The ship must be nailed",
         "correctAnswer": "scip",
         "explanation":"Here 'scip' is the subject and so takes no ending",
         "commonMistakes": []
@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hiora (<em>god</em>) #### syndon drycræfta lareowas - their gods are teachers of magical arts",
+        "question": "Hiora (<em>god</em>) #### syndon drycræfta lareowas - Their gods are teachers of magical arts",
         "correctAnswer": "godu",
         "explanation":"Here 'god' is the subject and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": [
@@ -71,7 +71,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð - through the bearing of a child without a man's embrace, that bride became great",
+        "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð - Through the bearing of a child without a man's embrace, that bride became great",
         "correctAnswer": "bearnes",
         "explanation":"Here 'bearn' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
