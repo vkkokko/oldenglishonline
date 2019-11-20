@@ -62,31 +62,31 @@
         "commonMistakes": []
     },
     {
-        "question": "Se (<em>biscop</em>) #### com fram þæm tune —  The bishop came from the town",
+        "question": "Se (<em>biscop</em>) #### com fram þæm tune — The bishop came from the town",
         "correctAnswer": "biscop",
         "explanation":"Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
     },
     {
-        "question": "Ða Þegnas ond se (<em>cyning</em>) #### —  The thanes and the king",
+        "question": "Ða þegnas ond se (cyning) #### com fram þæm beorgum — The thanes and the king came from the mountains",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
     },
     {
-        "question": "He com fram þæs (<em>þegen</em>) #### tune   —  He came from the thane’s town",
+        "question": "He com fram þæs (<em>þegen</em>) #### tune — He came from the thane’s town",
         "correctAnswer": "þegnes|þegenes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
     },
     {
-        "question": "Se cyning ond þa (<em>biscop</em>) #### seoþ þa wicinga —  The king and the bishops see the Vikings",
+        "question": "Se cyning ond þa (<em>biscop</em>) #### seoþ þa wicinga — The king and the bishops see the Vikings",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural",
         "commonMistakes": []
     },
     {
-        "question": "Ðæs (<em>þegen</em>) #### menn lifde in þæm tune —  The thane’s men lived in the town",
+        "question": "Ðæs (<em>þegen</em>) #### menn lifde in þæm tune — The thane’s men lived in the town",
         "correctAnswer": "þegnes|þegenes",
         "explanation":"Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []

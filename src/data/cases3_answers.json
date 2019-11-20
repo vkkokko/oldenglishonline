@@ -1,20 +1,20 @@
 [
     {
-        "question": "Se biscop grete þone (<em>cyning</em>) #### — The bishop greets the king",
+        "question": "Se abbod grete þone (<em>cyning</em>) #### — The abbot greets the king",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is directly receiving the action of the verb 'grete', so is in the singular accusative and thus takes no new ending",
-        "commonMistakes": []
-    },
-    {
-        "question": "Ða biscopas geaf þone (<em>stan</em>) #### to þaem þegne — The bishops gave the stone to the thane",
-        "correctAnswer": "stan",
-        "explanation":"Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
     },
     {
         "question": "Se þegen sloh þone (<em>biscop</em>) #### in tæm tune — The thane slew the bishop in the town",
         "correctAnswer": "biscop",
         "explanation":"Here 'biscop' is directly receiving the action of the verb 'sloh', so is in the singular accusative and thus takes no new ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða biscopas geaf þone (<em>stan</em>) #### to þaem þegne — The bishops gave the stone to the thane",
+        "correctAnswer": "stan",
+        "explanation":"Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
     },
     {
