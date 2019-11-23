@@ -22,7 +22,8 @@
 		"gulp-util": "^3.0.8"
 	},
 	"scripts": {
-		"start": "gulp --env=watch watch",
+		"start": "npm run start",
+		"watch": "gulp --env=watch watch",
 		"build": "gulp --env=prod default",
 		"postinstall": "gulp default"
 	},
