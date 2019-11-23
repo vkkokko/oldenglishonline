@@ -7,13 +7,16 @@
 		"jquery": "^3.4.1"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.7.4",
+		"@babel/preset-env": "^7.7.4",
 		"browser-sync": "^2.26.7",
 		"del": "^5.0.0",
 		"eslint": "^6.1.0",
 		"esm": "^3.2.25",
 		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-concat": "^2.6.1",
 		"gulp-ejs-monster": "^3.2.0",
-		"gulp-filter": "^6.0.0",
 		"gulp-jsbeautifier": "^3.0.1",
 		"gulp-terser": "^1.2.0",
 		"gulp-util": "^3.0.8"
