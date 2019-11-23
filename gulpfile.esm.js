@@ -10,14 +10,18 @@ import babel from 'gulp-babel';
 import concat from 'gulp-concat';
 import through from 'through2';
 import path from 'path';
+import postCss from 'gulp-postcss';
+import cssnano from 'cssnano';
+import postCssPresetEnv from 'postcss-preset-env';
 
 import { config, distDir } from './gulpconfig';
 import * as siteConfig from './siteconfig.json';
 
 const isProd = gutil.env.env === 'prod';
+const isWatch = gutil.env.env === 'watch';
 
 // if running watch task, overwrite base tag to always be '/' for localhost
-const siteWatchBase = { base: gutil.env.env === 'watch' ? '/' : siteConfig.site.base };
+const siteWatchBase = { base: isWatch ? '/' : siteConfig.site.base };
 Object.assign(siteConfig.site, siteWatchBase);
 
 // Clean build directories
@@ -40,10 +44,10 @@ export function getScriptList() {
 // build task
 export default function build(done) {
 	if (isProd) {
-		siteConfig.site.appScripts = ['app.es5.min.js'];
-		return gulp.series(clean, renderEJS, copyProd)(done);
+		siteConfig.site.appScripts = [config.compile.prodJsFilename];
+		return gulp.series(clean, renderEJS, copy)(done);
 	} else {
-		return gulp.series(clean, getScriptList, renderEJS, copyDev)(done);
+		return gulp.series(clean, getScriptList, renderEJS, copy)(done);
 	}
 }
 
@@ -63,18 +67,34 @@ export function renderEJS() {
 }
 
 // main copy task
-export function copyProd(done) {
-	return gulp.parallel(copyCSS, compileJS, copyVendorJS, copyData, copyAssets, copyImages, copyCname)(done);
-}
-
-// main copy task
-export function copyDev(done) {
-	return gulp.parallel(copyCSS, copyAppJS, copyVendorJS, copyData, copyAssets, copyImages, copyCname)(done);
+export function copy(done) {
+	if (isProd) {
+		return gulp.parallel(copyAppCSS, copyVendorCSS, compileJS, copyVendorJS, copyData, copyAssets, copyImages, copyCname)(done);
+	} else {
+		return gulp.parallel(copyAppCSS, copyVendorCSS, copyAppJS, copyVendorJS, copyData, copyAssets, copyImages, copyCname)(done);
+	}
 }
 
 // copy css assets
-function copyCSS() {
-	return gulp.src(config.assets.css, { since: gulp.lastRun(copyCSS) })
+function copyAppCSS() {
+	let cssStream = gulp.src(config.assets.css.app, { since: gulp.lastRun(copyAppCSS) });
+
+	if (isProd) {
+		cssStream.pipe(
+			postCss([
+				postCssPresetEnv(),
+				cssnano({ preset: 'default' }),
+			]))
+	}
+
+	cssStream.pipe(gulp.dest(config.dirs.styles));
+
+	return cssStream;
+}
+
+// copy css assets
+function copyVendorCSS() {
+	return gulp.src(config.assets.css.vendor, { since: gulp.lastRun(copyVendorCSS) })
 		.pipe(gulp.dest(config.dirs.styles));
 }
 
@@ -83,7 +103,7 @@ function compileJS() {
 	return gulp.src(config.compile.js)
 		.pipe(babel())
 		.pipe(terser())
-		.pipe(concat('app.es5.min.js'))
+		.pipe(concat(config.compile.prodJsFilename))
 		.pipe(gulp.dest(config.dirs.scripts));
 }
 
@@ -142,7 +162,7 @@ function bs_serve(done) {
 
 // watch task
 const watchTemplate = () => gulp.watch(config.watch.template, gulp.series(renderEJS, bs_reload));
-const watchAssets = () => gulp.watch(config.watch.assets, gulp.series(copyCSS, copyAppJS, copyData, bs_reload));
+const watchAssets = () => gulp.watch(config.watch.assets, gulp.series(copyAppCSS, copyAppJS, copyData, bs_reload));
 
 export function watch(done) {
 	return gulp.parallel(build, bs_serve, watchTemplate, watchAssets)(done);
