@@ -13,7 +13,7 @@
 		// $('.test-header').append('<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>');
 		//This adds the buttons to check the fill-in-the-blank-quiz
 		// $('.form-group').append(`<button class="solid-button button" id="submit">Check</button>
-        // <button class="solid-button button hidden" id="again">Try Again?</button>`);
+		// <button class="solid-button button hidden" id="again">Try Again?</button>`);
 
 		$('.special-character').on('click', function (event) {
 			event.preventDefault();                                 //this stops the button reloading the page
@@ -24,7 +24,7 @@
 					.val($lastActive.val() + $(this).attr('data-char'))
 					.focus();			   							// This is a predefined jquery command which gives the focus back
 				// to the same element selected prior to the 'on click command'.
-			}  														// in this case, the 'char' button press.
+			} 															// in this case, the 'char' button press.
 		});
 
 		$questionWrapper.on('focus', 'input', function () {

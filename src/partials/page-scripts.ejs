@@ -1,4 +1,6 @@
 <!--The JavaScript-->
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
-<script src="scripts/app.js" defer></script>
+<% for (let i=0; i < locals.site.appScripts.length; i++) { %>
+<script src="scripts/<%= locals.site.appScripts[i] -%>" defer async></script>
+<% } %>

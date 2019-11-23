@@ -12,11 +12,15 @@ export const config = {
 		partials: path.normalize(path.join(srcDir, 'partials')),
 	},
 	assets: {
-		js: [
-			'./node_modules/jquery/dist/jquery.min.js',
-			'./node_modules/bootstrap/dist/js/bootstrap.min.js',
-			`${path.normalize(srcDir)}/scripts/**/*.js`,
-		],
+		js: {
+			vendor: [
+				'./node_modules/jquery/dist/jquery.min.js',
+				'./node_modules/bootstrap/dist/js/bootstrap.min.js',
+			],
+			app: [
+				`${path.normalize(srcDir)}/scripts/**/*.js`,
+			]
+		},
 		css: [
 			'./node_modules/bootstrap/dist/css/bootstrap.min.css',
 			'./node_modules/bootstrap/dist/css/bootstrap.min.css.map',
@@ -30,6 +34,11 @@ export const config = {
 		],
 		assets: [
 			`${path.normalize(srcDir)}/assets/**/*`
+		]
+	},
+	compile: {
+		js: [
+			`${path.normalize(srcDir)}/scripts/**/*.js`
 		]
 	},
 	dirs: {

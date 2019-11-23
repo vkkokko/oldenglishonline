@@ -5,6 +5,7 @@
 		"siteKeywords": "Learning, Old English, Language, Anglo-Saxon, Eald Englisc",
 		"languageShort": "en",
 		"languageLong": "english",
-		"base": "/"
+		"base": "/",
+		"appScripts": []
 	}
 }
