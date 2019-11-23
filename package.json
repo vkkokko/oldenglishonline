@@ -10,6 +10,7 @@
 		"@babel/core": "^7.7.4",
 		"@babel/preset-env": "^7.7.4",
 		"browser-sync": "^2.26.7",
+		"cssnano": "^4.1.10",
 		"del": "^5.0.0",
 		"eslint": "^6.1.0",
 		"esm": "^3.2.25",
@@ -18,8 +19,10 @@
 		"gulp-concat": "^2.6.1",
 		"gulp-ejs-monster": "^3.2.0",
 		"gulp-jsbeautifier": "^3.0.1",
+		"gulp-postcss": "^8.0.0",
 		"gulp-terser": "^1.2.0",
-		"gulp-util": "^3.0.8"
+		"gulp-util": "^3.0.8",
+		"postcss-preset-env": "^6.7.0"
 	},
 	"scripts": {
 		"start": "npm run start",

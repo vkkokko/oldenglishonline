@@ -21,11 +21,15 @@ export const config = {
 				`${path.normalize(srcDir)}/scripts/**/*.js`,
 			]
 		},
-		css: [
-			'./node_modules/bootstrap/dist/css/bootstrap.min.css',
-			'./node_modules/bootstrap/dist/css/bootstrap.min.css.map',
-			`${path.normalize(srcDir)}/styles/**/*.css`
-		],
+		css: {
+			vendor: [
+				'./node_modules/bootstrap/dist/css/bootstrap.min.css',
+			],
+			app: [
+				`${path.normalize(srcDir)}/styles/**/*.css`,
+				`!${path.normalize(srcDir)}/styles/**/test_*.*`
+			]
+		},
 		data: [
 			`${path.normalize(srcDir)}/data/**/*`
 		],
@@ -39,7 +43,8 @@ export const config = {
 	compile: {
 		js: [
 			`${path.normalize(srcDir)}/scripts/**/*.js`
-		]
+		],
+		prodJsFilename: 'app.es5.min.js'
 	},
 	dirs: {
 		src: path.normalize(srcDir),
