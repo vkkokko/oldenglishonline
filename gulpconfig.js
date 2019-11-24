@@ -1,8 +1,7 @@
 /* eslint-disable */
 import path from 'path';
 
-export const distDir = './docs';
-export const buildDir= './build';
+export const distDir = './dist';
 export const srcDir = './src';
 
 export const config = {
