@@ -1,16 +1,3 @@
-/* Variables */
-:root {
-	/* Text */
-	--base-font-size: 18px;
-	--footer-font-size: 15px;
-
-	/* Colors */
-	--base-background-color: #f8f8f8;
-
-	--footer-background-color: rgba(0, 0, 0, 0.85);
-	--footer-text-color: #fff;
-}
-
 /* Fundamental Page Element Styles */
 html {
 	height: 100%;
@@ -20,8 +7,8 @@ body {
 	position: relative;
 	min-height: 100%;
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: var(--base-font-size);
-	background-color: var(--base-background-color);
+	font-size: 18px;
+	background-color: #f8f8f8;
 	line-height: 1.6;
 	padding-bottom: 2em;
 }
@@ -37,13 +24,13 @@ header {
 }
 
 footer {
-	background-color: var(--footer-background-color);
+	background-color: rgba(0, 0, 0, 0.85);;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	padding: 1.5em 0;
-	color: var(--footer-text-color);
-	font-size: var(--footer-font-size);
+	color: #fff;
+	font-size: 15px;
 	text-align: center;
 }
 
