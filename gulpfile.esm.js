@@ -32,7 +32,7 @@ export function getScriptList() {
 	const fileArray = [];
 
 	return gulp.src(config.assets.js.app)
-		.pipe(through.obj( (file, enc, cb) => {
+		.pipe(through.obj((file, enc, cb) => {
 			fileArray.push(path.basename(file.path));
 			cb();
 		}))
@@ -138,7 +138,7 @@ function copyAssets() {
 
 // copy CNAME file into dist
 function copyCname() {
-	return gulp.src('CNAME')
+	return gulp.src('CNAME', { allowEmpty: true })
 		.pipe(gulp.dest(config.dirs.dist))
 }
 
