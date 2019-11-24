@@ -1,14 +1,14 @@
 /* eslint-disable */
-import path from 'path';
+import { normalize, join } from 'path';
 
 export const distDir = './dist';
 export const srcDir = './src';
 
 export const config = {
 	build: {
-		layouts: path.normalize(path.join(srcDir, 'layouts')),
-		pages: path.normalize(path.join(srcDir, 'pages')) + '/*.ejs',
-		partials: path.normalize(path.join(srcDir, 'partials')),
+		layouts: normalize(join(srcDir, 'layouts')),
+		pages: normalize(join(srcDir, 'pages')) + '/*.ejs',
+		partials: normalize(join(srcDir, 'partials')),
 	},
 	assets: {
 		js: {
@@ -17,7 +17,7 @@ export const config = {
 				'./node_modules/bootstrap/dist/js/bootstrap.min.js',
 			],
 			app: [
-				`${path.normalize(srcDir)}/scripts/**/*.js`,
+				`${normalize(srcDir)}/scripts/**/*.js`,
 			]
 		},
 		css: {
@@ -25,38 +25,38 @@ export const config = {
 				'./node_modules/bootstrap/dist/css/bootstrap.min.css',
 			],
 			app: [
-				`${path.normalize(srcDir)}/styles/**/*.css`,
-				`!${path.normalize(srcDir)}/styles/**/test_*.*`
+				`${normalize(srcDir)}/styles/**/*.css`,
+				`!${normalize(srcDir)}/styles/**/test_*.*`
 			]
 		},
 		data: [
-			`${path.normalize(srcDir)}/data/**/*`
+			`${normalize(srcDir)}/data/**/*`
 		],
 		images: [
-			`${path.normalize(srcDir)}/images/**/*`
+			`${normalize(srcDir)}/images/**/*`
 		],
 		assets: [
-			`${path.normalize(srcDir)}/assets/**/*`
+			`${normalize(srcDir)}/assets/**/*`
 		]
 	},
 	compile: {
 		js: [
-			`${path.normalize(srcDir)}/scripts/**/*.js`
+			`${normalize(srcDir)}/scripts/**/*.js`
 		],
 		prodJsFilename: 'app.es5.min.js'
 	},
 	dirs: {
-		src: path.normalize(srcDir),
-		dist: path.normalize(distDir),
+		src: normalize(srcDir),
+		dist: normalize(distDir),
 
-		scripts: path.normalize(path.join(distDir, 'scripts')),
-		styles: path.normalize(path.join(distDir, 'styles')),
-		data: path.normalize(path.join(distDir, 'data')),
-		images: path.normalize(path.join(distDir, 'images')),
-		assets: path.normalize(path.join(distDir, 'assets'))
+		scripts: normalize(join(distDir, 'scripts')),
+		styles: normalize(join(distDir, 'styles')),
+		data: normalize(join(distDir, 'data')),
+		images: normalize(join(distDir, 'images')),
+		assets: normalize(join(distDir, 'assets'))
 	},
 	watch: {
-		template: `${path.normalize(srcDir)}/{layouts,pages,partials}/**/*.ejs`,
-		assets: `${path.normalize(srcDir)}/{scripts,styles,data}/**/*`,
+		template: `${normalize(srcDir)}/{layouts,pages,partials}/**/*.ejs`,
+		assets: `${normalize(srcDir)}/{scripts,styles,data}/**/*`,
 	}
 };

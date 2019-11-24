@@ -9,6 +9,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.7.4",
 		"@babel/preset-env": "^7.7.4",
+		"ava": "^2.4.0",
 		"browser-sync": "^2.26.7",
 		"cssnano": "^4.1.10",
 		"del": "^5.0.0",
@@ -27,7 +28,11 @@
 	"scripts": {
 		"start": "npm run start",
 		"watch": "gulp --env=watch watch",
-		"build": "gulp --env=prod default"
+		"build": "gulp --env=prod default",
+		"test": "ava --verbose"
+	},
+	"ava": {
+		"require": [ "esm" ]
 	},
 	"repository": {
 		"type": "git",
