@@ -26,7 +26,7 @@
 		"postcss-preset-env": "^6.7.0"
 	},
 	"scripts": {
-		"start": "npm run start",
+		"start": "npm run watch",
 		"watch": "gulp --env=watch watch",
 		"build": "gulp --env=prod default",
 		"test": "ava --verbose"
