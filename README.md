@@ -2,9 +2,8 @@
 ![](https://img.shields.io/github/package-json/v/vklester/MA)
 ![](https://img.shields.io/github/commit-activity/w/vklester/MA)
 
-This is an online learning platform for teaching Old English. Visit [Old English.info](https://oldenglish.info) to use the site.
-
 # About
+This is the repository for Old English Online. OEO is an online learning platform for teaching Old English. Visit [oldenglish.info](https://oldenglish.info) to use the site.
 
 # Developing
 
@@ -19,16 +18,25 @@ Run `npm start` to start the watch task. This will build the project, start the 
 From here, you can make edits to the templates, scripts and styles in the `/src/` folder, and the project will automatically refresh with your changes.
 
 # Contributor's Guide
-
-If you want to contribute to Old English Online, you can.
+If you want to raise an issue for us to fix, perform the following steps:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
 2. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
-3. Click the 'Fork' button in the top right-hand corner of the page to copy the repo.
-4. Click the 'Clone or download' button to clone the project to your own machine.
-5. Make the changes you want to make. We recommend you use a code editor to do this, as it will colour code things for you and make it easier to read. You can download Visual Studio Code [here](https://code.visualstudio.com/).
-6. Commit changes to your own branch. We recommend you use a git client to do this, you can get the free GitKraken [here](https://www.gitkraken.com/)
-7. Push your work back up to your fork. If you're using GitKraken, you just need to click the 'push' button.
-8. Submit a Pull Request so that we can review your changes.
+3. Under the repository name, click **Issues**.
+4. Click **New issue**.
+5. If there are multiple issue types, click **Get started** next to the type of issue you'd like to open.
+6. Type a title and description for your issue.
+7. When you're finished, click **Submit** new issue
+
+
+If you want to contribute direcly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Just follow the steps below:
+1. Create a Github account [here](https://github.com/) or just login if you already have one.
+2. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
+3. Click the **Fork** button in the top right-hand corner of the page to copy the repo.
+4. Click the **Clone or download** button to clone the project to your own machine.
+5. Make the changes you want to make. We recommend you use a code editor to do this, as it will colour-code things for you and make it easier to read. You can download Visual Studio Code [here](https://code.visualstudio.com/).
+6. Commit changes to your own branch. We recommend you use a git client to do this, you can get the free GitKraken [here](https://www.gitkraken.com/).
+7. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
+8. Submit a **Pull Request** so that we can review your changes.
 9. An administrator will then review and approve your changes.
 
 # License
