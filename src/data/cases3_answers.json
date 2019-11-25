@@ -6,19 +6,19 @@
         "commonMistakes": []
     },
     {
-        "question": "Se þegen sloh þone (<em>biscop</em>) #### in tæm tune — The thane slew the bishop in the town",
+        "question": "Se þegen sloh þone (<em>biscop</em>) #### in þæm tune — The thane slew the bishop in the town",
         "correctAnswer": "biscop",
         "explanation":"Here 'biscop' is directly receiving the action of the verb 'sloh', so is in the singular accusative and thus takes no new ending",
         "commonMistakes": []
     },
     {
-        "question": "Ða biscopas geaf þone (<em>stan</em>) #### to þaem þegne — The bishops gave the stone to the thane",
+        "question": "Ða biscopas geaf þone (<em>stan</em>) #### to þæm þegne — The bishops gave the stone to the thane",
         "correctAnswer": "stan",
         "explanation":"Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
     },
     {
-        "question": "Se cyning ond seo cwen grete þa (<em>biscop</em>) #### — The king and the queen greet the bishops",
+        "question": "Se cyning ond seo cwen gretaþ þa (<em>biscop</em>) #### — The king and the queen greet the bishops",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is directly receiving the action of the verb 'grete' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
         "commonMistakes": []
@@ -70,7 +70,7 @@
         "commonMistakes": []
     },
     {
-        "question": "On þis daeg, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid broðor— On this day, King Ethelred went to the town with his brother",
+        "question": "On þis daeg, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid his broðor — On this day, King Ethelred went to the town with his brother",
         "correctAnswer": "tune",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": []
@@ -88,7 +88,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se geaf þa garas to þæm (<em>þegen</em>) #### — He gave the spears to the thanes",
+        "question": "He geaf þa garas to þæm (<em>þegen</em>) #### — He gave the spears to the thanes",
         "correctAnswer": "þegnum|þegenum",
         "explanation":"Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the plural dative and thus takes the 'um' ending",
         "commonMistakes": []
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "question": "Hie þreowon þa (<em>gar</em>) #### at þæm wicingum - They threw the spears at the vikings",
+        "question": "Hie þreowon þa (<em>gar</em>) #### to þæm wicingum - They threw the spears at the vikings",
         "correctAnswer": "garas",
         "explanation":"Here 'gar' is directly receiving the action of the verb 'þreowon', so it is in the plural accusative and thus takes the 'as' ending",        
         "commonMistakes": []
@@ -123,7 +123,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða biscopas comon fram þæm (<em>tun</em>) #### Londenum ond Readingum gehatan — The bishops came from the towns called London and Reading",
+        "question": "Ða biscopas comon fram þæm (<em>tun</em>) #### Londenum ond Readingum genemned — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'comon', so it is in the plural dative and thus takes the 'um' ending",        
         "commonMistakes": []
