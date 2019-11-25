@@ -8,9 +8,13 @@ This is the repository for Old English Online. OEO is an online learning platfor
 # Developing
 
 ## Installing
+If you want to run Old English Online locally on your machine so you can use it offline, you will need to install it. 
 
-* Make sure you have a new(ish) version of Node.js installed (10.x or newer), and that you have working `npm` in your commandline.
-* Run `npm install` in the root folder of the project
+1. Download an IDE. We recommend Visual Studio Code which you can download [here](https://code.visualstudio.com/).
+2. Install the most recent version of Node.js. You can download it [here](https://nodejs.org/en/download/).
+3. Open the terminal in Visual Studio Code and make sure you're in the root folder of the project. If not, you can change which directory you're in by typing `cd C:\whatever_your_filepath_is`. My root folder is C:\Users\jkoiviv\Desktop\MA so I'd type `cd C:\Users\jkoiviv\Desktop\MA`.
+4. If you are in the root folder, type `npm install` and press **Enter**. Everything you need will be installed automatically.
+5. When it is finished, type `npm run start` to build the project. It should open automatically in your default browser. If not, navigate to *localhost:3000* in your browser. 
 
 ## Running Development Watch task
 
@@ -33,7 +37,7 @@ If you want to contribute direcly to Old English Online yourself, you can, but i
 2. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
 3. Click the **Fork** button in the top right-hand corner of the page to copy the repo.
 4. Click the **Clone or download** button to clone the project to your own machine.
-5. Make the changes you want to make. We recommend you use a code editor to do this, as it will colour-code things for you and make it easier to read. You can download Visual Studio Code [here](https://code.visualstudio.com/).
+5. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
 6. Commit changes to your own branch. We recommend you use a git client to do this, you can get the free GitKraken [here](https://www.gitkraken.com/).
 7. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
 8. Submit a **Pull Request** so that we can review your changes.
