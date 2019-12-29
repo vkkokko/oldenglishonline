@@ -400,8 +400,7 @@
 							<!-- Tab panes -->
 							<div class="tab-content full">
 								<div role="tabpanel" class="text-center tab-pane active" id="cyning">
-									<table
-										class="tabbed-table table-striped inline-block five-col-table table-hide">
+									<table class="tabbed-table table-striped inline-block five-col-table table-hide">
 										<tr>
 											<td colspan="5">
 												<strong>Strong Masculine Noun</strong>
@@ -454,8 +453,7 @@
 								</div>
 
 								<div role="tabpanel" class="text-center tab-pane" id="biscop">
-									<table
-										class="tabbed-table table-striped inline-block five-col-table table-hide">
+									<table class="tabbed-table table-striped inline-block five-col-table table-hide">
 										<tr>
 											<td colspan="5">
 												<strong>Strong Masculine Noun</strong>
@@ -509,8 +507,7 @@
 								</div>
 
 								<div role="tabpanel" class="text-center tab-pane" id="thane">
-									<table
-										class="tabbed-table table-striped inline-block five-col-table table-hide">
+									<table class="tabbed-table table-striped inline-block five-col-table table-hide">
 										<tr>
 											<td colspan="5">
 												<strong>Strong Masculine Noun</strong>
@@ -563,8 +560,7 @@
 								</div>
 
 								<div role="tabpanel" class="text-center tab-pane" id="stan">
-									<table
-										class="tabbed-table table-striped inline-block five-col-table table-hide">
+									<table class="tabbed-table table-striped inline-block five-col-table table-hide">
 										<tr>
 											<td colspan="5">
 												<strong>Strong Masculine Nouns</strong>
@@ -637,7 +633,8 @@
 									of the second syllable when it gains a suffix. This is called
 									<strong>syncopation</strong> and
 									makes the word easier to pronounce. This is why <em>‘þegen’</em> loses its
-									second <strong>'e'</strong>. You will see this in words like <em>‘wealh - foreigner’</em>
+									second <strong>'e'</strong>. You will see this in words like <em>‘wealh -
+										foreigner’</em>
 									and <em>stede - place</em> also, as they lose their <strong>‘h’</strong> and
 									<strong>‘e’</strong> in some conjugations.
 								</p>
@@ -668,7 +665,7 @@
 	<hr class="border">
 	<section>
 		<div>
-			<h2> Test Yourself! </h2>
+			<h2>Test Yourself!</h2>
 			<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
 		</div>
 		<form name="form1" autocomplete="OFF">
@@ -686,5 +683,71 @@
 				<button class="solid-button button hidden" id="again">Try Again?</button>
 			</div>
 		</form>
+	</section>
+	<hr class="border">
+	<section>
+		<p>You were introduced to a lot of new vocabulary throughout this module. You can test your understanding of
+			those new words by clicking the button below. This will open a modal that will prompt you to translate
+			words on a flashcard.</p>
+		<div class="text-center">
+			<button class="solid-button button modal-button" data-toggle="modal" data-target="#fsModal">Test Your
+				Vocabulary!</button></div>
+		<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-hidden="true">
+			<!-- dialog -->
+			<div class="modal-dialog">
+
+				<!-- content -->
+				<div class="modal-content">
+
+					<!-- header -->
+					<div class="modal-header">
+						<h1 class="modal-title">
+							Test Your Vocabulary!
+						</h1>
+					</div>
+					<!-- header -->
+
+					<!-- body -->
+					<div class="modal-body" data-question-file="cases_vocab.json">
+						<div>
+							<button class="light-button button translation-button" data-language="old">Old English <i
+									class="fas fa-exchange-alt"></i> Modern
+								English</button>
+						</div>
+						<div class="flashcard-row padding-top">
+							<div class="flashcard">
+
+							</div>
+						</div>
+						<div class="flashcard-row">
+								<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+								<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+								<button class="light-button button special-character" data-char="&eth;">&eth;</button>
+								</div>
+						<div class="flashcard-row">
+								<input type="text" class="flashcard-answer text-center" placeholder="answer">
+						</div>
+						<div class="flashcard-row padding-top">
+							<button class="solid-button button flashcard-check center-button">Check</button>
+							<button class="solid-button button try-another center-button hide">Try Another</button>
+						</div>
+					</div>
+				</div>
+				<!-- body -->
+
+				<!-- footer -->
+				<div class="modal-footer">
+					<button class="solid-button button" data-dismiss="modal">Close</button>
+				</div>
+				<!-- footer -->
+
+			</div>
+			<!-- content -->
+
+		</div>
+		<!-- dialog -->
+
+		</div>
+		<!-- modal -->
 	</section>
 </main>

@@ -936,6 +936,124 @@ ul.module a {
 	padding:0px 4px;
 }
 
+/* Styles for vocab modal */
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+  }
+
+.modal-dialog {
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+  }
+  
+  .modal-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 2px solid #3c7dcf;
+	background-color: #f8f8f8;
+	border-radius: 0;
+	box-shadow: none;
+  }
+  
+  .modal-header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	padding: 2em 1em;
+	background: rgb(0, 0, 0);
+	border: 0;
+  }
+  
+  .modal-title {
+	color: #fff;
+	line-height: 10px;
+  }
+  
+  .modal-body {
+	top: 50px;
+	bottom: 60px;
+	width: 100%;
+	font-weight: 300;
+	padding:2em 1em;
+	overflow: auto;
+  }
+
+  .center-button {
+	  margin:auto;
+  }
+  
+  .modal-footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	padding: 10px;
+	background: #eee;
+  }
+
+.flashcard-row {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flashcard {
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+    font-size:2em;
+	margin:auto;
+    text-align:center;
+    border-radius:25px;
+	height: 150px;
+	width:33%;
+	margin-bottom:1em;
+	border:1px solid rgb(247, 136, 47);
+	background:white;
+	transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.flashcard-answer {
+	border-radius:5px;
+}
+
+.incorrect-flashcard h2,
+.correct-flashcard h2,
+.incorrect-flashcard h3,
+.correct-flashcard h3 {
+	transform: rotateX(180deg);
+}
+
+.correct-flashcard {
+	transform: rotateX(180deg);
+	background:lightgreen;
+	border:1px solid green;
+
+}
+
+.incorrect-flashcard {
+	transform: rotateX(180deg);
+	background:lightcoral;
+	border:1px solid red;
+}
+
+
 /* Responsive Styles */
 
 @media screen and (max-width: 440px) {
