@@ -52,6 +52,13 @@ main li a:active,
 	color: rgb(161, 70, 10);
 }
 
+a:focus,
+main li a:focus,
+button:focus,
+input:focus {
+	outline-color:rgb(161, 70, 10);
+}
+
 main li > a {
 	color: rgb(200, 100, 50);
 }
@@ -943,7 +950,6 @@ ul.module a {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	overflow: hidden;
   }
 
 .modal-dialog {
@@ -960,7 +966,6 @@ ul.module a {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	border: 2px solid #3c7dcf;
 	background-color: #f8f8f8;
 	border-radius: 0;
 	box-shadow: none;
@@ -971,7 +976,6 @@ ul.module a {
 	top: 0;
 	right: 0;
 	left: 0;
-	height: 50px;
 	padding: 2em 1em;
 	background: rgb(0, 0, 0);
 	border: 0;
@@ -983,7 +987,7 @@ ul.module a {
   }
   
   .modal-body {
-	top: 50px;
+	top: 60px;
 	bottom: 60px;
 	width: 100%;
 	font-weight: 300;
@@ -1001,8 +1005,8 @@ ul.module a {
 	bottom: 0;
 	left: 0;
 	height: 60px;
-	padding: 10px;
-	background: #eee;
+	padding: 15px;
+	background: #ddd;
   }
 
 .flashcard-row {
@@ -1020,7 +1024,7 @@ ul.module a {
 	margin:auto;
     text-align:center;
     border-radius:25px;
-	height: 150px;
+	height: 250px;
 	width:33%;
 	margin-bottom:1em;
 	border:1px solid rgb(247, 136, 47);
@@ -1213,6 +1217,20 @@ ul.module a {
 	/* Make all right containers behave like the left ones */
 	.timeline-right {
 		left: 0%;
+	}
+
+	/* Make the flashcard smaller on mobile and the input bigger */
+	.flashcard {
+		height: 200px;
+		width:100%;
+	}
+
+	.flashcard-answer {
+		height:40px;
+	}
+
+	.modal-title {
+		font-size:30px;
 	}
 }
 

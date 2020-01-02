@@ -1072,11 +1072,13 @@
                                 <button class="light-button button special-character" data-char="&eth;">&eth;</button>
                             </div>
                             <div class="flashcard-row">
-                                <input type="text" class="flashcard-answer text-center" placeholder="answer">
+                                <input type="text" class="flashcard-answer text-center" placeholder="e.g. to see">
                             </div>
                             <div class="flashcard-row padding-top">
-                                <button class="solid-button button flashcard-check center-button">Check</button>
-                                <button class="solid-button button try-another center-button hide">Try Another</button>
+                                <button class="solid-button button flashcard-check center-button" aria-label="Check">Check</button>
+
+                                <button class="solid-button button try-another center-button hide" aria-label="Try Another">Try Another</button>
+
                             </div>
                         </div>
                     </div>
@@ -1084,7 +1086,7 @@
 
                     <!-- footer -->
                     <div class="modal-footer">
-                        <button class="solid-button button" data-dismiss="modal">Close</button>
+                        <button class="solid-button button" data-dismiss="modal" aria-label="Close">Close</button>
                     </div>
                     <!-- footer -->
 
