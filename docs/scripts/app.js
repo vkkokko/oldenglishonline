@@ -382,19 +382,30 @@
 		let correctAnswer = $('.flashcard').data('flashcardAnswer');
 		let partOfSpeech = $('.flashcard').data('partOfSpeech');
 
-
+		//These lines add the 'part of speech' and correct answer to the flash card
 		$('.flashcard').append(`<h3>` + partOfSpeech + `</h3>`);
 		$('.flashcard').find('h2').append(` — ` + correctAnswer);
 
-
+		//This changes the array content and user input to all upper case so that capitals won't affect if it's correct or not
 		if (correctAnswer.toUpperCase() == userAnswer.toUpperCase()) {
 			$('.flashcard').addClass('correct-flashcard');
 		} else {
 			$('.flashcard').addClass('incorrect-flashcard');
 		}
 
+		//This swaps which button is visible under the input field
 		$('.flashcard-check').addClass('hide');
 		$('.try-another').removeClass('hide');
+	});
+
+	//This function allows you to trigger the Check function using the Enter key in the input
+	$('.flashcard-answer').on('keydown', function(event) {
+		let checkButton = $('.flashcard-check').hasClass('hide');
+
+		if (event.keyCode === 13 && checkButton === false) {  //This makes sure the Check button is visible so you can't trigger the check multiple times using the Enter key
+			event.preventDefault();
+			$('.flashcard-check').click();
+		}
 	});
 
 	//Code to empty the flashcard and add a new word
@@ -416,6 +427,11 @@
 		const flashcardFilename = $modalContainer.data('question-file');
 
 		let dataLanguage = $('.translation-button').attr('data-language');
+
+		//These lines empty the input and make sure the Check button is active (for if someone swaps language mid translation)
+		$('.flashcard-row').find('input').val('');
+		$('.flashcard-check').removeClass('hide');
+		$('.try-another').addClass('hide');
 
 		if (dataLanguage=="old") {
 			$('.translation-button').attr('data-language', 'modern');
