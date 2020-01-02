@@ -914,7 +914,11 @@ ul.module a {
 }
 
 .quiz-table td {
-	padding: 0.5em 0.5em;
+	padding: 0.5em;
+}
+
+.extra-padding-td td {
+	padding: 0.5em 1.25em;
 }
 
 .quiz-table th {
