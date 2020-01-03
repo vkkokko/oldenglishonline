@@ -256,6 +256,15 @@
 				$('.flashcard').data('partOfSpeech', flashcard[0].partOfSpeech);
 			}
 			});
+
+		//resets flashcard state to default
+		let dataText = $('.explanatory-text').attr('data-text');
+		$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
+		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
+		$('.flashcard-row').find('input').val('');
+
+		$('.flashcard-check').removeClass('hide');
+		$('.try-another').addClass('hide');
 	}
 
 	//Code which executes when you click the modal button 'Test Your Vocab'
@@ -302,17 +311,11 @@
 
 	//Code to empty the flashcard and add a new word
 	$('.try-another').on('click', function () {
-		let dataText = $('.explanatory-text').attr('data-text');
-		$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
-		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
+		
 		const $modalContainer = $('.modal-body');
 		const flashcardFilename = $modalContainer.data('question-file');
 		flashcardCreate($modalContainer, flashcardFilename);
 
-		$('.flashcard-row').find('input').val('');
-
-		$('.flashcard-check').removeClass('hide');
-		$('.try-another').addClass('hide');
 	});
 
 	//Code to change whether you're translating to or from Old English

@@ -1074,7 +1074,7 @@ ul.module a {
 /* Responsive Styles */
 
 /* Small laptop screen */
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 450px and max-width: 1400px) {
 
 	.flashcard {
 		height:250px;
