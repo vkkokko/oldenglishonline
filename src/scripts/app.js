@@ -321,6 +321,13 @@
 		const flashcardFilename = $modalContainer.data('question-file');
 
 		let dataLanguage = $('.translation-button').attr('data-language');
+		let dataText = $('.explanatory-text').attr('data-text');
+		let oldPlaceholder = $('.flashcard-answer').data('old-placeholder');
+		let newPlaceholder = $('.flashcard-answer').data('new-placeholder');
+
+		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
+		
+
 
 		//These lines empty the input and make sure the Check button is active (for if someone swaps language mid translation)
 		$('.flashcard-row').find('input').val('');
@@ -331,12 +338,14 @@
 			$('.translation-button').attr('data-language', 'modern');
 			$('.translation-button').html('Modern English <i class="fas fa-exchange-alt"></i> Old English');
 			$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
+			$('.flashcard-answer').attr('placeholder', oldPlaceholder);
 			flashcardCreate($modalContainer, flashcardFilename);
 
 		} else {
 			$('.translation-button').attr('data-language', 'old');
 			$('.translation-button').html('Old English <i class="fas fa-exchange-alt"></i> Modern English');
 			$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
+			$('.flashcard-answer').attr('placeholder', newPlaceholder);
 			flashcardCreate($modalContainer, flashcardFilename);
 		}
 	}); //close document ready

@@ -1023,8 +1023,8 @@ ul.module a {
 	margin:auto;
     text-align:center;
     border-radius:25px;
-	height: 250px;
-	width:33%;
+	height: 275px;
+	width:40%;
 	margin-bottom:1em;
 	border:1px solid rgb(247, 136, 47);
 	background:white;
@@ -1032,8 +1032,17 @@ ul.module a {
     transform-style: preserve-3d;
 }
 
+.flashcard h2 {
+	font-size:40px;
+}
+
 .flashcard-answer {
 	border-radius:5px;
+	height:40px;
+}
+
+.modal-dialog button {
+	font-size:1em;
 }
 
 .incorrect-flashcard h2,
@@ -1064,6 +1073,19 @@ ul.module a {
 
 /* Responsive Styles */
 
+/* Small laptop screen */
+@media screen and (max-width: 1400px) {
+
+	.flashcard {
+		height:250px;
+	}
+
+	.modal-dialog button {
+		font-size:.8em;
+	}
+}
+
+/* mobile */
 @media screen and (max-width: 440px) {
 	.no-container-padding {
 		padding-right: 0;
