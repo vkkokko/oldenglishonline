@@ -279,8 +279,10 @@
 		//This changes the array content and user input to all upper case so that capitals won't affect if it's correct or not
 		if (correctAnswer.toUpperCase() == userAnswer.toUpperCase()) {
 			$('.flashcard').addClass('correct-flashcard');
+			$('.explanatory-text').addClass('darkgreen-text').html('Good Job!');
 		} else {
 			$('.flashcard').addClass('incorrect-flashcard');
+			$('.explanatory-text').addClass('darkorange-text').html('Try Again!');
 		}
 
 		//This swaps which button is visible under the input field
@@ -300,7 +302,9 @@
 
 	//Code to empty the flashcard and add a new word
 	$('.try-another').on('click', function () {
+		let dataText = $('.explanatory-text').attr('data-text');
 		$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
+		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
 		const $modalContainer = $('.modal-body');
 		const flashcardFilename = $modalContainer.data('question-file');
 		flashcardCreate($modalContainer, flashcardFilename);

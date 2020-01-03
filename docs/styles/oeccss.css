@@ -1004,7 +1004,6 @@ ul.module a {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	height: 60px;
 	padding: 15px;
 	background: #ddd;
   }
@@ -1045,16 +1044,21 @@ ul.module a {
 }
 
 .correct-flashcard {
-	transform: rotateX(180deg);
+	transform: rotateX(-180deg);
 	background:lightgreen;
 	border:1px solid green;
 
 }
 
 .incorrect-flashcard {
-	transform: rotateX(180deg);
+	transform: rotateX(-180deg);
 	background:lightcoral;
 	border:1px solid red;
+}
+
+.translation-button,
+.special-character {
+	background:white;
 }
 
 
@@ -1092,6 +1096,10 @@ ul.module a {
 
 	.medium-text {
 		font-size: 1.5em;
+	}
+
+	.margin-left {
+		margin-left:0;
 	}
 
 	.grammar-table {
@@ -1226,7 +1234,21 @@ ul.module a {
 	}
 
 	.flashcard-answer {
-		height:40px;
+		height:50px;
+		width:90%;
+	}
+
+	.flashcard-row .special-character {
+		padding: .5em 1em;
+		margin: .5em;	
+		font-size:1em;
+	}
+
+	.flashcard-check,
+	.try-another,
+	.close-button {
+		padding:.5em 1em;
+		font-size:1em;
 	}
 
 	.modal-title {
