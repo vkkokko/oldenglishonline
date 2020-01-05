@@ -262,9 +262,6 @@
 		$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
 		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
 		$('.flashcard-row').find('input').val('');
-
-		$('.flashcard-check').removeClass('hide');
-		$('.try-another').addClass('hide');
 	}
 
 	//Code which executes when you click the modal button 'Test Your Vocab'
