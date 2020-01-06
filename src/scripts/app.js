@@ -309,6 +309,9 @@
 	//Code to empty the flashcard and add a new word
 	$('.try-another').on('click', function () {
 		
+		$('.flashcard-check').removeClass('hide');
+		$('.try-another').addClass('hide');
+
 		const $modalContainer = $('.modal-body');
 		const flashcardFilename = $modalContainer.data('question-file');
 		flashcardCreate($modalContainer, flashcardFilename);
