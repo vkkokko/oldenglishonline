@@ -223,8 +223,8 @@
 	function checkAnswer(answerArray, userAnswer) {
 		let wasUserCorrect = false;
 
-		answerArray.forEach(function (answer) {
-			if (answer.toUpperCase() == userAnswer.toUpperCase()) {
+		answerArray.forEach(function (correctAnswerArray) {
+			if (correctAnswerArray.toUpperCase() == userAnswer.toUpperCase()) { //This changes both inputs to upper case so you don't get a false negative due to caps
 				wasUserCorrect = true;
 			}
 		});
@@ -274,16 +274,23 @@
 
 	//Code which checks the answer you entered
 	$('.flashcard-check').on('click', function () {
+		//This finds the user answer
 		let userAnswer = $('.flashcard-row').find('input').val().trim(); //.trim removes whitespace before and after text so it doesn't flag a false negative because of spaces
-		let correctAnswer = $('.flashcard').data('flashcardAnswer');
+		//This defines the correct answer - since there's multiple, it treats it as an array
+		let correctAnswerArray = $('.flashcard').data('flashcardAnswer').split('|');
+		//This finds the part of speech
 		let partOfSpeech = $('.flashcard').data('partOfSpeech');
+		//This reuses the same function as the quiz to check the user answer against the potential correct answers
+		let wasCorrect = checkAnswer(correctAnswerArray, userAnswer);
+		//Outputs the correct answer in the flashcard with a '/' between multiple correct answers
+		let flashcardAnswer = correctAnswerArray.join(' / ');
 
 		//These lines add the 'part of speech' and correct answer to the flash card
 		$('.flashcard').append('<h3>' + partOfSpeech + '</h3>');
-		$('.flashcard').find('h2').append(' — ' + correctAnswer);
+		$('.flashcard').find('h2').append(' — ' + flashcardAnswer);
 
-		//This changes the array content and user input to all upper case so that capitals won't affect if it's correct or not
-		if (correctAnswer.toUpperCase() == userAnswer.toUpperCase()) {
+		//Changes card colour and adds a feedback message depending on whether answer is correct or not
+		if (wasCorrect == true) {
 			$('.flashcard').addClass('correct-flashcard');
 			$('.explanatory-text').addClass('darkgreen-text').html('Good Job!');
 		} else {
