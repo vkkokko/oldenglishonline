@@ -1,6 +1,6 @@
 [
     {
-        "question": "He cyste þæs (<em>biscop</em>) #### sweartne stan  — He kissed the bishop’s black stone",
+        "question": "He cyste þæs (<em>biscop</em>) #### sweartne stan — He kissed the bishop’s black stone",
         "correctAnswer": "biscopes",
         "explanation":"Here 'biscop' is in the singular genitive so it takes the 'es' ending",
         "commonMistakes": [
@@ -110,13 +110,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðara (<em>wicing</em>) #### cyning wolde þæt þa Deniscan ricsoden ofer Englalande - The king of the vikings wished that the Danes ruled over England",
+        "question": "Ðara (<em>wicing</em>) #### cyning wolde þæt þa Deniscan ricsoden ofer Englalande⁠ — The king of the vikings wished that the Danes ruled over England",
         "correctAnswer": "wicinga",
         "explanation":"Here 'wicing' is in the possessive plural as the subject is the king of many vikings, so 'wicing' takes the 'a' ending of the genitive plural",        
         "commonMistakes": []
     },
     {
-        "question": "Ða bearn þæs (<em>cyning</em>) #### sind wis ond eaþmod - The children of the king are wise and humble",
+        "question": "Ða bearn þæs (<em>cyning</em>) #### sind wis ond eaþmod⁠ — The children of the king are wise and humble",
         "correctAnswer": "cyninges",
         "explanation":"Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",        
         "commonMistakes": []
@@ -128,7 +128,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Giet wæs se (<em>cyning</em>) #### Ælfred geong - Yet was the king Alfred young",
+        "question": "Giet wæs se (<em>cyning</em>) #### Ælfred geong⁠ — Yet was the king Alfred young",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is the subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []

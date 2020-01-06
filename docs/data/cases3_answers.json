@@ -94,13 +94,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Se abbot com fram þæm (<em>beorg</em>) #### - The abbot came from the mountains",
+        "question": "Se abbot com fram þæm (<em>beorg</em>) ####⁠ — The abbot came from the mountains",
         "correctAnswer": "beorgum",
         "explanation":"Here 'beorg' is not directly receiving the action of the verb 'com', so it is in the plural dative and thus takes the 'um' ending",        
         "commonMistakes": []
     },
     {
-        "question": "Se biscop ferþ to þæm halige (<em>stede</em>) #### - The bishop goes to the holy place",
+        "question": "Se biscop ferþ to þæm halige (<em>stede</em>) ####⁠ — The bishop goes to the holy place",
         "correctAnswer": "stede",
         "explanation":"Here 'stede' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",        
         "commonMistakes": [
@@ -111,13 +111,13 @@
         ]
     },
     {
-        "question": "Hie þreowon þa (<em>gar</em>) #### to þæm wicingum - They threw the spears at the vikings",
+        "question": "Hie þreowon þa (<em>gar</em>) #### to þæm wicingum⁠ — They threw the spears at the vikings",
         "correctAnswer": "garas",
         "explanation":"Here 'gar' is directly receiving the action of the verb 'þreowon', so it is in the plural accusative and thus takes the 'as' ending",        
         "commonMistakes": []
     },
     {
-        "question": "He æt þone (<em>fugol</em>) #### - He ate the bird",
+        "question": "He æt þone (<em>fugol</em>) ####⁠ — He ate the bird",
         "correctAnswer": "fugol",
         "explanation":"Here 'fugol' is directly receiving the action of the verb 'æt', so it is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
