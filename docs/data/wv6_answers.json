@@ -131,7 +131,7 @@
     {
         "question": "Ðu me forlæred <em>(habban)</em> #### - You have seduced me",
         "correctAnswer": "hæfst",
-        "explanation": "Here 'habban' is in the third person singular form '<em>hæfst</em>' because the subject is 'You'",
+        "explanation": "Here 'habban' is in the second person singular form '<em>hæfst</em>' because the subject is 'You'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "hæbbast|habbast|habast|hæbast|habst|hæbst",
