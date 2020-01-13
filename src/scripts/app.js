@@ -13,22 +13,26 @@
 		// $('.test-header').append('<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>');
 		//This adds the buttons to check the fill-in-the-blank-quiz
 		// $('.form-group').append(`<button class="solid-button button" id="submit">Check</button>
-        // <button class="solid-button button hidden" id="again">Try Again?</button>`);
+		// <button class="solid-button button hidden" id="again">Try Again?</button>`);
 
 		$('.special-character').on('click', function (event) {
-			event.preventDefault();                                 //this stops the button reloading the page
-			if ($lastActive) { 						   			    // This Boolean checks to see if the last active input
-				$lastActive										// was from .question-item (thus making it our user input).
+			event.preventDefault();           //this stops the button reloading the page
+			if ($lastActive) { 				 // This Boolean checks to see if the last active input
+				$lastActive					// was from .question-item (thus making it our user input).
 
-					// If it is, this becomes a 'truthy' variable meaning it executes.
+				// If it is, this becomes a 'truthy' variable meaning it executes.
 					.val($lastActive.val() + $(this).attr('data-char'))
-					.focus();			   							// This is a predefined jquery command which gives the focus back
-				// to the same element selected prior to the 'on click command'.
-			}  														// in this case, the 'char' button press.
+					.focus();			   	// This is a predefined jquery command which gives the focus back
+											// to the same element selected prior to the 'on click command'.
+			}  								// in this case, the 'char' button press.
 		});
 
 		$questionWrapper.on('focus', 'input', function () {
-			$lastActive = $(this);									// This marks which input is the last selected before 'char' click
+			$lastActive = $(this);			// This marks which input is the last selected before 'char' click
+		});
+
+		$('.flashcard-row').on('focus', 'input', function() {
+			$lastActive = $(this);			//This does the same as the above function, but in the modal instead of in the quiz
 		});
 
 		// This is the code that makes the audio elements play
@@ -157,61 +161,6 @@
 			$('#table-try-again').replaceWith('<button class="solid-button button hidden" id="again">Try Again?</button>');
 		});
 
-		//This is the code which replaces the fill-in-the-blank with the table quiz
-		$('#table-quiz-button').on('click', function (event) {
-			event.preventDefault();
-
-			const $container = $('#question-wrapper');
-			let filename = $container.data('table-file');
-
-			$(this).removeClass('light-button').addClass('solid-button');
-			$('#questionnaire-button').removeClass('solid-button').addClass('light-button');
-
-			tableQuizCreate($container, filename);
-
-			$('small').replaceWith('<small>In the table below, fill out the fully declined version of the word in the header</small>');
-			$('#submit').replaceWith('<button class="solid-button button" id="table-submit">Check</button>');
-			$('#again').replaceWith('<button class="solid-button button hidden" id="table-try-again">Try Again?</button>');
-		});
-
-		// The below code is for the Submit button on a table quiz
-
-		$('.test-container').on('click', '#table-submit', function (event) {
-			event.preventDefault();
-
-			$('.user-input').each(function () {
-				let correctAnswerArray = $(this).attr('data-answer').split('|');
-				let userAnswer = $(this).val().trim(); //.trim removes whitespace before and after text so it doesn't flag a false negative because of spaces
-
-				let wasCorrect = checkAnswer(correctAnswerArray, userAnswer);
-
-				if (wasCorrect) {  //Adds CSS to show green/red indicator around the input box.
-					$(this).addClass('table-success').removeClass('table-error');
-				} else {
-					$(this).removeClass('table-success').addClass('table-error');
-				}
-			});
-
-			$(this).addClass('hidden');
-			$('#table-try-again').removeClass('hidden');
-
-		});
-
-		// The below code is for the Try Again? button on a table quiz
-		$('.test-container').on('click', '#table-try-again', function (event) {
-			event.preventDefault();
-
-			//let filename; <- need to fix this later
-			const $container = $('#question-wrapper');
-			let filename = $container.data('table-file');
-
-
-			$(this).addClass('hidden');
-			$('#table-submit').removeClass('hidden');
-
-			tableQuizCreate($container, filename);
-		});
-
 	});
 
 
@@ -274,8 +223,8 @@
 	function checkAnswer(answerArray, userAnswer) {
 		let wasUserCorrect = false;
 
-		answerArray.forEach(function (answer) {
-			if (answer.toUpperCase() == userAnswer.toUpperCase()) {
+		answerArray.forEach(function (correctAnswerArray) {
+			if (correctAnswerArray.toUpperCase() == userAnswer.toUpperCase()) { //This changes both inputs to upper case so you don't get a false negative due to caps
 				wasUserCorrect = true;
 			}
 		});
@@ -283,58 +232,132 @@
 		return wasUserCorrect;
 	}
 
-
-	//code for the quiz button
-	function tableQuizCreate($container, filename) {
+	//code for the vocabulary test modal
+	function flashcardCreate($mContainer, fFilename) {
 		// exit if we don't have all params
-		if (!$container || !filename) {
+		if (!$mContainer || !fFilename) {
 			return;
 		}
-
-		$container.empty(); //empties the container of whatever was in it before
-
-		// contains multiple tables worth of items
-		$.getJSON(`data/${filename}`).then(quizData => {
-			//This selects a random object from the array
-			const randomQuestion = quizData.splice(Math.random() * quizData.length | 0, 1)[0];
-
-			//This creates our table and gives it the classes we need
-			const $table = $('<table class="quiz-table table-striped"/>');
-
-			// This appends the top-most row to the table and sets the colspan to the length of the property
-			$table.append(`<tr><th colspan="${randomQuestion.headerRow.length}"><strong> ${randomQuestion.word} </strong></th></tr>`);
-
-			// We initialize an empty variable we can enter content into
-			let tableQuizContent = '';
-
-			//We create a table row
-			tableQuizContent += '<tr>';
-			randomQuestion.headerRow.forEach(cell => {
-				tableQuizContent += `<td><strong>${cell}</strong></td>`;
-			});
-			tableQuizContent += '</tr>\n'; // the \n adds a line break at the end (this is just cosmetic for reading the code later)
-
-			randomQuestion.rows.forEach(row => {
-
-				tableQuizContent += '<tr class="quiz-table-line">';     //Creates a table row
-
-				row.forEach((item, idx) => {
-					if (idx === 0) {            //This if statement makes the first item the table header and the rest, generic cells
-						tableQuizContent += `<th><strong>${item}</strong></th>`;
-					} else {
-						tableQuizContent += `<td><input type="text" class="user-input form-control" placeholder="answer" data-answer="${item}"></td>`;
-					}
-				});
-
-				tableQuizContent += '</tr>';    //Closes the table row
+		//This gets the json with the vocab array in it and chooses one object to display once it's loaded
+		$.getJSON(`data/${fFilename}?cache=` + Date.now())
+			.done(function (data) {
+				let flashcard = data.splice(Math.random() * data.length | 0, 1);
+				
+				let dataLanguage = $('.translation-button').attr('data-language');
+		
+		//This determines whether you want to translate from or to Old English
+		if (dataLanguage=='old') {
+				$('.flashcard').html(`<h2>${flashcard[0].oldEnglish}</h2>`);
+				$('.flashcard').data('flashcardAnswer', flashcard[0].modernEnglish);
+				$('.flashcard').data('partOfSpeech', flashcard[0].partOfSpeech);
+			} else {
+				$('.flashcard').html(`<h2>${flashcard[0].modernEnglish}</h2>`);
+				$('.flashcard').data('flashcardAnswer', flashcard[0].oldEnglish);
+				$('.flashcard').data('partOfSpeech', flashcard[0].partOfSpeech);
+			}
 			});
 
-			$table.append(tableQuizContent);    //This populates the table
-			$container.append($table);          //This adds our table into the page
-
-			$('small').replaceWith('<small>In the table below, fill out the fully declined version of the word in the header.</small>');
-			$('#submit').replaceWith('<button class="solid-button button" id="table-submit">Submit</button>');
-			$('#again').replaceWith('<button class="solid-button button hidden" id="table-try-again">Try Again?</button>');
-		});
+		//resets flashcard state to default
+		let dataText = $('.explanatory-text').attr('data-text');
+		$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
+		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
+		$('.flashcard-row').find('input').val('');
 	}
-})();
+
+	//Code which executes when you click the modal button 'Test Your Vocab'
+	$('.modal-button').on('click', function () {
+		const $modalContainer = $('.modal-body');
+		const flashcardFilename = $modalContainer.data('question-file');
+
+		flashcardCreate($modalContainer, flashcardFilename);
+	});
+
+	//Code which checks the answer you entered
+	$('.flashcard-check').on('click', function () {
+		//This finds the user answer
+		let userAnswer = $('.flashcard-row').find('input').val().trim(); //.trim removes whitespace before and after text so it doesn't flag a false negative because of spaces
+		//This defines the correct answer - since there's multiple, it treats it as an array
+		let correctAnswerArray = $('.flashcard').data('flashcardAnswer').split('|');
+		//This finds the part of speech
+		let partOfSpeech = $('.flashcard').data('partOfSpeech');
+		//This reuses the same function as the quiz to check the user answer against the potential correct answers
+		let wasCorrect = checkAnswer(correctAnswerArray, userAnswer);
+		//Outputs the correct answer in the flashcard with a '/' between multiple correct answers
+		let flashcardAnswer = correctAnswerArray.join(' / ');
+
+		//These lines add the 'part of speech' and correct answer to the flash card
+		$('.flashcard').append('<h3>' + partOfSpeech + '</h3>');
+		$('.flashcard').find('h2').append(' — ' + flashcardAnswer);
+
+		//Changes card colour and adds a feedback message depending on whether answer is correct or not
+		if (wasCorrect == true) {
+			$('.flashcard').addClass('correct-flashcard');
+			$('.explanatory-text').addClass('darkgreen-text').html('Good Job!');
+		} else {
+			$('.flashcard').addClass('incorrect-flashcard');
+			$('.explanatory-text').addClass('darkorange-text').html('Try Again!');
+		}
+
+		//This swaps which button is visible under the input field
+		$('.flashcard-check').addClass('hide');
+		$('.try-another').removeClass('hide');
+	});
+
+	//This function allows you to trigger the Check function using the Enter key in the input
+	$('.flashcard-answer').on('keydown', function(event) {
+		let checkButton = $('.flashcard-check').hasClass('hide');
+
+		if (event.keyCode === 13 && checkButton === false) {  //This makes sure the Check button is visible so you can't trigger the check multiple times using the Enter key
+			event.preventDefault();
+			$('.flashcard-check').click();
+		}
+	});
+
+	//Code to empty the flashcard and add a new word
+	$('.try-another').on('click', function () {
+		
+		$('.flashcard-check').removeClass('hide');
+		$('.try-another').addClass('hide');
+
+		const $modalContainer = $('.modal-body');
+		const flashcardFilename = $modalContainer.data('question-file');
+		flashcardCreate($modalContainer, flashcardFilename);
+
+	});
+
+	//Code to change whether you're translating to or from Old English
+	$('.translation-button').on('click', function () {
+		const $modalContainer = $('.modal-body');
+		const flashcardFilename = $modalContainer.data('question-file');
+
+		let dataLanguage = $('.translation-button').attr('data-language');
+		let dataText = $('.explanatory-text').attr('data-text');
+		let oldPlaceholder = $('.flashcard-answer').data('old-placeholder');
+		let newPlaceholder = $('.flashcard-answer').data('new-placeholder');
+
+		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
+		
+
+
+		//These lines empty the input and make sure the Check button is active (for if someone swaps language mid translation)
+		$('.flashcard-row').find('input').val('');
+		$('.flashcard-check').removeClass('hide');
+		$('.try-another').addClass('hide');
+
+		if (dataLanguage=='old') {
+			$('.translation-button').attr('data-language', 'modern');
+			$('.translation-button').html('Modern English <i class="fas fa-exchange-alt"></i> Old English');
+			$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
+			$('.flashcard-answer').attr('placeholder', oldPlaceholder);
+			flashcardCreate($modalContainer, flashcardFilename);
+
+		} else {
+			$('.translation-button').attr('data-language', 'old');
+			$('.translation-button').html('Old English <i class="fas fa-exchange-alt"></i> Modern English');
+			$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
+			$('.flashcard-answer').attr('placeholder', newPlaceholder);
+			flashcardCreate($modalContainer, flashcardFilename);
+		}
+	}); //close document ready
+
+})(); //close the whole thing

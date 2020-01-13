@@ -1,0 +1,146 @@
+[
+    {
+        "question": "Ic (<em>beon</em>) #### hal — I will be safe",
+        "correctAnswer": "beo",
+        "explanation":"Here 'beon' is in the first person singular form 'beo' as the subject is 'ic'",     
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu ana (<em>beon</em>) #### eallra dema — You alone are the judge of all",
+        "correctAnswer": "bist",
+        "explanation":"Here 'beon' is in the second person singular form 'bist' as the subject is 'ðu'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Min sweord (<em>beon</em>) #### min lif — My sword is my life",
+        "correctAnswer": "biþ",
+        "explanation":"Here 'beon' is in the third person singular form 'biþ' as the subject is 'min sweord'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Swa monige (<em>beon</em>) #### men ofer eorþan swa beoþ modgeþoncas — There are as many viewpoints as there are men on earth",
+        "correctAnswer": "beoþ",
+        "explanation":"Here 'beon' is plural form 'beoþ' as the subject is 'men",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ondræde me for ðam ðe ic (<em>wesan</em>) #### nacod — I am afraid because I am naked",
+        "correctAnswer": "eom",
+        "explanation":"Here 'wesan' is in the first person singular form 'eom' as the subject is 'ic'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Sarnys ðe hrepode ond ðu (<em>wesan</em>) #### geunrotsod — Pain touched you and you are made unhappy",
+        "correctAnswer": "eart",
+        "explanation":"Here 'wesan' is in the second person singular form 'eart' as the subject is 'ðu'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Þearle (<em>wesan</em>) #### me nu min heorte onhæted ond hige geomor swyðe mid sorgum gedrefed — Now my heart is in me sorely inflamed and my mind troubled, deeply afflicted with sorrows",
+        "correctAnswer": "is",
+        "explanation":"Here 'wesan' is in the third person singular form 'is' as the subject is 'min heorte'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>wesan</em>) #### þissa heldora wegas forworhte swa ic mid wihte ne mæg of þissum lioðobendum — These gates of hell are obstructed so I may not escape these limb—bonds",
+        "correctAnswer": "sind",
+        "explanation":"Here 'wesan' is in the pluralform 'sind' as the subject is 'þissa heldora wegas'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Hiericho seo burh (<em>wesan</em>) #### mid weallum ymbtrymed ond fæste belocen — Jericho, the city, was surrounded with walls and firmly locked",
+        "correctAnswer": "wæs",
+        "explanation":"Here 'wesan' is in the past third person singular form 'wæs' as the subject is 'seo burh'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Forðan ðe ðu (<em>wesan</em>) #### gehyrsum ðines wifes wordum, and min bebod forsawe, þu scealt mid earfoðnyssum þe metes tilian — Because you were obedient to the words of your wife, and despised my commandment, you shall get your food with hardships",
+        "correctAnswer": "wære",
+        "explanation":"Here 'wesan' is in the past second person singular form 'wære' as the subject is 'ðu'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Drihten (<em>wesan</em>) #### sprecende on sumere tide to his apostolum mid bigspellum — The Lord was speaking at a certain time to his apostles in parables",
+        "correctAnswer": "wæs",
+        "explanation":"Here 'wesan' is in the past third person singular form 'wæs' as the subject is 'Drihten'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>wesan</em>) #### gesamnode binnan ðære byrig Hierusalem, six hund ðusend manna — They were assembled within the city of Jerusalem, six hundred thousand men",
+        "correctAnswer": "wæron",
+        "explanation":"Here 'wesan' is in the past plural form 'wæron' as the subject is 'hie'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðær ic (<em>beon</em>) #### fægere beþeaht fiðerum ðinum — There I will be pleasantly enveloped in your wings",
+        "correctAnswer": "beo",
+        "explanation":"Here 'beon' is in the first person singular form 'beo' as the subjet is 'ic'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "For ðan ðe ðu ðis dydest ðu (<em>beon</em>) #### awyrged betweox eallum nytenum and wildeorum — Because you did this, you will be cursed among all the beasts and wild animals",
+        "correctAnswer": "bist",
+        "explanation":"Here 'beon' is in the second person singular form 'beo' as the subject is 'ðu'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Hat (<em>beon</em>) #### monegum egeslic æled — The dreadful fire will be hot to many",
+        "correctAnswer": "biþ",
+        "explanation":"Here 'beon' is in the third person singular form 'biþ' as the subject is 'æled'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Swa biþ sæ smilte þonne hie wind ne weceþ swa (<em>beon</em>) #### þeoda geþwære, þonne hie geþingad habbað — As the sea is calm when the wind doesn't blow, so are people at peace when they have negotiated",
+        "correctAnswer": "beoþ",
+        "explanation":"Here 'beon' is in the plural form 'beoþ' as the subject is 'þeoda'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic (<em>wesan</em>) #### mare þonne þes middangeard læsse þonne hondwyrm leohtre þonne mona swiftre þonne sunne — I am more than this middle world, less than a mite, lighter than the moon, swifter than the sun",
+        "correctAnswer": "eom",
+        "explanation":"Here 'wesan' is in the first person singular form 'eom' as the subject is 'ic'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu (<em>wesan</em>) #### þu dumb ond deaf — Now you are dumb and deaf",
+        "correctAnswer": "eart",
+        "explanation":"Here 'wesan' is in the second person singular form 'eart' as the subject is 'þu'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Her (<em>wesan</em>) #### seo bot hu þu meaht þine æ ceras betan gif hie nellaþ wel weaxan — Here is the remedy how you can restore your fields if they will not grow well",
+        "correctAnswer": "is",
+        "explanation":"Here 'wesan' is in the third person singular form 'is' as the subject is 'seo bot'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie cwædon Drihten her (<em>wesan</em>) #### twa swurd — They said, 'Lord, here are two swords'",
+        "correctAnswer": "sind",
+        "explanation":"Here 'wesan' is in the plural form 'sind' as the subject is 'twa swurd'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Se Cristendom (<em>wesan</em>) #### swilc on his dæge þæt ælc man hwæt his hade to belumpe folgade se þe wolde — Christianity in his day was such that every man who wanted to would follow what pertained to his order",
+        "correctAnswer": "wæs",
+        "explanation":"Here 'wesan' is in the past third person singular form 'wæs' as the subject is 'se Cristendom'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Paulus cwæð to Petre: Broðer þu (<em>wesan</em>) #### Gode gecoren ær ic — Paul said to Peter, 'Brother, you were God's chosen before me'",
+        "correctAnswer": "wære",
+        "explanation":"Here 'wesan' is in the past second person singular form 'wære' as the subject is 'þu'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Freond he (<em>wesan</em>) #### ðurh geleafan ond wiþercora þurh weorc — A friend he was through faith, and a reprobate in works",
+        "correctAnswer": "wæs",
+        "explanation":"Here 'wesan' is in the past third person singular form 'wæs' as the subject is 'he'",        
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>wesan</em>) #### swa eaþmode ond swa unscæððige swa þæt cild wæs — They were as humble and as innocent as the child ",
+        "correctAnswer": "wæron",
+        "explanation":"Here 'wesan' is in the past plural form 'wæron' as the subject is 'hie'",        
+        "commonMistakes": []
+    }
+]

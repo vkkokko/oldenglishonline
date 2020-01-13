@@ -1,0 +1,260 @@
+[
+    {
+        "oldEnglish": "Æþeling",
+        "modernEnglish": "Prince",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Abbod",
+        "modernEnglish": "Abbot",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Beag",
+        "modernEnglish": "Ring",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Bearn",
+        "modernEnglish": "Child",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Beorg",
+        "modernEnglish": "Mountain",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Biscop",
+        "modernEnglish": "Bishop",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Cyning",
+        "modernEnglish": "King",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Dæg",
+        "modernEnglish": "Day",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Ende",
+        "modernEnglish": "End",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Engel",
+        "modernEnglish": "Angel",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Fugol",
+        "modernEnglish": "Bird",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Gar",
+        "modernEnglish": "Spear",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Hafoc",
+        "modernEnglish": "Hawk",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Here",
+        "modernEnglish": "Army",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Heofon",
+        "modernEnglish": "Heaven",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Hlaford",
+        "modernEnglish": "Lord",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Horshwæl",
+        "modernEnglish": "Walrus",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Hwæl",
+        "modernEnglish": "Whale",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+
+    {
+        "oldEnglish": "Mearh",
+        "modernEnglish": "Horse",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+
+    {
+        "oldEnglish": "Mona",
+        "modernEnglish": "Moon",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+
+    {
+        "oldEnglish": "Scoh",
+        "modernEnglish": "Shoe",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Stan",
+        "modernEnglish": "Stone",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Stede",
+        "modernEnglish": "Place",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Tun",
+        "modernEnglish": "Town",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Ðegen",
+        "modernEnglish": "Thane",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Wealh",
+        "modernEnglish": "Foreigner",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Wiking",
+        "modernEnglish": "Viking",
+        "partOfSpeech": "Strong Masculine Noun"
+    },
+    {
+        "oldEnglish": "Bearn",
+        "modernEnglish": "Child",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Fæt",
+        "modernEnglish": "Cup",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Feoh",
+        "modernEnglish": "Wealth|Cattle",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "God",
+        "modernEnglish": "Deity",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Heafod",
+        "modernEnglish": "Head",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Hus",
+        "modernEnglish": "House",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Rice",
+        "modernEnglish": "Kingdom",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Scip",
+        "modernEnglish": "Ship",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Wæl",
+        "modernEnglish": "Slaughter",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Wif",
+        "modernEnglish": "Woman",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Wite",
+        "modernEnglish": "Punishment",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Word",
+        "modernEnglish": "Word",
+        "partOfSpeech": "Strong Neuter Noun"
+    },
+    {
+        "oldEnglish": "Bryd",
+        "modernEnglish": "Bride",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Ceaster",
+        "modernEnglish": "City",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Clawu",
+        "modernEnglish": "Claw",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Cwen",
+        "modernEnglish": "Queen",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Dæd",
+        "modernEnglish": "Deed",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Giefu",
+        "modernEnglish": "Gift",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Ides",
+        "modernEnglish": "Lady",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Lar",
+        "modernEnglish": "Teaching",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Lufu",
+        "modernEnglish": "Love",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Sawol",
+        "modernEnglish": "Soul",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Sceadu",
+        "modernEnglish": "Shadow",
+        "partOfSpeech": "Strong Feminine Noun"
+    },
+    {
+        "oldEnglish": "Treow",
+        "modernEnglish": "Tree",
+        "partOfSpeech": "Strong Feminine Noun"
+    }
+]

@@ -52,6 +52,13 @@ main li a:active,
 	color: rgb(161, 70, 10);
 }
 
+a:focus,
+main li a:focus,
+button:focus,
+input:focus {
+	outline-color:rgb(161, 70, 10);
+}
+
 main li > a {
 	color: rgb(200, 100, 50);
 }
@@ -914,7 +921,11 @@ ul.module a {
 }
 
 .quiz-table td {
-	padding: 0.5em 0.5em;
+	padding: 0.5em;
+}
+
+.extra-padding-td td {
+	padding: 0.5em 1.25em;
 }
 
 .quiz-table th {
@@ -932,8 +943,149 @@ ul.module a {
 	padding:0px 4px;
 }
 
+/* Styles for vocab modal */
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  }
+
+.modal-dialog {
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+  }
+  
+  .modal-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #f8f8f8;
+	border-radius: 0;
+	box-shadow: none;
+  }
+  
+  .modal-header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 2em 1em;
+	background: rgb(0, 0, 0);
+	border: 0;
+  }
+  
+  .modal-title {
+	color: #fff;
+	line-height: 10px;
+  }
+  
+  .modal-body {
+	top: 60px;
+	bottom: 60px;
+	width: 100%;
+	font-weight: 300;
+	padding:2em 1em;
+	overflow: auto;
+  }
+
+  .center-button {
+	  margin:auto;
+  }
+  
+  .modal-footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	background: #ddd;
+  }
+
+.flashcard-row {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flashcard {
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+    font-size:2em;
+	margin:auto;
+    text-align:center;
+    border-radius:25px;
+	height: 275px;
+	width:40%;
+	margin-bottom:1em;
+	border:1px solid rgb(247, 136, 47);
+	background:white;
+	transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.flashcard h2 {
+	font-size:40px;
+}
+
+.flashcard-answer {
+	border-radius:5px;
+	height:40px;
+}
+
+.modal-dialog button {
+	font-size:1em;
+}
+
+.incorrect-flashcard h2,
+.correct-flashcard h2,
+.incorrect-flashcard h3,
+.correct-flashcard h3 {
+	transform: rotateX(180deg);
+}
+
+.correct-flashcard {
+	transform: rotateX(-180deg);
+	background:lightgreen;
+	border:1px solid green;
+
+}
+
+.incorrect-flashcard {
+	transform: rotateX(-180deg);
+	background:lightcoral;
+	border:1px solid red;
+}
+
+.translation-button,
+.special-character {
+	background:white;
+}
+
+
 /* Responsive Styles */
 
+/* Small laptop screen */
+@media screen and (min-width: 450px) and (max-width: 1400px) {
+
+	.flashcard {
+		height:250px;
+	}
+
+	.modal-dialog button {
+		font-size:.8em;
+	}
+}
+
+/* mobile */
 @media screen and (max-width: 440px) {
 	.no-container-padding {
 		padding-right: 0;
@@ -966,6 +1118,10 @@ ul.module a {
 
 	.medium-text {
 		font-size: 1.5em;
+	}
+
+	.margin-left {
+		margin-left:0;
 	}
 
 	.grammar-table {
@@ -1091,6 +1247,34 @@ ul.module a {
 	/* Make all right containers behave like the left ones */
 	.timeline-right {
 		left: 0%;
+	}
+
+	/* Make the flashcard smaller on mobile and the input bigger */
+	.flashcard {
+		height: 200px;
+		width:100%;
+	}
+
+	.flashcard-answer {
+		height:50px;
+		width:90%;
+	}
+
+	.flashcard-row .special-character {
+		padding: .5em 1em;
+		margin: .5em;	
+		font-size:1em;
+	}
+
+	.flashcard-check,
+	.try-another,
+	.close-button {
+		padding:.5em 1em;
+		font-size:1em;
+	}
+
+	.modal-title {
+		font-size:30px;
 	}
 }
 

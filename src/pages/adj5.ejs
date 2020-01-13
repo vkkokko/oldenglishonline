@@ -129,28 +129,28 @@
 					</tr>
 					<tr>
 						<td>
-							<strong>Nominative</strong>
+							<strong>Nom</strong>
 						</td>
 						<td>goda</td>
 						<td>gode</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Accusative</strong>
+							<strong>Acc</strong>
 						</td>
 						<td>godan</td>
 						<td>gode</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Genitive</strong>
+							<strong>Gen</strong>
 						</td>
 						<td>godan</td>
 						<td>godan</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Dative</strong>
+							<strong>Dat</strong>
 						</td>
 						<td>godan</td>
 						<td>godan</td>
@@ -162,28 +162,28 @@
 					</tr>
 					<tr>
 						<td>
-							<strong>Nominative</strong>
+							<strong>Nom</strong>
 						</td>
 						<td>gode</td>
 						<td>godan</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Accusative</strong>
+							<strong>Acc</strong>
 						</td>
 						<td>godan</td>
 						<td>godan</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Genitive</strong>
+							<strong>Gen</strong>
 						</td>
 						<td>godan</td>
 						<td>godra/godena</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Dative</strong>
+							<strong>Dat</strong>
 						</td>
 						<td>godan</td>
 						<td>godum</td>
@@ -279,28 +279,28 @@
 					</tr>
 					<tr>
 						<td>
-							<strong>Nominative</strong>
+							<strong>Nom</strong>
 						</td>
 						<td>god</td>
 						<td>god</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Accusative</strong>
+							<strong>Acc</strong>
 						</td>
 						<td>godne</td>
 						<td>god</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Genitive</strong>
+							<strong>Gen</strong>
 						</td>
 						<td>godes</td>
 						<td>godes</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Dative</strong>
+							<strong>Dat</strong>
 						</td>
 						<td>godum</td>
 						<td>godum</td>
@@ -312,28 +312,28 @@
 					</tr>
 					<tr>
 						<td>
-							<strong>Nominative</strong>
+							<strong>Nom</strong>
 						</td>
 						<td>god</td>
 						<td>gode/godu/goda</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Accusative</strong>
+							<strong>Acc</strong>
 						</td>
 						<td>gode</td>
 						<td>gode/godu/goda</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Genitive</strong>
+							<strong>Gen</strong>
 						</td>
 						<td>godre</td>
 						<td>godra</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Dative</strong>
+							<strong>Dat</strong>
 						</td>
 						<td>godre</td>
 						<td>godum</td>
@@ -404,9 +404,12 @@
 			<div class="text-center padding-top">
 				<table class="static-table table-striped three-col-table inline-block">
 					<tr>
-						<th>Nominative</th>
-						<th>Comparative</th>
-						<th>Superlative</th>
+						<th class="hidden-xs">Nominative</th>
+						<th class="hidden-xs">Comparative</th>
+						<th class="hidden-xs">Superlative</th>
+						<th class="visible-xs">Nom</th>
+						<th class="visible-xs">Comp</th>
+						<th class="visible-xs">Super</th>
 					</tr>
 					<tr>
 						<td>halig</td>
@@ -500,7 +503,7 @@
 	<hr class="border">
 	<section>
 		<div>
-			<h2> Test Yourself!</h2>
+			<h2> Test Your Declensions</h2>
 			<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
 		</div>
 		<form name="form1" autocomplete="OFF">
@@ -508,6 +511,7 @@
 				<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
 				<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
 				<button class="light-button button special-character" data-char="&eth;">&eth;</button>
+				<br class="visible-xs">
 				<sub>Use these buttons to insert thorn, ash and eth when you have an input
 					selected.</sub>
 			</p>
@@ -518,5 +522,76 @@
 				<button class="solid-button button hidden" id="again">Try Again?</button>
 			</div>
 		</form>
+	</section>
+
+	<hr class="border">
+	<section>
+		<h2>Test Your Vocabulary</h2><p>You were introduced  to a lot of new vocabulary in this module. Test your understanding of
+			those new words by clicking the button below. This opens a modal where you can translate
+			words on a flashcard.</p>
+		<div class="text-center">
+			<button class="solid-button button modal-button" data-toggle="modal" data-target="#fsModal">Test Your
+				Vocabulary!</button></div>
+		<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-hidden="true">
+			<!-- dialog -->
+			<div class="modal-dialog">
+
+				<!-- content -->
+				<div class="modal-content">
+
+					<!-- header -->
+					<div class="modal-header">
+						<h1 class="modal-title">
+							Test Your Vocabulary!
+						</h1>
+					</div>
+					<!-- header -->
+
+					<!-- body -->
+					<div class="modal-body" data-question-file="adj_vocab.json">
+						<div class="flashcard-row">
+							<button class="light-button button translation-button" data-language="old">Old English <i
+									class="fas fa-exchange-alt"></i> Modern
+								English</button>
+						</div>
+						<div class="flashcard-row padding-top">
+							<div class="flashcard">
+
+							</div>
+						</div>
+						
+						<div class="flashcard-row">
+							<p class="explanatory-text text-center" data-text="Translate the above word using the input below">Translate the above word using the input below</p>
+						</div>
+						<div class="flashcard-row">
+								<input type="text" class="flashcard-answer text-center"  data-new-placeholder="e.g. yellow" data-old-placeholder="e.g. geolo" placeholder="e.g. yellow">
+						</div>
+						
+						<div class="flashcard-row">
+							<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+							<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+							<button class="light-button button special-character" data-char="&eth;">&eth;</button>
+							</div>
+						<div class="flashcard-row padding-top">
+							<button class="solid-button button flashcard-check center-button" aria-label="Check">Check</button>
+							<button class="solid-button button try-another center-button hide" aria-label="Try Another">Try Another</button>
+						</div>
+					</div>
+				</div>
+				<!-- body -->
+				<!-- footer -->
+				<div class="modal-footer">
+					<button class="solid-button button close-button" data-dismiss="modal" aria-label="Close">Close</button>
+				</div>
+				<!-- footer -->
+
+			</div>
+			<!-- content -->
+
+		</div>
+		<!-- dialog -->
+
+		</div>
+		<!-- modal -->
 	</section>
 </main>
