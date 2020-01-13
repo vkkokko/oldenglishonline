@@ -943,6 +943,11 @@ ul.module a {
 	padding:0px 4px;
 }
 
+/* bug fix for mobile padding */
+.small-padding-top {
+	padding-top:1em;
+}
+
 /* Styles for vocab modal */
 .modal {
 	position: fixed;
@@ -976,14 +981,13 @@ ul.module a {
 	top: 0;
 	right: 0;
 	left: 0;
-	padding: 2em 1em;
+	padding: .75em .5em;
 	background: rgb(0, 0, 0);
 	border: 0;
   }
   
   .modal-title {
 	color: #fff;
-	line-height: 10px;
   }
   
   .modal-body {
@@ -1076,12 +1080,29 @@ ul.module a {
 /* Small laptop screen */
 @media screen and (min-width: 450px) and (max-width: 1400px) {
 
+	.modal-title {
+		font-size:30px;
+	}
+
+	.modal-body {
+		top:45px;
+	}
+
 	.flashcard {
-		height:250px;
+		height:225px;
+		margin-bottom:.45em;
 	}
 
 	.modal-dialog button {
 		font-size:.8em;
+	}
+
+	.small-padding-top {
+		padding-top: .75em;
+	}
+
+	.modal-footer {
+		padding:10px 15px;
 	}
 }
 
@@ -1251,19 +1272,29 @@ ul.module a {
 
 	/* Make the flashcard smaller on mobile and the input bigger */
 	.flashcard {
-		height: 200px;
+		height: 150px;
 		width:100%;
+		margin-bottom:.25em;
+	}
+
+	.flashcard h2 {
+		font-size:30px;
+		margin-top:0;
+	}
+
+	.flashcard h3 {
+		font-size:20px;
 	}
 
 	.flashcard-answer {
-		height:50px;
+		height:45px;
 		width:90%;
 	}
 
 	.flashcard-row .special-character {
 		padding: .5em 1em;
-		margin: .5em;	
-		font-size:1em;
+		margin: .25em .5em 0 .5em;	
+		font-size:.9em;
 	}
 
 	.flashcard-check,
@@ -1274,7 +1305,31 @@ ul.module a {
 	}
 
 	.modal-title {
-		font-size:30px;
+		font-size:24px;
+	}
+
+	.explanatory-text {
+		font-size:.85em;
+	}
+
+	.modal-header {
+		padding:.5em;
+	}
+
+	.modal-body {
+		top:30px;
+	}
+
+	.modal-dialog button {
+		font-size:.85em;
+	}
+
+	.modal-footer {
+		padding:7px;
+	}
+
+	.small-padding-top {
+		padding-top:10px;
 	}
 }
 
