@@ -1029,7 +1029,7 @@ ul.module a {
     border-radius:25px;
 	height: 275px;
 	width:40%;
-	margin-bottom:1em;
+	margin-bottom:.75em;
 	border:1px solid rgb(247, 136, 47);
 	background:white;
 	transition: all 0.5s ease;
