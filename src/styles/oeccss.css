@@ -1083,6 +1083,10 @@ ul.module a {
 	.modal-dialog button {
 		font-size:.8em;
 	}
+
+	.big-text {
+		font-size: 4rem;
+	}
 }
 
 /* mobile */
