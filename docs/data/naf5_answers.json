@@ -78,6 +78,12 @@
         "commonMistakes": []
     },
     {
+        "question": "Ða cempan #### fierda þone here gefliemde - The warriors of the army expelled the invading army",
+        "correctAnswer": "þære",
+        "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the possessive 'fierda'",
+        "commonMistakes": []
+    },
+    {
         "question": "#### ceastre ealdorman spræc mid þæm biscope⁠ — The city's elderman spoke with the bishop",
         "correctAnswer": "þære",
         "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the possessive 'ceastre'",
@@ -90,25 +96,25 @@
         "commonMistakes": []
     },
     {
-        "question": "#### ceastra wisra menn ferde to þæm cyning⁠ — The wise men of the cities went to the king ",
+        "question": "Ða wisan menn #### ceastra ferdon to þæm cyning - The cities' wise men went to the king ",
         "correctAnswer": "þara",
         "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'ceastra'",
         "commonMistakes": []
     },
     {
-        "question": "#### idesa fæder wæs sæt æt wine⁠ — The ladies father was sat at his wine",
+        "question": "Se fæder #### idesa wæs sæt æt wine - The ladies' father was sat at his wine",
         "correctAnswer": "þara",
         "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to the plural possessive 'idesa'",
         "commonMistakes": []
     },
     {
-        "question": "Hie to #### cwene agefon him⁠ — They gave him up to the queen",
+        "question": "Hie him #### cwene agefon - They gave him up to the queen",
         "correctAnswer": "þære",
         "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the indirect object 'cwene'",
         "commonMistakes": []
     },
     {
-        "question": "Ða þegnas ferde to #### idese⁠ — The thanes went to the lady",
+        "question": "Ða þegnas ferdon to #### idese - The thanes went to the lady",
         "correctAnswer": "þære",
         "explanation":"Here the demonstrative pronoun is 'þære' because it is tied to the indirect object 'idese'",
         "commonMistakes": []
@@ -132,7 +138,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða þegnas geaf begas ond feoh to #### cwenum⁠ — The thanes gave rings and wealth to the queens",
+        "question": "Ða þegnas geafon begas ond feoh to #### cwenum - The thanes gave rings and wealth to the queens",
         "correctAnswer": "þæm",
         "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to the plural indirect object 'cwenum'",
         "commonMistakes": []

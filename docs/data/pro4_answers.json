@@ -18,13 +18,19 @@
         "commonMistakes": []
     },
     {
-        "question": "On Godes naman ahreose (<em>þis</em>) #### templ mid eallum þam deofolgyldum þe him on eardiað⁠ — In the name of God, let this temple fall with all the idols that dwell within it",
+        "question": "Ic wille þæt þu giefe þone mete (<em>þes</em>) #### bearnum — I wish that you would give the food to these children.",
+        "correctAnswer": "þissum",
+        "explanation":"Here 'þes' is modifying the plural neuter dative 'bearn' so it becomes 'þissum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On Godes naman ahreose (<em>þis</em>) #### templ mid eallum þæm deofolgyldum þe him on eardiað⁠ — In the name of God, let this temple fall with all the idols that dwell within it",
         "correctAnswer": "þis",
         "explanation":"Here 'þes' is modifying the singular neuter nominative 'templ' so it becomes 'þis'",
         "commonMistakes": []
     },
     {
-        "question": "Nim (<em>þis</em>) #### cild mid þære meder and fleoh to Egypta lande⁠ — Take this child with the mother and flee to Egypt",
+        "question": "Nim (<em>þis</em>) #### cild mid þære modor and fleoh to Egypta lande⁠ — Take this child with the mother and flee to Egypt",
         "correctAnswer": "þis",
         "explanation":"Here 'þes' is modifying the singular neuter accusative 'cild' so it becomes 'þis'",
         "commonMistakes": []
@@ -47,21 +53,21 @@
         ]
     },
     {
-        "question": "Send me þinne engel on fyrenum wolcne þæt þa embgange ealle (<em>þeos</em>) #### ceastre þæt ne magen geneosian for þsem fyre⁠ — Send me your angel from heaven in a fiery cloud that he my encompass all this city",
+        "question": "Send me þinne engel on fyrenum wolcne þæt þa embgange ealle (<em>þeos</em>) #### ceastre — Send me your angel from heaven in a fiery cloud that he my encompass all this city",
         "correctAnswer": "þas",
         "explanation":"Here 'þes' is modifying the singular feminine accusative 'ceaster' so it becomes 'þas'",
         "commonMistakes": []
     },
     {
-        "question": "Þæt sædon gehwilce wise lareowas þæt hie habbað gefremod heora ærist to ðam ecan lífe swa swa we ealle don sceolon on ende (<em>þeos</em>) #### worulde⁠ —  All wise teachers have said that they have effected their resurrection to eternal life, as we all shall do at the end of this world",
-        "correctAnswer": "þisre",
-        "explanation":"Here 'þes' is modifying the singular feminine genitive 'worulde' so it becomes 'þisre'",
+        "question": "Þæt sædon gehwilce wise lareowas þæt hie habbað gefremod heora ærist to ðæm ecan lífe swa swa we ealle don scoldon on ende (<em>þeos</em>) #### worulde⁠ —  All wise teachers have said that they have effected their resurrection to eternal life, as we all shall do at the end of this world",
+        "correctAnswer": "þisse",
+        "explanation":"Here 'þes' is modifying the singular feminine genitive 'worulde' so it becomes 'þisse'",
         "commonMistakes": []
     },
     {
         "question": "Oft ys seo halige þrinnys geswutelod on (<em>þeos</em>) #### boc⁠ — Often is the holy trinity revealed in this book",
-        "correctAnswer": "þisre",
-        "explanation":"Here 'þes' is modifying the singular feminine dative 'boc' so it becomes 'þisre'",
+        "correctAnswer": "þisse",
+        "explanation":"Here 'þes' is modifying the singular feminine dative 'boc' so it becomes 'þisse'",
         "commonMistakes": []
     },
     {
@@ -74,6 +80,18 @@
         "question": "Nimað þis gold ond (<em>þis</em>) #### gymstanas ond farað ond bicgað eow landare⁠ — Take this gold and these gemstones and go and buy yourself land",
         "correctAnswer": "þas",
         "explanation":"Here 'þes' is modifying the plural neuter accusative 'gymstan' so it becomes 'þas'",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>þis</em>) #### writa sind þreo — There are three of these documents",
+        "correctAnswer": "þissa",
+        "explanation":"Here 'þes' is modifying the plural neuter genitive 'writa' so it becomes 'þissa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "þa leode (<em>þeos</em>) #### ieglanda sindon eaþmod — The people of these islands are humble",
+        "correctAnswer": "þissa",
+        "explanation":"Here 'þes' is modifying the plural feminine dative 'ieglanda' so it becomes 'þissa'",
         "commonMistakes": []
     },
     {
