@@ -18,19 +18,19 @@
         "commonMistakes": []
     },
     {
-        "question": "#### cwena wæron hatene Marsepia and Lampida⁠ — The queens were called Marsepia and Lampida",
+        "question": "#### cwena wæron gehaten Marsepia and Lampida⁠ — The queens were called Marsepia and Lampida",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'cwena'",
         "commonMistakes": []
     },
     {
-        "question": "#### ceastra, Gleawanceaster, Cirenceaster and Baþanceaster, beoþ on ceastrum weallum beworhte⁠ — The cities, Gloucester, Cirencester and Bath, are walled towns",
+        "question": "#### ceastra, Gleawanceaster, Cirenceaster and Baþanceaster, beoþ on ceastra weallum beworhte⁠ — The cities, Gloucester, Cirencester and Bath, are walled towns",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'ceastra'",
         "commonMistakes": []
     },
     {
-        "question": "#### idesa sloh ða wundenlocc þone feondsceaðan⁠ — The women slew the wavy-haired fiend",
+        "question": "#### idesa slogon ða þone fēondsceaðan - The women then slew the fiend",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'idesa'",
         "commonMistakes": []
@@ -42,7 +42,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He lufast #### idese⁠ — He loves the lady",
+        "question": "He lufaþ #### idese - He loves the lady",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the singular direct object 'idese'",
         "commonMistakes": []
