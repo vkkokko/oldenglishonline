@@ -882,6 +882,10 @@ li.listtitle {
 	text-decoration: underline;
 }
 
+li.inactive {
+	color:#808080;
+}
+
 a > .listtitle:hover {
 	color: rgb(161, 70, 10);
 }
