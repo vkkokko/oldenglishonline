@@ -11,7 +11,7 @@
         ]
     },
     {
-        "question": "Se (<em>þegen</em>) #### ond þa biscops com fram Readingum — The thane and the bishops came from Reading",
+        "question": "Se (<em>þegen</em>) #### ond þa biscopas comon fram Readingum — The thane and the bishops came from Reading",
         "correctAnswer": "þegen",
         "explanation":"Here 'þegen' is the subject so it takes the nominative singular case",        
         "commonMistakes": []
