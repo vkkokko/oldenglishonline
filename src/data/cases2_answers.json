@@ -11,7 +11,7 @@
         ]
     },
     {
-        "question": "Se (<em>þegen</em>) #### ond þa biscops comon fram Readingum — The thane and the bishops came from Reading",
+        "question": "Se (<em>þegen</em>) #### ond þa biscopas comon fram Readingum — The thane and the bishops came from Reading",
         "correctAnswer": "þegen",
         "explanation":"Here 'þegen' is the subject and in the singular so it takes no ending, as per the nominative singular",        
         "commonMistakes": []
