@@ -9,8 +9,8 @@
     <meta name="author" content="Victoria Koivisto-Kokko">
     <meta name="designer" content="Victoria Koivisto-Kokko">
     <meta name="publisher" content="Victoria Koivisto-Kokko">
-    <meta name="description" content="This is an online educational resource for learning Old English">
-    <meta name="keywords" content="Learning, Old English, Language, Anglo-Saxon, Eald Englisc">
+    <meta name="description" content="An online educational resource for learning Old English">
+    <meta name="keywords" content="Learning, Old English, Language, Anglo-Saxon, Eald Englisc, medieval languages, education">
     <meta name="robots" content="index,follow">
     <meta name="revisit-after" content="7 days">
     <meta name="distribution" content="web">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/oeccss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
     <title>Old English Online - Patch Notes</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133460954-1"></script>
@@ -43,20 +44,20 @@
                     </div>
                     <br class="visible-xs">
                     <div class="navelement">
-                        <a href="/" class="hidden-xs">Home</a>
-                        <a href="/" class="visible-xs"><i class="fas fa-home text-center"><br><strong>Home</strong></i></a>
+                        <a href="/" class="hidden-xs hidden-sm">Home</a>
+                        <a href="/" class="visible-xs visible-sm"><i class="fas fa-home text-center"><br><strong>Home</strong></i></a>
                     </div>
                     <div class="navelement">
-                        <a href="courseindex.html" class="hidden-xs">Course Index</a>
-                        <a href="courseindex.html" class="visible-xs"><i class="fas fa-list text-center"><br><strong>Index</strong></i></a>
+                        <a href="courseindex.html" class="hidden-xs hidden-sm">Course Index</a>
+                        <a href="courseindex.html" class="visible-xs visible-sm"><i class="fas fa-list text-center"><br><strong>Index</strong></i></a>
                     </div>
                     <div class="navelement">
-                        <a href="advpronunciationguide.html" class="hidden-xs">Pronunciation Guide</a>
-                        <a href="advpronunciationguide.html" class="visible-xs"><i class="far fa-comment text-center"><br><strong>Guide</strong></i></a>
+                        <a href="advpronunciationguide.html" class="hidden-xs hidden-sm">Pronunciation Guide</a>
+                        <a href="advpronunciationguide.html" class="visible-xs visible-sm"><i class="far fa-comment text-center"><br><strong>Guide</strong></i></a>
                     </div>
                     <div class="navelement">
-                        <a href="about.html" class="hidden-xs">About This Site</a>
-                        <a href="about.html" class="visible-xs"><i class="fas fa-file-code text-center"><br><strong>About</strong></i></a>
+                        <a href="about.html" class="hidden-xs hidden-sm">About This Site</a>
+                        <a href="about.html" class="visible-xs visible-sm"><i class="fas fa-file-code text-center"><br><strong>About</strong></i></a>
                     </div>
                 </div>
             </div>
@@ -66,24 +67,43 @@
         <section class="row">
             <div class="col-12">
                 <h1 class="remove-margin">Patch Notes</h1>
+                <h3>Version 2.1. Released January 2020.</h3>
+                <ol>
+                    <li>Added the <a href="irregular.html" target="_blank">Irregular Verbs</a> module.</li>
+                    <li>Added 'test your vocabulary' flashcards to the overview topic of relevant modules. See example <a href="cases5.html#modal-section" target="_blank">here</a>.</li>
+                    <li>Added pollyfills so the javascript works in older versions of Internet Explorer which do not support ES6.</li>
+                    <li>Added a favicon. (That's the little picture in your browser tab)</li>
+                    <li>Minor typo fixes and corrections. (Thank you to everyone who emailed them in!)</li>
+                </ol>
                 <h3>Version 2.0. Released November 2019.</h3>
                 <ol>
                     <li>HTML structure has been simplified and converted, where possible, to semantic HTML.</li>
                     <li>Style guide created and CSS updated and simplified in line with the new style guide.</li>
-                    <li>Converted all non-manuscript images containing text to HTML so as to be compatible with screenreaders and copyable by users.</li>
-                    <li>Brand new homepage with a smaller, responsive header, a logo, larger font size and taller line height.</li>
-                    <li>Added a topic on demonstratives and increased the number of questions in the grammar tests of the Cases module.</li>
-                    <li>Added the ability to load different quizzes of varying complexity levels on the same page. See example <a href="naf7.html#basicbutton" target="_blank">here</a>.</li>
+                    <li>Converted all non-manuscript images containing text to HTML so as to be compatible with
+                        screenreaders and copyable by users.</li>
+                    <li>Brand new homepage with a smaller, responsive header, a logo, larger font size and taller line
+                        height.</li>
+                    <li>Added a topic on demonstratives and increased the number of questions in the grammar tests of the
+                        Cases module.</li>
+                    <li>Added the ability to load different quizzes of varying complexity levels on the same page. See
+                        example <a href="naf7.html#basicbutton" target="_blank">here</a>.</li>
                     <li>Updated grammar tables so they are properly responsive on mobile.</li>
-                    <li>Added togglable info-box component to allow the addition of information without increasing visual complexity. See example <a href="oestart.html" target="_blank">here</a>.</li>
+                    <li>Added togglable info-box component to allow the addition of information without increasing visual
+                        complexity. See example <a href="oestart.html" target="_blank">here</a>.</li>
                     <li>Added abbreviation tags to complex words so they can be hovered for explanatory tooltips.</li>
-                    <li>Added audio to the <a href="oestart.html" target="_blank">phonetics table</a> to demonstrate correct pronunciation.</li>
-                    <li>Created the <a href="advpronuncationguide.html" target="_blank">Advanced Pronunciation guide</a> to explain more complex aspects of the phonology.</li>
-                    <li>Added the <a href="weakverbs.html" target="_blank">Weak Verbs</a>, <a href="nafnouns.html" target="_blank">Strong Neuter and Feminine Nouns</a>, <a href="pronouns.html">Pronouns</a>, and <a href="adjectives.html">Adjectives</a> modules.</li>
-                    <li>Updated <a href="about.html" target="_blank">About Page</a> to reflect completion of Masters and transition to a funded OVPTL project.</li>
-                    <li>Created the <a href="history.html">timeline</a> for a general overview of the development of Old English.</li>
+                    <li>Added audio to the <a href="oestart.html" target="_blank">phonetics table</a> to demonstrate correct
+                        pronunciation.</li>
+                    <li>Created the <a href="advpronuncationguide.html" target="_blank">Advanced Pronunciation guide</a> to
+                        explain more complex aspects of the phonology.</li>
+                    <li>Added the <a href="weakverbs.html" target="_blank">Weak Verbs</a>, <a href="nafnouns.html" target="_blank">Strong Neuter and Feminine Nouns</a>, <a href="pronouns.html">Pronouns</a>, and
+                        <a href="adjectives.html">Adjectives</a> modules.</li>
+                    <li>Updated <a href="about.html" target="_blank">About Page</a> to reflect completion of Masters and
+                        transition to a funded OVPTL project.</li>
+                    <li>Created the <a href="history.html">timeline</a> for a general overview of the development of Old
+                        English.</li>
                     <li>Created this patch notes page to track changes.</li>
-                    <li>Created the <a href="license.html" target="_blank">license page</a> for licensing and copyright info.</li>
+                    <li>Created the <a href="license.html" target="_blank">license page</a> for licensing and copyright
+                        info.</li>
                 </ol>
             </div>
         </section>
@@ -93,10 +113,10 @@
     <footer class="row">
         <div class="col-xs-6">
             <p><a href="index.html">Home</a> | <a href="courseindex.html">Index</a> | <a href="about.html">About</a></p>
-            <p class="hidden-xs">Project version 2.0. <a href="patchnotes.html">Patch Notes</a> here</p>
+            <p class="hidden-xs">Project version 2.1. <a href="patchnotes.html">Patch Notes</a> here</p>
         </div>
         <div class="col-xs-6">
-            <p>&copy; 2019 — Victoria Koivisto-Kokko — <a href="license.html">Licensing</a></p>
+            <p>&copy; 2020 — Victoria Koivisto-Kokko — <a href="license.html">Licensing</a></p>
             <p class="hidden-xs">Feedback? Email
                 <u>contact@oldenglish.info</u> or find me
                 <a href="https://twitter.com/Vkkokko" target="_blank">

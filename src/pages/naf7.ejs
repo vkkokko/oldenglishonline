@@ -77,7 +77,7 @@
 						</div>
 						<div class="inline-block">
 							<span class="white-text big-text"><span class="border-bottom">to</span></span><br>
-							<span class="white-text">Prep</span>
+							<span class="white-text">Prep.</span>
 						</div>
 						<div class="inline-block">
 							<span class="blue-text big-text"><span class="border-bottom">þæm scipe</span></span><br>
@@ -406,9 +406,8 @@
 						</button>
 					</div>
 				</div>
-				<br>
-				<p>If you want to practice all noun forms, including variant declensions,
-					select the '<strong>With Variant Declensions</strong>' option beside 'Test Yourself!'. You can toggle back to
+				<p class="padding-top">If you want to practice all noun forms, including variant declensions,
+					select the '<strong>With Variant Declensions</strong>' option beside 'Test Your Declensions'. You can toggle back to
 					just the basic noun forms by selecting '<strong>Just Basic Nouns</strong>'. You can download a pdf of this module using the
 					centre link below. The pdfs also contain a glossary of all
 					nouns used in the module. Otherwise, feel free to continue
@@ -429,7 +428,7 @@
 	<hr class="border">
 	<section>
 		<div>
-			<h2 class="inline-block"> Test Yourself!</h2>
+			<h2 class="inline-block"> Test Your Declensions</h2>
 			<button id="basicbutton" data-new-questions="naf7_answers.json" class="solid-button button margin-bottom-ten margin-left">Just Basic Nouns</button>
 			<button id="additionalbutton" data-new-questions="naf8_answers.json" class="light-button button margin-bottom-ten">With Variant Declensions</button>
 			<br>
@@ -440,7 +439,7 @@
 				<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
 				<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
 				<button class="light-button button special-character" data-char="&eth;">&eth;</button>
-				<sub>Use these buttons to insert thorn, ash and eth when you have an input
+				<br class="visible-xs">			<sub>Use these buttons to insert thorn, ash and eth when you have an input
 					selected.</sub>
 			</p>
 			<div id="question-wrapper" data-question-file="naf7_answers.json">
@@ -450,5 +449,75 @@
 				<button class="solid-button button hidden" id="again">Try Again?</button>
 			</div>
 		</form>
+	</section>
+
+	<hr class="border">
+	<section>
+		<h2>Test Your Vocabulary</h2><p>You were introduced  to a lot of new vocabulary in this module. Test your understanding of
+			those new words by clicking the button below. This opens a modal where you can translate
+			words on a flashcard.</p>
+		<div class="text-center">
+			<button class="solid-button button modal-button" data-toggle="modal" data-target="#fsModal">Test Your
+				Vocabulary!</button></div>
+		<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-hidden="true">
+			<!-- dialog -->
+			<div class="modal-dialog">
+
+				<!-- content -->
+				<div class="modal-content">
+
+					<!-- header -->
+					<div class="modal-header">
+						<h1 class="modal-title">
+							Test Your Vocabulary
+						</h1>
+					</div>
+					<!-- header -->
+
+					<!-- body -->
+					<div class="modal-body" data-question-file="naf_vocab.json">
+						<div class="flashcard-row">
+							<button class="light-button button translation-button" data-language="old">Old English <i
+									class="fas fa-exchange-alt"></i> Modern
+								English</button>
+						</div>
+						<div class="flashcard-row padding-top">
+							<div class="flashcard">
+
+							</div>
+						</div>
+						
+						<div class="flashcard-row">
+														<p class="explanatory-text text-center" data-text="Translate the above word<span class='hidden-xs'> using the input below</span>">Translate the above word<span class="hidden-xs"> using the input below</span></p>						</div>
+						<div class="flashcard-row">
+								<input type="text" class="flashcard-answer text-center" data-new-placeholder="e.g. dog" data-old-placeholder="e.g. hund" placeholder="e.g. dog">
+						</div>
+						
+						<div class="flashcard-row">
+							<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+							<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+							<button class="light-button button special-character" data-char="&eth;">&eth;</button>
+							</div>
+						<div class="flashcard-row padding-top">
+							<button class="solid-button button flashcard-check center-button" aria-label="Check">Check</button>
+							<button class="solid-button button try-another center-button hide" aria-label="Try Another">Try Another</button>
+						</div>
+					</div>
+				</div>
+				<!-- body -->
+				<!-- footer -->
+				<div class="modal-footer">
+					<button class="solid-button button close-button" data-dismiss="modal" aria-label="Close">Close</button>
+				</div>
+				<!-- footer -->
+
+			</div>
+			<!-- content -->
+
+		</div>
+		<!-- dialog -->
+
+		</div>
+		<!-- modal -->
 	</section>
 </main>

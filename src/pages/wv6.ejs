@@ -250,7 +250,7 @@
 					</div>
 					<div class="inline-block">
 						<span class="white-text big-text"><span class="border-bottom">on</span></span><br>
-						<span class="white-text">Prep</span>
+						<span class="white-text">Prep.</span>
 					</div>
 					<div class="inline-block">
 						<span class="blue-text big-text"><span class="border-bottom">ecnesse</span></span><br>
@@ -268,7 +268,7 @@
 					</div>
 					<div class="inline-block">
 						<span class="white-text big-text"><span class="border-bottom">on</span></span><br>
-						<span class="white-text">Prep</span>
+						<span class="white-text">Prep.</span>
 					</div>
 					<div class="inline-block">
 						<span class="blue-text big-text"><span class="border-bottom">Iudea</span></span><br>
@@ -948,19 +948,18 @@
 		</div>
 		</div>
 	</section>
-
 	<hr class="border">
 	<section>
 		<div>
-			<h2> Test Yourself! </h2>
-			<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
+			<h2>Test Your Conjugations!</h2>
+			<small>In the textboxes below, fill out the fully conjugated version of the word in brackets.</small>
 		</div>
 		<form name="form1" autocomplete="OFF">
 			<p>
 				<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
 				<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
 				<button class="light-button button special-character" data-char="&eth;">&eth;</button>
-				<sub>Use these buttons to insert thorn, ash and eth when you have an input
+				<br class="visible-xs">			<sub>Use these buttons to insert thorn, ash and eth when you have an input
 					selected.</sub>
 			</p>
 			<div id="question-wrapper" data-question-file="wv6_answers.json">
@@ -970,5 +969,76 @@
 				<button class="solid-button button hidden" id="again">Try Again?</button>
 			</div>
 		</form>
+	</section>
+
+	<hr class="border">
+	<section>
+		<h2>Test Your Vocabulary</h2><p>You were introduced  to a lot of new vocabulary in this module. Test your understanding of
+			those new words by clicking the button below. This opens a modal where you can translate
+			words on a flashcard.</p>
+		<div class="text-center">
+			<button class="solid-button button modal-button" data-toggle="modal" data-target="#fsModal">Test Your
+				Vocabulary!</button></div>
+		<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-hidden="true">
+			<!-- dialog -->
+			<div class="modal-dialog">
+
+				<!-- content -->
+				<div class="modal-content">
+
+					<!-- header -->
+					<div class="modal-header">
+						<h1 class="modal-title">
+							Test Your Vocabulary
+						</h1>
+					</div>
+					<!-- header -->
+
+					<!-- body -->
+					<div class="modal-body" data-question-file="wv_vocab.json">
+						<div class="flashcard-row">
+							<button class="light-button button translation-button" data-language="old">Old English <i
+									class="fas fa-exchange-alt"></i> Modern
+								English</button>
+						</div>
+						<div class="flashcard-row small-padding-top">
+							<div class="flashcard">
+
+							</div>
+						</div>
+						
+						<div class="flashcard-row">
+							<p class="explanatory-text text-center" data-text="Translate the above word<span class='hidden-xs'> using the input below</span>">Translate the above word<span class="hidden-xs"> using the input below</span></p>
+						</div>
+						<div class="flashcard-row">
+								<input type="text" class="flashcard-answer text-center" data-new-placeholder="e.g. to see" data-old-placeholder="e.g. cwellan" placeholder="e.g. to see">
+						</div>
+						
+						<div class="flashcard-row">
+							<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+							<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+							<button class="light-button button special-character" data-char="&eth;">&eth;</button>
+							</div>
+						<div class="flashcard-row small-padding-top">
+							<button class="solid-button button flashcard-check center-button" aria-label="Check">Check</button>
+							<button class="solid-button button try-another center-button hide" aria-label="Try Another">Try Another</button>
+						</div>
+					</div>
+				</div>
+				<!-- body -->
+				<!-- footer -->
+				<div class="modal-footer">
+					<button class="solid-button button close-button" data-dismiss="modal" aria-label="Close">Close</button>
+				</div>
+				<!-- footer -->
+
+			</div>
+			<!-- content -->
+
+		</div>
+		<!-- dialog -->
+
+		</div>
+		<!-- modal -->
 	</section>
 </main>
