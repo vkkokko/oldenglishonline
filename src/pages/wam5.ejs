@@ -1,0 +1,71 @@
+<% locals.setLayout('default.ejs') -%>
+<% locals.block('title', 'Weak and Minor Nouns') -%>
+
+<main id="mainwrapper" class="container">
+    <section class="row">
+        <div class="col-sm-12">
+            <div class="bc-icons-2">
+                <!-- Breadcrumb-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a class="black-text" href="courseindex.html">Index</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="black-text" href="weakandminor.html">Introduction to Weak and Minor Nouns</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="black-text" href="wam2.html"> Weak Nouns</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="black-text" href="wam3.html"> Minor Nouns</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a class="black-text" href="wam5.html"> I-mutation</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        Nouns Overview
+                    </li>
+                </ol>
+            </div>
+            <!--Close Breadcrumb-->
+            <h2>Nouns Overview</h2>
+            <p><span class="initial-letter darkorange-text">I</span>n</p>
+            <p class="padding-top">You can practice nouns affected by i-mutation below.</p>
+            <a href="wam4.html" class="float-left darkorange-text padding-top strong">
+                <i class="fa fa-angle-double-left" aria-hidden="true"></i> Return to i-mutation
+            </a>
+            <a href="wam5.html" class="float-right darkorange-text padding-top strong">Continue to 
+                Adverbs, Conjunctions, and Prepositions
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+    <hr class="border">
+    <section>
+        <div>
+            <h2>Test Your Declensions</h2>
+            <small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
+        </div>
+        <form name="form1" autocomplete="OFF">
+            <p>
+                <button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+                <button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+                <button class="light-button button special-character" data-char="&eth;">&eth;</button>
+                <br class="visible-xs">
+                <sub>Use these buttons to insert thorn, ash and eth when you have an input
+                    selected.</sub>
+            </p>
+            <div id="question-wrapper" data-question-file="wam2_answers.json">
+            </div>
+            <div class="form-group">
+                <button class="solid-button button" id="submit">Check</button>
+                <button class="solid-button button hidden" id="again">Try Again?</button>
+            </div>
+        </form>
+    </section>
+</main>
