@@ -508,6 +508,11 @@ nav {
 	padding-top: 1em;
 }
 
+#vowel-chart {
+	max-width: 50%;
+	padding-top: 1em;
+}
+
 .red-border {
 	border-bottom: 4px solid #ee1e1e;
 }
