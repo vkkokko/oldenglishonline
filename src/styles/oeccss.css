@@ -196,6 +196,10 @@ abbr {
 	font-weight: bold;
 }
 
+.full-width {
+	width:100%;
+}
+
 .big-text {
 	font-size: 3em;
 }
@@ -735,6 +739,10 @@ table a {
 	border: 2px solid lightgrey;
 }
 
+table th {
+	text-align: center;
+}
+
 .five-col-table th {
 	text-align: center;
 	width: 21%;
@@ -920,26 +928,9 @@ ul.module a {
 
 /*Experimental Stuff */
 
-.quiz-table {
-	text-align: center;
-	border: 1px solid darkgray;
-}
-
-.quiz-table input {
-	background: none;
-}
-
-.quiz-table td {
-	padding: 0.5em;
-}
 
 .extra-padding-td td {
 	padding: 0.5em 1.25em;
-}
-
-.quiz-table th {
-	text-align: center;
-	padding-left: 0.5em;
 }
 
 .static-button-position {
@@ -1195,11 +1186,6 @@ ul.module a {
 		margin-top: 0.5em;
 	}
 
-	.responsive {
-		width: 100%;
-		height: auto;
-	}
-
 	.left-card {
 		padding-left: 15px;
 	}
@@ -1235,7 +1221,7 @@ ul.module a {
 		margin-left: 0px;
 	}
 
-	.full-width {
+	.mobile-full-width {
 		width:100%;
 	}
 
@@ -1250,7 +1236,7 @@ ul.module a {
 		left: 15px;
 	}
 
-	/* Full-width containers */
+	/* mobile-full-width containers */
 	.timeline-container {
 		width: 100%;
 		padding: 0;
