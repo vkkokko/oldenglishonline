@@ -80,56 +80,6 @@
         "partOfSpeech": "Weak Masculine Noun"
     },
     {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
-        "oldEnglish": "",
-        "modernEnglish": "",
-        "partOfSpeech": ""
-    },
-    {
         "oldEnglish": "Sunu",
         "modernEnglish": "Son",
         "partOfSpeech": "Minor Masculine Noun (u-declension)"
@@ -145,8 +95,93 @@
         "partOfSpeech": "Minor Feminine Noun (u-declension)"
     },
     {
-        "oldEnglish": "",
-        "modernEnglish": "",
+        "oldEnglish": "Medu",
+        "modernEnglish": "Meadow",
         "partOfSpeech": ""
+    },
+    {
+        "oldEnglish": "Weald",
+        "modernEnglish": "Forest",
+        "partOfSpeech": ""
+    },
+    {
+        "oldEnglish": "Feld",
+        "modernEnglish": "Field",
+        "partOfSpeech": ""
+    },
+    {
+        "oldEnglish": "Lamb",
+        "modernEnglish": "Lamb",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Æg",
+        "modernEnglish": "Egg",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Cild",
+        "modernEnglish": "Child",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Cealf",
+        "modernEnglish": "Calf",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Fæder",
+        "modernEnglish": "Father",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Modor",
+        "modernEnglish": "Mother",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Sweostor",
+        "modernEnglish": "Sister",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Broðor",
+        "modernEnglish": "Brother",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Dohtor",
+        "modernEnglish": "Daughter",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Mann",
+        "modernEnglish": "Man",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Fot",
+        "modernEnglish": "Foot",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Gos",
+        "modernEnglish": "Goose",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Toþ",
+        "modernEnglish": "Tooth",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Boc",
+        "modernEnglish": "Book",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Freond",
+        "modernEnglish": "Friend",
+        "partOfSpeech": "Minor Noun (i-mutation)"
     }
 ]
