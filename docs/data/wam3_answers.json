@@ -114,8 +114,8 @@
     },
     {
         "question": "Þæt godspel cweð þæt Rachel beweop hire (<em>cild</em>) #### ond nolde beon gefrefrod — The gospel says, that Rachel wept for her children, and would not be comforted",
-        "correctAnswer": "cildra",
-        "explanation":"Here 'cild' is an r-plural noun in the accusative and plural, so it takes the 'ra' ending to become 'cildra'",
+        "correctAnswer": "cildru",
+        "explanation":"Here 'cild' is an r-plural noun in the accusative and plural, so it takes the 'ru' ending to become 'cildru'",
         "commonMistakes": []
     },
     {
@@ -149,7 +149,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic manode (<em>fæder</em>) #### þæt hie mid steore Godes eges heora cildra geðeawodon — I exhorted fathers to bring up their children in the fear of God",
+        "question": "Ic manode (<em>fæder</em>) #### þæt hie mid steore Godes eges heora cildru geðeawodon — I exhorted fathers to bring up their children in the fear of God",
         "correctAnswer": "fæderas",
         "explanation":"Here 'fæder' is a family noun in the accusative and plural, so it takes the 'as' ending",
         "commonMistakes": [
