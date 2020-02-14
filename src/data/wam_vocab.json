@@ -164,6 +164,16 @@
         "modernEnglish": "Goose",
         "partOfSpeech": "Minor Noun (i-mutation)"
     },
+    { 
+        "oldEnglish": "Mus", 
+        "modernEnglish": "Mouse", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    }, 
+    { 
+        "oldEnglish": "Lus", 
+        "modernEnglish": "Louse", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    }, 
     {
         "oldEnglish": "Toþ",
         "modernEnglish": "Tooth",
@@ -178,5 +188,15 @@
         "oldEnglish": "Freond",
         "modernEnglish": "Friend",
         "partOfSpeech": "Minor Noun (i-mutation)"
-    }
+    },
+    { 
+        "oldEnglish": "Feond", 
+        "modernEnglish": "Fiend", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    }, 
+    { 
+        "oldEnglish": "Burg", 
+        "modernEnglish": "Walled Town", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    } 
 ]
