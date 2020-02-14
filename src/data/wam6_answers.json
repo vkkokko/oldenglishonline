@@ -1,0 +1,1271 @@
+[
+    {
+        "question": "Gif monnes (<em>tunge</em>) #### biþ of heafde oðres monnes dadum don, gebete him mid .lx. scill — If a man's tongue is struck from the head by another man's deeds, compensate him with 60 shillings",
+        "correctAnswer": "tunge",
+        "explanation":"Here 'tunge' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "God betæhte þæt mare leoht þæt is seo sunne to þæm dæge ond þæt læsse leoht þæt is se (<em>mona</em>) #### to ðære nihte — God assigned the greater light, that is the sun, to the day, and the lesser light, that is the moon, to the night",
+        "correctAnswer": "mona",
+        "explanation":"Here 'mona' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se (<em>cempa</em>) #### oferwon frecnessa fela — The champion overcame many perils",
+        "correctAnswer": "cempa",
+        "explanation":"Here 'cempa' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>Culfre</em>) #### is bilewite nyten ond fram geallan biternysse ælfremed — A dove is a meek animal and a stranger to the bitterness of gall",
+        "correctAnswer": "culfre",
+        "explanation":"Here 'culfre' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ac Albanes slaga ne moste gesundful libban forðam þe him burston ut butu his (<em>eage</em>) #### ond to eorðan feollon mid albanes heafde — But Alban's slayer was not allowed to live in health, because both his eyes burst out of him and fell to the earth with Alban’s head",
+        "correctAnswer": "eagan",
+        "explanation":"Here 'eage' is both a subject and plural, so it takes the 'an' ending to become 'eagan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Æt helle duru (<em>draca</em>) #### eardigaþ — Dragons dwell at hell's door",
+        "correctAnswer": "dracan",
+        "explanation":"Here 'draca' is both the subject and plural, so it takes the 'an' ending to become 'dracan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>eage</em>) #### sind flæscene ond teð bænene — Eyes are of flesh and teeth of bone",
+        "correctAnswer": "eagan",
+        "explanation":"Here 'eage' is both the subject and plural, so it takes the 'an' ending to become 'eagan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se Halga Gast wæs æteowod ofer Criste on his fulluhte on anre (<em>culfre</em>) #### anlicnysse — The Holy Ghost appears over Christ, at his baptism, in likeness of a dove",
+        "correctAnswer": "culfran",
+        "explanation":"Here 'culfre' is in the genitive and singular, so it takes the 'an' ending to become 'culfran'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gefyrn scean leoht ingehydes geond þære (<em>eorðe</em>) #### ymbhwyrft —  Of old the light of knowledge shone over the circumference of earth",
+        "correctAnswer": "eorðan",
+        "explanation":"Here 'eorðe' is in the genitive and singular, so it takes the 'an' ending to become 'eorðan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þonne bið seo sunne be seofonfealdum beorhtre þonne heo nu sy ond se mona hæfð þære (<em>sunne</em>) #### leoht — Then will the sun be sevenfold brighter than it now is, and the moon will have the light of the sun",
+        "correctAnswer": "sunnan",
+        "explanation":"Here 'sunne' is in the genitive and singular, so it takes the 'an' ending to become 'sunnan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ne hierþ nanes (<em>wita</em>) #### word — He didn't hear any advisor's words",
+        "correctAnswer": "witan",
+        "explanation":"Here 'wita' is in the genitive and singular, so it takes the 'an' ending to become 'witan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu fortrydst leona ond (<em>draca</em>) #### — You shall be a treader down of lions and dragons",
+        "correctAnswer": "dracena",
+        "explanation":"Here 'draca' is in the genitive and plural, so it takes the 'ena' ending to become 'dracena'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gelyfde an ðara (<em>cempa</em>) ####, ðæs nama wæs Romanus, and cwæð to þæm Godes cyðere, 'Laurentie, ic geseo Godes engel standende ætforan ðe' — One of the soldiers, whose name was Romanus, believed, and said to the martyr of God, 'Lawrence, I see God's angel standing before thee'",
+        "correctAnswer": "cempena",
+        "explanation":"Here 'cempa' is in the genitive and plural, so it takes the 'ena' ending to become 'cempena'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þara (<em>cnapa</em>) #### ðe binnan syxtyne geara ylde wæron hund-nigontig ðusenda hie tosendon to gehwylcum leodscipum to ðeowte — Of boys who were within sixteen years of age, they sent ninety thousand to all nations in slavery",
+        "correctAnswer": "cnapena",
+        "explanation":"Here 'cnapa' is in the genitive and plural, so it takes the 'ena' ending to become 'cnapena'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Saulus heold ðara leasra (<em>wita</em>) #### reaf ond heora mod to þære stæninge geornlice tihte — Saul held the garments of the false witnesses, and zealously instigated their minds to the stoning",
+        "correctAnswer": "witena",
+        "explanation":"Here 'wita' is in the genitive and plural, so it takes the 'ena' ending to become 'witena'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðas ðry dagas wæron buton seo (<em>sunne</em>) #### ond se monan ond þa steorran ond eallum tidum gelicere wægan mid leohte ond þeostrum aðenede — Those three days were without the sun, the moon, the stars and all the hours, stretched out with light and darkness in equal balance",
+        "correctAnswer": "sunnan",
+        "explanation":"Here 'sunne' is in the accusative and singular, so it takes the 'an' ending to become 'sunnan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða het se casere his (<em>hunta</em>) #### hine ðær gefeccean ond hine mid sweorde ofslean — Then the emperor bade his hunters fetch him there and kill him with a sword",
+        "correctAnswer": "huntan",
+        "explanation":"Here 'hunta' is in the accusative and plural, so it takes the 'an' ending to become 'huntan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "God him sette (<em>nama</em>) #### Adam — God gave him the name Adam",
+        "correctAnswer": "naman",
+        "explanation":"Here 'nama' is in the accusative and singular, so it takes the 'an' ending to become 'naman'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða easternan tungelwitegan gesawon niwne (<em>steorra</em>) #### beorhtne — The eastern astronomers saw a new bright star",
+        "correctAnswer": "steorran",
+        "explanation":"Here 'steorra' is in the accusative and singular, so it takes the 'an' ending to become 'steorran'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þæm ylcan dæge he geworhte ealle (<em>steorra</em>) #### ond tida gesette — On the same day he created all stars and established hours",
+        "correctAnswer": "steorran",
+        "explanation":"Here 'steorra' is in the accusative and plural, so it takes the 'an' ending to become 'steorran'",
+        "commonMistakes": []
+    },
+    {
+        "question": "God gesceop us twa eagan ond twa (<em>eare</em>) #### twa nosðyrlu twegen weleras twa handa ond twegen fet — God gave two eyes and two ears, two nostrils, two lips, two hands and two feet ",
+        "correctAnswer": "earan",
+        "explanation":"Here 'eare' is in the accusative and plural, so it takes the 'an' ending to become 'earan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðær wæron gecype (<em>oxa</em>) #### ond scep ond culfran ond þær sæton myneteras — There were oxen, sheep and doves for sale, and there sat moneyers",
+        "correctAnswer": "oxan",
+        "explanation":"Here 'oxa' is in the accusative and plural, so it takes the 'an' ending to become 'oxan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ezechias eac asende his (<em>wita</em>) #### mid hæran gescrydde to þæm witegan Isaiam — Hezekiah also sent his counsellors clad in haircloth to the prophet Isaiah",
+        "correctAnswer": "witan",
+        "explanation":"Here 'wita' is in the accusative and plural, so it takes the 'an' ending to become 'witan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He betæhte lamb to his (<em>cnapa</em>) #### ond se cnapa hit ofsloh — He gave a lamb to his boy and the boy slew it",
+        "correctAnswer": "cnapan",
+        "explanation":"Here 'cnapa' is in the dative and singular, so it takes the 'an' ending to become 'cnapan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif ic þisum (<em>draca</em>) #### to forswelgenne geseald eom, hwi sceal ic elcunge þrowian for eowerum oferstealle? — If I am given to this dragon to be swallowed, why should I suffer delay through your presence?",
+        "correctAnswer": "dracan",
+        "explanation":"Here 'draca' is in the dative and singular, so it takes the 'an' ending to become 'dracan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ðe ofer (<em>eorþe</em>) #### geworhte, on ðære ðu scealt yrmþum lifgan — I created you on earth, on which you shall live in misery",
+        "correctAnswer": "eorþan",
+        "explanation":"Here 'eorþe' is in the dative and singular, so it takes the 'an' ending to become 'eorþan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ælfred cyning sende þa scipu to þæm (<em>muþe</em>) #### — King Alfred sent the ships to the river-mouth",
+        "correctAnswer": "muþan",
+        "explanation":"Here 'muþe' is in the dative and singular, so it takes the 'an' ending to become 'muþan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Abraham ferde mid twam (<em>cnapa</em>) #### to fyrlenum lande — Abraham went with two boys to a distant land",
+        "correctAnswer": "cnapum",
+        "explanation":"Here 'cnapa' is in the dative and singular, so it takes the 'um' ending to become 'cnapum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Anhyrne deor þæt deor hæfð ænne horn bufan ðæm twam (<em>eage</em>) #### swa strangne and swa scearpne — A one horned deer, that deer has one horn above the two eyes so strong and so sharp",
+        "correctAnswer": "eagum",
+        "explanation":"Here 'eage' is in the dative and singular, so it takes the 'um' ending to become 'eagum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Æfter ðam he gestrynde (<em>sunu</em>) #### ond dohtra — After that he begot sons and daughters",
+        "correctAnswer": "suna",
+        "explanation":"Here 'sunu' is a u-declension noun in the accusative and plural, so it takes the 'a' ending to become 'suna'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Domicianus wearþ acweald æt his witena (<em>hand</em>) #### — Dominic was slain by the hands of his counsellors",
+        "correctAnswer": "handum",
+        "explanation":"Here 'hand' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'handum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Twa (<em>duru</em>) #### hie gesawon on ðære cyrcan ond wæs seo suþ duru sume dæle mare — Two doors they saw in the church, and the south door was somewhat larger",
+        "correctAnswer": "dura",
+        "explanation":"Here 'duru' is a u-declension noun in the nominative and plural, so it takes the 'a' ending to become 'dura'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ðas foldan asiow sæda manigum (<em>wudu</em>) #### ond wyrta weorulde sceatum — He sowed this land with many seeds, trees and plants in the regions of the world",
+        "correctAnswer": "wuda",
+        "explanation":"Here 'wudu' is a u-declension noun in the accusative and plural, so it takes the 'a' ending to become 'wuda'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðeos wyrt ðe man batrachion ond oðrum naman clufwyrt nemneþ, biþ cenned on sandigum landum ond on (<em>feld</em>) #### — This herb which is called batrachion, and by another name buttercup, is produced on sandy lands and in fields",
+        "correctAnswer": "feldum",
+        "explanation":"Here 'feld' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'feldum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo dreorige modor astreaht æt þæs halgan apostoles fotum, biddende þæt he hire (<em>sunu</em>) #### arærde, swa swa he dyde þa wydewan Drusianam — The afflicted mother prostrated at the holy apostle's feet, praying that he would rear up her son, as he did the widow Drusiana",
+        "correctAnswer": "sunu",
+        "explanation":"Here 'sunu' is a u-declension noun in the accusative and singular, so it takes no ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "suna",
+                "explanation": "Here 'sunu' is directly receiving the action of the verb arærde, even though it comes before it. This makes it accusative, so it takes no ending and remains 'sunu'"
+            }
+        ]
+    },
+    {
+        "question": "Ge-edstaðela nu þas deorwurðan gymstanas, ðurh ðinra engla (<em>hand</em>) ####, þæt ðas nytenan menn þine mihta oncnawon — Restore now these precious gems through your angels' hands, that these ignorant men may acknowledge your powers",
+        "correctAnswer": "handa",
+        "explanation":"Here 'hand' is a u-declension noun in the genitive and plural, so it takes the 'a' ending to become 'handa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "God bebead Moyse þæt he ond eall Israhela folc sceoldon offrian Gode an lamb anes geares, ond mearcian mid þæm blode rode-tacn on heora (<em>duru</em>) #### ond oferslegum — God commanded Moses that he and all the people of Israel should offer a lamb of one year to God, and mark with the blood the sign of the cross on their door-posts and lintels",
+        "correctAnswer": "durum",
+        "explanation":"Here 'duru' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'durum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie on (<em>wudu</em>) #### ond on westenum and on scræfum hie hyddon ond digledon — They in woods and in wastelands and in caves concealed and hid themselves",
+        "correctAnswer": "wudum",
+        "explanation":"Here 'wudu' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'wudum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wille ðæt ælc man sind his huntnoþes wyrðe on wuda ond on (<em>feld</em>) #### on his agenan — I will that every man have the right to hunt in wood and in open country on his own property",
+        "correctAnswer": "felda",
+        "explanation":"Here 'feld' is a u-declension noun in the dative and singular, so it takes the 'a' ending to become 'felda'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo þa gelyfde his wordum, ond wearð mid (<em>cild</em>) #### — She believed his words and became with child",
+        "correctAnswer": "cilde",
+        "explanation":"Here 'cild' is an r-plural noun in the dative and singular, so it takes the 'e' ending to become 'cilde'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sceawa nu on anum (<em>æg</em>) #### hu ðæt hwite ne biþ gemenged to ðam geolcan ond biþ hwæðere an æg — Look now on an egg, how the white is not mingled with the yolk, and yet it is one egg",
+        "correctAnswer": "æge",
+        "explanation":"Here 'æg' is an r-plural noun in the dative and singular, so it takes the 'e' ending to become 'æge'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He gefullode ðone wulf ond geworhte to (<em>lamb</em>) #### — He baptised the wulf and made it a lamb",
+        "correctAnswer": "lambe",
+        "explanation":"Here 'lamb' is an r-plural noun in the dative and singular, so it takes the 'e' ending to become 'lambe'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ne on-foo of huse ðinum (<em>cealf</em>) #### — I will take no calves from your house",
+        "correctAnswer": "cealfru",
+        "explanation":"Here 'cealf' is an r-plural noun in the accusative and plural, so it takes the 'ru' ending to become 'cealfru'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu todæg Godes gelaðung geond ealne ymbhwyrft mærsað þæra eadigra (<em>cild</em>) #### freols-tide — Now today God's church throughout all the globe celebrates the festival of the blessed children",
+        "correctAnswer": "cildra",
+        "explanation":"Here 'cild' is an r-plural noun in the genitive and plural, so it takes the 'ra' ending to become 'cildra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Genim hænne (<em>æg</em>) #### geolocan ond hwites sealtes godne dael, men eal tosomne — Take the yoke of a hen's egg and a good portion of white salt, mix all together",
+        "correctAnswer": "æges",
+        "explanation":"Here 'æg' is an r-plural noun in the genitive and singular, so it takes the 'es' ending to become 'æges'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He is Lamb gehaten for ðære unscæððignysse (<em>lamb</em>) #### gecyndes ond wæs unscyldig — He is called Lamb, from the innocence of the lamb's nature; and was guiltless",
+        "correctAnswer": "lambes",
+        "explanation":"Here 'lamb' is an r-plural noun in the genitive and singular, so it takes the 'es' ending to become 'lambes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Me ymbhringdon mænige (<em>cealf</em>) #### — Many cattle surrounded me",
+        "correctAnswer": "cealfru",
+        "explanation":"Here 'cealf' is an r-plural noun in the nominative and plural, so it takes the 'ru' ending to become 'cealfru'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þæt godspel cweð þæt Rachel beweop hire (<em>cild</em>) #### ond nolde beon gefrefrod — The gospel says, that Rachel wept for her children, and would not be comforted",
+        "correctAnswer": "cildra",
+        "explanation":"Here 'cild' is an r-plural noun in the accusative and plural, so it takes the 'ra' ending to become 'cildra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þam cildum ic bead þæt hie gehyrsume wæron (<em>fæder</em>) #### ond modor to halwendum mynegungum —  Children I bade that they be obedient to the salutary admonitions of father and mother",
+        "correctAnswer": "fæder",
+        "explanation":"Here 'fæder' is a family noun in the genitive and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hieronimus se halga sacerd awrat ænne pistol be forðsiðe þære eadigan Marian to sumum halgan mædene ond to hire (<em>modor</em>) #### Paulam — Jerome the holy priest wrote an epistle on the decease of the blessed Mary, to a holy maiden and to her mother Paula",
+        "correctAnswer": "meder",
+        "explanation":"Here 'modor' is a family noun in the dative and singular, so the vowels change from 'o' to 'e' to become 'meder'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se ðe ðis hylt, he bið Godes bearn, and Crist, and ealle halige men ðe Gode geðeoð, beoð his broðra and his (<em>sweostor</em>) #### — He who observes this is a child of God, and Christ, and all holy persons who thrive to God, are his brothers and his sisters.",
+        "correctAnswer": "sweostra",
+        "explanation":"Here 'sweostor' is a family noun in the accusative and plural, so it loses its final 'o' and gains the 'a' ending to become 'sweostra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Soðlice seo cwen Triphonia gesohte ðæs halgan sacerdes fet Iustines mid biterum tearum ond hire (<em>dohtor</em>) #### Cyrilla samod, biddende þæs halgan fulluhtes — But the queen Tryphonia, together with her daughter Cyrilla, sought the feet of the holy priest Justin with bitter tears, praying for holy baptism",
+        "correctAnswer": "dohtor",
+        "explanation":"Here 'dohtor' is a family noun in the nominative and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Mine (<em>broðor</em>) ####, ne beo ge afyrhte, cumað ond eower nan him ne ondræde ða scortan tintregunga — My brothers, be you not afraid, come, and let none of you dread short torments",
+        "correctAnswer": "broðra",
+        "explanation":"Here 'broðor' is a family noun in the nominative and plural, so it loses its final 'o' and gains the 'a' ending to become 'broðra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic manode (<em>fæder</em>) #### þæt hie mid steore Godes eges heora cildra geðeawodon — I exhorted fathers to bring up their children in the fear of God",
+        "correctAnswer": "fæderas",
+        "explanation":"Here 'fæder' is a family noun in the accusative and plural, so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "fædera",
+                "explanation": "Here 'fæder' is directly receiving the action of the verb 'manode' making it accusative. Unlike other family nouns, the accusative plural ending for 'fæder' is 'as', not 'a', so it becomes 'fæderas'"
+            }
+        ]
+    },
+    {
+        "question": "Se ylca God þe gesceop Adam mid his handum, he gescypð ælces mannes lichaman on his (<em>modor</em>) #### innoðe — The same God who created Adam with his hands, created every man's body in his mother's womb",
+        "correctAnswer": "modor",
+        "explanation":"Here 'modor' is a family noun in the genitive and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Adam þa wæs wunigende on þisum life mid geswince, ond he and his wif ða bearn gestryndon, ægðer suna ond (<em>dohtor</em>) #### — Adam then was continuing in this life with toil, and he and his wife begat children, both sons and daughters",
+        "correctAnswer": "dohtra",
+        "explanation":"Here 'dohtor' is a family noun in the accusative and plural, so it loses its final 'o' and gains the 'a' ending to become 'dohtra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þa dælde se casere þæt Iudeisce rice on feower, ond sette ðærto feower (<em>broðor</em>) #### ða sind gecwedene æfter Greciscum gereorde, tetrarche — The emperor then divided the Jewish kingdom into four, and placed therein four brothers, who, according to the Greek tongue, are called 'tetrarchs'",
+        "correctAnswer": "broðra",
+        "explanation":"Here 'broðor' is a family noun in the accusative and plural, so it loses its final 'o' and gains the 'a' ending to become 'broðra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He hæfde gefeormod (<em>fot</em>) #### ond handa - He had devoured feet and hands",
+        "correctAnswer": "fet",
+        "explanation":"Here 'fot' is in the accusative and plural so the root-vowel changes from 'o' to 'e' to become 'fet'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wiþ banece genim tuning wyrt beolone wealwyrt ealde grut ond eced, heorotes smera oþþe gate oþþe (<em>gos</em>) ####, meng tosomne lege þonneon - For bone ache, take white veratrum, dwarf elder, spent malt, and vinegar, hart’s fat or goat’s or goose’s, mix together, then apply",
+        "correctAnswer": "gose",
+        "explanation":"Here 'gos' is in the genitive and singular so it gains the 'e' ending to become 'gose'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "goses",
+                "explanation": "While 'gos' is in the genitive and singular, it is a feminine noun, and so takes the feminine 'e' ending, not the masculine 'es' ending, to become 'gose'"
+            }
+        ]
+    },
+    {
+        "question": "Gif wyrm ete þa (<em>toð</em>) #### genim ofer geare holen rinde ond eoforþrotan moran wel on swa hatumhafa on muþe swa hat swa þu hatost mæge - If a worm eats the teeth take holly bark more than a year old and the root of stemless carline thistle, boil in such hot water, hold in the mouth as hot as you can",
+        "correctAnswer": "teð",
+        "explanation":"Here 'toð' is in the accusative and plural so the root-vowel changes from 'o' to 'e' to become 'teð'",
+        "commonMistakes": []
+    },
+    {
+        "question": "We Us gegadrian to his halgan gelaðunge, þæt ure naman beon awritene on lifes (<em>boc</em>) #### mid his gecorenum - We gather us to his holy congregation that our names may be written in the book of life with his chosen",
+        "correctAnswer": "bec",
+        "explanation":"Here 'boc' is in the dative and singular so the root-vowel changes from 'o' to 'e' to become 'bec'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He his wæs (<em>freond</em>) #### gefylled - He was deprived of his friends",
+        "correctAnswer": "freonda",
+        "explanation":"Here 'freond' is in the genitive and plural so it gains the 'a' ending to become 'freonda'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þis geat ne bið nanum (<em>mann</em>) #### geopenod, ac se Hlaford ana færð inn þurh þæt geat - This gate shall be opened to no man, for the Lord only will go in by that gate",
+        "correctAnswer": "menn",
+        "explanation":"Here 'mann' is in the dative and singular so the root-vowel changes from 'a' to 'e' to become 'menn'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ne lufie (<em>mus</em>) #### ond flæa forðam ðe hie sind flesclicu nytenu nes men - I don't like mice and fleas because they are carnal creatures, not men",
+        "correctAnswer": "mys",
+        "explanation":"Here 'mus' is in the accusative and plural so the root-vowel changes from 'u' to 'y' to become 'mys'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif ðu gemete ðines (<em>feond</em>) #### oxan oððe assan, lad hine to him - If you meet your enemy's ox or donkey, you lead them back to him",
+        "correctAnswer": "feondes",
+        "explanation":"Here 'feond' is in the genitive and singular so it gains the 'es' ending to become 'feondes'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "feonde",
+                "explanation": "While 'feond' is in the genitive and singular, it is a masculine noun, and so takes the masculine 'es' ending, not the feminine 'e' ending, to become 'feondes'"
+            }
+        ]
+    },
+    {
+        "question": "Wiþ (<em>lus</em>) #### acrind ond hwon wermod gecnua on ealu sele drincan - For lice, grind oak bark and a little wormwood in ale, give to drink",
+        "correctAnswer": "lusum",
+        "explanation":"Here 'lus' is in the dative and plural so it gains the 'um' ending to become 'lusum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðone æðeling on ðære (<em>burg</em>) #### metton, ðar se cyning ofslægen læg - They found the prince in the walled town where the king lay slain",
+        "correctAnswer": "byrg",
+        "explanation":"Here 'burg' is in the dative and singular so the root-vowel changes from 'u' to 'y' to become 'byrg'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wiþ ealcum heardum swile oððe geswelle gebeat hunan meng wiþ rysele oððe (<em>gate</em>) #### horn gebærned ond wiþ wætergemenged lege on - For every hard swelling and pustule beat horehound, mix with grease or burned goat’s horn mixed with water and apply",
+        "correctAnswer": "gate",
+        "explanation":"Here 'gat' is in the genitive and singular so it gains the 'e' ending to become 'gate'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ðæt gehate ðæt ic heonon nelle fleon (<em>fot</em>) #### trym - I vow that I will not flee hence one footstep",
+        "correctAnswer": "fotes",
+        "explanation":"Here 'fot' is in the genitive and singular so it gains the 'es' ending to become 'fotes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Feawa he awrat be his menniscnysse, forðam þe þa ðry oðre godspelleras genihtsumlice be þam heora (<em>boc</em>) #### setton - He wrote few things of his human nature, because the three other evangelists had composed their books abundantly concerning that.",
+        "correctAnswer": "bec",
+        "explanation":"Here 'boc' is in the accusative and plural so the root-vowel changes from 'o' to 'e' to become 'bec'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt inwitspell Abraham sægde (<em>freond</em>) #### sinum - Abraham told that tale of woe to his friends",
+        "correctAnswer": "freondum",
+        "explanation":"Here 'freond' is in the dative and plural so it gains the 'um' ending to become 'freondum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se hundredman sende his (<em>freond</em>) #### to him - The centurion sent his friends to him",
+        "correctAnswer": "friend",
+        "explanation":"Here 'friend' is in the accusative and plural so the root-vowel changes from 'eo' to 'ie' to become 'friend'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Forðam ðe Crist is ealra hlaforda Hlaford, ægðer ge (<em>mann</em>) #### ge ealra gesceafta - For Christ is Lord of all lords, both of men and of all creatures",
+        "correctAnswer": "manna",
+        "explanation":"Here 'mann' is in the genitive and plural so it gains the 'a' ending to become 'manna'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif he us deadlicum (<em>mann</em>) #### ærist and þæt ece lif behete, hwa wolde þonne his behatum gelyfan? - If he to us mortal men had promised resurrection and life eternal, who would have believed in his promises?",
+        "correctAnswer": "mannum",
+        "explanation":"Here 'mann' is in the dative and plural so it gains the 'um' ending to become 'mannum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wiþ weartum, genim hundes micgean ond (<em>mus</em>) #### blod, meng tosomne, smire mid þa weartan ond hie gewitaþ sona aweg - For warts, take hound's urine and mouse's blood, mix together, anoint the warts with it and they will soon go away",
+        "correctAnswer": "muse",
+        "explanation":"Here 'mann' is in the genitive and singular so it gains the 'e' ending to become 'muse'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se (<em>feond</em>) #### his diorlingas duguþum stepte - The fiend decked his favourites with honours",
+        "correctAnswer": "feond",
+        "explanation":"Here 'feond' is the subject and singular so it takes no new ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt (<em>scip</em>) #### sceal genægled⁠ — The ship must be nailed",
+        "correctAnswer": "scip",
+        "explanation": "Here 'scip' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæs cyninges (<em>word</em>) #### is soþ⁠ — The king's word is truth",
+        "correctAnswer": "word",
+        "explanation": "Here 'word' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Godes (<em>bearn</em>) #### þrowode on þære rood⁠ — God's son suffered on the cross",
+        "correctAnswer": "bearn",
+        "explanation": "Here 'bearn' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt (<em>wif</em>) #### wæs gehæled of ðam wite⁠ — The woman was healed of the disease",
+        "correctAnswer": "wif",
+        "explanation": "Here 'wif' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hira (<em>god</em>) #### syndon drycræfta lareowas⁠ — Their gods are teachers of magical arts",
+        "correctAnswer": "godu",
+        "explanation": "Here 'god' is the subject and plural, so since 'god' has a short syllable it takes a 'u' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "god",
+                "explanation": "Here 'god' is the subject and plural, but since 'god' has a short syllable it should take a 'u' ending"
+            }
+        ]
+    },
+    {
+        "question": "Ða (<em>scip</em>) #### Norðmanna cam on þissum dæg⁠ — The Northmen's ships came on this day",
+        "correctAnswer": "scipu",
+        "explanation": "Here 'scip' is the subject and plural, so since 'scip' has a short syllable it takes a 'u' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif þa (<em>word</em>) #### sind soþ⁠ — If the words are true",
+        "correctAnswer": "word",
+        "explanation": "Here 'word' is the subject and plural, so since 'word' has a long syllable it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Geata (<em>bearn</em>) #### ferde to him⁠ — The children of the Geats went to him ",
+        "correctAnswer": "bearn",
+        "explanation": "Here 'bearn' is the subject and plural, so since 'bearn' has a long syllable it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo geofu wæs broht for ðære synne ðæs ærestan (<em>wif</em>) ####⁠ — The grace was brought for the sin of the first woman",
+        "correctAnswer": "wifes",
+        "explanation": "Here 'wif' is in the genitive singular, so it takes the 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wæs hiora (<em>god</em>) #### preost⁠ — He was the priest of their god",
+        "correctAnswer": "godes",
+        "explanation": "Here 'god' is in the genitive singular, so it takes the 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þæs (<em>scip</em>) #### mæst geburnen⁠ — The ship's mast burned",
+        "correctAnswer": "scipes",
+        "explanation": "Here 'scip' is in the genitive singular, so it takes the 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð⁠ — Through the bearing of a child without a man's embrace, that bride became great",
+        "correctAnswer": "bearnes",
+        "explanation": "Here 'bearn' is in the genitive singular, so it takes the 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo is sæd ærest (<em>wif</em>) #### in Norþanhymbra mægþe ðæt heo munuchade onfenge⁠ — She is said to have been one of the first women in Northumbria to have taken nun-hood",
+        "correctAnswer": "wifa",
+        "explanation": "Here 'wif' is in the genitive plural, so it takes the 'a' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "wif",
+                "explanation": "Here 'wif' is in the genitive plural as she is 'one of the first', so it takes the 'a' ending"
+            }
+        ]
+    },
+    {
+        "question": "On þis dæg, com þæs hæthenes (<em>god</em>) #### wigan⁠ — On that day, the warriors of the heathen gods came",
+        "correctAnswer": "goda",
+        "explanation": "Here 'god' is in the genitive plural, so it takes the 'a' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "godes",
+                "explanation": "Here 'god' is in the genitive plural, so it takes the 'a' ending, not the singular 'es' ending"
+            }
+        ]
+    },
+    {
+        "question": "Ða het se cyning (<em>scip</em>) #### gegearcian⁠ — Then the king ordered the preparation of ships",
+        "correctAnswer": "scipa",
+        "explanation": "Here 'scip' is in the genitive plural, so it takes the 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hlosna to þæs Godes (<em>word</em>) ####⁠ — Listen to the word of God",
+        "correctAnswer": "word",
+        "explanation": "Here 'word' is in the singular accusative, and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He Noe gebletsade and his (<em>bearn</em>) ####⁠ — He blessed Noah and his child",
+        "correctAnswer": "bearn",
+        "explanation": "Here 'bearn' is in the singular accusative, and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He spræc to þæt (<em>wif</em>) ####⁠ — He spoke to the woman",
+        "correctAnswer": "wif",
+        "explanation": "Here 'wif' is in the singular accusative, and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða godu fram Egiptum landum beoþ fremede #### ⁠ — The gods from Egypt are strange gods",
+        "correctAnswer": "godu",
+        "explanation": "Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wolde geseean helle (<em>god</em>) ####⁠ — He would visit the gods of hell",
+        "correctAnswer": "godu",
+        "explanation": "Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt wæron þa erestan (<em>scip</em>) #### Deniscra manna the Angelcynnes land geseah⁠ — Those were the first ships of Danish men the English people's land saw",
+        "correctAnswer": "scipu",
+        "explanation": "Here 'scip' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie writon micel (<em>word</em>) #### lofa⁠ — They wrote many words of praise",
+        "correctAnswer": "word",
+        "explanation": "Here 'word' is the direct object and plural, so since 'word' has a long syllable it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se fæder wið-soc eall to his (<em>bearn</em>) ####⁠ — The father denied all to his child",
+        "correctAnswer": "bearne",
+        "explanation": "Here 'bearn' is the indirect object and singular, and so takes an 'e' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "bearn",
+                "explanation": "Here 'bearn' is the indirect object and singular, and so takes an 'e' ending. It is 'eall' which is the direct object"
+            }
+        ]
+    },
+    {
+        "question": "And mon mot feohtan orwige gif he gemeteþ oðerne æt his æwum (<em>wif</em>) ####⁠ — And a man can fight without charge of homicide if he finds another with his lawful wife",
+        "correctAnswer": "wife",
+        "explanation": "Here 'wif' is the indirect object and singular, and so takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo cwen geaf þa boc to þæm ####⁠ — The queen gave the book to the woman",
+        "correctAnswer": "wife",
+        "explanation": "Here 'wif' is the indirect object and singular, and so takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "We willaþ mid þam sceattum us to þæm (<em>scip</em>) #### gangan⁠ — We wish to go to the ship with the treasure",
+        "correctAnswer": "scipe",
+        "explanation": "Here 'scip' is the indirect object and singular, and so takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ærist scoop eorþan for his (<em>bearn</em>) ####⁠ — He first shaped the earth for his children",
+        "correctAnswer": "bearnum",
+        "explanation": "Here 'bearn' is the indirect object and plural, and so takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo geaf micel giefa to þæm (<em>wif</em>) ####⁠ — She gave many gifts to the women",
+        "correctAnswer": "wifum",
+        "explanation": "Here 'wif' is the indirect object and plural, and so takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie bædon to hiora (<em>god</em>) ####⁠ — They prayed to their gods",
+        "correctAnswer": "godum",
+        "explanation": "Here 'god' is the indirect object and plural, and so takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se here ferde to þæm #### (<em>scip</em>)⁠ — The army went to the ships",
+        "correctAnswer": "scipum",
+        "explanation": "Here 'scip' is the indirect object and plural, and so takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo (<em>cwen</em>) #### ferþ to þæm beorgum⁠ — The queen goes to the mountains",
+        "correctAnswer": "cwen",
+        "explanation": "Here 'cwen' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wæs (<em>giefu</em>) #### Hroþgares oft geæhted⁠ — The gift of Hrothgar was often prized",
+        "correctAnswer": "giefu",
+        "explanation": "Here 'giefu' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo (<em>ceaster</em>) #### ne mæg beon behyd⁠ — The city cannot be hidden",
+        "correctAnswer": "ceaster",
+        "explanation": "Here 'ceaster' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sceolde monig blachleor (<em>ides</em>) #### bifiende gan⁠ — Many a pale-faced lady must trembling go",
+        "correctAnswer": "ides",
+        "explanation": "Here 'ides' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þa (<em>cwen</em>) #### wæron hatene Marsepia and Lampida⁠ — The queens were called Marsepia and Lampida",
+        "correctAnswer": "cwena",
+        "explanation": "Here 'cwen' is the subject and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt hie ælmihtiges (<em>giefu</em>) #### anforleten⁠ — That they might lose the almighty's gifts",
+        "correctAnswer": "giefa",
+        "explanation": "Here 'giefu' is the subject and plural, so it loses its 'u' takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða (<em>ceaster</em>) ####, Gleawanceaster, Cirenceaster and Baþanceaster, beoþ on ceastrum weallum beworhte⁠ — The cities, Gloucester, Cirencester and Bath, are walled towns",
+        "correctAnswer": "ceastra",
+        "explanation": "Here 'ceastra' is the subject and plural, so it loses its second 'e' takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða (<em>ides</em>) #### sloh ða wundenlocc þone feondsceaðan⁠ — The women slew the wavy-haired fiend",
+        "correctAnswer": "idesa",
+        "explanation": "Here 'ides' is the subject and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo ferde to þære (<em>cwen</em>) #### broce ond fram þære cwene broce⁠ — She went to the Queen's brook and from the Queen's brook",
+        "correctAnswer": "cwene",
+        "explanation": "Here 'cwen' is in the posessive singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðære (<em>ceaster</em>) #### ealdorman spræc mid þæm biscope⁠ — The city's elderman spoke with the bishop",
+        "correctAnswer": "ceastre",
+        "explanation": "Here 'ceaster' is in the posessive singular, so it loses its second 'e' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæra oðer wæs (<em>ides</em>) #### onlicnes⁠ — The other had a woman's likeness",
+        "correctAnswer": "idese",
+        "explanation": "Here 'ides' is in the posessive singular, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wæs on ðara (<em>cwen</em>) #### gewealdum⁠ — He was under the power of the queens",
+        "correctAnswer": "cwena",
+        "explanation": "Here 'cwen' is in the posessive plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara (<em>ceaster</em>) #### wisra menn ferde to þæm cyning⁠ — The cities wise men went to the king ",
+        "correctAnswer": "ceastra",
+        "explanation": "Here 'ceaster' is in the posessive plural, so it loses its second 'e' and takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara (<em>ides</em>) #### fæder wæs sæt æt wine⁠ — The ladies father was sat at his wine",
+        "correctAnswer": "idesa",
+        "explanation": "Here 'ides' is in the posessive plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wæs feaxhar (<em>cwen</em>) ####⁠ — I was a hoary-haired woman",
+        "correctAnswer": "cwene",
+        "explanation": "Here 'cwen' is the direct object and singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo gefylled wæs wisdomes (<em>giefu</em>) ####⁠ — She was filled with wisdom's gift ",
+        "correctAnswer": "giefe",
+        "explanation": "Here 'giefu' is the direct object and singular, so it loses its 'u' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ælla and Cissa ymbsæton þa (<em>ceaster</em>) ####⁠ — Aella and Cissa beseiged the city",
+        "correctAnswer": "ceastre",
+        "explanation": "Here 'ceaster' is the direct object and singular, so it loses its second 'e' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Weras and (<em>ides</em>) #### sceolan læran Godes lufan⁠ — Men and women shall learn God's love",
+        "correctAnswer": "idesa",
+        "explanation": "Here 'ides' is the subject and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas læston þa (<em>cwen</em>) ####⁠ — The thanes followed the Queens",
+        "correctAnswer": "cwena",
+        "explanation": "Here 'cwen' is the direct object and plural, so it takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se Hælend ymbfor ealle þa burga ond þa (<em>ceaster</em>) ####⁠ — Jesus went around all the villages and the cities",
+        "correctAnswer": "ceastra",
+        "explanation": "Here 'ceaster' is the direct object and plural, so it loses its second 'e' and takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "To saulum on heofonum þu selest weorþlica (<em>giefu</em>) ####⁠ — To the souls in heaven you will give worthy gifts",
+        "correctAnswer": "giefa",
+        "explanation": "Here 'giefu' is the direct object and plural, so it loses its 'u' and takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða comon ða weardas to þære (<em>ceaster</em>) ####⁠ — Then the keepers came into the city",
+        "correctAnswer": "ceastre",
+        "explanation": "Here 'ceaster' is an indirect object and singular, so it loses its second 'e' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas ferde to þære (<em>ides</em>) ####⁠ — The thanes went to the lady",
+        "correctAnswer": "idese",
+        "explanation": "Here 'ides' is an indirect object and singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie to ðære (<em>cwen</em>) #### agefon him⁠ — Then they gave him up to the queen",
+        "correctAnswer": "cwene",
+        "explanation": "Here 'cwen' is an indirect object and singular, so it takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ferde to þæm ceastre mid þæs cyninges (<em>giefu</em>) ####⁠ — He went to the city with the king's gift ",
+        "correctAnswer": "giefe",
+        "explanation": "Here 'giefu' is an indirect object and singular, so it loses its 'u' and takes an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hlynn wearþ on þæm (<em>ceaster</em>) ####⁠ — A great cry arose in the cities",
+        "correctAnswer": "ceastrum",
+        "explanation": "Here 'ceaster' is an indirect object and plural, so it loses its second 'e' and takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He geaf þa bec to þæm (<em>ides</em>) ####⁠ — He gave the books to the ladies",
+        "correctAnswer": "idesum",
+        "explanation": "Here 'ides' is an indirect object and plural, so it takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas geaf begas ond feoh to þæm (<em>cwen</em>) ####⁠ — The thanes gave rings and wealth to the queens",
+        "correctAnswer": "cwenum",
+        "explanation": "Here 'cwen' is an indirect object and plural, so it takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðin mod trymeþ mid godcundum (<em>giefu</em>) ####⁠ — Strengthen your mind with divine gifts",
+        "correctAnswer": "giefum",
+        "explanation": "Here 'giefu' is an indirect object and plural, so it takes a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæs <em>(biscop)</em> #### swearta stan  — The bishop’s black stone",
+        "correctAnswer": "biscopes",
+        "explanation": "Here 'biscop' is in the singular genitive so it takes the 'es' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "biscopa",
+                "explanation": "While 'biscop' is in the genitive, it is the singular 'biscopes'. Biscopa' is the genitive plural"
+            }
+        ]
+    },
+    {
+        "question": "Se <em>(þegen)</em> #### ond þa biscops fram Readingum — The thane and the bishops from Reading",
+        "correctAnswer": "þegen",
+        "explanation": "Here 'þegen' is the subject so it takes the nominative singular case",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæs cyninges <em>(þegen)</em> #### ferde to þæm tune — The king’s thanes went to the town",
+        "correctAnswer": "þegnas|þegenas",
+        "explanation": "Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "þegen",
+                "explanation": "While not apparant in the Old English, þegen is clearly plural in the modern English trans, and so takes the 'as' ending of the nominative plural"
+            }
+        ]
+    },
+    {
+        "question": "Ða <em>(cyning)</em> #### ond þa biscopas on Æscesdune — The kings and the bishops in Ashdown",
+        "correctAnswer": "cyningas",
+        "explanation": "Here 'cyning' is the subject and plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "cyning",
+                "explanation": "'Cyning' is the singular form of the word while the above word is plural. This means the correct answer is 'cyningas'. If you're not sure whether a word is plural or singular, check the demonstrative pronoun."
+            }
+        ]
+    },
+    {
+        "question": "Eall þara <em>(biscop)</em> #### preostas ferde to þæm halige stede mid him — All the bishops’ priests went to the holy place with them",
+        "correctAnswer": "biscopa",
+        "explanation": "Here 'biscop' is in the possessive plural, since there are multiple priests belong to multiple bishops, so it takes the 'a' ending of the genitive plural",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "biscopas",
+                "explanation": "Biscopas is the nominative or accusative plural. The genitive plural ends in 'a', so the correct answer is 'biscopa'."
+            }
+        ]
+    },
+    {
+        "question": "In Þæs (<i>cyning</i>) #### tune — In the town of the king",
+        "correctAnswer": "cyninges",
+        "explanation": "Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða þegnas þara <em>(cyning)</em> #### Ælfred and Æþelred — The thane's of the Kings' Alfred and Ethelred",
+        "correctAnswer": "cyninga",
+        "explanation": "Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se (<i>biscop</i>) #### fram þæm tune — The bishop from the town",
+        "correctAnswer": "biscop",
+        "explanation": "Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða Þegnas ond se (<i>cyning</i>) #### — The thanes and the king",
+        "correctAnswer": "cyning",
+        "explanation": "Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Fram þæs (<i>þegen</i>) #### tune — From the thane’s town",
+        "correctAnswer": "þegnes|þegenes",
+        "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ond þa (<i>biscop</i>) #### — The king and the bishops",
+        "correctAnswer": "biscopas",
+        "explanation": "Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæs (<i>þegen</i>) #### menn — The thane’s men",
+        "correctAnswer": "þegnes|þegenes",
+        "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Menn fram Þara (<i>þegen</i>) #### tunum — Men from the towns of the thanes",
+        "correctAnswer": "þegna|þegena",
+        "explanation": "Here 'þegen' is in the possessive plural as the men are from towns belonging to the thanes, so it takes the 'a' ending of the genitive plural",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða <em>(stan)</em> #### fram þæs þegnes tune — The stone from the thane’s town",
+        "correctAnswer": "stanas",
+        "explanation": "Here 'stan' is subject and is plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se (<i>stan</i>) #### ond se þegen — The stone and the thane",
+        "correctAnswer": "stan",
+        "explanation": "Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara <em>(wicing)</em> #### cyning wolde þæt þa Deniscan ricsoden ofer Englalande⁠ — The king of the viking's would that the Danes ruled over England",
+        "correctAnswer": "wicinga",
+        "explanation": "Here 'wicing' is in the possessive plural as the subject is the king of many vikings, so 'wicing' takes the 'a' ending of the genitive plural",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða bearn þæs <em>(cyning)</em> #### beoþ wis and eaþmod⁠ — The children of the king are wise and humble",
+        "correctAnswer": "cyninges",
+        "explanation": "Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða <em>(biscop)</em> #### geaf þone stan to þæm þegne — The bishops gave the stone to the thane",
+        "correctAnswer": "biscopas",
+        "explanation": "Here 'biscop' is the subject and it is plural so it takes the 'as' ending of the nominative plural",
+        "commonMistakes": []
+    },
+    {
+        "question": "Giet wæs se <em>(cyning)</em> #### Ælfred geong⁠ — Still, the king Alfred was young",
+        "correctAnswer": "cyning",
+        "explanation": "Here 'cyning' is the subject and in the singular so it takes no ending, as per the nominative singular",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se biscop grete þone (<i>cyning</i>) #### — The bishop greets the king",
+        "correctAnswer": "cyning",
+        "explanation": "Here 'cyning' is directly receiving the action of the verb 'grete', so is in the singular accusative and thus takes no new ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "þa biscopas geaf þone (<i>stan</i>) #### to þæm þegne — The bishops gave the stone to the thane",
+        "correctAnswer": "stan",
+        "explanation": "Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se þegen sloh þone (<i>biscop</i>) #### in þæm tune — The thane slew the bishop in the town",
+        "correctAnswer": "biscop",
+        "explanation": "Here 'biscop' is directly receiving the action of the verb 'sloh', so is in the singular accusative and thus takes no new ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ond seo cwen grete þa (<i>biscop</i>) #### — The king and the queen greet the bishops",
+        "correctAnswer": "biscopas",
+        "explanation": "Here 'biscop' is directly receiving the action of the verb 'grete' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning sloh þa (<i>þegen</i>) #### — The king slew the thanes",
+        "correctAnswer": "þegnas|þegenas",
+        "explanation": "Here 'þegen' is directly receiving the action of the verb 'sloh' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se þegen geaf þa (<i>gar</i>) #### to þæm cyninge — The thane gave the spears to the king",
+        "correctAnswer": "garas",
+        "explanation": "Here 'gar' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "To þæm biscop geaf se cyning þa (<i>beag</i>) #### — The king gave rings to the bishop",
+        "correctAnswer": "beagas",
+        "explanation": "Here 'beag' is directly receiving the action of the verb 'geaf' and is also plural, so it is in the plural accusative and thus takes the 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "To þæm (<i>cyning</i>) #### se biscop geaf beag — To the king, the bishop gave a ring",
+        "correctAnswer": "cyninge",
+        "explanation": "Here 'cyning' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending.",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se þegen ferþ to þæm (<i>biscop</i>) #### mid wordum fram þæm cyning — The thane goes to the bishop with words from the king",
+        "correctAnswer": "biscope",
+        "explanation": "Here 'biscop' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se biscop ferde fram þæm (<i>þegen</i>) #### to þæm cyning — The bishop went from the thane to the king",
+        "correctAnswer": "þegne|þegene",
+        "explanation": "Here 'þegen' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þis dæg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town his brother",
+        "correctAnswer": "tune",
+        "explanation": "Here 'tun' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ferþ to þæm (<i>beorg</i>) #### — The king goes to the mountains",
+        "correctAnswer": "beorgum",
+        "explanation": "Here 'beorg' is not directly receiving the action of the verb 'ferþ', so it is in the singular dative and thus takes the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wærferhþ biscop ferde to þæm (<i>biscop</i>) #### in Lundene ond Wiltunscire — Bishop Warfehth went to the bishops of London and Wiltshire",
+        "correctAnswer": "biscopum",
+        "explanation": "Here 'biscop' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se geaf þa garas to þæm (<i>þegen</i>) #### — He gave the spears to the thanes",
+        "correctAnswer": "þegnum|þegenum",
+        "explanation": "Here 'þegen' is not directly receiving the action of the verb 'geaf', so it is in the singular dative and thus takes the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "þa biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+        "correctAnswer": "tunum",
+        "explanation": "Here 'tun' is not directly receiving the action of the verb 'came', so it is in the singular dative and thus takes the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæt (<em>wite</em>) #### wæs strang⁠ — The punishment was strong",
+        "correctAnswer": "wite",
+        "explanation":"Here 'wite' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða halgan (<em>sawol</em>) #### sint undeaþlice and ece⁠ — The holy souls are undying and eternal",
+        "correctAnswer": "sawla",
+        "explanation":"Here 'sawol' is the subject and plural, so it loses its unstressed 'o' takes an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nilt ðu habban yfelan (<em>scoh</em>) ####⁠ — You do not want to have an evil shoe",
+        "correctAnswer": "scoh",
+        "explanation":"Here 'scoh' is masculine, the direct object and single, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie heora (<em>heafod</em>) #### slogan on ða wagas⁠ — They struck their heads against the walls",
+        "correctAnswer": "heafdu",
+        "explanation":"Here 'heafod' is neuter, the direct object and plural so it loses its unstressed 'o' and gains a u",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðæs (<em>fugol</em>) #### flyht wæs dyrne and degol⁠ — The bird's flight was hidden and secret",
+        "correctAnswer": "fugles",
+        "explanation":"'Fugol' is masculine and here it is possessive and single so it loses its unstressed 'o' and gains an 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðara (<em>wealh</em>) #### cyning slog monige menn⁠ — The King of the foreigners slew many men",
+        "correctAnswer": "weala",
+        "explanation":"'Wealh' is masculine and here it is the posessive plural, so it loses its 'h' and gains an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sume wæron mid iserne (<em>clawu</em>) #### totorene⁠ — Some were torn with an icy claw",
+        "correctAnswer": "clawe",
+        "explanation":"'Clawu' is feminine and here it is a singular, indirect object so it loses its final vowel, 'u', and gains an 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "God ricsaþ on feower (<em>ende</em>) #### ðyses middangeardes⁠ — God rules in the four corners of the earth",
+        "correctAnswer": "endum",
+        "explanation":"Here 'ende' is an indirect object and plural, so it loses its final vowel, 'e', and gains a 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Godes (<em>engel</em>) #### stod on emn him⁠ — God's angel stood before him",
+        "correctAnswer": "engel",
+        "explanation":"Here 'engel' is the subject and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He bletsode ða adrife (<em>fæt</em>) #### ond ða beagas⁠ — He blessed the engraved cups and the rings",
+        "correctAnswer": "fatu",
+        "explanation":"'Fæt' is neuter and here it is the direct object and plural, so its 'æ' changes to 'a' and it gains the 'u' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wæs on ðæs (<em>hwæl</em>) #### innoþe⁠ — He was in the whale's innards",
+        "correctAnswer": "hwæles",
+        "explanation":"Here 'hwæl' is in the possessive singular and so gains the 'es' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Her sindon nigon (<em>engel</em>) #### werod⁠ — Here are nine hosts of angels",
+        "correctAnswer": "engla",
+        "explanation":"Here 'engel' is in the posessive plural and so loses its unstressed 'e' and gains an 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie coman on ðrim ceolum hider to Brytene on ðam (<em>stede</em>) #### Heopwines fleot⁠ — He came on three ships to Britain to the place called Heopwines fleet",
+        "correctAnswer": "stede",
+        "explanation":"Here 'stede' is an indirect object and singular, so it takes an 'e' ending. Since it already ends in 'e', and since end-vowels are dropped before a suffix, this makes it look like the word does not change",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wealdeþ sidum (<em>rice</em>) ####⁠ — He rules broad kingdoms",
+        "correctAnswer": "ricum",
+        "explanation":"Here 'rice' is in the posessive plural and so loses its end-vowel and gains the 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo (<em>sceadu</em>) #### byþ to underne seofon and twentigoþan healfes fotes⁠ — The shadow is twenty-seven and a half feet at 9am",
+        "correctAnswer": "sceadu",
+        "explanation":"Here 'sceadu' is the subject and singular and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu eart eallra þinga fruma and (<em>ende</em>) ####⁠ — You are the beginning and end of all things",
+        "correctAnswer": "ende",
+        "explanation":"Here 'ende' is the direct object and singular and so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "We habbaþ eowre (<em>scoh</em>) #### on eowrum fotum⁠ — We have our shoes on our feet",
+        "correctAnswer": "scos",
+        "explanation":"'Scoh' is masculine and here it is the direct object and plural so it should take an 'as' ending. Since it ends in 'h', it loses the 'h' and the unstressed vowel of the suffix when declined",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo ydelnes is ðære (<em>sawol</em>) #### feond⁠ — Idleness is the soul's enemy",
+        "correctAnswer": "sawle",
+        "explanation":"Here 'sawol' is in the posessive signular, so it loses its unstressed 'o' and gains the 'e' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "671 Her wæs ðæt micle (<em>fugol</em>) #### wæl⁠ — 671AD: here was the great slaughter of birds",
+        "correctAnswer": "fugla",
+        "explanation":"Here 'fugol' is in the possessive plural, so it loses its unstressed 'o' and gains the 'a' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "We sceolon fyligan urum (<em>heafod</em>) ####⁠ — We should follow our heads",
+        "correctAnswer": "heafde",
+        "explanation":"Here 'heafod' is an indirect object and singular, so it loses its unstressed 'o' and gains the 'e' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "heafod",
+                "explanation":"Here 'heafod' is an indirect object, not direct object, as the heads are not being directly acted upon. This means it takes the dative singular 'e' ending"
+            }
+        ]
+    },
+    {
+        "question": "Heo wæs to manegum (<em>wite</em>) #### geworht⁠ — She was put to many tortures",
+        "correctAnswer": "witum",
+        "explanation":"Here 'wite' is an indirect object and plural, so it loses its end-vowel and takes the 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hira (<em>clawu</em>) #### todælede beoþ⁠ — Their hooves are divided",
+        "correctAnswer": "clawa",
+        "explanation":"Here 'clawu' is the subject and plural so it loses its end-vowel and gains the 'a' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "clawas",
+                "explanation":"'Clawu', like most words ending in 'u', is feminine, not masculine, so it takes the nominative plural 'a' ending"
+            }
+        ]
+    },
+    {
+        "question": "He gewanode his (<em>feoh</em>) #### and geihte his rihtwisnysse⁠ — He dimished his wealth and increased his righteousness",
+        "correctAnswer": "feoh",
+        "explanation":"'Feoh' is neuter and here it is the direct object and singular, so takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wilt ðu fon (<em>hwæl</em>) ####?⁠ — Will you hunt whales?",
+        "correctAnswer": "hwalas",
+        "explanation":"Here 'hwæl' is the direct object and plural so its 'æ' changes to 'a' and it gains the 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic þe þa fæhðe leanige (<em>feoh</em>) #### ond ealdgestreonum, swa ic ær dyde⁠ — For the feud, I would reward you with wealth and old treasures, as I did before",
+        "correctAnswer": "feo",
+        "explanation":"Here 'feoh' is the indect object and singular so it loses its 'h'. It should take an 'e' ending but since it is an unstressed vowel, it takes no ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer":"feoe",
+                "explanation":"Here 'feoh' is the indect object and singular so it should take an 'e' ending, but since you drop the unstressed vowel along with the 'h', it takes no ending"
+            }
+        ]
+    },
+    {
+        "question": "Ða hie sæton þara ond innan Ionan tu winter on þam twam (<em>stede</em>) ####⁠ — Then settled there and on the Yonne, two winters in those two places",
+        "correctAnswer": "stedum",
+        "explanation":"Here 'stede' is an indirect object and plural and so it drops its end-vowel and takes the 'um' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se (<em>stede</em>) #### is halig ðe ðu on stenst⁠ — The place where you stand is holy ",
+        "correctAnswer": "stede",
+        "explanation":"Here 'stede' is the subject and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>engel</em>) #### God worhte, ða sind gastas, and nabbaþ nænne lichaman ⁠ — God created angels, which are spirits and have no body",
+        "correctAnswer": "englas",
+        "explanation":"'Engel' is masculine and here it is the direct object, so it loses its unstressed 'e' and gains an 'as' ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Eall Italia (<em>rice</em>) #### þæt betwux þam muntum ond Sicilia þam ealonde in anwald gerehton⁠ — All the kingdom of Italy that is between the mountains and the island of Sicily were subjugated",
+        "correctAnswer": "rice",
+        "explanation":"Here 'rice' is an indirect object and singular. Since it loses its end-vowel and gains an 'e', it looks like it does not gain an ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic nu gange on midde þa (<em>sceadu</em>) #### deaðes, ne ondræde ic me nan yfel, forþam þu byst mid me⁠ — Though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me",
+        "correctAnswer": "sceade",
+        "explanation":"Here 'sceadu' is an indirect object and singular, so it loses its end-vowel and gains the 'e' ending",
+        "commonMistakes": []
+    }
+]
