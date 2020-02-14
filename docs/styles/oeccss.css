@@ -1336,5 +1336,10 @@ ul.module a {
 	.small-padding-top {
 		padding-top:10px;
 	}
+
+	#vowel-chart {
+		max-width: 100%;
+		padding-top: 1em;
+	}
 }
 
