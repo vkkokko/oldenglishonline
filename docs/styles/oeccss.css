@@ -545,6 +545,12 @@ nav {
 	border-bottom: 4px solid #800080;
 }
 
+.orange-fill /* This is for SVGs */
+{
+	fill:rgb(200, 100, 50);
+	stroke:rgb(200, 100, 50);
+}
+
 /* Time Line */
 
 /* The container for the whole timeline */

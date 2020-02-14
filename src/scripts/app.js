@@ -35,11 +35,20 @@
 			$lastActive = $(this);			//This does the same as the above function, but in the modal instead of in the quiz
 		});
 
-		// This is the code that makes the audio elements play
+		// This is the code that makes the audio buttons play
 		$('.audio-button').on('click', function () {
 			let audioElement = $(this).next('.audio-link').get(0);
 			audioElement.play();
 		});
+
+		//This is the code that makes the SVG vowel table play
+
+		$('.audio-svg').on('click', function () {
+			let audiotag = $(this).attr('id');
+			let audioElement = $('#audio-' + audiotag).get(0);
+			audioElement.play();
+		});
+
 
 		//The code for the Variant Noun button in the Strong Nouns module
 		$('#additionalbutton').on('click', function () {
