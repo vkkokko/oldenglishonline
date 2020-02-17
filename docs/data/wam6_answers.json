@@ -488,13 +488,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Godes (<em>bearn</em>) #### þrowode on þære rood⁠ — God's son suffered on the cross",
+        "question": "Godes (<em>bearn</em>) #### þrowode on þære rood⁠ — God's child suffered on the cross",
         "correctAnswer": "bearn",
         "explanation": "Here 'bearn' is the subject and so takes no ending",
         "commonMistakes": []
     },
     {
-        "question": "Ðæt (<em>wif</em>) #### wæs gehæled of ðam wite⁠ — The woman was healed of the disease",
+        "question": "Ðæt (<em>wif</em>) #### wæs gehæled of ðæm wite⁠ — The woman was healed of the disease",
         "correctAnswer": "wif",
         "explanation": "Here 'wif' is the subject and so takes no ending",
         "commonMistakes": []
