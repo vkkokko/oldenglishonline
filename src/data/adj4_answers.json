@@ -34,7 +34,7 @@
         ]
     },
     {
-        "question": "Ic in wite sceal bidan in bendum ond me (<em>god</em>) #### ham for oferhygdum æfre ne wene⁠ — I must in tormen abide in bonds, and never hope for any better home for my pride",
+        "question": "Ic in wite sceal bidan in bendum ond me (<em>god</em>) #### ham for oferhygdum æfre ne wene⁠ — I must in torment abide in bonds, and never hope for any better home for my pride",
         "correctAnswer": "beteran",
         "explanation":"The adjective 'god' is irregular and so becomes 'beteran' in the comparative when modifying a noun",
         "commonMistakes": []
@@ -76,7 +76,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðam (<em>mild</em>) #### cyninge Wihtræde rixigendum⁠ — In the reign of the kindest king Wihtræd",
+        "question": "Ðæm (<em>mild</em>) #### cyninge Wihtræde rixigendum⁠ — In the reign of the kindest king Wihtræd",
         "correctAnswer": "mildostan",
         "explanation":"Here 'mild' takes the superlative suffix 'ost' and the weak suffix 'an', as it comes after the definitive article 'þam' ",
         "commonMistakes": []
@@ -90,11 +90,11 @@
     {
         "question": "Cwædon ðæt he wære manna (<em>mild</em>) #### and monþwærost⁠ — They said that he was kindest and most courteous of men",
         "correctAnswer": "mildost",
-        "explanation":"Here 'heard' takes the superlative suffix 'ost' and no suffix",
+        "explanation":"Here 'mild' takes the superlative suffix 'ost' and no suffix",
         "commonMistakes": []
     },
     {
-        "question": "He sohte fram ðam ieldestan oþ ðone (<em>geong</em>) ####⁠ — He searched from the eldest to the youngest",
+        "question": "He sohte fram ðæm ieldestan oþ ðone (<em>geong</em>) ####⁠ — He searched from the eldest to the youngest",
         "correctAnswer": "gingestan",
         "explanation":"The stem of 'geong' undergoes i-mutation to become 'ging', and takes the superlative suffix 'est' and the weak suffix 'an', as it comes after the demonstrative pronoun 'ðone'",
         "commonMistakes": []
@@ -128,7 +128,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Sceall beon se (<em>lytel</em>) #### dæl nyhst þæm tune ðe se deada man on lið⁠ — The smallest portion shall be closest to where the dead man lies",
+        "question": "Sceal beon se (<em>lytel</em>) #### dæl nyhst þæm tune ðe se deada man on lið⁠ — The smallest portion shall be closest to where the dead man lies",
         "correctAnswer": "læsta",
         "explanation":"The adjective 'lytel' is irregular, becoming 'læst' in the superlative. It takes the weak nominative masculine ending 'a' to become 'læsta', as it comes after the demonstrative pronoun 'se'",
         "commonMistakes": []
@@ -143,6 +143,32 @@
         "question": "Se deofol sloh lob mid ðære (<em>yfel</em>) #### wunde⁠ — The devil slew Job with the worst of wounds",
         "correctAnswer": "wierstan",
         "explanation":"The adjective 'yfel' is irregular, becoming 'wierst' in the superlative. It takes the weak genitive feminine ending 'an' to become 'wierstan'",
+        "commonMistakes": []
+        
+    },
+    {
+        "question": "Se biscop is  lareowa (<em>halig</em>) ####⁠ — The bishop is the holiest of teachers",
+        "correctAnswer": "haligost",
+        "explanation":"halig takes the -ost ending of superlative adjectives",
+        "commonMistakes": []
+    },
+    {
+        "question": "þis stan is hwit, þis stan is hwitra, ac þas stanas sind (<em>hwit</em>) ####⁠ — This stone is white, this stone is whiter, but these stones are whitest",
+        "correctAnswer": "hwitost",
+        "explanation":"hwit takes the -ost ending of superlative adjectives",
+        "commonMistakes": []
+        
+    },
+    {
+        "question": "Heo is (<em>leoht</em>) ####⁠ þonne mona — She is brighter than the moon",
+        "correctAnswer": "leohtre",
+        "explanation":"leoht takes the -re endings of comparative adjectives",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic eom is (<em>swift</em>) ####⁠ þonne sunne — I am swifter than the sun",
+        "correctAnswer": "swiftre",
+        "explanation":"swift takes the -re endings of comparative adjectives",
         "commonMistakes": []
     }
 ]
