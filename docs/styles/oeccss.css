@@ -764,6 +764,10 @@ table th {
 	width: 30%;
 }
 
+.double-col-td {
+	border-right: 1px solid #DCDCDC;
+}
+
 /* Tabs styling */
 
 .nav > li > a {
