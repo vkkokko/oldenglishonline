@@ -17,14 +17,15 @@ If you want to raise an issue for us to fix, perform the following steps:
 
 If you want to contribute direcly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Just follow the steps below:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
-2. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
-3. Click the **Fork** button in the top right-hand corner of the page to copy the repo.
-4. Click the **Clone or download** button to clone the project to your own machine.
-5. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
-6. Commit changes to your own branch. We recommend you use a git client to do this, you can get the free GitKraken [here](https://www.gitkraken.com/).
-7. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
-8. Submit a **Pull Request** so that we can review your changes.
-9. An administrator will then review and approve your changes.
+2. Download a git client, you can get the free GitKraken [here](https://www.gitkraken.com/).
+3. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
+4. Click the **Clone or download** button and copy the URL.
+5. In Gitkraken, choose **Clone Repo**, choose **From URL** and paste the URL you copied from Github. This will copy the repo to your machine.
+6. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
+7. Commit changes to your own branch. 
+8. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
+9. Submit a **Pull Request** so that we can review your changes.
+10. An administrator will then review and approve your changes.
 
 # Developing
 

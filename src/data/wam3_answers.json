@@ -1,0 +1,180 @@
+[
+    {
+        "question": "Æfter ðam he gestrynde (<em>sunu</em>) #### ond dohtra — After that he begot sons and daughters",
+        "correctAnswer": "suna",
+        "explanation":"Here 'sunu' is a u-declension noun in the accusative and plural, so it takes the 'a' ending to become 'suna'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Domicianus wearþ acweald æt his witena (<em>hand</em>) #### — Dominic was slain by the hands of his counsellors",
+        "correctAnswer": "handum",
+        "explanation":"Here 'hand' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'handum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Twa (<em>duru</em>) #### hie gesawon on ðære cyrcan ond wæs seo suþ duru sume dæle mare — Two doors they saw in the church, and the south door was somewhat larger",
+        "correctAnswer": "dura",
+        "explanation":"Here 'duru' is a u-declension noun in the nominative and plural, so it takes the 'a' ending to become 'dura'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ðas foldan asiow sæda manigum (<em>wudu</em>) #### ond wyrta weorulde sceatum — He sowed this land with many seeds, trees and plants in the regions of the world",
+        "correctAnswer": "wuda",
+        "explanation":"Here 'wudu' is a u-declension noun in the accusative and plural, so it takes the 'a' ending to become 'wuda'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðeos wyrt ðe man batrachion ond oðrum naman clufwyrt nemneþ, biþ cenned on sandigum landum ond on (<em>feld</em>) #### — This herb which is called batrachion, and by another name buttercup, is produced on sandy lands and in fields",
+        "correctAnswer": "feldum",
+        "explanation":"Here 'feld' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'feldum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo dreorige modor astreaht æt þæs halgan apostoles fotum, biddende þæt he hire (<em>sunu</em>) #### arærde, swa swa he dyde þa wydewan Drusianam — The afflicted mother prostrated at the holy apostle's feet, praying that he would rear up her son, as he did the widow Drusiana",
+        "correctAnswer": "sunu",
+        "explanation":"Here 'sunu' is a u-declension noun in the accusative and singular, so it takes no ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "suna",
+                "explanation": "Here 'sunu' is directly receiving the action of the verb arærde, even though it comes before it. This makes it accusative, so it takes no ending and remains 'sunu'"
+            }
+        ]
+    },
+    {
+        "question": "Ge-edstaðela nu þas deorwurðan gymstanas, ðurh ðinra engla (<em>hand</em>) ####, þæt ðas nytenan menn þine mihta oncnawon — Restore now these precious gems through your angels' hands, that these ignorant men may acknowledge your powers",
+        "correctAnswer": "handa",
+        "explanation":"Here 'hand' is a u-declension noun in the genitive and plural, so it takes the 'a' ending to become 'handa'",
+        "commonMistakes": []
+    },
+    {
+        "question": "God bebead Moyse þæt he ond eall Israhela folc sceoldon offrian Gode an lamb anes geares, ond mearcian mid þæm blode rode-tacn on heora (<em>duru</em>) #### ond oferslegum — God commanded Moses that he and all the people of Israel should offer a lamb of one year to God, and mark with the blood the sign of the cross on their door-posts and lintels",
+        "correctAnswer": "durum",
+        "explanation":"Here 'duru' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'durum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie on (<em>wudu</em>) #### ond on westenum and on scræfum hie hyddon ond digledon — They in woods and in wastelands and in caves concealed and hid themselves",
+        "correctAnswer": "wudum",
+        "explanation":"Here 'wudu' is a u-declension noun in the dative and plural, so it takes the 'um' ending to become 'wudum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wille ðæt ælc man sind his huntnoþes wyrðe on wuda ond on (<em>feld</em>) #### on his agenan — I will that every man have the right to hunt in wood and in open country on his own property",
+        "correctAnswer": "felda",
+        "explanation":"Here 'feld' is a u-declension noun in the dative and singular, so it takes the 'a' ending to become 'felda'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo þa gelyfde his wordum, ond wearð mid (<em>cild</em>) #### — She believed his words and became with child",
+        "correctAnswer": "cilde",
+        "explanation":"Here 'cild' is an r-plural noun in the dative and singular, so it takes the 'e' ending to become 'cilde'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sceawa nu on anum (<em>æg</em>) #### hu ðæt hwite ne biþ gemenged to ðam geolcan ond biþ hwæðere an æg — Look now on an egg, how the white is not mingled with the yolk, and yet it is one egg",
+        "correctAnswer": "æge",
+        "explanation":"Here 'æg' is an r-plural noun in the dative and singular, so it takes the 'e' ending to become 'æge'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He gefullode ðone wulf ond geworhte to (<em>lamb</em>) #### — He baptised the wulf and made it a lamb",
+        "correctAnswer": "lambe",
+        "explanation":"Here 'lamb' is an r-plural noun in the dative and singular, so it takes the 'e' ending to become 'lambe'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ne on-foo of huse ðinum (<em>cealf</em>) #### — I will take no calves from your house",
+        "correctAnswer": "cealfru",
+        "explanation":"Here 'cealf' is an r-plural noun in the accusative and plural, so it takes the 'ru' ending to become 'cealfru'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu todæg Godes gelaðung geond ealne ymbhwyrft mærsað þæra eadigra (<em>cild</em>) #### freols-tide — Now today God's church throughout all the globe celebrates the festival of the blessed children",
+        "correctAnswer": "cildra",
+        "explanation":"Here 'cild' is an r-plural noun in the genitive and plural, so it takes the 'ra' ending to become 'cildra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Genim hænne (<em>æg</em>) #### geolocan ond hwites sealtes godne dael, men eal tosomne — Take the yoke of a hen's egg and a good portion of white salt, mix all together",
+        "correctAnswer": "æges",
+        "explanation":"Here 'æg' is an r-plural noun in the genitive and singular, so it takes the 'es' ending to become 'æges'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He is Lamb gehaten for ðære unscæððignysse (<em>lamb</em>) #### gecyndes ond wæs unscyldig — He is called Lamb, from the innocence of the lamb's nature; and was guiltless",
+        "correctAnswer": "lambes",
+        "explanation":"Here 'lamb' is an r-plural noun in the genitive and singular, so it takes the 'es' ending to become 'lambes'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Me ymbhringdon mænige (<em>cealf</em>) #### — Many cattle surrounded me",
+        "correctAnswer": "cealfru",
+        "explanation":"Here 'cealf' is an r-plural noun in the nominative and plural, so it takes the 'ru' ending to become 'cealfru'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þæt godspel cweð þæt Rachel beweop hire (<em>cild</em>) #### ond nolde beon gefrefrod — The gospel says, that Rachel wept for her children, and would not be comforted",
+        "correctAnswer": "cildru",
+        "explanation":"Here 'cild' is an r-plural noun in the accusative and plural, so it takes the 'ru' ending to become 'cildru'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þam cildum ic bead þæt hie gehyrsume wæron (<em>fæder</em>) #### ond modor to halwendum mynegungum —  Children I bade that they be obedient to the salutary admonitions of father and mother",
+        "correctAnswer": "fæder",
+        "explanation":"Here 'fæder' is a family noun in the genitive and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hieronimus se halga sacerd awrat ænne pistol be forðsiðe þære eadigan Marian to sumum halgan mædene ond to hire (<em>modor</em>) #### Paulam — Jerome the holy priest wrote an epistle on the decease of the blessed Mary, to a holy maiden and to her mother Paula",
+        "correctAnswer": "meder",
+        "explanation":"Here 'modor' is a family noun in the dative and singular, so the vowels change from 'o' to 'e' to become 'meder'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se ðe ðis hylt, he bið Godes bearn, and Crist, and ealle halige men ðe Gode geðeoð, beoð his broðra and his (<em>sweostor</em>) #### — He who observes this is a child of God, and Christ, and all holy persons who thrive to God, are his brothers and his sisters.",
+        "correctAnswer": "sweostra",
+        "explanation":"Here 'sweostor' is a family noun in the accusative and plural, so it loses its final 'o' and gains the 'a' ending to become 'sweostra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Soðlice seo cwen Triphonia gesohte ðæs halgan sacerdes fet Iustines mid biterum tearum ond hire (<em>dohtor</em>) #### Cyrilla samod, biddende þæs halgan fulluhtes — But the queen Tryphonia, together with her daughter Cyrilla, sought the feet of the holy priest Justin with bitter tears, praying for holy baptism",
+        "correctAnswer": "dohtor",
+        "explanation":"Here 'dohtor' is a family noun in the nominative and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Mine (<em>broðor</em>) ####, ne beo ge afyrhte, cumað ond eower nan him ne ondræde ða scortan tintregunga — My brothers, be you not afraid, come, and let none of you dread short torments",
+        "correctAnswer": "broðra",
+        "explanation":"Here 'broðor' is a family noun in the nominative and plural, so it loses its final 'o' and gains the 'a' ending to become 'broðra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic manode (<em>fæder</em>) #### þæt hie mid steore Godes eges heora cildru geðeawodon — I exhorted fathers to bring up their children in the fear of God",
+        "correctAnswer": "fæderas",
+        "explanation":"Here 'fæder' is a family noun in the accusative and plural, so it takes the 'as' ending",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "fædera",
+                "explanation": "Here 'fæder' is directly receiving the action of the verb 'manode' making it accusative. Unlike other family nouns, the accusative plural ending for 'fæder' is 'as', not 'a', so it becomes 'fæderas'"
+            }
+        ]
+    },
+    {
+        "question": "Se ylca God þe gesceop Adam mid his handum, he gescypð ælces mannes lichaman on his (<em>modor</em>) #### innoðe — The same God who created Adam with his hands, created every man's body in his mother's womb",
+        "correctAnswer": "modor",
+        "explanation":"Here 'modor' is a family noun in the genitive and singular, so it takes no ending",
+        "commonMistakes": []
+    },
+    {
+        "question": "Adam þa wæs wunigende on þisum life mid geswince, ond he and his wif ða bearn gestryndon, ægðer suna ond (<em>dohtor</em>) #### — Adam then was continuing in this life with toil, and he and his wife begat children, both sons and daughters",
+        "correctAnswer": "dohtra",
+        "explanation":"Here 'dohtor' is a family noun in the accusative and plural, so it loses its final 'o' and gains the 'a' ending to become 'dohtra'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þa dælde se casere þæt Iudeisce rice on feower, ond sette ðærto feower (<em>broðor</em>) #### ða sind gecwedene æfter Greciscum gereorde, tetrarche — The emperor then divided the Jewish kingdom into four, and placed therein four brothers, who, according to the Greek tongue, are called 'tetrarchs'",
+        "correctAnswer": "broðra",
+        "explanation":"Here 'broðor' is a family noun in the accusative and plural, so it loses its final 'o' and gains the 'a' ending to become 'broðra'",
+        "commonMistakes": []
+    }
+]
