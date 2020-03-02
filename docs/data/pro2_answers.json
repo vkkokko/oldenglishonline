@@ -18,10 +18,14 @@
         "commonMistakes": []
     },
     {
-        "question": "Drihtnes ys eorðe, and eall þæt (<em>heo</em>) #### mid gefyld is⁠ — The earth is the Lord's, and all that she is filled with",
+        "question": "Drihtnes is eorðe, and eall þæt (<em>heo</em>) #### mid gefyld is⁠ — The earth is the Lord's, and all that she is filled with",
         "correctAnswer": "heo",
         "explanation":"Here 'heo' is used in the nominative so it remains 'heo'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+            "incorrectAnswer": "he",
+            "explanation":"Here 'eorðe' is a feminine noun, so it is referred to as 'she'"
+        }]
     },
     {
         "question": "(<em>we</em>) #### cildra biddaþ þe, eala lareow, þæt þu tæce us sprecan leden⁠ — We children ask you, oh teacher, that you teach us to speak Latin",
@@ -42,13 +46,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Ealle þing (<em>ic</em>) #### synt gesealde⁠ — All things are given by me",
+        "question": "Ealle þing (<em>ic</em>) #### sind gesealde⁠ — All things are given by me",
         "correctAnswer": "me",
         "explanation":"Here 'ic' is used in the accusative so it becomes 'me'",
         "commonMistakes": []
     },
     {
-        "question": "We (<em>þu</em>) #### þanciaþ, þe þu hafest on gewealdum hiofen and eorþan⁠ — We thank you, you who has control of heaven and earth",
+        "question": "We (<em>þu</em>) #### þanciaþ, þe þu hafest on gewealdum heofan and eorþan⁠ — We thank you, you who has control of heaven and earth",
         "correctAnswer": "þe",
         "explanation":"Here 'þe' is used in the accusative so it becomes 'þe'",
         "commonMistakes": []
@@ -61,8 +65,8 @@
     },
     {
         "question": "He geseah (<em>heo</em>) #### feorran⁠ — He saw her from afar",
-        "correctAnswer": "heo",
-        "explanation":"Here 'heo' is used in the accusative but feminine third person singular pronouns do not decline differently between nominiative and accusative so it stays as 'heo'",
+        "correctAnswer": "hie",
+        "explanation":"Here 'heo' is used in the accusative so it becomes 'hie'",
         "commonMistakes": []
     },
     {
@@ -84,7 +88,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hwanon sylan scear oþþe culter, þe na gade hæfþ buton of cræfte (<em>ic</em>) ####?⁠ — How does the ploughman get his plough-share or knife or goad but by my craft? ",
+        "question": "Hwanon scylen scear oþþe culter, þe na gade hæfþ buton of cræfte (<em>ic</em>) ####?⁠ — How does the ploughman get his plough-share or knife or goad but by my craft? ",
         "correctAnswer": "min",
         "explanation":"Here 'ic' is used in the genitive so it becomes 'min'",
         "commonMistakes": []
@@ -96,7 +100,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða he gefor ða feng (<em>he</em>) #### sunu to ðam rice⁠ — When he died then came his son to the throne",
+        "question": "Ða he gefor, ða feng (<em>he</em>) #### sunu to ðam rice⁠ — When he died, then his son came to the throne",
         "correctAnswer": "his",
         "explanation":"Here 'he' is used in the genitive so it becomes 'his'",
         "commonMistakes": []
@@ -114,13 +118,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa Gotan eow hwon oferhergedon, and (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged you a little and slew a few of you",
+        "question": "Þa Gotan eow hwon oferhergedon, and (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged you a little and slew a few of ye",
         "correctAnswer": "eower",
-        "explanation":"Here 'ge' is used in the genitive so it becomes 'eower'",
+        "explanation":"Here 'ge' is used in the genitive (of ye) so it becomes 'eower'",
         "commonMistakes": []
     },
     {
-        "question": "Ða cuædon hie ðæt him nænig mæg leofra nære ðonne (<em>hie</em>) #### hlaford⁠ — Then they said that to them, no kinsman was dearer than their lord",
+        "question": "Ða cwædon hie ðæt him nænig mæg leofra nære ðonne (<em>hie</em>) #### hlaford⁠ — Then they said that to them, no kinsman was dearer than their lord",
         "correctAnswer": "hira",
         "explanation":"Here 'hie' is used in the genitive so it becomes 'hira'",
         "commonMistakes": []
@@ -132,13 +136,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic wille wiþ (<em>þu</em>) #### farnan, Ælfirc⁠ — I will go with you, Alfric",
+        "question": "Ic wille wiþ (<em>þu</em>) #### feran, Ælfric⁠ — I want to go with you, Alfric",
         "correctAnswer": "þe",
-        "explanation":"Here 'þu' is used in the dative so it becomes 'þe'",
+        "explanation":"Here 'þu' is used in the dative (after the preposition 'be') so it becomes 'þe'",
         "commonMistakes": []
     },
     {
-        "question": "Se arcebiscop axode hyrsumnesse mid aþswerunge at (<em>he</em>) ####⁠ — The archbishop asked for obedience with an oath to him",
+        "question": "Se arcebiscop ascode hyrsumnesse mid aþswerunge at (<em>he</em>) ####⁠ — The archbishop asked for obedience with an oath to him",
         "correctAnswer": "him",
         "explanation":"Here 'he' is used in the dative so it becomes 'him'",
         "commonMistakes": []

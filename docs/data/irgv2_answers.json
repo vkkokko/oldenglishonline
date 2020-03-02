@@ -18,7 +18,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Swa monige (<em>beon</em>) #### men ofer eorþan swa beoþ modgeþoncas — There are as many viewpoints as there are men on earth",
+        "question": "Swa monige (<em>beon</em>) #### men ofer eorþan, swa beoþ modgeþoncas — There are as many viewpoints as there are men on earth",
         "correctAnswer": "beoþ",
         "explanation":"Here 'beon' is plural form 'beoþ' as the subject is 'men",        
         "commonMistakes": []
@@ -42,7 +42,7 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>wesan</em>) #### þissa heldora wegas forworhte swa ic mid wihte ne mæg of þissum lioðobendum — These gates of hell are obstructed so I may not escape these limb—bonds",
+        "question": "(<em>wesan</em>) #### þissa heldora wegas forworhte — These gates of hell are obstructed",
         "correctAnswer": "sind",
         "explanation":"Here 'wesan' is in the pluralform 'sind' as the subject is 'þissa heldora wegas'",        
         "commonMistakes": []
@@ -78,7 +78,7 @@
         "commonMistakes": []
     },
     {
-        "question": "For ðan ðe ðu ðis dydest ðu (<em>beon</em>) #### awyrged betweox eallum nytenum and wildeorum — Because you did this, you will be cursed among all the beasts and wild animals",
+        "question": "For ðan ðe ðu ðis dydest, ðu (<em>beon</em>) #### awyrged betweox eallum nytenum and wildeorum — Because you did this, you will be cursed among all the beasts and wild animals",
         "correctAnswer": "bist",
         "explanation":"Here 'beon' is in the second person singular form 'beo' as the subject is 'ðu'",        
         "commonMistakes": []
@@ -90,13 +90,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Swa biþ sæ smilte þonne hie wind ne weceþ swa (<em>beon</em>) #### þeoda geþwære, þonne hie geþingad habbað — As the sea is calm when the wind doesn't blow, so are people at peace when they have negotiated",
+        "question": "Swa biþ sæ smilte þonne hie wind ne weceþ, swa (<em>beon</em>) #### þeoda geþwære, þonne hie geþingad habbað — As the sea is calm when the wind doesn't blow, so are people at peace when they have negotiated",
         "correctAnswer": "beoþ",
         "explanation":"Here 'beon' is in the plural form 'beoþ' as the subject is 'þeoda'",        
         "commonMistakes": []
     },
     {
-        "question": "Ic (<em>wesan</em>) #### mare þonne þes middangeard læsse þonne hondwyrm leohtre þonne mona swiftre þonne sunne — I am more than this middle world, less than a mite, lighter than the moon, swifter than the sun",
+        "question": "Ic (<em>wesan</em>) #### mare þonne þes middangeard, læsse þonne hondwyrm, leohtre þonne mona, swiftre þonne sunne — I am more than this middle world, less than a mite, lighter than the moon, swifter than the sun",
         "correctAnswer": "eom",
         "explanation":"Here 'wesan' is in the first person singular form 'eom' as the subject is 'ic'",        
         "commonMistakes": []
@@ -114,7 +114,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie cwædon Drihten her (<em>wesan</em>) #### twa swurd — They said, 'Lord, here are two swords'",
+        "question": "Hie cwædon 'Drihten her (<em>wesan</em>) #### twa swurd' — They said, 'Lord, here are two swords'",
         "correctAnswer": "sind",
         "explanation":"Here 'wesan' is in the plural form 'sind' as the subject is 'twa swurd'",        
         "commonMistakes": []
@@ -138,7 +138,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>wesan</em>) #### swa eaþmode ond swa unscæððige swa þæt cild wæs — They were as humble and as innocent as the child ",
+        "question": "Hie (<em>wesan</em>) #### swa eaþmode ond swa unscæððige swa þæt cild wæs — They were as humble and as innocent as that child was",
         "correctAnswer": "wæron",
         "explanation":"Here 'wesan' is in the past plural form 'wæron' as the subject is 'hie'",        
         "commonMistakes": []
