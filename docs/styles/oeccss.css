@@ -731,6 +731,10 @@ table {
 	padding: 10px;
 }
 
+.five-px-padding {
+	padding: 10px 5px !important;
+}
+
 table a {
 	color: rgb(161, 70, 10);
 }
