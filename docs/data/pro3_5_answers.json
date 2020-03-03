@@ -18,10 +18,14 @@
         "commonMistakes": []
     },
     {
-        "question": "Drihtnes ys eorðe, and eall þæt (<em>heo</em>) #### mid gefyld is⁠ — The earth is the Lord's, and all that she is filled with",
+        "question": "Drihtnes is eorðe, and eall þæt (<em>heo</em>) #### mid gefyld is⁠ — The earth is the Lord's, and all that she is filled with",
         "correctAnswer": "heo",
         "explanation":"Here 'heo' is used in the nominative so it remains 'heo'",
-        "commonMistakes": []
+        "commonMistakes": [ 
+            { 
+            "incorrectAnswer": "he", 
+            "explanation":"Here 'eorðe' is a feminine noun, so it is referred to as 'she'" 
+        }]
     },
     {
         "question": "(<em>we</em>) #### cildra biddaþ þe, eala lareow, þæt þu tæce us sprecan leden⁠ — We children ask you, oh teacher, that you teach us to speak Latin",
@@ -42,7 +46,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ealle þing (<em>ic</em>) #### synt gesealde⁠ — All things are given by me",
+        "question": "Ealle þing (<em>ic</em>) #### sind gesealde⁠ — All things are given by me",
         "correctAnswer": "me",
         "explanation":"Here 'ic' is used in the accusative so it becomes 'me'",
         "commonMistakes": []
@@ -61,8 +65,8 @@
     },
     {
         "question": "He geseah (<em>heo</em>) #### feorran⁠ — He saw her from afar",
-        "correctAnswer": "heo",
-        "explanation":"Here 'heo' is used in the accusative but feminine third person singular pronouns do not decline differently between nominiative and accusative so it stays as 'heo'",
+        "correctAnswer": "hie",
+        "explanation":"Here 'heo' is used in the accusative so it becomes 'hie'",
         "commonMistakes": []
     },
     {
@@ -84,7 +88,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hwanon sylan scear oþþe culter, þe na gade hæfþ buton of cræfte (<em>ic</em>) ####?⁠ — How does the ploughman get his plough-share or knife or goad but by my craft? ",
+        "question": "Hwanon scylen scear oþþe culter, þe na gade hæfþ buton of cræfte (<em>ic</em>) ####?⁠ — How does the ploughman get his plough-share or knife or goad but by my craft? ",
         "correctAnswer": "min",
         "explanation":"Here 'ic' is used in the genitive so it becomes 'min'",
         "commonMistakes": []
@@ -96,7 +100,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða he gefor ða feng (<em>he</em>) #### sunu to ðam rice⁠ — When he died then came his son to the throne",
+        "question": "Ða he gefor, ða feng (<em>he</em>) #### sunu to ðam rice⁠ — When he died then came his son to the throne",
         "correctAnswer": "his",
         "explanation":"Here 'he' is used in the genitive so it becomes 'his'",
         "commonMistakes": []
@@ -114,13 +118,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa Gotan eow hwon oferhergedon, and (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged you a little and slew a few of you",
+        "question": "Þa Gotan eow hwon oferhergedon, and (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged ye a little and slew a few of ye",
         "correctAnswer": "eower",
-        "explanation":"Here 'ge' is used in the genitive so it becomes 'eower'",
+        "explanation":"Here 'ge' is used in the genitive ('of ye') so it becomes 'eower'",
         "commonMistakes": []
     },
     {
-        "question": "Ða cuædon hie ðæt him nænig mæg leofra nære ðonne (<em>hie</em>) #### hlaford⁠ — Then they said that to them, no kinsman was dearer than their lord",
+        "question": "Ða cwædon hie ðæt him nænig mæg leofra nære ðonne (<em>hie</em>) #### hlaford⁠ — Then they said that to them, no kinsman was dearer than their lord",
         "correctAnswer": "hira",
         "explanation":"Here 'hie' is used in the genitive so it becomes 'hira'",
         "commonMistakes": []
@@ -132,19 +136,19 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic wille wiþ (<em>þu</em>) #### farnan, Ælfirc⁠ — I will go with you, Alfric",
+        "question": "Ic wille wiþ (<em>þu</em>) #### farnan, Ælfric⁠ — I want to go with you, Alfric",
         "correctAnswer": "þe",
-        "explanation":"Here 'þu' is used in the dative so it becomes 'þe'",
+        "explanation":"Here 'þu' is used in the dative (after the preposition 'be') so it becomes 'þe'",
         "commonMistakes": []
     },
     {
-        "question": "Se arcebiscop axode hyrsumnesse mid aþswerunge at (<em>he</em>) ####⁠ — The archbishop asked for obedience with an oath to him",
+        "question": "Se arcebiscop ascode hyrsumnesse mid aþswerunge at (<em>he</em>) ####⁠ — The archbishop asked for obedience with an oath to him",
         "correctAnswer": "him",
         "explanation":"Here 'he' is used in the dative so it becomes 'him'",
         "commonMistakes": []
     },
     {
-        "question": "Heo spræc to (<em>heo</em>) #### selfre suna⁠ — She spoke to her own sons",
+        "question": "Heo spræc to (<em>heo</em>) #### sunum⁠ — She spoke to her sons",
         "correctAnswer": "hire",
         "explanation":"Here 'heo' is used in the dative so it becomes 'hire'",
         "commonMistakes": []
@@ -194,29 +198,29 @@
     {
         "question": "Gif (<em>þu</em>) #### ðæt fæsten fyre willaþ forstandan⁠ — If you two will protect that fastness from fire",
         "correctAnswer": "git",
-        "explanation":"Here 'þu' is used in the first person dual nominative so it becomes 'git'",
+        "explanation":"Here 'þu' is used in the second person dual nominative so it becomes 'git'",
         "commonMistakes": []
     },
     {
         "question": "Swa (<em>þu</em>) #### se balewa het⁠ — So the baleful one commanded you two ",
         "correctAnswer": "inc",
-        "explanation":"Here 'þu' is used in the first person dual accusative so it becomes 'inc'",
+        "explanation":"Here 'þu' is used in the second person dual accusative so it becomes 'inc'",
         "commonMistakes": []
     },
     {
-        "question": "Ic nu ðis þing write to ðe gemanelice and to minre meder and minum geswustrum forðon (<em>þu</em>) #### lufu sceal beon somod gemane⁠ — I now write this thing to you together, to my mother and my sister, because the love of you both shall be mutual ",
+        "question": "Ic nu ðis þing write to ðe gemanelice and to minre meder and minum sweostor forðon (<em>þu</em>) #### lufu sceal beon somod gemane⁠ — I now write this thing to you together, to my mother and my sister, because the love of you both shall be mutual ",
         "correctAnswer": "incer",
-        "explanation":"Here 'þu' is used in the first person dual genitive so it becomes 'incer'",
+        "explanation":"Here 'þu' is used in the second person dual genitive so it becomes 'incer'",
         "commonMistakes": []
     },
     {
         "question": "Hwæt wylle git ðæt ic (<em>þu</em>) #### do?⁠ — What do you two wish I do for you two?",
         "correctAnswer": "inc",
-        "explanation":"Here 'þu' is used in the first person dual dative so it becomes 'inc'",
+        "explanation":"Here 'þu' is used in the second person dual dative so it becomes 'inc'",
         "commonMistakes": []
     },
     {
-        "question": "Ða wæron (<em>ic</em>) #### twegen on anum olfende þurh þæt rume westen⁠ — Then we two were on a camel travelling through that enormous desert",
+        "question": "Ða wæron (<em>ic</em>) #### twegen on anum olfende þurh þæt rume westan⁠ — Then we two were on a camel travelling through that enormous desert",
         "correctAnswer": "wit",
         "explanation":"Here 'ic' is used in the first person dual nominative so it becomes 'wit'",
         "commonMistakes": []
@@ -228,7 +232,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðanne gæornlicæ of þam god geþæncæ and for (<em>ic</em>) #### sawle geornlicæ beo⁠ — Remember God diligently from the property and be diligent for our two souls",
+        "question": "Ðanne gæornlicæ of þæm gode geþæncæ and for (<em>ic</em>) #### sawle geornlicæ beo⁠ — Remember God diligently from the property and be diligent for our two souls",
         "correctAnswer": "uncer",
         "explanation":"Here 'ic' is used in the first person dual genitive so it becomes 'uncer'",
         "commonMistakes": []
@@ -240,7 +244,7 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>þu</em>) #### sindon bigswicon⁠ — You two are deceivers",
+        "question": "(<em>þu</em>) #### sindon bigswican⁠ — You two are deceivers",
         "correctAnswer": "git",
         "explanation":"Here 'þu' is used in the first person dual nominative so it becomes 'git'",
         "commonMistakes": []
@@ -248,13 +252,13 @@
     {
         "question": "Se (<em>þu</em>) #### forgeaf balewe geþohtas⁠ — He inspired you with wicked thoughts",
         "correctAnswer": "inc",
-        "explanation":"Here 'þu' is used in the first person dual accusative so it becomes 'inc'",
+        "explanation":"Here 'þu' is used in the second person dual accusative so it becomes 'inc'",
         "commonMistakes": []
     },
     {
         "question": "Ac git waron æt þisse wydewan hame and þær þus (<em>þu</em>) #### lif leofodon⁠ — But you were at the home of a widow, and there passed your time in wisdom",
         "correctAnswer": "incer",
-        "explanation":"Here 'þu' is used in the first person dual genitive so it becomes 'incer'",
+        "explanation":"Here 'þu' is used in the second person dual genitive so it becomes 'incer'",
         "commonMistakes": []
     },
     {
@@ -264,15 +268,15 @@
         "commonMistakes": []
     },
     {
-        "question": "Wit (<em>ic</em>) #### gefyldan niowes ceses⁠ — We filled ourselves with new cheese",
+        "question": "Wit (<em>ic</em>) #### gefyldon niowes ceses⁠ — We filled ourselves with new cheese",
         "correctAnswer": "unc",
         "explanation":"Here 'ic' is used in the first person dual accusative so it becomes 'unc'",
         "commonMistakes": []
     },
     {
-        "question": "(<em>ic</em>) Wit geseagon #### feond forwordene⁠ — We two saw our enemy perish",
+        "question": "(<em>ic</em>) wit geseagon #### feond forwordene⁠ — We two saw our enemy perish",
         "correctAnswer": "uncer",
-        "explanation":"Here 'ic' is used in the first person dual genitive so it becomes 'uncer'",
+        "explanation":"Here 'ic' is used in the first person dual genitive (lit. 'of we two') so it becomes 'uncer'",
         "commonMistakes": []
     },
     {
@@ -282,15 +286,21 @@
         "commonMistakes": []
     },
     {
-        "question": " Gangaþ ut (<em>þu</em>) #### godwrecan⁠ — Come out ye two wretches",
+        "question": " Gangaþ ut (<em>þu</em>) #### godwrecan⁠! — Come out ye two wretches!",
         "correctAnswer": "git",
-        "explanation":"Here 'þu' is used in the first person dual nominative so it becomes 'git'",
+        "explanation":"Here 'þu' is used in the second person dual nominative so it becomes 'git'",
         "commonMistakes": []
     },
     {
-        "question": "(<em>þu</em>) #### sceal worn fela maðma gemænra⁠ — To you two shall be a great many common treasures",
-        "correctAnswer": "inc",
-        "explanation":"Here 'þu' is used in the first person dual dative so it becomes 'inc'",
+        "question": "(<em>þu</em>) #### sculon deore agyldan! — You two shall pay dearly!",
+        "correctAnswer": "git",
+        "explanation":"Here 'þu' is used in the second person dual nominative so it becomes 'git'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gað nu to wuda, and heawað (<em>þu</em>) #### byrðene wuda! — Go now to the wood, and cut your two's load of wood!",
+        "correctAnswer": "incer",
+        "explanation":"Here 'þu' is used in the second person dual genitive so it becomes 'incer'",
         "commonMistakes": []
     }
 ]

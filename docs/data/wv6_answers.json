@@ -41,7 +41,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic ðe orlæg (<em>secgan</em>) ####⁠ — I told thee thy fate",
+        "question": "Ic ðe orlæg (<em>secgan</em>) ####⁠ — I told you your fate",
         "correctAnswer": "secgde ",
         "explanation": "Here 'secgan' is in the first person singular form '<em>secgde</em>' because the subject is 'I",
         "commonMistakes": []
@@ -59,18 +59,18 @@
         "commonMistakes": [
             {
                 "incorrectAnswer": "hafde",
-                "explanation": "Close, but remember, 'habban' takes an 'æ' instead of an 'a' in all past tense conjugations"
+                "explanation": "Remember, 'habban' takes an 'æ' instead of an 'a' in all past tense conjugations"
             }
         ]
     },
     {
-        "question": "We ealne ðysne gear (<em>libban</em>) #### mid ures lichoman willan⁠ — we have lived all this year as it was pleasing to our body",
+        "question": "We ealne ðisne gear (<em>libban</em>) #### mid ures lichoman willan⁠ — we have lived all this year as it was pleasing to our body",
         "correctAnswer": "lifdon",
         "explanation": "Here 'libban' is in the plural form '<em>lifdon</em>' because the subject is 'We'",
         "commonMistakes": []
     },
     {
-        "question": "Ge guilty synne (<em>secgan</em>) ####⁠ — You the guilty spoke sin",
+        "question": "Ge self synne (<em>secgan</em>) ####⁠ — You yourselves spoke sin",
         "correctAnswer": "sægdon",
         "explanation": "Here 'secgan' is in the plural past form '<em>sægdon</em>' because the subject is the plural 'You'",
         "commonMistakes": []
@@ -79,12 +79,7 @@
         "question": "Hie (<em>hycgan</em>) #### inwit and facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
         "correctAnswer": "hogdon",
         "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogdon</em>' because the subject is 'They'",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
+        "commonMistakes": []
     },
     {
         "question": "Ic bi me (<em>secgan</em>) #### ðis sarspell⁠ — I tell this lament about myself",
@@ -93,19 +88,19 @@
         "commonMistakes": []
     },
     {
-        "question": "Æðelwulf his dohtor (<em>habban</em>) #### him to cuene⁠ — Ethelwulf had his daughter for his queen",
+        "question": "Æðelwulf his dohtor (<em>habban</em>) #### him to cwene⁠ — Ethelwulf had his daughter for his queen",
         "correctAnswer": "hæfde",
         "explanation": "Here 'habban' is in the third person singular form '<em>hæfde</em>' because the subject is 'Ethelwulf'",
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>habban</em>) #### hine mid heom oþ ðet hie ofslogon hine⁠ — They had him with them until they slew him",
+        "question": "Hie (<em>habban</em>) #### hine mid heom oþ ðæt hie ofslogon hine⁠ — They had him with them until they slew him",
         "correctAnswer": "hæfdon",
         "explanation": "Here 'habban' is in the plural form '<em>hæfdon</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
-        "question": "For ðam ic lybbe and ge (<em>libban</em>) ####⁠ — Because I live, you live",
+        "question": "For ðæm ic lybbe and ge (<em>libban</em>) ####⁠ — Because I live, you live",
         "correctAnswer": "libbaþ|libbað",
         "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
         "commonMistakes": []
@@ -146,7 +141,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Eala ðu scippend heofones and eorþan! Ðu ðe on ðam ecan setle (<em>ricsian</em>) ####!⁠ — Oh you the creator of heaven and earth! You who reigns on the eternal seat!",
+        "question": "Eala ðu scippend heofones and eorþan! Ðu ðe on ðæm ecan setle (<em>ricsian</em>) ####!⁠ — Oh you the creator of heaven and earth! You who reigns on the eternal seat!",
         "correctAnswer": "ricsast",
         "explanation": "Here 'ricsian' is in the second person singular form '<em>ricsast</em>' because the subject is 'You",
         "commonMistakes": []
@@ -169,7 +164,7 @@
         ]
     },
     {
-        "question": "Heofonas (<em>bodian</em>) #### oððe cýðaþ wuldor Godes⁠ — The heavens procalimed the glory of God",
+        "question": "Heofonas (<em>bodian</em>) #### wuldor Godes⁠ — The heavens procalimed the glory of God",
         "correctAnswer": "bodiaþ|bodiað",
         "explanation": "Here 'bodian' is in the third person plural form '<em>bodiað</em>' as the subject is plural: 'the heavens'",
         "commonMistakes": []
@@ -205,12 +200,12 @@
     },
     {
         "question": "Hie (<em>timbrian</em>) #### langscipu mid æscum⁠ — They built the longships with ash trees",
-        "correctAnswer": "timbredon",
-        "explanation": "Here 'timbrian' is in the third person plural form '<em>timbredon</em>' because the subject is 'They'",
+        "correctAnswer": "timbrodon",
+        "explanation": "Here 'timbrian' is in the third person plural form '<em>timbrodon</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
-        "question": "On ðam dagum (<em>ricsian</em>) #### Æþelbyrht cyning ond his wif on Cantwarebyrig⁠ — On this day, Ethelbyrt and his wife reigned in Canterbury",
+        "question": "On ðæm dagum (<em>ricsian</em>) #### Æþelbyrht cyning ond his wif on Cantwarebyrig⁠ — On this day, Ethelbyrt and his wife reigned in Canterbury",
         "correctAnswer": "ricsodon",
         "explanation": "Here 'ricsian' is in the third person plural past form '<em>ricsodon</em>' because the subject is 'Ethelbert and his wife'",
         "commonMistakes": []
@@ -228,7 +223,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hwy (<em>bodian</em>) #### þu mine rihtwisnesse mid þinne fulan muð⁠ — Why do you proclaim my justice with your foul mouth?",
+        "question": "Hwy (<em>bodian</em>) #### þu mine rihtwisnesse mid þinne fulan muð⁠e — Why do you proclaim my justice with your foul mouth?",
         "correctAnswer": "bodast",
         "explanation": "Here 'bodian' is in the first person singular form '<em>bodast</em>' because the subject is 'you'",
         "commonMistakes": []
@@ -240,7 +235,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>lufian</em>) #### mid lacum ða ðe læs agun⁠ — They show love with offerings to they who possess less",
+        "question": "Hie (<em>lufian</em>) #### mid lacum ða ðe læs agon⁠ — They show love with offerings to they who possess less",
         "correctAnswer": "lufiaþ|lufiað",
         "explanation": "Here 'lufian' is in the third person plural form '<em>lufiaþ</em>' because the subject is 'they'",
         "commonMistakes": []
@@ -282,7 +277,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie hine (<em>lufian</em>) #### lease muðe⁠ — They loved him falsely with their mouth",
+        "question": "Hie hine (<em>lufian</em>) #### lease — They loved him falsely",
         "correctAnswer": "lufodon",
         "explanation": "Here 'lufian' is in the third person singular form '<em>lufodon</em>' because the subject is 'they'",
         "commonMistakes": []
@@ -356,7 +351,7 @@
             "commonMistakes": []
         },
         {
-            "question": "Hie halig God (<em>nerian</em>) ####⁠ — They are saved by holy God",
+            "question": "Hie haligum Gode (<em>nerian</em>) ####⁠ — They are saved by holy God",
             "correctAnswer": "neredon",
             "explanation": "Here 'nerian' is in the third person plural past form '<em>neredon</em>' because the subject is 'They'",
             "commonMistakes": [
@@ -407,7 +402,7 @@
             ]
         },
         {
-            "question": "Ic (<em>hieran</em>) #### &thorn;u⁠ — I hear you",
+            "question": "Ic (<em>hieran</em>) #### þe — I hear you",
             "correctAnswer": "hiere",
             "explanation": "Here 'hieran' is in the first person singular form '<em>hiere</em>' because the subject is 'I'",
             "commonMistakes": []

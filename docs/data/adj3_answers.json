@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Harold cyning þis gehierde þa gaderode he (<em>micel</em>) #### fierd ⁠— King Harold heard this, then he gathered a large army",
+        "question": "Ða Harold cyning þis gehierde þa gaderode he (<em>micel</em>) #### fierde ⁠— When King Harold heard this, then he gathered a large army",
         "correctAnswer": "micele",
         "explanation":"Here 'micel' is modifying the singular accusative feminine 'fierd' so it takes the 'e' suffix",
         "commonMistakes": []
@@ -36,7 +36,7 @@
         "commonMistakes": []
     },
     {
-        "question": "She wæs (<em>æðele</em>) #### gebyrde ⁠— She was of noble birth",
+        "question": "Seo wæs (<em>æðele</em>) #### gebyrde ⁠— She was of noble birth",
         "correctAnswer": "æðelre",
         "explanation":"Here 'æðele' is modifying the singular genitive feminine 'byrd' so it takes the 're' suffix",
         "commonMistakes": []
@@ -44,7 +44,7 @@
     {
         "question": "Buteran ond beana ond ealle clæne þingc ic ete mid (<em>micel</em>) #### þancunge ⁠— Butter and beans and all clean things I eat with many thanks",
         "correctAnswer": "micelre ",
-        "explanation":"Here 'micel' is modifying the singular genitive feminine 'þancung' so it takes the 're' suffix",
+        "explanation":"Here 'micel' is modifying the singular dative feminine 'þancunge' so it takes the 're' suffix",
         "commonMistakes": []
     },
     {
@@ -60,7 +60,7 @@
         "commonMistakes": []
     },
     {
-        "question": "We rædaþ ond hieraþ word be Æþelrede cyning, be (<em>eald</em>) #### weale, and be þæm gefeohtum ⁠— We read and hear words about King Ethelred, about old wealth and about the fights",
+        "question": "We rædaþ ond hieraþ word be Æþelrede cyninge, be (<em>eald</em>) #### weale, and be þæm gefeohtum ⁠— We read and hear words about King Ethelred, about old wealth and about the fights",
         "correctAnswer": "ealdum ",
         "explanation":"Here 'eald' is modifying the singular dative masculine 'weala' so it takes the 'um' suffix",
         "commonMistakes": []
@@ -78,13 +78,13 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>god</em>) #### sawla sint undeaþlice and ece ⁠— Good souls are immortal and eternal",
+        "question": "(<em>god</em>) #### sawla sind undeaþlice and ece ⁠— Good souls are immortal and eternal",
         "correctAnswer": "goda",
         "explanation":"Here 'god' is modifying the plural nominative feminine 'sawel' so it takes the 'a' suffix",
         "commonMistakes": []
     },
     {
-        "question": "Næs þes þegn þa unwise þa he sende (<em>eald</em>) #### scipu to þa wealum ⁠— Is this thane not then unwise when he sent old ships to the foreigners",
+        "question": "Næs þes þegn þa unwise þa he sende (<em>eald</em>) #### scipu to þæm wealum ⁠— Is this thane not then unwise when he sent old ships to the foreigners",
         "correctAnswer": "ealde",
         "explanation":"Here 'eald' is modifying the plural accusative neuter 'scip' so it takes the 'e' suffix",
         "commonMistakes": []
@@ -108,13 +108,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Win nys drenc cilda ac ealdra ond (<em>wis</em>) #### men⁠— Wine is not a drink of children, but of old and wise men",
+        "question": "Win nys drenc cilda ac ealdra ond (<em>wis</em>) #### men⁠ — Wine is not a drink of children, but of old and wise men",
         "correctAnswer": "wisra",
         "explanation":"Here 'wis' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
         "commonMistakes": []
     },
     {
-        "question": "On ælcum þingum ðe ðær unbecweden biþ on bocum and on swylcum (<em>lytel</em>) #### þingum ⁠— On all things that are unbequeathed, books and other such little things",
+        "question": "On ælcum þingum ðe ðær unbecweden biþ, on bocum and on swylcum (<em>lytel</em>) #### þingum ⁠— On all things that are unbequeathed, books and other such little things",
         "correctAnswer": "lytlum",
         "explanation":"Here 'lytel' is modifying the plural dative neuter 'þing' so it takes the 'um' suffix",
         "commonMistakes": []

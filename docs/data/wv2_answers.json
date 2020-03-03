@@ -36,7 +36,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ne ondræde ####⁠ — Fear ye not",
+        "question": "Ne ondrædaþ ####⁠ — Fear ye not",
         "correctAnswer": "Ge",
         "explanation":"'Ge' is the second person plural personal pronoun",
         "commonMistakes": []
@@ -54,7 +54,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða #### gefor ða feng his sunu to ðam rice⁠ — When he died, his son came to the throne",
+        "question": "Ða #### gefor, ða feng his sunu to ðam rice⁠ — When he died, his son came to the throne",
         "correctAnswer": "He",
         "explanation":"'He' is the third person singular masculine personal pronoun",
         "commonMistakes": []
@@ -78,7 +78,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Gif #### ða lufiaþ ðe eow lufiaþ⁠ — If ye love them that loves you",
+        "question": "Gif #### ða lufiaþ ðe eow lufiaþ⁠ — If ye love them that love you",
         "correctAnswer": "Ge",
         "explanation":"'Ge' is the second person plural personal pronoun",
         "commonMistakes": []
@@ -90,7 +90,7 @@
         "commonMistakes": []
     },
     {
-        "question": "#### eart seolfa geong⁠ — You yourself are young",
+        "question": "#### eart selfa geong⁠ — You yourself are young",
         "correctAnswer": "þu|ðu",
         "explanation":"'&THORN;u' is the second person singular personal pronoun",
         "commonMistakes": []
@@ -102,13 +102,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Drihtnes ys eorðe, and eall þæt #### mid gefyld is⁠ — The Earth is the Lord's, and all that she is filled with",
+        "question": "Drihtnes is eorðe, and eall þæt #### mid gefyld is⁠ — The Earth is the Lord's, and all that she is filled with",
         "correctAnswer": "Heo",
         "explanation":"'Heo' is the third person singular feminine personal pronoun",
         "commonMistakes": []
     },
     {
-        "question": "Ac #### witun þe bilewitne wesan⁠ — But we know you are kind",
+        "question": "Ac #### witon þe bilewitne wesan⁠ — But we know you are kind",
         "correctAnswer": "We",
         "explanation":"'We' is the 1st person plural personal pronoun",
         "commonMistakes": []

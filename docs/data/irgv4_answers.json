@@ -1,12 +1,12 @@
 [
     {
-        "question": "Ic (<em>willan</em>) #### mid flode folc acwellan ond cynna gehwilc cucra wuhta — I intend to kill with a flood the people and every kind of living thing",
+        "question": "Ic (<em>willan</em>) #### mid flode folc acwellan ond cynna gehwilc cwicra wihta — I intend to kill with a flood the people and every kind of living thing",
         "correctAnswer": "wille",
         "explanation":"Here 'willan' is in the first person singular form 'wille' as the subject is 'ic'",
         "commonMistakes": []
     },
     {
-        "question": "Hwyder (<em>willan</em>) #### ðu gangan? — Where do you intend to go?",
+        "question": "Hwyder (<em>willan</em>) #### ðu ga? — Where do you intend to go?",
         "correctAnswer": "wilt",
         "explanation":"Here 'willan' is in the second person singular form 'wilt' as the subject is 'ðu'",
         "commonMistakes": []
@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Forðy ic (<em>willan</em>) #### ðætte hie ealneg æt ðære stowe wæren — Therefore I wanted them always to be there",
+        "question": "Forðy ic (<em>willan</em>) #### ðætte hie ealneg æt ðære stowe wæren — Therefore I wanted them always to be there at that place",
         "correctAnswer": "wolde",
         "explanation":"Here 'willan' is in the past first person singular form 'wolde' as the subject is 'ic'",
         "commonMistakes": []
@@ -36,7 +36,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He cwæð ðæt he (<em>willan</em>) #### ðam wife gemyltsian — He said that he wanted to pardon the woman",
+        "question": "He cwæð ðæt he (<em>willan</em>) #### þæm wife gemyltsian — He said that he wanted to pardon the woman",
         "correctAnswer": "wolde",
         "explanation":"Here 'willan' is in the past third person singular form 'wolde' as the subject is 'he'",
         "commonMistakes": []
@@ -66,7 +66,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þonne þy ylcan dæge þe hie hine to þæm ade beran (<em>willan</em>) #### todælað hie his feoh — Then on the same day when they intended to bear him to the pyre, they divide his wealth",
+        "question": "Þonne þy ilcan dæge þe hie hine to þæm ade beran (<em>willan</em>) #### todælað hie his feoh — Then on the same day when they intended to bear him to the pyre, they divide his wealth",
         "correctAnswer": "willaþ|willað",
         "explanation":"Here 'willan' is in the plural form 'willaþ' as the subject is 'hie'",
         "commonMistakes": []

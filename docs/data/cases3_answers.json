@@ -2,7 +2,7 @@
     {
         "question": "Se abbod grete þone (<em>cyning</em>) #### — The abbot greets the king",
         "correctAnswer": "cyning",
-        "explanation":"Here 'cyning' is directly receiving the action of the verb 'grete', so is in the singular accusative and thus takes no new ending",
+        "explanation":"Here 'cyning' is directly receiving the action of the verb 'gretan', so is in the singular accusative and thus takes no new ending",
         "commonMistakes": []
     },
     {
@@ -12,7 +12,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða biscopas geaf þone (<em>stan</em>) #### to þæm þegne — The bishops gave the stone to the thane",
+        "question": "Ða biscopas geafon þone (<em>stan</em>) #### to þæm þegne — The bishops gave the stone to the thane",
         "correctAnswer": "stan",
         "explanation":"Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
@@ -36,7 +36,7 @@
         "commonMistakes": []
     },
     {
-        "question": "To þæm biscop geaf se cyning þa (<em>beag</em>) #### — The king gave rings to the bishop",
+        "question": "To þæm biscope geaf se cyning þa (<em>beag</em>) #### — The king gave rings to the bishop",
         "correctAnswer": "beagas",
         "explanation":"Here 'beag' is plural and directly receiving the action of the verb 'geaf', so it takes the plural accusative 'as' ending to become 'beagas'",
         "commonMistakes": []
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "question": "Se þegen ferþ to þæm (<em>biscop</em>) #### mid wordum fram þæm cyning — The thane goes to the bishop with words from the king",
+        "question": "Se þegen ferþ to þæm (<em>biscop</em>) #### mid þæs cyninges wordum — The thane goes to the bishop with words from the king",
         "correctAnswer": "biscope",
         "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferþ', so it takes the singular dative 'e' ending to become 'biscope'",
         "commonMistakes": [
@@ -64,13 +64,13 @@
         ]
     },
     {
-        "question": "Se biscop ferde fram þæm (<em>þegen</em>) #### to þæm cyning — The bishop went from the thane to the king",
+        "question": "Se biscop ferde fram þæm (<em>þegen</em>) #### to þæm cyninge — The bishop went from the thane to the king",
         "correctAnswer": "þegne|þegene",
         "explanation":"Here 'þegen' is not directly receiving the action of the verb 'ferde', so it takes the singular dative 'e' ending to become 'þegne'",
         "commonMistakes": []
     },
     {
-        "question": "On þis daeg, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid his broðor — On this day, King Ethelred went to the town with his brother",
+        "question": "On þis daege, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid his broðrum — On this day, King Ethelred went to the town with his brothers",
         "correctAnswer": "tune",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'ferde', so it takes the singular dative 'e' ending to become 'tune'",
         "commonMistakes": []
@@ -100,7 +100,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se biscop ferþ to þæm halige (<em>stede</em>) ####⁠ — The bishop goes to the holy place",
+        "question": "Se biscop ferþ to þæm haligan (<em>stede</em>) ####⁠ — The bishop goes to the holy place",
         "correctAnswer": "stede",
         "explanation":"Here 'stede' is not directly receiving the action of the verb 'ferþ', so it should take the singular dative 'e', but since it already ends in 'e' no additional letters are added",        
         "commonMistakes": [

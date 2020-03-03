@@ -11,7 +11,7 @@
         ]
     },
     {
-        "question": "Se (<em>yfel</em>) #### unrihtwisa cyning spræc mid his yflan tungan ⁠— The evil unrighteous king spoke with his evil mouth",
+        "question": "Se (<em>yfel</em>) #### unrihtwisa cyning spræc mid his yfelre tungan ⁠— The evil unrighteous king spoke with his evil mouth",
         "correctAnswer": "yfela",
         "explanation":"Here 'yfel' is modifying the singular nominative masculine 'cyning' so it takes the 'a' suffix",
         "commonMistakes": [
@@ -22,7 +22,7 @@
         ]
     },
     {
-        "question": "Se (<em>swet</em>) #### mete ðe hie heton monna se him cuom of hefonum ⁠— The sweet meats that they call mana which comes from heaven",
+        "question": "Se (<em>swet</em>) #### mete ðe hie heton monna se him cwom of hefonum ⁠— The sweet meats that they call mana which comes from heaven",
         "correctAnswer": "sweta",
         "explanation":"Here 'swet' is modifying the singular nominative masculine 'mete' so it takes the 'a' suffix",
         "commonMistakes": [
@@ -39,20 +39,15 @@
         "commonMistakes": [
             {
                 "incorrectAnswer": "lytele",
-                "explanation": "Adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytle' when it gains the singular nominative neuter suffix 'e'"
+                "explanation": "Adjectives with two syllables generally lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytle' when it gains the singular nominative neuter suffix 'e'"
             }
         ]
     },
     {
-        "question": "On þissum geare sende he þone (<em>eald</em>) #### biscop Wulfstan to þæm stede þe wæs genemned Readingum ⁠— In this year he sent the old bishop to the place that was called Reading",
+        "question": "On þissum geare sende he þone (<em>eald</em>) #### biscop Wulfstan to þæm stede þe wæs  Readingum genemned⁠ — In this year he sent the old bishop to the place that was called Reading",
         "correctAnswer": "ealdan",
         "explanation":"Here 'eald' is modifying the singular accusative masculine 'biscop' so it takes the 'an' suffix",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
-        ]
+        "commonMistakes": [ ]
     },
     {
         "question": "He sende þæt (<em>halig</em>) #### lic to þæm mynster ⁠— He sent the holy body to the minster",
@@ -65,7 +60,7 @@
             },
             {
                 "incorrectAnswer": "halige",
-                "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halge' when it gains the singular accusative neuter suffix 'e'"
+                "explanation": "While the suffix is correct, adjectives with two syllables generally lose the vowel of the second syllable when they gain a suffix, so 'halig' becomes 'halge' when it gains the singular accusative neuter suffix 'e'"
             }
         ]
     },
@@ -81,7 +76,7 @@
         ]
     },
     {
-        "question": "Se deofol gesette hine uppan ðam scylfe ðæs (<em>heah</em>) #### temples ⁠— The devil set him upon the summit of the high temple",
+        "question": "Se deofol gesette hine uppan ðæm scylfe ðæs (<em>heah</em>) #### temples ⁠— The devil set him upon the summit of the high temple",
         "correctAnswer": "heagan",
         "explanation":"Here 'heah' is modifying the singular genitive masculine 'temple' so it takes the 'an' suffix",
         "commonMistakes": [
@@ -110,12 +105,12 @@
         "commonMistakes": [
             {
                 "incorrectAnswer": "lytelan",
-                "explanation": "While the suffix is correct, adjectives with two syllables lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytlan' when it gains the singular genitive feminine suffix 'an'"
+                "explanation": "While the suffix is correct, adjectives with two syllables generally lose the vowel of the second syllable when they gain a suffix, so 'lytel' becomes 'lytlan' when it gains the singular genitive feminine suffix 'an'"
             }
         ]
     },
     {
-        "question": "Woroldlicra weorca on ðam (<em>halig</em>) #### dæge geswice man georne ⁠— On that holy day, let men abstain from worldly works",
+        "question": "Woroldlicra weorca on ðæm (<em>halig</em>) #### dæge geswice man georne ⁠— On that holy day, let men abstain from worldly works",
         "correctAnswer": "halgan",
         "explanation":"Here 'halig' is modifying the singular dative masculine 'dæg' so it takes the 'an' suffix",
         "commonMistakes": [
@@ -173,7 +168,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He mette þa (<em>geong</em>) #### cildra modor ⁠— He met the young childrens mother",
+        "question": "He mette þa (<em>geong</em>) #### cildra modor ⁠— He met the young children's mother",
         "correctAnswer": "geongra",
         "explanation":"Here 'geong' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
         "commonMistakes": []
@@ -191,7 +186,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ac he þa gehat swiþe yfele gelæste ond swiþe wraþe geendode mid (<em>manig</em>) #### mane ⁠— But he kept that promise very evilly and his end was very grevious with many sins",
+        "question": "Ac he þa gehat swiþe yfele gelæste ond swiþe wraþe geendode mid (<em>manig</em>) #### mane ⁠— But he kept that promise very badly and his end was very grevious with many sins",
         "correctAnswer": "manigum",
         "explanation":"Here 'manig' is modifying the plural dative neuter 'man' so it takes the 'um' suffix",
         "commonMistakes": []
