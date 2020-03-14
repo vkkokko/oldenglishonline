@@ -757,6 +757,10 @@ table a {
 	border: 2px solid lightgrey;
 }
 
+.overflow-scroll {
+	overflow: scroll;
+}
+
 table th {
 	text-align: center;
 }
