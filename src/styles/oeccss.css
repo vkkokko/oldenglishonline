@@ -266,6 +266,10 @@ abbr {
 	padding-top: 1em;
 }
 
+.padding-one-em {
+	padding:1em;
+}
+
 .remove-margin {
 	margin: 0;
 }
@@ -515,6 +519,10 @@ nav {
 #vowel-chart {
 	max-width: 50%;
 	padding-top: 1em;
+}
+
+.audio-svg {
+	cursor: pointer;
 }
 
 .red-border {
@@ -1151,6 +1159,10 @@ ul.module a {
 		padding-top: 0;
 	}
 
+	.index-mainwrapper {
+		margin:0em !important;
+	}
+
 	.big-text {
 		font-size: 2rem;
 	}
@@ -1217,7 +1229,7 @@ ul.module a {
 	}
 
 	.card-content {
-		padding: 0.5em;
+		padding: 0.5em 1em;
 		font-size: 1em;
 		bottom: 10px;
 	}
