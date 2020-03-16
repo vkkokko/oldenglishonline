@@ -13,7 +13,7 @@
     {
         "question": "Se (<em>þegen</em>) #### ond þa biscopas comon fram Readingum — The thane and the bishops came from Reading",
         "correctAnswer": "þegen",
-        "explanation":"Here 'þegen' is the subject and in the singular so it takes no ending, as per the nominative singular",        
+        "explanation":"Here 'þegen' is the subject and in the singular so it takes no ending, as per the nominative singular declension",        
         "commonMistakes": []
     },
     {
@@ -56,7 +56,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie sind þa þegnas þara (<em>cyning</em>) #### Ælfred and Æþelred — They are the thane's of the Kings' Alfred and Ethelred",
+        "question": "Hie sind þa þegnas þara (<em>cyning</em>) #### — They are the thanes of the Kings",
         "correctAnswer": "cyninga",
         "explanation":"Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
         "commonMistakes": []
@@ -64,13 +64,13 @@
     {
         "question": "Se (<em>biscop</em>) #### com fram þæm tune — The bishop came from the town",
         "correctAnswer": "biscop",
-        "explanation":"Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
+        "explanation":"Here 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular declension",
         "commonMistakes": []
     },
     {
         "question": "Ða þegnas ond se (cyning) #### comon fram þæm beorgum — The thanes and the king came from the mountains",
         "correctAnswer": "cyning",
-        "explanation":"Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular",
+        "explanation":"Here 'cyning' is subject and in the singular so it takes no ending, as per the nominative singular declension",
         "commonMistakes": []
     },
     {
@@ -80,7 +80,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se cyning ond þa (<em>biscop</em>) #### sawon þa wicingas — The king and the bishops see the Vikings",
+        "question": "Se cyning ond þa (<em>biscop</em>) #### sawon þa wicingas — The king and the bishops saw the Vikings",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural to become 'biscopas'",
         "commonMistakes": []
@@ -92,7 +92,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Menn fram Þara (<em>þegen</em>) #### tunum — Men from the towns of the thanes",
+        "question": "Þara (<em>þegen</em>) #### tunum menn — Men from/of the towns of the thanes",
         "correctAnswer": "þegna|þegena",
         "explanation":"Here 'þegen' is in the possessive plural as the men are from towns belonging to the thanes, so it takes the 'a' ending of the genitive plural to become 'þegna'",
         "commonMistakes": []
@@ -106,7 +106,7 @@
     {
         "question": "Se (<em>stan</em>) #### ond se þegen comon fram þæm tune — The stone and the thane came from the town",
         "correctAnswer": "stan",
-        "explanation":"Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",        
+        "explanation":"Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular declension",        
         "commonMistakes": []
     },
     {
@@ -116,21 +116,21 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða bearn þæs (<em>cyning</em>) #### sind wis ond eaþmod⁠ — The children of the king are wise and humble",
+        "question": "Ða bearn þæs (<em>cyning</em>) #### sind wise ond eaþmod⁠e — The children of the king are wise and humble",
         "correctAnswer": "cyninges",
         "explanation":"Here 'cyning' is in the possessive singular so it takes the 'es' ending of the genitive singular to become 'cyninges'",        
         "commonMistakes": []
     },
     {
-        "question": "Ða (<em>biscop</em>) #### geaf þone stan to þæm þegne — The bishops gave the stone to the thane",
+        "question": "Ða (<em>biscop</em>) #### geafon þone stan to þæm þegne — The bishops gave the stone to the thane",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is the subject and it is plural so it takes the 'as' ending of the nominative plural to become 'biscopas'",        
         "commonMistakes": []
     },
     {
-        "question": "Giet wæs se (<em>cyning</em>) #### Ælfred geong⁠ — Yet was the king Alfred young",
+        "question": "Giet wæs se (<em>cyning</em>) #### Ælfred geong⁠ — Yet the king Alfred was young",
         "correctAnswer": "cyning",
-        "explanation":"Here 'cyning' is the subject and in the singular so it takes no ending, as per the nominative singular",
+        "explanation":"Here 'cyning' is the subject and in the singular so it takes no ending, as per the nominative singular declension",
         "commonMistakes": []
     }
 ]

@@ -11,13 +11,13 @@
         ]
     },
     {
-        "question": "Se (<em>þegen</em>) #### ond þa biscops comon fram Readingum — The thane and the bishops came from Reading",
+        "question": "Se (<em>þegen</em>) #### ond þa biscopas comon fram Readingum — The thane and the bishops came from Reading",
         "correctAnswer": "þegen",
         "explanation":"Here 'þegen' is the subject and in the singular so it takes no ending, as per the nominative singular",        
         "commonMistakes": []
     },
     {
-        "question": "Ðæs cyninges (<em>þegen</em>) #### ferde to þæm tune  — The king’s thanes went to the town",
+        "question": "Ðæs cyninges (<em>þegen</em>) #### ferdon to þæm tune  — The king’s thanes went to the town",
         "correctAnswer": "þegnas|þegenas",
         "explanation":"Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative to become 'þegnas'",
         "commonMistakes": [
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "question": "Ða (<em>cyning</em>) #### ond þa biscopas wæron on Æscesdune — The kings and the bishops were in Ashdown",
+        "question": "Ða (<em>cyning</em>) #### ond þa biscopas wæron on Æscesdune  — The kings and the bishops were in Ashdown",
         "correctAnswer": "cyningas",
         "explanation":"Here 'cyning' is the subject and plural so it takes the 'as' ending of the nominative plural to become 'cyningas'",
         "commonMistakes": [
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "question": "Ðara (<em>biscop</em>) #### preostas ferdon to þæm halige stede mid him — The bishops’ priests went to the holy place with them",
+        "question": "Ðara (<em>biscop</em>) #### preostas ferdon to þæm haligum stede mid him — The bishops’ priests went to the holy place with them",
         "correctAnswer": "biscopa",
         "explanation":"Here 'biscop' is in the possessive plural, since there are multiple priests belong to multiple bishops, so it takes the 'a' ending of the genitive plural to become 'biscopa'",
         "commonMistakes": [
@@ -56,7 +56,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie sind þa þegnas þara (<em>cyning</em>) #### Ælfred and Æþelred — They are the thane's of the Kings' Alfred and Ethelred",
+        "question": "Hie sind þa þegnas þara (<em>cyning</em>) #### Ælfred and Æþelred genemned — They are the thanes of the Kings named Alfred and Ethelred",
         "correctAnswer": "cyninga",
         "explanation":"Here 'cyning' is in the possessive plural so it takes the 'a' ending of the genitive plural",
         "commonMistakes": []
@@ -80,7 +80,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se cyning ond þa (<em>biscop</em>) #### sawon þa wicingas — The king and the bishops see the Vikings",
+        "question": "Se cyning ond þa (<em>biscop</em>) #### sawon þa wicingas — The king and the bishops saw the Vikings",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is part of the subject and plural so it takes the 'as' ending of the nominative plural to become 'biscopas'",
         "commonMistakes": []
@@ -110,7 +110,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðara (<em>wicing</em>) #### cyning wolde þæt þa Deniscan ricsoden ofer Englalande⁠ — The king of the vikings wished that the Danes ruled over England",
+        "question": "Se cyning þara (<em>wicing</em>) ####  wolde þæt þa Deniscan ricsoden ofer Englalande⁠ — The king of the vikings wished that the Danes ruled over England",
         "correctAnswer": "wicinga",
         "explanation":"Here 'wicing' is in the possessive plural as the subject is the king of many vikings, so 'wicing' takes the 'a' ending of the genitive plural to become 'wicinga'",        
         "commonMistakes": []
@@ -122,13 +122,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða (<em>biscop</em>) #### geaf þone stan to þæm þegne — The bishops gave the stone to the thane",
+        "question": "Ða (<em>biscop</em>) #### geafon þone stan to þæm þegne — The bishops gave the stone to the thane",
         "correctAnswer": "biscopas",
         "explanation":"Here 'biscop' is the subject and it is plural so it takes the 'as' ending of the nominative plural to become 'biscopas'",        
         "commonMistakes": []
     },
     {
-        "question": "Giet wæs se (<em>cyning</em>) #### Ælfred geong⁠ — Yet was the king Alfred young",
+        "question": "Giet wæs se (<em>cyning</em>) #### Ælfred geong⁠ — The king Alfred was still young",
         "correctAnswer": "cyning",
         "explanation":"Here 'cyning' is the subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
@@ -146,7 +146,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða biscopas geaf þone (<em>stan</em>) #### to þæm þegne — The bishops gave the stone to the thane",
+        "question": "Ða biscopas geafon þone (<em>stan</em>) #### to þæm þegne — The bishops gave the stone to the thane",
         "correctAnswer": "stan",
         "explanation":"Here 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",        
         "commonMistakes": []
@@ -170,7 +170,7 @@
         "commonMistakes": []
     },
     {
-        "question": "To þæm biscop geaf se cyning þa (<em>beag</em>) #### — The king gave rings to the bishop",
+        "question": "To þæm biscope geaf se cyning þa (<em>beag</em>) #### — The king gave rings to the bishop",
         "correctAnswer": "beagas",
         "explanation":"Here 'beag' is plural and directly receiving the action of the verb 'geaf', so it takes the plural accusative 'as' ending to become 'beagas'",
         "commonMistakes": []
@@ -187,7 +187,7 @@
         ]
     },
     {
-        "question": "Se þegen ferþ to þæm (<em>biscop</em>) #### mid wordum fram þæm cyning — The thane goes to the bishop with words from the king",
+        "question": "Se þegen ferþ to þæm (<em>biscop</em>) #### mid wordum fram þæm cyninge — The thane goes to the bishop with words from the king",
         "correctAnswer": "biscope",
         "explanation":"Here 'biscop' is not directly receiving the action of the verb 'ferþ', so it takes the singular dative 'e' ending to become 'biscope'",
         "commonMistakes": [
@@ -198,13 +198,13 @@
         ]
     },
     {
-        "question": "Se biscop ferde fram þæm (<em>þegen</em>) #### to þæm cyning — The bishop went from the thane to the king",
+        "question": "Se biscop ferde fram þæm (<em>þegen</em>) #### to þæm cyninge — The bishop went from the thane to the king",
         "correctAnswer": "þegne|þegene",
         "explanation":"Here 'þegen' is not directly receiving the action of the verb 'ferde', so it takes the singular dative 'e' ending to become 'þegne'",
         "commonMistakes": []
     },
     {
-        "question": "On þis daeg, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid his broðor — On this day, King Ethelred went to the town with his brother",
+        "question": "On þis daeg, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid his breðre — On this day, King Ethelred went to the town with his brother",
         "correctAnswer": "tune",
         "explanation":"Here 'tun' is not directly receiving the action of the verb 'ferde', so it takes the singular dative 'e' ending to become 'tune'",
         "commonMistakes": []
@@ -234,7 +234,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se biscop ferþ to þæm halige (<em>stede</em>) ####⁠ — The bishop goes to the holy place",
+        "question": "Se biscop ferþ to þæm haligum (<em>stede</em>) ####⁠ — The bishop goes to the holy place",
         "correctAnswer": "stede",
         "explanation":"Here 'stede' is not directly receiving the action of the verb 'ferþ', so it should take the singular dative 'e', but since it already ends in 'e' no additional letters are added",        
         "commonMistakes": [

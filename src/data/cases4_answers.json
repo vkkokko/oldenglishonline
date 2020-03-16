@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "#### biscopas geaf þone stan to þaem þegne — The bishops gave the stone to the thane",
+        "question": "#### biscopas geafon þone stan to þaem þegne — The bishops gave the stone to the thane",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the subject 'biscop' which has the plural 'as' ending",
         "commonMistakes": []
@@ -37,12 +37,12 @@
     },
     {
         "question": "#### wicingas woldon þæt þa Deniscan þegnas ricsoden ofer Englalande - The Vikings wished that the Danish thanes ruled over England",
-        "correctAnswer": "þara",
-        "explanation":"Here the demonstrative pronoun is 'þara' because it is tied to 'wicing' which has the genetive plural ending 'a'",
+        "correctAnswer": "þa",
+        "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to 'wicingas' which has the nominative plural ending 'as'",
         "commonMistakes": []
     },
     {
-        "question": "Se geaf þa garas to #### þegnum — He gave the spear to the thanes",
+        "question": "He geaf þa garas to #### þegnum — He gave the spear to the thanes",
         "correctAnswer": "þæm",
         "explanation":"Here the demonstrative pronoun is 'þæm' because it is tied to 'þegnum' which has the dative plural 'um' ending",
         "commonMistakes": []
@@ -54,13 +54,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Se þegen sloh #### biscop in þæm tune þe wæs genemed Stanford — The thane slew the bishop in the town called Stamford",
+        "question": "Se þegen sloh #### biscop in þæm tune þe wæs genemned Stanford — The thane slew the bishop in the town called Stamford",
         "correctAnswer": "þone",
         "explanation":"Here the demonstrative pronoun is 'þone' because it is tied to 'biscop' which is directly receiving the action of the verb 'sloh'",
         "commonMistakes": []
     },
     {
-        "question": "Ða bearn #### cyninges beoþ wise and eaþmode - The children of the king are wise and humble",
+        "question": "Ða bearn #### cyninges sind wise and eaþmode - The children of the king are wise and humble",
         "correctAnswer": "þæs",
         "explanation":"Here the demonstrative pronoun is 'þæs' because it is tied to 'cyning' which has the genitive singular 'es' ending",
         "commonMistakes": []
@@ -102,9 +102,9 @@
         "commonMistakes": []
     },
     {
-        "question": "Ælfric geaf #### æþelinge drync - Aelfric gave the prince a drink",
+        "question": "Ælfric geaf þæm æþelinge #### drync - Aelfric gave the prince that drink",
         "correctAnswer": "þone",
-        "explanation":"Here the demonstrative pronoun is 'þone' because it is tied to 'æþeling' which is directly receiving the action of the verb 'geaf'",
+        "explanation":"Here the demonstrative pronoun is 'þone' because it is tied to 'drync' which is directly receiving the action of the verb 'geaf'",
         "commonMistakes": []
     },
     {

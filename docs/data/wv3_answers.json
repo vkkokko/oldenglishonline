@@ -57,7 +57,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie halig God (<em>nerian</em>) ####⁠ — They are saved by holy God",
+        "question": "Hie halig God (<em>nerian</em>) ####⁠ — They were saved by holy God",
         "correctAnswer": "neredon",
         "explanation": "Here 'nerian' is in the third person plural past form '<em>neredon</em>' because the subject is 'They'",
         "commonMistakes": [
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "question": "Ic (<em>hieran</em>) #### &thorn;u⁠ — I hear you",
+        "question": "Ic (<em>hieran</em>) #### þ⁠e — I hear you",
         "correctAnswer": "hiere",
         "explanation": "Here 'hieran' is in the first person singular form '<em>hiere</em>' because the subject is 'I'",
         "commonMistakes": []

@@ -1,6 +1,6 @@
 [
     {
-        "question": "Þa cwæð God nis na gedafenlic þæt (<em>þes</em>) #### man ana beo⁠ — Then God said 'it is not fitting that this man be alone'",
+        "question": "Þa cwæð God 'nis na gedafenlic þæt (<em>þes</em>) #### man ana beo⁠' — Then God said 'it is not fitting that this man be alone'",
         "correctAnswer": "þes|ðes",
         "explanation":"Here 'þes' is modifying the singular masculine nominative 'man' so it stays as 'þes'",
         "commonMistakes": []
@@ -44,28 +44,28 @@
     {
         "question": "Widewe wæs (<em>þeos</em>) #### Anna, þe we gefyrn ær embe spræcon⁠ — This Anna was a widow who we have spoken of before",
         "correctAnswer": "þeos",
-        "explanation":"Here 'þes' is modifying the singular feminine nominative 'Anna' so it becomes 'þeos'",
+        "explanation":"Here 'þes' is modifying the singular feminine nominative proper noun 'Anna' so it becomes 'þeos'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "þas",
-                "explanation": "Though the word order is confusing, Anna is the subject, not the object of 'wæs' so it takes the singular nominative feminine 'þeos'"
+                "explanation": "Though the word order is confusing, Anna is the subject, not the object, of 'wæs' so it takes the singular nominative feminine 'þeos'"
             }
         ]
     },
     {
-        "question": "Send me þinne engel on fyrenum wolcne þæt þa embgange ealle (<em>þeos</em>) #### ceastre — Send me your angel from heaven in a fiery cloud that he my encompass all this city",
+        "question": "Send me þinne engel on fyrenum wolcne þæt þa embgange ealle (<em>þeos</em>) #### ceastre — Send me your angel from heaven in a fiery cloud that he may encompass all this city",
         "correctAnswer": "þas",
         "explanation":"Here 'þes' is modifying the singular feminine accusative 'ceaster' so it becomes 'þas'",
         "commonMistakes": []
     },
     {
-        "question": "Þæt sædon gehwilce wise lareowas þæt hie habbað gefremod heora ærist to ðæm ecan lífe swa swa we ealle don scoldon on ende (<em>þeos</em>) #### worulde⁠ —  All wise teachers have said that they have effected their resurrection to eternal life, as we all shall do at the end of this world",
+        "question": "Þæt sædon gehwilce wise lareowas þæt hie habbað gefremod heora ærist to ðæm ecan lífe, swa swa we ealle don scoldon on ende (<em>þeos</em>) #### worulde⁠ —  All wise teachers have said that they have effected their resurrection to eternal life, as we all shall do at the end of this world",
         "correctAnswer": "þisse",
         "explanation":"Here 'þes' is modifying the singular feminine genitive 'worulde' so it becomes 'þisse'",
         "commonMistakes": []
     },
     {
-        "question": "Oft ys seo halige þrinnys geswutelod on (<em>þeos</em>) #### boc⁠ — Often is the holy trinity revealed in this book",
+        "question": "Oft is seo halige þrinnis geswutelod on (<em>þeos</em>) #### bec⁠ — Often is the holy trinity revealed in this book",
         "correctAnswer": "þisse",
         "explanation":"Here 'þes' is modifying the singular feminine dative 'boc' so it becomes 'þisse'",
         "commonMistakes": []
@@ -89,13 +89,13 @@
         "commonMistakes": []
     },
     {
-        "question": "þa leode (<em>þeos</em>) #### ieglanda sindon eaþmod — The people of these islands are humble",
+        "question": "þa leode (<em>þeos</em>) #### ieglanda sindon eaþmode — The people of these islands are humble",
         "correctAnswer": "þissa",
         "explanation":"Here 'þes' is modifying the plural feminine dative 'ieglanda' so it becomes 'þissa'",
         "commonMistakes": []
     },
     {
-        "question": "(<em>þeos</em>) #### læssan giefa þæt sind þa fugelas þe wæron wannspedigra manna giefa wæron for Criste geoffrode⁠ — These smaller gifts, that is the birds which were the gifts of indigent persons, were offered for Christ",
+        "question": "(<em>þeos</em>) #### læssan giefa wæron for Criste geoffrode⁠ — These smaller gifts were offered for Christ",
         "correctAnswer": "þas",
         "explanation":"Here 'þes' is modifying the plural feminine nominative 'giefu' so it becomes 'þas'",
         "commonMistakes": []
@@ -115,7 +115,7 @@
     {
         "question": "Gif ðu Godes Sunu sy wend (<em>þes</em>) #### stanas to hlafum ond et⁠ — If you are the son of god, turn these stones to loaves and eat",
         "correctAnswer": "þas",
-        "explanation":"Here 'þes' is modifying the plural masculine accusative 'gymstan' so it becomes 'þas'",
+        "explanation":"Here 'þes' is modifying the plural masculine accusative 'stanas' so it becomes 'þas'",
         "commonMistakes": []
     }
 ]

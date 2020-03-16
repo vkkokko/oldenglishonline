@@ -1,0 +1,202 @@
+[
+    {
+        "oldEnglish": "Hunta",
+        "modernEnglish": "Hunter",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Eage",
+        "modernEnglish": "Eye",
+        "partOfSpeech": "Weak Neuter Noun"
+    },
+    {
+        "oldEnglish": "Eare",
+        "modernEnglish": "Ear",
+        "partOfSpeech": "Weak Neuter Noun"
+    },
+    {
+        "oldEnglish": "Tunge",
+        "modernEnglish": "Tongue",
+        "partOfSpeech": "Weak Feminine Noun"
+    },
+    {
+        "oldEnglish": "Mona",
+        "modernEnglish": "Moon",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Sunne",
+        "modernEnglish": "Sun",
+        "partOfSpeech": "Weak Feminine Noun"
+    },
+    {
+        "oldEnglish": "Steorra",
+        "modernEnglish": "Star",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Eare",
+        "modernEnglish": "Ear",
+        "partOfSpeech": "Weak Neuter Noun"
+    },
+    {
+        "oldEnglish": "Draca",
+        "modernEnglish": "Dragon",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Nama",
+        "modernEnglish": "Name",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Cempa",
+        "modernEnglish": "Champion|Soldier",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Oxa",
+        "modernEnglish": "Ox",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Culfre",
+        "modernEnglish": "Dove",
+        "partOfSpeech": "Weak Feminine Noun"
+    },
+    {
+        "oldEnglish": "Eorðe",
+        "modernEnglish": "Earth",
+        "partOfSpeech": "Weak Feminine Noun"
+    },
+    {
+        "oldEnglish": "Hearpe",
+        "modernEnglish": "Harp",
+        "partOfSpeech": "Weak Feminine Noun"
+    },
+    {
+        "oldEnglish": "Wita",
+        "modernEnglish": "Counsellor",
+        "partOfSpeech": "Weak Masculine Noun"
+    },
+    {
+        "oldEnglish": "Sunu",
+        "modernEnglish": "Son",
+        "partOfSpeech": "Minor Masculine Noun (u-declension)"
+    },
+    {
+        "oldEnglish": "Hond",
+        "modernEnglish": "Hand",
+        "partOfSpeech": "Minor Feminine Noun (u-declension)"
+    },
+    {
+        "oldEnglish": "Duru",
+        "modernEnglish": "Door",
+        "partOfSpeech": "Minor Feminine Noun (u-declension)"
+    },
+    {
+        "oldEnglish": "Weald",
+        "modernEnglish": "Forest",
+        "partOfSpeech": "Minor Masculine Noun (u-declension)"
+    },
+    {
+        "oldEnglish": "Feld",
+        "modernEnglish": "Field",
+        "partOfSpeech": "Minor Masculine Noun (u-declension)"
+    },
+    {
+        "oldEnglish": "Lamb",
+        "modernEnglish": "Lamb",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Æg",
+        "modernEnglish": "Egg",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Cild",
+        "modernEnglish": "Child",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Cealf",
+        "modernEnglish": "Calf",
+        "partOfSpeech": "Minor Neuter Noun (r-plural)"
+    },
+    {
+        "oldEnglish": "Fæder",
+        "modernEnglish": "Father",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Modor",
+        "modernEnglish": "Mother",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Sweostor",
+        "modernEnglish": "Sister",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Broðor",
+        "modernEnglish": "Brother",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Dohtor",
+        "modernEnglish": "Daughter",
+        "partOfSpeech": "Minor Noun (family)"
+    },
+    {
+        "oldEnglish": "Mann",
+        "modernEnglish": "Man",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Fot",
+        "modernEnglish": "Foot",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Gos",
+        "modernEnglish": "Goose",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    { 
+        "oldEnglish": "Mus", 
+        "modernEnglish": "Mouse", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    }, 
+    { 
+        "oldEnglish": "Lus", 
+        "modernEnglish": "Louse", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    }, 
+    {
+        "oldEnglish": "Toþ",
+        "modernEnglish": "Tooth",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Boc",
+        "modernEnglish": "Book",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    {
+        "oldEnglish": "Freond",
+        "modernEnglish": "Friend",
+        "partOfSpeech": "Minor Noun (i-mutation)"
+    },
+    { 
+        "oldEnglish": "Feond", 
+        "modernEnglish": "Fiend", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    }, 
+    { 
+        "oldEnglish": "Burg", 
+        "modernEnglish": "Walled Town", 
+        "partOfSpeech": "Minor Noun (i-mutation)" 
+    } 
+]

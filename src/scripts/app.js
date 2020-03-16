@@ -8,13 +8,6 @@
 
 		loadQuestionsInto($container, filename); // This loads the question from the JSON file (called elsewhere), into our wrapper.
 
-		// TODO: remove buttons from the page, when enabling these injected buttons
-		//Adds the text for the fill-in-the-blank-quizzes
-		// $('.test-header').append('<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>');
-		//This adds the buttons to check the fill-in-the-blank-quiz
-		// $('.form-group').append(`<button class="solid-button button" id="submit">Check</button>
-		// <button class="solid-button button hidden" id="again">Try Again?</button>`);
-
 		$('.special-character').on('click', function (event) {
 			event.preventDefault();           //this stops the button reloading the page
 			if ($lastActive) { 				 // This Boolean checks to see if the last active input
@@ -35,13 +28,22 @@
 			$lastActive = $(this);			//This does the same as the above function, but in the modal instead of in the quiz
 		});
 
-		// This is the code that makes the audio elements play
+		// This is the code that makes the audio buttons play
 		$('.audio-button').on('click', function () {
 			let audioElement = $(this).next('.audio-link').get(0);
 			audioElement.play();
 		});
 
-		//The code for the Variant Noun button in the Strong Nouns module
+		//This is the code that makes the SVG vowel table play
+
+		$('.audio-svg').on('click', function () {
+			let audiotag = $(this).attr('id');
+			let audioElement = $('#audio-' + audiotag).get(0);
+			audioElement.play();
+		});
+
+
+		//The code for the additional quiz button in the Strong Nouns module
 		$('#additionalbutton').on('click', function () {
 			const $container = $('#question-wrapper');
 			const filename = $(this).data('new-questions');

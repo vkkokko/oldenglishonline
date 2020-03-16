@@ -1,6 +1,6 @@
 [
     {
-        "question": "Ic (<em>habban</em>) #### ðe to secgenne sum þing⁠ — I have something to say",
+        "question": "Ic (<em>habban</em>) #### ðe to secgenne sum þing⁠ — I have something to say to you",
         "correctAnswer": "hæbbe",
         "explanation": "Here 'habban' is in the first person singular form '<em>hæbbe</em>' because the subject is 'I'",
         "commonMistakes": []
@@ -42,7 +42,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðu (<em>hycgan</em>) #### on ellen ac wærwyrde sceal wisfæst hæle breostum hycgan⁠ — You thought on valour, but a wise and cautious man holds his thoughts to his breast",
+        "question": "Ðu (<em>hycgan</em>) #### on ellen, ac wærwyrde sceal wisfæst hæle breostum hycgan⁠ — You thought on valour, but a wise and cautious man holds his thoughts to his breast",
         "correctAnswer": "hogdest",
         "explanation": "Here 'hycgan' is in the second person singular past form '<em>hogdest</em>' because the subject is 'You'",
         "commonMistakes": []
@@ -59,13 +59,13 @@
         ]
     },
     {
-        "question": "We ealne ðysne gear (<em>libban</em>) #### mid ures lichoman willan⁠ — we have lived all this year as it was pleasing to our body",
+        "question": "We ealne ðisne gear (<em>libban</em>) #### mid ures lichoman willan⁠ — we have lived all this year as it was pleasing to our body",
         "correctAnswer": "lifdon",
         "explanation": "Here 'libban' is in the plural form '<em>lifdon</em>' because the subject is 'We'",
         "commonMistakes": []
     },
     {
-        "question": "Ge guilty synne (<em>secgan</em>) ####⁠ — You the guilty spoke sin",
+        "question": "Ge self synne (<em>secgan</em>) ####⁠ — You yourselves spoke sin",
         "correctAnswer": "sægdon",
         "explanation": "Here 'secgan' is in the plural past form '<em>sægdon</em>' because the subject is the plural 'You'",
         "commonMistakes": []
@@ -105,7 +105,7 @@
         ]
     },
     {
-        "question": "For ðam ic lybbe and ge (<em>libban</em>) ####⁠ — Because I live, you live",
+        "question": "For ðæm ic libbe and ge (<em>libban</em>) ####⁠ — Because I live, you live",
         "correctAnswer": "libbaþ|libbað",
         "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
         "commonMistakes": [
@@ -116,7 +116,7 @@
         ]
     },
     {
-        "question": "Wynnum ond þeawum ic (<em>libban</em>) ####⁠ — I lived joyously and virutously",
+        "question": "Wynnum ond þeawum ic (<em>libban</em>) ####⁠ — I lived with joy and with virute",
         "correctAnswer": "lifde",
         "explanation": "Here 'libban' is in the first person past singular form '<em>lifde</em>' because the subject is 'I'",
         "commonMistakes": [

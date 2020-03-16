@@ -29,7 +29,7 @@
         ]
     },
     {
-        "question": "Heofonas (<em>bodian</em>) #### oððe cýðaþ wuldor Godes⁠ — The heavens procalimed the glory of God",
+        "question": "Heofonas (<em>bodian</em>) #### wuldor Godes⁠ — The heavens procalimed the glory of God",
         "correctAnswer": "bodiaþ|bodiað",
         "explanation": "Here 'bodian' is in the third person plural form '<em>bodiað</em>' as the subject is plural: 'the heavens'",
         "commonMistakes": []
@@ -70,7 +70,7 @@
         "commonMistakes": []
     },
     {
-        "question": "On ðam dagum (<em>ricsian</em>) #### Æþelbyrht cyning ond his wif on Cantwarebyrig⁠ — On this day, Ethelbyrt and his wife reigned in Canterbury",
+        "question": "On ðam dagum (<em>ricsian</em>) #### Æþelbyrht cyning ond his wif on Cantwarebyrig⁠ — In those days, Ethelbyrt and his wife reigned in Canterbury",
         "correctAnswer": "ricsodon",
         "explanation": "Here 'ricsian' is in the third person plural past form '<em>ricsodon</em>' because the subject is 'Ethelbert and his wife'",
         "commonMistakes": []
@@ -88,7 +88,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hwy (<em>bodian</em>) #### þu mine rihtwisnesse mid þinne fulan muð⁠ — Why do you proclaim my justice with your foul mouth?",
+        "question": "Hwy (<em>bodian</em>) #### þu mine rihtwisnesse mid þinne fulan muð⁠e — Why do you proclaim my justice with your foul mouth?",
         "correctAnswer": "bodast",
         "explanation": "Here 'bodian' is in the first person singular form '<em>bodast</em>' because the subject is 'you'",
         "commonMistakes": []
@@ -100,13 +100,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>lufian</em>) #### mid lacum ða ðe læs agun⁠ — They show love with offerings to they who possess less",
+        "question": "Hie (<em>lufian</em>) #### mid lacum ða ðe læs agon⁠ — They show love with offerings to they who possess less",
         "correctAnswer": "lufiaþ|lufiað",
         "explanation": "Here 'lufian' is in the third person plural form '<em>lufiaþ</em>' because the subject is 'they'",
         "commonMistakes": []
     },
     {
-        "question": "Ge (<em>andswarian</em>) #### to þone cyning⁠ — You answer to the king",
+        "question": "Ge (<em>andswarian</em>) #### þone cyning⁠ — You answer the king",
         "correctAnswer": "andswariaþ|andswariað",
         "explanation": "Here 'andswarian' is in the plural form '<em>andswariaþ</em>' because the subject is the plural 'you'",
         "commonMistakes": []
@@ -142,7 +142,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie hine (<em>lufian</em>) #### lease muðe⁠ — They loved him falsely with their mouth",
+        "question": "Hie hine (<em>lufian</em>) #### lease — They loved him falsely",
         "correctAnswer": "lufodon",
         "explanation": "Here 'lufian' is in the third person singular form '<em>lufodon</em>' because the subject is 'they'",
         "commonMistakes": []

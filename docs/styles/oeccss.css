@@ -196,6 +196,10 @@ abbr {
 	font-weight: bold;
 }
 
+.full-width {
+	width:100%;
+}
+
 .big-text {
 	font-size: 3em;
 }
@@ -260,6 +264,10 @@ abbr {
 
 .padding-top {
 	padding-top: 1em;
+}
+
+.padding-one-em {
+	padding:1em;
 }
 
 .remove-margin {
@@ -508,6 +516,15 @@ nav {
 	padding-top: 1em;
 }
 
+#vowel-chart {
+	max-width: 50%;
+	padding-top: 1em;
+}
+
+.audio-svg {
+	cursor: pointer;
+}
+
 .red-border {
 	border-bottom: 4px solid #ee1e1e;
 }
@@ -534,6 +551,12 @@ nav {
 
 .purple-border {
 	border-bottom: 4px solid #800080;
+}
+
+.orange-fill /* This is for SVGs */
+{
+	fill:rgb(200, 100, 50);
+	stroke:rgb(200, 100, 50);
 }
 
 /* Time Line */
@@ -716,6 +739,10 @@ table {
 	padding: 10px;
 }
 
+.five-px-padding {
+	padding: 10px 5px !important;
+}
+
 table a {
 	color: rgb(161, 70, 10);
 }
@@ -728,6 +755,14 @@ table a {
 
 .static-table {
 	border: 2px solid lightgrey;
+}
+
+.overflow-scroll {
+	overflow: scroll;
+}
+
+table th {
+	text-align: center;
 }
 
 .five-col-table th {
@@ -743,6 +778,10 @@ table a {
 .three-col-table th {
 	text-align: center;
 	width: 30%;
+}
+
+.double-col-td {
+	border-right: 1px solid #DCDCDC;
 }
 
 /* Tabs styling */
@@ -915,26 +954,9 @@ ul.module a {
 
 /*Experimental Stuff */
 
-.quiz-table {
-	text-align: center;
-	border: 1px solid darkgray;
-}
-
-.quiz-table input {
-	background: none;
-}
-
-.quiz-table td {
-	padding: 0.5em;
-}
 
 .extra-padding-td td {
 	padding: 0.5em 1.25em;
-}
-
-.quiz-table th {
-	text-align: center;
-	padding-left: 0.5em;
 }
 
 .static-button-position {
@@ -1121,6 +1143,11 @@ ul.module a {
 		padding-left: 0;
 	}
 
+	.container {
+		padding-left:0;
+		padding-right:0;
+	}
+
 	header h1 {
 		font-size: 1.5rem;
 		margin-left: 0;
@@ -1139,6 +1166,10 @@ ul.module a {
 	#mainwrapper {
 		margin: 1em;
 		padding-top: 0;
+	}
+
+	.index-mainwrapper {
+		margin:0em !important;
 	}
 
 	.big-text {
@@ -1190,11 +1221,6 @@ ul.module a {
 		margin-top: 0.5em;
 	}
 
-	.responsive {
-		width: 100%;
-		height: auto;
-	}
-
 	.left-card {
 		padding-left: 15px;
 	}
@@ -1212,7 +1238,7 @@ ul.module a {
 	}
 
 	.card-content {
-		padding: 0.5em;
+		padding: 0.5em 1em;
 		font-size: 1em;
 		bottom: 10px;
 	}
@@ -1230,7 +1256,7 @@ ul.module a {
 		margin-left: 0px;
 	}
 
-	.full-width {
+	.mobile-full-width {
 		width:100%;
 	}
 
@@ -1245,7 +1271,7 @@ ul.module a {
 		left: 15px;
 	}
 
-	/* Full-width containers */
+	/* mobile-full-width containers */
 	.timeline-container {
 		width: 100%;
 		padding: 0;
@@ -1338,6 +1364,11 @@ ul.module a {
 
 	.small-padding-top {
 		padding-top:10px;
+	}
+
+	#vowel-chart {
+		max-width: 100%;
+		padding-top: 1em;
 	}
 }
 

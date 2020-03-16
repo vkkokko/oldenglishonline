@@ -1,6 +1,6 @@
 [
     {
-        "question": "Ðæt (<em>scip</em>) #### sceal genægled⁠ — The ship must be nailed",
+        "question": "(<em>scip</em>) #### sceal genægled⁠ — A ship must be nailed",
         "correctAnswer": "scip",
         "explanation":"Here 'scip' is the subject and so takes no ending",
         "commonMistakes": []
@@ -12,13 +12,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Godes (<em>bearn</em>) #### þrowode on þære rood⁠ — God's son suffered on the cross",
+        "question": "Godes (<em>bearn</em>) #### þrowode on þære rode⁠ — God's son suffered on the cross",
         "correctAnswer": "bearn",
         "explanation":"Here 'bearn' is the subject and so takes no ending",
         "commonMistakes": []
     },
     {
-        "question": "Ðæt (<em>wif</em>) #### wæs gehæled of ðam wite⁠ — The woman was healed of the disease",
+        "question": "Ðæt (<em>wif</em>) #### wæs gehæled of ðæm wite⁠ — The woman was healed of the disease",
         "correctAnswer": "wif",
         "explanation":"Here 'wif' is the subject and so takes no ending",
         "commonMistakes": []
@@ -35,19 +35,19 @@
         ]
     },
     {
-        "question": "Ða (<em>scip</em>) #### Norðmanna cam on þissum dæg⁠ — The Northmen's ships came on this day",
+        "question": "Ða (<em>scip</em>) #### þara wicinga comon on þissum dæg⁠e — The Vikings' ships came on this day",
         "correctAnswer": "scipu",
         "explanation":"Here 'scip' is the subject and plural, so since 'scip' has a short syllable it takes a 'u' ending",
         "commonMistakes": []
     },
     {
-        "question": "Gif þa (<em>word</em>) #### sind soþ⁠ — If the words are true",
+        "question": "Gif þa (<em>word</em>) #### sind soþ⁠e — If the words are true",
         "correctAnswer": "word",
         "explanation":"Here 'word' is the subject and plural, so since 'word' has a long syllable it takes no ending",
         "commonMistakes": []
     },
     {
-        "question": "Geata (<em>bearn</em>) #### ferde to him⁠ — The children of the Geats went to him ",
+        "question": "Geata (<em>bearn</em>) #### ferdon to him⁠ — The children of the Geats went to him ",
         "correctAnswer": "bearn",
         "explanation":"Here 'bearn' is the subject and plural, so since 'bearn' has a long syllable it takes no ending",
         "commonMistakes": []
@@ -65,19 +65,19 @@
         "commonMistakes": []
     },
     {
-        "question": "Þæs (<em>scip</em>) #### mæst geburnen⁠ — The ship's mast burned",
+        "question": "Þæs (<em>scip</em>) #### mæst w⁠æs gebornen — The ship's mast was burned",
         "correctAnswer": "scipes",
         "explanation":"Here 'scip' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
     },
     {
-        "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, byrd eacen wearð⁠ — Through the bearing of a child without a man's embrace, that bride became great",
+        "question": "Þæt þurh (<em>bearn</em>) #### gebyrd butan weres frigum, bryd eacen wearð⁠ — Through the bearing of a child without a man's embrace, that bride became great",
         "correctAnswer": "bearnes",
         "explanation":"Here 'bearn' is in the genitive singular, so it takes the 'es' ending",
         "commonMistakes": []
     },
     {
-        "question": "Seo is sæd ærest (<em>wif</em>) #### in Norþanhymbra mægþe ðæt heo munuchade onfenge⁠ — She is said to have been one of the first women in Northumbria to have taken nun-hood",
+        "question": "Seo is sæd ærest þara (<em>wif</em>) #### in Norþanhymbra mægþe ðæt heo munuchade onfenge⁠ — She is said to have been one of the first women in Northumbria to have taken nun-hood",
         "correctAnswer": "wifa",
         "explanation":"Here 'wif' is in the genitive plural, so it takes the 'a' ending",
         "commonMistakes": [
@@ -88,7 +88,7 @@
         ]
     },
     {
-        "question": "On þis dæg, com þæs hæthenes (<em>god</em>) #### wigan⁠ — On that day, the warriors of the heathen gods came",
+        "question": "On þis dæge, com þæs hæthenes (<em>god</em>) #### wigan⁠ — On that day, the warriors of the heathen gods came",
         "correctAnswer": "goda",
         "explanation":"Here 'god' is in the genitive plural, so it takes the 'a' ending",
         "commonMistakes": [
@@ -123,7 +123,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða godu fram Egiptum landum beoþ fremede (<em>god</em>) #### ⁠ — The gods from Egypt are strange gods",
+        "question": "Ða godu fram Egipta lande beoþ fremede (<em>god</em>) #### ⁠ — The gods from Egypt are strange gods",
         "correctAnswer": "godu",
         "explanation":"Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": []
@@ -135,7 +135,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæt wæron þa erestan (<em>scip</em>) #### Deniscra manna the Angelcynnes land geseah⁠ — Those were the first ships of Danish men the English people's land saw",
+        "question": "Ða wæron þa erestan (<em>scip</em>) #### Deniscra manna þe Angelcynnes land geseah⁠ — Those were the first ships of Danish men that the English people's land saw",
         "correctAnswer": "scipu",
         "explanation":"Here 'scip' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": []
@@ -170,13 +170,13 @@
         "commonMistakes": []
     },
     {
-        "question": "We willaþ mid þam sceattum us to þæm (<em>scip</em>) #### gangan⁠ — We wish to go to the ship with the treasure",
+        "question": "We willaþ mid þæm sceattum us to þæm (<em>scip</em>) #### gangan⁠ — We wish to go to the ship with the treasure",
         "correctAnswer": "scipe",
         "explanation":"Here 'scip' is the indirect object and singular, and so takes an 'e' ending",
         "commonMistakes": []
     },
     {
-        "question": "He ærist scoop eorþan for his (<em>bearn</em>) ####⁠ — He first shaped the earth for his children",
+        "question": "He ærest sceop eorþan for his (<em>bearn</em>) ####⁠ — He first shaped the earth for his children",
         "correctAnswer": "bearnum",
         "explanation":"Here 'bearn' is the indirect object and plural, and so takes a 'um' ending",
         "commonMistakes": []
