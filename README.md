@@ -37,7 +37,7 @@ If you want to run Old English Online locally on your machine so you can use it 
 
 1. Download an IDE. We recommend Visual Studio Code which you can download [here](https://code.visualstudio.com/).
 2. Install the most recent version of Node.js. You can download it [here](https://nodejs.org/en/download/).
-3. Open the terminal in Visual Studio Code and make sure you're in the root folder of the project. If not, you can change which directory you're in by typing `cd C:\whatever_your_filepath_is`. My root folder is C:\Users\jkoiviv\Desktop\MA so I'd type `cd C:\Users\jkoiviv\Desktop\MA`.
+3. Open the terminal in Visual Studio Code and make sure you're in the root folder of the project. If not, you can change which directory you're in by typing `cd C:\whatever_your_filepath_is`. My root folder is C:\Users\Vicky\Desktop\MA so I'd type `cd C:\Users\Vicky\Desktop\MA`.
 4. If you are in the root folder, type `npm install` and press **Enter**. Everything you need will be installed automatically.
 5. When it is finished, type `npm run start` to build the project. It should open automatically in your default browser. If not, navigate to *localhost:3000* in your browser. 
 
