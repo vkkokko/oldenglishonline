@@ -22,7 +22,7 @@ If you want to contribute directly to Old English Online yourself, you can, but 
 4. Click the **Clone or download** button and copy the URL.
 5. In GitKraken, choose **Clone Repo**, choose **From URL** and paste the URL you copied from Github. This will copy the repo to your machine.
 6. In GitKraken, create a new branch by right clicking the most recent commit and selecting **Create Branch Here**.
-* You are now ready to make changes! We recommend you use a code editor to do this as it will make it easier to read and flag errors you may make. You can download Visual Studio Code for free [here](https://code.visualstudio.com/).
+- You are now ready to make changes! We recommend you use a code editor to do this as it will make it easier to read and flag errors you may make. You can download Visual Studio Code for free [here](https://code.visualstudio.com/).
 7. Make the changes you want to make to the pages in the `/src/` folder, not the `/docs/` folder. 
 8. Once you have made all your changes, save the file.
 9. Commit your changes in GitKraken by selecting **Stage all changes**. 
