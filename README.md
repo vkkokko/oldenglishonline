@@ -1,6 +1,6 @@
 # Old English Online
-![](https://img.shields.io/github/package-json/v/vklester/MA)
-![](https://img.shields.io/github/commit-activity/w/vklester/MA)
+![](https://img.shields.io/github/package-json/v/vkkokko/oldenglishonline)
+![](https://img.shields.io/github/commit-activity/w/vkkokko/oldenglishonline)
 
 # About
 This is the repository for Old English Online. OEO is an online learning platform for teaching Old English. Visit [oldenglish.info](https://oldenglish.info) to use the site.
@@ -8,7 +8,7 @@ This is the repository for Old English Online. OEO is an online learning platfor
 # Contributor's Guide
 If you want to raise an issue for us to fix, perform the following steps:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
-2. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
+2. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 3. Under the repository name, click **Issues**.
 4. Click **New issue**.
 5. If there are multiple issue types, click **Get started** next to the type of issue you'd like to open.
@@ -18,7 +18,7 @@ If you want to raise an issue for us to fix, perform the following steps:
 If you want to contribute direcly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Just follow the steps below:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
 2. Download a git client, you can get the free GitKraken [here](https://www.gitkraken.com/).
-3. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
+3. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 4. Click the **Clone or download** button and copy the URL.
 5. In Gitkraken, choose **Clone Repo**, choose **From URL** and paste the URL you copied from Github. This will copy the repo to your machine.
 6. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
@@ -46,7 +46,7 @@ From here, you can make edits to the templates, scripts and styles in the `/src/
 # Contributor's Guide
 If you want to raise an issue for us to fix, perform the following steps:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
-2. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
+2. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 3. Under the repository name, click **Issues**.
 4. Click **New issue**.
 5. If there are multiple issue types, click **Get started** next to the type of issue you'd like to open.
@@ -56,7 +56,7 @@ If you want to raise an issue for us to fix, perform the following steps:
 
 If you want to contribute direcly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Just follow the steps below:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
-2. Navigate to the project repository on Github. It's [here](https://github.com/vklester/MA).
+2. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 3. Click the **Fork** button in the top right-hand corner of the page to copy the repo.
 4. Click the **Clone or download** button to clone the project to your own machine.
 5. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
