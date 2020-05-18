@@ -59,7 +59,7 @@
         "commonMistakes": [
             {
                 "incorrectAnswer": "hafde",
-                "explanation": "Remember, 'habban' takes an 'æ' instead of an 'a' in all past tense conjugations"
+                "explanation": "Close, but remember, 'habban' takes an 'æ' instead of an 'a' in all past tense conjugations"
             }
         ]
     },
@@ -79,7 +79,12 @@
         "question": "Hie (<em>hycgan</em>) #### inwit and facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
         "correctAnswer": "hogdon",
         "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogdon</em>' because the subject is 'They'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "",
+                "explanation": ""
+            }
+        ]
     },
     {
         "question": "Ic bi me (<em>secgan</em>) #### ðis sarspell⁠ — I tell this lament about myself",
