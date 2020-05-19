@@ -3,67 +3,73 @@
 ![](https://img.shields.io/github/commit-activity/w/vkkokko/oldenglishonline)
 
 # About
-This is the repository for Old English Online. OEO is an online learning platform for teaching Old English. Visit [oldenglish.info](https://oldenglish.info) to use the site.
+This is the file repository for Old English Online, an online learning platform for Old English. Uncompiled files are located in the *src* folder, while compiled files are located in the *docs* folder. Visit [oldenglish.info](https://oldenglish.info) to use the website.
+
+#### Table Of Contents
+[Contributor's Guide](#contributor's-guide)
+* [How do I submit a good bug report?](#How-do-I-submit-a-good-bug-report?)
+* [How do I submit a good feature request?](#How-do-I-submit-a-good-feature-request?)
+* [How do I contribute directly?](#How-do-I-contribute-directly?)
+
+[Developer's Guide](#developer's-guide)
+* [How to install Old English Online locally](#installing-and-running)
+
 
 # Contributor's Guide
-If you want to raise an issue for us to fix, perform the following steps:
+If you want to report a bug or suggest an enhancement, perform the following steps:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
 2. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 3. Under the repository name, click **Issues**.
 4. Click **New issue**.
-5. If there are multiple issue types, click **Get started** next to the type of issue you'd like to open.
-6. Type a title and description for your issue.
-7. When you're finished, click **Submit** new issue
+5. Enter a title and description for your issue.
+6. When you are finished, click **Submit** new issue
 
-If you want to contribute direcly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Just follow the steps below:
+### How do I submit a good bug report?
+* **Use a clear and descriptive title** to identify what the issue is about.
+* **Include all relevant information**. Mention the exact page you encountered the issue on, whether you were using a desktop or mobile, what browser you were accessing the site on, and how you triggered the issue. For example, "Using Google Chrome on my laptop, I clicked the 'Check' button under the quiz on Weak Verbs II and nothing happened".
+* **Include screenshots**. This is especially important if you are reporting a graphical glitch or typo.
+
+### How do I submit a good feature request?
+* **State what you want the feature to do**. For example, 'I would like it if you could review all the flashcards you've filled out in a session so you can see which ones you got right and which you got wrong'.
+* **State where you would like the feature to go**. For example, 'I'd like there to be a button I could click on the flashcard modal which would bring up this information'.
+* **State who you think the feature would benefit**. For example, is it aimed at first time learners or postgraduate scholars?
+
+
+### How do I contribute directly?
+If you are a developer or Old English scholar who wants to contribute directly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Follow the steps below:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
 2. Download a git client, you can get the free GitKraken [here](https://www.gitkraken.com/).
 3. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 4. Click the **Clone or download** button and copy the URL.
-5. In Gitkraken, choose **Clone Repo**, choose **From URL** and paste the URL you copied from Github. This will copy the repo to your machine.
+5. In GitKraken, choose **Clone Repo**, choose **From URL** and paste the URL you copied from Github. This will copy the repo to your machine.
 6. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
 7. Commit changes to your own branch. 
 8. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
 9. Submit a **Pull Request** so that we can review your changes.
 10. An administrator will then review and approve your changes.
 
-# Developing
+# Developer's Guide
+## Installing and Running
+If you want to run Old English Online locally on your machine so you can use it offline or develop a new feature, you will need to install it. 
 
-## Installing
-If you want to run Old English Online locally on your machine so you can use it offline, you will need to install it. 
-
-1. Download an IDE. We recommend Visual Studio Code which you can download [here](https://code.visualstudio.com/).
-2. Install the most recent version of Node.js. You can download it [here](https://nodejs.org/en/download/).
-3. Open the terminal in Visual Studio Code and make sure you're in the root folder of the project. If not, you can change which directory you're in by typing `cd C:\whatever_your_filepath_is`. My root folder is C:\Users\jkoiviv\Desktop\MA so I'd type `cd C:\Users\jkoiviv\Desktop\MA`.
-4. If you are in the root folder, type `npm install` and press **Enter**. Everything you need will be installed automatically.
-5. When it is finished, type `npm run start` to build the project. It should open automatically in your default browser. If not, navigate to *localhost:3000* in your browser. 
-
-## Running Development Watch task
-
-Run `npm start` to start the watch task. This will build the project, start the watch tasks that wait for file changes, and open the project in your default browser.
-From here, you can make edits to the templates, scripts and styles in the `/src/` folder, and the project will automatically refresh with your changes.
-
-# Contributor's Guide
-If you want to raise an issue for us to fix, perform the following steps:
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
-2. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
-3. Under the repository name, click **Issues**.
-4. Click **New issue**.
-5. If there are multiple issue types, click **Get started** next to the type of issue you'd like to open.
-6. Type a title and description for your issue.
-7. When you're finished, click **Submit** new issue
-
-
-If you want to contribute direcly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Just follow the steps below:
-1. Create a Github account [here](https://github.com/) or just login if you already have one.
-2. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
-3. Click the **Fork** button in the top right-hand corner of the page to copy the repo.
-4. Click the **Clone or download** button to clone the project to your own machine.
-5. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
-6. Commit changes to your own branch. We recommend you use a git client to do this, you can get the free GitKraken [here](https://www.gitkraken.com/).
-7. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
-8. Submit a **Pull Request** so that we can review your changes.
-9. An administrator will then review and approve your changes.
+2. Download a git client, you can get the free GitKraken [here](https://www.gitkraken.com/).
+3. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
+4. Click the **Clone or download** button and copy the URL.
+5. In GitKraken, choose **Clone Repo**, choose **From URL** and paste the URL you copied from Github. This will copy the repo to your machine.
+6. Download an development environment. We recommend Visual Studio Code which you can download [here](https://code.visualstudio.com/).
+7. Install the most recent version of Node.js. You can download it [here](https://nodejs.org/en/download/).
+8. Open the terminal in Visual Studio Code. To do this click **View** then **Terminal**. 
+1. The folder you are in should be the last line in the terminal. Make sure you're in the root folder of the project. If you are not, you can change which directory you're in by typing `cd C:\whatever_your_filepath_is`. My root folder is C:\Users\Victoria\Desktop\MA so I would type `cd C:\Users\Victoria\Desktop\MA`.
+9. Once you are in the root folder, type `npm install` and press **Enter**. Everything you need will be installed automatically. This may take 2-3 minutes.
+5. When it is finished, type `npm run start`. This will build the project, start the watch tasks that wait for file changes, and open the project in your default browser. **Note:** Sometimes your browser is a little too fast to load the page and will load a white page with a GET request. Just refresh the page and the correct content will load.
+6. If the page does not load, navigate to *localhost:3000* in your browser. 
+7. Once the above steps are complete, you can make edits to the templates, scripts and styles in the `/src/` folder, and the project will automatically refresh in the browser to show your changes once they are saved.
+1. Once you have made all your changes, save the file.
+1. Commit your changes in GitKraken by selecting **Stage all changes**.
+1. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
+1. Submit a Pull Request so that we can review your changes.
+1. An Administrator will then review and approve your changes.
 
 # License
 
