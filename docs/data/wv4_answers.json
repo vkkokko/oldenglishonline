@@ -65,8 +65,8 @@
     },
     {
         "question": "Hie (<em>timbrian</em>) #### langscipu mid æscum⁠ — They built the longships with ash trees",
-        "correctAnswer": "timbredon",
-        "explanation": "Here 'timbrian' is in the third person plural form '<em>timbredon</em>' because the subject is 'They'",
+        "correctAnswer": "timbrodon",
+        "explanation": "Here 'timbrian' is in the third person plural form '<em>timbrodon</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
@@ -77,8 +77,8 @@
     },
     {
         "question": "Him englas (<em>andswarian</em>) ####⁠ — The angels answered him",
-        "correctAnswer": "andswaredon",
-        "explanation": "Here 'andswarian' is in the third person singular past form '<em>andswaredon</em>' because the subject is 'The angels'",
+        "correctAnswer": "andswarodon",
+        "explanation": "Here 'andswarian' is in the third person singular past form '<em>andswarodon</em>' because the subject is 'The angels'",
         "commonMistakes": []
     },
     {
@@ -131,8 +131,8 @@
     },
     {
         "question": "ðæm ðe ær (<em>hatian</em>) #### eow⁠ — those that formerly hated you",
-        "correctAnswer": "hatedon",
-        "explanation": "Here 'hatian' is in the third person singular form '<em>hatedon</em>' because the subject is the demonstrative pronoun 'those'",
+        "correctAnswer": "hatodon",
+        "explanation": "Here 'hatian' is in the third person singular form '<em>hatodon</em>' because the subject is the demonstrative pronoun 'those'",
         "commonMistakes": []
     },
     {
