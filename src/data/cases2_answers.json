@@ -17,7 +17,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæs cyninges (<em>þegen</em>) #### ferde to þæm tune  — The king’s thanes went to the town",
+        "question": "Ðæs cyninges (<em>þegen</em>) #### ferdon to þæm tune  — The king’s thanes went to the town",
         "correctAnswer": "þegnas|þegenas",
         "explanation":"Here 'þegen' is the subject and in the plural, so it takes the 'as' ending of the plural nominative to become 'þegnas'",
         "commonMistakes": [
