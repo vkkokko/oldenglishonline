@@ -18,14 +18,14 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða ealdan preostas cealf (<em>snidon</em>) #### — The old priests slaughtered a calf",
+        "question": "Ða ealdan preostas cealf (<em>sniþan</em>) #### — The old priests slaughtered a calf",
         "correctAnswer": "snidon",
         "explanation": "Here 'ripan' is in the second person singular form '<em>ripst</em>' because the subject is 'Ðu'",
         "commonMistakes": []
     },
     {
         "question": "He ofer sæ (<em>liþan</em>) #### in Gallia rice — He travelled over the sea to the Kingdom of the Gauls",
-        "correctAnswer": "laþ",
+        "correctAnswer": "laþ|lað",
         "explanation": "Here 'liþan' is in the third person singular past form '<em>laþ</em>' because the subject is 'He'",
         "commonMistakes": []
     },
@@ -43,13 +43,13 @@
     },
     {
         "question": "Hie (<em>bidan</em>) #### Drihtnes domes — They await the Lord's doom",
-        "correctAnswer": "bidaþ",
+        "correctAnswer": "bidaþ|bidað",
         "explanation": "Here 'bidan' is in the plural form '<em>bidaþ</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
         "question": "Ða wicingas (<em>drifan</em>) #### us to ðære sæ — The Vikings drive us to the sea",
-        "correctAnswer": "drifaþ",
+        "correctAnswer": "drifaþ|drifað",
         "explanation": "Here 'drifan' is in the third person singular form '<em>drifaþ</em>' because the subject is 'Ða wicingas'",
         "commonMistakes": []
     },
@@ -85,7 +85,7 @@
     },
     {
         "question": "Ðeos bat (<em>glidan</em>) #### on laguflode — This boat glides over the ocean",
-        "correctAnswer": "glideþ|gildeð",
+        "correctAnswer": "glidþ|gildð",
         "explanation": "Here 'glidan' is in the third person singular form '<em>glideþ</em>' because the subject is 'Ðeos bat'",
         "commonMistakes": []
     },
@@ -115,7 +115,7 @@
     },
     {
         "question": "We ofer laguflode scipas (<em>liþan</em>) #### — We sailed ships over the ocean ",
-        "correctAnswer": "liþon",
+        "correctAnswer": "liþon|liðon",
         "explanation": "Here 'liþan' is in the plural past form '<em>liþon</em>' because the subject is 'We'",
         "commonMistakes": []
     },
