@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Drihten (<em>cweþan</em>) #### word to Noe — God spoke words to Noah",
+        "correctAnswer": "cwæþ|cwæð",
+        "explanation": "Here 'cweþan' is in the third person singular form '<em>cwæþ</em>' because the subject is 'Drihten'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu (<em>cweþan</em>) ####, ðæt ðu me lufodest — You said that you loved me.",
+        "correctAnswer": "cwæde",
+        "explanation": "Here 'cweþan' is in the second person singular form '<em>cwæde</em>' because the subject is 'Ðu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>cweþan</em>) #### to him. Drihten, syle us ðisne hlaf — They spoke to him. Lord, give us this loaf",
+        "correctAnswer": "cwædon",
+        "explanation": "Here 'cweþan' is in the plural past form '<em>cwædon</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie geornlice smeadon hwæt he (<em>cweþan</em>) #### — They earnestly considered what he said",
+        "correctAnswer": "cwæde",
+        "explanation": "Here 'cweþan' is in the third person singular past form '<em>cwæde</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He neallas beagas (<em>giefan</em>) #### — He gave no rings",
+        "correctAnswer": "geaf",
+        "explanation": "Here 'giefan' is in the third person singular past form '<em>geaf</em>' because the subject is 'He'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hwæt (<em>giefan</em>) #### ðu me? — What are you giving me?",
+        "correctAnswer": "giefst",
+        "explanation": "Here 'giefan' is in the second person singular form '<em>giefst</em>' because the subject is 'ðu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ge him hleoþ (<em>giefan</em>) #### — Ye gave him shelter ",
+        "correctAnswer": "geafon",
+        "explanation": "Here 'giefan' is in the plural past form '<em>geafon</em>' because the subject is 'Ge'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ne (<em>sprecan</em>) #### to ðe, ac ic sprece to ðe — He is not speaking to you, but I'm speaking to you",
+        "correctAnswer": "spricþ|spricð",
+        "explanation": "Here 'sprecan' is in the third person singular form '<em>spricþ</em>' because the subject is 'He'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða (<em>sprecan</em>) #### se ofermoda cyning — Then the proud king spoke",
+        "correctAnswer": "spræc",
+        "explanation": "Here 'sprecan' is in the third person singular past form '<em>spræc</em>' because the subject is 'se cyning'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu (<em>sprecan</em>) #### wisum wordum — You speak wise words",
+        "correctAnswer": "spricst",
+        "explanation": "Here 'sprecan' is in the second person singular form '<em>spricst</em>' because the subject is 'Ðu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Beowulf beotwordum (<em>sprecan</em>) ####  — Beowulf spoke boastful words",
+        "correctAnswer": "spræc",
+        "explanation": "Here 'sprecan' is in the third person singular past form '<em>spræc</em>' because the subject is 'Beowulf'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Of ðissum beorgum ðe we ær (<em>sprecan</em>) #### — Of these mountains which we spoke of earlier",
+        "correctAnswer": "spræcon",
+        "explanation": "Here 'sprecan' is in the plural past form '<em>spræcon</em>' because the subject is 'we'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Maria (<em>sittan</em>) #### be Hælendes fotum — Maria sat by the Saviour's feet",
+        "correctAnswer": "sæt",
+        "explanation": "Here 'sittan' is in the third person singular past form '<em>sæt</em>' because the subject is 'Maria'",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>sittan</em>) #### him æt wine — They sat at wine",
+        "correctAnswer": "sæton",
+        "explanation": "Here 'sittan' is in the plural past form '<em>sæton</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "For ðæm earfoþum ðe him on (<em>sittan</em>) #### — Because of the burdens that sat heavy on them",
+        "correctAnswer": "sæton",
+        "explanation": "Here 'sittan' is in the plural past form '<em>sæton</em>' because the subject is 'ðæm earfoþum'",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>sittan</em>) ####  he ðæt biscopsetl an wintra — He occupied that bishop's seat for one year",
+        "correctAnswer": "sæt",
+        "explanation": "Here 'sittan' is in the third person singular past form '<em>sæt</em>' because the subject is 'He'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He on his hus eode and his swæsendo (<em>þicgan</em>) #### — He went to his house and consumed his meal",
+        "correctAnswer": "þeah|ðeah",
+        "explanation": "Here 'þicgan' is in the third person singular past form '<em>ðeah</em>' because the subject is 'He'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>þicgan</em>) #### æppel — They consumed the apple",
+        "correctAnswer": "þeagan|ðeagan",
+        "explanation": "Here 'þicgan' is in the plural past form '<em>þeagan</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    }
+]
