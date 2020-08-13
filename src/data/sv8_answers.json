@@ -1,120 +1,120 @@
 [
     {
-        "question": "Ge ne me (<em>cnawan</em>) #### - You do not know me",
+        "question": "Ge ne me (<em>cnawan</em>) #### — You do not know me",
         "correctAnswer": "cneowon",
         "explanation": "Here 'cnawan' is in the plural past form '<em>cneowon</em>' because the subject is 'Ge'",
         "commonMistakes": []
     },
     {
-        "question": "Hwi ne (<em>cnawan</em>) #### þu mine spræce? - Why don't you comprehend my speech? ",
+        "question": "Hwi ne (<em>cnawan</em>) #### þu mine spræce? — Why don't you comprehend my speech? ",
         "correctAnswer": "cnæwst",
         "explanation": "Here 'cnawan' is in the second person singular form '<em>cnæwst</em>' because the subject is 'þu'",
         "commonMistakes": []
     },
     {
-        "question": "Ic na (<em>cnawan</em>) #### þis wif! - I don't know this woman!",
+        "question": "Ic na (<em>cnawan</em>) #### þis wif! — I don't know this woman!",
         "correctAnswer": "cnawe",
         "explanation": "Here 'cnawan' is in the first person singular form '<em>cnawe</em>' because the subject is 'Ic'",
         "commonMistakes": []
     },
     {
-        "question": "We þone biscop ne (<em>cnawan</em>) #### - We knew the bishop not",
+        "question": "We þone biscop ne (<em>cnawan</em>) #### — We knew the bishop not",
         "correctAnswer": "cneowan",
         "explanation": "Here 'cnawan' is in the plural past form '<em>cneowon</em>' because the subject is 'We'",
         "commonMistakes": []
     },
     {
-        "question": "On lencten hit (<em>growan</em>) ####, ond on hærfest hit wealwað - In lent it grows, and at harvest it fades",
+        "question": "On lencten hit (<em>growan</em>) ####, ond on hærfest hit wealwað — In lent it grows, and at harvest it fades",
         "correctAnswer": "grewð|grewþ",
         "explanation": "Here 'growan' is in the third person singular form '<em>grewð</em>' because the subject is 'hit'",
         "commonMistakes": []
     },
     {
-        "question": "Ðæt geonge treow (<em>growan</em>) #### - The young tree grew",
+        "question": "Ðæt geonge treow (<em>growan</em>) #### — The young tree grew",
         "correctAnswer": "greow",
         "explanation": "Here 'growan' is in the third person singular past form '<em>greow</em>' because the subject is 'Ðæt geonge treow'",
         "commonMistakes": []
     },
     {
-        "question": "Ic nu (<em>growan</em>) #### swa þæt treow þe mid wæstmum bið fægre gefrætwod - I now grew like the tree that is beautifully adorned with fruit",
+        "question": "Ic nu (<em>growan</em>) #### swa þæt treow þe mid wæstmum bið fægre gefrætwod — I now grew like the tree that is beautifully adorned with fruit",
         "correctAnswer": "greow",
         "explanation": "Here 'growan' is in the first person singular past form '<em>greow</em>' because the subject is 'Ic'",
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>growan</em>) #### on eorþan - They grew on the earth",
+        "question": "Hie (<em>growan</em>) #### on eorþan — They grew on the earth",
         "correctAnswer": "greowon",
         "explanation": "Here 'growan' is in the plural past form '<em>greowon</em>' because the subject is 'Hie'",
         "commonMistakes": []
     },
     {
-        "question": "Hit (<em>hleapan</em>) #### on unsmeðe eorðan - It leaped over rough ground",
+        "question": "Hit (<em>hleapan</em>) #### on unsmeðe eorðan — It leaped over rough ground",
         "correctAnswer": "hleop",
         "explanation": "Here 'hleapan' is in the third person singular past form '<em>hleop</em>' because the subject is 'Hit'",
         "commonMistakes": []
     },
     {
-        "question": "He (<em>hleapan</em>) ####  on þæs cyninges stedan - He jumped on the king's steed",
+        "question": "He (<em>hleapan</em>) ####  on þæs cyninges stedan — He jumped on the king's steed",
         "correctAnswer": "hleop",
         "explanation": "Here 'hleapan' is in the third person singular past form '<em>hleop</em>' because the subject is 'He'",
         "commonMistakes": []
     },
     {
-        "question": "Her Eadwine eorl ond Morkere eorl (<em>hleapan</em>) #### ut - Here Earls Edwin and Morkere fled away",
+        "question": "Her Eadwine eorl ond Morkere eorl (<em>hleapan</em>) #### ut — Here Earls Edwin and Morkere fled away",
         "correctAnswer": "hlupon",
         "explanation": "Here 'hleapan' is in the plural past form '<em>hleop</em>' because the subject is 'Edwine ond Morkere'",
         "commonMistakes": []
     },
     {
-        "question": "Se wind suþan (<em>blawan</em>) ####  - The wind blew from the south",
+        "question": "Se wind suþan (<em>blawan</em>) ####  — The wind blew from the south",
         "correctAnswer": "bleow",
         "explanation": "Here 'blawan' is in the third person singular past form '<em>bleow</em>' because the subject is 'Se wind'",
         "commonMistakes": []
     },
     {
-        "question": "Sona þæs þe he on scyp eode, (<em>blawan</em>) ####  westwind - As soon as he went on the ship, the westwind blew",
+        "question": "Sona þæs þe he on scyp eode, (<em>blawan</em>) ####  westwind — As soon as he went on the ship, the westwind blew",
         "correctAnswer": "bleow",
         "explanation": "Here 'blawan' is in the third person singular past form '<em>bleow</em>' because the subject is 'westwind'",
         "commonMistakes": []
     },
     {
-        "question": "Seo byme (<em>blawan</em>) ####, ond ða deadan arisað - The trumpet blows and the dead rise ",
+        "question": "Seo byme (<em>blawan</em>) ####, ond ða deadan arisað — The trumpet blows and the dead rise ",
         "correctAnswer": "blæwð|blæwþ",
         "explanation": "Here 'blawan' is in the third person singular form '<em>blæwð</em>' because the subject is 'Seo byme'",
         "commonMistakes": []
     },
     {
-        "question": "Hie ne þa byman (<em>blawan</em>) #### - They did not blow the trumpets",
+        "question": "Hie ne þa byman (<em>blawan</em>) #### — They did not blow the trumpets",
         "correctAnswer": "bleowon",
         "explanation": "Here 'blawan' is in the plural past form '<em>bleowon</em>' because the subject is 'Hie'",
         "commonMistakes": []
     },
     {
-        "question": "(<em>blawan</em>) #### se engel on hie - The angel blew on them",
+        "question": "(<em>blawan</em>) #### se engel on hie — The angel blew on them",
         "correctAnswer": "bleow",
         "explanation": "Here 'blawan' is in the third person singular form '<em>bleow</em>' because the subject is 'se engel'",
         "commonMistakes": []
     },
     {
-        "question": "Drihten hwæt (<em>hatan</em>) ####  ðu me don - Lord, what do you command me to do?",
+        "question": "Drihten hwæt (<em>hatan</em>) ####  ðu me don — Lord, what do you command me to do?",
         "correctAnswer": "hætst",
         "explanation": "Here 'hatan' is in the second person singular form '<em>hætst</em>' because the subject is 'ðu'",
         "commonMistakes": []
     },
     {
-        "question": "He (<em>hatan</em>) ####  englas him to cuman - He ordered angels to come to him",
+        "question": "He (<em>hatan</em>) ####  englas him to cuman — He ordered angels to come to him",
         "correctAnswer": "het",
         "explanation": "Here 'hatan' is in the third person singular past form '<em>het</em>' because the subject is 'He'",
         "commonMistakes": []
     },
     {
-        "question": "We dydon swa ðu us (<em>hatan</em>) #### - We did as you ordered us",
+        "question": "We dydon swa ðu us (<em>hatan</em>) #### — We did as you ordered us",
         "correctAnswer": "hete",
         "explanation": "Here 'hatan' is in the second person singular past form '<em>hete</em>' because the subject is 'ðu'",
         "commonMistakes": []
     },
     {
-        "question": "Romane hie tictatores (<em>hatan</em>) #### - Romans called them dictators ",
+        "question": "Romane hie tictatores (<em>hatan</em>) #### — Romans called them dictators ",
         "correctAnswer": "heton",
         "explanation": "Here 'hatan' is in the plural past form '<em>heton</em>' because the subject is 'Romane'",
         "commonMistakes": []

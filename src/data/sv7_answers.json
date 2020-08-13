@@ -97,13 +97,13 @@
     },
     {
         "question": "On ðam ilcan geare he (<em>forþfaran</em>) #### - In that same year he passed away",
-        "correctAnswer": "forþfor",
+        "correctAnswer": "forþfor|forðfor",
         "explanation": "Here 'forþfaran' is in the third person singular past form '<em>forþfor</em>' because the subject is 'he'",
         "commonMistakes": []
     },
     {
         "question": "Hie (<em>forþfaran</em>) #### in þæm gefeohte - They died in that fight",
-        "correctAnswer": "forþforon",
+        "correctAnswer": "forþforon|forðforon",
         "explanation": "Here 'forþfaran' is in the plural past form '<em>forþforon</em>' because the subject is 'hie'",
         "commonMistakes": []
     },
