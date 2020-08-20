@@ -16,11 +16,14 @@
                         <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                     </li>
                     <li class="breadcrumb-item">
+                        <a class="black-text" href="sv1_5.html">Pronunciation Guide</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item">
                         <a class="black-text" href="sv2.html">Class I</a>
                         <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                     </li>
                     <li class="breadcrumb-item">
-
                         <a class="black-text" href="sv3.html">Class II</a>
                         <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                     </li>
@@ -111,9 +114,9 @@
             <h3>Strong Verb Classes</h3>    
             <p>
                 There are seven classes of Strong Verb, each with a specific signature root and conjugation pattern.
-                So Class II verbs always have an (eo + consonant) in the root, for example, '<em>beowan - to chew</em>'
+                So Class II verbs always have an (eo/u + consonant) in the root, for example, '<em>beowan - to chew</em>'
                 or
-                '<em>fleogan - to fly</em>') and always follow the vowel change pattern
+                '<em>lutan - to bend</em>') and always follow the vowel change pattern
                 <strong>eo - ea - u</strong> or <strong>u - ea - u</strong>. Class VI verbs can have an (a + consonant or e/ie + double consonant),
                 for example, '<em>wascan - to wash</em>' or '<em>sceððan - to injure</em>', and follow the vowel change 
                 pattern  <strong>e - æ - æ</strong>.
@@ -123,47 +126,63 @@
                     <tr>
                         <th>Class</th>
                         <th>Root Signature</th>
+                        <th>Example</th>
                         <th>Change Pattern</th>
                     </tr>
                     <tr>
                         <td>I</td>
                         <td>i + consonant</td>
-                        <td>i - a - i</td>
+                        <td>Writan</td>
+                        <td class="nomacron">i - a - i</td>
+                        <td class="macron hide">ī - ā - i</td>
                     </tr>
                     <tr>
                         <td>II</td>
-                        <td>eo + consonant</td>
-                        <td>eo - ea - u</td>
+                        <td>eo/u + consonant</td>
+                        <td>Beodan, Brucan</td>
+                        <td class="nomacron">eo/u - ea - u</td>
+                        <td class="macron hide">ēo/ū - ēa - u</td>
                     </tr>
-
                     <tr>
                         <td>III</td>
-                        <td>u + consonant</td>
-                        <td>i - a - u</td>
+                        <td>vowel + l/r/h/n + consonant</td>
+                        <td>Helpan, Weorpan, Feohtan, Findan</td>
+                        <td>i - a - u, eo/e - ea - u</td>
                     </tr>
-
                     <tr>
                         <td>IV</td>
-                        <td>e + l/r/m/n</td>
-                        <td>e - æ - æ</td>
+                        <td>e + l/r/m</td>
+                        <td>Beran, Stelan</td>
+                        <td class="nomacron">e - æ - æ</td>
+                        <td class="macron hide">e - æ - ǣ</td>
                     </tr>
 
                     <tr>
                         <td>V</td>
                         <td>e + consonant (not l/r/m/n)</td>
-                        <td>e - æ - æ</td>
+                        <td>Sprecan</td>
+                        <td class="nomacron">e - æ - æ</td>
+                        <td class="macron hide">e - æ - ǣ</td>
                     </tr>
                     <tr>
                         <td>VI</td>
                         <td>a + consonant or e/ie + double consnant</td>
-                        <td>a - o - o</td>
+                        <td>Wascan, Hliehhan</td>
+                        <td class="nomacron">a - o - o</td>
+                        <td class="macron hide">a - ō - ō</td>
                     </tr>
                     <tr>
                         <td>VII</td>
                         <td>a/o/ea/æ/e + consonant</td>
-                        <td>ea - eo - eo</td>
+                        <td>Hatan, Rædan</td>
+                        <td class="nomacron">a - e - e, ea - eo - eo</td>
+                        <td class="macron hide">a - e - ē, ea - eo - ēo</td>
                     </tr>
                 </table>
+            <button class="solid-button button" id="macron-toggle">
+                <span class="macron-hide">Show Macrons</span>
+                <span class="macron-hide hide">Hide Macrons</span>
+            </button>
             </div>
             <h3>Other Rules to Remember</h3>
             <p><strong>I-mutation</strong> occurs in most Strong Verbs in the 2nd and 3rd person singular present. So
@@ -194,7 +213,9 @@
                 '<em>heo hætþ</em>'. Similiarly, if a '<strong>þ</strong>' comes after a
                 '<strong>d</strong>',
                 they become '<strong>tt</strong>'. For example, '<em>rædan</em>' becomes '<em>heo rætt -
-                she advises</em>', not '<em>heo rætþ</em>'.
+                she advises</em>', not '<em>heo rætþ</em>'. However, if '<strong>tþ</strong>' or '<strong>dþ</strong>'
+                comes after another consonant, then it is changed to a single '<strong>t</strong>'. For example, 
+                '<em>meltan - to melt</em>' conjugates to '<em>hit milt - it melts</em>' not '<em>'hit meltþ'</em>'.
             </p>
             <h3>Working with Strong Verbs </h3>
             <p>If you look up a verb form in a dictionary, you may need to find the infinitive (-an) form, and this can be tricky with strong verbs which have different vowels in the past tense.
