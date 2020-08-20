@@ -51,7 +51,7 @@
     },
     {
         "oldEnglish": "Beodan",
-        "modernEnglish": "To order",
+        "modernEnglish": "To proclaim|offer",
         "partOfSpeech": "Class II Strong Verb"
     },
     {
@@ -186,12 +186,12 @@
     },
     {
         "oldEnglish": "Beran",
-        "modernEnglish": "To bear/carry",
+        "modernEnglish": "To bear|carry",
         "partOfSpeech": "Class IV Strong Verb"
     },
     {
         "oldEnglish": "Scieran",
-        "modernEnglish": "To shear/cut",
+        "modernEnglish": "To shear|cut",
         "partOfSpeech": "Class IV Strong Verb"
     },
     {
@@ -265,12 +265,7 @@
         "partOfSpeech": "Class VI Strong Verb"
     },
     {
-        "oldEnglish": "Ofersteppan",
-        "modernEnglish": "",
-        "partOfSpeech": "Class VI Strong Verb"
-    },
-    {
-        "oldEnglish": "Hliehan",
+        "oldEnglish": "Hliehhan",
         "modernEnglish": "To laugh",
         "partOfSpeech": "Class VI Strong Verb"
     },
@@ -291,7 +286,7 @@
     },
     {
         "oldEnglish": "Ceowan",
-        "modernEnglish": "To gnaw",
+        "modernEnglish": "To gnaw|chew",
         "partOfSpeech": "Class VII Strong Verb"
     },
     {
@@ -316,7 +311,7 @@
     },
     {
         "oldEnglish": "Hatan",
-        "modernEnglish": "To order/call",
+        "modernEnglish": "To order|call",
         "partOfSpeech": "Class VII Strong Verb"
     }
 ]

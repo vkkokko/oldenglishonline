@@ -8,13 +8,8 @@
     {
         "question": "Ðu monegum (<em>helpan</em>) #### — You help many",
         "correctAnswer": "helpst",
-        "explanation": "Here 'helpan' is in the second person singular form '<em>helpst</em>' because the subject is 'Ða munecas'",
-        "commonMistakes": [
-            {
-                "incorrectAnswer": "helpest",
-                "explanation": ""
-            }
-        ]
+        "explanation": "Here 'helpan' is in the second person singular present form '<em>helpst</em>' because the subject is 'Ða munecas'",
+        "commonMistakes": []
     },
     {
         "question": "Stuf ond Wihtgar (<em>feohtan</em>) #### wið Bryttas — Stuf and Wihtgar fought against the Britons",
@@ -25,19 +20,28 @@
     {
         "question": "Ic astigie min scyp ond (<em>weorpan</em>) #### max mine on ea — I get into a boat, and throw my nets in the river",
         "correctAnswer": "weorpe",
-        "explanation": "Here 'weorpan' is in the first person singular form '<em>weorpe</em>' because the subject is 'Ic'",
+        "explanation": "Here 'weorpan' is in the first person singular present form '<em>weorpe</em>' because the subject is 'Ic'",
         "commonMistakes": []
     },
     {
         "question": "He ðe mid wite (<em>gieldan</em>) #### — He repays you with punishment",
         "correctAnswer": "gielt",
-        "explanation": "Here 'gieldan' is in the third person singular form '<em>gielt</em>' because the subject is 'he'",
-        "commonMistakes": []
+        "explanation": "Here 'gieldan' is in the third person singular present form '<em>gielt</em>' because the subject is 'he'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "gieldð",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'gieldan' becomes 'gielt'"
+            },
+            {
+                "incorrectAnswer": "gieldþ",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'gieldan' becomes 'gielt'"
+            }
+        ]
     },
     {
         "question": "Fæste ic (<em>bindan</em>) #### þa wealas — I bind the foreigners fast",
         "correctAnswer": "binde",
-        "explanation": "Here 'bindan' is in the first person singular form '<em>binde</em>' because the subject is 'ic'",
+        "explanation": "Here 'bindan' is in the first person singular present form '<em>binde</em>' because the subject is 'ic'",
         "commonMistakes": []
     },
     {
@@ -48,8 +52,8 @@
     },
     {
         "question": "Se fugol (<em>singan</em>) #### swa ond swinsað sælum geblissad, oððaet seo sunne on suð—rodor sæged weorðeð — The bird so sings and whistles, bouyed up with bliss, until the sun has sunk into the southern sky",
-        "correctAnswer": "singð",
-        "explanation": "Here 'singan' is in the third person singular form '<em>singð</em>' because the subject is 'Se fugol'",
+        "correctAnswer": "singð|singþ",
+        "explanation": "Here 'singan' is in the third person singular present form '<em>singð</em>' because the subject is 'Se fugol'",
         "commonMistakes": []
     },
     {
@@ -60,7 +64,7 @@
     },
     {
         "question": "Ge (<em>belgan</em>) #### wið me forðam þe ic gehælde anne man on restedæge — You are angry with me because I cured a man on a Sabbath",
-        "correctAnswer": "belgaþ",
+        "correctAnswer": "belgaþ|belgað",
         "explanation": "Here 'belgan' is in the plural form '<em>belgaþ</em>' because the subject is 'Ge'",
         "commonMistakes": []
     },
@@ -73,18 +77,22 @@
     {
         "question": "Swa weax (<em>meltan</em>) ####, gif hit byð wearmum — So wax melts if it is warm",
         "correctAnswer": "milt",
-        "explanation": "Here 'meltan' is in the third person singular form '<em>milt</em>' because the subject is 'weax'",
+        "explanation": "Here 'meltan' is in the third person singular present form '<em>milt</em>' because the subject is 'weax'",
         "commonMistakes": [
             {
-                "incorrectAnswer": "melteþ",
-                "explanation":""
+                "incorrectAnswer": "meltþ",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'meltan' becomes 'milt'"
+            },
+            {
+                "incorrectAnswer": "miltþ",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'meltan' becomes 'milt'"
             }
         ]
     },
     {
         "question": "On forewerdne morgen ic drife sceap mine to hira læse ond (<em>melcan</em>) #### hie tweowa on dæg — In the morning I drive the sheep to their pasture and milk them twice a day",
         "correctAnswer": "melce",
-        "explanation": "Here 'melcan' is in the first person singular form '<em>melce</em>' because the subject is 'ic'",
+        "explanation": "Here 'melcan' is in the first person singular present form '<em>melce</em>' because the subject is 'ic'",
         "commonMistakes": []
     },
     {

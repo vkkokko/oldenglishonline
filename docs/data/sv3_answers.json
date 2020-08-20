@@ -1,18 +1,23 @@
 [
     {
-        "question": "He (<em>beodan</em>) #### Iosepe ðæt he bude his broðrum — He ordered Joseph that he should command his brothers",
+        "question": "He (<em>beodan</em>) #### Iosepe ðæt he hit bude his broðrum — He proclimed to Joseph that he should offer it to his brothers",
         "correctAnswer": "bead",
         "explanation": "Here 'beodan' is in the third person singular past form '<em>bead</em>' because the subject is 'He'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "biet",
+                "explanation": "'Biet' is the third person singular present form while the translation calls for the past form 'bead'"
+            }
+        ]
     },
     {
-        "question": "Heremod (<em>breotan</em>) #### bolgen—mod giefstol — Heremod, in an angry mood, broke his throne",
+        "question": "Heremod (<em>breotan</em>) #### bolgen-mod giefstol — Heremod, in an angry mood, broke his throne",
         "correctAnswer": "breat",
         "explanation": "Here 'breotan' is in the third person singular past form '<em>breat</em>' because the subject is 'Heremod'",
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>ceowan</em>) #### heora girdlas, and gærs ǽton — They chewed their girdles and ate grass",
+        "question": "Hie (<em>ceowan</em>) #### heora girdlas, and gærs æton — They chewed their girdles and ate grass",
         "correctAnswer": "cuwon",
         "explanation": "Here 'ceowan' is in the plural past form '<em>cuwon</em>' because the subject is 'Hie'",
         "commonMistakes": []
@@ -20,20 +25,39 @@
     {
         "question": "Sibyrhtes broðor ond swiðe mænig oþer (<em>cleofan</em>) #### cellod bord — Sibyrht’s brother and very many others clove the curved shields",
         "correctAnswer": "clufon",
-        "explanation": "Here 'ceowan' is in the plural past form '<em>cuwon</em>' because the subject is 'Sibyrhtes broðor ond swiðe mænig oþer'",
+        "explanation": "Here 'cleofan' is in the plural past form '<em>clufon</em>' because the subject is 'Sibyrhtes broðor ond swiðe mænig oþer'",
         "commonMistakes": []
     },
     {
         "question": "Se biþ mihtigra se ðe gaþ ðonne se ðe (<em>creopan</em>) #### — He who walks is more powerful than he who creeps",
-        "correctAnswer": "crypþ",
-        "explanation": "Here 'creopan' is in the third person singular form '<em>crypþ</em>' because the subject is 'se ðe gaþ'",
-        "commonMistakes": []
+        "correctAnswer": "criepþ|criepð",
+        "explanation": "Here 'creopan' is in the third person singular present form '<em>criepþ</em>' because the subject is 'se ðe gaþ'",
+        "commonMistakes": [
+
+            {
+                "incorrectAnswer": "creopþ",
+                "explanation": "Don't forget 'creopan' undergoes i-mutation in the third person present singular to become 'criepþ'"
+            },
+            {
+                "incorrectAnswer": "creopð",
+                "explanation": "Don't forget 'creopan' undergoes i-mutation in the third person present singular to become 'criepð'"
+            }
+        ]
     },
     {
         "question": "He Þeodnes willan (<em>dreogan</em>) #### — He does the lord's will",
-        "correctAnswer": "dreogþ",
-        "explanation": "Here 'dreogan' is in the third person singular form '<em>dreogþ</em>' because the subject is 'He'",
-        "commonMistakes": []
+        "correctAnswer": "driegþ|driegð",
+        "explanation": "Here 'dreogan' is in the third person singular present form '<em>driegþ</em>' because the subject is 'He'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "dreogþ",
+                "explanation": "Don't forget 'dreogan' undergoes i-mutation in the third person present singular to become 'driegþ'"
+            },
+            {
+                "incorrectAnswer": "dreogð",
+                "explanation": "Don't forget 'dreogan' undergoes i-mutation in the third person present singular to become 'driegð'"
+            }
+        ]
     },
     {
         "question": "Ða englas twegen him on twa healfa (<em>fleogan</em>) #### — The two angels flew on both sides of him",
@@ -49,8 +73,8 @@
     },
     {
         "question": "Her begann se deofol to reccanne halige gewrita and he (<em>leogan</em>) #### mid ðære race — Here the devil began to recount holy writings, and he lied in the storytelling",
-        "correctAnswer": "leah",
-        "explanation": "Here 'leogan' is in the third person singular past form '<em>leah</em>' because the subject is 'He'",
+        "correctAnswer": "leag",
+        "explanation": "Here 'leogan' is in the third person singular past form '<em>leag</em>' because the subject is 'He'",
         "commonMistakes": []
     },
     {
@@ -62,7 +86,7 @@
     {
         "question": "Ic (<em>brucan</em>) #### moddrenum flaesce — I enjoy the motherly flesh",
         "correctAnswer": "bruce",
-        "explanation": "Here 'brucan' is in the first person singular form '<em>bruce</em>' because the subject is 'Ic'",
+        "explanation": "Here 'brucan' is in the first person singular present form '<em>bruce</em>' because the subject is 'Ic'",
         "commonMistakes": []
     },
     {
@@ -72,10 +96,19 @@
         "commonMistakes": []
     },
     {
-        "question": "Gif mon (<em>seoþan</em>) #### garleac on henne broþe ond selð drincan þonne tolæt hio þæt sar — If a man boils garlic in hen—stock and gives to drink then it lessens the pain",
-        "correctAnswer": "syþ|syð",
-        "explanation": "Here 'seoþan' is in the third person singular form '<em>syþ</em>' because the subject is 'mon'",
-        "commonMistakes": []
+        "question": "Gif mon (<em>seoþan</em>) #### garleac on henne broþe ond selð drincan þonne tolæt hio þæt sar — If a man boils garlic in hen-stock and gives to drink then it lessens the pain",
+        "correctAnswer": "sieþ|sieð",
+        "explanation": "Here 'seoþan' is in the third person singular present form '<em>sieþ</em>' because the subject is 'mon'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "seoþ",
+                "explanation": "Don't forget 'seoþan' undergoes i-mutation in the third person present singular to become 'sieþ'"
+            },
+            {
+                "incorrectAnswer": "seoð",
+                "explanation": "Don't forget 'seoþan' undergoes i-mutation in the third person present singular to become 'sieð'"
+            }
+        ]
     },
     {
         "question": "Heo (<em>creopan</em>) #### betwux ðam mannum — She crept between the men",
@@ -85,20 +118,20 @@
     },
     {
         "question": "Hwæt (<em>dreogan</em>) #### ðu? — What do you do?",
-        "correctAnswer": "dreogest",
-        "explanation": "Here 'dreogan' is in the second person singular form '<em>dreogest</em>' because the subject is 'ðu'",
+        "correctAnswer": "driegst",
+        "explanation": "Here 'dreogan' is in the second person singular present form '<em>driegst</em>' because the subject is 'ðu'",
         "commonMistakes": []
     },
     {
         "question": "Hie (<em>fleogan</em>) #### mid ðam feondum — They flee with the fiends",
-        "correctAnswer": "fleogaþ",
+        "correctAnswer": "fleogaþ|fleogað",
         "explanation": "Here 'fleogan' is in the plural form '<em>fleogaþ</em>' because the subject is 'Hie'",
         "commonMistakes": []
     },
     {
-        "question": "Ðas þing ic eow (<em>beodan</em>) #### — These things I command you ",
+        "question": "Ðas þing ic eow (<em>beodan</em>) #### — These things I offer you ",
         "correctAnswer": "beode",
-        "explanation": "Here 'beodan' is in the first person singular form '<em>beode</em>' because the subject is 'ic'",
+        "explanation": "Here 'beodan' is in the first person singular present form '<em>beode</em>' because the subject is 'ic'",
         "commonMistakes": []
     },
     {

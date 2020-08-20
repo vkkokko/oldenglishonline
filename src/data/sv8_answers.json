@@ -1,20 +1,20 @@
 [
     {
         "question": "Ge ne me (<em>cnawan</em>) #### — You do not know me",
-        "correctAnswer": "cneowon",
-        "explanation": "Here 'cnawan' is in the plural past form '<em>cneowon</em>' because the subject is 'Ge'",
+        "correctAnswer": "cnawaþ",
+        "explanation": "Here 'cnawan' is in the plural present form '<em>cnawaþ</em>' because the subject is 'Ge'",
         "commonMistakes": []
     },
     {
         "question": "Hwi ne (<em>cnawan</em>) #### þu mine spræce? — Why don't you comprehend my speech? ",
         "correctAnswer": "cnæwst",
-        "explanation": "Here 'cnawan' is in the second person singular form '<em>cnæwst</em>' because the subject is 'þu'",
+        "explanation": "Here 'cnawan' is in the second person singular present form '<em>cnæwst</em>' because the subject is 'þu'",
         "commonMistakes": []
     },
     {
         "question": "Ic na (<em>cnawan</em>) #### þis wif! — I don't know this woman!",
         "correctAnswer": "cnawe",
-        "explanation": "Here 'cnawan' is in the first person singular form '<em>cnawe</em>' because the subject is 'Ic'",
+        "explanation": "Here 'cnawan' is in the first person singular present form '<em>cnawe</em>' because the subject is 'Ic'",
         "commonMistakes": []
     },
     {
@@ -26,7 +26,7 @@
     {
         "question": "On lencten hit (<em>growan</em>) ####, ond on hærfest hit wealwað — In lent it grows, and at harvest it fades",
         "correctAnswer": "grewð|grewþ",
-        "explanation": "Here 'growan' is in the third person singular form '<em>grewð</em>' because the subject is 'hit'",
+        "explanation": "Here 'growan' is in the third person singular present form '<em>grewð</em>' because the subject is 'hit'",
         "commonMistakes": []
     },
     {
@@ -61,8 +61,8 @@
     },
     {
         "question": "Her Eadwine eorl ond Morkere eorl (<em>hleapan</em>) #### ut — Here Earls Edwin and Morkere fled away",
-        "correctAnswer": "hlupon",
-        "explanation": "Here 'hleapan' is in the plural past form '<em>hleop</em>' because the subject is 'Edwine ond Morkere'",
+        "correctAnswer": "hleopon",
+        "explanation": "Here 'hleapan' is in the plural past form '<em>hleopon</em>' because the subject is 'Edwine ond Morkere'",
         "commonMistakes": []
     },
     {
@@ -80,7 +80,7 @@
     {
         "question": "Seo byme (<em>blawan</em>) ####, ond ða deadan arisað — The trumpet blows and the dead rise ",
         "correctAnswer": "blæwð|blæwþ",
-        "explanation": "Here 'blawan' is in the third person singular form '<em>blæwð</em>' because the subject is 'Seo byme'",
+        "explanation": "Here 'blawan' is in the third person singular present form '<em>blæwð</em>' because the subject is 'Seo byme'",
         "commonMistakes": []
     },
     {
@@ -92,13 +92,13 @@
     {
         "question": "(<em>blawan</em>) #### se engel on hie — The angel blew on them",
         "correctAnswer": "bleow",
-        "explanation": "Here 'blawan' is in the third person singular form '<em>bleow</em>' because the subject is 'se engel'",
+        "explanation": "Here 'blawan' is in the third person singular present form '<em>bleow</em>' because the subject is 'se engel'",
         "commonMistakes": []
     },
     {
         "question": "Drihten hwæt (<em>hatan</em>) ####  ðu me don — Lord, what do you command me to do?",
         "correctAnswer": "hætst",
-        "explanation": "Here 'hatan' is in the second person singular form '<em>hætst</em>' because the subject is 'ðu'",
+        "explanation": "Here 'hatan' is in the second person singular present form '<em>hætst</em>' because the subject is 'ðu'",
         "commonMistakes": []
     },
     {

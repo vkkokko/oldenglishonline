@@ -31,8 +31,8 @@
     },
     {
         "question": "Þu (<em>dragan</em>) #### þin sweord ond þa fæmna þu ofsloge - You drew your sword and slayed the woman",
-        "correctAnswer": "drægst",
-        "explanation": "Here 'dragan' is in the second person singular form '<em>drægst</em>' because the subject is 'Þu'",
+        "correctAnswer": "droge",
+        "explanation": "Here 'dragan' is in the second person singular past form '<em>droge</em>' because the subject is 'Þu'",
         "commonMistakes": []
     },
     {

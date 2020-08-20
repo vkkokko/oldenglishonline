@@ -16,6 +16,10 @@
                         <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                     </li>
                     <li class="breadcrumb-item">
+                        <a class="black-text" href="sv1_5.html">Pronunciation Guide</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item">
                         <a class="black-text" href="sv2.html">Class I</a>
                         <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                     </li>
@@ -429,14 +433,16 @@
                 <div class="col-md-4">
                     <div class="grammar-tooltip">
                         <button class="tooltip-header">
-                            Gieldan... <i class="float-right fa fa-angle-double-down" aria-hidden="true"></i>
+                            Conjugations producing tþ and dþ... <i class="float-right fa fa-angle-double-down" aria-hidden="true"></i>
                         </button>
                         <div class="card-body hide">
                             <p>
-                                For Class III verbs, if a '<strong>þ/ð</strong>' comes after a
-                                '<strong>t</strong>' or '<strong>d</strong>', it becomes a '<strong>t</strong>'. So '<em>gieldan</em>'
-                                becomes '<em>gielt</em>' in the third person singular and verbs like '<em>meltan - to melt</em>'
-                                become '<em>milt</em>'.
+                                Don't forget, when a '<strong>þ/ð</strong>' comes after a consonant + 
+                                '<strong>t</strong>' or '<strong>d</strong>', both the '<strong>d/t</strong>' and the 
+                                '<strong>þ/ð</strong>' become '<strong>t</strong>'. So
+                                '<em>gieldan</em>'
+                                becomes '<em>he gielt - he repays</em>' and '<em>meltan - to
+                                melt</em>' becomes '<em>hit milt - it melts</em>'.
                             </p>
                         </div>
                     </div>
@@ -464,24 +470,24 @@
     </section>
     <hr class="border">
     <section>
-		<div>
-			<h2>Test Your Conjugations!</h2>
-			<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
-		</div>
-		<form name="form1" autocomplete="OFF">
-			<p>
-				<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
-				<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
-				<button class="light-button button special-character" data-char="&eth;">&eth;</button>
-				<br class="visible-xs">			<sub>Use these buttons to insert thorn, ash and eth when you have an input
-					selected.</sub>
-			</p>
-			<div id="question-wrapper" data-question-file="sv4_answers.json">
-			</div>
-			<div class="form-group">
-				<button class="solid-button button" id="submit">Check</button>
-				<button class="solid-button button hidden" id="again">Try Again?</button>
-			</div>
-		</form>
-	</section>
+        <div>
+            <h2>Test Your Conjugations!</h2>
+            <small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
+        </div>
+        <form name="form1" autocomplete="OFF">
+            <p>
+                <button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+                <button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+                <button class="light-button button special-character" data-char="&eth;">&eth;</button>
+                <br class="visible-xs"> <sub>Use these buttons to insert thorn, ash and eth when you have an input
+                    selected.</sub>
+            </p>
+            <div id="question-wrapper" data-question-file="sv4_answers.json">
+            </div>
+            <div class="form-group">
+                <button class="solid-button button" id="submit">Check</button>
+                <button class="solid-button button hidden" id="again">Try Again?</button>
+            </div>
+        </form>
+    </section>
 </main>

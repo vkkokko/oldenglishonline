@@ -1,9 +1,18 @@
 [
     {
         "question": "Ælc god treow (<em>beran</em>) #### gode wæstmas — Every good tree produces good fruits",
-        "correctAnswer": "byrþ",
-        "explanation": "Here 'beran' is in the third person singular form '<em>byrþ</em>' because the subject is 'Ælc god treow'",
-        "commonMistakes": []
+        "correctAnswer": "birþ|birð",
+        "explanation": "Here 'beran' is in the third person singular present form '<em>birþ</em>' because the subject is 'Ælc god treow'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "berþ",
+                "explanation": "Don't forget 'beran' undergoes i-mutation in the third person present singular to become 'birþ'"
+            },
+            {
+                "incorrectAnswer": "berð",
+                "explanation": "Don't forget 'beran' undergoes i-mutation in the third person present singular to become 'birð'"
+            }
+        ]
     },
     {
         "question": "Ða sacerdas (<em>scieran</em>) #### hiera heafdu — The priests sheared their heads",
@@ -12,16 +21,21 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic hit (<em>stelan</em>) #### fram þæm here on midne winter — I stole it from the army in mid—winter ",
+        "question": "Ic hit (<em>stelan</em>) #### fram þæm here on midne winter — I stole it from the army in mid-winter ",
         "correctAnswer": "stæl",
-        "explanation": "Here 'stelan' is in the first person singular form '<em>stæl</em>' because the subject is 'Ic'",
+        "explanation": "Here 'stelan' is in the first person singular present form '<em>stæl</em>' because the subject is 'Ic'",
         "commonMistakes": []
     },
     {
-        "question": "Swa swa fixas (<em>cwelan</em>) #### gyf hie of wætere beoþ, swa eac cwelþ alc eorþlic lichama gyf he byþ ðære lyfte bedaled — As fish die if they are out of water, so also every earthly body dies if it be deprived of the air",
-        "correctAnswer": "cwelaþ",
+        "question": "Swa swa fiscas (<em>cwelan</em>) #### gif hie of wætere beoþ, swa eac cwelþ alc eorþlic lichama gif he biþ ðære lyfte bedaled — As fish die if they are out of water, so also every earthly body dies if it be deprived of the air",
+        "correctAnswer": "cwelaþ|cwelað",
         "explanation": "Here 'cwelan' is in the plural form '<em>cwelaþ</em>' because the subject is 'fiscas'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "cwælon",
+                "explanation": "'Cwælon' is the past plural form of 'cwelan' while the translation calls for the present form 'cwelaþ'"
+            }
+        ]
     },
     {
         "question": "Swa þa wyrmas hit geforan gelice mid þæm scillum gelice mid þe muþe þa eorþan sliton ond (<em>teran</em>) #### — As the serpents advanced they ripped and tore the ground with their scales and their mouths",
@@ -31,9 +45,14 @@
     },
     {
         "question": "Ðu min bibod (<em>brecan</em>) #### be ðines bonan worde — You break my commandments through the word of your destroyer ",
-        "correctAnswer": "brace",
-        "explanation": "Here 'brecan' is in the second person singular form '<em>brace</em>' because the subject is 'Ðu'",
-        "commonMistakes": []
+        "correctAnswer": "bricst",
+        "explanation": "Here 'brecan' is in the second person singular present form '<em>bricst</em>' because the subject is 'Ðu'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "brecst",
+                "explanation": "Don't forget 'brecan' undergoes i-mutation in the second person present singular to become 'bricst'"
+            }
+        ]
     },
     {
         "question": "Hie hie be handum (<em>niman</em>) #### — They took them by the hands",
@@ -42,7 +61,7 @@
         "commonMistakes": [
             {
                 "incorrectAnswer": "næmon",
-                "explanation": ""
+                "explanation": "Don't forget, 'niman' is irregular and takes an 'o' in the past tense to become 'nomon'"
             }
         ]
     },
@@ -53,15 +72,20 @@
         "commonMistakes": [
             {
                 "incorrectAnswer": "næm",
-                "explanation": ""
+                "explanation": "Don't forget, 'niman' is irregular and takes an 'o' in the past tense to become 'nom'"
             }
         ]
     },
     {
         "question": "Ðu eall þing (<em>beran</em>) #### — You carry all things",
         "correctAnswer": "birest",
-        "explanation": "Here 'beran' is in the second person singular form '<em>birest</em>' because the subject is 'Ðu'",
-        "commonMistakes": []
+        "explanation": "Here 'beran' is in the second person singular present form '<em>birest</em>' because the subject is 'Ðu'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "berest",
+                "explanation": "Don't forget, 'beran' undergoes i-mutation in the second person singular to become 'birest'"
+            }
+        ]
     },
     {
         "question": "Se þe wiccungdom widest (<em>beran</em>) #### — He who carried magic art the furthest",
@@ -76,7 +100,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se þeof (<em>stelan</em>) #### þa ofenbacan hlafas — The thief stole the oven—backed loaves.",
+        "question": "Se þeof (<em>stelan</em>) #### þa ofenbacan hlafas — The thief stole the oven-backed loaves.",
         "correctAnswer": "stæl",
         "explanation": "Here 'stelan' is in the third person singular past form '<em>stæl</em>' because the subject is 'Se þeof'",
         "commonMistakes": []
@@ -113,20 +137,35 @@
     },
     {
         "question": "Þa (<em>cuman</em>) #### we to þæm mere — Then we came to the sea",
-        "correctAnswer": "cwomon",
-        "explanation": "Here 'cuman' is in the plural form '<em>cwomon</em>' because the subject is 'We'",
-        "commonMistakes": []
+        "correctAnswer": "comon",
+        "explanation": "Here 'cuman' is in the plural form '<em>comon</em>' because the subject is 'We'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "cæmon",
+                "explanation": "Don't forget, 'cuman' is irregular and takes an 'o' instead of 'æ' in the plural past tense to become 'comon'"
+            }
+        ]
     },
     {
         "question": "He (<em>cuman</em>) #### to sumere wudewan, hire nama wæs Hygd — He came to a widow, whose name was Hygd",
         "correctAnswer": "com",
         "explanation": "Here 'cuman' is in the third person singular past form '<em>com</em>' because the subject is 'he'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "cæm",
+                "explanation": "Don't forget, 'cuman' is irregular and takes an 'o' instead of 'æ' in the past tense to become 'com'"
+            }
+        ]
     },
     {
         "question": "Þa (<em>cuman</em>) #### þær an wif of samaria wolde wæter feccan — Then there came a woman of Samaria who wanted to fetch water",
         "correctAnswer": "com",
         "explanation": "Here 'cuman' is in the third person singular past form '<em>com</em>' because the subject is 'wif'",
-        "commonMistakes": []
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "cæm",
+                "explanation": "Don't forget, 'cuman' is irregular and takes an 'o' instead of 'æ' in the past tense to become 'com'"
+            }
+        ]
     }
 ]

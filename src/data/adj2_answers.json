@@ -48,10 +48,6 @@
         "correctAnswer": "ealdan",
         "explanation":"Here 'eald' is modifying the singular accusative masculine 'biscop' so it takes the 'an' suffix",
         "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
         ]
     },
     {
@@ -136,10 +132,6 @@
         "correctAnswer": "godan",
         "explanation":"Here 'god' is modifying the plural nominative neuter 'weorc' so it takes the 'an' suffix",
         "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
         ]
     },
     {

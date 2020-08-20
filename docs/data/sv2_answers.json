@@ -8,19 +8,19 @@
     {
         "question": "Mycel yfel deð se ðe leas (<em>writan</em>) #### — Much evil does he who writes falsely",
         "correctAnswer": "writ",
-        "explanation": "Here 'writan' is in the third person singular form '<em>writ</em>' because the subject is 'se'",
+        "explanation": "Here 'writan' is in the third person singular present form '<em>writ</em>' because the subject is 'se'",
         "commonMistakes": []
     },
     {
         "question": "Ðu (<em>ripan</em>) #### ðine æceras — You reap your acres",
         "correctAnswer": "ripst",
-        "explanation": "Here 'ripan' is in the second person singular form '<em>ripst</em>' because the subject is 'Ðu'",
+        "explanation": "Here 'ripan' is in the second person singular present form '<em>ripst</em>' because the subject is 'Ðu'",
         "commonMistakes": []
     },
     {
         "question": "Ða ealdan preostas cealf (<em>sniþan</em>) #### — The old priests slaughtered a calf",
         "correctAnswer": "snidon",
-        "explanation": "Here 'ripan' is in the second person singular form '<em>ripst</em>' because the subject is 'Ðu'",
+        "explanation": "Here 'ripan' is in the second person singular present form '<em>ripst</em>' because the subject is 'Ðu'",
         "commonMistakes": []
     },
     {
@@ -38,7 +38,7 @@
     {
         "question": "Hwilum ic on wloncum wicge (<em>ridan</em>) #### — Sometimes I ride on a proud horse",
         "correctAnswer": "ride",
-        "explanation": "Here 'ridan' is in the first person singular form '<em>ride</em>' because the subject is 'I'",
+        "explanation": "Here 'ridan' is in the first person singular present form '<em>ride</em>' because the subject is 'I'",
         "commonMistakes": []
     },
     {
@@ -50,7 +50,7 @@
     {
         "question": "Ða wicingas (<em>drifan</em>) #### us to ðære sæ — The Vikings drive us to the sea",
         "correctAnswer": "drifaþ|drifað",
-        "explanation": "Here 'drifan' is in the third person singular form '<em>drifaþ</em>' because the subject is 'Ða wicingas'",
+        "explanation": "Here 'drifan' is in the third person singular present form '<em>drifaþ</em>' because the subject is 'Ða wicingas'",
         "commonMistakes": []
     },
     {
@@ -67,8 +67,8 @@
     },
     {
         "question": "An ðeof ofer þone geard (<em>stigan</em>) #### ond stæll þa wyrta — A thief climbed over the hedge and stole the plants",
-        "correctAnswer": "stah",
-        "explanation": "Here 'stigan' is in the third person singular past form '<em>stah</em>' because the subject is 'An ðeof'",
+        "correctAnswer": "stag",
+        "explanation": "Here 'stigan' is in the third person singular past form '<em>stag</em>' because the subject is 'An ðeof'",
         "commonMistakes": []
     },
     {
@@ -85,9 +85,18 @@
     },
     {
         "question": "Ðeos bat (<em>glidan</em>) #### on laguflode — This boat glides over the ocean",
-        "correctAnswer": "glidþ|gildð",
-        "explanation": "Here 'glidan' is in the third person singular form '<em>glideþ</em>' because the subject is 'Ðeos bat'",
-        "commonMistakes": []
+        "correctAnswer": "glitt",
+        "explanation": "Here 'glidan' is in the third person singular present form '<em>glit</em>' because the subject is 'Ðeos bat'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "glidþ",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>dþ</strong>', it is changed to '<strong>tt</strong>' so 'glidan' becomes 'glitt'"
+            },
+            {
+                "incorrectAnswer": "glidð",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>dþ</strong>', it is changed to '<strong>tt</strong>' so 'glidan' becomes 'glitt'"
+            }
+        ]
     },
     {
         "question": "(<em>bitan</em>) #### hine lys — Lice bit him",
@@ -110,13 +119,13 @@
     {
         "question": "Heo mec (<em>sniþan</em>) #### seaxes ecg — She cut me with the blade of the knife",
         "correctAnswer": "snaþ|snað",
-        "explanation": "Here 'sniþan' is in the third person singular form '<em>snaþ</em>' because the subject is 'Heo'",
+        "explanation": "Here 'sniþan' is in the third person singular present form '<em>snaþ</em>' because the subject is 'Heo'",
         "commonMistakes": []
     },
     {
         "question": "We ofer laguflode scipas (<em>liþan</em>) #### — We sailed ships over the ocean ",
-        "correctAnswer": "liþon|liðon",
-        "explanation": "Here 'liþan' is in the plural past form '<em>liþon</em>' because the subject is 'We'",
+        "correctAnswer": "lidon",
+        "explanation": "Here 'liþan' is in the plural past form '<em>lidon</em>' because the subject is 'We'",
         "commonMistakes": []
     },
     {
