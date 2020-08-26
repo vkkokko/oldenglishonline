@@ -30,7 +30,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Gif we eow ða gastlican sad sawaþ, hwonlic biþ ðæt we eowere flaslican þing (<em>ripan</em>) #### — If we sow the spiritual seeds for you, it is a little matter that we reap your fleshly goods",
+        "question": "Gif we eow ða gastlican sad sawaþ, hwonlic biþ ðæt we eowere flaslican þing (<em>ripan</em>) #### — If we sow the spiritual seeds for you, it is little matter that we reaped your fleshly goods",
         "correctAnswer": "ripon",
         "explanation": "Here 'ripan' is in the plural past form '<em>ripon</em>' because the subject is 'we'",
         "commonMistakes": []
@@ -43,8 +43,8 @@
     },
     {
         "question": "Hie (<em>bidan</em>) #### Drihtnes domes — They await the Lord's doom",
-        "correctAnswer": "bidaþ|bidað",
-        "explanation": "Here 'bidan' is in the plural form '<em>bidaþ</em>' because the subject is 'They'",
+        "correctAnswer": "beodaþ|beodað",
+        "explanation": "Here 'bidan' is in the plural form '<em>beodaþ</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
@@ -469,7 +469,7 @@
         ]
     },
     {
-        "question": "Swa þa wyrmas hit geforan gelice mid þæm scillum gelice mid þe muþe þa eorþan sliton ond (<em>teran</em>) #### — As the serpents advanced they ripped and tore the ground with their scales and their mouths",
+        "question": "þa wyrmas mid þæm scillum gelice mid þe muþe þa eorþan sliton ond (<em>teran</em>) #### — The serpents ripped and tore the ground with their scales and their mouths",
         "correctAnswer": "tæron",
         "explanation": "Here 'teran' is in the plural past form '<em>tæron</em>' because the subject is 'þa wyrmas'",
         "commonMistakes": []
