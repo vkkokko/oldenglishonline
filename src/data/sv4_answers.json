@@ -1,0 +1,134 @@
+[
+    {
+        "question": "We æton and (<em>drincan</em>) #### beforan ðe — We ate and drank before you",
+        "correctAnswer": "druncon",
+        "explanation": "Here 'drincan' is in the plural past form '<em>druncon</em>' because the subject is 'We'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu monegum (<em>helpan</em>) #### — You help many",
+        "correctAnswer": "helpst",
+        "explanation": "Here 'helpan' is in the second person singular present form '<em>helpst</em>' because the subject is 'Ða munecas'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Stuf ond Wihtgar (<em>feohtan</em>) #### wið Bryttas — Stuf and Wihtgar fought against the Britons",
+        "correctAnswer": "fuhton",
+        "explanation": "Here 'feohtan' is in the plural past form '<em>fuhton</em>' because the subject is 'Stuf ond Wihtgar'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic astigie min scyp ond (<em>weorpan</em>) #### max mine on ea — I get into a boat, and throw my nets in the river",
+        "correctAnswer": "weorpe",
+        "explanation": "Here 'weorpan' is in the first person singular present form '<em>weorpe</em>' because the subject is 'Ic'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ðe mid wite (<em>gieldan</em>) #### — He repays you with punishment",
+        "correctAnswer": "gielt",
+        "explanation": "Here 'gieldan' is in the third person singular present form '<em>gielt</em>' because the subject is 'he'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "gieldð",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'gieldan' becomes 'gielt'"
+            },
+            {
+                "incorrectAnswer": "gieldþ",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'gieldan' becomes 'gielt'"
+            }
+        ]
+    },
+    {
+        "question": "Fæste ic (<em>bindan</em>) #### þa wealas — I bind the foreigners fast",
+        "correctAnswer": "binde",
+        "explanation": "Here 'bindan' is in the first person singular present form '<em>binde</em>' because the subject is 'ic'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo burh (<em>sincan</em>) #### on eorþan — The town sank into the earth",
+        "correctAnswer": "sanc",
+        "explanation": "Here 'sincan' is in the third person singular past form '<em>sanc</em>' because the subject is 'Seo burh'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se fugol (<em>singan</em>) #### swa ond swinsað sælum geblissad, oððaet seo sunne on suð—rodor sæged weorðeð — The bird so sings and whistles, bouyed up with bliss, until the sun has sunk into the southern sky",
+        "correctAnswer": "singð|singþ",
+        "explanation": "Here 'singan' is in the third person singular present form '<em>singð</em>' because the subject is 'Se fugol'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic fleah mid fuglum ond on flode (<em>swimman</em>) #### — I flew among birds and swam in the sea",
+        "correctAnswer": "swom",
+        "explanation": "Here 'swimman' is in the first person singular past form '<em>swom</em>' because the subject is 'ic'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ge (<em>belgan</em>) #### wið me forðam þe ic gehælde anne man on restedæge — You are angry with me because I cured a man on a Sabbath",
+        "correctAnswer": "belgaþ|belgað",
+        "explanation": "Here 'belgan' is in the plural form '<em>belgaþ</em>' because the subject is 'Ge'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>delfan</em>) #### ane mycle dic — They dug a great ditch",
+        "correctAnswer": "dulfon",
+        "explanation": "Here 'delfan' is in the plural past form '<em>dulfon</em>' because the subject is 'Ge'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Swa weax (<em>meltan</em>) ####, gif hit byð wearmum — So wax melts if it is warm",
+        "correctAnswer": "milt",
+        "explanation": "Here 'meltan' is in the third person singular present form '<em>milt</em>' because the subject is 'weax'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "meltþ",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'meltan' becomes 'milt'"
+            },
+            {
+                "incorrectAnswer": "miltþ",
+                "explanation": "Don't forget, whenever conjugation produces '<strong>tþ</strong>' after another consonant, it is changed to '<strong>t</strong>' so 'meltan' becomes 'milt'"
+            }
+        ]
+    },
+    {
+        "question": "On forewerdne morgen ic drife sceap mine to hira læse ond (<em>melcan</em>) #### hie tweowa on dæg — In the morning I drive the sheep to their pasture and milk them twice a day",
+        "correctAnswer": "melce",
+        "explanation": "Here 'melcan' is in the first person singular present form '<em>melce</em>' because the subject is 'ic'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se draca hie (<em>swelgan</em>) #### and he eft aspaw — The dragon sallowed her and afterwards vomited",
+        "correctAnswer": "swealg",
+        "explanation": "Here 'swelgan' is in the third person singular past form '<em>swealg</em>' because the subject is 'Se draca'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo wunde (<em>swellan</em>) #### æfter þrim dagum — The wound swelled after three days",
+        "correctAnswer": "sweall",
+        "explanation": "Here 'swellan' is in the third person singular past form '<em>sweall</em>' because the subject is 'Se wunde'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning ne (<em>drincan</em>) #### win ne beor — the king drank neither wine nor beer",
+        "correctAnswer": "dranc",
+        "explanation": "Here 'drincan' is in the third person singular past form '<em>dranc</em>' because the subject is 'Se cyning'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu (<em>drincan</em>) #### seftne drenc ond swetne — You drank a mild and sweet drink",
+        "correctAnswer": "drunce",
+        "explanation": "Here 'drincan' is in the second person singular past form '<em>drunce</em>' because the subject is 'Ðu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðonne ðu (<em>helpan</em>) #### me — When you helped me",
+        "correctAnswer": "hulpe",
+        "explanation": "Here 'helpan' is in the second person singular past form '<em>hulpe</em>' because the subject is 'ðu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Guðlac wið deoflum (<em>feohtan</em>) #### — Guthlac fought with devils",
+        "correctAnswer": "feaht",
+        "explanation": "Here 'feohtan' is in the third person singular past form '<em>feaht</em>' because the subject is 'Guðlac'",
+        "commonMistakes": []
+    }
+]

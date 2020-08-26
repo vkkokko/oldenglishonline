@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Ðæt man linene claðas (<em>wascan</em>) #### — That man washed linen clothes",
+        "correctAnswer": "wosc",
+        "explanation": "Here 'wascan' is in the third person singular past form '<em>wosc</em>' because the subject is 'Ðæt man'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie heora hrægel (<em>wascan</em>) #### and clænsodon — They washed and cleansed their clothes",
+        "correctAnswer": "woscon",
+        "explanation": "Here 'wascan' is in the third person singular past form '<em>wosc</em>' because the subject is 'Ðæt man'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þu (<em>wascan</em>) ####  þas wyrte — You wash this plant",
+        "correctAnswer": "wæscst",
+        "explanation": "Here 'wascan' is in the second person singular form '<em>wæscst</em>' because the subject is 'Þu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Simon Petrus (<em>dragan</em>) #### ðæt nett on eorþe — Simon Petrus dragged the net ashore",
+        "correctAnswer": "drog",
+        "explanation": "Here 'dragan' is in the third person singular past form '<em>drog</em>' because the subject is 'Simon'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>dragan</em>) #### heora scipa on, west—healfe ðære brycge — They dragged their ships to the west side of the bridge",
+        "correctAnswer": "drogon",
+        "explanation": "Here 'dragan' is in the plural past form '<em>drogon</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þu (<em>dragan</em>) #### þin sweord ond þa fæmna þu ofsloge — You drew your sword and slayed the woman",
+        "correctAnswer": "droge",
+        "explanation": "Here 'dragan' is in the second person singular past form '<em>droge</em>' because the subject is 'Þu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "His heafod hie (<em>dragan</em>) #### geond þa burh — They dragged his head through the town",
+        "correctAnswer": "drogon",
+        "explanation": "Here 'dragan' is in the plural past form '<em>drogon</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He me aðas (<em>swerian</em>) #### — He swore oaths to me",
+        "correctAnswer": "swor",
+        "explanation": "Here 'swerian' is in the third person singular past form '<em>swor</em>' because the subject is 'He'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>swerian</em>) #### him betweonan, ðæt hig sibbe heoldon — They swore oaths between them that they would keep the peace",
+        "correctAnswer": "sworon",
+        "explanation": "Here 'swerian' is in the plural past form '<em>swor</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Swa swa ðu (<em>swerian</em>) #### on soðfæstnysse ðine — Just as you swore in your faithfulness",
+        "correctAnswer": "swore",
+        "explanation": "Here 'swerian' is in the second person singular past form '<em>swore</em>' because the subject is 'ðu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu (<em>ofersteppan</em>) #### ðæm weall — You stepped over the wall",
+        "correctAnswer": "oferstope",
+        "explanation": "Here 'steppan' is in the second person singular past form '<em>stope</em>' because the subject is 'ðu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>steppan</em>) #### feondas swiðe mid fotum - They greatly trampled enemies with their feet",
+        "correctAnswer": "stopon",
+        "explanation": "Here 'steppan' is in the plural past form '<em>stopon</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða apostoli ða (<em>hliehhan</em>) #### ðæra deofla leasunga — The apostles then laughed at the devil's deception",
+        "correctAnswer": "hlogon",
+        "explanation": "Here 'hliehhan' is in the plural past form '<em>hlogon</em>' because the subject is 'Ða apostoli'",
+        "commonMistakes": []
+    },
+    {
+        "question": "(<em>hliehhan</em>) #### þa modi man — The bold man then laughed",
+        "correctAnswer": "hlog",
+        "explanation": "Here 'hliehhan' is in the third person singular past form '<em>hlog</em>' because the subject is 'þa modi man'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðonne þu (<em>hliehhan</em>) ####, þonne weop ic biterlice — When you laughed, then I wept bitterly",
+        "correctAnswer": "hloge",
+        "explanation": "Here 'hliehhan' is in the second person singular past form '<em>hloge</em>' because the subject is 'þu'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On ðam ilcan geare he (<em>forþfaran</em>) #### — In that same year he passed away",
+        "correctAnswer": "forþfor|forðfor",
+        "explanation": "Here 'forþfaran' is in the third person singular past form '<em>forþfor</em>' because the subject is 'he'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>forþfaran</em>) #### in þæm gefeohte — They died in that fight",
+        "correctAnswer": "forþforon|forðforon",
+        "explanation": "Here 'forþfaran' is in the plural past form '<em>forþforon</em>' because the subject is 'hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>slean</em>) #### fram eastsæ oð westsæ — They slaughtered from the east sea to the west sea",
+        "correctAnswer": "slogon",
+        "explanation": "Here 'slean' is in the plural past form '<em>slogon</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu þæt Iudeisce folc ðe Crist (<em>slean</em>) ####, secgað þæt hie willað gelifan on þone Fæder, and na on ðone Sunu ðe hiera magas slogon - Now the Jewish people who slew Christ, say that they will believe in the Father, and not in the Son whom their forefathers slew",
+        "correctAnswer": "slogon",
+        "explanation": "Here 'slean' is in the plural past form '<em>slogon</em>' because the subject is 'Iudeisce folc'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sende he ða his cwelleras, and (<em>slean</em>) #### ealle ða hyse-cild þe wæron on þære byrig Bethleem - He then sent his executioners, and slew all the male children that were in the city of Bethlehem",
+        "correctAnswer": "sloh",
+        "explanation": "Here 'slean' is in the third person singular past form '<em>sloh</em>' because the subject is 'he'",
+        "commonMistakes": []
+    }
+]

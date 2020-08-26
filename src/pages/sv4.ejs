@@ -16,6 +16,10 @@
                         <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                     </li>
                     <li class="breadcrumb-item">
+                        <a class="black-text" href="sv1_5.html">Pronunciation Guide</a>
+                        <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                    </li>
+                    <li class="breadcrumb-item">
                         <a class="black-text" href="sv2.html">Class I</a>
                         <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                     </li>
@@ -50,18 +54,18 @@
             <h2>Class III Strong Verbs</h2>
             <p><span class="initial-letter darkorange-text">C</span>lass III verbs fall into four sub-categories and
                 can have a (vowel + l + consonant), a (vowel + r + consonant), a (vowel + h + consonant),
-                or a (vowel + n + consonant). For example, '<em>helpan - to help</em>', 
+                or a (vowel + n + consonant). For example, '<em>helpan - to help</em>',
                 '<em>weorpan - to throw</em>', '<em>feohtan - to fight</em>',
                 and '<em>findan - to find</em>'.</p>
             <p>
                 When they conjugate, they follow the vowel change pattern
                 <strong>i - a - u</strong>, <strong>eo - ea - u</strong> or <strong>e - ea - u</strong>.
                 This means that the root vowel in the present is '<strong>i</strong>', '<strong>eo</strong>' or
-                '<strong>e</strong>', the root vowel in the past singular is '<strong>a</strong>' or
+                '<strong>e</strong>', the root vowel in the past first and third person singular is  '<strong>a</strong>' or
                 '<strong>ea</strong>', and the root vowel in the past pural is
                 '<strong>u</strong>'. So '<em>ic findan - I find</em>', becomes '<em>ic fand - I found</em>' or
                 '<em>hie fundon - they found</em>'. Examine the verbs '<em>melcan - to milk</em>' and '<em>feohtan - to
-                fight</em>' in the sentences below.
+                    fight</em>' in the sentences below.
             </p>
             <div class="row">
                 <div class="text-center col-sm-6">
@@ -171,7 +175,8 @@
                             <span class="yellow-text">Object</span>
                         </div>
                     </div>
-                </div></div>
+                </div>
+            </div>
             <p>
                 When a verb has an '<strong>ie</strong>' in the root, for example, '<em>gieldan - to repay</em>' or
                 '<em>giellan - to yell</em>',
@@ -180,7 +185,8 @@
                     title="A sound formed by the combination of two vowels in a single syllable">diphthongs</abbr>
                 '<strong>ea</strong>' and '<strong>ie</strong>' when
                 preceded by an initial palatal (<strong>g</strong>, <strong>c</strong>, or <strong>sc</strong>).
-                This is known as <strong>palatal diphthongization</strong> and it affects Class IV and Class V verbs also, so bear it in
+                This is known as <strong>palatal diphthongization</strong> and it affects Class IV and Class V verbs
+                also, so bear it in
                 mind when you see an '<strong>ie</strong>' in the root of a verb.
             </p>
             <div class="row padding-top">
@@ -425,16 +431,34 @@
                     <br><br>
                 </div>
                 <div class="col-md-4">
+                    <div class="grammar-tooltip">
+                        <button class="tooltip-header">
+                            Conjugations producing tþ and dþ... <i class="float-right fa fa-angle-double-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="card-body hide">
+                            <p>
+                                Don't forget, when a '<strong>þ/ð</strong>' comes after a consonant + 
+                                '<strong>t</strong>' or '<strong>d</strong>', both the '<strong>d/t</strong>' and the 
+                                '<strong>þ/ð</strong>' become '<strong>t</strong>'. So
+                                '<em>gieldan</em>'
+                                becomes '<em>he gielt - he repays</em>' and '<em>meltan - to
+                                melt</em>' becomes '<em>hit milt - it melts</em>'.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <p>Class III verbs are complex with many variations. Take your time and practice them below until you feel
-                comfortable with the vowel changes.</p> 
-                
-                <p>Also, remember that the important thing is to understand the <em>way</em> that
-                strong verbs work, rather than trying to remember all the different patterns. As with all strong verbs, the key 
-                takeaways are that there is a vowel change in the root of the verb to indicate the past tense; that these
-                vowel changes follow certain patterns that link them to other verbs; and that within a strong verb's conjugation this 
-                vowel change is the same for first and third person singular, and for second person singular and plural past.</p>
+                comfortable with the vowel changes.</p>
+            <p>Also, remember that the important thing is to understand the <em>way</em> that
+                strong verbs work, rather than trying to remember all the different patterns. As with all strong verbs,
+                the key
+                takeaways are that there is a vowel change in the root of the verb to indicate the past tense; that
+                these
+                vowel changes follow certain patterns that link them to other verbs; and that within a strong verb's
+                conjugation this
+                vowel change is the same for first and third person singular, and for second person singular and plural
+                past.</p>
             <a href="sv3.html" class="float-left darkorange-text strong padding-top padding-bottom">
                 <i class="fa fa-angle-double-left" aria-hidden="true"></i> Return to Strong Verbs II
             </a>
@@ -443,5 +467,27 @@
                 <i class="fa fa-angle-double-right" aria-hidden="true"></i>
             </a>
         </div>
+    </section>
+    <hr class="border">
+    <section>
+        <div>
+            <h2>Test Your Conjugations!</h2>
+            <small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
+        </div>
+        <form name="form1" autocomplete="OFF">
+            <p>
+                <button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+                <button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+                <button class="light-button button special-character" data-char="&eth;">&eth;</button>
+                <br class="visible-xs"> <sub>Use these buttons to insert thorn, ash and eth when you have an input
+                    selected.</sub>
+            </p>
+            <div id="question-wrapper" data-question-file="sv4_answers.json">
+            </div>
+            <div class="form-group">
+                <button class="solid-button button" id="submit">Check</button>
+                <button class="solid-button button hidden" id="again">Try Again?</button>
+            </div>
+        </form>
     </section>
 </main>

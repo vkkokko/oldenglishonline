@@ -246,7 +246,7 @@
     {
         "question": "(<em>þu</em>) #### sindon bigswican⁠ — You two are deceivers",
         "correctAnswer": "git",
-        "explanation":"Here 'þu' is used in the first person dual nominative so it becomes 'git'",
+        "explanation":"Here 'þu' is used in the second person dual nominative so it becomes 'git'",
         "commonMistakes": []
     },
     {

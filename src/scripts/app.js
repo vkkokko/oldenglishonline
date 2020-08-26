@@ -71,6 +71,13 @@
 			$(this).find('span').toggleClass('hide');
 		});
 
+		$('#macron-toggle').on('click', function () {
+			event.preventDefault();
+			$(this).find('span').toggleClass('hide');
+			$('.nomacron').toggleClass('hide');
+			$('.macron').toggleClass('hide');
+		});
+
 		//This is the tooltip toggle. It also closes other open tooltips.
 		$('.tooltip-header').each(function () {
 			$(this).on('click', function () {

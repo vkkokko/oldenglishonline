@@ -78,6 +78,10 @@
                             <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                         </li>
                         <li class="breadcrumb-item">
+                            <a class="black-text" href="sv1_5.html">Pronunciation Guide</a>
+                            <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+                        </li>
+                        <li class="breadcrumb-item">
                             <a class="black-text" href="sv2.html">Class I</a>
                             <i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
                         </li>
@@ -115,8 +119,8 @@
                     They can have an (a/o/ea/æ/e + consonant). For example,
                     '<em>hatan - to order/be called</em>', '<em>blawan - to blow</em>', '<em>hleapan - to leap</em>' or
                     '<em>growan - to grow</em>'.
-                    When they conjugate, they either they take an '<strong>e</strong>'
-                    or an '<strong>eo</strong>'
+                    When they conjugate, they either they take an '<strong>ē</strong>'
+                    or an '<strong>ēo</strong>'
                     in both the past singular and past plural. For example, examine the verbs
                     '<em>hatan - to order</em>' and '<em>cnawan - to know</em>' in the sentences below.
                 </p>
@@ -459,20 +463,19 @@
                     <div class="col-md-4">
                         <div class="grammar-tooltip">
                             <button class="tooltip-header">
-                                Double consonants... <i class="float-right fa fa-angle-double-down" aria-hidden="true"></i>
+                                Conjugations producing tþ and dþ... <i class="float-right fa fa-angle-double-down" aria-hidden="true"></i>
                             </button>
                             <div class="card-body hide">
                                 <p>
-                                    Don't forget, if
-                                    a '<strong>þ/ð</strong>' comes after an unvoiced consonant like '<strong>t</strong>' it
-                                    becomes
-                                    a '<strong>t</strong>' also. This makes it easier to pronounce.
+                                    Don't forget, when
+                                    a '<strong>þ/ð</strong>' comes after a vowel and an unvoiced
+                                    consonant like '<strong>t</strong>' it becomes
+                                    a '<strong>t</strong>' also.
                                     So '<em>hatan</em>' conjugates to '<em>heo hætt - she orders</em>' not
-                                    '<em>heo hætþ</em>'. Similiarly, if a '<strong>þ</strong>' comes after a
+                                    '<em>heo hætþ</em>'. Similiarly, if a '<strong>þ</strong>' comes after a vowel and a
                                     '<strong>d</strong>',
-                                    they become '<strong>tt</strong>'. For example, '<em>rædan</em>' becomes '<em>heo rætt -
-                                        she advises</em>',
-                                    not '<em>heo rætþ</em>'.
+                                    it becomes '<strong>t</strong>'. For example, '<em>rædan</em>' becomes '<em>heo rætt -
+                                        she advises</em>', not '<em>heo rætþ</em>'.
                                 </p>
                             </div>
                         </div>
@@ -489,7 +492,29 @@
                 </a>
             </div>
         </section>
-    </main>+
+        <hr class="border">
+        <section>
+            <div>
+                <h2>Test Your Conjugations!</h2>
+                <small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
+            </div>
+            <form name="form1" autocomplete="OFF">
+                <p>
+                    <button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+                    <button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+                    <button class="light-button button special-character" data-char="&eth;">&eth;</button>
+                    <br class="visible-xs"> <sub>Use these buttons to insert thorn, ash and eth when you have an input
+                        selected.</sub>
+                </p>
+                <div id="question-wrapper" data-question-file="sv8_answers.json">
+                </div>
+                <div class="form-group">
+                    <button class="solid-button button" id="submit">Check</button>
+                    <button class="solid-button button hidden" id="again">Try Again?</button>
+                </div>
+            </form>
+        </section>
+    </main>
     <!--closing footer container-->
     <footer class="row">
         <div class="col-xs-6">
