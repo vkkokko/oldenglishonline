@@ -66,6 +66,12 @@
         "commonMistakes": []
     },
     {
+        "question": "Hie (<em>steppan</em>) #### feondas swiðe mid fotum - They greatly trampled enemies with their feet",
+        "correctAnswer": "stopon",
+        "explanation": "Here 'steppan' is in the plural past form '<em>stopon</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
         "question": "Ða apostoli ða (<em>hliehhan</em>) #### ðæra deofla leasunga — The apostles then laughed at the devil's deception",
         "correctAnswer": "hlogon",
         "explanation": "Here 'hliehhan' is in the plural past form '<em>hlogon</em>' because the subject is 'Ða apostoli'",
@@ -99,6 +105,18 @@
         "question": "Hie (<em>slean</em>) #### fram eastsæ oð westsæ — They slaughtered from the east sea to the west sea",
         "correctAnswer": "slogon",
         "explanation": "Here 'slean' is in the plural past form '<em>slogon</em>' because the subject is 'Hie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu þæt Iudeisce folc ðe Crist (<em>slean</em>) ####, secgað þæt hie willað gelifan on þone Fæder, and na on ðone Sunu ðe hiera magas slogon - Now the Jewish people who slew Christ, say that they will believe in the Father, and not in the Son whom their forefathers slew",
+        "correctAnswer": "slogon",
+        "explanation": "Here 'slean' is in the plural past form '<em>slogon</em>' because the subject is 'Iudeisce folc'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sende he ða his cwelleras, and (<em>slean</em>) #### ealle ða hyse-cild þe wæron on þære byrig Bethleem - He then sent his executioners, and slew all the male children that were in the city of Bethlehem",
+        "correctAnswer": "sloh",
+        "explanation": "Here 'slean' is in the third person singular past form '<em>sloh</em>' because the subject is 'he'",
         "commonMistakes": []
     }
 ]
