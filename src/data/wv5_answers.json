@@ -71,7 +71,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>hycgan</em>) #### inwit and facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
+        "question": "Hie (<em>hycgan</em>) #### inwit ond facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
         "correctAnswer": "hogdon",
         "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogdon</em>' because the subject is 'They'",
         "commonMistakes": [
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "question": "For ðæm ic libbe and ge (<em>libban</em>) ####⁠ — Because I live, you live",
+        "question": "For ðæm ic libbe ond ge (<em>libban</em>) ####⁠ — Because I live, you live",
         "correctAnswer": "libbaþ|libbað",
         "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
         "commonMistakes": [

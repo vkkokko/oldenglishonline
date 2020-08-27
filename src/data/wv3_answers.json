@@ -34,7 +34,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie hergia&thorn; and to scipe (<em>l&aelig;dan</em>) ####⁠ — they harry and carry off the plunder to their ships",
+        "question": "Hie hergia&thorn; ond to scipe (<em>l&aelig;dan</em>) ####⁠ — They harry and carry off the plunder to their ships",
         "correctAnswer": "lædaþ|lædað",
         "explanation": "Here 'l&aelig;dan' is in the third person plural form '<em>lædað</em>' as the subject is 'They'",
         "commonMistakes": []
@@ -68,7 +68,7 @@
         ]
     },
     {
-        "question": "We (<em>fremman</em>) #### swa and Frean hyrde⁠ — We did so and obeyed the lord",
+        "question": "We (<em>fremman</em>) #### swa ond Frean hyrde⁠ — We did so and obeyed the lord",
         "correctAnswer": "fremedon",
         "explanation": "Here 'fremman' is in the first person plural past form '<em>fremedon</em>' because the subject is 'We'",
         "commonMistakes": []
@@ -125,7 +125,7 @@
         ]
     },
     {
-        "question": "Ic (<em>l&aelig;ran</em>) #### leden and grecisc⁠ — I taught Latin and Greek",
+        "question": "Ic (<em>l&aelig;ran</em>) #### leden ond grecisc⁠ — I taught Latin and Greek",
         "correctAnswer": "lærde",
         "explanation": "Here 'l&aelig;ran' is in the first person singular past form '<em>lærde</em>' because the subject is 'I'",
         "commonMistakes": [
