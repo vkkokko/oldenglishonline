@@ -71,6 +71,13 @@
 			$(this).find('span').toggleClass('hide');
 		});
 
+		$('#macron-toggle').on('click', function () {
+			event.preventDefault();
+			$(this).find('span').toggleClass('hide');
+			$('.nomacron').toggleClass('hide');
+			$('.macron').toggleClass('hide');
+		});
+
 		//This is the tooltip toggle. It also closes other open tooltips.
 		$('.tooltip-header').each(function () {
 			$(this).on('click', function () {
@@ -221,12 +228,13 @@
 		return output;
 	}
 
-	//This function checks if the answer is correct
+	//This function checks if the user inputted answer for a quiz is correct
 	function checkAnswer(answerArray, userAnswer) {
 		let wasUserCorrect = false;
 
 		answerArray.forEach(function (correctAnswerArray) {
-			if (correctAnswerArray.toUpperCase() == userAnswer.toUpperCase()) { //This changes both inputs to upper case so you don't get a false negative due to caps
+			//The below IF Statement changes both inputs to upper case so you don't get a false negative due to caps
+			if (correctAnswerArray.toUpperCase() == userAnswer.toUpperCase()) { 
 				wasUserCorrect = true;
 			}
 		});
@@ -234,9 +242,9 @@
 		return wasUserCorrect;
 	}
 
-	//code for the vocabulary test modal
+	//The below function is for the vocabulary test modal
 	function flashcardCreate($mContainer, fFilename) {
-		// exit if we don't have all params
+		// The below IF Statement exits the modal if it doesn't have all paramaters (to prevent load errors)
 		if (!$mContainer || !fFilename) {
 			return;
 		}
@@ -259,7 +267,7 @@
 			}
 			});
 
-		//resets flashcard state to default
+		//The below code resets the flashcard's state to default
 		let dataText = $('.explanatory-text').attr('data-text');
 		$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
 		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);

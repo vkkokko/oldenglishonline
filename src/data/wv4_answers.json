@@ -6,7 +6,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Eala ðu scippend heofones and eorþan! Ðu ðe on ðam ecan setle (<em>ricsian</em>) ####!⁠ — Oh you the creator of heaven and earth! You who reigns on the eternal seat!",
+        "question": "Eala ðu scippend heofones ond eorþan! Ðu ðe on ðam ecan setle (<em>ricsian</em>) ####!⁠ — Oh you the creator of heaven and earth! You who reigns on the eternal seat!",
         "correctAnswer": "ricsast",
         "explanation": "Here 'ricsian' is in the second person singular form '<em>ricsast</em>' because the subject is 'You",
         "commonMistakes": []
@@ -124,15 +124,15 @@
         "commonMistakes": []
     },
     {
-        "question": "Swa he (<em>ricsian</em>) #### and wið rihte wan ana wið eallum⁠ — So he ruled and challenged justice, one against all ",
+        "question": "Swa he (<em>ricsian</em>) #### ond wið rihte wan ana wið eallum⁠ — So he ruled and challenged justice, one against all ",
         "correctAnswer": "ricsode",
         "explanation": "Here 'ricsian' is in the third person singular form '<em>ricsode</em>' because the subject is 'he'",
         "commonMistakes": []
     },
     {
-        "question": "ðæm ðe ær (<em>hatian</em>) #### eow⁠ — those that formerly hated you",
         "correctAnswer": "hatodon",
         "explanation": "Here 'hatian' is in the third person singular form '<em>hatodon</em>' because the subject is the demonstrative pronoun 'those'",
+        "question": "Ðæm ðe ær (<em>hatian</em>) #### eow⁠ — those that formerly hated you",
         "commonMistakes": []
     },
     {

@@ -76,14 +76,10 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>hycgan</em>) #### inwit and facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
+        "question": "Hie (<em>hycgan</em>) #### inwit ond facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
         "correctAnswer": "hogdon",
         "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogdon</em>' because the subject is 'They'",
         "commonMistakes": [
-            {
-                "incorrectAnswer": "",
-                "explanation": ""
-            }
         ]
     },
     {
@@ -105,7 +101,7 @@
         "commonMistakes": []
     },
     {
-        "question": "For ðæm ic lybbe and ge (<em>libban</em>) ####⁠ — Because I live, you live",
+        "question": "For ðæm ic lybbe ond ge (<em>libban</em>) ####⁠ — Because I live, you live",
         "correctAnswer": "libbaþ|libbað",
         "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
         "commonMistakes": []
@@ -134,7 +130,27 @@
         "explanation": "Here 'habban' is in the third person singular form '<em>hæfst</em>' because the subject is 'You'",
         "commonMistakes": [
             {
-                "incorrectAnswer": "hæbbast|habbast|habast|hæbast|habst|hæbst",
+                "incorrectAnswer": "hæbbast",
+                "explanation": "Remember, the 'b' in 'habban' becomes an 'f' in the 2nd and 3rd singular present, and all past tense conjugations"
+            },
+            {
+                "incorrectAnswer": "habbast",
+                "explanation": "Remember, the 'b' in 'habban' becomes an 'f' in the 2nd and 3rd singular present, and all past tense conjugations"
+            },
+            {
+                "incorrectAnswer": "habast",
+                "explanation": "Remember, the 'b' in 'habban' becomes an 'f' in the 2nd and 3rd singular present, and all past tense conjugations"
+            },
+            {
+                "incorrectAnswer": "hæbast",
+                "explanation": "Remember, the 'b' in 'habban' becomes an 'f' in the 2nd and 3rd singular present, and all past tense conjugations"
+            },
+            {
+                "incorrectAnswer": "habst",
+                "explanation": "Remember, the 'b' in 'habban' becomes an 'f' in the 2nd and 3rd singular present, and all past tense conjugations"
+            },
+            {
+                "incorrectAnswer": "hæbst",
                 "explanation": "Remember, the 'b' in 'habban' becomes an 'f' in the 2nd and 3rd singular present, and all past tense conjugations"
             }
         ]
@@ -146,7 +162,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Eala ðu scippend heofones and eorþan! Ðu ðe on ðæm ecan setle (<em>ricsian</em>) ####!⁠ — Oh you the creator of heaven and earth! You who reigns on the eternal seat!",
+        "question": "Eala ðu scippend heofones ond eorþan! Ðu ðe on ðæm ecan setle (<em>ricsian</em>) ####!⁠ — Oh you the creator of heaven and earth! You who reigns on the eternal seat!",
         "correctAnswer": "ricsast",
         "explanation": "Here 'ricsian' is in the second person singular form '<em>ricsast</em>' because the subject is 'You",
         "commonMistakes": []
@@ -264,7 +280,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Swa he (<em>ricsian</em>) #### and wið rihte wan ana wið eallum⁠ — So he ruled and challenged justice, one against all ",
+        "question": "Swa he (<em>ricsian</em>) #### ond wið rihte wan ana wið eallum⁠ — So he ruled and challenged justice, one against all ",
         "correctAnswer": "ricsode",
         "explanation": "Here 'ricsian' is in the third person singular form '<em>ricsode</em>' because the subject is 'he'",
         "commonMistakes": []
@@ -321,7 +337,11 @@
             "explanation": "Here 'hieran' is in the third person singular form '<em>hierð</em>' because the subject is 'He'",
             "commonMistakes": [
                 {
-                    "incorrectAnswer": "hiereð|hiereþ",
+                    "incorrectAnswer": "hiereð",
+                    "explanation": "Remember, 'hieran' drops the 'e' before a dental fricative"
+                },
+                {
+                    "incorrectAnswer": "hiereþ",
                     "explanation": "Remember, 'hieran' drops the 'e' before a dental fricative"
                 }
             ]
@@ -333,7 +353,7 @@
             "commonMistakes": []
         },
         {
-            "question": "Hie hergia&thorn; and to scipe (<em>l&aelig;dan</em>) ####⁠ — they harry and carry off the plunder to their ships",
+            "question": "Hie hergiaþ ond to scipe (<em>lædan</em>) ####⁠ — they harry and carry off the plunder to their ships",
             "correctAnswer": "lædaþ|lædað",
             "explanation": "Here 'l&aelig;dan' is in the third person plural form '<em>lædað</em>' as the subject is 'They'",
             "commonMistakes": []
@@ -351,8 +371,8 @@
         },
         {
             "question": "Morgensteorran &eth;e we o&eth;re naman &aelig;fensteorra nemnan (<em>hieran</em>) ####⁠ — The morning star which we hear called evening star by another name",
-            "correctAnswer": "hierdest",
-            "explanation": "Here 'hieran' is in the first person plural past form '<em>hierdest</em>' because the subject is 'We",
+            "correctAnswer": "hierdon",
+            "explanation": "Here 'hieran' is in the first person plural past form '<em>hierdon</em>' because the subject is 'We",
             "commonMistakes": []
         },
         {
@@ -367,7 +387,7 @@
             ]
         },
         {
-            "question": "We (<em>fremman</em>) #### swa and Frean hyrde⁠ — We did so and obeyed the lord",
+            "question": "We (<em>fremman</em>) #### swa ond Frean hierde⁠ — We did so and obeyed the lord",
             "correctAnswer": "fremedon",
             "explanation": "Here 'fremman' is in the first person plural past form '<em>fremedon</em>' because the subject is 'We'",
             "commonMistakes": []
@@ -424,7 +444,7 @@
             ]
         },
         {
-            "question": "Ic (<em>l&aelig;ran</em>) #### leden and grecisc⁠ — I taught Latin and Greek",
+            "question": "Ic (<em>l&aelig;ran</em>) #### leden ond grecisc⁠ — I taught Latin and Greek",
             "correctAnswer": "lærde",
             "explanation": "Here 'l&aelig;ran' is in the first person singular past form '<em>lærde</em>' because the subject is 'I'",
             "commonMistakes": [

@@ -67,7 +67,8 @@ abbr {
 	font-style: italic;
 	font-weight: bold;
 	font-variant: none;
-	text-decoration: dotted;
+	text-decoration: underline dotted;
+	text-decoration-skip-ink: none
 }
 
 

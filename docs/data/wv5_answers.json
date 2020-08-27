@@ -71,10 +71,11 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie (<em>hycgan</em>) #### inwit and facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
+        "question": "Hie (<em>hycgan</em>) #### inwit ond facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
         "correctAnswer": "hogdon",
         "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogdon</em>' because the subject is 'They'",
-        "commonMistakes": []
+        "commonMistakes": [
+        ]
     },
     {
         "question": "Ic bi me (<em>secgan</em>) #### ðis sarspell⁠ — I tell this lament about myself",
@@ -92,32 +93,36 @@
         "question": "Hie (<em>habban</em>) #### hine mid heom oþ ðet hie ofslogon hine⁠ — They had him with them until they slew him",
         "correctAnswer": "hæfdon",
         "explanation": "Here 'habban' is in the plural form '<em>hæfdon</em>' because the subject is 'They'",
-        "commonMistakes": []
+        "commonMistakes": [
+        ]
     },
     {
-        "question": "For ðæm ic libbe and ge (<em>libban</em>) ####⁠ — Because I live, you live",
+        "question": "For ðæm ic libbe ond ge (<em>libban</em>) ####⁠ — Because I live, you live",
         "correctAnswer": "libbaþ|libbað",
         "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
-        "commonMistakes": []
+        "commonMistakes": [
+        ]
     },
     {
         "question": "Wynnum ond þeawum ic (<em>libban</em>) ####⁠ — I lived with joy and with virute",
         "correctAnswer": "lifde",
         "explanation": "Here 'libban' is in the first person past singular form '<em>lifde</em>' because the subject is 'I'",
-        "commonMistakes": [ ]
+        "commonMistakes": [
+        ]
     },
     {
         "question": "Heo (<em>hycgan</em>) #### georne ðæt hire mægþhad clæne geheolde⁠ — She earnestly intended to keep her maidenhood pure",
         "correctAnswer": "hogde",
         "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogde</em>' because the subject is 'She'",
-        "commonMistakes": [ ]
-
+        "commonMistakes": [
+        ]
     },
     {
         "question": "Ge (<em>habban</em>) #### us gedon laðe Pharaone⁠ — You have made us hateful to Pharoh",
         "correctAnswer": "habbaþ|habbað",
         "explanation": "Here 'habban' is in the plural form '<em>habbað</em>' because the subject is the plural 'You",
-        "commonMistakes": [ ]
+        "commonMistakes": [
+        ]
     },
     {
         "question": "Ðu me forlæred (<em>habban</em>) ####⁠ — You have seduced me",

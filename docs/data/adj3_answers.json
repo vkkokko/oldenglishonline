@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða Harold cyning þis gehierde þa gaderode he (<em>micel</em>) #### fierde ⁠— When King Harold heard this, then he gathered a large army",
+        "question": "þa Harold cyning þis gehierde þa gaderode he (<em>micel</em>) #### fierde ⁠— When King Harold heard this, then he gathered a large army",
         "correctAnswer": "micele",
         "explanation":"Here 'micel' is modifying the singular accusative feminine 'fierd' so it takes the 'e' suffix",
         "commonMistakes": []
