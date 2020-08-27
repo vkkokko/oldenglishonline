@@ -101,7 +101,7 @@
         "commonMistakes": []
     },
     {
-        "question": "For ðæm ic lybbe ond ge (<em>libban</em>) ####⁠ — Because I live, you live",
+        "question": "For ðæm ic libbe ond ge (<em>libban</em>) ####⁠ — Because I live, you live",
         "correctAnswer": "libbaþ|libbað",
         "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
         "commonMistakes": []
@@ -238,7 +238,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic (<em>gaderian</em>) #### ðyder eall ðæt me gewexen is⁠ — I gather thither all that is grown by me",
+        "question": "Ic (<em>gaderian</em>) #### ðider eall ðæt me gewexen is⁠ — I gather thither all that is grown by me",
         "correctAnswer": "gaderie",
         "explanation": "Here 'gaderian' is in the first person singular form '<em>gaderie</em>' because the subject is 'I'",
         "commonMistakes": []
@@ -286,7 +286,7 @@
         "commonMistakes": []
     },
     {
-        "question": "ðæm ðe ær (<em>hatian</em>) #### eow⁠ — those that formerly hated you",
+        "question": "ðæm ðe ær (<em>hatian</em>) #### eow⁠ — Those that formerly hated you",
         "correctAnswer": "hatedon",
         "explanation": "Here 'hatian' is in the third person singular form '<em>hatedon</em>' because the subject is the demonstrative pronoun 'those'",
         "commonMistakes": []
