@@ -260,13 +260,13 @@
         "commonMistakes": []
     },
     {
-        "question": "On ælcum þingum ðe ðær unbecweden biþ on bocum and on swylcum (<em>lytel</em>) #### þingum⁠ — On all things that are unbequeathed, books and other such little things",
+        "question": "On ælcum þingum ðe ðær unbecweden biþ on bocum ond on swylcum (<em>lytel</em>) #### þingum⁠ — On all things that are unbequeathed, books and other such little things",
         "correctAnswer": "lytlum",
         "explanation":"Here 'lytel' is modifying the plural dative neuter 'þing' so it takes the 'um' suffix",
         "commonMistakes": []
     },
     {
-        "question": "Dunstan wæs unwise and he befæstte þæt land to (<em>geong</em>) #### preostum⁠ — Dunstan was unwise and he commited that land to young priests",
+        "question": "Dunstan wæs unwise ond he befæstte þæt land to (<em>geong</em>) #### preostum⁠ — Dunstan was unwise and he commited that land to young priests",
         "correctAnswer": "geongum",
         "explanation":"Here 'geong' is modifying the plural dative masculine 'preost' so it takes the 'um' suffix",
         "commonMistakes": []

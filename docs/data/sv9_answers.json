@@ -761,7 +761,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þu (<em>wascan</em>) ####  þas wyrte — You wash this plant",
+        "question": "Ðu (<em>wascan</em>) ####  þas wyrte — You wash this plant",
         "correctAnswer": "wæscst",
         "explanation": "Here the Class VI verb 'wascan' is in the second person singular form '<em>wæscst</em>' because the subject is 'Þu'",
         "commonMistakes": []
@@ -779,7 +779,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þu (<em>dragan</em>) #### þin sweord ond þa fæmna þu ofsloge — You drew your sword and slayed the woman",
+        "question": "Ðu (<em>dragan</em>) #### þin sweord ond þa fæmna þu ofsloge — You drew your sword and slayed the woman",
         "correctAnswer": "droge",
         "explanation": "Here the Class VI verb 'dragan' is in the second person singular past form '<em>droge</em>' because the subject is 'Þu'",
         "commonMistakes": []
