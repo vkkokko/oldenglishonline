@@ -8,7 +8,7 @@
     {
         "question": "Hwæt sægest ####, yrþlingc?⁠ — What say you, farmer?",
         "correctAnswer": "þu|ðu",
-        "explanation":"'&THORN;u' is the second person singular personal pronoun",        
+        "explanation":"'Þu' is the second person singular personal pronoun",        
         "commonMistakes": []
     },
     {
@@ -48,9 +48,9 @@
         "commonMistakes": []
     },
     {
-        "question": "&THORN;u, cnapa, hw&aelig;t dydest #### todaeg⁠ — You, knave, what did you do today?",
+        "question": "Þu, cnapa, hwæt dydest #### todaeg⁠ — You, knave, what did you do today?",
         "correctAnswer": "þu|ðu",
-        "explanation":"'&THORN;u' is the second person singular personal pronoun",
+        "explanation":"'Þu' is the second person singular personal pronoun",
         "commonMistakes": []
     },
     {
@@ -92,7 +92,7 @@
     {
         "question": "#### eart selfa geong⁠ — You yourself are young",
         "correctAnswer": "þu|ðu",
-        "explanation":"'&THORN;u' is the second person singular personal pronoun",
+        "explanation":"'Þu' is the second person singular personal pronoun",
         "commonMistakes": []
     },
     {
