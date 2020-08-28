@@ -12,13 +12,13 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>he</em>) #### Noe gebletsade and his bearn⁠ — He blessed Noah and his child",
+        "question": "(<em>he</em>) #### Noe gebletsade ond his bearn⁠ — He blessed Noah and his child",
         "correctAnswer": "he",
         "explanation":"Here 'he' is used in the nominative so it remains 'he'",
         "commonMistakes": []
     },
     {
-        "question": "Drihtnes is eorðe, and eall þæt (<em>heo</em>) #### mid gefyld is⁠ — The earth is the Lord's, and all that she is filled with",
+        "question": "Drihtnes is eorðe, ond eall þæt (<em>heo</em>) #### mid gefyld is⁠ — The earth is the Lord's, and all that she is filled with",
         "correctAnswer": "heo",
         "explanation":"Here 'heo' is used in the nominative so it remains 'heo'",
         "commonMistakes": [
@@ -52,7 +52,7 @@
         "commonMistakes": []
     },
     {
-        "question": "We (<em>þu</em>) #### þanciaþ, þe þu hafest on gewealdum heofan and eorþan⁠ — We thank you, you who has control of heaven and earth",
+        "question": "We (<em>þu</em>) #### þanciaþ, þe þu hafest on gewealdum heofan ond eorþan⁠ — We thank you, you who has control of heaven and earth",
         "correctAnswer": "þe",
         "explanation":"Here 'þe' is used in the accusative so it becomes 'þe'",
         "commonMistakes": []
@@ -94,7 +94,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðonne þu and (<em>þu</em>) #### beoþ alysde⁠ — When you are yours are released",
+        "question": "Ðonne þu ond (<em>þu</em>) #### beoþ alysde⁠ — When you are yours are released",
         "correctAnswer": "þin",
         "explanation":"Here 'þu' is used in the genitive so it becomes 'þin'",
         "commonMistakes": []
@@ -106,7 +106,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He (<em>heo</em>) #### hand nam and heo sona aras⁠ — He took her hand and she arose at once",
+        "question": "He (<em>heo</em>) #### hand nam ond heo sona aras⁠ — He took her hand and she arose at once",
         "correctAnswer": "hire",
         "explanation":"Here 'heo' is used in the genitive so it becomes 'hire'",
         "commonMistakes": []
@@ -118,7 +118,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa Gotan eow hwon oferhergedon, and (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged you a little and slew a few of ye",
+        "question": "Þa Gotan eow hwon oferhergedon, ond (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged you a little and slew a few of ye",
         "correctAnswer": "eower",
         "explanation":"Here 'ge' is used in the genitive (of ye) so it becomes 'eower'",
         "commonMistakes": []

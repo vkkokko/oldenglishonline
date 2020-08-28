@@ -53,7 +53,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Her (<em>habban</em>) #### se cyning his hired æt Gleaweceastre⁠ — On this year, the king had his court at Gloucester",
+        "question": "On þissum geare (<em>habban</em>) #### se cyning his hired æt Gleaweceastre⁠ — On this year, the king had his court at Gloucester",
         "correctAnswer": "hæfde",
         "explanation": "Here 'habban' is in the third person singular past form '<em>hæfde</em>' because the subject is 'the king'",
         "commonMistakes": [
