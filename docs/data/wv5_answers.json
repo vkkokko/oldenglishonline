@@ -19,7 +19,7 @@
     },
     {
         "question": "(<em>hycgan</em>) #### his ealle hu ge hie beswicen⁠ — All think of this, how you may deceive them",
-        "correctAnswer": "hycgaþ|hycgað;",
+        "correctAnswer": "hycgaþ|hycgað",
         "explanation": "Here 'hycgan' is in the plural form '<em>hycgað</em>' because the subject is 'all'",
         "commonMistakes": []
     },
@@ -48,7 +48,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Her (<em>habban</em>) #### se cyning his hired æt Gleaweceastre⁠ — On this year, the king had his court at Gloucester",
+        "question": "On þissum geare (<em>habban</em>) #### se cyning his hired æt Gleaweceastre⁠ — On this year, the king had his court at Gloucester",
         "correctAnswer": "hæfde",
         "explanation": "Here 'habban' is in the third person singular past form '<em>hæfde</em>' because the subject is 'the king'",
         "commonMistakes": [

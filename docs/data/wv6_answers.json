@@ -24,7 +24,7 @@
     },
     {
         "question": "(<em>hycgan</em>) #### his ealle hu ge hie beswicen⁠ — All think of this, how you may deceive them",
-        "correctAnswer": "hycgaþ|hycgað;",
+        "correctAnswer": "hycgaþ|hycgað",
         "explanation": "Here 'hycgan' is in the plural form '<em>hycgað</em>' because the subject is 'all'",
         "commonMistakes": []
     },
@@ -175,7 +175,7 @@
     },
     {
         "question": "He het ond we (<em>andswarian</em>) ####⁠ — He calls and we answer",
-        "correctAnswer": "andswariaþ|andswariað;",
+        "correctAnswer": "andswariaþ|andswariað",
         "explanation": "Here 'andswarian' is in the first person plural form '<em>andswariað</em>' as the subject is 'We'",
         "commonMistakes": [
             {
@@ -370,7 +370,7 @@
             ]
         },
         {
-            "question": "Morgensteorran &eth;e we o&eth;re naman æfensteorra nemnan (<em>hieran</em>) ####⁠ — The morning star which we hear called evening star by another name",
+            "question": "Morgensteorran ðe we oðre naman æfensteorra nemnan (<em>hieran</em>) ####⁠ — The morning star which we hear called evening star by another name",
             "correctAnswer": "hierdon",
             "explanation": "Here 'hieran' is in the first person plural past form '<em>hierdon</em>' because the subject is 'We",
             "commonMistakes": []
