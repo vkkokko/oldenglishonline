@@ -42,7 +42,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ealle þing (<em>ic</em>) #### synt gesealde⁠ — All things are given by me",
+        "question": "Ealle þing (<em>ic</em>) #### sind gesealde⁠ — All things are given by me",
         "correctAnswer": "me",
         "explanation":"Here 'ic' is used in the accusative so it becomes 'me'",
         "commonMistakes": []
@@ -102,7 +102,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He (<em>heo</em>) #### hand nam and heo sona aras⁠ — He took her hand and she arose at once",
+        "question": "He (<em>heo</em>) #### hand nam ond heo sona aras⁠ — He took her hand and she arose at once",
         "correctAnswer": "hire",
         "explanation":"Here 'heo' is used in the genitive so it becomes 'hire'",
         "commonMistakes": []
@@ -114,7 +114,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa Gotan eow hwon oferhergedon, and (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged you a little and slew a few of you",
+        "question": "Þa Gotan eow hwon oferhergedon, ond (<em>ge</em>) #### feawe ofslogon⁠ — The Ostrogoths ravaged you a little and slew a few of you",
         "correctAnswer": "eower",
         "explanation":"Here 'ge' is used in the genitive so it becomes 'eower'",
         "commonMistakes": []
@@ -204,7 +204,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic nu ðis þing write to ðe gemanelice and to minre meder and minum geswustrum forðon (<em>þu</em>) #### lufu sceal beon somod gemane⁠ — I now write this thing to you together, to my mother and my sister, because the love of you both shall be mutual ",
+        "question": "Ic nu ðis þing write to ðe gemanelice ond to minre meder ond minum geswustrum forðon (<em>þu</em>) #### lufu sceal beon somod gemane⁠ — I now write this thing to you together, to my mother and my sister, because the love of you both shall be mutual ",
         "correctAnswer": "incer",
         "explanation":"Here 'þu' is used in the second person dual genitive so it becomes 'incer'",
         "commonMistakes": []
@@ -228,7 +228,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðanne gæornlicæ of þam god geþæncæ and for (<em>ic</em>) #### sawle geornlicæ beo⁠ — Remember God diligently from the property and be diligent for our two souls",
+        "question": "Ðanne gæornlicæ of þam god geþæncæ ond for (<em>ic</em>) #### sawle geornlicæ beo⁠ — Remember God diligently from the property and be diligent for our two souls",
         "correctAnswer": "uncer",
         "explanation":"Here 'ic' is used in the first person dual genitive so it becomes 'uncer'",
         "commonMistakes": []
@@ -252,7 +252,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ac git waron æt þisse wydewan hame and þær þus (<em>þu</em>) #### lif leofodon⁠ — But you were at the home of a widow, and there passed your time in wisdom",
+        "question": "Ac git waron æt þisse wydewan hame ond þær þus (<em>þu</em>) #### lif leofodon⁠ — But you were at the home of a widow, and there passed your time in wisdom",
         "correctAnswer": "incer",
         "explanation":"Here 'þu' is used in the second person dual genitive so it becomes 'incer'",
         "commonMistakes": []
@@ -300,7 +300,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Þa gefæstnode he #### ræd wið þæt werod þe he bewiste, and hie ealle to ðam ræde gebugon⁠ — Then he confirmed this resolve with the host over which he ruled, and they all bowed to that resolve",
+        "question": "Þa gefæstnode he #### ræd wið þæt werod þe he bewiste, ond hie ealle to ðam ræde gebugon⁠ — Then he confirmed this resolve with the host over which he ruled, and they all bowed to that resolve",
         "correctAnswer": "þisne|ðisne",
         "explanation":"Here 'þes' is modifying the singular masculine accusative 'ræd' so it becomes 'þisne'",
         "commonMistakes": []
@@ -318,13 +318,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Nim #### cild mid þære meder and fleoh to Egypta lande⁠ — Take this child with the mother and flee to Egypt",
+        "question": "Nim #### cild mid þære meder ond fleoh to Egypta lande⁠ — Take this child with the mother and flee to Egypt",
         "correctAnswer": "þis",
         "explanation":"Here 'þes' is modifying the singular neuter accusative 'cild' so it becomes 'þis'",
         "commonMistakes": []
     },
     {
-        "question": "Adam þa wæs wunigende on #### life mid geswince, and he and his wif ða bearn gestryndon⁠ — Adam then was continuing in this life with toil, and he and his wife begat children",
+        "question": "Adam þa wæs wunigende on #### life mid geswince, ond he and his wif ða bearn gestryndon⁠ — Adam then was continuing in this life with toil, and he and his wife begat children",
         "correctAnswer": "þissum",
         "explanation":"Here 'þes' is modifying the singular neuter dative 'life' so it becomes 'þissum'",
         "commonMistakes": []
@@ -383,7 +383,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Eala hu rihtlice hie andetton þone halgan geleafan mid #### wordum: On frymðe wæs word, and þæt word wæs mid Gode⁠ — O how rightly they acknowledged the holy faith with these words, 'In the beginning was the word, and the word was with God'",
+        "question": "Eala hu rihtlice hie andetton þone halgan geleafan mid #### wordum: On frymðe wæs word, ond þæt word wæs mid Gode⁠ — O how rightly they acknowledged the holy faith with these words, 'In the beginning was the word, and the word was with God'",
         "correctAnswer": "þissum",
         "explanation":"Here 'þes' is modifying the plural neuter dative 'word' so it becomes 'þissum'",
         "commonMistakes": []
@@ -437,7 +437,7 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>se</em>) #### biscop wæs halig and eaþmod — That bishop was holy and humble",
+        "question": "(<em>se</em>) #### biscop wæs halig ond eaþmod — That bishop was holy and humble",
         "correctAnswer": "se",
         "explanation": "Here the demonstrative pronoun is 'se' because it is tied to the subject 'biscop'",
         "commonMistakes": []
@@ -449,7 +449,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða bearn (<em>se</em>) #### cyninges beoþ wis and eaþmod — The children of that king are wise and humble",
+        "question": "Ða bearn (<em>se</em>) #### cyninges beoþ wis ond eaþmod — The children of that king are wise and humble",
         "correctAnswer": "þæs",
         "explanation": "Here the demonstrative pronoun is 'þæs' because it is tied to 'cyning' which has the genitive singular 'es' ending",
         "commonMistakes": []
@@ -467,7 +467,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Gaþ! Fliemaþ (<em>se</em>) #### Englas and timbriaþ fela tuna on hiera landum — Go! Banish those English and build many towns on their land",
+        "question": "Gaþ! Fliemaþ (<em>se</em>) #### Englas ond timbriaþ fela tuna on hiera landum — Go! Banish those English and build many towns on their land",
         "correctAnswer": "þa",
         "explanation": "Here the demonstrative pronoun is 'þa' because it is tied to 'Englas' which has the plural 'as' ending and is the direct recipient of the verb 'fliemaþ'",
         "commonMistakes": []
@@ -659,13 +659,13 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>seo</em>) #### cwena wæron hatene Marsepia and Lampida — Those queens were called Marsepia and Lampida",
+        "question": "(<em>seo</em>) #### cwena wæron hatene Marsepia ond Lampida — Those queens were called Marsepia and Lampida",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'cwena'",
         "commonMistakes": []
     },
     {
-        "question": "(<em>seo</em>) #### ceastra, Gleawanceaster, Cirenceaster and Baþanceaster, beoþ on ceastrum weallum beworhte — Those cities, Gloucester, Cirencester and Bath, are walled towns",
+        "question": "(<em>seo</em>) #### ceastra, Gleawanceaster, Cirenceaster ond Baþanceaster, beoþ on ceastrum weallum beworhte — Those cities, Gloucester, Cirencester and Bath, are walled towns",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural subject 'ceastra'",
         "commonMistakes": []
@@ -677,7 +677,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ælla and Cissa ymbsæton (<em>seo</em>) #### ceastre — Aella and Cissa beseiged that city",
+        "question": "Ælla ond Cissa ymbsæton (<em>seo</em>) #### ceastre — Aella and Cissa beseiged that city",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the singular direct object 'ceastre'",
         "commonMistakes": []
