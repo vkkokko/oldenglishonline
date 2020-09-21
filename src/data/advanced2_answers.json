@@ -1,0 +1,130 @@
+[
+    {
+        "question": "Þone soþan geleafan to (<em>bodian<em/>) #### — In order to preach the true faith",
+        "correctAnswer": "bodienne",
+        "explanation":"Here 'bodian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'bodienne'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo onfeng þæt land, mynster to (<em>timbrian</em>) #### — She siezed that land in order to build a monastery",
+        "correctAnswer": "timbrienne",
+        "explanation":"Here 'timbrian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'timbrienne'",
+        "commonMistakes": []
+    },
+    {
+        "question": "To hæbbenne and to (<em>healdan</em>) #### — To have and to hold",
+        "correctAnswer": "healdenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nys þe alyfed to (<em>habban</em>) #### — þines broðer wif — It is not permitted to have your brother's wife",
+        "correctAnswer": "hæbbenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie næfdon hlaf to (<em>etan</em>) #### — They didn't have bread to eat",
+        "correctAnswer": "etenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ut eode se sædere his sæd to (<em>sawan</em>) #### —  Out went the farmer, in order to sow his seeds",
+        "correctAnswer": "sawenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gehire gif hwa earan hæbbe to (<em>hieran</em>) #### — Hear, if one has ears to hear!",
+        "correctAnswer": "hierenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Eaþere ys olfende to (<em>faran</em>) #### þurh nædle þyrel þonne se rica on godes rice ga — It is easier for a camel to go through the eye of a needle than for the rich to go to god's kingdom ",
+        "correctAnswer": "farenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie wilniað lof and wuldor to hæbbenne (<em>habban</em>) #### — They wished to have praise and glory",
+        "correctAnswer": "hæbbenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "He ferdon to Francrice, þæt land to (<em>hergian</em>) #### — They went to France in order to plunder that land",
+        "correctAnswer": "hergienne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo ferde to circe, þæt godspell to (<em>hieran</em>) #### — She went to church to hear the gospel",
+        "correctAnswer": "hierenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Freolic to (<em>libban</em>) #### — In order to live free",
+        "correctAnswer": "libbenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Werode to (<em>helpan</em>) #### on gefeohte  — In order to help the people in battle",
+        "correctAnswer": "helpenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wið fefre hylpþ wæter to (<em>drincan</em>) #### — Against fever it helps to drink water",
+        "correctAnswer": "drincenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo ferde to Eoferwice, þa wicingas to (<em>helpan</em>) #### — She went to York in order to help the vikings",
+        "correctAnswer": "helpenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Under þinum anwealde ic wilnie to (<em>wunian</em>) #### — Under your rule I should want to live",
+        "correctAnswer": "wunienne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "To helle gecuman to (<em>helpan</em>) #### Adames cyne—Come to Hell in order to help Adam's kin",
+        "correctAnswer": "helpenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Mæst þearf is to (<em>gehealdan</em>) ####  rihtne cristendom — It is most necessary to keep correct christianity",
+        "correctAnswer": "gehealdenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie sealdon Ceolwulfe Myrcna rice to (<em>healdan</em>) #### — They gave Ceolwulf the kingdom of Mercia to hold",
+        "correctAnswer": "healdenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+
+    {
+        "question": "Þæt ðæt folc hæfð genoh to (<em>drincan</em>) #### — in order that that people have enough to drink",
+        "correctAnswer": "drincenne",
+        "explanation":"",
+        "commonMistakes": []
+    },
+
+    {
+        "question": "He ferde þa siþþan to (<em>feohtan</em>) #### wið þone casere  — He went then afterwards in order to fight with the emperor",
+        "correctAnswer": "feohtenne",
+        "explanation":"",
+        "commonMistakes": []
+    }
+]
