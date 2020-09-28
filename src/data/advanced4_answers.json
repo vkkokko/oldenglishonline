@@ -1,0 +1,122 @@
+[
+    {
+        "question": "He wilnode þæt þæt folc wære (<em>gecierran</em>) #### to Criste — He always wished that that people might be converted to Christ",
+        "correctAnswer": "gecierred",
+        "explanation":"Here the verb 'cierran' is in the past tense and modifed by 'wære' so it becomes 'gecierred'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Com se Hælend on Galileam godspell (<em>bodian</em>) #### — The holy one came into Galilea, preaching the gospel",
+        "correctAnswer": "bodiende",
+        "explanation":"Here the verb 'bodian' is in the present tense and modifed by 'com' so it becomes 'bodiende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þa com he and fand hie (<em>slæpan</em>) ####, and cwæþ to Petre, 'Simon, slæpst þu?' — Then he came and found them sleeping, and said to Peter, 'Simon, do you sleep?'",
+        "correctAnswer": "slæpende",
+        "explanation":"Here the verb 'slæpan' is in the present tense and modifying the pronoun 'hie' so it becomes 'slæpende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning hæfde þone mynster (<em>getimbrian</em>) #### — The king had built the monastery",
+        "correctAnswer": "getimbrod",
+        "explanation":"Here the verb 'getimbrian' is in the past tense and modifed by 'hæfde' so it becomes 'getimbrod'",
+        "commonMistakes": []
+    },
+    {
+        "question": "&AELIG;r ðæm ðe Rome (<em>getimbrian</em>) #### wære — Before Rome was built",
+        "correctAnswer": "getimbrod",
+        "explanation":"Here the verb 'getimbrian' is in the past tense and modifed by 'wære' so it becomes 'getimbrod'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sceal beon (<em>gebodian</em>) #### on minum naman forgifenyss — Forgiveness shall be preached in my name",
+        "correctAnswer": "gebodod",
+        "explanation":"Here the verb 'bodian' is in the past tense and modifed by 'beon' so it becomes 'gebodod'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se feorða heafodricu is Romane, þe giet (<em>ricsian</em>) #### sindon — The fourth empire is Roman, which is yet reigning",
+        "correctAnswer": "ricsiende",
+        "explanation":"Here the verb 'ricsian' is in the present tense and modifed by 'sindon' so it becomes 'ricsiende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þu eart (<em>gelufian</em>) #### — You are loved",
+        "correctAnswer": "gelufod",
+        "explanation":"Here the verb 'gelufian' is in the past tense and modifed by 'eart' so it becomes 'gelufod'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Apollonius ongeat þæt he (<em>gelufian</em>) #### wæs fram þæm mædene — Apollonius perceived that he was loved by that maiden",
+        "correctAnswer": "gelufod",
+        "explanation":"Here the verb 'gelufian' is in the past tense and modifed by 'wæs' so it becomes 'gelufod'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þis (<em>lufian</em>) #### wif — This loving wife",
+        "correctAnswer": "lufiende",
+        "explanation":"Here the verb 'lufian' is in the present tense and modifying the noun 'wif' so it becomes 'lufiende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Seo sawl bið (<em>libban</em>) #### — The soul is living",
+        "correctAnswer": "libbende",
+        "explanation":"Here the verb 'libban' is in the present tense and modifed by 'bið' so it becomes 'libbende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ne miht ðu me geseon; ne syhð me nan (<em>libban</em>) #### man — You cannot see me; no living man sees me",
+        "correctAnswer": "libbiende",
+        "explanation":"Here the verb 'libban' is in the present tense and modifying the noun 'man' so it becomes 'libbiende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se halig abbod wæs fela wundra (<em>wyrcan</em>) #### — The holy abbot was working many wanders",
+        "correctAnswer": "wyrcende",
+        "explanation":"Here the verb 'wyrcan' is in the present tense and modifed by 'wæs' so it becomes 'wyrcende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "God cwæð ða: Gewurðe leoht and leoht wæs (<em>wyrcan</em>) #### — God then said: 'Let there be light', and light was made.",
+        "correctAnswer": "geworht",
+        "explanation":"Here the verb 'wyrcan' is in the past tense and modifed by 'wæs' so it becomes 'geworht'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þær wæs þære sunnan anlycnys (<em>wyrcan</em>) #### of golde — There the sun's likeness was made from gold",
+        "correctAnswer": "geworht",
+        "explanation":"Here the verb 'wyrcan' is in the past tense and modifed by 'wæs' so it becomes 'geworht'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wunie on þæm (<em>gehergian</em>) #### lande — I live in the plundered land",
+        "correctAnswer": "gehergodan",
+        "explanation":"Here the verb 'hergian' is in the past tense and modifying the noun 'land' so it becomes 'gehergodan'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Þa Deniscan leode ferdon mid sciphere (<em>hergian</em>) #### and sleande wide geond land — The Danish people travelled with a navy plundering and killing widely around the land",
+        "correctAnswer": "hergiende",
+        "explanation":"Here the verb 'hergian' is in the present tense and modified by 'ferdon' so it becomes 'hergiende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie wæron (<em>hergian</em>) #### on Scotlande — They were plundering in Scotland ",
+        "correctAnswer": "hergiende",
+        "explanation":"Here the verb 'hergian' is in the present tense and modified by 'wæron' so it becomes 'hergiende'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þissum geare wæs Gypeswic (<em>gehergian</em>) #### — In this year, Ipswich was plundered",
+        "correctAnswer": "gehergod",
+        "explanation":"Here the verb 'hergian' is in the past tense and modified by 'wæs' so it becomes 'gehergod'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic eom (<em>lufian(</em>) #### — I am loved",
+        "correctAnswer": "gelufod",
+        "explanation":"Here the verb 'lufod' is in the past tense and modified by 'eom' so it becomes 'gelufod'",
+        "commonMistakes": []
+    }
+]

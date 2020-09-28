@@ -1,130 +1,152 @@
 [
     {
-        "question": "Þone soþan geleafan to (<em>bodian<em/>) #### — In order to preach the true faith",
-        "correctAnswer": "bodienne",
-        "explanation":"Here 'bodian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'bodienne'",
+        "question": "Ne man ne (<em>sculan</em>) #### drincan oððe etan binnan Godes huse — No man shall drink or eat within God's house",
+        "correctAnswer": "sceal",
+        "explanation":"Here 'sculan' is in the third person present and modifying 'drican' so it becomes 'sceal'",
         "commonMistakes": []
     },
     {
-        "question": "Heo onfeng þæt land, mynster to (<em>timbrian</em>) #### — She siezed that land in order to build a monastery",
-        "correctAnswer": "timbrienne",
-        "explanation":"Here 'timbrian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'timbrienne'",
+        "question": "Mæssepreost (<em>sculan</em>) #### habban mæsseboc — A mass—priest shall have a mass—book",
+        "correctAnswer": "sceal",
+        "explanation":"Here 'sculan' is in the third person present and modifying 'habban' so it becomes 'sceal'",
         "commonMistakes": []
     },
     {
-        "question": "To hæbbenne and to (<em>healdan</em>) #### — To have and to hold",
-        "correctAnswer": "healdenne",
-        "explanation":"",
+        "question": "Hie (<em>sculan</em>) #### gehiran hwæt Paulus cwæð — They should listen to what Paul said",
+        "correctAnswer": "scoldon",
+        "explanation":"Here 'sculan' is in the plural past and modifying 'gehiran' so it becomes 'scoldon'",
         "commonMistakes": []
     },
     {
-        "question": "Nys þe alyfed to (<em>habban</em>) #### — þines broðer wif — It is not permitted to have your brother's wife",
-        "correctAnswer": "hæbbenne",
-        "explanation":"",
+        "question": "Þus wæs gewriten be me: þæt ic þrowian (<em>sculan</em>) #### and arisan of deaðe on ðam þriddan dæge — This was decreed about me: that I should suffer, and arise from death on the third day",
+        "correctAnswer": "scolde",
+        "explanation":"Here 'sculan' is in the first person past and modifying 'þrowian' so it becomes 'scolde'",
         "commonMistakes": []
     },
     {
-        "question": "Hie næfdon hlaf to (<em>etan</em>) #### — They didn't have bread to eat",
-        "correctAnswer": "etenne",
-        "explanation":"",
+        "question": "Ða axode heo hine hwæðer heo (<em>sculan</em>) #### þa næglæs mid hire læden — Then she asked him whether she should carry the nails with her",
+        "correctAnswer": "scolde",
+        "explanation":"Here 'sculan' is in the third person past and modifying 'læden' so it becomes 'scolde'",
         "commonMistakes": []
     },
     {
-        "question": "Ut eode se sædere his sæd to (<em>sawan</em>) #### —  Out went the farmer, in order to sow his seeds",
-        "correctAnswer": "sawenne",
-        "explanation":"",
+        "question": "Nu we (<em>sculan</em>) #### herian heofonrices weard — Now we shall praise the guardian of the kingdom of heaven",
+        "correctAnswer": "sculon",
+        "explanation":"Here 'sculan' is in the plural past and modifying 'herian' so it becomes 'sculon'",
         "commonMistakes": []
     },
     {
-        "question": "Gehire gif hwa earan hæbbe to (<em>hieran</em>) #### — Hear, if one has ears to hear!",
-        "correctAnswer": "hierenne",
-        "explanation":"",
+        "question": "Hu (<em>magan</em>) #### blind man oðerne lædan? — How may a blind man lead another?",
+        "correctAnswer": "mæg",
+        "explanation":"Here 'magan' is in the third person present and modifying 'lædan' so it becomes 'mæg'",
         "commonMistakes": []
     },
     {
-        "question": "Eaþere ys olfende to (<em>faran</em>) #### þurh nædle þyrel þonne se rica on godes rice ga — It is easier for a camel to go through the eye of a needle than for the rich to go to god's kingdom ",
-        "correctAnswer": "farenne",
-        "explanation":"",
+        "question": "Witodlice ic (<em>magan</em>) #### ma secgan — Truly I may say more",
+        "correctAnswer": "mæg",
+        "explanation":"Here 'magan' is in the first person present and modifying 'secgan' so it becomes 'mæg'",
         "commonMistakes": []
     },
     {
-        "question": "Hie wilniað lof and wuldor to hæbbenne (<em>habban</em>) #### — They wished to have praise and glory",
-        "correctAnswer": "hæbbenne",
-        "explanation":"",
+        "question": "Swa feor swa he (<em>magan</em>) #### on þrim dagum gesiglan — As far as he might sail in three days",
+        "correctAnswer": "meahte",
+        "explanation":"Here 'magan' is in the third person past and modifying 'gesiglan' so it becomes 'meahte'",
         "commonMistakes": []
     },
     {
-        "question": "He ferdon to Francrice, þæt land to (<em>hergian</em>) #### — They went to France in order to plunder that land",
-        "correctAnswer": "hergienne",
-        "explanation":"",
+        "question": "Heo þone þeow findan ne (<em>magan</em>) #### — She couldn't find the servant",
+        "correctAnswer": "meahte",
+        "explanation":"Here 'magan' is in the third person past and modifying 'findan' so it becomes 'meahte'",
         "commonMistakes": []
     },
     {
-        "question": "Heo ferde to circe, þæt godspell to (<em>hieran</em>) #### — She went to church to hear the gospel",
-        "correctAnswer": "hierenne",
-        "explanation":"",
+        "question": "Peter, forhwon ne (<em>magan</em>) #### þu ane tid wacian mid me? — Peter, why could you not watch with me for an hour?",
+        "correctAnswer": "meahtest",
+        "explanation":"Here 'magan' is in the second person past and modifying 'wacian' so it becomes 'meahtest'",
         "commonMistakes": []
     },
     {
-        "question": "Freolic to (<em>libban</em>) #### — In order to live free",
-        "correctAnswer": "libbenne",
-        "explanation":"",
+        "question": "Fela þinga we (<em>magan</em>) #### writan — We can write about many things",
+        "correctAnswer": "magon",
+        "explanation":"Here 'magan' is in the plural present and modifying 'writan' so it becomes 'magon'",
         "commonMistakes": []
     },
     {
-        "question": "Werode to (<em>helpan</em>) #### on gefeohte  — In order to help the people in battle",
-        "correctAnswer": "helpenne",
-        "explanation":"",
+        "question": "Sprec us æfter urum andgyte, þæt we (<em>magan</em>) #### understandan þa þing þe þu specst — Speak to us according to our knowledge, so that we may understand those things of which you speak",
+        "correctAnswer": "magon",
+        "explanation":"Here 'magan' is in the plural present and modifying 'understandan' so it becomes 'magon'",
         "commonMistakes": []
     },
     {
-        "question": "Wið fefre hylpþ wæter to (<em>drincan</em>) #### — Against fever it helps to drink water",
-        "correctAnswer": "drincenne",
-        "explanation":"",
+        "question": "Hie ne (<em>magan</em>) #### þa wealas flieman — They could not expel the foreigners",
+        "correctAnswer": "meahton",
+        "explanation":"Here 'magan' is in the plural past and modifying 'flieman' so it becomes 'meahton'",
         "commonMistakes": []
     },
     {
-        "question": "Heo ferde to Eoferwice, þa wicingas to (<em>helpan</em>) #### — She went to York in order to help the vikings",
-        "correctAnswer": "helpenne",
-        "explanation":"",
+        "question": "Hie þohton hu hie hine acwellan (<em>magan</em>) #### — They thought how they might kill him",
+        "correctAnswer": "meahton",
+        "explanation":"Here 'magan' is in the plural past and modifying 'acwellan' so it becomes 'meahton'",
         "commonMistakes": []
     },
     {
-        "question": "Under þinum anwealde ic wilnie to (<em>wunian</em>) #### — Under your rule I should want to live",
-        "correctAnswer": "wunienne",
-        "explanation":"",
+        "question": "Ic eode to minan abbode Ælfwine and bead hine þæt ic (<em>motan</em>) #### norþ faran — I went to my abbot Alfwin and told him that I must travel north",
+        "correctAnswer": "moste",
+        "explanation":"Here 'motan' is in the first person singular past and modifying 'faran' so it becomes 'moste'",
         "commonMistakes": []
     },
     {
-        "question": "To helle gecuman to (<em>helpan</em>) #### Adames cyne—Come to Hell in order to help Adam's kin",
-        "correctAnswer": "helpenne",
-        "explanation":"",
+        "question": "Þa wearð seo cwen gegladod, þæt heo (<em>motan</em>) #### ðone maðm on moldan findan — Then the queen became gladened that she was able to find the treasure in the ground",
+        "correctAnswer": "moste",
+        "explanation":"Here 'motan' is in the third person singular past and modifying 'findan' so it becomes 'moste'",
         "commonMistakes": []
     },
     {
-        "question": "Mæst þearf is to (<em>gehealdan</em>) ####  rihtne cristendom — It is most necessary to keep correct christianity",
-        "correctAnswer": "gehealdenne",
-        "explanation":"",
+        "question": "Ic restan ne (<em>motan</em>) #### — I am not able to rest",
+        "correctAnswer": "mot",
+        "explanation":"Here 'motan' is in the first person singular present and modifying 'restan' so it becomes 'mot'",
         "commonMistakes": []
     },
     {
-        "question": "Hie sealdon Ceolwulfe Myrcna rice to (<em>healdan</em>) #### — They gave Ceolwulf the kingdom of Mercia to hold",
-        "correctAnswer": "healdenne",
-        "explanation":"",
+        "question": "Hwænne (<em>motan</em>) #### ic hine geseon? — When may I see him?",
+        "correctAnswer": "mot",
+        "explanation":"Here 'motan' is in the first person singular present and modifying 'geseon' so it becomes 'mot'",
         "commonMistakes": []
     },
-
     {
-        "question": "Þæt ðæt folc hæfð genoh to (<em>drincan</em>) #### — in order that that people have enough to drink",
-        "correctAnswer": "drincenne",
-        "explanation":"",
+        "question": "Þa hwile þe hi wæpna wealdan (<em>motan</em>) #### — As long as they can weild weapons",
+        "correctAnswer": "moston",
+        "explanation":"Here 'motan' is in the plural present and modifying 'wealdan' so it becomes 'moston'",
         "commonMistakes": []
     },
-
     {
-        "question": "He ferde þa siþþan to (<em>feohtan</em>) #### wið þone casere  — He went then afterwards in order to fight with the emperor",
-        "correctAnswer": "feohtenne",
-        "explanation":"",
+        "question": "Þæt we (<em>motan</em>) #### his willan gewyrcan ðurh sume weldæde — That we can work his will through some good deed",
+        "correctAnswer": "moston",
+        "explanation":"Here 'motan' is in the plural present and modifying 'gewyrcan' so it becomes 'moston'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic ne (<em>cunnan</em>) #### understandan — I cannot understand",
+        "correctAnswer": "can",
+        "explanation":"Here 'cunnan' is in the first person present and modifying 'understandan' so it becomes 'can'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic (<em>cunnan</em>) #### eow læran — I can teach you",
+        "correctAnswer": "can",
+        "explanation":"Here 'cunnan' is in the first person present and modifying 'læran' so it becomes 'can'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie dydon swa hie (<em>cunnan</em>) #### — They did as they could",
+        "correctAnswer": "cuþon",
+        "explanation":"Here 'cunnan' is in the plural past and modifying 'dydon' so it becomes 'cuþon'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Men ne (<em>cunnan</em>) #### secgan to soðe — Men could not say for sure",
+        "correctAnswer": "cunnon",
+        "explanation":"Here 'cunnan' is in the plural present and modifying 'secgan' so it becomes 'cunnon'",
         "commonMistakes": []
     }
 ]

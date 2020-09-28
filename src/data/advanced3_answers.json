@@ -1,122 +1,122 @@
 [
     {
-        "question": "He wilnode þæt þæt folc wære (<em>gecierran</em>) #### to Criste — He always wished that that people might be converted to Christ",
-        "correctAnswer": "gecierred",
-        "explanation":"Here the verb 'cierran' is in the past tense and modifed by 'wære' so it becomes 'gecierred'",
+        "question": "Þone soþan geleafan to (<em>bodian<em/>) #### — In order to preach the true faith",
+        "correctAnswer": "bodienne",
+        "explanation":"Here 'bodian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'bodienne'",
         "commonMistakes": []
     },
     {
-        "question": "Com se Hælend on Galileam godspell (<em>bodian</em>) #### — The holy one came into Galilea, preaching the gospel",
-        "correctAnswer": "bodiende",
-        "explanation":"Here the verb 'bodian' is in the present tense and modifed by 'com' so it becomes 'bodiende'",
+        "question": "Heo onfeng þæt land, mynster to (<em>timbrian</em>) #### — She siezed that land in order to build a monastery",
+        "correctAnswer": "timbrienne",
+        "explanation":"Here 'timbrian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'timbrienne'",
         "commonMistakes": []
     },
     {
-        "question": "Þa com he and fand hie (<em>slæpan</em>) ####, and cwæþ to Petre, 'Simon, slæpst þu?' — Then he came and found them sleeping, and said to Peter, 'Simon, do you sleep?'",
-        "correctAnswer": "slæpende",
-        "explanation":"Here the verb 'slæpan' is in the present tense and modifying the pronoun 'hie' so it becomes 'slæpende'",
+        "question": "Nys þe alyfed to (<em>habban</em>) #### þines broðer wif — It is not permitted to have your brother's wife",
+        "correctAnswer": "hæbbenne",
+        "explanation":"Here 'habban' loses the —an suffix and gains 'enne' to make the inflected infinitive 'hæbbenne'",
         "commonMistakes": []
     },
     {
-        "question": "Se cyning hæfde þone mynster (<em>getimbrian</em>) #### — The king had built the monastery",
-        "correctAnswer": "getimbrod",
-        "explanation":"Here the verb 'getimbrian' is in the past tense and modifed by 'hæfde' so it becomes 'getimbrod'",
+        "question": "Hie næfdon hlaf to (<em>etan</em>) #### — They didn't have bread to eat",
+        "correctAnswer": "etenne",
+        "explanation":"Here 'etan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'etenne'",
         "commonMistakes": []
     },
     {
-        "question": "&AELIG;r ðæm ðe Rome (<em>getimbrian</em>) #### wære — Before Rome was built",
-        "correctAnswer": "getimbrod",
-        "explanation":"Here the verb 'getimbrian' is in the past tense and modifed by 'wære' so it becomes 'getimbrod'",
+        "question": "Ut eode se sædere his sæd to (<em>sawan</em>) #### — Out went the farmer, in order to sow his seeds",
+        "correctAnswer": "sawenne",
+        "explanation":"Here 'sawan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'sawenne'",
         "commonMistakes": []
     },
     {
-        "question": "Sceal beon (<em>gebodian</em>) #### on minum naman forgifenyss — Forgiveness shall be preached in my name",
-        "correctAnswer": "gebodod",
-        "explanation":"Here the verb 'bodian' is in the past tense and modifed by 'beon' so it becomes 'gebodod'",
+        "question": "Gehire gif hwa earan hæbbe to (<em>hieran</em>) #### — Hear, if one has ears to hear!",
+        "correctAnswer": "hierenne",
+        "explanation":"Here 'hieran' loses the —an suffix and gains 'enne' to make the inflected infinitive 'hierenne'",
         "commonMistakes": []
     },
     {
-        "question": "Se feorða heafodricu is Romane, þe giet (<em>ricsian</em>) #### sindon — The fourth empire is Roman, which is yet reigning",
-        "correctAnswer": "ricsiende",
-        "explanation":"Here the verb 'ricsian' is in the present tense and modifed by 'sindon' so it becomes 'ricsiende'",
+        "question": "Eaþere ys olfende to (<em>faran</em>) #### þurh nædle þyrel þonne se rica on godes rice ga — It is easier for a camel to go through the eye of a needle than for the rich to go to god's kingdom ",
+        "correctAnswer": "farenne",
+        "explanation":"Here 'faran' loses the —an suffix and gains 'enne' to make the inflected infinitive 'farenne'",
         "commonMistakes": []
     },
     {
-        "question": "Þu eart (<em>gelufian</em>) #### — You are loved",
-        "correctAnswer": "gelufod",
-        "explanation":"Here the verb 'gelufian' is in the past tense and modifed by 'eart' so it becomes 'gelufod'",
+        "question": "Hie wilniað lof and wuldor to hæbbenne (<em>habban</em>) #### — They wished to have praise and glory",
+        "correctAnswer": "hæbbenne",
+        "explanation":"Here 'habban' loses the —an suffix and gains 'enne' to make the inflected infinitive 'hæbbenne'",
         "commonMistakes": []
     },
     {
-        "question": "Apollonius ongeat þæt he (<em>gelufian</em>) #### wæs fram þæm mædene — Apollonius perceived that he was loved by that maiden",
-        "correctAnswer": "gelufod",
-        "explanation":"Here the verb 'gelufian' is in the past tense and modifed by 'wæs' so it becomes 'gelufod'",
+        "question": "He ferdon to Francrice, þæt land to (<em>hergian</em>) #### — They went to France in order to plunder that land",
+        "correctAnswer": "hergienne",
+        "explanation":"Here 'hergian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'hergienne'",
         "commonMistakes": []
     },
     {
-        "question": "Þis (<em>lufian</em>) #### wif — This loving wife",
-        "correctAnswer": "lufiende",
-        "explanation":"Here the verb 'lufian' is in the present tense and modifying the noun 'wif' so it becomes 'lufiende'",
+        "question": "Heo ferde to circe, þæt godspell to (<em>hieran</em>) #### — She went to church to hear the gospel",
+        "correctAnswer": "hierenne",
+        "explanation":"Here 'hieran' loses the —an suffix and gains 'enne' to make the inflected infinitive 'hierenne'",
         "commonMistakes": []
     },
     {
-        "question": "Seo sawl bið (<em>libban</em>) #### - The soul is living",
-        "correctAnswer": "libbende",
-        "explanation":"Here the verb 'libban' is in the present tense and modifed by 'bið' so it becomes 'libbende'",
+        "question": "Freolic to (<em>libban</em>) #### — In order to live free",
+        "correctAnswer": "libbenne",
+        "explanation":"Here 'libban' loses the —an suffix and gains 'enne' to make the inflected infinitive 'libbenne'",
         "commonMistakes": []
     },
     {
-        "question": "Ne miht ðu me geseon; ne syhð me nan (<em>libban</em>) #### man - You cannot see me; no living man sees me",
-        "correctAnswer": "libbiende",
-        "explanation":"Here the verb 'libban' is in the present tense and modifying the noun 'man' so it becomes 'libbiende'",
+        "question": "Werode to (<em>helpan</em>) #### on gefeohte — In order to help the people in battle",
+        "correctAnswer": "helpenne",
+        "explanation":"Here 'helpan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'helpenne'",
         "commonMistakes": []
     },
     {
-        "question": "Se halig abbod wæs fela wundra (<em>wyrcan</em>) #### - The holy abbot was working many wanders",
-        "correctAnswer": "wyrcende",
-        "explanation":"Here the verb 'wyrcan' is in the present tense and modifed by 'wæs' so it becomes 'wyrcende'",
+        "question": "Wið fefre hylpþ wæter to (<em>drincan</em>) #### — Against fever it helps to drink water",
+        "correctAnswer": "drincenne",
+        "explanation":"Here 'drincan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'drincenne'",
         "commonMistakes": []
     },
     {
-        "question": "God cwæð ða: Gewurðe leoht and leoht wæs (<em>wyrcan</em>) #### - God then said: 'Let there be light', and light was made.",
-        "correctAnswer": "geworht",
-        "explanation":"Here the verb 'wyrcan' is in the past tense and modifed by 'wæs' so it becomes 'geworht'",
+        "question": "Heo ferde to Eoferwice, þa wicingas to (<em>helpan</em>) #### — She went to York in order to help the vikings",
+        "correctAnswer": "helpenne",
+        "explanation":"Here 'helpan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'helpenne'",
         "commonMistakes": []
     },
     {
-        "question": "Þær wæs þære sunnan anlycnys (<em>wyrcan</em>) #### of golde - There the sun's likeness was made from gold",
-        "correctAnswer": "geworht",
-        "explanation":"Here the verb 'wyrcan' is in the past tense and modifed by 'wæs' so it becomes 'geworht'",
+        "question": "Under þinum anwealde ic wilnie to (<em>wunian</em>) #### — Under your rule I should want to live",
+        "correctAnswer": "wunienne",
+        "explanation":"Here 'wunian' loses the —an suffix and gains 'enne' to make the inflected infinitive 'wunienne'",
         "commonMistakes": []
     },
     {
-        "question": "Ic wunie on þæm (<em>gehergian</em>) #### lande - I live in the plundered land",
-        "correctAnswer": "gehergodan",
-        "explanation":"Here the verb 'hergian' is in the past tense and modifying the noun 'land' so it becomes 'gehergodan'",
+        "question": "To helle gecuman to (<em>helpan</em>) #### Adames cyne — Come to Hell in order to help Adam's kin",
+        "correctAnswer": "helpenne",
+        "explanation":"Here 'helpan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'helpenne'",
         "commonMistakes": []
     },
     {
-        "question": "Þa Deniscan leode ferdon mid sciphere (<em>hergian</em>) #### and sleande wide geond land - The Danish people travelled with a navy plundering and killing widely around the land",
-        "correctAnswer": "hergiende",
-        "explanation":"Here the verb 'hergian' is in the present tense and modified by 'ferdon' so it becomes 'hergiende'",
+        "question": "Mæst þearf is to (<em>gehealdan</em>) #### rihtne cristendom — It is most necessary to keep correct christianity",
+        "correctAnswer": "gehealdenne",
+        "explanation":"Here 'gehealdan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'gehealdenne'",
         "commonMistakes": []
     },
     {
-        "question": "Hie wæron (<em>hergian</em>) #### on Scotlande - They were plundering in Scotland ",
-        "correctAnswer": "hergiende",
-        "explanation":"Here the verb 'hergian' is in the present tense and modified by 'wæron' so it becomes 'hergiende'",
+        "question": "Hie sealdon Ceolwulfe Myrcna rice to (<em>healdan</em>) #### — They gave Ceolwulf the kingdom of Mercia to hold",
+        "correctAnswer": "healdenne",
+        "explanation":"Here 'healdan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'healdenne'",
         "commonMistakes": []
     },
     {
-        "question": "On þissum geare wæs Gypeswic (<em>gehergian</em>) #### - In this year, Ipswich was plundered",
-        "correctAnswer": "gehergod",
-        "explanation":"Here the verb 'hergian' is in the past tense and modified by 'wæs' so it becomes 'gehergod'",
+        "question": "Þæt ðæt folc hæfð genoh to (<em>drincan</em>) #### — In order that that people have enough to drink",
+        "correctAnswer": "drincenne",
+        "explanation":"Here 'drincan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'drincenne'",
         "commonMistakes": []
     },
     {
-        "question": "Ic eom (<em>lufian(</em>) #### - I am loved",
-        "correctAnswer": "gelufod",
-        "explanation":"Here the verb 'lufod' is in the past tense and modified by 'eom' so it becomes 'gelufod'",
+        "question": "He ferde þa siþþan to (<em>feohtan</em>) #### wið þone casere — He went then afterwards in order to fight with the emperor",
+        "correctAnswer": "feohtenne",
+        "explanation":"Here 'feohtan' loses the —an suffix and gains 'enne' to make the inflected infinitive 'feohtenne'",
         "commonMistakes": []
     }
 ]
