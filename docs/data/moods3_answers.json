@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Gif þin willa (<em>wesan</em>) ####, wuldres aldor — If it be your will, Prince of Glory",
+        "correctAnswer": "sie",
+        "explanation": "Here 'wesan' is in the singular present so it becomes 'sie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif þu (<em>wesan</em>) #### Godes sunu, cweþ þæt þa stanas to hlafum geweorþan — If you be God's son, order that these stones be turned into loaves",
+        "correctAnswer": "sie",
+        "explanation": "Here 'wesan' is in the singular present so it becomes 'sie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wille cyning (<em>wesan</em>) ####! — I want to be king!",
+        "correctAnswer": "sie",
+        "explanation": "Here 'wesan' is in the singular present so it becomes 'sie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sæge, gif þu cunne, hwæt seo wiht (<em>wesan</em>) #### — Say, if you know, what that creature might be",
+        "correctAnswer": "sie",
+        "explanation": "Here 'wesan' is in the singular present so it becomes 'sie'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wille þæt hie gode ðeawas (<em>wesan</em>) #### — I wish that they could be good slaves",
+        "correctAnswer": "sien",
+        "explanation": "Here 'wesan' is in the plural present so it becomes 'sien'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif wifes breost sare (<em>wesan</em>) ####, genim þære ylcan wyrte seaw ond smyre ða breost þærmid — If a woman's breasts are sore, take the same plant's juice and smear the breast with that",
+        "correctAnswer": "sien",
+        "explanation": "Here 'wesan' is in the plural present so it becomes 'sien'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif wyrmas (<em>wesan</em>) #### on earan, do seaw wearm on þa wyrmas — If there be worms in the ears, put warm juice on the worms",
+        "correctAnswer": "sien",
+        "explanation": "Here 'wesan' is in the plural present so it becomes 'sien'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðas wyrte ðu scealt on sumera (<em>niman</em>) #### — These plants you should get in the summer",
+        "correctAnswer": "nimen",
+        "explanation": "Here 'niman' is in the plural present so it becomes 'nimen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "We wurden ealle afyrhte and þær lægen swylce we deade (<em>wæren</em>) #### — We all became afraid and lay there as if we were dead",
+        "correctAnswer": "wæren",
+        "explanation": "Here 'wesan' is in the plural past so it becomes 'wæren'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Alexander wolde þæt his mærþa (<em>wæren</em>) #### maran þonne Ercoles — Alexander wished that his fame might have been greater than Hercules'",
+        "correctAnswer": "wæren",
+        "explanation": "Here 'wesan' is in the plural past so it becomes 'wæren'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo wolden hie ut of þæm temple (<em>niman</em>) #### — She wanted to take them out of the temple",
+        "correctAnswer": "nimen",
+        "explanation": "Here 'niman' is in the plural present so it becomes 'nimen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Swelce we (<em>niman</em>) #### ðone clænan hwæte, ond weorpen ðæt ceaf onweg — Just as we might take the clean wheat and throw the chaff away",
+        "correctAnswer": "nimen",
+        "explanation": "Here 'niman' is in the plural present so it becomes 'nimen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se wifman, se ne mæge bearn afedan, (<em>niman</em>) #### þonne anes bleos cu meoluc on hyre handæ — That woman who cannot feed a child, should take the milk of a single coloured cow in her hand",
+        "correctAnswer": "nime",
+        "explanation": "Here 'niman' is in the singular present so it becomes 'nime'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nis na god þæt man (<em>niman</em>) #### his bearna hlaf — It is not good that one should take his children's bread",
+        "correctAnswer": "nime",
+        "explanation": "Here 'niman' is in the singular present so it becomes 'nime'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie wearð gemartyrod and (<em>feran</em>) #### to heofone rice — They were martyred and could travel to the kingdom of heaven",
+        "correctAnswer": "ferden",
+        "explanation": "Here 'feran' is in the plural past so it becomes 'ferden'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se cyning wille to heofon (<em>feran</em>) #### — The king wants to go to heaven",
+        "correctAnswer": "fere",
+        "explanation": "Here 'feran' is in the singular present so it becomes 'ferden'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wolde se biscop þæt þæt folc geciered (<em>wesan</em>) #### — The bishop always desired that that people might be converted",
+        "correctAnswer": "sien",
+        "explanation": "Here 'wesan' is in the plural present so it becomes 'sien'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu hie sceal þe (<em>metan</em>) #### — Now they shall meet you",
+        "correctAnswer": "meten",
+        "explanation": "Here 'metan' is in the plural present so it becomes 'meten'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif ðu mid þeofe (<em>feohtan</em>) #### — If you should fight beside a thief",
+        "correctAnswer": "feohte",
+        "explanation": "Here 'feohtan' is in the singular present so it becomes 'feohte'",
+        "commonMistakes": []
+    },
+    {
+        "question": "We willaþ wiþ þæm wicingum (<em>feohtan</em>) #### — We wish to fight against the vikings",
+        "correctAnswer": "feohten",
+        "explanation": "Here 'feohtan' is in the plural present so it becomes 'feohten'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On lænctenfæsten (<em>rædan</em>) #### þa geswustre heora bec — During Lent, the sisters should read their books ",
+        "correctAnswer": "ræden",
+        "explanation": "Here 'rædan' is in the plural present so it becomes 'ræden'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On þæm dæge, (<em>rædan</em>) #### gebroðru, ne ne singen — On that day, the brothers should not read, nor sing",
+        "correctAnswer": "ræden",
+        "explanation": "Here 'rædan' is in the plural present so it becomes 'ræden'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wile ðæt Alfred anne song (<em>singan</em>) #### — He wished that Alfred might sing a song",
+        "correctAnswer": "singe",
+        "explanation": "Here 'singan' is in the singular present so it becomes 'singe'",
+        "commonMistakes": []
+    },
+    {
+        "question": "On sunnendæge ærest man sceal (<em>singan</em>) #### þæne syxandsyxtigeþan sealm — On Sunday, one shall first sing the 66th psalm",
+        "correctAnswer": "singen",
+        "explanation": "Here 'singan' is in the plural present so it becomes 'singen'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie wolde mid him (<em>feran</em>) #### — They wanted to travel with them",
+        "correctAnswer": "feren",
+        "explanation": "Here 'feran' is in the plural present so it becomes 'feren'",
+        "commonMistakes": []
+    }
+]
