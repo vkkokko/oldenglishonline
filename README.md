@@ -6,14 +6,22 @@
 This is the file repository for Old English Online, an online learning platform for Old English. Uncompiled files are located in the *src* folder, while compiled files are located in the *docs* folder. Visit [oldenglish.info](https://oldenglish.info) to use the website.
 
 #### Table Of Contents
-[Contributor's Guide](#contributor's-guide)
+[User Guide](#User-Guide)
+* [How do I use this resource offline?](#How-do-I-use-this-resource-offline?)
+
+[Contributor's Guide](#Contributor's-Guide)
 * [How do I submit a good bug report?](#How-do-I-submit-a-good-bug-report?)
 * [How do I submit a good feature request?](#How-do-I-submit-a-good-feature-request?)
-* [How do I contribute directly?](#How-do-I-contribute-directly?)
 
 [Developer's Guide](#developer's-guide)
 * [How to install Old English Online locally](#installing-and-running)
 
+# User Guide
+If you want to use Old English Online while not connected to the internet, you will need to download the files. 
+1. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
+2. Click the green **Code** button and select **Download a Zip**.
+3. Once the file is downloaded, unzip it and open the **Docs** folder.
+4. To view the homepage, open *index.html*.
 
 # Contributor's Guide
 If you want to report a bug or suggest an enhancement, perform the following steps:
@@ -33,20 +41,6 @@ If you want to report a bug or suggest an enhancement, perform the following ste
 * **State what you want the feature to do**. For example, 'I would like it if you could review all the flashcards you've filled out in a session so you can see which ones you got right and which you got wrong'.
 * **State where you would like the feature to go**. For example, 'I'd like there to be a button I could click on the flashcard modal which would bring up this information'.
 * **State who you think the feature would benefit**. For example, is it aimed at first time learners or postgraduate scholars?
-
-
-### How do I contribute directly?
-If you are a developer or Old English scholar who wants to contribute directly to Old English Online yourself, you can, but it will require you install a few things on your own computer. Follow the steps below:
-1. Create a Github account [here](https://github.com/) or just login if you already have one.
-2. Download a git client, you can get the free GitKraken [here](https://www.gitkraken.com/).
-3. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
-4. Click the **Clone or download** button and copy the URL.
-5. In GitKraken, choose **Clone Repo**, choose **From URL** and paste the URL you copied from Github. This will copy the repo to your machine.
-6. Make the changes you want to make to the page in the `/src/` folder, not the `/docs/` folder. We recommend you use a code editor to do this as it will make it easier to read and flag errors. You can download Visual Studio Code [here](https://code.visualstudio.com/).
-7. Commit changes to your own branch. 
-8. Push your work back up to your fork. If you're using GitKraken, you just need to click the **Push** button.
-9. Submit a **Pull Request** so that we can review your changes.
-10. An administrator will then review and approve your changes.
 
 # Developer's Guide
 ## Installing and Running
