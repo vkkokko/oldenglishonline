@@ -436,7 +436,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se (<em>biscop</em>) #### fram þæm tune — The bishop from the town",
+        "question": "Se (<em>biscop</em>) #### com fram þæm tune — The bishop came from the town",
         "correctAnswer": "biscop",
         "explanation": "Here the masculine noun 'biscop' is the subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
