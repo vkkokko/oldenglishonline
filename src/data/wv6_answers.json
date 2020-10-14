@@ -2,7 +2,7 @@
     {
         "question": "Ic (<em>habban</em>) #### ðe to secgenne sum þing⁠ — I have something to say",
         "correctAnswer": "hæbbe",
-        "explanation": "Here 'habban' is in the first person singular form '<em>hæbbe</em>' because the subject is 'I'",
+        "explanation": "Here 'habban' is in the first person singular present form '<em>hæbbe</em>' because the subject is 'I'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "habbe",
@@ -13,13 +13,13 @@
     {
         "question": "Ðu (<em>libban</em>) #### be godra manna ælmessan⁠ — You live by alms of good men",
         "correctAnswer": "leofast",
-        "explanation": "Here 'libban' is in the second person singular form '<em>leofast</em>' because the subject is 'You",
+        "explanation": "Here 'libban' is in the second person singular present form '<em>leofast</em>' because the subject is 'You",
         "commonMistakes": []
     },
     {
         "question": "Swa (<em>secgan</em>) #### ðæs huses hlaford⁠ — The lord of this house says so",
-        "correctAnswer": "secgað|secgaþ",
-        "explanation": "Here 'secgan' is in the third person singular form '<em>secgað</em>' because the subject is 'the lord'",
+        "correctAnswer": "sægð|sægþ",
+        "explanation": "Here 'secgan' is in the third person singular present form '<em>sægð</em>' because the subject is 'the lord'",
         "commonMistakes": []
     },
     {
@@ -31,19 +31,19 @@
     {
         "question": "Ðis leoht we (<em>habban</em>) #### wið nytenu gemæne⁠ — This light we have in common with beasts",
         "correctAnswer": "habbaþ|habbað",
-        "explanation": "Here 'habban' is in the plural form '<em>habbað</em>' because the subject is 'We'",
+        "explanation": "Here 'habban' is in the plural present form '<em>habbað</em>' because the subject is 'We'",
         "commonMistakes": []
     },
     {
         "question": "Hie be urum larum (<em>libban</em>) ####⁠ — They live according to our instructions",
         "correctAnswer": "libbaþ|libbað",
-        "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is 'They'",
+        "explanation": "Here 'libban' is in the plural present form '<em>libbað</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
         "question": "Ic ðe orlæg (<em>secgan</em>) ####⁠ — I told you your fate",
         "correctAnswer": "secgde ",
-        "explanation": "Here 'secgan' is in the first person singular form '<em>secgde</em>' because the subject is 'I",
+        "explanation": "Here 'secgan' is in the first person singular past form '<em>secgde</em>' because the subject is 'I",
         "commonMistakes": []
     },
     {
@@ -78,32 +78,32 @@
     {
         "question": "Hie (<em>hycgan</em>) #### inwit ond facen on heortan geþoncum⁠ — They thought deceit and treachery with the thoughts of their heart",
         "correctAnswer": "hogdon",
-        "explanation": "Here 'hycgan' is in the third person singular past form '<em>hogdon</em>' because the subject is 'They'",
+        "explanation": "Here 'hycgan' is in the plural past form '<em>hogdon</em>' because the subject is 'They'",
         "commonMistakes": [
         ]
     },
     {
-        "question": "Ic bi me (<em>secgan</em>) #### ðis sarspell⁠ — I tell this lament about myself",
+        "question": "Ic be me (<em>secgan</em>) #### ðis sarspell⁠ — I tell this lament about myself",
         "correctAnswer": "secge",
-        "explanation": "Here 'secgan' is in the first person singular form '<em>secge</em>' because the subject is 'I'",
+        "explanation": "Here 'secgan' is in the first person singular present form '<em>secge</em>' because the subject is 'I'",
         "commonMistakes": []
     },
     {
         "question": "Æðelwulf his dohtor (<em>habban</em>) #### him to cwene⁠ — Ethelwulf had his daughter for his queen",
         "correctAnswer": "hæfde",
-        "explanation": "Here 'habban' is in the third person singular form '<em>hæfde</em>' because the subject is 'Ethelwulf'",
+        "explanation": "Here 'habban' is in the third person singular past form '<em>hæfde</em>' because the subject is 'Ethelwulf'",
         "commonMistakes": []
     },
     {
         "question": "Hie (<em>habban</em>) #### hine mid heom oþ ðæt hie ofslogon hine⁠ — They had him with them until they slew him",
         "correctAnswer": "hæfdon",
-        "explanation": "Here 'habban' is in the plural form '<em>hæfdon</em>' because the subject is 'They'",
+        "explanation": "Here 'habban' is in the plural past form '<em>hæfdon</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
         "question": "For ðæm ic libbe ond ge (<em>libban</em>) ####⁠ — Because I live, you live",
         "correctAnswer": "libbaþ|libbað",
-        "explanation": "Here 'libban' is in the plural form '<em>libbað</em>' because the subject is the plural 'You'",
+        "explanation": "Here 'libban' is in the plural present form '<em>libbað</em>' because the subject is the plural 'You'",
         "commonMistakes": []
     },
     {
@@ -121,13 +121,13 @@
     {
         "question": "Ge (<em>habban</em>) #### us gedon laðe Pharaone⁠ — You have made us hateful to Pharoh",
         "correctAnswer": "habbaþ|habbað",
-        "explanation": "Here 'habban' is in the plural form '<em>habbað</em>' because the subject is the plural 'You",
+        "explanation": "Here 'habban' is in the plural present form '<em>habbað</em>' because the subject is the plural 'You",
         "commonMistakes": []
     },
     {
         "question": "Ðu me forlæred (<em>habban</em>) ####⁠ — You have seduced me",
         "correctAnswer": "hæfst",
-        "explanation": "Here 'habban' is in the third person singular form '<em>hæfst</em>' because the subject is 'You'",
+        "explanation": "Here 'habban' is in the second person singular present form '<em>hæfst</em>' because the subject is 'You'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "hæbbast",
@@ -158,34 +158,34 @@
     {
         "question": "He cwæþ to him ðu wast ðæt ic ðe (<em>lufian</em>) ####⁠ — He said to him 'you know that I love you'",
         "correctAnswer": "lufie",
-        "explanation": "Here 'lufian' is in the first person singular form '<em>lufie</em>' because the subject is 'I'",
+        "explanation": "Here 'lufian' is in the first person singular present form '<em>lufie</em>' because the subject is 'I'",
         "commonMistakes": []
     },
     {
         "question": "Eala ðu scippend heofones ond eorþan! Ðu ðe on ðæm ecan setle (<em>ricsian</em>) ####!⁠ — Oh you the creator of heaven and earth! You who reigns on the eternal seat!",
         "correctAnswer": "ricsast",
-        "explanation": "Here 'ricsian' is in the second person singular form '<em>ricsast</em>' because the subject is 'You",
+        "explanation": "Here 'ricsian' is in the second person singular present form '<em>ricsast</em>' because the subject is 'You",
         "commonMistakes": []
     },
     {
         "question": "He (<em>gaderian</em>) #### sum gehwæde andgyt of ðære bec⁠ — He gathered some little information from the book",
         "correctAnswer": "gaderað|gaderaþ",
-        "explanation": "Here 'gaderian' is in the third person singular form '<em>gaderað</em>' because the subject is 'He'",
+        "explanation": "Here 'gaderian' is in the third person singular present form '<em>gaderað</em>' because the subject is 'He'",
         "commonMistakes": []
     },
     {
         "question": "He het ond we (<em>andswarian</em>) ####⁠ — He calls and we answer",
         "correctAnswer": "andswariaþ|andswariað",
-        "explanation": "Here 'andswarian' is in the first person plural form '<em>andswariað</em>' as the subject is 'We'",
+        "explanation": "Here 'andswarian' is in the third person plural present form '<em>andswariað</em>' as the subject is 'We'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "andswaraþ",
-                "explanation": "'Andswaraþ' is the third person form. Here 'he' is linked to the verb 'het'. 'Andswarian'should by in the plural form '<em>andswariað</em>' as its subject is 'We'."
+                "explanation": "'Andswaraþ' is the third person form. Here 'he' is linked to the verb 'het'. 'Andswarian' should be in the plural form '<em>andswariað</em>' as its subject is 'We'."
             } 
         ]
     },
     {
-        "question": "Heofonas (<em>bodian</em>) #### wuldor Godes⁠ — The heavens procalimed the glory of God",
+        "question": "Heofonas (<em>bodian</em>) #### wuldor Godes⁠ — The heavens proclaim the glory of God",
         "correctAnswer": "bodiaþ|bodiað",
         "explanation": "Here 'bodian' is in the third person plural form '<em>bodiað</em>' as the subject is plural: 'the heavens'",
         "commonMistakes": []
@@ -193,7 +193,7 @@
     {
         "question": "Hie (<em>hatian</em>) #### hiera hieramonna unþeawas⁠ — They hate the vices of their subjects",
         "correctAnswer": "hatiaþ|hatiað",
-        "explanation": "Here 'hatian' is in the first person singular past form '<em>hatiað</em>' because the subject is 'I'",
+        "explanation": "Here 'hatian' is in the plural present form '<em>hatiað</em>' because the subject is 'they'",
         "commonMistakes": []
     },
     {
@@ -222,43 +222,43 @@
     {
         "question": "Hie (<em>timbrian</em>) #### langscipu mid æscum⁠ — They built the longships with ash trees",
         "correctAnswer": "timbrodon",
-        "explanation": "Here 'timbrian' is in the third person plural form '<em>timbrodon</em>' because the subject is 'They'",
+        "explanation": "Here 'timbrian' is in the plural past form '<em>timbrodon</em>' because the subject is 'They'",
         "commonMistakes": []
     },
     {
         "question": "On ðæm dagum (<em>ricsian</em>) #### Æþelbyrht cyning ond his wif on Cantwarebyrig⁠ — On this day, Ethelbyrt and his wife reigned in Canterbury",
         "correctAnswer": "ricsodon",
-        "explanation": "Here 'ricsian' is in the third person plural past form '<em>ricsodon</em>' because the subject is 'Ethelbert and his wife'",
+        "explanation": "Here 'ricsian' is in the third person singular past form '<em>ricsodon</em>' because the subject is 'Ethelbert and his wife'",
         "commonMistakes": []
     },
     {
-        "question": "Him englas (<em>andswarian</em>) ####⁠ — The angels answered him",
+        "question": "Him englas (<em>andswarian</em>) ####⁠ — Angels answered him",
         "correctAnswer": "andswaredon",
-        "explanation": "Here 'andswarian' is in the third person singular past form '<em>andswaredon</em>' because the subject is 'The angels'",
+        "explanation": "Here 'andswarian' is in the third person singular past form '<em>andswaredon</em>' because the subject is 'Angels'",
         "commonMistakes": []
     },
     {
         "question": "Ic (<em>gaderian</em>) #### ðider eall ðæt me gewexen is⁠ — I gather thither all that is grown by me",
         "correctAnswer": "gaderie",
-        "explanation": "Here 'gaderian' is in the first person singular form '<em>gaderie</em>' because the subject is 'I'",
+        "explanation": "Here 'gaderian' is in the first person singular present form '<em>gaderie</em>' because the subject is 'I'",
         "commonMistakes": []
     },
     {
         "question": "Hwy (<em>bodian</em>) #### þu mine rihtwisnesse mid þinne fulan muð⁠e — Why do you proclaim my justice with your foul mouth?",
         "correctAnswer": "bodast",
-        "explanation": "Here 'bodian' is in the first person singular form '<em>bodast</em>' because the subject is 'you'",
+        "explanation": "Here 'bodian' is in the second person singular form '<em>bodast</em>' because the subject is 'you'",
         "commonMistakes": []
     },
     {
         "question": "Ne mæg middaneard eow hatian ac he (<em>hatian</em>) #### me⁠ — The world may not hate you, but he hates me",
         "correctAnswer": "hataþ|hatað",
-        "explanation": "Here 'hatian' is in the third person singular form '<em>hataþ</em>' because the subject is 'he'",
+        "explanation": "Here 'hatian' is in the third person singular present form '<em>hataþ</em>' because the subject is 'he'",
         "commonMistakes": []
     },
     {
         "question": "Hie (<em>lufian</em>) #### mid lacum ða ðe læs agon⁠ — They show love with offerings to they who possess less",
         "correctAnswer": "lufiaþ|lufiað",
-        "explanation": "Here 'lufian' is in the third person plural form '<em>lufiaþ</em>' because the subject is 'they'",
+        "explanation": "Here 'lufian' is in the plural present form '<em>lufiaþ</em>' because the subject is 'they'",
         "commonMistakes": []
     },
     {
@@ -270,7 +270,7 @@
     {
         "question": "We (<em>timbrian</em>) #### þisne ceastra⁠ — We built this city",
         "correctAnswer": "timbriaþ|timbriað",
-        "explanation": "Here 'timbrian' is in the plural form '<em>timbriaþ</em>' because the subject is 'we'",
+        "explanation": "Here 'timbrian' is in the plural present form '<em>timbriaþ</em>' because the subject is 'we'",
         "commonMistakes": []
     },
     {
@@ -282,31 +282,31 @@
     {
         "question": "Swa he (<em>ricsian</em>) #### ond wið rihte wan ana wið eallum⁠ — So he ruled and challenged justice, one against all ",
         "correctAnswer": "ricsode",
-        "explanation": "Here 'ricsian' is in the third person singular form '<em>ricsode</em>' because the subject is 'he'",
+        "explanation": "Here 'ricsian' is in the third person singular past form '<em>ricsode</em>' because the subject is 'he'",
         "commonMistakes": []
     },
     {
-        "question": "ðæm ðe ær (<em>hatian</em>) #### eow⁠ — Those that formerly hated you",
+        "question": "&THORN;æm ðe ær (<em>hatian</em>) #### eow⁠ — Those that formerly hated you",
         "correctAnswer": "hatedon",
-        "explanation": "Here 'hatian' is in the third person singular form '<em>hatedon</em>' because the subject is the demonstrative pronoun 'those'",
+        "explanation": "Here 'hatian' is in the third person plural past form '<em>hatedon</em>' because the subject is the demonstrative pronoun 'those'",
         "commonMistakes": []
     },
     {
         "question": "Ðæt folc (<em>gaderian</em>) #### mid micle menio ðæra fugela⁠ — The people gathered a great number of the birds",
         "correctAnswer": "gaderode",
-        "explanation": "Here 'gaderian' is in the third person plural form '<em>gaderode</em>' because the subject is 'the folk'",
+        "explanation": "Here 'gaderian' is in the plural past form '<em>gaderode</em>' because the subject is 'the folk'",
         "commonMistakes": []
     },
     {
         "question": "Hie hine (<em>lufian</em>) #### lease — They loved him falsely",
         "correctAnswer": "lufodon",
-        "explanation": "Here 'lufian' is in the third person singular form '<em>lufodon</em>' because the subject is 'they'",
+        "explanation": "Here 'lufian' is in the plural past form '<em>lufodon</em>' because the subject is 'they'",
         "commonMistakes": []
     },
     {
         "question": "Ymb Bethleem (<em>bodian</em>) #### englas ðæt acenned wæs Crist on eorþan⁠ — Angels announced throughout Bethlehem that Christ was born on earth",
         "correctAnswer": "bododon",
-        "explanation": "Here 'bodian' is in the third person plural past form '<em>bododon</em>' because the subject is 'angels'",
+        "explanation": "Here 'bodian' is in the plural past form '<em>bododon</em>' because the subject is 'angels'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "bodiaþ",
@@ -317,13 +317,13 @@
         {
             "question": "Ic (<em>fremman</em>) #### guþe⁠ — I make war",
             "correctAnswer": "fremme",
-            "explanation": "Here 'fremman' is in the first person singular form '<em>fremme</em>' because the subject is 'I'",
+            "explanation": "Here 'fremman' is in the first person singular present form '<em>fremme</em>' because the subject is 'I'",
             "commonMistakes": []
         },
         {
             "question": "Þu (<em>nerian</em>) #### þa cildras⁠ — You save the children",
             "correctAnswer": "nerest",
-            "explanation": "Here 'nerian' is in the second person singular form '<em>nerest</em>' because the subject is 'You",
+            "explanation": "Here 'nerian' is in the second person singular present form '<em>nerest</em>' because the subject is 'You",
             "commonMistakes": [
                 {
                     "incorrectAnswer": "neriest",
@@ -334,7 +334,7 @@
         {
             "question": "He minum lærum (<em>hieran</em>) ####⁠ — He listens to my teachings",
             "correctAnswer": "hierð|hierþ",
-            "explanation": "Here 'hieran' is in the third person singular form '<em>hierð</em>' because the subject is 'He'",
+            "explanation": "Here 'hieran' is in the third person singular present form '<em>hierð</em>' because the subject is 'He'",
             "commonMistakes": [
                 {
                     "incorrectAnswer": "hiereð",
@@ -349,13 +349,13 @@
         {
             "question": "We (<em>læran</em>) #### eald Englisc on þæm minstere⁠ — We teach Old English in the monastery",
             "correctAnswer": "læraþ",
-            "explanation": "Here 'læran' is in the first person plural form '<em>læraþ</em>' as the subject is 'We'",
+            "explanation": "Here 'læran' is in the plural present form '<em>læraþ</em>' as the subject is 'We'",
             "commonMistakes": []
         },
         {
-            "question": "Hie hergiaþ ond to scipe (<em>lædan</em>) ####⁠ — they harry and carry off the plunder to their ships",
+            "question": "Hie hergiaþ ond to scipe (<em>lædan</em>) ####⁠ — They harry and carry off the plunder to their ships",
             "correctAnswer": "lædaþ|lædað",
-            "explanation": "Here 'lædan' is in the third person plural form '<em>lædað</em>' as the subject is 'They'",
+            "explanation": "Here 'lædan' is in the plural present form '<em>lædað</em>' as the subject is 'They'",
             "commonMistakes": []
         },
         {
@@ -372,7 +372,7 @@
         {
             "question": "Morgensteorran ðe we oðre naman æfensteorra nemnan (<em>hieran</em>) ####⁠ — The morning star which we heard called evening star by another name",
             "correctAnswer": "hierdon",
-            "explanation": "Here 'hieran' is in the first person plural past form '<em>hierdon</em>' because the subject is 'We",
+            "explanation": "Here 'hieran' is in the plural past form '<em>hierdon</em>' because the subject is 'We",
             "commonMistakes": []
         },
         {
@@ -382,32 +382,36 @@
             "commonMistakes": [
                 {
                     "incorrectAnswer": "neriedon",
-                    "explanation": "Remember, the third person plural past form of 'nerian' is '<em>neredon</em>' because it drops its 'i' in some conjugations"
+                    "explanation": "Remember, the plural past form of 'nerian' is '<em>neredon</em>' because it drops its 'i' in some conjugations"
+                },
+                {
+                    "incorrectAnswer": "neridon",
+                    "explanation": "Remember, the plural past form of 'nerian' is '<em>neredon</em>' because it drops its 'i' in some conjugations"
                 }
             ]
         },
         {
             "question": "We (<em>fremman</em>) #### swa ond Frean hierde⁠ — We did so and obeyed the lord",
             "correctAnswer": "fremedon",
-            "explanation": "Here 'fremman' is in the first person plural past form '<em>fremedon</em>' because the subject is 'We'",
+            "explanation": "Here 'fremman' is in the plural past form '<em>fremedon</em>' because the subject is 'We'",
             "commonMistakes": []
         },
         {
             "question": "Hie (<em>feran</em>) #### ofer sæ⁠ — They go overseas",
             "correctAnswer": "ferað|feraþ",
-            "explanation": "Here 'feran' is in the third person plural form '<em>ferað</em>' because the subject is 'They'",
+            "explanation": "Here 'feran' is in the plural present form '<em>ferað</em>' because the subject is 'They'",
             "commonMistakes": []
         },
         {
             "question": "Hie (<em>feran</em>) #### to Rome⁠ — They went to Rome",
             "correctAnswer": "ferdon",
-            "explanation": "Here 'feran' is in the third person plural past form '<em>ferdon</em>' because the subject is 'They'",
+            "explanation": "Here 'feran' is in the plural past form '<em>ferdon</em>' because the subject is 'They'",
             "commonMistakes": []
         },
         {
             "question": "Þa (<em>sendan</em>) #### se cyning to þam flotan Leofsig ealdorman — Then the king sent Alderman Leofsig to the fleet",
             "correctAnswer": "sende",
-            "explanation": "Here 'sendan' is in the third person singular past form '<em>sende</em>' because the subject is 'The King'",
+            "explanation": "Here 'sendan' is in the third person singular past form '<em>sende</em>' because the subject is 'the king'",
             "commonMistakes": [
                 {
                     "incorrectAnswer": "sendest",
@@ -418,7 +422,7 @@
         {
             "question": "Wyrd oft (<em>nerian</em>) #### unfægne eorl þonne his ellen deah⁠ — Fate often saves a man not fated to die",
             "correctAnswer": "nereð|nereþ",
-            "explanation": "Here 'nerian' is in the third person singular form '<em>nereð</em>' because the subject is 'Wyrd'",
+            "explanation": "Here 'nerian' is in the third person singular present form '<em>nereð</em>' because the subject is 'Wyrd'",
             "commonMistakes": [
                 {
                     "incorrectAnswer": "nerieð|nerieþ",
@@ -429,7 +433,7 @@
         {
             "question": "Ic (<em>hieran</em>) #### þe — I hear you",
             "correctAnswer": "hiere",
-            "explanation": "Here 'hieran' is in the first person singular form '<em>hiere</em>' because the subject is 'I'",
+            "explanation": "Here 'hieran' is in the first person singular present form '<em>hiere</em>' because the subject is 'I'",
             "commonMistakes": []
         },
         {
