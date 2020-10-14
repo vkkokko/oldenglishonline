@@ -766,7 +766,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Heo gefylled wæs wisdomes (<em>giefu</em>) ####⁠ — She was filled with wisdom's gift ",
+        "question": "Heo gefylled wæs wisdomes (<em>giefu</em>) ####⁠ — She was filled with wisdom's gift",
         "correctAnswer": "giefe",
         "explanation": "Here 'giefu' is the direct object and singular, so it loses its 'u' and takes an 'e' ending",
         "commonMistakes": []
@@ -850,7 +850,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæs <em>(biscop)</em> #### swearta stan  — The bishop’s black stone",
+        "question": "He cyste þæs (<em>biscop</em>) #### sweartne stan — He kissed the bishop’s black stone",
         "correctAnswer": "biscopes",
         "explanation": "Here 'biscop' is in the singular genitive so it takes the 'es' ending",
         "commonMistakes": [
@@ -924,7 +924,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Fram þæs (<i>þegen</i>) #### tune — From the thane’s town",
+        "question": "He com fram þæs (<em>þegen</em>) #### tune — He came from the thane’s town",
         "correctAnswer": "þegnes|þegenes",
         "explanation": "Here 'þegen' is in the possessive singular so it takes the 'es' ending of the genitive singular",
         "commonMistakes": []
@@ -954,7 +954,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se (<i>stan</i>) #### ond se þegen — The stone and the thane",
+        "question": "Se (<em>stan</em>) #### ond se þegen comon fram þæm tune — The stone and the thane came from the town",
         "correctAnswer": "stan",
         "explanation": "Here 'stan' is subject and in the singular so it takes no ending, as per the nominative singular",
         "commonMistakes": []
@@ -1044,7 +1044,7 @@
         "commonMistakes": []
     },
     {
-        "question": "On þis dæg, Æðelred cyning ferde to þæm (<i>tun</i>) #### mid broðor— On this day, King Ethelred went to the town his brother",
+        "question": "On þis daege, Æðelred cyning ferde to þæm (<em>tun</em>) #### mid his broðrum — On this day, King Ethelred went to the town with his brothers",
         "correctAnswer": "tune",
         "explanation": "Here 'tun' is not directly receiving the action of the verb 'ferde', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": []
@@ -1068,7 +1068,7 @@
         "commonMistakes": []
     },
     {
-        "question": "þa biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+        "question": "&THORN;a biscopas came fram þæm (<i>tun</i>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
         "explanation": "Here 'tun' is not directly receiving the action of the verb 'came', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": []
