@@ -43,7 +43,7 @@
 		});
 
 
-		//The code for the additional quiz button in the Strong Nouns module
+		//The code for the additional quiz buttons
 		$('#additionalbutton').on('click', function () {
 			const $container = $('#question-wrapper');
 			filename = $container.data('additional-questions');
@@ -51,7 +51,7 @@
 
 			$(this).removeClass('light-button').addClass('solid-button active');
 			$('#basicbutton').removeClass('solid-button active').addClass('light-button');
-
+			$('small').toggleClass('hide');
 		});
 
 		$('#basicbutton').on('click', function () {
@@ -61,7 +61,7 @@
 
 			$(this).removeClass('light-button').addClass('solid-button active');
 			$('#additionalbutton').removeClass('solid-button active').addClass('light-button');
-
+			$('small').toggleClass('hide');
 		});
 
 		$('#hide-submit').on('click', function () {
