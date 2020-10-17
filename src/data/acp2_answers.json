@@ -18,7 +18,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He ferde feorr and <strong>wide</strong> geond middangeard - He went far and #### throughout the earth",
+        "question": "He ferde feorr ond <strong>wide</strong> geond middangeard - He went far and #### throughout the earth",
         "correctAnswer": "wide",
         "explanation": "Here 'wide' translates to 'wide'",
         "commonMistakes": []

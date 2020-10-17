@@ -18,7 +18,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He ferde feorr and <strong>wide</strong> geond middangeard - He went far ond #### throughout the earth",
+        "question": "He ferde feorr ond <strong>wide</strong> geond middangeard - He went far and #### throughout the earth",
         "correctAnswer": "wide",
         "explanation": "Here 'wide' translates to 'wide'",
         "commonMistakes": []
@@ -84,7 +84,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Eall ðæt <strong>ðider</strong> com ðæt wæs ðone hæcce ond sume scrine ond sume roden — All that came #### was the crosier, some shrines, and some crucifixes",
+        "question": "Eall ðæt <strong>ðider</strong> com ðæt wæs ðone hæcce and sume scrine and sume roden — All that came #### was the crosier, some shrines, and some crucifixes",
         "correctAnswer": "thither",
         "explanation": "Here 'ðider' translates to 'thither'",
         "commonMistakes": []
