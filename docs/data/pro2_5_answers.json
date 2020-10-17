@@ -1,0 +1,172 @@
+[
+    {
+        "question": "<strong>He</strong> ferde feorr and wide geond middangeard - #### went far and wide throughout the earth",
+        "correctAnswer": "he",
+        "explanation": "'He' is the masculine third person singular nominative pronoun and translates to 'he'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Wisa, hwilc cræft <strong>þe</strong> geþuht betwux þas furðra wesan⁠ — Teacher, which craft do #### think is the greater?",
+        "correctAnswer": "you",
+        "explanation": "Here 'þe' is the second person singular accusative pronoun and it translates to 'you'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif <strong>þin</strong> willa sie, wuldres aldor — If it be #### will, Prince of Glory",
+        "correctAnswer": "your",
+        "explanation": "'&THORN;in' is the second person singular genitive pronoun and it translates to 'your'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Sæge, gif <strong>þu</strong> cunne, hwæt seo wiht sie — Say, if #### know, what that creature might be",
+        "correctAnswer": "you",
+        "explanation": "'&THORN;u' is the second person singular nominative pronoun and it translates to 'you'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic wille þæt <strong>hie</strong> gode ðeawas sien — I wish that #### could be good slaves",
+        "correctAnswer": "they",
+        "explanation": "Here 'hie' is a plural nominative pronoun and it translates to 'you'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Nu hie sceal <strong>þe</strong> meten — Now they shall meet ####",
+        "correctAnswer": "you",
+        "explanation": "Here 'þe' is the second person singular accusative pronoun and it translates to 'you'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Se deofol gesette <strong>hine</strong> uppan ðæm scylfe ðæs heagan temples ⁠— The devil set #### upon the summit of the high temple",
+        "correctAnswer": "him",
+        "explanation": "'Hine' is the masculine third person singular accusative pronoun and it translates to 'him'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða axode heo hine hwæðer heo scolde þa næglæs mid <strong>hire</strong> læden — Then she asked him whether she should carry the nails with ####",
+        "correctAnswer": "her",
+        "explanation": "Here the feminine third person singular pronoun 'hire' is being used in the dative and translates to 'her'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ða behydde Adam <strong>hine</strong> ond his wif eac swa dyde — Then Adam hid #### and his wife also did so",
+        "correctAnswer": "himself",
+        "explanation": "Here the masculine pronoun 'hine' is used reflexively and so means 'himself'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "him",
+                "explanation": "Here the masculine pronoun 'hine' is used reflexively and so means 'himself', not 'him'"
+            }
+        ]
+    },
+    {
+        "question": "He <strong>hire</strong> hand nam ond heo sona aras⁠ — He took #### hand and she arose at once",
+        "correctAnswer": "her",
+        "explanation": "Here the feminine third person singular pronoun 'hire' is used in the genitive and translates to her",
+        "commonMistakes": []
+    },
+    {
+        "question": "Heo hogde georne ðæt <strong>hire</strong> mægþhad clæne geheolde⁠ — She earnestly intended to keep #### maidenhood pure",
+        "correctAnswer": "her",
+        "explanation": "Here the feminine third person singular pronoun 'hire' is used in the genitive and translates to her",
+        "commonMistakes": []
+    },
+    {
+        "question": "We us gegadrian to his halgan gelaðunge, þæt <strong>ure</strong> naman beon awritene on lifes bec mid his gecorenum — We gather us to his holy congregation that #### names may be written in the book of life with his chosen",
+        "correctAnswer": "our",
+        "explanation": "'Ure' is a plural genitive pronoun and translates to 'our'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic bidde <strong>eow</strong> fliemaþ þa Peohtas! — I bid ####, expel the Picts!",
+        "correctAnswer": "you|ye",
+        "explanation": "Here 'eow' is a plural accusative pronoun and translates to the plural 'you'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Gif we eow ða gastlican sad sawaþ, hwonlic biþ ðæt we <strong>eower</strong> flaslican þing ripon — If we sow the spiritual seeds for you, it is little matter that we reaped #### fleshly goods",
+        "correctAnswer": "your",
+        "explanation": "'Eower' is a plural genitive pronoun and translates to 'your'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ne mæg middaneard <strong>eow</strong> hatian ac he hataþ me⁠ — The world may not hate ####, but he hates me",
+        "correctAnswer": "you",
+        "explanation": "Here 'eow' is a plural accusative pronoun and translates to the plural 'you'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie hæfdon hine mid <strong>him</strong> oþ ðæt hie ofslogon hine⁠ — They had him with #### until they slew him",
+        "correctAnswer": "them",
+        "explanation": "Here the dative pronoun 'him' is plural so it translates to 'them'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "him",
+                "explanation": "Here 'him' is plural so it translates to 'them', not 'him'. You can tell it is plural as the related nominative is 'hie'"
+            }
+        ]
+    },
+    {
+        "question": "Geata bearn ferde to <strong>him</strong> ond hie hine mid sweorde ofslean — The children of the Geats went to #### and they slew him with a sword",
+        "correctAnswer": "him",
+        "explanation": "Here the dative pronoun 'him' is singular so it translates to 'him'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "them",
+                "explanation": "Here 'him' is singular so it translates to 'him', not 'them'. You can tell 'him' is singular and not plural because of 'hine' in the second clause of the sentence"
+            }
+        ]
+    },
+    {
+        "question": "Hie spræc to hire ac seo fæmne nolde <strong>him</strong> andswarigen nan word — They spoke to her, but the woman did not want to answer #### with any words",
+        "correctAnswer": "them",
+        "explanation": "Here the dative pronoun 'him' is plural so it translates to 'them'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "him",
+                "explanation": "Here 'him' is plural so it translates to 'them', not 'him'. You can tell it is plural as the related nominative is 'hie'"
+            }
+        ]
+    },
+    {
+        "question": "On forewerdne morgen ic drife sceap mine to <strong>hira</strong> læse ond melce hie tweowa on dæg — In the morning I drive the sheep to #### pasture and milk them twice a day",
+        "correctAnswer": "their",
+        "explanation": "'Hira' is the third person genitive plural pronoun and translates to 'their'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Min sweord biþ <strong>min</strong> lif — My sword is #### life",
+        "correctAnswer": "my",
+        "explanation": "'Min' is the first person singular genitive pronoun and translates to 'my'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ic towurpe mine bernu and <strong>ic</strong> wyrce maran bernu⁠ — I will tear down my barns and #### will build bigger barns",
+        "correctAnswer": "I",
+        "explanation": "'Ic' is the first person singular nominative pronoun and translates to 'I'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He <strong>me</strong> sealde ðæt betest hors⁠ — He gave #### the best horse",
+        "correctAnswer": "me",
+        "explanation": "Here the first person singular pronoun 'me' is in the dative and translates to 'me'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ne winne <strong>ge</strong> ongen ða ðe eow yfel doð — Strive #### not against those who do you wrong",
+        "correctAnswer": "you|ye",
+        "explanation": "'Ge' is the nominative plural pronoun and translates to 'you'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Ðu neart dysig, ac <strong>þin</strong> bearn is dysig — You aren't foolish, but #### child is foolish",
+        "correctAnswer": "your",
+        "explanation": "'&THORN;' is the second person genitive singular pronoun and translates to 'your'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie þe <strong>hira</strong> lifes þurh lust brucon — They who spent #### lives in pleasure",
+        "correctAnswer": "their",
+        "explanation": "'Hira' is the third person genitive plural pronoun and translates to 'their'",
+        "commonMistakes": []
+    }
+]
