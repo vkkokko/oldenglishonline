@@ -46,24 +46,22 @@
 		//The code for the additional quiz button in the Strong Nouns module
 		$('#additionalbutton').on('click', function () {
 			const $container = $('#question-wrapper');
-			const filename = $(this).data('new-questions');
+			filename = $container.data('additional-questions');
 			loadQuestionsInto($container, filename);
 
-			$(this).removeClass('light-button').addClass('solid-button');
-			$('#basicbutton').removeClass('solid-button').addClass('light-button active');
+			$(this).removeClass('light-button').addClass('solid-button active');
+			$('#basicbutton').removeClass('solid-button active').addClass('light-button');
 
-			$('#again').data('new-questions');
 		});
 
 		$('#basicbutton').on('click', function () {
 			const $container = $('#question-wrapper');
-			const filename = $(this).data('new-questions');
+			filename = $container.data('question-file');
 			loadQuestionsInto($container, filename);
 
-			$(this).removeClass('light-button').addClass('solid-button');
-			$('#additionalbutton').removeClass('solid-button').addClass('light-button active');
+			$(this).removeClass('light-button').addClass('solid-button active');
+			$('#additionalbutton').removeClass('solid-button active').addClass('light-button');
 
-			$('#again').data('new-questions');
 		});
 
 		$('#hide-submit').on('click', function () {
@@ -143,7 +141,7 @@
 			let filename;
 
 			if ($('#additionalbutton').hasClass('active')) {
-				filename = $('#additionalbutton').data('new-questions');
+				filename = $container.data('additional-questions');
 			} else {
 				filename = $container.data('question-file');
 			}
