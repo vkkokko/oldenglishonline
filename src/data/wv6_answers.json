@@ -42,7 +42,7 @@
     },
     {
         "question": "Ic ðe orlæg (<em>secgan</em>) ####⁠ — I told you your fate",
-        "correctAnswer": "secgde ",
+        "correctAnswer": "secgde",
         "explanation": "Here 'secgan' is in the first person singular past form '<em>secgde</em>' because the subject is 'I",
         "commonMistakes": []
     },
@@ -198,7 +198,7 @@
     },
     {
         "question": "Ic (<em>timbrian</em>) #### setl ðin⁠ — I built your seat",
-        "correctAnswer": "timbrode ",
+        "correctAnswer": "timbrode",
         "explanation": "Here 'timbrian' is in the first person singular past form '<em>timbrode</em>' because the subject is 'I",
         "commonMistakes": [
             {
@@ -280,13 +280,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Swa he (<em>ricsian</em>) #### ond wið rihte wan ana wið eallum⁠ — So he ruled and challenged justice, one against all ",
+        "question": "Swa he (<em>ricsian</em>) #### ond wið rihte wan ana wið eallum⁠ — So he ruled and challenged justice, one against all",
         "correctAnswer": "ricsode",
         "explanation": "Here 'ricsian' is in the third person singular past form '<em>ricsode</em>' because the subject is 'he'",
         "commonMistakes": []
     },
     {
-        "question": "&THORN;æm ðe ær (<em>hatian</em>) #### eow⁠ — Those that formerly hated you",
+        "question": "Þæm ðe ær (<em>hatian</em>) #### eow⁠ — Those that formerly hated you",
         "correctAnswer": "hatedon",
         "explanation": "Here 'hatian' is in the third person plural past form '<em>hatedon</em>' because the subject is the demonstrative pronoun 'those'",
         "commonMistakes": []

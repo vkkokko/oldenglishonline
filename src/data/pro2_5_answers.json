@@ -14,13 +14,13 @@
     {
         "question": "Gif <strong>þin</strong> willa sie, wuldres aldor — If it be #### will, Prince of Glory",
         "correctAnswer": "your",
-        "explanation": "'&THORN;in' is the second person singular genitive pronoun and it translates to 'your'",
+        "explanation": "'Þin' is the second person singular genitive pronoun and it translates to 'your'",
         "commonMistakes": []
     },
     {
         "question": "Sæge, gif <strong>þu</strong> cunne, hwæt seo wiht sie — Say, if #### know, what that creature might be",
         "correctAnswer": "you",
-        "explanation": "'&THORN;u' is the second person singular nominative pronoun and it translates to 'you'",
+        "explanation": "'Þu' is the second person singular nominative pronoun and it translates to 'you'",
         "commonMistakes": []
     },
     {
@@ -160,7 +160,7 @@
     {
         "question": "Ðu neart dysig, ac <strong>þin</strong> bearn is dysig — You aren't foolish, but #### child is foolish",
         "correctAnswer": "your",
-        "explanation": "'&THORN;' is the second person genitive singular pronoun and translates to 'your'",
+        "explanation": "'Þ' is the second person genitive singular pronoun and translates to 'your'",
         "commonMistakes": []
     },
     {

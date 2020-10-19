@@ -43,7 +43,7 @@
     },
     {
         "question": "Buteran ond beana ond ealle clæne þingc ic ete mid (<em>micel</em>) #### þancunge ⁠— Butter and beans and all clean things I eat with many thanks",
-        "correctAnswer": "micelre ",
+        "correctAnswer": "micelre",
         "explanation":"Here 'micel' is modifying the singular dative feminine 'þancunge' so it takes the 're' suffix",
         "commonMistakes": []
     },
@@ -61,7 +61,7 @@
     },
     {
         "question": "We rædaþ ond hieraþ word be Æþelrede cyninge, be (<em>eald</em>) #### weale, and be þæm gefeohtum ⁠— We read and hear words about King Ethelred, about old wealth and about the fights",
-        "correctAnswer": "ealdum ",
+        "correctAnswer": "ealdum",
         "explanation":"Here 'eald' is modifying the singular dative masculine 'weala' so it takes the 'um' suffix",
         "commonMistakes": []
     },

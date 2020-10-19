@@ -88,7 +88,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hwanon scylen scear oþþe culter, þe na gade hæfþ buton of cræfte (<em>ic</em>) ####?⁠ — How does the ploughman get his plough-share or knife or goad but by my craft? ",
+        "question": "Hwanon scylen scear oþþe culter, þe na gade hæfþ buton of cræfte (<em>ic</em>) ####?⁠ — How does the ploughman get his plough-share or knife or goad but by my craft?",
         "correctAnswer": "min",
         "explanation":"Here 'ic' is used in the genitive so it becomes 'min'",
         "commonMistakes": []
@@ -202,13 +202,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Swa (<em>þu</em>) #### se balewa het⁠ — So the baleful one commanded you two ",
+        "question": "Swa (<em>þu</em>) #### se balewa het⁠ — So the baleful one commanded you two",
         "correctAnswer": "inc",
         "explanation":"Here 'þu' is used in the second person dual accusative so it becomes 'inc'",
         "commonMistakes": []
     },
     {
-        "question": "Ic nu ðis þing write to ðe gemanelice and to minre meder and minum sweostor forðon (<em>þu</em>) #### lufu sceal beon somod gemane⁠ — I now write this thing to you together, to my mother and my sister, because the love of you both shall be mutual ",
+        "question": "Ic nu ðis þing write to ðe gemanelice and to minre meder and minum sweostor forðon (<em>þu</em>) #### lufu sceal beon somod gemane⁠ — I now write this thing to you together, to my mother and my sister, because the love of you both shall be mutual",
         "correctAnswer": "incer",
         "explanation":"Here 'þu' is used in the second person dual genitive so it becomes 'incer'",
         "commonMistakes": []
@@ -238,7 +238,7 @@
         "commonMistakes": []
     },
     {
-        "question": "(<em>ic</em>) #### is his hyldo þearf⁠ — for us two his favour is a necessity ",
+        "question": "(<em>ic</em>) #### is his hyldo þearf⁠ — for us two his favour is a necessity",
         "correctAnswer": "unc",
         "explanation":"Here 'ic' is used in the first person dual dative so it becomes 'unc'",
         "commonMistakes": []

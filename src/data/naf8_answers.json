@@ -47,7 +47,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Geata (<em>bearn</em>) #### ferde to him⁠ — The children of the Geats went to him ",
+        "question": "Geata (<em>bearn</em>) #### ferde to him⁠ — The children of the Geats went to him",
         "correctAnswer": "bearn",
         "explanation": "Here the neuter noun 'bearn' is the subject and plural, so since 'bearn' has a long syllable it takes no ending",
         "commonMistakes": []
@@ -272,7 +272,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðara (<em>ceaster</em>) #### wisra menn ferde to þæm cyning⁠ — The cities wise men went to the king ",
+        "question": "Ðara (<em>ceaster</em>) #### wisra menn ferde to þæm cyning⁠ — The cities wise men went to the king",
         "correctAnswer": "ceastra",
         "explanation": "Here the feminine noun 'ceaster' is in the posessive plural, so it loses its second 'e' and takes an 'a' ending",
         "commonMistakes": []
@@ -344,7 +344,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He ferde to þæm ceastre mid þæs cyninges (<em>giefu</em>) ####⁠ — He went to the city with the king's gift ",
+        "question": "He ferde to þæm ceastre mid þæs cyninges (<em>giefu</em>) ####⁠ — He went to the city with the king's gift",
         "correctAnswer": "giefe",
         "explanation": "Here the feminine noun 'giefu' is an indirect object and singular, so it loses its 'u' and takes an 'e' ending",
         "commonMistakes": []
@@ -514,7 +514,7 @@
         "commonMistakes": []
     },
     {
-        "question": "&THORN;a biscopas geaf þone (<em>stan</em>) #### to þæm þegne — The bishops gave the stone to the thane",
+        "question": "Þa biscopas geaf þone (<em>stan</em>) #### to þæm þegne — The bishops gave the stone to the thane",
         "correctAnswer": "stan",
         "explanation": "Here the masculine noun 'stan' is directly receiving the action of the verb 'geaf', so is in the singular accusative and thus takes no new ending",
         "commonMistakes": []
@@ -592,7 +592,7 @@
         "commonMistakes": []
     },
     {
-        "question": "&THORN;a biscopas comon fram þæm (<em>tun</em>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
+        "question": "Þa biscopas comon fram þæm (<em>tun</em>) #### hetum Londenum ond Readingum — The bishops came from the towns called London and Reading",
         "correctAnswer": "tunum",
         "explanation": "Here the masculine noun 'tun' is not directly receiving the action of the verb 'came', so it is in the singular dative and thus takes the 'e' ending",
         "commonMistakes": []
@@ -769,7 +769,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se (<em>stede</em>) #### is halig ðe ðu on stenst⁠ — The place where you stand is holy ",
+        "question": "Se (<em>stede</em>) #### is halig ðe ðu on stenst⁠ — The place where you stand is holy",
         "correctAnswer": "stede",
         "explanation":"Here the masculine noun 'stede' is the subject and singular, so it takes no ending",
         "commonMistakes": []

@@ -6,7 +6,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hwi ne (<em>cnawan</em>) #### þu mine spræce? — Why don't you comprehend my speech? ",
+        "question": "Hwi ne (<em>cnawan</em>) #### þu mine spræce? — Why don't you comprehend my speech?",
         "correctAnswer": "cnæwst",
         "explanation": "Here 'cnawan' is in the second person singular present form '<em>cnæwst</em>' because the subject is 'þu'",
         "commonMistakes": []
@@ -78,7 +78,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Seo byme (<em>blawan</em>) ####, ond ða deadan arisað — The trumpet blows and the dead rise ",
+        "question": "Seo byme (<em>blawan</em>) ####, ond ða deadan arisað — The trumpet blows and the dead rise",
         "correctAnswer": "blæwð|blæwþ",
         "explanation": "Here 'blawan' is in the third person singular present form '<em>blæwð</em>' because the subject is 'Seo byme'",
         "commonMistakes": []
@@ -114,7 +114,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Romane hie tictatores (<em>hatan</em>) #### — Romans called them dictators ",
+        "question": "Romane hie tictatores (<em>hatan</em>) #### — Romans called them dictators",
         "correctAnswer": "heton",
         "explanation": "Here 'hatan' is in the plural past form '<em>heton</em>' because the subject is 'Romane'",
         "commonMistakes": []

@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "&THORN;u! (<em>don</em>) #### swa ic bidde! — You! Do as I ask!",
+        "question": "Þu! (<em>don</em>) #### swa ic bidde! — You! Do as I ask!",
         "correctAnswer": "do",
         "explanation": "Here 'don' is singular so it takes no ending, becoming 'do'",
         "commonMistakes": []
@@ -59,7 +59,7 @@
         "commonMistakes": []
     },
     {
-        "question": "&THORN;egen! (<em>rædan</em>) #### hiera cyning þæt mina fierda sind micel — Advise their king that my army is large",
+        "question": "Þegen! (<em>rædan</em>) #### hiera cyning þæt mina fierda sind micel — Advise their king that my army is large",
         "correctAnswer": "ræd",
         "explanation": "Here 'rædan' is singular so it takes no ending, becoming 'ræd'",
         "commonMistakes": []

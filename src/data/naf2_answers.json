@@ -24,7 +24,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hiora (<em>god</em>) #### syndon drycræfta lareowas⁠ — Their gods are teachers of magical arts",
+        "question": "Hiora (<em>god</em>) #### sindon drycræfta lareowas⁠ — Their gods are teachers of magical arts",
         "correctAnswer": "godu",
         "explanation":"Here 'god' is the subject and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": [
@@ -47,7 +47,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Geata (<em>bearn</em>) #### ferdon to him⁠ — The children of the Geats went to him ",
+        "question": "Geata (<em>bearn</em>) #### ferdon to him⁠ — The children of the Geats went to him",
         "correctAnswer": "bearn",
         "explanation":"Here 'bearn' is the subject and plural, so since 'bearn' has a long syllable it takes no ending",
         "commonMistakes": []

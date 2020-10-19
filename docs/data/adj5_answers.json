@@ -88,7 +88,7 @@
         ]
     },
     {
-        "question": "He is in ðone deopan grund ðæs hatan leges and ðæs (<em>heard</em>) #### leges⁠ — He is in the deep abyss of the hot flame and the hard flame ",
+        "question": "He is in ðone deopan grund ðæs hatan leges and ðæs (<em>heard</em>) #### leges⁠ — He is in the deep abyss of the hot flame and the hard flame",
         "correctAnswer": "heardan",
         "explanation":"Here 'heard' is modifying the singular genitive masculine 'leg' so it takes the 'an' ending",
         "commonMistakes": []
@@ -189,7 +189,7 @@
     },
     {
         "question": "Buteran ond beana ond ealle clæne þingc ic ete mid (<em>micel</em>) #### þancunge⁠ — Butter and beans and all clean things I eat with many thanks",
-        "correctAnswer": "micelre ",
+        "correctAnswer": "micelre",
         "explanation":"Here 'micel' is modifying the singular genitive feminine 'þancung' so it takes the 're' suffix",
         "commonMistakes": []
     },
@@ -207,7 +207,7 @@
     },
     {
         "question": "We rædaþ ond hieraþ word be Æþelrede cyning, be (<em>eald</em>) #### weale, and be þæm gefeohtum⁠ — We read and hear words about King Ethelred, about old wealth and about the fights",
-        "correctAnswer": "ealdum ",
+        "correctAnswer": "ealdum",
         "explanation":"Here 'eald' is modifying the singular dative masculine 'weala' so it takes the 'um' suffix",
         "commonMistakes": []
     },
@@ -254,7 +254,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Win nys drenc cilda ac ealdra ond (<em>wis</em>) #### men — Wine is not a drink of children, but of old and wise men",
+        "question": "Win nys drenc cilda ac ealdra ond (<em>wis</em>) #### men- Wine is not a drink of children, but of old and wise men",
         "correctAnswer": "wisra",
         "explanation":"Here 'wis' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
         "commonMistakes": []
@@ -356,7 +356,7 @@
     {
         "question": "Ðam (<em>mild</em>) #### cyninge Wihtræde rixigendum⁠ — In the reign of the kindest king Wihtræd",
         "correctAnswer": "mildostan",
-        "explanation":"Here 'mild' takes the superlative suffix 'ost' and the weak suffix 'an', as it comes after the definitive article 'þam' ",
+        "explanation":"Here 'mild' takes the superlative suffix 'ost' and the weak suffix 'an', as it comes after the definitive article 'þam'",
         "commonMistakes": []
     },
     {

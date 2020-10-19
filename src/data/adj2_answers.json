@@ -88,13 +88,13 @@
         ]
     },
     {
-        "question": "He is in ðone deopan grund ðæs hatan leges and ðæs (<em>heard</em>) #### leges ⁠— He is in the deep abyss of the hot flame and the hard flame ",
+        "question": "He is in ðone deopan grund ðæs hatan leges and ðæs (<em>heard</em>) #### leges ⁠— He is in the deep abyss of the hot flame and the hard flame",
         "correctAnswer": "heardan",
         "explanation":"Here 'heard' is modifying the singular genitive masculine 'leg' so it takes the 'an' suffix",
         "commonMistakes": []
     },
     {
-        "question": "Hwæt synt nu þæs foremeran ond þæs (<em>wis</em>) #### goldsmiðes ban Welondes? ⁠— What now are the bones of that renowned and wise goldsmith Weland?",
+        "question": "Hwæt sind nu þæs foremeran ond þæs (<em>wis</em>) #### goldsmiðes ban Welondes? ⁠— What now are the bones of that renowned and wise goldsmith Weland?",
         "correctAnswer": "wisan",
         "explanation":"Here 'wis' is modifying the singular genitive masculine 'goldsmið' so it takes the 'an' suffix",
         "commonMistakes": []
