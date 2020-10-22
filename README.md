@@ -17,6 +17,7 @@ This is the file repository for Old English Online, an online learning platform 
 * [How to install Old English Online locally](#installing-and-running)
 
 # User Guide
+### How do I use this resource offline?
 If you want to use Old English Online while not connected to the internet, you will need to download the files. 
 1. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 2. Click the green **Code** button and select **Download a Zip**.
