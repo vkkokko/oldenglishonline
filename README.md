@@ -7,11 +7,11 @@ This is the file repository for Old English Online, an online learning platform 
 
 #### Table Of Contents
 [User Guide](#User-Guide)
-* [How do I use this resource offline?](#How-do-I-use-this-resource-offline?)
+* [How do I use this resource offline?](#How-do-I-use-this-resource-offline)
 
 [Contributor's Guide](#Contributor's-Guide)
-* [How do I submit a good bug report?](#How-do-I-submit-a-good-bug-report?)
-* [How do I submit a good feature request?](#How-do-I-submit-a-good-feature-request?)
+* [How do I submit a good bug report?](#How-do-I-submit-a-good-bug-report)
+* [How do I submit a good feature request?](#How-do-I-submit-a-good-feature-request)
 
 [Developer's Guide](#developer's-guide)
 * [How to install Old English Online locally](#installing-and-running)
