@@ -232,7 +232,7 @@
 
 		answerArray.forEach(function (correctAnswerArray) {
 			//The below IF Statement changes both inputs to upper case so you don't get a false negative due to caps
-			if (correctAnswerArray.toUpperCase() == userAnswer.toUpperCase()) { 
+			if (correctAnswerArray.toUpperCase().trim() == userAnswer.toUpperCase().trim()) { 
 				wasUserCorrect = true;
 			}
 		});
