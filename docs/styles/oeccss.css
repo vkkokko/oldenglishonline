@@ -1189,6 +1189,10 @@ ul.module a {
 		font-size: 1.2rem;
 	}
 
+	abbr[title]:focus::after {
+		content: " ("attr(title)") ";
+	}
+
 	.table-scroll-container {
 		overflow-x: scroll;
 	}
