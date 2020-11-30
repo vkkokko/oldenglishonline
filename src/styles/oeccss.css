@@ -1,3 +1,77 @@
+/*test*/
+
+.caesura {
+	padding-left:1em;
+}
+
+.reader-container div.reading-comp {
+    transition: width 0.2s ease, margin 0.3s ease;
+  }
+
+.reading-comp p span:hover {
+	cursor:help;
+	color:rgb(200, 100, 50);
+}
+
+.reader-tooltip-column,
+.challenge-tooltip-column {
+	position: absolute;
+	right: 0px;
+	height: 80vh;
+	overflow-x: hidden;
+} 
+
+.challenge-tooltip {
+	position: absolute;
+	transform: translateX(500px);
+	transition: transform 1s;
+}
+
+.reader-tooltip {
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+.challenge-selected {
+	transform: translateX(-10px);
+}
+
+.reader-tooltip-header,
+.challenge-tooltip-header {
+	border-radius: 5px 5px 0 0;
+	padding: .5em .7em;
+	background-color: rgb(200, 100, 50);
+	color:white;
+}
+
+.reader-tooltip-header h3,
+.challenge-tooltip-header h3
+	{
+	margin:0;
+}
+
+.reader-tooltip-body
+ {
+	padding:.5em .75em;
+	border: solid 1px rgb(200,100,50);
+	border-radius: 0 0 5px 5px;
+}
+
+.challenge-tooltip-body {
+	padding: 1em;
+	border: solid 1px rgb(200,100,50);
+	border-radius: 0 0 5px 5px;
+	overflow: auto;
+}
+
+.close-icon {
+	background:none;
+	color:white;
+	border:none;
+	position:absolute;
+	right:25px;
+	top:6px;
+}
+
 /* Fundamental Page Element Styles */
 html {
 	height: 100%;

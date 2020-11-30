@@ -31,3 +31,5 @@ build
 src/scripts/test_2.js
 
 docs/scripts/test_2.js
+
+src/pages/template.1.ejs
