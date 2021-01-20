@@ -209,6 +209,10 @@ abbr {
 	font-size: 2.5em;
 }
 
+.poetic-text {
+	font-size: 2.5em;
+}
+
 .title-text {
 	font-size: 1.7em;
 }
@@ -432,6 +436,10 @@ nav {
 }
 
 /* Specific Components */
+
+.caesura {
+	padding-left:.75em;
+}
 
 /* Grammar Graphic Box */
 
@@ -1128,6 +1136,10 @@ ul.module a {
 		font-size: 4rem;
 	}
 
+	.poetic-text {
+		font-size:2em;
+	}
+
 	.small-padding-top {
 		padding-top: .75em;
 	}
@@ -1179,6 +1191,10 @@ ul.module a {
 
 	.medium-text {
 		font-size: 1.5em;
+	}
+
+	.poetic-text {
+		font-size:.75em;
 	}
 
 	.margin-left {
