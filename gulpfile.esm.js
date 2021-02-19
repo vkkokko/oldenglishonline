@@ -52,11 +52,14 @@ function copyCSS() {
 function copyJS() {
 	const f = filter(['**', '!*node_modules/**/*'], { restore: true });
 
-	return gulp.src(config.assets.js, { since: gulp.lastRun(copyJS) })
-		.pipe(f)
-		.pipe(terser())
-		.pipe(f.restore)
-		.pipe(gulp.dest(config.dirs.scripts));
+	return gutil.env.env === 'watch'
+	? gulp.src(config.assets.js, { since: gulp.lastRun(copyJS) })
+			.pipe(gulp.dest(config.dirs.scripts))
+	: gulp.src(config.assets.js, { since: gulp.lastRun(copyJS) })
+			.pipe(f)
+			.pipe(terser())
+			.pipe(f.restore)
+			.pipe(gulp.dest(config.dirs.scripts));
 }
 
 // copy data assets

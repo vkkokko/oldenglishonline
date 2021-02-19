@@ -1,6 +1,6 @@
 (() => {
 
-	$(document).ready(function () {
+	$(function () {
 		let $lastActive;
 		let $questionWrapper = $('#question-wrapper'); // This variable explains to jquery what to look for in the HTML selectors. i.e. our question wrapper
 		const $container = $('#question-wrapper');
@@ -245,10 +245,16 @@
 		if (!$mContainer || !fFilename) {
 			return;
 		}
+		
+		let flashcardArray = [];
+
 		//This gets the json with the vocab array in it and chooses one object to display once it's loaded
 		$.getJSON(`data/${fFilename}?cache=` + Date.now())
 			.done(function (data) {
-				let flashcard = data.splice(Math.random() * data.length | 0, 1);
+
+				flashcardArray = [...data]
+
+				let flashcard = flashcardArray.splice(Math.random() * flashcardArray.length | 0, 1);
 
 				let dataLanguage = $('.translation-button').attr('data-language');
 
@@ -328,8 +334,14 @@
 
 		const $modalContainer = $('.modal-body');
 		const flashcardFilename = $modalContainer.data('question-file');
+		
+		if (flashcardArray.length > 0) {
+			flashcard = flashcardArray.splice(Math.random() * flashcardArray.length | 0, 1);
+		}
+		else {
 		flashcardCreate($modalContainer, flashcardFilename);
-
+		};
+ 
 	});
 
 	//Code to change whether you're translating to or from Old English
@@ -372,18 +384,23 @@
 		event.preventDefault();
 
 		if ($('.show-old-english').hasClass('solid-button')) {
-			let readerOldEnglish = $(this).text();
+			let readerOldEnglish = $(this).text().toUpperCase();
 			let readerGrammar = $(this).data('grammar');
 			let readerTrans = $(this).data('translation');
+			let baseForm = $(this).data('base-form');
 			$('.reader-tooltip').removeClass('hide');
 			$('.reader-tooltip-body').find('p').empty();
-			$('.reader-tooltip-body').find('p').append('<strong>' + readerOldEnglish + '</strong>' + ' - ' + readerTrans + '<br>' + '<em>' + readerGrammar + '</em>');
+			$('.reader-tooltip-body').find('.reader-tooltip-p').append('<p> <strong>' + readerOldEnglish + '</strong>' + ' - ' + readerTrans + '</p>' + '<p>Part of grammar: ' + '<em>' + readerGrammar + '</em></p>');
+		
+			if (typeof $(this).data('base-form') !== 'undefined') {
+				$('.reader-tooltip-body').find('.reader-tooltip-p:first-child').after('<p>Base form: <em>' + baseForm + '</em></p>');
+			  }
 		}
 	});
 
 	$('.show-old-english').on('click', function (event) {
 		event.preventDefault();
-		$('.comp-button-row button.solid-button').removeClass('solid-button').addClass('light-button');
+		$('.show-trans').removeClass('solid-button').addClass('light-button');
 		$('.show-old-english').removeClass('light-button').addClass('solid-button');
 		$('.reading-comp').removeClass('col-sm-6').addClass('col-sm-9');
 		$('.reading-trans').addClass('hide');
@@ -397,38 +414,36 @@
 
 	$('.show-trans').on('click', function (event) {
 		event.preventDefault();
-		$('.comp-button-row button.solid-button').removeClass('solid-button').addClass('light-button');
 		$('.show-trans').removeClass('light-button').addClass('solid-button');
+		$('.show-old-english').removeClass('solid-button').addClass('light-button');
 		$('.reading-comp').removeClass('col-sm-9').addClass('col-sm-6');
 		$('.reading-trans').removeClass('hide');
 		$('.reader-tooltip').addClass('hide');
-		if ($('.challenge-tooltip').hasClass('challenge-selected')) {
-			$('.challenge-tooltip').removeClass('challenge-selected');
-		}
 	});
 
-	$('.test-your-knowledge').on('click', function (event) {
+	$('.show-notes').on('click', function (event) {
 		event.preventDefault();
-		$('.comp-button-row button.solid-button').removeClass('solid-button').addClass('light-button');
-		$('.test-your-knowledge').removeClass('light-button').addClass('solid-button');
-		$('.challenge-tooltip').addClass('challenge-selected');
-		$('.reader-tooltip-column').addClass('hide');
-		if (!$('.reading-trans').hasClass('hide')) {
-			$('.reading-trans').addClass('hide');
-			$('.reading-comp').removeClass('col-sm-6').addClass('col-sm-9');
-		}
+		if ($('.show-notes').hasClass('light-button')) {
+			$(this).removeClass('light-button').addClass('solid-button').empty().append('Hide Notes');
+			$('.footnote').css('color', 'rgb(200, 100, 50)');
+			$('.footnote-part').css('color', 'rgb(200, 100, 50)');
+			$('.text-notes').removeClass('hide');
+			$('.footnote').each(function(index) {
+				$(this).after(`<a href="${window.location.pathname}#footnote${index+1}"><sup class="darkorange-text">[${index+1}]</sup></a>`);
 	});
+	$('.scrollable-area').find('strong').each(function(index) {
+		$(this).attr('id', 'footnote'+(index+1)).append('['+(index+1)+']').css('color', 'rgb(200,100,50)');
+});
+	} else {
+		$(this).removeClass('solid-button').addClass('light-button').empty().append('Show Notes');
+		$('sup').empty();
+		$('.scrollable-area').find('strong').empty();
+		$('.text-notes').addClass('hide');
+		$('.footnote').css('color', 'black');
+		$('.footnote-part').css('color', 'black');
 
-	$('.more-info').on('click', function (event) {
-		event.preventDefault();
-		$('.comp-button-row button.solid-button').removeClass('solid-button').addClass('light-button');
-		$('.more-info').removeClass('light-button').addClass('solid-button');
-		$('.reading-comp').removeClass('col-sm-9').addClass('col-sm-6');
-		$('.reader-tooltip').addClass('hide');
-		if ($('.challenge-tooltip').hasClass('challenge-selected')) {
-			$('.challenge-tooltip').removeClass('challenge-selected');
-		}
-	});
+	}
+})
 
 	//This is the close icon on the glossary tooltip
 	$('.close-icon').on('click', function (event) {
