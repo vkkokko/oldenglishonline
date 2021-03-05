@@ -452,4 +452,8 @@
 		$('.reader-tooltip').addClass('hide');
 	});
 
+// assign wheelzoom
+wheelzoom(document.querySelectorAll('img'), {maxZoom: 4, zoom: 0.05});
+
+
 })(); //close the whole thing

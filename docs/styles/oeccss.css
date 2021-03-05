@@ -15,8 +15,6 @@
 	flex-direction: column;
 }
 
-/* <3 happy valentines */
-
 .text-select-body {
 	flex: 1 0;
 	display: flex;
@@ -52,7 +50,7 @@
 }
 
 .scrollable-area {
-	height:225px;
+	height:125px;
     overflow:auto;
 }
 
@@ -122,6 +120,36 @@
 	display:block;
 	overflow:scroll;
 	max-height:30%;
+}
+
+/* facsimile page */
+.facsimile-container {
+	background-color: #444;
+    padding: 1em;
+}
+
+.facsimile-list li {
+	list-style-type: none;
+}
+
+.facsimile img {
+	max-height: 100%;
+	max-width: 100%;
+	background-image: url("../images/transperant.png"); 
+	background-repeat: no-repeat; 
+	background-size: 555px 320px;
+    background-position: 0px 0px;
+}
+
+.transcription-container {
+	padding: .5em 1em;
+	background-color:white;
+}
+
+.manuscript-viewer {
+	background-color: #444;
+	border-radius: 5px;
+	padding:1em;
 }
 
 /* Fundamental Page Element Styles */
