@@ -432,7 +432,7 @@
 				$(this).after(`<a href="${window.location.pathname}#footnote${index+1}"><sup class="darkorange-text">[${index+1}]</sup></a>`);
 	});
 	$('.scrollable-area').find('strong').each(function(index) {
-		$(this).attr('id', 'footnote'+(index+1)).append('['+(index+1)+']').css('color', 'rgb(200,100,50)');
+		$(this).attr('id', 'footnote'+(index+1)).append('['+(index+1)+'] ').css('color', 'rgb(200,100,50)');
 });
 	} else {
 		$(this).removeClass('solid-button').addClass('light-button').empty().append('Show Notes');
