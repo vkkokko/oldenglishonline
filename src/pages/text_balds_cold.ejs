@@ -1,81 +1,162 @@
 <% locals.setLayout('default.ejs') -%>
-    <% locals.block('title', 'Reading' ) -%>
+<% locals.block('title', 'Reading' ) -%>
 
-        <main id="mainwrapper" class="container">
-            <div class="row">
-                <div class="col-sm-12 comp-button-row">
-                    <button class="button solid-button show-old-english">Show Old English Only</button>
-                    <button class="button light-button show-trans">Show Full Translation</button>
-                    <button class="button light-button show-notes">Show Notes</button>
+<main id="mainwrapper" class="container">
+    <div class="row">
+        <div class="col-sm-12 comp-button-row">
+            <button class="button solid-button show-old-english">Show Old English Only</button>
+            <button class="button light-button show-trans">Show Full Translation</button>
+            <button class="button light-button show-notes">Show Notes</button>
+        </div>
+    </div>
+    <section class="row reader-container">
+        <div class="col-sm-9 reading-comp">
+            <h1><em>X, XI, XII</em></h1>
+            <p class="padding-top">
+                <span class="reader-word" data-translation="" data-grammar="">Wiþ</span>
+                <span class="reader-word" data-translation="" data-grammar="">gefnote</span>
+                <span class="reader-word" data-translation="" data-grammar="">ond</span>
+                <span class="reader-word" data-translation="" data-grammar="">gefosum</span>
+                <span class="reader-word" data-translation="" data-grammar="">genim</span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">oxna lyb</span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">niþeweard</span>
+                <span class="reader-word" data-translation="" data-grammar="">gecnuwa</span>
+                <span class="reader-word" data-translation="" data-grammar="">wel</span>
+                <span class="reader-word" data-translation="" data-grammar="">wið</span>
+                <span class="reader-word" data-translation="" data-grammar="">w&aelig;tre</span>
+                <span class="reader-word" data-translation="" data-grammar="">.</span>
+                <span class="reader-word" data-translation="" data-grammar="">gif</span>
+                <span class="reader-word" data-translation="" data-grammar="">hio</span>
+                <span class="reader-word" data-translation="" data-grammar="">sie</span>
+                <span class="reader-word" data-translation="" data-grammar="">grene</span>
+                <span class="reader-word" data-translation="" data-grammar="">ne</span>
+                <span class="reader-word" data-translation="" data-grammar="">do</span>
+                <span class="reader-word" data-translation="" data-grammar="">þu</span>
+                <span class="reader-word" data-translation="" data-grammar="">þ&aelig;r</span>
+                <span class="reader-word" data-translation="" data-grammar="">w&aelig;ter</span>
+                <span class="reader-word" data-translation="" data-grammar="">to</span>
+                <span class="reader-word" data-translation="" data-grammar="">wrung</span>
+                <span class="reader-word" data-translation="" data-grammar="">þonne</span>
+                <span class="reader-word" data-translation="" data-grammar="">on</span>
+                <span class="reader-word" data-translation="" data-grammar="">þ&aelig;t</span>
+                <span class="reader-word" data-translation="" data-grammar="">neb.</span>
+                <br>
+                <span class="reader-word" data-translation="" data-grammar="">Wiþ </span>
+                <span class="reader-word" data-translation="" data-grammar="">sarum </span>
+                <span class="reader-word" data-translation="" data-grammar="">weolorum </span>
+                <span class="reader-word" data-translation="" data-grammar="">gesmire </span>
+                <span class="reader-word" data-translation="" data-grammar="">mid </span>
+                <span class="reader-word" data-translation="" data-grammar="">hunige </span>
+                <span class="reader-word" data-translation="" data-grammar="">þa </span>
+                <span class="reader-word" data-translation="" data-grammar="">weoloras </span>
+                <span class="reader-word" data-translation="" data-grammar="">genim </span>
+                <span class="reader-word" data-translation="" data-grammar="">þonne </span>
+                <span class="reader-word" data-translation="" data-grammar="">&aelig;ges </span>
+                <span class="reader-word" data-translation="" data-grammar="">felman </span>
+                <span class="reader-word" data-translation="" data-grammar="">bescead </span>
+                <span class="reader-word" data-translation="" data-grammar="">mid </span>
+                <span class="reader-word" data-translation="" data-grammar="">pipore </span>
+                <span class="reader-word" data-translation="" data-grammar="">lege </span>
+                <span class="reader-word" data-translation="" data-grammar="">on.</span>
+                <br>
+                <span class="reader-word" data-translation="" data-grammar="">Wiþ </span>
+                <span class="reader-word footnote" data-translation="rough (literally crooked)" data-grammar="">wouum </span>
+                <span class="reader-word" data-translation="" data-grammar="">muþe </span>
+                <span class="reader-word" data-translation="" data-grammar="">genim </span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">ompran </span>
+                <span class="reader-word" data-translation="" data-grammar="">ond</span>
+                <span class="reader-word" data-translation="" data-grammar="">ealdne </span>
+                <span class="reader-word" data-translation="" data-grammar="">swines </span>
+                <span class="reader-word" data-translation="" data-grammar="">rysle </span>
+                <span class="reader-word" data-translation="" data-grammar="">wyrc </span>
+                <span class="reader-word" data-translation="" data-grammar="">to </span>
+                <span class="reader-word" data-translation="" data-grammar="">sealfe </span>
+                <span class="reader-word" data-translation="" data-grammar="">sete </span>
+                <span class="reader-word" data-translation="" data-grammar="">on</span>
+                <span class="reader-word" data-translation="" data-grammar="">þone </span>
+                <span class="reader-word" data-translation="" data-grammar="">won </span>
+                <span class="reader-word" data-translation="" data-grammar="">dæl.</span><br>
+                <span class="reader-word" data-translation="" data-grammar="">Wiþ </span>
+                <span class="reader-word" data-translation="" data-grammar="">ceolan </span>
+                <span class="reader-word" data-translation="" data-grammar="">swile </span>
+                <span class="reader-word" data-translation="" data-grammar="">wiþ </span>
+                <span class="reader-word" data-translation="" data-grammar="">þon </span>
+                <span class="reader-word" data-translation="" data-grammar="">sceal</span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">eoforfearn </span>
+                <span class="reader-word" data-translation="" data-grammar="">eac </span>
+                <span class="reader-word" data-translation="" data-grammar="">swa </span>
+                <span class="reader-word" data-translation="" data-grammar="">ond </span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">gyþrifan </span>
+                <span class="reader-word" data-translation="" data-grammar="">wyl </span>
+                <span class="reader-word" data-translation="" data-grammar="">on</span>
+                <span class="reader-word" data-translation="" data-grammar="">meolce </span>
+                <span class="reader-word" data-translation="" data-grammar="">sup </span>
+                <span class="reader-word" data-translation="" data-grammar="">þonne </span>
+                <span class="reader-word" data-translation="" data-grammar="">ond </span>
+                <span class="reader-word" data-translation="" data-grammar="">gebeþe </span>
+                <span class="reader-word" data-translation="" data-grammar="">mid <br></span>
+                <span class="reader-word" data-translation="" data-grammar="">Wiþ </span>
+                <span class="reader-word" data-translation="" data-grammar="">ceolan </span>
+                <span class="reader-word" data-translation="" data-grammar="">swile </span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">bisceopwyrt</span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">aterlaþe </span>
+                <span class="reader-word" data-translation="" data-grammar="">niðewearde </span>
+                <span class="reader-word" data-translation="" data-grammar="">ond </span>
+                <span class="reader-word footnote" data-translation="" data-grammar="">clatan </span>
+                <span class="reader-word" data-translation="" data-grammar="">wyl </span>
+                <span class="reader-word" data-translation="" data-grammar="">on </span>
+                <span class="reader-word" data-translation="" data-grammar="">ealað</span>
+            </p>
+        </div>
+        <div class="col-sm-3 reader-tooltip-column">
+            <div class="reader-tooltip hide">
+                <div class="reader-tooltip-header">
+                    <h3>Glossary</h3>
+                    <button class="close-icon">&times;</button>
+                </div>
+                <div class="reader-tooltip-body">
+                    <p class="reader-tooltip-p"></p>
                 </div>
             </div>
-            <section class="row reader-container">
-                <div class="col-sm-9 reading-comp">
-                    <h1><em>Wið gefnote ond gefosum</em></h1>
-                    <p class="padding-top">
-                        <span class="reader-word" data-translation="" data-grammar="">Wið</span>
-                        <span class="reader-word" data-translation="" data-grammar="">gefnote
-                        </span> <span class="reader-word" data-translation="" data-grammar="">ond
-                        </span> <span class="reader-word" data-translation="" data-grammar="">gefosum
-                        </span> <span class="reader-word" data-translation="" data-grammar="">genim
-                        </span> <span class="reader-word" data-translation="" data-grammar="">oxna
-                        </span> <span class="reader-word" data-translation="" data-grammar="">lyb
-                        </span> <span class="reader-word footnote" data-translation="" data-grammar="">niþeweard
-                        </span> <span class="reader-word" data-translation="" data-grammar="">gecnuwa
-                        </span> <span class="reader-word" data-translation="" data-grammar="">wel
-                        </span> <span class="reader-word" data-translation="" data-grammar="">wið
-                        </span> <span class="reader-word" data-translation="" data-grammar="">w&aelig;tre</span>
-                        <span class="reader-word" data-translation="" data-grammar="">.
-                        </span> <span class="reader-word" data-translation="" data-grammar="">gif
-                        </span> <span class="reader-word" data-translation="" data-grammar="">hio
-                        </span> <span class="reader-word" data-translation="" data-grammar="">sie
-                        </span> <span class="reader-word" data-translation="" data-grammar="">grene
-                        </span> <span class="reader-word" data-translation="" data-grammar="">ne
-                        </span> <span class="reader-word" data-translation="" data-grammar="">do
-                        </span> <span class="reader-word" data-translation="" data-grammar="">þu
-                        </span> <span class="reader-word" data-translation="" data-grammar="">þ&aelig;r
-                        </span> <span class="reader-word" data-translation="" data-grammar="">w&aelig;ter</span>
-                        <span class="reader-word" data-translation="" data-grammar="">to
-                        </span> <span class="reader-word" data-translation="" data-grammar="">wrung
-                        </span> <span class="reader-word" data-translation="" data-grammar="">þonne
-                        </span> <span class="reader-word" data-translation="" data-grammar="">on
-                        </span> <span class="reader-word" data-translation="" data-grammar="">þ&aelig;t
-                        </span> <span class="reader-word" data-translation="" data-grammar="">neb.
-                        </span>
-                    </p>
-                </div>
-                <div class="col-sm-3 reader-tooltip-column">
-                    <div class="reader-tooltip hide">
-                        <div class="reader-tooltip-header">
-                            <h3>Glossary</h3>
-                            <button class="close-icon">&times;</button>
-                        </div>
-                        <div class="reader-tooltip-body">
-                            <p class="reader-tooltip-p"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 reading-trans hide">
-                    <h1><em>Against snake bites</em></h1>
-                    <p class="padding-top">For mucus and colds, take [the] netherward [part of] oxna lyb, pound it
-                        well with water (if it is green, do not put water into it), then squeeze it into the nose.
-
-                    </p>
-                </div>
-            </section>
-            <section class="large-padding-top">
-                <a href="intro_aelfric_preface.html" class="darkorange-text strong"><i class="fa fa-angle-double-left"
-                        aria-hidden="true"></i> Return to Introduction</a>
-                <a href="textselect.html" class="darkorange-text strong float-right">Return to Text Selection <i
-                        class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-            </section>
-            <section class="text-notes row hide">
-                <hr class="border">
-                <div class="col-sm-12">
-                    <h3>Notes</h3>
-                    <div class="scrollable-area">
-                        <p><strong></strong>This is a footnote.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
+        </div>
+        <div class="col-sm-6 reading-trans hide">
+            <h1><em>Chapter 10, 11 and 12</em></h1>
+            <p class="padding-top">For mucus and colds, take [the] netherward [part of] oxna lyb, pound it
+                well with water (if it is green, do not put water into it), then squeeze it into the nose.
+                <br>
+                For sore lips smear the lips with
+                honey, then take the membrane of an
+                egg, sprinkle with pepper and apply
+                <br>
+                For a rough mouth take dock and old
+                fat of a pig, make into a salve, place
+                on the rough part.
+                <br>
+                For swelling of the gullet, one should
+                boil polypody and also corncockle in
+                milk, then sip and bathe with.
+                <br>
+                For swelling of the gullet, boil bishopwort, the lower part of poison-bane
+                and burdock in ale.
+            </p>
+        </div>
+    </section>
+    <section class="large-padding-top">
+        <a href="intro_aelfric_preface.html" class="darkorange-text strong"><i class="fa fa-angle-double-left"
+                aria-hidden="true"></i> Return to Introduction</a>
+        <a href="textselect.html" class="darkorange-text strong float-right">Return to Text Selection <i
+                class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+    </section>
+    <section class="text-notes row hide">
+        <hr class="border">
+        <div class="col-sm-12">
+            <h3>Notes</h3>
+            <div class="scrollable-area">
+                <p><strong></strong>This is a footnote.</p>
+                <p><strong></strong>This is a footnote.</p>
+                <p><strong></strong>This is a footnote.</p>
+                <p><strong></strong>This is a footnote.</p>
+            </div>
+        </div>
+    </section>
+</main>
