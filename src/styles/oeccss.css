@@ -118,7 +118,6 @@
 
 .text-notes {
 	display:block;
-	overflow:scroll;
 	max-height:30%;
 }
 
