@@ -232,7 +232,7 @@
     {
         "question": "Ðæt hie ælmihtiges (<em>giefu</em>) #### anforleten⁠ — That they might lose the almighty's gifts",
         "correctAnswer": "giefa",
-        "explanation": "Here the feminine noun 'giefu' is the subject and plural, so it loses its 'u' takes an 'a' ending",
+        "explanation":"Here 'giefu' is plural and directly receiving the action of the verb 'forleten', so it loses its 'u' and takes an 'a' ending",
         "commonMistakes": []
     },
     {
@@ -466,7 +466,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Menn fram Þara (<em>þegen</em>) #### tunum — Men from the towns of the thanes",
+        "question": "Menn fram þara (<em>þegen</em>) #### tunum — Men from the towns of the thanes",
         "correctAnswer": "þegna|þegena",
         "explanation": "Here the masculine noun 'þegen' is in the possessive plural as the men are from towns belonging to the thanes, so it takes the 'a' ending of the genitive plural",
         "commonMistakes": []
