@@ -13,7 +13,7 @@ This is the file repository for Old English Online, an online learning platform 
 * [How do I submit a good bug report?](#How-do-I-submit-a-good-bug-report)
 * [How do I submit a good feature request?](#How-do-I-submit-a-good-feature-request)
 
-[Developer's Guide](#Developer's-Guide)
+[Developer's Guide](#Developers-Guide)
 * [How to install Old English Online locally](#installing-and-running)
 
 # User Guide
