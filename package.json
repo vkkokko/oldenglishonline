@@ -1,6 +1,6 @@
 {
 	"name": "oelp",
-	"version": "2.2.0",
+	"version": "2.5.0",
 	"description": "Old English Learning Project",
 	"dependencies": {
 		"bootstrap": "^3.4.1",
