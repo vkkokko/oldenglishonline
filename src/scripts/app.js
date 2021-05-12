@@ -429,7 +429,7 @@
 			$('.footnote-part').css('color', 'rgb(200, 100, 50)');
 			$('.text-notes').removeClass('hide');
 			$('.footnote').each(function(index) {
-				$(this).after(`<a href="${window.location.pathname}#footnote${index+1}"><sup class="darkorange-text">[${index+1}]</sup></a>`);
+				$(this).after(`<a class="footnote-link" href="${window.location.pathname}#footnote${index+1}"><sup class="darkorange-text">[${index+1}]</sup></a>`);
 	});
 	$('.scrollable-area').find('strong').each(function(index) {
 		$(this).attr('id', 'footnote'+(index+1)).append('['+(index+1)+'] ').css('color', 'rgb(200,100,50)');
@@ -437,10 +437,11 @@
 	} else {
 		$(this).removeClass('solid-button').addClass('light-button').empty().append('Show Notes');
 		$('sup').empty();
+		$('.reading-comp').find('a').remove();
 		$('.scrollable-area').find('strong').empty();
 		$('.text-notes').addClass('hide');
-		$('.footnote').css('color', 'black');
-		$('.footnote-part').css('color', 'black');
+		$('.footnote').css('color', '#333');
+		$('.footnote-part').css('color', '#333');
 
 	}
 })
@@ -452,8 +453,8 @@
 		$('.reader-tooltip').addClass('hide');
 	});
 
-// assign wheelzoom
-wheelzoom(document.querySelectorAll('img'), {maxZoom: 4, zoom: 0.05});
+// // assign wheelzoom
+// wheelzoom(document.querySelectorAll('img'), {maxZoom: 4, zoom: 0.05});
 
 
 })(); //close the whole thing
