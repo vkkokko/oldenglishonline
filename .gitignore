@@ -28,6 +28,14 @@ build/Release
 node_modules
 
 build
+
+src/scripts/wheelzoom.js
+src/scripts/flashcard.js
 src/scripts/test_2.js
+src/pages/template.1.ejs
 
 docs/scripts/test_2.js
+docs/scripts/wheelzoom.js
+docs/scripts/flashcard.js
+docs/pages/template.1.ejs
+

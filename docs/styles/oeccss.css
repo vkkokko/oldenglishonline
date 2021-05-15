@@ -1,3 +1,150 @@
+/*test*/
+
+/*search page*/
+
+#textselect {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 1fr;
+	grid-column-gap: 2em;
+	grid-row-gap: 2em;
+}
+
+.text-select-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-select-body {
+	flex: 1 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.text-select-header {
+	background-color:rgba(0,0,0,.85);
+    color:white;
+	padding: .5em;
+}
+
+.text-select-blurb {
+	flex: 1 0;
+	padding:1em;
+	background-color: white;
+}
+
+.text-select-buttons ul {
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+
+.list-group-item {
+	margin:0;
+	border:0;
+	border-top: 1px solid #ddd;
+}
+
+.text-select-buttons ul:last-child {
+	border-bottom: 1px solid #ddd;
+}
+
+
+/*txt page*/ 
+
+.caesura {
+	padding-left:1em;
+}
+
+.reader-container {
+	line-height:2;
+}
+
+.reader-container div.reading-comp {
+    transition: width 0.2s ease, margin 0.3s ease;
+  }
+
+.reading-comp p span:hover {
+	cursor:help;
+	color:rgb(200, 100, 50);
+}
+
+.reader-tooltip-explanation {
+	color: #999;
+	padding:2em;
+}
+
+.reader-tooltip-column {
+	padding-right:0;
+	overflow-x: hidden;
+} 
+
+.reader-tooltip {
+	box-shadow: 5px 5px 5px #ccc;
+	margin-top:20px;
+}
+
+.reader-tooltip p:last-child {
+	margin-bottom:0;
+}
+
+.reader-tooltip-header {
+	border-radius: 5px 5px 0 0;
+	padding: .75em;
+	background-color: rgb(200, 100, 50);
+	color:white;
+}
+
+.reader-tooltip-header h3 {
+	margin:0;
+}
+
+.reader-tooltip-body
+ {
+	padding:1em .75em;
+	border: solid 1px rgb(200,100,50);
+	border-radius: 0 0 5px 5px;
+}
+
+.close-icon {
+	background:none;
+	color:white;
+	border:none;
+	position:absolute;
+	right:15px;
+	top:25px;
+}
+
+/* facsimile page */
+.facsimile-container {
+	background-color: #444;
+    padding: 1em;
+}
+
+.facsimile-list li {
+	list-style-type: none;
+}
+
+.facsimile img {
+	max-height: 100%;
+	max-width: 100%;
+	background-image: url("../images/transperant.png"); 
+	background-repeat: no-repeat; 
+	background-size: 555px 320px;
+    background-position: 0px 0px;
+}
+
+.transcription-container {
+	padding: .5em 1em;
+	background-color:white;
+}
+
+.manuscript-viewer {
+	background-color: #444;
+	border-radius: 5px;
+	padding:1em;
+}
+
 /* Fundamental Page Element Styles */
 html {
 	height: 100%;
@@ -269,6 +416,10 @@ abbr {
 
 .padding-top {
 	padding-top: 1em;
+}
+
+.large-padding-top {
+	padding-top: 3em;
 }
 
 .padding-one-em {
@@ -1115,6 +1266,10 @@ ul.module a {
 /* Small laptop screen */
 @media screen and (min-width: 450px) and (max-width: 1400px) {
 
+	#textselect {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
 	.modal-title {
 		font-size:30px;
 	}
@@ -1151,6 +1306,10 @@ ul.module a {
 
 /* mobile */
 @media screen and (max-width: 440px) {
+	#textselect {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
 	.no-container-padding {
 		padding-right: 0;
 		padding-left: 0;

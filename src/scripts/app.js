@@ -1,6 +1,6 @@
 (() => {
 
-	$(document).ready(function () {
+	$(function () {
 		let $lastActive;
 		let $questionWrapper = $('#question-wrapper'); // This variable explains to jquery what to look for in the HTML selectors. i.e. our question wrapper
 		const $container = $('#question-wrapper');
@@ -13,10 +13,10 @@
 			if ($lastActive) { 				 // This Boolean checks to see if the last active input
 				$lastActive					// was from .question-item (thus making it our user input).
 
-				// If it is, this becomes a 'truthy' variable meaning it executes.
+					// If it is, this becomes a 'truthy' variable meaning it executes.
 					.val($lastActive.val() + $(this).attr('data-char'))
 					.focus();			   	// This is a predefined jquery command which gives the focus back
-											// to the same element selected prior to the 'on click command'.
+				// to the same element selected prior to the 'on click command'.
 			}  								// in this case, the 'char' button press.
 		});
 
@@ -24,7 +24,7 @@
 			$lastActive = $(this);			// This marks which input is the last selected before 'char' click
 		});
 
-		$('.flashcard-row').on('focus', 'input', function() {
+		$('.flashcard-row').on('focus', 'input', function () {
 			$lastActive = $(this);			//This does the same as the above function, but in the modal instead of in the quiz
 		});
 
@@ -170,7 +170,6 @@
 
 	});
 
-
 	function loadQuestionsInto($container, filename) {                 // Now container=questionWrapper (where the questions are stored on the page)
 		// exit if we don't have all params
 		if (!$container || !filename) {
@@ -232,7 +231,7 @@
 
 		answerArray.forEach(function (correctAnswerArray) {
 			//The below IF Statement changes both inputs to upper case so you don't get a false negative due to caps
-			if (correctAnswerArray.toUpperCase().trim() == userAnswer.toUpperCase().trim()) { 
+			if (correctAnswerArray.toUpperCase().trim() == userAnswer.toUpperCase().trim()) {
 				wasUserCorrect = true;
 			}
 		});
@@ -246,23 +245,29 @@
 		if (!$mContainer || !fFilename) {
 			return;
 		}
+		
+		let flashcardArray = [];
+
 		//This gets the json with the vocab array in it and chooses one object to display once it's loaded
 		$.getJSON(`data/${fFilename}?cache=` + Date.now())
 			.done(function (data) {
-				let flashcard = data.splice(Math.random() * data.length | 0, 1);
-				
+
+				flashcardArray = [...data]
+
+				let flashcard = flashcardArray.splice(Math.random() * flashcardArray.length | 0, 1);
+
 				let dataLanguage = $('.translation-button').attr('data-language');
-		
-		//This determines whether you want to translate from or to Old English
-		if (dataLanguage=='old') {
-				$('.flashcard').html(`<h2>${flashcard[0].oldEnglish}</h2>`);
-				$('.flashcard').data('flashcardAnswer', flashcard[0].modernEnglish);
-				$('.flashcard').data('partOfSpeech', flashcard[0].partOfSpeech);
-			} else {
-				$('.flashcard').html(`<h2>${flashcard[0].modernEnglish}</h2>`);
-				$('.flashcard').data('flashcardAnswer', flashcard[0].oldEnglish);
-				$('.flashcard').data('partOfSpeech', flashcard[0].partOfSpeech);
-			}
+
+				//This determines whether you want to translate from or to Old English
+				if (dataLanguage == 'old') {
+					$('.flashcard').html(`<h2>${flashcard[0].oldEnglish}</h2>`);
+					$('.flashcard').data('flashcardAnswer', flashcard[0].modernEnglish);
+					$('.flashcard').data('partOfSpeech', flashcard[0].partOfSpeech);
+				} else {
+					$('.flashcard').html(`<h2>${flashcard[0].modernEnglish}</h2>`);
+					$('.flashcard').data('flashcardAnswer', flashcard[0].oldEnglish);
+					$('.flashcard').data('partOfSpeech', flashcard[0].partOfSpeech);
+				}
 			});
 
 		//The below code resets the flashcard's state to default
@@ -312,7 +317,7 @@
 	});
 
 	//This function allows you to trigger the Check function using the Enter key in the input
-	$('.flashcard-answer').on('keydown', function(event) {
+	$('.flashcard-answer').on('keydown', function (event) {
 		let checkButton = $('.flashcard-check').hasClass('hide');
 
 		if (event.keyCode === 13 && checkButton === false) {  //This makes sure the Check button is visible so you can't trigger the check multiple times using the Enter key
@@ -323,14 +328,20 @@
 
 	//Code to empty the flashcard and add a new word
 	$('.try-another').on('click', function () {
-		
+
 		$('.flashcard-check').removeClass('hide');
 		$('.try-another').addClass('hide');
 
 		const $modalContainer = $('.modal-body');
 		const flashcardFilename = $modalContainer.data('question-file');
+		
+		if (flashcardArray.length > 0) {
+			flashcard = flashcardArray.splice(Math.random() * flashcardArray.length | 0, 1);
+		}
+		else {
 		flashcardCreate($modalContainer, flashcardFilename);
-
+		};
+ 
 	});
 
 	//Code to change whether you're translating to or from Old English
@@ -344,15 +355,13 @@
 		let newPlaceholder = $('.flashcard-answer').data('new-placeholder');
 
 		$('.explanatory-text').removeClass('darkorange-text darkgreen-text').html(dataText);
-		
-
 
 		//These lines empty the input and make sure the Check button is active (for if someone swaps language mid translation)
 		$('.flashcard-row').find('input').val('');
 		$('.flashcard-check').removeClass('hide');
 		$('.try-another').addClass('hide');
 
-		if (dataLanguage=='old') {
+		if (dataLanguage == 'old') {
 			$('.translation-button').attr('data-language', 'modern');
 			$('.translation-button').html('Modern English <i class="fas fa-exchange-alt"></i> Old English');
 			$('.flashcard').empty().removeClass('correct-flashcard incorrect-flashcard');
@@ -366,6 +375,87 @@
 			$('.flashcard-answer').attr('placeholder', newPlaceholder);
 			flashcardCreate($modalContainer, flashcardFilename);
 		}
+
 	}); //close document ready
+
+	//The below code is for the reading comprhension activities
+
+	$('.reader-word').on('click', function (event) {
+		event.preventDefault();
+
+		if ($('.show-old-english').hasClass('solid-button')) {
+			let readerOldEnglish = $(this).text().toUpperCase();
+			let readerGrammar = $(this).data('grammar');
+			let readerTrans = $(this).data('translation');
+			let baseForm = $(this).data('base-form');
+			$('.reader-tooltip-explanation').addClass('hide');
+			$('.reader-tooltip').removeClass('hide');
+			$('.reader-tooltip-body').find('p').empty();
+			$('.reader-tooltip-body').find('.reader-tooltip-p').append('<p> <strong>' + readerOldEnglish + '</strong>' + ' - ' + readerTrans + '</p>' + '<p>Part of grammar: ' + '<em>' + readerGrammar + '</em></p>');
+		
+			if (typeof $(this).data('base-form') !== 'undefined') {
+				$('.reader-tooltip-body').find('.reader-tooltip-p:first-child').after('<p>Base form: <em>' + baseForm + '</em></p>');
+			  }
+		}
+	});
+
+	$('.show-old-english').on('click', function (event) {
+		event.preventDefault();
+		$('.show-trans').removeClass('solid-button').addClass('light-button');
+		$('.show-old-english').removeClass('light-button').addClass('solid-button');
+		$('.reading-comp').removeClass('col-sm-6').addClass('col-sm-9');
+		$('.reader-tooltip-explanation').removeClass('hide');
+		$('.reading-trans').addClass('hide');
+		if ($('.reader-tooltip-column').hasClass('hide')) {
+			$('.reader-tooltip-column').removeClass('hide');
+		}
+	});
+
+	$('.show-trans').on('click', function (event) {
+		event.preventDefault();
+		$('.show-trans').removeClass('light-button').addClass('solid-button');
+		$('.show-old-english').removeClass('solid-button').addClass('light-button');
+		$('.reading-comp').removeClass('col-sm-9').addClass('col-sm-6');
+		$('.reading-trans').removeClass('hide');
+		$('.reader-tooltip-column').addClass('hide');
+		$('.reader-tooltip').addClass('hide');
+	});
+
+	$('.show-notes').on('click', function (event) {
+		event.preventDefault();
+		if ($('.show-notes').hasClass('light-button')) {
+			$(this).removeClass('light-button').addClass('solid-button').empty().append('Hide Notes');
+			$('.footnote').css('color', 'rgb(200, 100, 50)');
+			$('.footnote-part').css('color', 'rgb(200, 100, 50)');
+			$('.text-notes').removeClass('hide');
+			$('.footnote').each(function(index) {
+				$(this).after(`<a class="footnote-link" id="footnoteref${index+1}" href="${window.location.pathname}#footnote${index+1}"><sup class="darkorange-text">[${index+1}]</sup></a>`);
+	});
+	$('.scrollable-area').find('p').each(function(index) {
+		$(this).prepend(`<a href="${window.location.pathname}#footnoteref${index+1}" class="darkorange-text"><strong id="footnote${index+1}">[${index+1}]</strong></a> `)
+});
+	} else {
+		$(this).removeClass('solid-button').addClass('light-button').empty().append('Show Notes');
+		$('sup').empty();
+		$('.reading-comp').find('a').remove();
+		$('.scrollable-area').find('strong').empty();
+		$('.text-notes').addClass('hide');
+		$('.footnote').css('color', '#333');
+		$('.footnote-part').css('color', '#333');
+		$('.scrollable-area').find('a').remove();
+	}
+})
+
+	//This is the close icon on the glossary tooltip
+	$('.close-icon').on('click', function (event) {
+		event.preventDefault();
+		$('.reader-tooltip-body').find('p').empty();
+		$('.reader-tooltip').addClass('hide');
+		$('.reader-tooltip-explanation').removeClass('hide');
+	});
+
+// // assign wheelzoom
+// wheelzoom(document.querySelectorAll('img'), {maxZoom: 4, zoom: 0.05});
+
 
 })(); //close the whole thing

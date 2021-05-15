@@ -1,0 +1,106 @@
+<% locals.setLayout('default.ejs') -%>
+<% locals.block('title', 'Reading' ) -%>
+
+<main id="mainwrapper" class="container">
+    <h1><em>DCCLV</em></h1>
+    <div class="row">
+        <div class="col-sm-12 comp-button-row">
+            <button class="button solid-button show-old-english">Show Old English Only</button>
+            <button class="button light-button show-trans">Show Translation</button>
+            <button class="button light-button show-notes">Show Notes</button>
+        </div>
+    </div>
+    <hr class="border">
+    <section class="row reader-container">
+        <div class="col-sm-9 reading-comp">
+            <p class="padding-top">
+                <span class="reader-word" data-translation="then" data-grammar="adverb">Þa</span>
+                <span class="reader-word" data-translation="in" data-grammar="preposition">on</span>
+                <span class="reader-word" data-translation="morning" data-grammar="dative singular masculine noun">morgen</span>
+                <span class="reader-word footnote" data-translation="heard" data-grammar="weak class I plural past" data-base-form="hieran">gehyrdon</span>
+                <span class="reader-word" data-translation="that" data-grammar="relative pronoun">þæt</span>
+                <span class="reader-word" data-translation="the" data-grammar="genitive singular masculine demonstrative pronoun">þæs</span>
+                <span class="reader-word" data-translation="king's" data-grammar="genitive singular masculine noun" data-base-form="cyning">cyninges</span>
+                <span class="reader-word footnote" data-translation="thanes" data-grammar="accusative plural masculine noun" data-base-form="þegen">þægnas</span>
+                <span class="reader-word" data-translation="who" data-grammar="relative pronoun">þe</span>
+                <span class="reader-word" data-translation="him" data-grammar="third person dative pronoun">him</span>
+                <span class="reader-word" data-translation="behind" data-grammar="adverb">beæftan</span>
+                <span class="reader-word" data-translation="were" data-grammar="third person plural past verb" data-base-form="wesan">wæron</span>
+                <span class="reader-word" data-translation="that" data-grammar="conjunction">þæt</span>
+                <span class="reader-word" data-translation="the" data-grammar="masculine nominative singular demonstrative pronoun">se</span>
+                <span class="reader-word" data-translation="king" data-grammar="masculine nominative singular noun">cyning</span>
+                <span class="reader-word" data-translation="slain" data-grammar="strong class VI past participle verb" data-base-form="slean">ofslægen</span>
+                <span class="reader-word" data-translation="was" data-grammar="third person singular past verb" data-base-form="wesan">wæs</span>.
+                <span class="reader-word" data-translation="Then" data-grammar="adverb">Ða</span>
+                <span class="reader-word" data-translation="rode" data-grammar="strong class I plural past verb" data-base-form="ridan">ridon</span>
+                <span class="reader-word" data-translation="they" data-grammar="plural personal pronoun">hie</span>
+                <span class="reader-word footnote" data-translation="thither" data-grammar="adverb">þyder</span>
+                <span class="reader-word" data-translation="and" data-grammar="conjunction">ond</span>
+                <span class="reader-word" data-translation="his" data-grammar="third person genitive pronoun">his</span>
+                <span class="reader-word footnote" data-translation="ealdorman" data-grammar="singular nominative masculine noun">ealdorman</span>
+                <span class="reader-word" data-translation="Osric" data-grammar="proper noun">osric</span>
+                <span class="reader-word" data-translation="and" data-grammar="conjunction">ond</span>
+                <span class="reader-word" data-translation="Wiferth" data-grammar="proper noun">wiferð</span>
+                <span class="reader-word" data-translation="his" data-grammar="third person genitive personal pronoun">his</span>
+                <span class="reader-word" data-translation="thane" data-grammar="singular nominative masculine noun">þegn</span>
+                <span class="reader-word" data-translation="and" data-grammar="conjunction">ond</span>
+                <span class="reader-word" data-translation="the" data-grammar="accusative plural demonstrative pronoun">þa</span>
+                <span class="reader-word" data-translation="men" data-grammar="nominative masculine plural noun" data-base-form="man">men</span>
+                <span class="reader-word" data-translation="who" data-grammar="relative pronoun">þe</span>
+                <span class="reader-word" data-translation="he" data-grammar="nominative singular personal pronoun">he</span>
+                <span class="reader-word" data-translation="him" data-grammar="masculine dative singular pronoun">him</span>
+                <span class="reader-word" data-translation="behind" data-grammar="adverb">bæftan</span>
+                <span class="reader-word" data-translation="before" data-grammar="preposition">ær</span>
+                <span class="reader-word" data-translation="left" data-grammar="weak class I third person singular past verb" data-base-form="læfan">læfde</span>
+                <span class="reader-word" data-translation="and" data-grammar="conjunction">ond</span>
+                <span class="reader-word" data-translation="the" data-grammar="accusative singular masculine demonstrative pronoun">þone</span>
+                <span class="reader-word" data-translation="prince" data-grammar="accusative singular masculine noun">æþeling</span>
+                <span class="reader-word" data-translation="in" data-grammar="preposition">on</span>
+                <span class="reader-word" data-translation="the" data-grammar="dative singular feminine demonstrative pronoun">þære</span>
+                <span class="reader-word" data-translation="city" data-grammar="dative singular feminine noun">byrig</span>
+                <span class="reader-word" data-translation="met" data-grammar="strong class V plural past verb" data-base-form="metan">metton</span>
+                <span class="reader-word" data-translation="where" data-grammar="adverb">þær</span>
+                <span class="reader-word" data-translation="the" data-grammar="masculine nominative singular pronoun">se</span>
+                <span class="reader-word" data-translation="king" data-grammar="masculine nominative singular noun">cyning</span>
+                <span class="reader-word" data-translation="slain" data-grammar="strong class VI past participle verb" data-base-form="slean">ofslægen</span>
+                <span class="reader-word" data-translation="lay" data-grammar="strong class V third person past verb" data-base-form="licgan">læg</span>.
+            </p>
+        </div>
+        <div class="col-sm-3 reader-tooltip-column">
+            <p class="reader-tooltip-explanation">Select any Old English word to view its gloss</p>
+            <div class="reader-tooltip hide">
+                <div class="reader-tooltip-header">
+                    <h3>Glossary</h3>
+                    <button class="close-icon">&times;</button>
+                </div>
+                <div class="reader-tooltip-body">
+                    <p class="reader-tooltip-p"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 reading-trans hide">
+            <p class="padding-top">
+                Then in the morning the king's thanes that were behind heard that the king was slain. Then they rode
+                thither, Osric his alderman, and Wiferth his thane, and the men that he had left behind; and they met
+                the prince at the town, where the king lay slain. </p>
+        </div>
+    </section>
+    <hr class="border">
+    <section class="text-notes row hide">
+        <div class="col-sm-12">
+            <h3>Notes</h3>
+            <div class="scrollable-area">
+                <p><strong></strong>In the later West Saxon dialect, spellings with the diphthong 'ie' were often spelled with a 'y' instead. So 'hieran' became 'hyran'.</p>
+                <p><strong></strong>This spelling of <em>þegen</em> is actually a mistake. The correct spelling is written in above the word in the manuscript.</p>
+                <p><strong></strong>Thither has fallen out of common usage in modern English, but it means 'towards there', specifically away from the speaker.</p>
+                <p><strong></strong>An ealdorman was an official in Anglo-Saxon England. They were usually appointed by the king and were responsible for an area.</p>
+            </div>
+        </div>
+    </section>
+    <section class="padding-top">
+        <a href="intro_aelfric_preface.html" class="darkorange-text strong"><i class="fa fa-angle-double-left"
+                aria-hidden="true"></i> Return to Introduction</a>
+        <a href="textselect.html" class="darkorange-text strong float-right">Return to Text Selection <i
+                class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+    </section>
+</main>
