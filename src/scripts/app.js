@@ -388,6 +388,7 @@
 			let readerGrammar = $(this).data('grammar');
 			let readerTrans = $(this).data('translation');
 			let baseForm = $(this).data('base-form');
+			$('.reader-tooltip-explanation').addClass('hide');
 			$('.reader-tooltip').removeClass('hide');
 			$('.reader-tooltip-body').find('p').empty();
 			$('.reader-tooltip-body').find('.reader-tooltip-p').append('<p> <strong>' + readerOldEnglish + '</strong>' + ' - ' + readerTrans + '</p>' + '<p>Part of grammar: ' + '<em>' + readerGrammar + '</em></p>');
@@ -403,12 +404,10 @@
 		$('.show-trans').removeClass('solid-button').addClass('light-button');
 		$('.show-old-english').removeClass('light-button').addClass('solid-button');
 		$('.reading-comp').removeClass('col-sm-6').addClass('col-sm-9');
+		$('.reader-tooltip-explanation').removeClass('hide');
 		$('.reading-trans').addClass('hide');
 		if ($('.reader-tooltip-column').hasClass('hide')) {
 			$('.reader-tooltip-column').removeClass('hide');
-		}
-		if ($('.challenge-tooltip').hasClass('challenge-selected')) {
-			$('.challenge-tooltip').removeClass('challenge-selected');
 		}
 	});
 
@@ -418,6 +417,7 @@
 		$('.show-old-english').removeClass('solid-button').addClass('light-button');
 		$('.reading-comp').removeClass('col-sm-9').addClass('col-sm-6');
 		$('.reading-trans').removeClass('hide');
+		$('.reader-tooltip-column').addClass('hide');
 		$('.reader-tooltip').addClass('hide');
 	});
 
@@ -429,10 +429,10 @@
 			$('.footnote-part').css('color', 'rgb(200, 100, 50)');
 			$('.text-notes').removeClass('hide');
 			$('.footnote').each(function(index) {
-				$(this).after(`<a class="footnote-link" href="${window.location.pathname}#footnote${index+1}"><sup class="darkorange-text">[${index+1}]</sup></a>`);
+				$(this).after(`<a class="footnote-link" id="footnoteref${index+1}" href="${window.location.pathname}#footnote${index+1}"><sup class="darkorange-text">[${index+1}]</sup></a>`);
 	});
-	$('.scrollable-area').find('strong').each(function(index) {
-		$(this).attr('id', 'footnote'+(index+1)).append('['+(index+1)+'] ').css('color', 'rgb(200,100,50)');
+	$('.scrollable-area').find('p').each(function(index) {
+		$(this).prepend(`<a href="${window.location.pathname}#footnoteref${index+1}" class="darkorange-text"><strong id="footnote${index+1}">[${index+1}]</strong></a> `)
 });
 	} else {
 		$(this).removeClass('solid-button').addClass('light-button').empty().append('Show Notes');
@@ -442,7 +442,7 @@
 		$('.text-notes').addClass('hide');
 		$('.footnote').css('color', '#333');
 		$('.footnote-part').css('color', '#333');
-
+		$('.scrollable-area').find('a').remove();
 	}
 })
 
@@ -451,6 +451,7 @@
 		event.preventDefault();
 		$('.reader-tooltip-body').find('p').empty();
 		$('.reader-tooltip').addClass('hide');
+		$('.reader-tooltip-explanation').removeClass('hide');
 	});
 
 // // assign wheelzoom

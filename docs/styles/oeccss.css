@@ -48,11 +48,11 @@
 .text-select-buttons ul:last-child {
 	border-bottom: 1px solid #ddd;
 }
-
+/* 
 .scrollable-area {
 	height:125px;
     overflow:auto;
-}
+} */
 
 
 /*txt page*/ 
@@ -74,9 +74,13 @@
 	color:rgb(200, 100, 50);
 }
 
+.reader-tooltip-explanation {
+	color: #999;
+	padding:2em;
+}
+
 .reader-tooltip-column {
-	position: absolute;
-	right: 0px;
+	padding-right:0;
 	overflow-x: hidden;
 } 
 
@@ -115,11 +119,11 @@
 	right:25px;
 	top:25px;
 }
-
+/* 
 .text-notes {
 	display:block;
 	max-height:30%;
-}
+} */
 
 /* facsimile page */
 .facsimile-container {
