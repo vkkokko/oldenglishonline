@@ -48,11 +48,6 @@
 .text-select-buttons ul:last-child {
 	border-bottom: 1px solid #ddd;
 }
-/* 
-.scrollable-area {
-	height:125px;
-    overflow:auto;
-} */
 
 
 /*txt page*/ 
@@ -116,14 +111,9 @@
 	color:white;
 	border:none;
 	position:absolute;
-	right:25px;
+	right:15px;
 	top:25px;
 }
-/* 
-.text-notes {
-	display:block;
-	max-height:30%;
-} */
 
 /* facsimile page */
 .facsimile-container {
