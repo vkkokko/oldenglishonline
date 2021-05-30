@@ -246,15 +246,11 @@
 			return;
 		}
 		
-		let flashcardArray = [];
-
 		//This gets the json with the vocab array in it and chooses one object to display once it's loaded
 		$.getJSON(`data/${fFilename}?cache=` + Date.now())
 			.done(function (data) {
 
-				flashcardArray = [...data]
-
-				let flashcard = flashcardArray.splice(Math.random() * flashcardArray.length | 0, 1);
+				let flashcard = data.splice(Math.random() * data.length | 0, 1);
 
 				let dataLanguage = $('.translation-button').attr('data-language');
 
@@ -335,12 +331,8 @@
 		const $modalContainer = $('.modal-body');
 		const flashcardFilename = $modalContainer.data('question-file');
 		
-		if (flashcardArray.length > 0) {
-			flashcard = flashcardArray.splice(Math.random() * flashcardArray.length | 0, 1);
-		}
-		else {
+		
 		flashcardCreate($modalContainer, flashcardFilename);
-		};
  
 	});
 
