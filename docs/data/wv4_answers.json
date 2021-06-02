@@ -72,13 +72,13 @@
     {
         "question": "On ðæm dagum (<em>ricsian</em>) #### Æþelbyrht cyning ond his wif on Cantwarebyrig⁠ — On this day, Ethelbyrt and his wife reigned in Canterbury",
         "correctAnswer": "ricsodon",
-        "explanation": "Here 'ricsian' is in the third person singular past form '<em>ricsodon</em>' because the subject is 'Ethelbert and his wife'",
+        "explanation": "Here 'ricsian' is in the third person plural past form '<em>ricsodon</em>' because the subject is 'Ethelbert and his wife'",
         "commonMistakes": []
     },
     {
         "question": "Him englas (<em>andswarian</em>) ####⁠ — Angels answered him",
         "correctAnswer": "andswaredon",
-        "explanation": "Here 'andswarian' is in the third person singular past form '<em>andswaredon</em>' because the subject is 'Angels'",
+        "explanation": "Here 'andswarian' is in the third person plural past form '<em>andswaredon</em>' because the subject is 'Angels'",
         "commonMistakes": []
     },
     {
