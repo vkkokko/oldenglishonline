@@ -33,7 +33,7 @@
     },
     {
         "question": "We (<em>læran</em>) #### eald Englisc on þæm minstere⁠ — We teach Old English in the monastery",
-        "correctAnswer": "læraþ",
+        "correctAnswer": "læraþ|lærað",
         "explanation": "Here 'læran' is in the plural present form '<em>læraþ</em>' as the subject is 'We'",
         "commonMistakes": []
     },
@@ -142,5 +142,34 @@
                 "explanation": "While <em>læran</em> takes an 'e' in the present first person singular, here 'læran' is in the past tense first person singular form '<em>lædde</em>' because the subject is 'I'"
             }
         ]
+    },
+    {
+        "question": "Ic (<em>feran</em>) #### to foldan ufan from eþle — I went to earth from the realm above",
+        "correctAnswer": "ferde",
+        "explanation": "Here 'feran' is in the first person singular past form '<em>ferde</em>' because the subject is 'I'",
+        "commonMistakes": []
+    },
+    {
+        "question": "He wæs þæs aldormonnes godsunu ond he his feorh (<em>nerian</em>) #### — He was the aldorman's godsun and he saved his life",
+        "correctAnswer": "nerede",
+        "explanation": "Here 'nerian' is in the third person singular past form '<em>nerede</em>' because the subject is 'he'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Hie (<em>sendan</em>) #### þa broðra secan sumne stan — They sent the monks to seek some stone",
+        "correctAnswer": "sendon",
+        "explanation": "Here 'sendan' is in the third person singular past form '<em>sendon</em>' because the subject is 'they'",
+        "commonMistakes": [
+            {
+                "incorrectAnswer": "senddon",
+                "explanation": "Remember, when a double d is proceeded by a consonant, the double is reduced to single so the correct form is 'sendon'"
+            }
+        ]
+    },
+    {
+        "question": "Ic ne (<em>hieran</em>) #### idese l&aelig;dan mægen fægerre — I have never heard of a lady leading a mightier force",
+        "correctAnswer": "hierde",
+        "explanation": "Here 'hieran' is in the first person singular past form '<em>hierde</em>' because the subject is 'I'",
+        "commonMistakes": []
     }
 ]

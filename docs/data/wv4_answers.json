@@ -77,8 +77,8 @@
     },
     {
         "question": "Him englas (<em>andswarian</em>) ####⁠ — Angels answered him",
-        "correctAnswer": "andswaredon",
-        "explanation": "Here 'andswarian' is in the third person plural past form '<em>andswaredon</em>' because the subject is 'Angels'",
+        "correctAnswer": "andswarodon",
+        "explanation": "Here 'andswarian' is in the third person plural past form '<em>andswarodon</em>' because the subject is 'Angels'",
         "commonMistakes": []
     },
     {
@@ -131,14 +131,14 @@
     },
     {
         "question": "Þæm ðe ær (<em>hatian</em>) #### eow⁠ — Those that formerly hated you",
-        "correctAnswer": "hatedon",
-        "explanation": "Here 'hatian' is in the third person plural past form '<em>hatedon</em>' because the subject is the demonstrative pronoun 'those'",
+        "correctAnswer": "hatodon",
+        "explanation": "Here 'hatian' is in the third person plural past form '<em>hatodon</em>' because the subject is the demonstrative pronoun 'those'",
         "commonMistakes": []
     },
     {
         "question": "Ðæt folc (<em>gaderian</em>) #### mid micle menio ðæra fugela⁠ — The people gathered a great number of the birds",
-        "correctAnswer": "gaderode",
-        "explanation": "Here 'gaderian' is in the plural past form '<em>gaderode</em>' because the subject is 'the folk'",
+        "correctAnswer": "gaderodon",
+        "explanation": "Here 'gaderian' is in the plural past form '<em>gaderodon</em>' because the subject is 'the folk'",
         "commonMistakes": []
     },
     {
