@@ -30,7 +30,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðara (<em>wealh</em>) #### cyning slog monige menn⁠ — The King of the foreigners slew many men",
+        "question": "Ðara (<em>wealh</em>) #### cyning slog manige menn⁠ — The King of the foreigners slew many men",
         "correctAnswer": "weala",
         "explanation":"'Wealh' is masculine and here it is the posessive plural, so it loses its 'h' and gains an 'a' ending",
         "commonMistakes": []
