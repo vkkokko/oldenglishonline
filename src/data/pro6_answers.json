@@ -168,7 +168,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Abram cwæð to Lothe '(<em>ic</em>) #### sind gebroðru⁠ — Abraham said to Lot: 'We two are brothers'",
+        "question": "Abram cwæð to Lothe (<em>ic</em>) #### sind gebroðru⁠ — Abraham said to Lot: 'We two are brothers'",
         "correctAnswer": "wit",
         "explanation":"Here 'ic' is used in the first person dual nominative so it becomes 'wit'",
         "commonMistakes": []
