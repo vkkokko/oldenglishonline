@@ -2,11 +2,11 @@
     {
         "question": "He is (<em>strang</em>) #### ðonne ic⁠ — He is stronger than I",
         "correctAnswer": "strengra",
-        "explanation":"The stem of 'strang' undergoes i-mutation to become 'streng', but it isn't modifying a noun so it takes the 'ra' suffix to become 'strengra'",
+        "explanation":"The stem of 'strang' undergoes i-mutation to become 'streng', and takes the 'ra' suffix to become 'strengra' because it is related to the masculine nominative 'he'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "strengran",
-                "explanation": "Comparatives only decline if they are modifying a noun. This adjective is not modifying a noun, so it becomes 'strengra'"
+                "explanation": "This adjective is modifying the subject 'he' so it declines using the weak nominative masculine 'a' ending to become 'strengra'"
             },
             {
                 "incorrectAnswer": "strangra",
@@ -17,7 +17,7 @@
     {
         "question": "Bebead he ðæt him mon (<em>lang</em>) #### cwidas beforan cwæde, and he symle gedefelice æftercwæþ⁠ — He ordered longer sayings to be spoken before him, and he always repeated them properly",
         "correctAnswer": "lengran",
-        "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun",
+        "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the weak accusative plural suffix 'ran' to become 'lengran' as it is modifying the noun 'cwid'",
         "commonMistakes": [
             {
                 "incorrectAnswer": "langran",
@@ -25,78 +25,78 @@
             },
             {
                 "incorrectAnswer": "lengra",
-                "explanation":"Here 'lang' takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun"
+                "explanation":"Here 'lang' takes the weak accusative plural suffix 'ran' to become 'lengran' as it is modifying the noun 'cwid'"
             },
             {
                 "incorrectAnswer": "langra",
-                "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the 'ran' suffix to become 'lengran' as comparatives decline weak if they are modifying a noun"
+                "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the weak accusative plural suffix 'ran' to become 'lengran' as it is modifying the noun 'cwid'"
             }
         ]
     },
     {
         "question": "Ic in wite sceal bidan in bendum ond me (<em>god</em>) #### ham for oferhygdum æfre ne wene⁠ — I must in torment abide in bonds, and never hope for any better home for my pride",
         "correctAnswer": "beteran",
-        "explanation":"The adjective 'god' is irregular and so becomes 'beteran' in the comparative when modifying a noun",
+        "explanation":"The adjective 'god' is irregular and modifying the masculine noun 'ham' so it takes the ending 'an' to become 'beteran'",
         "commonMistakes": []
     },
     {
         "question": "Se horshwæl biþ micle (<em>lytel</em>) #### ðonne oðre hwalas⁠ — The walrus is much smaller than other whales",
         "correctAnswer": "læssa",
-        "explanation":"The adjective 'lytel' is irregular and so becomes 'læssa' in the comparative when not modifying a noun",
+        "explanation":"The adjective 'lytel' is irregular and related to the subject 'horshwæl' so it becomes 'læssa'",
         "commonMistakes": []
     },
     {
         "question": "Ic towurpe mine bernu and ic wyrce (<em>micel</em>) #### bernu⁠ — I will tear down my barns and I will build bigger barns",
         "correctAnswer": "maran",
-        "explanation":"The adjective 'micel' is irregular and so becomes 'maran' in the comparative when modifying a noun",
+        "explanation":"The adjective 'micel' is irregular and modifying the neuter accusative noun 'bernu⁠' so it takes the 'an' suffix to become 'maran'",
         "commonMistakes": []
     },
     {
         "question": "Ðæt læstede þa xix wintra þa hwile þe Stephne cyning wæs one æfre hit wæs (<em>yfel</em>) #### ond wiersa⁠ — That lasted 19 winters while Stephen was king and ever it was worse and worse",
         "correctAnswer": "wiersa",
-        "explanation":"The adjective 'yfel' is irregular and so becomes 'wiersa' in the comparative as it is not modifying a noun",
+        "explanation":"The adjective 'yfel' is irregular and related to the subject 'hit' so it becomes 'wiersa' in the comparative",
         "commonMistakes": []
     },
     {
         "question": "Næfre he ær ne siððan (<em>heard</em>) #### hæle fand⁠ — Never before or since did he find a stouter warrior",
         "correctAnswer": "heardran",
-        "explanation":"Here 'heard' takes the 'ran' suffix as it is modifying the noun 'hæle'",
+        "explanation":"Here 'heard' is modifying the accusative masculine noun 'hæle' so it takes the 'ran' suffix to become 'heardran'",
         "commonMistakes": []
     },
     {
         "question": "Wisa, hwilc cræft þe geþuht betwux þas (<em>furðre</em>) #### wesan⁠ — Teacher, which craft do you think is the greater?",
         "correctAnswer": "furþra|furðra",
-        "explanation":"Here 'furðre' loses its 're' and takes the 'ra' suffix to become 'furðra', as it is not modifying a noun",
+        "explanation":"Here 'furðre' is related to the masculine subject 'cræft' so it loses its 're' and takes the 'ra' suffix to become 'furðra'",
         "commonMistakes": []
     },
     {
         "question": "Se wudu is eastlang and westlang hund twelftiges mila lang oððe (<em>lang</em>) ####⁠ — The wood, from east to west, is twelve hundred miles long or longer",
         "correctAnswer": "lengra",
-        "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and it takes the 'ra' suffix to become 'lengra', as it is not directly modifying a noun",
+        "explanation":"The stem of 'lang' undergoes i-mutation to become 'leng', and is related to the masculine subject 'wudu' so it takes the 'ra' suffix to become 'lengra'",
         "commonMistakes": []
     },
     {
         "question": "Ðæm (<em>mild</em>) #### cyninge Wihtræde rixigendum⁠ — In the reign of the kindest king Wihtræd",
         "correctAnswer": "mildostan",
-        "explanation":"Here 'mild' takes the superlative suffix 'ost' and the weak suffix 'an', as it comes after the definitive article 'þam'",
+        "explanation":"Here 'mild' takes the superlative suffix 'ost' and the weak genitive suffix 'an', as it comes after the definitive article 'þam'",
         "commonMistakes": []
     },
     {
         "question": "Se lichoma ðonne on ðone (<em>heard</em>) #### stenc and on ðone fulostan biþ gecyrred⁠ — The body then shall be turned to the strongest and foulest stench",
         "correctAnswer": "heardostan",
-        "explanation":"Here 'heard' takes the superlative suffix 'ost' and the weak suffix 'an', as it comes after the definitive article 'ðone'",
+        "explanation":"Here 'heard' takes the superlative suffix 'ost' and the weak accusative suffix 'an', as it comes after the definitive article 'ðone'",
         "commonMistakes": []
     },
     {
         "question": "Cwædon ðæt he wære manna (<em>mild</em>) #### and monþwærost⁠ — They said that he was kindest and most courteous of men",
         "correctAnswer": "mildost",
-        "explanation":"Here 'mild' takes the superlative suffix 'ost' and no suffix",
+        "explanation":"Here 'mild' takes the superlative suffix 'ost' and no other suffix as it is strong related to the masculine subject 'he'",
         "commonMistakes": []
     },
     {
         "question": "He sohte fram ðæm ieldestan oþ ðone (<em>geong</em>) ####⁠ — He searched from the eldest to the youngest",
         "correctAnswer": "gingestan",
-        "explanation":"The stem of 'geong' undergoes i-mutation to become 'ging', and takes the superlative suffix 'est' and the weak suffix 'an', as it comes after the demonstrative pronoun 'ðone'",
+        "explanation":"The stem of 'geong' undergoes i-mutation to become 'ging', and takes the superlative suffix 'est' and the weak accusative suffix 'an', as it comes after the demonstrative pronoun 'ðone'",
         "commonMistakes": []
     },
     {
@@ -124,7 +124,7 @@
     {
         "question": "He me sealde ðæt (<em>god</em>) #### hors⁠ — He gave me the best horse",
         "correctAnswer": "betest",
-        "explanation":"The adjective 'god' is irregular, becoming 'betest' in the superlative. It takes no suffix because 'hors' is neuter and neuter accusative nouns have no suffix",
+        "explanation":"The adjective 'god' is irregular, becoming 'betest' in the superlative. It takes no suffix because 'hors' is neuter and neuter accusative forms take no suffix",
         "commonMistakes": []
     },
     {
@@ -136,7 +136,7 @@
     {
         "question": "Hit is ealra wyrta (<em>micel</em>) ####⁠ — It is greatest of all herbs",
         "correctAnswer": "mæst",
-        "explanation":"The adjective 'micel' is irregular, becoming 'mæst' in the superlative. It takes no suffix",
+        "explanation":"The adjective 'micel' is irregular, becoming 'mæst' in the superlative. It takes no suffix because it relates to the neuter 'hit' and neuter accusative forms take no suffix",
         "commonMistakes": []
     },
     {
@@ -147,28 +147,34 @@
         
     },
     {
-        "question": "Se biscop is  lareowa (<em>halig</em>) ####⁠ — The bishop is the holiest of teachers",
+        "question": "Se biscop is lareowa (<em>halig</em>) ####⁠ — The bishop is the holiest of teachers",
         "correctAnswer": "haligost",
-        "explanation":"halig takes the -ost ending of superlative adjectives",
+        "explanation":"Here 'halig' takes the -ost ending of superlative adjectives",
         "commonMistakes": []
     },
     {
         "question": "þis stan is hwit, þis stan is hwitra, ac þas stanas sind (<em>hwit</em>) ####⁠ — This stone is white, this stone is whiter, but these stones are whitest",
         "correctAnswer": "hwitost",
-        "explanation":"hwit takes the -ost ending of superlative adjectives",
+        "explanation":"Here 'hwit' takes the -ost ending of superlative adjectives",
         "commonMistakes": []
         
     },
     {
         "question": "Heo is (<em>leoht</em>) ####⁠ þonne mona — She is brighter than the moon",
         "correctAnswer": "leohtre",
-        "explanation":"leoht takes the -re endings of comparative adjectives",
+        "explanation":"Here 'leoht' takes the -re ending because it is related to the feminine 'heo' so it declines in line with the feminine weak to become 'leohtre'",
         "commonMistakes": []
     },
     {
-        "question": "Ic eom is (<em>swift</em>) ####⁠ þonne sunne — I am swifter than the sun",
+        "question": "Hit is (<em>swift</em>) ####⁠ þonne sunne — I am swifter than the sun",
         "correctAnswer": "swiftre",
-        "explanation":"swift takes the -re endings of comparative adjectives",
+        "explanation":"Here 'swift' takes the -re ending because it is related to the neuter 'hit' so it declines in line with the neuter weak to become 'swiftre'",
+        "commonMistakes": []
+    },
+    {
+        "question": "Emne swa þa woruldgeþingu beoþ (<em>micel</em>) — Just as the secular powers are greater",
+        "correctAnswer": "maran",
+        "explanation":"The adjective 'micel' is irregular and modifying the plural noun 'woruldgeþingu' so it takes the 'an' suffix to become 'maran'",
         "commonMistakes": []
     }
 ]
