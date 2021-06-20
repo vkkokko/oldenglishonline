@@ -1,0 +1,116 @@
+<% locals.setLayout('default.ejs') -%>
+<% locals.block('title', 'Reading' ) -%>
+
+<main id="mainwrapper" class="container">
+    <h1><em>DCCLV</em></h1>
+    <div class="row">
+        <div class="col-sm-12 comp-button-row">
+            <button class="button solid-button show-old-english">Show Old English Only</button>
+            <button class="button light-button show-trans">Show Translation</button>
+            <button class="button light-button show-notes">Show Notes</button>
+        </div>
+    </div>
+    <hr class="border">
+    <section class="row reader-container">
+        <div class="col-sm-9 reading-comp">
+            <p class="padding-top">
+                <span class="reader-word" data-translation="you" data-grammar="nominative second person singular pronoun">&THORN;u</span>
+                <span class="reader-word" data-translation="father" data-grammar="nominative singular masculine noun">fæder </span>
+                <span class="reader-word" data-translation="our" data-grammar="genitive first person plural personal pronoun">ure</span>
+                <span class="reader-word" data-translation="who" data-grammar="relative pronoun">ðe </span>
+                <span class="reader-word" data-translation="are" data-grammar="second person singular irregular verb" data-base-form="wesan">eart </span>
+                <span class="reader-word" data-translation="in" data-grammar="preposition">on </span>
+                <span class="reader-word footnote" data-translation="heaven" data-grammar="dative plural masculine noun">heofonum</span>
+                <span class="reader-word" data-translation="" data-grammar="">Sy </span>
+                <span class="reader-word" data-translation="" data-grammar="">þin </span>
+                <span class="reader-word" data-translation="" data-grammar="">nama </span>
+                <span class="reader-word" data-translation="" data-grammar="">gehalgod</span>
+                <span class="reader-word" data-translation="" data-grammar="">gecume </span>
+                <span class="reader-word" data-translation="" data-grammar="">þin </span>
+                <span class="reader-word" data-translation="" data-grammar="">rice</span>
+                <span class="reader-word" data-translation="" data-grammar="">Si</span>
+                <span class="reader-word" data-translation="" data-grammar="">þin </span>
+                <span class="reader-word" data-translation="" data-grammar="">willa</span>
+                <span class="reader-word" data-translation="" data-grammar="">swa</span>
+                <span class="reader-word" data-translation="" data-grammar="">on</span>
+                <span class="reader-word" data-translation="" data-grammar="">heaofonum</span>
+                <span class="reader-word" data-translation="" data-grammar="">ond</span>
+                <span class="reader-word" data-translation="" data-grammar="">eac</span>
+                <span class="reader-word" data-translation="" data-grammar="">on</span>
+                <span class="reader-word" data-translation="" data-grammar="">eorðan.</span>
+                <span class="reader-word" data-translation="" data-grammar="">syle</span>
+                <span class="reader-word" data-translation="" data-grammar="">us</span>
+                <span class="reader-word" data-translation="" data-grammar="">todæg</span>
+                <span class="reader-word" data-translation="" data-grammar="">urne </span>
+                <span class="reader-word" data-translation="" data-grammar="">dæg</span>
+                <span class="reader-word" data-translation="" data-grammar="">hwomlican</span>
+                <span class="reader-word" data-translation="" data-grammar="">hlaf</span>
+                <span class="reader-word" data-translation="" data-grammar="">ond</span>
+                <span class="reader-word" data-translation="" data-grammar="">forgif </span>
+                <span class="reader-word" data-translation="" data-grammar="">us </span>
+                <span class="reader-word" data-translation="" data-grammar="">ure </span>
+                <span class="reader-word" data-translation="" data-grammar="">giltas</span>
+                <span class="reader-word" data-translation="" data-grammar="">Swa </span>
+                <span class="reader-word" data-translation="" data-grammar="">swa </span>
+                <span class="reader-word" data-translation="" data-grammar="">we </span>
+                <span class="reader-word" data-translation="" data-grammar="">forgifað</span>
+                <span class="reader-word" data-translation="" data-grammar="">&thorn;am</span>
+                <span class="reader-word" data-translation="" data-grammar="">&thorn;e</span>
+                <span class="reader-word" data-translation="" data-grammar="">wið</span>
+                <span class="reader-word" data-translation="" data-grammar="">ur</span>
+                <span class="reader-word" data-translation="" data-grammar="">agiltað</span>
+                <span class="reader-word" data-translation="" data-grammar="">ond</span>
+                <span class="reader-word" data-translation="" data-grammar="">nel&aelig;t</span>
+                <span class="reader-word" data-translation="" data-grammar="">&thorn;u</span>
+                <span class="reader-word" data-translation="" data-grammar="">na</span>
+                <span class="reader-word" data-translation="" data-grammar="">us</span>
+                <span class="reader-word" data-translation="" data-grammar="">on </span>
+                <span class="reader-word" data-translation="" data-grammar="">costnunge</span>
+                <span class="reader-word" data-translation="" data-grammar="">Ac </span>
+                <span class="reader-word" data-translation="" data-grammar="">alys </span>
+                <span class="reader-word" data-translation="" data-grammar="">us </span>
+                <span class="reader-word" data-translation="" data-grammar="">fram </span>
+                <span class="reader-word" data-translation="" data-grammar="">yfele.</span>
+                <span class="reader-word" data-translation="" data-grammar="">Si</span>
+                <span class="reader-word" data-translation="" data-grammar="">hit</span>
+                <span class="reader-word" data-translation="" data-grammar="">swa.</span>
+                <span class="reader-word" data-translation="" data-grammar="">se</span>
+                <span class="reader-word" data-translation="" data-grammar="">l&aelig;ssa</span>
+                <span class="reader-word" data-translation="" data-grammar="">creda.</span>
+            </p>
+        </div>
+        <div class="col-sm-3 reader-tooltip-column">
+            <p class="reader-tooltip-explanation">Select any Old English word to view its gloss</p>
+            <div class="reader-tooltip hide">
+                <div class="reader-tooltip-header">
+                    <h3>Glossary</h3>
+                    <button class="close-icon">&times;</button>
+                </div>
+                <div class="reader-tooltip-body">
+                    <p class="reader-tooltip-p"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 reading-trans hide">
+            <p class="padding-top">
+                Then in the morning the king's thanes that were behind heard that the king was slain. Then they rode
+                thither, Osric his alderman, and Wiferth his thane, and the men that he had left behind; and they met
+                the prince at the town, where the king lay slain. </p>
+        </div>
+    </section>
+    <hr class="border">
+    <section class="text-notes row hide">
+        <div class="col-sm-12">
+            <h3>Notes</h3>
+            <div class="scrollable-area">
+                <p><strong></strong>Heaven is almost always declined in the plural when dative, even in situations where it would be singular.</p>
+            </div>
+        </div>
+    </section>
+    <section class="padding-top">
+        <a href="intro_aelfric_preface.html" class="darkorange-text strong"><i class="fa fa-angle-double-left"
+                aria-hidden="true"></i> Return to Introduction</a>
+        <a href="textselect.html" class="darkorange-text strong float-right">Return to Text Selection <i
+                class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+    </section>
+</main>
