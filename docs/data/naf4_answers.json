@@ -18,7 +18,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Sceolde monig blachleor (<em>ides</em>) #### bifiende gan⁠ — Many a pale-faced lady must trembling go",
+        "question": "Sceolde manig blachleor (<em>ides</em>) #### bifiende gan⁠ — Many a pale-faced lady must trembling go",
         "correctAnswer": "ides",
         "explanation":"Here 'ides' is the subject and so takes no ending",
         "commonMistakes": []
@@ -30,7 +30,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæt hie ælmihtiges (<em>giefu</em>) #### anforleten⁠ — That they might lose the almighty's gifts",
+        "question": "Hie ælmihtiges (<em>giefu</em>) #### anforleten⁠ — They might lose the almighty's gifts",
         "correctAnswer": "giefa",
         "explanation":"Here 'giefu' is plural and directly receiving the action of the verb 'forleten', so it loses its 'u' and takes an 'a' ending",
         "commonMistakes": []

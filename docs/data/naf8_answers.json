@@ -218,7 +218,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Sceolde monig blachleor (<em>ides</em>) #### bifiende gan⁠ — Many a pale-faced lady must trembling go",
+        "question": "Sceolde manig blachleor (<em>ides</em>) #### bifiende gan⁠ — Many a pale-faced lady must trembling go",
         "correctAnswer": "ides",
         "explanation": "Here the feminine noun 'ides' is the subject and so takes no ending",
         "commonMistakes": []
@@ -230,7 +230,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðæt hie ælmihtiges (<em>giefu</em>) #### anforleten⁠ — That they might lose the almighty's gifts",
+        "question": "Hie ælmihtiges (<em>giefu</em>) #### anforleten⁠ — They might lose the almighty's gifts",
         "correctAnswer": "giefa",
         "explanation":"Here 'giefu' is plural and directly receiving the action of the verb 'forleten', so it loses its 'u' and takes an 'a' ending",
         "commonMistakes": []
@@ -628,7 +628,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðara (<em>wealh</em>) #### cyning slog monige menn⁠ — The King of the foreigners slew many men",
+        "question": "Ðara (<em>wealh</em>) #### cyning slog manige menn⁠ — The King of the foreigners slew many men",
         "correctAnswer": "weala",
         "explanation":"Here the masculine noun 'wealh' is in the posessive plural, so it loses its 'h' and gains an 'a' ending",
         "commonMistakes": []
@@ -676,9 +676,9 @@
         "commonMistakes": []
     },
     {
-        "question": "He wealdeþ sidum (<em>rice</em>) ####⁠ — He rules broad kingdoms",
+        "question": "He wealdeþ on sidum (<em>rice</em>) ####⁠ — He rules over broad kingdoms",
         "correctAnswer": "ricum",
-        "explanation":"Here the neuter noun 'rice' is in the posessive plural and so loses its end-vowel and gains the 'um' ending",
+        "explanation":"Here the neuter noun 'rice' is in the dative plural and so loses its end-vowel and gains the 'um' ending",
         "commonMistakes": []
     },
     {
