@@ -20,7 +20,7 @@
     {
         "question": "Ða ealdan preostas cealf (<em>sniþan</em>) #### — The old priests slaughtered a calf",
         "correctAnswer": "snidon",
-        "explanation": "Here 'ripan' is in the second person singular present form '<em>ripst</em>' because the subject is 'Ðu'",
+        "explanation": "Here 'sniþan' is in the third person plural past form '<em>snidon</em>' because the subject is 'Ða ealdan preostas'",
         "commonMistakes": []
     },
     {
@@ -38,13 +38,13 @@
     {
         "question": "Hwilum ic on wloncum wicge (<em>ridan</em>) #### — Sometimes I ride on a proud horse",
         "correctAnswer": "ride",
-        "explanation": "Here 'ridan' is in the first person singular present form '<em>ride</em>' because the subject is 'I'",
+        "explanation": "Here 'ridan' is in the first person singular present form '<em>ride</em>' because the subject is 'ic'",
         "commonMistakes": []
     },
     {
         "question": "Hie (<em>bidan</em>) #### Drihtnes domes — They await the Lord's doom",
         "correctAnswer": "bidaþ|bidað",
-        "explanation": "Here 'bidan' is in the plural form '<em>bidaþ</em>' because the subject is 'They'",
+        "explanation": "Here 'bidan' is in the plural form '<em>bidaþ</em>' because the subject is 'hie'",
         "commonMistakes": []
     },
     {
@@ -111,7 +111,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða hie heora corn (<em>ripan</em>) #### — When they reap their grain",
+        "question": "Ða hie heora corn (<em>ripan</em>) #### — When they reaped their grain",
         "correctAnswer": "ripon",
         "explanation": "Here 'ripan' is in the plural past form '<em>ripon</em>' because the subject is 'hie'",
         "commonMistakes": []
