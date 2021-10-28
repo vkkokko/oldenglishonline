@@ -269,8 +269,8 @@
     },
     {
         "question": "We (<em>timbrian</em>) #### þisne ceastra⁠ — We built this city",
-        "correctAnswer": "timbriaþ|timbriað",
-        "explanation": "Here 'timbrian' is in the plural present form '<em>timbriaþ</em>' because the subject is 'we'",
+        "correctAnswer": "timbrodon",
+        "explanation": "Here 'timbrian' is in the plural past form '<em>timbrodon</em>' because the subject is 'we'",
         "commonMistakes": []
     },
     {

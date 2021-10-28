@@ -117,7 +117,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He spræc to þæt (<em>wif</em>) ####⁠ — He spoke to the woman",
+        "question": "He spræc to þæm (<em>wif</em>) ####⁠ — He spoke to the woman",
         "correctAnswer": "wife",
         "explanation":"Here 'wif' is in the singular dative, and so takes the 'e' ending",
         "commonMistakes": []

@@ -117,7 +117,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He spræc to þæt (<em>wif</em>) ####⁠ — He spoke to the woman",
+        "question": "He spræc to þæm (<em>wif</em>) ####⁠ — He spoke to the woman",
         "correctAnswer": "wif",
         "explanation": "Here the neuter noun 'wif' is in the singular accusative, and so takes no ending",
         "commonMistakes": []
@@ -284,7 +284,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ic wæs feaxhar (<em>cwen</em>) ####⁠ — I was a hoary-haired woman",
+        "question": "Ic seah feaxhar (<em>cwen</em>) ####⁠ — I saw a hoary-haired woman",
         "correctAnswer": "cwene",
         "explanation": "Here the feminine noun 'cwen' is the direct object and singular, so it takes an 'e' ending",
         "commonMistakes": []
