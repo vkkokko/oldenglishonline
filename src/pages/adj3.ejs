@@ -1,403 +1,464 @@
 <% locals.setLayout('default.ejs') -%>
-<% locals.block('title', 'About') -%>
+	<% locals.block('title', 'Adjectives' ) -%>
 
-<main id="mainwrapper" class="container">
-	<section class="row">
-		<div class="col-12-sm">
-			<div class="bc-icons-2">
-				<!-- Breadcrumb-->
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item">
-						<a class="black-text" href="courseindex.html">Index</a>
-						<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
-					</li>
-					<li class="breadcrumb-item">
-						<a class="black-text" href="adjectives.html">Adjectives</a>
-						<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
-					</li>
-					<li class="breadcrumb-item">
-						<a class="black-text" href="adj2.html">Weak Adjectives</a>
-						<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
-					</li>
-					<li class="breadcrumb-item active">
-						Strong Adjectives
-						<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
-					</li>
-					<li class="breadcrumb-item">
-						<a class="black-text" href="adj4.html">Comparatives and Superlatives</a>
-						<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
-					</li>
-					<li class="breadcrumb-item">
-						<a class="black-text" href="adj5.html">Adjectives Overview</a>
-					</li>
-				</ol>
-			</div>
-			<!--Close Breadcrumb-->
-			<h2>Strong Adjectives</h2>
-			<p><span class="initial-letter darkorange-text">T</span>he strong form of an adjective is used
-				when the adjective is linked to a noun without any demonstrative pronoun or possessive personal pronoun.
-				For example, '<em>Hie sind halig ond eaþmod menn - they are holy and humble men</em>' and
-				'<em>Hat ðu me heagne tor getimbrian - you, order a high tower to be built</em>'. The strong form of the
-				adjective is also used in sentences with a linking verb. For example: '<em>se cyning is eald - the king is old</em>' would take the strong
-				form of the adjective because it follows a linking verb rather than appearing between the demonstrative pronoun and the noun. These 
-				adjectives are known as predicative adjectives.
-			</p>
-			<div class="text-center padding-top">
-				<div class="grammar-box darkgrey-bg">
-					<div class="inline-block">
-						<span class="red-text big-text"><span class="border-bottom">Hie</span> </span><br>
-						<span class="red-text">Subject<br>Pronoun</span>
-					</div>
-					<div class="inline-block">
-						<span class="green-text big-text"><span class="border-bottom">sind</span> </span><br>
-						<span class="green-text">Verb<br>&nbsp;</span>
-					</div>
-					<div class="inline-block">
-						<span class="peach-text big-text"><span class="border-bottom">halige</span> </span><br>
-						<span class="peach-text">Strong<br>Adjective</span>
-					</div>
-					<div class="inline-block">
-						<span class="white-text big-text"><span class="border-bottom">ond</span> </span><br>
-						<span class="white-text">Preposition<br>&nbsp;</span>
-					</div>
-					<div class="inline-block">
-						<span class="peach-text big-text"><span class="border-bottom">eaþmode</span> </span><br>
-						<span class="peach-text">Strong<br>Adjective</span>
-					</div>
-					<div class="inline-block">
-						<span class="yellow-text big-text"><span class="border-bottom">menn</span></span><br>
-						<span class="yellow-text">Direct<br>Object</span>
-					</div>
-					<br>
-					<div class="inline-block">
-						<span class="green-text big-text"><span class="border-bottom">Hat</span> </span><br>
-						<span class="green-text">Verb<br>&nbsp;</span>
-					</div>
-					<div class="inline-block">
-						<span class="red-text big-text"><span class="border-bottom">ðu</span> </span><br>
-						<span class="red-text">Subject<br>Pronoun</span>
-					</div>
-					<div class="inline-block">
-						<span class="peach-text big-text"><span class="border-bottom">heagne</span> </span><br>
-						<span class="peach-text">Strong<br>Adjective</span>
-					</div>
-					<div class="inline-block">
-						<span class="yellow-text big-text"><span class="border-bottom">tor</span> </span><br>
-						<span class="yellow-text">Direct<br>Object</span>
-					</div>
-					<div class="inline-block">
-						<span class="green-text big-text"><span class="border-bottom">getimbrian</span></span><br>
-						<span class="green-text">Verb<br>&nbsp;</span>
-					</div>
-				</div>
-			</div>
-			<p class="padding-top">Strong adjectives follow the same rules as weak adjectives. They agree with the
-				case, number and gender
-				of the noun they modify; if the final letter of the stem is '<strong>h</strong>', it is dropped or
-				replaced by '<strong>g</strong>' before a suffix is added; if the stem ends in a vowel, the vowel is
-				dropped before the suffix is added; and if the stem is dysllabic with an unstressed vowel in the
-				second
-				syllable, the unstressed vowel is usually dropped when the suffix is added. The main difference
-				between
-				weak and strong adjectives is that strong adjectives have a wider variety of suffixes as can be seen
-				in the table below.
-			</p>
-			<div class="row padding-top">
-				<div class="col-md-8">
-					<div class="grammar-table table-hide">
-						<!-- Nav tabs -->
-						<ul class="nav tabs four-tabs nav-justified" role="tablist">
-							<li role="presentation" class="active">
-								<a href="#god" aria-controls="Good" role="tab" data-toggle="tab">God</a>
+		<main id="mainwrapper" class="container">
+			<section class="row">
+				<div class="col-12-sm">
+					<div class="bc-icons-2">
+						<!-- Breadcrumb-->
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item">
+								<a class="black-text" href="courseindex.html">Index</a>
+								<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
 							</li>
-							<li role="presentation">
-								<a href="#halig" aria-controls="Halig" role="tab" data-toggle="tab">Halig</a>
+							<li class="breadcrumb-item">
+								<a class="black-text" href="adjectives.html">Adjectives</a>
+								<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
 							</li>
-							<li role="presentation">
-								<a href="#heah" aria-controls="Heah" role="tab" data-toggle="tab">Heah</a>
+							<li class="breadcrumb-item">
+								<a class="black-text" href="adj2.html">Weak Adjectives</a>
+								<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
 							</li>
-							<li role="presentation">
-								<a href="#wilde" aria-controls="wild" role="tab" data-toggle="tab">Wilde</a>
+							<li class="breadcrumb-item active">
+								Strong Adjectives
+								<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
 							</li>
-						</ul>
-						<!-- Tab panes -->
-						<div class="tab-content full">
-							<div role="tabpanel" class="text-center tab-pane active" id="god">
-								<table class="tabbed-table table-striped inline-block five-col-table table-hide">
-									<tr>
-										<th>&nbsp;</th>
-										<th>Masculine</th>
-										<th>Neuter</th>
-										<th>Feminine</th>
-										<th>Plural</th>
-									</tr>
-									<tr>
-										<td>
-											<strong>Nominative</strong>
-										</td>
-										<td>god</td>
-										<td>god</td>
-										<td>god</td>
-										<td>gode/godu/goda</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Accusative</strong>
-										</td>
-										<td>godne</td>
-										<td>god</td>
-										<td>gode</td>
-										<td>gode/godu/goda</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Genitive</strong>
-										</td>
-										<td>godes</td>
-										<td>godes</td>
-										<td>godre</td>
-										<td>godra</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Dative</strong>
-										</td>
-										<td>godum</td>
-										<td>godum</td>
-										<td>godre</td>
-										<td>godum</td>
-									</tr>
-								</table>
+							<li class="breadcrumb-item">
+								<a class="black-text" href="adj4.html">Comparatives and Superlatives</a>
+								<i class="fa fa-angle-double-right mx-2" aria-hidden="true"></i>
+							</li>
+							<li class="breadcrumb-item">
+								<a class="black-text" href="adj5.html">Adjectives Overview</a>
+							</li>
+						</ol>
+					</div>
+					<!--Close Breadcrumb-->
+					<h2>Strong Adjectives</h2>
+					<p><span class="initial-letter darkorange-text">T</span>he strong form of an adjective is used
+						when the adjective is linked to a noun without any demonstrative pronoun or possessive personal
+						pronoun.
+						For example, '<em>Hie sind halig ond eaþmod menn - they are holy and humble men</em>' and
+						'<em>Hat ðu me heagne tor getimbrian - you, order a high tower to be built</em>'.
+					</p>
+					<div class="text-center padding-top">
+						<div class="grammar-box darkgrey-bg">
+							<div class="inline-block">
+								<span class="red-text big-text"><span class="border-bottom">Hie</span> </span><br>
+								<span class="red-text">Subject<br>Pronoun</span>
 							</div>
-							<div role="tabpanel" class="text-center tab-pane" id="halig">
-								<table class="tabbed-table table-striped inline-block five-col-table table-hide">
-									<tr>
-										<th></th>
-										<th>Masculine</th>
-										<th>Neuter</th>
-										<th>Feminine</th>
-										<th>Plural</th>
-									</tr>
-									<tr>
-										<td>
-											<strong>Nominative</strong>
-										</td>
-										<td>halig</td>
-										<td>halig</td>
-										<td>halgu</td>
-										<td>halge/halgu/halga</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Accusative</strong>
-										</td>
-										<td>haligne</td>
-										<td>halig</td>
-										<td>halge</td>
-										<td>halge/halgu/halga</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Genitive</strong>
-										</td>
-										<td>halges</td>
-										<td>halges</td>
-										<td>haligre</td>
-										<td>haligra</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Dative</strong>
-										</td>
-										<td>halgum</td>
-										<td>halgum</td>
-										<td>halgre</td>
-										<td>halgum</td>
-									</tr>
-								</table>
+							<div class="inline-block">
+								<span class="green-text big-text"><span class="border-bottom">sind</span> </span><br>
+								<span class="green-text">Verb<br>&nbsp;</span>
 							</div>
-							<div role="tabpanel" class="text-center tab-pane" id="heah">
-								<table class="tabbed-table table-striped inline-block five-col-table table-hide">
-									<tr>
-										<th></th>
-										<th>Masculine</th>
-										<th>Neuter</th>
-										<th>Feminine</th>
-										<th>Plural</th>
-									</tr>
-									<tr>
-										<td>
-											<strong>Nominative</strong>
-										</td>
-										<td>heah</td>
-										<td>heah</td>
-										<td>hea</td>
-										<td>heage/heagu/heaga</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Accusative</strong>
-										</td>
-										<td>heagne</td>
-										<td>heah</td>
-										<td>hea</td>
-										<td>heage/heagu/heaga</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Genitive</strong>
-										</td>
-										<td>heages</td>
-										<td>heages</td>
-										<td>heagre</td>
-										<td>heagra</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Dative</strong>
-										</td>
-										<td>heagum</td>
-										<td>heagum</td>
-										<td>heagre</td>
-										<td>heagum</td>
-									</tr>
-								</table>
+							<div class="inline-block">
+								<span class="peach-text big-text"><span class="border-bottom">halige</span> </span><br>
+								<span class="peach-text">Strong<br>Adjective</span>
 							</div>
-							<div role="tabpanel" class="text-center tab-pane" id="wilde">
-								<table class="tabbed-table table-striped inline-block five-col-table table-hide">
-									<tr>
-										<th></th>
-										<th>Masculine</th>
-										<th>Neuter</th>
-										<th>Feminine</th>
-										<th>Plural</th>
-									</tr>
-									<tr>
-										<td>
-											<strong>Nominative</strong>
-										</td>
-										<td>wilde</td>
-										<td>wilde</td>
-										<td>wildu</td>
-										<td>wilde/wildu/wilda</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Accusative</strong>
-										</td>
-										<td>wildne</td>
-										<td>wilde</td>
-										<td>wilde</td>
-										<td>wilde/wildu/wilda</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Genitive</strong>
-										</td>
-										<td>wildes</td>
-										<td>wildes</td>
-										<td>wildre</td>
-										<td>wildra</td>
-									</tr>
-									<tr>
-										<td>
-											<strong>Dative</strong>
-										</td>
-										<td>wildum</td>
-										<td>wildum</td>
-										<td>wildre</td>
-										<td>wildum</td>
-									</tr>
-								</table>
+							<div class="inline-block">
+								<span class="white-text big-text"><span class="border-bottom">ond</span> </span><br>
+								<span class="white-text">Conjunction<br>&nbsp;</span>
 							</div>
+							<div class="inline-block">
+								<span class="peach-text big-text"><span class="border-bottom">eaþmode</span> </span><br>
+								<span class="peach-text">Strong<br>Adjective</span>
+							</div>
+							<div class="inline-block">
+								<span class="red-text big-text"><span class="border-bottom">menn</span></span><br>
+								<span class="red-text">Subject<br>Complement</span>
+							</div>
+							<br>
+							<div class="inline-block">
+								<span class="green-text big-text"><span class="border-bottom">Hat</span> </span><br>
+								<span class="green-text">Verb<br>&nbsp;</span>
+							</div>
+							<div class="inline-block">
+								<span class="red-text big-text"><span class="border-bottom">ðu</span> </span><br>
+								<span class="red-text">Subject<br>Pronoun</span>
+							</div>
+							<div class="inline-block">
+								<span class="peach-text big-text"><span class="border-bottom">heagne</span> </span><br>
+								<span class="peach-text">Strong<br>Adjective</span>
+							</div>
+							<div class="inline-block">
+								<span class="yellow-text big-text"><span class="border-bottom">tor</span> </span><br>
+								<span class="yellow-text">Direct<br>Object</span>
+							</div>
+							<div class="inline-block">
+								<span class="green-text big-text"><span
+										class="border-bottom">getimbrian</span></span><br>
+								<span class="green-text">Verb<br>&nbsp;</span>
+							</div>
+						</div>
+					</div>
+					<p class="padding-top">The strong form of the
+						adjective is also used in sentences where the adjective is a complement, even if the subject it
+						is complementing has a demonstrative.
+						For example: '<em>se cyning is eald - the king is old</em>' would take the strong
+						form of the adjective because it follows a linking verb rather than appearing between the
+						demonstrative pronoun and the noun. Even if the word order changes so that the verb comes before the subject, 
+						so long as the adjective is following a linking
+						verb, it is strong. For example, '<em>Þa gewat se biscop cwydeleas - Then the bishop died intestate</em>'. 
+						</p>
+					<div class="text-center padding-top">
+						<div class="grammar-box darkgrey-bg">
+							<div class="inline-block">
+								<span class="red-text big-text"><span class="border-bottom">Se</span> </span><br>
+								<span class="red-text">Subject<br>Demon.</span>
+							</div>
+							<div class="inline-block">
+								<span class="red-text big-text"><span class="border-bottom">cyning</span> </span><br>
+								<span class="red-text">Subject<br>Noun</span>
+							</div>
+							<div class="inline-block">
+								<span class="green-text big-text"><span class="border-bottom">is</span></span><br>
+								<span class="green-text">Verb<br>&nbsp;</span>
+							</div>
+							<div class="inline-block">
+								<span class="peach-text big-text"><span class="border-bottom">eald</span> </span><br>
+								<span class="peach-text">Strong<br>Adjective</span>
+							</div>
+							<br> 
+							<div class="inline-block">
+								<span class="darkyellow-text big-text"><span class="border-bottom">Þa</span> </span><br>
+								<span class="darkyellow-text">Adverb<br>&nbsp;</span>
+							</div>
+							<div class="inline-block">
+								<span class="green-text big-text"><span class="border-bottom">gewat</span></span><br>
+								<span class="green-text">Verb<br>&nbsp;</span>
+							</div>
+							<div class="inline-block">
+								<span class="red-text big-text"><span class="border-bottom">se</span> </span><br>
+								<span class="red-text">Subject<br>Demon.</span>
+							</div>
+							<div class="inline-block">
+								<span class="red-text big-text"><span class="border-bottom">biscop</span> </span><br>
+								<span class="red-text">Subject<br>Noun</span>
+							</div>
+							<div class="inline-block">
+								<span class="peach-text big-text"><span class="border-bottom">cwydeleas</span> </span><br>
+								<span class="peach-text">Strong<br>Adjective</span>
+							</div>
+						</div>
+					</div>
+					<p>Strong adjectives follow the same rules as weak adjectives. They agree with the
+						case, number and gender
+						of the noun they modify; if the final letter of the stem is '<strong>h</strong>', it is dropped
+						or
+						replaced by '<strong>g</strong>' before a suffix is added; if the stem ends in a vowel, the
+						vowel is
+						dropped before the suffix is added; and if the stem is dysllabic with an unstressed vowel in the
+						second
+						syllable, the unstressed vowel is usually dropped when the suffix is added. The main difference
+						between
+						weak and strong adjectives is that strong adjectives have a wider variety of suffixes as can be
+						seen
+						in the table below.
+					</p>
+					<div class="row padding-top">
+						<div class="col-md-8">
+							<div class="grammar-table table-hide">
+								<!-- Nav tabs -->
+								<ul class="nav tabs four-tabs nav-justified" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#god" aria-controls="Good" role="tab" data-toggle="tab">God</a>
+									</li>
+									<li role="presentation">
+										<a href="#halig" aria-controls="Halig" role="tab" data-toggle="tab">Halig</a>
+									</li>
+									<li role="presentation">
+										<a href="#heah" aria-controls="Heah" role="tab" data-toggle="tab">Heah</a>
+									</li>
+									<li role="presentation">
+										<a href="#wilde" aria-controls="wild" role="tab" data-toggle="tab">Wilde</a>
+									</li>
+								</ul>
+								<!-- Tab panes -->
+								<div class="tab-content full">
+									<div role="tabpanel" class="text-center tab-pane active" id="god">
+										<table
+											class="tabbed-table table-striped inline-block five-col-table table-hide">
+											<tr>
+												<th>&nbsp;</th>
+												<th>Masculine</th>
+												<th>Neuter</th>
+												<th>Feminine</th>
+												<th>Plural</th>
+											</tr>
+											<tr>
+												<td>
+													<strong>Nominative</strong>
+												</td>
+												<td>god</td>
+												<td>god</td>
+												<td>god</td>
+												<td>gode/godu/goda</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Accusative</strong>
+												</td>
+												<td>godne</td>
+												<td>god</td>
+												<td>gode</td>
+												<td>gode/godu/goda</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Genitive</strong>
+												</td>
+												<td>godes</td>
+												<td>godes</td>
+												<td>godre</td>
+												<td>godra</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Dative</strong>
+												</td>
+												<td>godum</td>
+												<td>godum</td>
+												<td>godre</td>
+												<td>godum</td>
+											</tr>
+										</table>
+									</div>
+									<div role="tabpanel" class="text-center tab-pane" id="halig">
+										<table
+											class="tabbed-table table-striped inline-block five-col-table table-hide">
+											<tr>
+												<th></th>
+												<th>Masculine</th>
+												<th>Neuter</th>
+												<th>Feminine</th>
+												<th>Plural</th>
+											</tr>
+											<tr>
+												<td>
+													<strong>Nominative</strong>
+												</td>
+												<td>halig</td>
+												<td>halig</td>
+												<td>halgu</td>
+												<td>halge/halgu/halga</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Accusative</strong>
+												</td>
+												<td>haligne</td>
+												<td>halig</td>
+												<td>halge</td>
+												<td>halge/halgu/halga</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Genitive</strong>
+												</td>
+												<td>halges</td>
+												<td>halges</td>
+												<td>haligre</td>
+												<td>haligra</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Dative</strong>
+												</td>
+												<td>halgum</td>
+												<td>halgum</td>
+												<td>halgre</td>
+												<td>halgum</td>
+											</tr>
+										</table>
+									</div>
+									<div role="tabpanel" class="text-center tab-pane" id="heah">
+										<table
+											class="tabbed-table table-striped inline-block five-col-table table-hide">
+											<tr>
+												<th></th>
+												<th>Masculine</th>
+												<th>Neuter</th>
+												<th>Feminine</th>
+												<th>Plural</th>
+											</tr>
+											<tr>
+												<td>
+													<strong>Nominative</strong>
+												</td>
+												<td>heah</td>
+												<td>heah</td>
+												<td>hea</td>
+												<td>heage/heagu/heaga</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Accusative</strong>
+												</td>
+												<td>heagne</td>
+												<td>heah</td>
+												<td>hea</td>
+												<td>heage/heagu/heaga</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Genitive</strong>
+												</td>
+												<td>heages</td>
+												<td>heages</td>
+												<td>heagre</td>
+												<td>heagra</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Dative</strong>
+												</td>
+												<td>heagum</td>
+												<td>heagum</td>
+												<td>heagre</td>
+												<td>heagum</td>
+											</tr>
+										</table>
+									</div>
+									<div role="tabpanel" class="text-center tab-pane" id="wilde">
+										<table
+											class="tabbed-table table-striped inline-block five-col-table table-hide">
+											<tr>
+												<th></th>
+												<th>Masculine</th>
+												<th>Neuter</th>
+												<th>Feminine</th>
+												<th>Plural</th>
+											</tr>
+											<tr>
+												<td>
+													<strong>Nominative</strong>
+												</td>
+												<td>wilde</td>
+												<td>wilde</td>
+												<td>wildu</td>
+												<td>wilde/wildu/wilda</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Accusative</strong>
+												</td>
+												<td>wildne</td>
+												<td>wilde</td>
+												<td>wilde</td>
+												<td>wilde/wildu/wilda</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Genitive</strong>
+												</td>
+												<td>wildes</td>
+												<td>wildes</td>
+												<td>wildre</td>
+												<td>wildra</td>
+											</tr>
+											<tr>
+												<td>
+													<strong>Dative</strong>
+												</td>
+												<td>wildum</td>
+												<td>wildum</td>
+												<td>wildre</td>
+												<td>wildum</td>
+											</tr>
+										</table>
+									</div>
 
+								</div>
+							</div>
+							<button class="solid-button button" id="hide-submit">
+								<span class="label-hide">Hide Table</span>
+								<span class="label-show hide">Show Table</span>
+							</button>
+						</div>
+						<div class="col-md-4">
+							<div class="grammar-tooltip">
+								<button class="tooltip-header">
+									Nominative and Accusative Plurals<i class="float-right fa fa-angle-double-down"
+										aria-hidden="true"></i>
+								</button>
+								<div class="card-body hide">
+									<p>The endings of plural adjectives with long stems differ from those with short
+										stems.
+										Short stemmed plural masculine adjectives end in '<strong>e</strong>', neuter in
+										'<strong>u</strong>', and feminine in '<strong>a</strong>'. Long stemmed plural
+										masculine and neuter adjectives end in '<strong>e</strong>', and feminine in
+										'<strong>a</strong>'. However, be aware the nominative and accusative plural
+										endings normalise to '<strong>e</strong>' in later Old English.
+									</p>
+								</div>
+							</div>
+							<div class="grammar-tooltip">
+								<button class="tooltip-header">
+									God and other long vowel adjectives<i class="float-right fa fa-angle-double-down"
+										aria-hidden="true"></i>
+								</button>
+								<div class="card-body hide">
+									<p>Adjectives with long vowels in the root do not take any feminine singular ending.
+										So adjectives like '<em>god - good</em>', '<em>wis - wise</em>', and
+										'<em>geong - young</em>'
+										remain the same in all versions of the nominative. Adjectives with short vowels,
+										like '<em>halig - holy</em>', '<em>weste - deserted</em>' or '<em>til -
+											good</em>' take
+										the '<strong>u</strong>' suffix in the nominative feminine singular.
+									</p>
+								</div>
+							</div>
+							<div class="grammar-tooltip">
+								<button class="tooltip-header">
+									Possessive Adjectives<i class="float-right fa fa-angle-double-down"
+										aria-hidden="true"></i>
+								</button>
+								<div class="card-body hide">
+									<p>Possessive pronouns can
+										be used as adjectives and decline strong. For example, in the
+										sentence
+										'<em>Syle us urne hlaf - Give us our bread</em>', the pronoun '<em>ure</em>'
+										takes the accusative masculine singular ending '<strong>ne</strong>' to become
+										'<em>urne</em>' because it is modifying
+										'<em>hlaf</em>'.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					<button class="solid-button button" id="hide-submit">
-						<span class="label-hide">Hide Table</span>
-						<span class="label-show hide">Show Table</span>
-					</button>
+					<p class="padding-top">Don't let the variety of endings throw you. If you look closely you should
+						notice
+						most strong adjective endings resemble those of either the matching strong noun or demonstrative
+						pronouns. You can practice strong adjectives below.
+					</p>
+					<a href="adj2.html" class="float-left darkorange-text padding-top strong">
+						<i class="fa fa-angle-double-left" aria-hidden="true"></i> Return to Weak Adjectives
+					</a>
+					<a href="adj4.html" class="float-right darkorange-text padding-top strong">Continue to
+						Comparatives and Superlatives<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+					</a>
 				</div>
-				<div class="col-md-4">
-					<div class="grammar-tooltip">
-						<button class="tooltip-header">
-							Nominative and Accusative Plurals<i class="float-right fa fa-angle-double-down"
-								aria-hidden="true"></i>
-						</button>
-						<div class="card-body hide">
-							<p>The endings of plural adjectives with long stems differ from those with short stems.
-								Short stemmed plural masculine adjectives end in '<strong>e</strong>', neuter in
-								'<strong>u</strong>', and feminine in '<strong>a</strong>'. Long stemmed plural
-								masculine and neuter adjectives end in '<strong>e</strong>', and feminine in
-								'<strong>a</strong>'. However, be aware the nominative and accusative plural
-								endings normalise to '<strong>e</strong>' in later Old English.
-							</p>
-						</div>
-					</div>
-					<div class="grammar-tooltip">
-						<button class="tooltip-header">
-							God and other long vowel adjectives<i class="float-right fa fa-angle-double-down"
-								aria-hidden="true"></i>
-						</button>
-						<div class="card-body hide">
-							<p>Adjectives with long vowels in the root do not take any feminine singular ending.
-								So adjectives like '<em>god - good</em>', '<em>wis - wise</em>', and 
-								'<em>geong - young</em>'
-								remain the same in all versions of the nominative. Adjectives with short vowels,
-								like '<em>halig - holy</em>', '<em>weste - deserted</em>' or '<em>til - good</em>' take 
-								the '<strong>u</strong>' suffix in the nominative feminine singular.
-							</p>
-						</div>
-					</div>
-					<div class="grammar-tooltip">
-						<button class="tooltip-header">
-							Possessive Adjectives<i class="float-right fa fa-angle-double-down"
-								aria-hidden="true"></i>
-						</button>
-						<div class="card-body hide">
-							<p>Possessive pronouns can
-								be used as adjectives and decline strong. For example, in the
-								sentence 
-								'<em>Syle us urne hlaf - Give us our bread</em>', the pronoun '<em>ure</em>'
-								takes the accusative masculine singular ending '<strong>ne</strong>' to become '<em>urne</em>' because it is modifying
-								'<em>hlaf</em>'.
-							</p>
-						</div>
-					</div>
+			</section>
+			<hr class="border">
+			<section>
+				<div>
+					<h2>Test Your Declensions</h2>
+					<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
 				</div>
-			</div>
-			<p class="padding-top">Don't let the variety of endings throw you. If you look closely you should notice
-				most strong adjective endings resemble those of either the matching strong noun or demonstrative
-				pronouns. You can practice strong adjectives below.
-			</p>
-			<a href="adj2.html" class="float-left darkorange-text padding-top strong">
-				<i class="fa fa-angle-double-left" aria-hidden="true"></i> Return to Weak Adjectives
-			</a>
-			<a href="adj4.html" class="float-right darkorange-text padding-top strong">Continue to
-				Comparatives and Superlatives<i class="fa fa-angle-double-right" aria-hidden="true"></i>
-			</a>
-		</div>
-	</section>
-	<hr class="border">
-	<section>
-		<div>
-			<h2>Test Your Declensions</h2>
-			<small>In the textboxes below, fill out the fully declined version of the word in brackets.</small>
-		</div>
-		<form name="form1" autocomplete="OFF">
-			<p>
-				<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
-				<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
-				<button class="light-button button special-character" data-char="&eth;">&eth;</button>
-				<br class="visible-xs">			<sub>Use these buttons to insert thorn, ash and eth when you have an input
-					selected.</sub>
-			</p>
-			<div id="question-wrapper" data-question-file="adj3_answers.json">
-			</div>
-			<div class="form-group">
-				<button class="solid-button button" id="submit">Check</button>
-				<button class="solid-button button hidden" id="again">Try Again?</button>
-			</div>
-		</form>
-	</section>
-</main>
+				<form name="form1" autocomplete="OFF">
+					<p>
+						<button class="light-button button special-character" data-char="&thorn;">&thorn;</button>
+						<button class="light-button button special-character" data-char="&aelig;">&aelig;</button>
+						<button class="light-button button special-character" data-char="&eth;">&eth;</button>
+						<br class="visible-xs"> <sub>Use these buttons to insert thorn, ash and eth when you have an
+							input
+							selected.</sub>
+					</p>
+					<div id="question-wrapper" data-question-file="adj3_answers.json">
+					</div>
+					<div class="form-group">
+						<button class="solid-button button" id="submit">Check</button>
+						<button class="solid-button button hidden" id="again">Try Again?</button>
+					</div>
+				</form>
+			</section>
+		</main>

@@ -111,7 +111,7 @@
         "commonMistakes": []
     },
     {
-        "question": "He Noe gebletsade and his (<em>bearn</em>) ####⁠ — He blessed Noah and his child",
+        "question": "He Noe gebletsade ond his (<em>bearn</em>) ####⁠ — He blessed Noah and his child",
         "correctAnswer": "bearn",
         "explanation":"Here 'bearn' is in the singular accusative, and so takes no ending",
         "commonMistakes": []
@@ -123,7 +123,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ða godu fram Egipta lande beoþ fremede (<em>god</em>) #### ⁠ — The gods from Egypt are strange gods",
+        "question": "Ðu bigongest fremede (<em>god</em>) #### ⁠fram Egipta lande — You worship strange gods from Egypt",
         "correctAnswer": "godu",
         "explanation":"Here 'god' is the direct object and plural, so since 'god' has a short syllable it takes a 'u' ending",
         "commonMistakes": []
