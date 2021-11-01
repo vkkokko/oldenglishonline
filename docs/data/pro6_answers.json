@@ -491,9 +491,9 @@
         "commonMistakes": []
     },
     {
-        "question": "Ælfric geaf (<em>se</em>) #### æþeling drync — Aelfric gave that prince a drink",
+        "question": "Ælfric geaf þæm æþelinge #### drync — Aelfric gave the prince that drink",
         "correctAnswer": "þone",
-        "explanation": "Here the demonstrative pronoun is 'þone' because it is tied to 'æþeling' which is directly receiving the action of the verb 'geaf'",
+        "explanation": "Here the demonstrative pronoun is 'þone' because it is tied to 'drync' which is directly receiving the action of the verb 'geaf'",
         "commonMistakes": []
     },
     {
@@ -569,7 +569,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se mann seah (<em>þæt</em>) #### wif — The man saw that women",
+        "question": "Se mann seah (<em>þæt</em>) #### wif — The man saw the women",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'wif'",
         "commonMistakes": []

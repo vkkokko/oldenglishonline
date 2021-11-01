@@ -102,7 +102,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Ælfric geaf þæm æþelinge #### drync - Aelfric gave the prince that drink",
+        "question": "Ælfric geaf þæm æþelinge #### drync — Aelfric gave the prince that drink",
         "correctAnswer": "þone",
         "explanation":"Here the demonstrative pronoun is 'þone' because it is tied to 'drync' which is directly receiving the action of the verb 'geaf'",
         "commonMistakes": []

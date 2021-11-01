@@ -96,9 +96,9 @@
         "commonMistakes": []
     },
     {
-        "question": "Ælfric geaf (<em>se</em>) #### æþelinge drync — Aelfric gave that prince a drink",
+        "question": "Ælfric geaf þæm æþelinge #### drync — Aelfric gave the prince that drink",
         "correctAnswer": "þone",
-        "explanation": "Here the demonstrative pronoun is 'þone' because it is tied to 'æþeling' which is directly receiving the action of the verb 'geaf'",
+        "explanation": "Here the demonstrative pronoun is 'þone' because it is tied to 'drync' which is directly receiving the action of the verb 'geaf'",
         "commonMistakes": []
     },
     {
