@@ -569,7 +569,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Se mann seah (<em>þæt</em>) #### wif — The man saw that women",
+        "question": "Se mann seah (<em>þæt</em>) #### wif — The man saw the women",
         "correctAnswer": "þa",
         "explanation":"Here the demonstrative pronoun is 'þa' because it is tied to the plural direct object 'wif'",
         "commonMistakes": []
