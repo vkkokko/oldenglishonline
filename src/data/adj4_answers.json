@@ -166,13 +166,13 @@
         "commonMistakes": []
     },
     {
-        "question": "Hit is (<em>swift</em>) ####⁠ þonne sunne — I am swifter than the sun",
+        "question": "Hit is (<em>swift</em>) ####⁠ þonne sunne — It is swifter than the sun",
         "correctAnswer": "swiftre",
         "explanation":"Here 'swift' takes the -re ending because it is related to the neuter 'hit' so it declines in line with the neuter weak to become 'swiftre'",
         "commonMistakes": []
     },
     {
-        "question": "Emne swa þa woruldgeþingu beoþ (<em>micel</em>) — Just as the secular powers are greater",
+        "question": "Emne swa þa woruldgeþingu beoþ (<em>micel</em>) #### — Just as the secular powers are greater",
         "correctAnswer": "maran",
         "explanation":"The adjective 'micel' is irregular and modifying the plural noun 'woruldgeþingu' so it takes the 'an' suffix to become 'maran'",
         "commonMistakes": []
