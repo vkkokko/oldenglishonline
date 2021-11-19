@@ -90,9 +90,9 @@
         "commonMistakes": []
     },
     {
-        "question": "Ðas ðry dagas wæron buton seo (<em>sunne</em>) #### ond se monan ond þa steorran ond eallum tidum gelicere wægan mid leohte ond þeostrum aðenede — Those three days were without the sun, the moon, the stars and all the hours, stretched out with light and darkness in equal balance",
+        "question": "Ðas ðry dagas wæron buton (<em>sunne</em>) #### ond monan ond steorran ond eallum tidum gelicere wægan mid leohte ond þeostrum aðenede — Those three days were without sun and moon and stars, and all the hours, stretched out with light and darkness in equal balance",
         "correctAnswer": "sunnan",
-        "explanation":"Here 'sunne' is in the accusative and singular, so it takes the 'an' ending to become 'sunnan'",
+        "explanation":"Here 'sunne' is in the dative and singular, so it takes the 'an' ending to become 'sunnan'",
         "commonMistakes": []
     },
     {
