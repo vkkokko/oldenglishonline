@@ -1,0 +1,44 @@
+.transcription label {
+    width: 100%;
+    overflow: visible;
+}
+
+.transcription label input {
+    width:80%;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.svg-graphic {
+    width:25%;
+    display: block;
+    margin: auto;
+    padding: 1em 0 1em 0;
+}
+
+/* .flex-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pal-component-image {
+    width:100px;
+    padding:1em;
+}
+
+.pal-component-answer {
+    border-radius: 5px;
+    height: 40px;
+}

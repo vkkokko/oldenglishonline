@@ -1,0 +1,46 @@
+<% locals.setLayout('default.ejs') -%>
+	<% locals.block('title', 'Palaeography' ) -%>
+
+		<link rel="stylesheet" type="text/css" href="styles/pal.css">
+
+
+		<main id="mainwrapper" class="container">
+			<section class="">
+				<h1>Transcription Practice</h1>
+				<p>Trascribe the text into the field for the corresponding line. You must expand all abbreviations. Diacritic marks such as punctus are ignored.</p>
+				
+			</section>
+			<hr class="border">
+
+			<section class="row">
+				<div class="col-sm-6">
+					<img src="././images/excerpt1.png" alt="Sigewulf sample" width="100%" class="padding-top">
+					<p class="text-center padding-top">BL Cotton MS Julius E VII f.230r </p>
+				</div>
+				<div class="col-sm-6">
+					<p>
+						<button class="light-button button special-character" data-char="þ">þ</button>
+						<button class="light-button button special-character" data-char="æ">æ</button>
+						<button class="light-button button special-character" data-char="ð">ð</button>
+					</p>
+					<form name="transcription" class="transcription" autocomplete="off">
+						<label>Line 1:
+						<input /></label>
+						<label>Line 2:
+						<input /></label>
+						<label>Line 3:
+						<input /></label>
+						<label>Line 4:
+						<input /></label>
+					</form>
+					<button class="button solid-button float-right">Submit</button>
+				</div>
+			</section>
+			<section>
+				<a href="textselect.html" class="float-left darkorange-text padding-top strong strong">
+                    <i class="fa fa-angle-double-left" aria-hidden="true"></i> Return to Text Selection </a>
+					<a href="text_as_888.html" class="float-right darkorange-text padding-top strong">Continue to Text <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+					</a>
+			</section>
+		</main>
+		<script src="scripts/palscripts.js" defer></script>
