@@ -45,7 +45,7 @@ If you want to report a bug or suggest an enhancement, perform the following ste
 
 # Developer's Guide
 ## Installing and Running
-If you want to run Old English Online locally on your machine so you can use it offline or develop a new feature, you need to install it. 
+To run Old English Online locally on your machine so that you can contribute content or develop a new feature, you must perform the following steps:
 
 1. Create a Github account [here](https://github.com/) or just login if you already have one.
 2. Download a git client, you can get the free GitKraken [here](https://www.gitkraken.com/).
