@@ -41,4 +41,11 @@
 .pal-component-answer {
     border-radius: 5px;
     height: 40px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 440px) {
+    .svg-graphic {
+        width:100%;
+    }
 }
