@@ -6,8 +6,8 @@
 This is the file repository for Old English Online, an online learning platform for Old English. Uncompiled files are located in the *src* folder, while compiled files are located in the *docs* folder. Visit [oldenglish.info](https://oldenglish.info) to use the website.
 
 #### Table Of Contents
-[User Guide](#User-Guide)
-* [How do I use this resource offline?](#How-do-I-use-this-resource-offline)
+<!-- [User Guide](#User-Guide)
+* [How do I use this resource offline?](#How-do-I-use-this-resource-offline) -->
 
 [Contributor's Guide](#Contributors-Guide)
 * [How do I submit a good bug report?](#How-do-I-submit-a-good-bug-report)
@@ -15,14 +15,14 @@ This is the file repository for Old English Online, an online learning platform 
 
 [Developer's Guide](#Developers-Guide)
 * [How to install Old English Online locally](#installing-and-running)
-
+<!-- 
 # User Guide
 ### How do I use this resource offline?
 If you want to use Old English Online while not connected to the internet, you need to download the files. 
 1. Navigate to the project repository on Github. It's [here](https://github.com/vkkokko/oldenglishonline).
 2. Click the green **Code** button and select **Download a Zip**.
 3. Once the file is downloaded, unzip it and open the **Docs** folder.
-4. To view the homepage, open *index.html*.
+4. To view the homepage, open *index.html*. -->
 
 # Contributor's Guide
 If you want to report a bug or suggest an enhancement, perform the following steps:
