@@ -44,7 +44,7 @@
         ]
     },
     {
-        "question": "On þissum geare sende he þone (<em>eald</em>) #### biscop Wulfstan to þæm stede þe wæs  Readingum genemned⁠ — In this year he sent the old bishop to the place that was called Reading",
+        "question": "On þissum geare sende he þone (<em>eald</em>) #### biscop Wulfstan to þæm stede þe wæs  Readingum genemned — In this year he sent the old bishop to the place that was called Reading",
         "correctAnswer": "ealdan",
         "explanation":"Here 'eald' is modifying the singular accusative masculine 'biscop' so it takes the 'an' suffix",
         "commonMistakes": [
@@ -159,7 +159,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Heo gadriaþ þa boc þara (<em>wis</em>) #### menn⁠— She gathered the books of the wise men",
+        "question": "Heo gadriaþ þa boc þara (<em>wis</em>) #### menn— She gathered the books of the wise men",
         "correctAnswer": "wisra",
         "explanation":"Here 'wis' is modifying the plural genitive masculine 'man' so it takes the 'ra' suffix",
         "commonMistakes": []
@@ -171,7 +171,7 @@
         "commonMistakes": []
     },
     {
-        "question": "Hie neredon þa (<em>eald</em>) #### wigan scip ⁠— They saved the old warriors' ship",
+        "question": "Hie neredon þa (<em>eald</em>) #### wigan scip ⁠— They saved the old warrior's ship",
         "correctAnswer": "ealdra",
         "explanation":"Here 'eald' is modifying the plural genitive masculine 'wiga' so it takes the 'ra' suffix",
         "commonMistakes": []
