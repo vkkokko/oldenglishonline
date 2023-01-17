@@ -67,8 +67,8 @@
     },
     {
         "question": "Ne miht ðu me geseon; ne syhð me nan (<em>libban</em>) #### man — You cannot see me; no living man sees me",
-        "correctAnswer": "libbiende",
-        "explanation":"Here the verb 'libban' is in the present tense and modifying the noun 'man' so it becomes 'libbiende'",
+        "correctAnswer": "libbende",
+        "explanation":"Here the verb 'libban' is in the present tense and modifying the noun 'man' so it becomes 'libbende'",
         "commonMistakes": []
     },
     {
