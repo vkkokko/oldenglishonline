@@ -35,7 +35,6 @@ export const config = {
 	dirs: {
 		src: path.normalize(srcDir),
 		dist: path.normalize(distDir),
-
 		scripts: path.normalize(path.join(distDir, 'scripts')),
 		styles: path.normalize(path.join(distDir, 'styles')),
 		data: path.normalize(path.join(distDir, 'data')),

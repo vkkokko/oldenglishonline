@@ -2,12 +2,18 @@
 <html lang="<%= locals.site.languageShort -%>">
 	<head>
 		<%- include('../partials/head') -%>
-		<%- include('../partials/analytics') -%>
 	</head>
 	<body class="container-fluid">
 		<%- include('../partials/page-header') -%>
 		<%- locals.body -%>
 		<%- include('../partials/page-footer') -%>
 		<%- include('../partials/page-scripts') -%>
+		<script type="module">
+         if (!navigator.serviceWorker.controller) {
+             navigator.serviceWorker.register("/sw.js", { type: 'module' }).then(function(reg) {
+                 console.log("Service worker has been registered for scope: " + reg.scope);
+             });
+         }
+        </script>
 	</body>
 </html>

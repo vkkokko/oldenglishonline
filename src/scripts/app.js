@@ -245,7 +245,7 @@
 		if (!$mContainer || !fFilename) {
 			return;
 		}
-		
+
 		//This gets the json with the vocab array in it and chooses one object to display once it's loaded
 		$.getJSON(`data/${fFilename}?cache=` + Date.now())
 			.done(function (data) {
@@ -330,10 +330,10 @@
 
 		const $modalContainer = $('.modal-body');
 		const flashcardFilename = $modalContainer.data('question-file');
-		
-		
+
+
 		flashcardCreate($modalContainer, flashcardFilename);
- 
+
 	});
 
 	//Code to change whether you're translating to or from Old English
@@ -384,10 +384,10 @@
 			$('.reader-tooltip').removeClass('hide');
 			$('.reader-tooltip-body').find('p').empty();
 			$('.reader-tooltip-body').find('.reader-tooltip-p').append('<p> <strong>' + readerOldEnglish + '</strong>' + ' - ' + readerTrans + '</p>' + '<p>Part of grammar: ' + '<em>' + readerGrammar + '</em></p>');
-		
+
 			if (typeof $(this).data('base-form') !== 'undefined') {
 				$('.reader-tooltip-body').find('.reader-tooltip-p:first-child').after('<p>Base form: <em>' + baseForm + '</em></p>');
-			  }
+			}
 		}
 	});
 
