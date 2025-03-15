@@ -7,8 +7,8 @@ import filter from 'gulp-filter';
 import terser from 'gulp-terser';
 import gutil from 'gulp-util';
 
-import {config, distDir} from './gulpconfig';
-import * as siteConfig from './siteconfig.json';
+import {config, distDir} from './gulpconfig.js';
+import siteConfig from './siteconfig.json' with { type: 'json' }
 import * as fs from 'fs';
 
 // if running watch task, overwrite base tag to always be '/' for localhost
