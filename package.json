@@ -2,6 +2,7 @@
 	"name": "oelp",
 	"version": "2.5.0",
 	"description": "Old English Learning Project",
+	"type": "module",
 	"dependencies": {
 		"bootstrap": "^3.4.1",
 		"jquery": "^3.5.0",
@@ -10,8 +11,6 @@
 	"devDependencies": {
 		"browser-sync": "^2.26.14",
 		"del": "^5.0.0",
-		"eslint": "^6.1.0",
-		"esm": "^3.2.25",
 		"gulp": "^4.0.2",
 		"gulp-ejs-monster": "^3.2.0",
 		"gulp-filter": "^6.0.0",
@@ -20,7 +19,7 @@
 		"gulp-util": "^3.0.8"
 	},
 	"scripts": {
-		"start": "gulp --env=watch watch",
+		"start": "gulp --env=watch watch && npx http-serve -o docs",
 		"build": "gulp --env=prod default",
 		"postinstall": "gulp default"
 	},

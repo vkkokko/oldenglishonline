@@ -1,0 +1,22 @@
+{
+	"name": "Old English Online",
+	"short_name": "Old English",
+	"theme_color": "#2196f3",
+	"background_color": "#2196f3",
+	"display": "minimal-ui",
+	"orientation": "portrait",
+	"scope": "/",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "images/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "images/icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	]
+}
